@@ -82,8 +82,7 @@ Widget initScreenUtil({
 initRunApp() {
   final easyLoading = EasyLoading.init();
   Widget body = initGetMaterialApp(builder: (context, child) {
-    final size = Get.size;
-    final hasFrame = size.width > 500;
+    final hasFrame = context.width > 500;
     if (hasFrame && kIsWeb) {
       return DeviceFrame(
         device: Devices.ios.iPhone13,

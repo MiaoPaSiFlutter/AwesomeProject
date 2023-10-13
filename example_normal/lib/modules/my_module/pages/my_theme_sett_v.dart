@@ -29,8 +29,10 @@ class MyThemeV extends CommonGetXWidget<MyThemeC> {
   }
 
   @override
-  Widget createScallBody(
-      {required BuildContext context, BoxConstraints? constraints}) {
+  Widget createScallBody({
+    required BuildContext context,
+    BoxConstraints? constraints,
+  }) {
     Widget body = ListView.separated(
       itemBuilder: createItemBuilder,
       separatorBuilder: createSparatorBuilder,

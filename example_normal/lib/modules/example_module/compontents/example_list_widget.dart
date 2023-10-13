@@ -29,6 +29,11 @@ class ExampleListWidget extends CommonLessV {
   }
 
   @override
+  bool configIsShowAppBar() {
+    return false;
+  }
+
+  @override
   Widget createScallBody(
       {required BuildContext context, BoxConstraints? constraints}) {
     Widget body = ListView.builder(

@@ -20,8 +20,10 @@ class MyGeneralV extends CommonLessV {
   final MyGeneralC controller = Get.put(MyGeneralC());
 
   @override
-  Widget createScallBody(
-      {required BuildContext context, BoxConstraints? constraints}) {
+  Widget createScallBody({
+    required BuildContext context,
+    BoxConstraints? constraints,
+  }) {
     Widget body = configListWidget();
     return body;
   }
