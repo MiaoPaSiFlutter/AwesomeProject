@@ -1,0 +1,55 @@
+name: hzy_common_module
+description: A new Flutter package project.
+version: 0.0.1
+homepage: "https://gitee.com/tengteng_fan/hzy_common_module.git"
+publish_to: none
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 相机
+  wechat_camera_picker: 4.0.2
+  # 相册选择
+  wechat_assets_picker: 8.7.1
+  # 图片加载
+  extended_image: 8.1.0
+  # 图片文件流
+  extended_image_library: 3.6.0
+  # 加载动画
+  flutter_easyloading: 3.0.5
+  # 获取app 权限
+  permission_handler: 10.4.2
+  # 屏幕适配
+  flutter_screenutil: 5.8.4
+  # 拖拽
+  reorderables: 0.6.0
+  # 刷新控件
+  easy_refresh: 3.3.2+1
+  # 本地数据存储,不涉及到系统读写权限
+  shared_preferences: 2.2.0
+  # 图片选择
+  image_picker: 1.0.0
+  # 项目 基础框架
+  # 状态管理
+  # 路由
+  get: 4.6.6
+  # 基础项目工具
+  hzy_normal_tool:
+    path: ../hzy_normal_tool/
+
+  # 网络请求
+  hzy_normal_network:
+    path: ../hzy_normal_network/
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/
