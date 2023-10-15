@@ -116,7 +116,7 @@ column(
         ),
         child: Text(
           "我是自定义左边视图",
-          style: FontConfig.fontBold14Black,
+          style: FontConfig().fontBold14Black,
         ),
       ),
       isShowLine: true,
@@ -154,7 +154,7 @@ column(
         ),
         child: Text(
           "我是自定义右边视图",
-          style: FontConfig.fontBold14Black,
+          style: FontConfig().fontBold14Black,
         ),
       ),
       isShowLine: true,
@@ -181,7 +181,7 @@ column(
       isShowLine: true,
       lineWidget: Text(
         "我是自定义细线",
-        style: FontConfig.fontBold10Black,
+        style: FontConfig().fontBold10Black,
       ),
     ),
     HzyNormalItemModel(

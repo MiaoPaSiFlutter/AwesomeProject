@@ -51,3 +51,12 @@ export 'common_banner_images_widget.dart';
 
 /// 一键选择图片
 export 'common_pop_select_image_widget.dart';
+
+/// icon + text 展示
+export 'common_icon_lable_widget.dart';
+
+/// 多标签展示
+export 'common_tags_widget.dart';
+
+/// 输入框封装
+export 'common_textfiled_widget.dart';

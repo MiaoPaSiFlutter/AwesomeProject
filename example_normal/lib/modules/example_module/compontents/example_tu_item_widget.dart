@@ -76,11 +76,11 @@ class ExampleTuItemlessV extends CommonLessV {
             children: [
               Text(
                 tuChongItem.site?.name ?? "火之夜",
-                style: FontConfig.fontBold16Black,
+                style: FontConfig().fontBold16Black,
               ),
               Text(
                 tuChongItem.site?.description ?? LaunchIdConfig.solg.tr,
-                style: FontConfig.fontMedium12LightGrey,
+                style: FontConfig().fontMedium12LightGrey,
               )
             ],
           ),

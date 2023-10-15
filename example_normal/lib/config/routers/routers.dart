@@ -1,6 +1,9 @@
 import 'package:example_normal/config/routers/project_routers.dart';
 import 'package:example_normal/modules/example_module/routers/example_module_pages.dart';
 import 'package:example_normal/modules/my_module/routers/my_module_pages.dart';
+// 京东模块儿
+import 'package:demo_jingdong/demo_jingdong.dart';
+
 import '../dataconfig/page_id_config.dart';
 
 class RouterS {
@@ -9,6 +12,7 @@ class RouterS {
       ...ProjectPageS.routers,
       ...MyModulePages.routerS,
       ...ExampleModulePageS.routerS,
+      ...JingdongModulePagesS.routerS,
     ];
   }
 

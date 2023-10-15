@@ -122,7 +122,7 @@ class CommonSelectImageState extends CommonState<CommonPopSelectImageWidget> {
   configTopTitleWidget() {
     Widget body = Text(
       "已选择${selectImages.length}张图片",
-      style: FontConfig.fontBold14Black,
+      style: FontConfig().fontBold14Black,
     );
     body = Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -193,8 +193,8 @@ class CommonSelectImageState extends CommonState<CommonPopSelectImageWidget> {
                   left: 20.w,
                 ),
                 textStyle: isCheckAll
-                    ? FontConfig.fontBold14Black
-                    : FontConfig.fontMedium14PlaceColor,
+                    ? FontConfig().fontBold14Black
+                    : FontConfig().fontMedium14PlaceColor,
                 tapCall: () {
                   tapBottomAllinBtn();
                 },

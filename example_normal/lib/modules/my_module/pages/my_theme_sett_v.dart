@@ -62,7 +62,7 @@ class MyThemeV extends CommonGetXWidget<MyThemeC> {
         ),
         child: Text(
           MyLaunchIdConfig.manually.tr,
-          style: FontConfig.fontMedium145a5a5a,
+          style: FontConfig().fontMedium145a5a5a,
         ),
       );
     } else if (index == 2) {
@@ -120,12 +120,12 @@ class MyThemeV extends CommonGetXWidget<MyThemeC> {
               children: [
                 Text(
                   MyLaunchIdConfig.system.tr,
-                  style: FontConfig.fontMedium16Black,
+                  style: FontConfig().fontMedium16Black,
                 ),
                 Gaps.vGap5,
                 Text(
                   MyLaunchIdConfig.systemMsg.tr,
-                  style: FontConfig.fontMedium14PlaceColor,
+                  style: FontConfig().fontMedium14PlaceColor,
                 ),
               ],
             ),
@@ -163,7 +163,7 @@ class MyThemeV extends CommonGetXWidget<MyThemeC> {
             Expanded(
               child: Text(
                 text,
-                style: FontConfig.fontMedium14Black,
+                style: FontConfig().fontMedium14Black,
                 overflow: TextOverflow.ellipsis,
               ),
             ),

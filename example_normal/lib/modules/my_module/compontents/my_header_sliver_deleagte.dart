@@ -155,7 +155,7 @@ class MyHeaderSliverDelegate extends SliverPersistentHeaderDelegate {
     double opacity = Tween<double>(begin: 1, end: 0).transform(progress);
     Widget body = Text(
       LaunchIdConfig.solg.tr,
-      style: FontConfig.fontMedium12PlaceColor,
+      style: FontConfig().fontMedium12PlaceColor,
     );
 
     body = Container(

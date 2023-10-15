@@ -46,7 +46,7 @@ configAddorSubtractWidget({
         padding: EdgeInsets.symmetric(horizontal: 10.w),
         child: Text(
           ts,
-          style: FontConfig.fontBold14Black,
+          style: FontConfig().fontBold14Black,
         ),
       ),
       Container(

@@ -775,8 +775,8 @@ class CommonExtendedImageWidget {
           fit: fit,
         );
       case LoadState.failed:
-        return Image(
-          image: AssetImage(NormalImagePathConfit.imageFail),
+        return Image.asset(
+          NormalImagePathConfit.imageFail,
         );
       default:
     }

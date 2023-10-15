@@ -72,7 +72,7 @@ class ExampleDrawerV extends CommonGetXWidget<ExampleDrawerC> {
             right: 0,
             child: Text(
               "转换中...",
-              style: FontConfig.fontMedium12White,
+              style: FontConfig().fontMedium12White,
               textAlign: TextAlign.center,
             ),
           )

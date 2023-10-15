@@ -24,7 +24,7 @@ class ExampleTextAnimV extends CommonGetXWidget<ExampleTextAnimC> {
     //   builder: (context, child) {
     //     // Widget bt = Text(
     //     //   controller.animation.value,
-    //     //   style: FontConfig.fontMedium14Black,
+    //     //   style: FontConfig()fontMedium14Black,
     //     //   textAlign: TextAlign.center,
     //     // );
     //     // bt = SizedBox(

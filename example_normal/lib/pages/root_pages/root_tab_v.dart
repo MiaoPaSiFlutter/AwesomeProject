@@ -71,8 +71,8 @@ class RootTabV extends CommonGetXWidget<RootTabC> {
       isFittedBox: false,
       btnLayoutType: BtnLayoutType.topImg,
       textStyle: index == controller.selectIndex.value
-          ? FontConfig.fontMedium12Theme
-          : FontConfig.fontMedium12Grey,
+          ? FontConfig().fontMedium12Theme
+          : FontConfig().fontMedium12Grey,
       imageWidget: configItemImageWidget(
         index: index,
         tabItemModel: tabItemModel,
@@ -145,9 +145,7 @@ class RootTabC extends CommonGetXController {
   // --------- 触发事件  --------- //
 
   /// 点击item
-  tapItem({
-    required int index,
-  }) {
+  tapItem({required int index}) {
     selectIndex.value = index;
   }
 }

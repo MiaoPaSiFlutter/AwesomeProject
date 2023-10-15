@@ -88,7 +88,7 @@ class ExampleListWidget extends CommonLessV {
         ? Container()
         : Text(
             title,
-            style: FontConfig.fontBold16Black,
+            style: FontConfig().fontBold16Black,
             textAlign: TextAlign.start,
           );
     body = Column(

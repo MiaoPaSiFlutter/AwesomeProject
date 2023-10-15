@@ -9,3 +9,4 @@
 
 export 'hzy_normal_tools.dart';
 export 'hzy_router_tools.dart';
+export 'hzy_text_tools.dart';

@@ -7,6 +7,7 @@
  * @LastEditTime: 2023-05-16 17:18:40
  */
 
+import 'package:demo_jingdong/demo_jingdong.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'example_launch_id_config.dart';
 import '../models/image_type_model.dart';
@@ -17,8 +18,16 @@ class ExamplConfig {
     /// 抽屉模块
     ExampleModuleRouterS.drawerExample,
   ];
-
+  // static const LOGIN = '/jd/login';
+  // static const REGISTER = '/jd/register';
+  // static const SMSLOGIN = '/jd/smslogin';
+  // static const PWDLOGIN = '/jd/pwdlogin';
   List itemList = [
+    HzyNormalItemModel(
+      leftMsg: "京东",
+      router: JingDongModuleRouterS.LOGIN,
+    ),
+
     /// 抽象类基础属性展示
     HzyNormalItemModel(
       leftMsg: "基类属性",

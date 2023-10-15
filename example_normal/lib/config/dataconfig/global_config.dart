@@ -3,6 +3,9 @@ import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:example_normal/modules/example_module/module_index.dart';
 import 'package:example_normal/modules/my_module/config/my_en_us_config.dart';
 import 'package:example_normal/modules/my_module/config/my_zh_cn_config.dart';
+//京东模块儿
+import 'package:demo_jingdong/demo_jingdong.dart';
+
 import 'http_normal_config.dart';
 
 class GlobalConfig {
@@ -12,12 +15,14 @@ class GlobalConfig {
       zhCN,
       examplezhCN,
       myzhCN,
+      jingdongzhCN,
     ]);
 
     LaunchenUS.getInstance().configAllLaunch(list: [
       enUS,
       examplenUS,
       myenUS,
+      jingdongenUS,
     ]);
 
     await initThirdParty();

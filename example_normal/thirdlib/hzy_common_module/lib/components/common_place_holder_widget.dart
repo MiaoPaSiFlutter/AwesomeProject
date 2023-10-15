@@ -102,7 +102,7 @@ class _CommonPlaceHoldPageState extends HzyState<CommonPlaceHoldPage> {
     title = widget.msg ?? title;
     return Text(
       title,
-      style: FontConfig.fontBold18Black,
+      style: FontConfig().fontBold18Black,
     );
   }
 

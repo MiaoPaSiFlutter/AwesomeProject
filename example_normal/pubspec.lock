@@ -121,6 +121,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.6"
+  demo_jingdong:
+    dependency: "direct main"
+    description:
+      path: "thirdlib_demos/demo_jingdong"
+      relative: true
+    source: path
+    version: "0.0.1"
   device_frame:
     dependency: "direct main"
     description:
@@ -872,5 +879,5 @@ packages:
     source: hosted
     version: "1.0.3"
 sdks:
-  dart: ">=3.1.0 <4.0.0"
+  dart: ">=3.1.3 <4.0.0"
   flutter: ">=3.13.0"

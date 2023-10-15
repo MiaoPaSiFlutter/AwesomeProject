@@ -83,7 +83,7 @@ class ExampleComBtnlessV extends CommonLessV {
           ),
           child: Text(
             LaunchIdConfig.and.tr,
-            style: FontConfig.fontBold16White,
+            style: FontConfig().fontBold16White,
           ),
         ),
       ),

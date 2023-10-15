@@ -13,20 +13,20 @@ import 'screenutil_tools.dart';
 
 class NormalModuleUtils {
   /// 用于加载 package 模块图片
-  static configPackagesImage({
-    required String packagename,
-    required String name,
-  }) {
+  static configPackagesImage(
+      {required String packagename, required String name}) {
     return "packages/$packagename/$name";
   }
 
-  static normalModuleImagePath({
-    required String name,
-  }) {
+  static normalModuleImagePath({required String name}) {
     return configPackagesImage(
       packagename: package,
       name: name,
     );
+  }
+
+  static ImageProvider getAssetImage(String assetName) {
+    return AssetImage(assetName);
   }
 
   static const package = "hzy_common_module";
