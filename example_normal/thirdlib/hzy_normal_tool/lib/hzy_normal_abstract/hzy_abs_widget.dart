@@ -8,6 +8,7 @@
  */
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import '../hzy_normal_config/page_state.dart';
 
@@ -84,6 +85,8 @@ mixin class HzyAbsWidget {
             context: context,
             constraints: constraints,
           );
+
+    /// 返回
     body = configIsAddPopScope()
         ? WillPopScope(
             child: body,
@@ -92,6 +95,13 @@ mixin class HzyAbsWidget {
             },
           )
         : body;
+
+    /// 电池栏样式
+    body = AnnotatedRegion<SystemUiOverlayStyle>(
+      value: configUiOverlayStyle(),
+      child: body,
+    );
+
     return body;
   }
 
@@ -298,6 +308,11 @@ mixin class HzyAbsWidget {
   /// 是否需要脚手架
   bool configIsNeedScaffol() {
     return true;
+  }
+
+  /// 电池栏颜色
+  SystemUiOverlayStyle configUiOverlayStyle() {
+    return SystemUiOverlayStyle.dark;
   }
 
   /// 是否需要安全区域

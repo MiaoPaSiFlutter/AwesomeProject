@@ -7,6 +7,7 @@
  * @LastEditTime: 2023-09-23 15:48:52
  */
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import '../hzy_normal_config/page_state.dart';
 
@@ -41,6 +42,9 @@ mixin class HzyAbsAttribute {
 
   /// 添加右滑返回拦截器
   final bool isAddPopScope = false;
+
+  /// 电池栏颜色
+  final SystemUiOverlayStyle uiOverlayStyle = SystemUiOverlayStyle.dark;
 }
 
 mixin class HzyAbsState {

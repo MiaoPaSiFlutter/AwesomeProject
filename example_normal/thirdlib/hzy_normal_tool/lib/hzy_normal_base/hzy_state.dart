@@ -8,6 +8,7 @@
  */
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import '../hzy_normal_abstract/hzy_normal_abstract_index.dart';
 import '../hzy_normal_config/page_state.dart';
@@ -69,6 +70,11 @@ abstract class HzyState<T extends StatefulWidget> extends State<T>
   @override
   bool configIsNeedScaffol() {
     return isNeedScaffol;
+  }
+
+  @override
+  SystemUiOverlayStyle configUiOverlayStyle() {
+    return uiOverlayStyle;
   }
 
   ///是否形变

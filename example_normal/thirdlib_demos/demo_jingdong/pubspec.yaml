@@ -19,4 +19,8 @@ flutter:
   assets:
     - assets/
     - assets/images/
+    - assets/images/home/
     - assets/images/login/
+    - assets/images/news/
+    - assets/images/product/
+    - assets/images/store/

@@ -25,8 +25,14 @@ class NormalModuleUtils {
     );
   }
 
-  static ImageProvider getAssetImage(String assetName) {
-    return AssetImage(assetName);
+  static ImageProvider getImageProvider(String imageUrl) {
+    if (HyzyTextTools.isEmpty(imageUrl)) {
+      return AssetImage(normalModuleImagePath(name: 'assets/image_error.png'));
+    } else if (imageUrl.contains("http")) {
+      return ExtendedNetworkImageProvider(imageUrl);
+    } else {
+      return AssetImage(imageUrl);
+    }
   }
 
   static const package = "hzy_common_module";

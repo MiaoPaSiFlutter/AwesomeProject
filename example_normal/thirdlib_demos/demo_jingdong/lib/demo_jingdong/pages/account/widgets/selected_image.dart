@@ -28,7 +28,7 @@ class SelectedImage extends StatelessWidget {
           borderRadius: BorderRadius.circular(16.0),
           image: DecorationImage(
               image: image == null
-                  ? NormalModuleUtils.getAssetImage(assetName)
+                  ? NormalModuleUtils.getImageProvider(assetName)
                   : FileImage(image!),
               fit: BoxFit.cover,
               colorFilter: image == null

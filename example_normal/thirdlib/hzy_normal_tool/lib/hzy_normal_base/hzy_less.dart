@@ -8,6 +8,7 @@
  */
 
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/src/services/system_chrome.dart';
 
 import '../hzy_normal_abstract/hzy_normal_abstract_index.dart';
 
@@ -44,6 +45,11 @@ abstract class HzyLess extends StatelessWidget
   @override
   bool configIsNeedScaffol() {
     return isNeedScaffol;
+  }
+
+  @override
+  SystemUiOverlayStyle configUiOverlayStyle() {
+    return uiOverlayStyle;
   }
 
   ///是否形变
