@@ -87,7 +87,7 @@ class CustomBannerWidget extends StatefulWidget {
     this.bannerHeight = 100,
     this.bannerRadius = 0.0,
     this.intervalTime = 2,
-    this.isAuto = true,
+    this.isAuto = false,
   });
 
   @override

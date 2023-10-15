@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:demo_jingdong/demo_jingdong.dart';
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
@@ -8,7 +10,6 @@ import '../vm/news_viewmodel.dart';
 import '../widgets/jingxuan_feed_view.dart';
 
 import 'news_carousel_view.dart';
-import 'dart:ui' as ui show window;
 
 class JingXuanView extends StatefulWidget {
   const JingXuanView({Key? key}) : super(key: key);
@@ -154,14 +155,12 @@ class _JingXuanViewState extends State<JingXuanView>
         (content, index) {
           return Consumer<JingXuanViewModel>(
             builder: (context, vm, child) {
-              MediaQueryData mediaQuery = MediaQueryData.fromView(ui.window);
               double safeTop = vm.appBarHeight + vm.segmentHeight;
-              double safeBottom = mediaQuery.padding.bottom + 50;
-              double height = mediaQuery.size.height - safeTop - safeBottom;
+              double height = MediaQuery.of(context).size.height - safeTop;
               return Container(
                 height: height,
                 decoration: BoxDecoration(
-                  border: Border.all(width: 1, color: Colors.transparent),
+                  border: Border.all(width: 5, color: Colors.blue),
                 ),
                 child: PageView.builder(
                   onPageChanged: (int index) {
@@ -276,7 +275,7 @@ class _CommonSegmentViewState extends State<CommonSegmentView>
             decoration: BoxDecoration(
               border: Border.all(width: 1, color: Colors.transparent),
             ),
-            height: 30,
+            height: 50,
             child: Text(
               text,
               style: TextStyle(
