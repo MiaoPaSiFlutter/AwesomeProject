@@ -7,6 +7,8 @@ environment:
   sdk: ">=3.1.3 <4.0.0"
   flutter: ">=1.17.0"
 dependencies:
+  # 瀑布流
+  waterfall_flow: ^3.0.2
   hzy_common_module:
     path: ../../thirdlib/hzy_common_module/
   flutter:

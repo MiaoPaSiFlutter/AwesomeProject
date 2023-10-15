@@ -3,4 +3,5 @@ class JingDongModuleRouterS {
   static const REGISTER = '/jd/register';
   static const SMSLOGIN = '/jd/smslogin';
   static const PWDLOGIN = '/jd/pwdlogin';
+  static const NEWS = '/jd/news';
 }

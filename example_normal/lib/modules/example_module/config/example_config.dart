@@ -25,7 +25,7 @@ class ExamplConfig {
   List itemList = [
     HzyNormalItemModel(
       leftMsg: "京东",
-      router: JingDongModuleRouterS.LOGIN,
+      router: JingDongModuleRouterS.NEWS,
     ),
 
     /// 抽象类基础属性展示
