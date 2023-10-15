@@ -18,14 +18,11 @@ class ExamplConfig {
     /// 抽屉模块
     ExampleModuleRouterS.drawerExample,
   ];
-  // static const LOGIN = '/jd/login';
-  // static const REGISTER = '/jd/register';
-  // static const SMSLOGIN = '/jd/smslogin';
-  // static const PWDLOGIN = '/jd/pwdlogin';
+
   List itemList = [
     HzyNormalItemModel(
       leftMsg: "京东",
-      router: JingDongModuleRouterS.NEWS,
+      router: JingDongModuleRouterS.HOME,
     ),
 
     /// 抽象类基础属性展示

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
-import '../controllers/login_controller.dart';
+import '../views/login_view.dart';
 
 /// Sms登录
 class SmsLoginView extends StatefulWidget {
@@ -12,6 +12,8 @@ class SmsLoginView extends StatefulWidget {
 }
 
 class _SmsLoginViewState extends State<SmsLoginView> {
+  LoginController get controller => Get.put(LoginController());
+
   //定义一个controller
   final TextEditingController _accountController = TextEditingController();
   final TextEditingController _pwdController = TextEditingController();

@@ -1,24 +1,30 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
-import '../controllers/register_controller.dart';
+import '../../../config/jingdong_launch_id_config.dart';
 
-class RegisterView extends GetView<RegisterController> {
-  const RegisterView({Key? key}) : super(key: key);
+class RegisterView extends CommonGetXWidget<RegisterController> {
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('RegisterView'),
-        centerTitle: true,
-      ),
-      body: Center(
-        child: Text(
-          'RegisterView is working',
-          style: TextStyle(fontSize: 20),
-        ),
+  String? createAppBarTitleStr() => JindDongLaunchIdConfig.general.tr;
+
+  @override
+  Widget createScallBody(
+      {required BuildContext context, BoxConstraints? constraints}) {
+    return const Center(
+      child: Text(
+        'RegisterView is working',
+        style: TextStyle(fontSize: 20),
       ),
     );
   }
+}
+
+class RegisterController extends CommonGetXController {
+  //TODO: Implement RegisterController
+
+  final count = 0.obs;
+
+  void increment() => count.value++;
 }

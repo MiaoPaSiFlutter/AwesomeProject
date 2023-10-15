@@ -1,24 +1,29 @@
+import 'package:demo_jingdong/demo_jingdong.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
-import '../controllers/smslogin_controller.dart';
-
-class SmsloginView extends GetView<SmsloginController> {
-  const SmsloginView({Key? key}) : super(key: key);
+class SmsloginView extends CommonGetXWidget<SmsloginController> {
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('SmsloginView'),
-        centerTitle: true,
-      ),
-      body: Center(
-        child: Text(
-          'SmsloginView is working',
-          style: TextStyle(fontSize: 20),
-        ),
+  String? createAppBarTitleStr() => JindDongLaunchIdConfig.general.tr;
+
+  @override
+  Widget createScallBody(
+      {required BuildContext context, BoxConstraints? constraints}) {
+    return const Center(
+      child: Text(
+        'SmsloginView is working',
+        style: TextStyle(fontSize: 20),
       ),
     );
   }
+}
+
+class SmsloginController extends CommonGetXController {
+  //TODO: Implement SmsloginController
+
+  final count = 0.obs;
+
+  void increment() => count.value++;
 }
