@@ -8,6 +8,7 @@
  */
 
 import 'package:animation_demo/animation_demo.dart';
+import 'package:canvas_demo/canvas_demo.dart';
 import 'package:demo_jingdong/demo_jingdong.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
@@ -38,6 +39,10 @@ class ExamplConfig {
     HzyNormalItemModel(
       leftMsg: "animation_demo",
       router: AnimationDemoModuleRouterS.HOME,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "canvas_demo",
+      router: CanvasDemoModuleRouterS.HOME,
     ),
 
     /// 抽象类基础属性展示
