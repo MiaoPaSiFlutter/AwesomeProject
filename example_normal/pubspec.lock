@@ -541,6 +541,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "3.0.1"
+  liquid_swipe:
+    dependency: transitive
+    description:
+      name: liquid_swipe
+      sha256: "04277568a4a5a5e8e1dfa8b222b4e497e294cf64e72113d936fcc54ef0e29149"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.1.0"
   loading_more_list:
     dependency: transitive
     description:
@@ -581,6 +589,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.5.0"
+  matrix4_transform:
+    dependency: transitive
+    description:
+      name: matrix4_transform
+      sha256: "6ddeaa2c0e1f5c3f3a197f552377570b3e54fa0b8bf48507728a216fc0fd78a6"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.0.1"
   meta:
     dependency: transitive
     description:
@@ -780,6 +796,14 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  shake_animation_widget:
+    dependency: transitive
+    description:
+      name: shake_animation_widget
+      sha256: f3b4edf5a0305b239afd84857e36e9364a792fee283ab3d4d25e8d5e2dd82e4a
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.0.4"
   shared_preferences:
     dependency: transitive
     description:

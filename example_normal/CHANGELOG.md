@@ -12,6 +12,9 @@ sh hzy_rob_project.sh -n animation_demo -l pro -t package
 4、创建 canvas_demo 模块儿
 sh hzy_rob_project.sh -n canvas_demo -l pro -t package
 
+5、创建 common_demo 模块儿
+sh hzy_rob_project.sh -n common_demo -l pro -t package
+
 ### 2023-10-15
 
 1、创建 京东 模块儿

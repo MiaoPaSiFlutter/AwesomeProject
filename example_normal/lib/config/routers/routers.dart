@@ -1,5 +1,6 @@
 import 'package:animation_demo/animation_demo.dart';
 import 'package:canvas_demo/canvas_demo.dart';
+import 'package:common_demo/common_demo.dart';
 import 'package:example_normal/config/routers/project_routers.dart';
 import 'package:example_normal/modules/example_module/routers/example_module_pages.dart';
 import 'package:example_normal/modules/my_module/routers/my_module_pages.dart';
@@ -21,6 +22,7 @@ class RouterS {
       ...ScrollerDemoModulePagesS.routerS,
       ...AnimationDemoModulePagesS.routerS,
       ...CanvasDemoModulePagesS.routerS,
+      ...CommonDemoModulePagesS.routerS,
     ];
   }
 
