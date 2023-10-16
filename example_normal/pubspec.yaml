@@ -27,7 +27,12 @@ dependencies:
     path: ./thirdlib_demos/extended_sliver_demo
   scrollerview_demo:
     path: ./thirdlib_demos/scrollerview_demo
-
+  animation_demo:
+    path: ./thirdlib_demos/animation_demo
+  canvas_demo:
+    path: ./thirdlib_demos/canvas_demo
+  common_demo:
+    path: ./thirdlib_demos/common_demo
 dev_dependencies:
   flutter_test:
     sdk: flutter

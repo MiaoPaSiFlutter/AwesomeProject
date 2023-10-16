@@ -7,6 +7,7 @@
  * @LastEditTime: 2023-05-16 17:18:40
  */
 
+import 'package:animation_demo/animation_demo.dart';
 import 'package:demo_jingdong/demo_jingdong.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
@@ -33,6 +34,10 @@ class ExamplConfig {
     HzyNormalItemModel(
       leftMsg: "scrollerview_demo",
       router: ScrollerDemoModuleRouterS.HOME,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "animation_demo",
+      router: AnimationDemoModuleRouterS.HOME,
     ),
 
     /// 抽象类基础属性展示
