@@ -5,50 +5,6 @@ import 'routers_index.dart';
 class JingdongModulePagesS {
   static final routerS = [
     GetPage(
-      name: JingDongModuleRouterS.CustomScrollDemo1Page,
-      page: () => CustomScrollDemo1Page(),
-    ),
-    GetPage(
-      name: JingDongModuleRouterS.CustomScrollDemo2Page,
-      page: () => CustomScrollDemo2Page(),
-    ),
-    GetPage(
-      name: JingDongModuleRouterS.CustomScrollDemo3Page,
-      page: () => CustomScrollDemo3Page(),
-    ),
-    GetPage(
-      name: JingDongModuleRouterS.ScrollPullDownToScaleImageDemo,
-      page: () => ScrollPullDownToScaleImageDemo(),
-    ),
-    GetPage(
-      name: JingDongModuleRouterS.ScrollPullDownToScaleImageDemo2,
-      page: () => ScrollPullDownToScaleImageDemo2(),
-    ),
-    GetPage(
-      name: JingDongModuleRouterS.ScrollExtendedNestedScrollViewDemo,
-      page: () => ScrollExtendedNestedScrollViewDemo(),
-    ),
-    GetPage(
-      name: JingDongModuleRouterS.ScrollScrollDirectionDemo,
-      page: () => ScrollScrollDirectionDemo(),
-    ),
-    GetPage(
-      name: JingDongModuleRouterS.ScrollDynamicPinnedHeaderHeightDemo,
-      page: () => ScrollDynamicPinnedHeaderHeightDemo(),
-    ),
-    GetPage(
-      name: JingDongModuleRouterS.ScrollScrollToTopDemo,
-      page: () => ScrollScrollToTopDemo(),
-    ),
-    GetPage(
-      name: JingDongModuleRouterS.ScrollOfficialDemo,
-      page: () => ScrollOfficialDemo(),
-    ),
-    GetPage(
-      name: JingDongModuleRouterS.ScrollLoadMoreDemo,
-      page: () => ScrollLoadMoreDemo(),
-    ),
-    GetPage(
       name: JingDongModuleRouterS.HOME,
       page: () => JingdongHomePage(),
     ),

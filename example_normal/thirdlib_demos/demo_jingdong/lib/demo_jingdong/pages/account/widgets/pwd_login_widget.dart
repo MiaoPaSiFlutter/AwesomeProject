@@ -4,14 +4,14 @@ import 'package:hzy_common_module/hzy_common_module.dart';
 import '../views/login_view.dart';
 
 /// Sms登录
-class SmsLoginView extends StatefulWidget {
-  const SmsLoginView({Key? key}) : super(key: key);
+class PwdLoginView extends StatefulWidget {
+  const PwdLoginView({Key? key}) : super(key: key);
 
   @override
-  State createState() => _SmsLoginViewState();
+  State createState() => _PwdLoginViewState();
 }
 
-class _SmsLoginViewState extends State<SmsLoginView> {
+class _PwdLoginViewState extends State<PwdLoginView> {
   LoginController get controller => Get.put(LoginController());
 
   //定义一个controller
@@ -19,7 +19,7 @@ class _SmsLoginViewState extends State<SmsLoginView> {
   final TextEditingController _pwdController = TextEditingController();
   final FocusNode _accountFocus = FocusNode();
   final FocusNode _pwdFocus = FocusNode();
-  bool _isClick = false;
+  bool _loginBtnEnable = false; //登录按钮是否可点击
   bool _isAgree = false;
 
   @override
@@ -43,26 +43,26 @@ class _SmsLoginViewState extends State<SmsLoginView> {
   void _verify() {
     String name = _accountController.text;
     String password = _pwdController.text;
-    bool isClick = true;
-    if (name.isEmpty || name.length < 11) {
-      isClick = false;
+    bool loginBtnEnable = true;
+    if (name.isEmpty) {
+      loginBtnEnable = false;
     }
-    if (password.isEmpty || password.length < 6) {
-      isClick = false;
+    if (password.isEmpty) {
+      loginBtnEnable = false;
     }
 
     /// 状态不一样在刷新，避免重复不必要的setState
-    if (isClick != _isClick) {
+    if (loginBtnEnable != _loginBtnEnable) {
       setState(() {
-        _isClick = isClick;
+        _loginBtnEnable = loginBtnEnable;
       });
     }
   }
 
   void _login() {
-    SharedPreferencesTool.putString("phone", "17600796666");
-    SharedPreferencesTool.putString('accessToken', "123456");
-    SharedPreferencesTool.putString('refreshToken', "qweasdzxc");
+    dPrint("msg");
+    SharedPreferencesTool.putString("accessToken", "123456");
+    SharedPreferencesTool.putString("refreshToken", "qweasdzxc");
     // NavigatorUtil.push(context, Routes.mainFrame, clearStack: true);
   }
 
@@ -112,23 +112,12 @@ class _SmsLoginViewState extends State<SmsLoginView> {
                     key: const Key('account'),
                     focusNode: _accountFocus,
                     controller: _accountController,
-                    maxLength: 11,
                     keyboardType: TextInputType.phone,
-                    hintText: "国家/地区",
+                    hintText: "用户名/邮箱/手机号",
                     obscureText: false,
                     style: const TextStyle(fontSize: 12),
                   ),
                 ),
-              ),
-              Row(
-                children: [
-                  InkWell(
-                    onTap: () {
-                      // NavigatorUtil.push(context, LoginRouter.choiceRegionPage);
-                    },
-                    child: const Text("中国(+86)>>>"),
-                  ),
-                ],
               ),
             ],
           ),
@@ -151,13 +140,12 @@ class _SmsLoginViewState extends State<SmsLoginView> {
                 child: SizedBox(
                   height: 40,
                   child: CommonTextFieldWidget(
-                    key: const Key('phone'),
+                    key: const Key('pwd'),
                     focusNode: _pwdFocus,
                     controller: _pwdController,
-                    maxLength: 11,
-                    keyboardType: TextInputType.phone,
-                    hintText: "请输入手机号码",
-                    obscureText: false,
+                    keyboardType: TextInputType.text,
+                    hintText: "请输入密码",
+                    obscureText: true,
                     style: const TextStyle(fontSize: 12),
                   ),
                 ),
@@ -182,8 +170,8 @@ class _SmsLoginViewState extends State<SmsLoginView> {
                   NormalModuleUtils.configPackagesImage(
                       packagename: 'demo_jingdong',
                       name: _isAgree
-                          ? "assets/images/jingdong_demos/login/checked.png"
-                          : "assets/images/jingdong_demos/login/unchecked.png"),
+                          ? "assets/images/login/checked.png"
+                          : "assets/images/login/unchecked.png"),
                   height: 12,
                 ),
                 onTap: () {
@@ -194,7 +182,7 @@ class _SmsLoginViewState extends State<SmsLoginView> {
               ),
             ),
             const TextSpan(
-              text: "未注册的手机号验证后将自动创建账号，登录即代表您已同意",
+              text: "登录即代表您已同意",
             ),
             const TextSpan(
               text: "《隐私政策》",
@@ -214,17 +202,14 @@ class _SmsLoginViewState extends State<SmsLoginView> {
           ClipRRect(
             borderRadius: BorderRadius.circular(20),
             child: InkWell(
-              onTap: () {
-                // NavigatorUtil.push(context, LoginRouter.smsLoginPage);
-                _login();
-              },
+              onTap: _loginBtnEnable ? _login : null,
               child: Container(
                 width: double.infinity,
                 height: 40,
-                color: Colors.red,
+                color: _loginBtnEnable ? Colors.red : Colors.red.shade50,
                 child: const Center(
                   child: Text(
-                    "获取验证码",
+                    "登录",
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
@@ -236,33 +221,51 @@ class _SmsLoginViewState extends State<SmsLoginView> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                InkWell(
-                  onTap: () {
-                    // NavigatorUtil.push(context, LoginRouter.registerPage);
-                  },
-                  child: const Center(
-                    child: Text(
-                      "新用户注册",
-                      style: TextStyle(color: Colors.black, fontSize: 12),
+                Expanded(
+                  child: InkWell(
+                    onTap: () {},
+                    child: Container(
+                      child: const Text(
+                        "新用户注册",
+                        style: TextStyle(color: Colors.black, fontSize: 12),
+                      ),
                     ),
                   ),
                 ),
-                GetBuilder<LoginController>(
-                  builder: (controller) {
-                    return InkWell(
-                      onTap: () {
-                        controller.index.value = 1;
-                        // context.read<LoginVM>().refreshIndex(1);
-                      },
-                      child: const Center(
-                        child: Text(
-                          "账号密码登录",
-                          style: TextStyle(color: Colors.black, fontSize: 12),
+                Expanded(
+                  child: GetBuilder<LoginController>(
+                    builder: (controller) {
+                      return InkWell(
+                        onTap: () {
+                          controller.index.value = 0;
+                          // context.read<LoginVM>().refreshIndex(0);
+                        },
+                        child: Container(
+                          alignment: Alignment.center,
+                          child: const Text(
+                            "短信验证码登录",
+                            style: TextStyle(color: Colors.black, fontSize: 12),
+                          ),
                         ),
+                      );
+                    },
+                  ),
+                ),
+                Expanded(
+                  child: InkWell(
+                    onTap: () {
+                      // NavigatorUtil.push(
+                      //     context, LoginRouter.resetPasswordPage);
+                    },
+                    child: Container(
+                      alignment: Alignment.centerRight,
+                      child: const Text(
+                        "忘记密码",
+                        style: TextStyle(color: Colors.black, fontSize: 12),
                       ),
-                    );
-                  },
-                )
+                    ),
+                  ),
+                ),
               ],
             ),
           )
@@ -275,13 +278,13 @@ class _SmsLoginViewState extends State<SmsLoginView> {
     List icons = [
       NormalModuleUtils.configPackagesImage(
           packagename: 'demo_jingdong',
-          name: "assets/images/jingdong_demos/login/WJLogin_QQ.png"),
+          name: "assets/images/login/WJLogin_QQ.png"),
       NormalModuleUtils.configPackagesImage(
           packagename: 'demo_jingdong',
-          name: "assets/images/jingdong_demos/login/WJLogin_QQ.png"),
+          name: "assets/images/login/WJLogin_QQ.png"),
       NormalModuleUtils.configPackagesImage(
           packagename: 'demo_jingdong',
-          name: "assets/images/jingdong_demos/login/WJLogin_Wechat.png"),
+          name: "assets/images/login/WJLogin_Wechat.png"),
     ];
 
     return Column(
@@ -290,7 +293,8 @@ class _SmsLoginViewState extends State<SmsLoginView> {
           height: 20,
         ),
         const Center(
-          child: Text("其他登录方式", style: TextStyle(color: Colors.black)),
+          child: Text("其他登录方式",
+              style: TextStyle(color: Colors.black, fontSize: 12)),
         ),
         Container(
           // decoration: BoxDecoration(

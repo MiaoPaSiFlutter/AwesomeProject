@@ -75,8 +75,8 @@ class _ScrollScrollToTopDemoState extends State<ScrollScrollToTopDemo>
               collapseMode: CollapseMode.pin,
               background: Image.asset(
                   NormalModuleUtils.configPackagesImage(
-                      packagename: 'demo_jingdong',
-                      name: 'assets/images/scroll_demos/467141054.jpg'),
+                      packagename: 'scrollerview_demo',
+                      name: 'assets/467141054.jpg'),
                   fit: BoxFit.fill),
             ),
           ),

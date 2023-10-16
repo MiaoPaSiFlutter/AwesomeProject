@@ -10,6 +10,7 @@
 import 'package:demo_jingdong/demo_jingdong.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
+import 'package:scrollerview_demo/scrollerview_demo.dart';
 import 'example_launch_id_config.dart';
 import '../models/image_type_model.dart';
 import '../routers/example_module_routers.dart';
@@ -28,6 +29,10 @@ class ExamplConfig {
     HzyNormalItemModel(
       leftMsg: "extended_sliver_demo",
       router: ExtendedSliverModuleRouterS.HOME,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "scrollerview_demo",
+      router: ScrollerDemoModuleRouterS.HOME,
     ),
 
     /// 抽象类基础属性展示

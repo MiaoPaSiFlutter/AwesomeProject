@@ -3,7 +3,8 @@
 1、创建 extended_sliver_demo 模块儿
 sh hzy_rob_project.sh -n extended_sliver_demo -l pro -t package
 
-extended_sliver_demo
+2、创建 scrollerview_demo 模块儿
+sh hzy_rob_project.sh -n scrollerview_demo -l pro -t package
 
 ### 2023-10-15
 

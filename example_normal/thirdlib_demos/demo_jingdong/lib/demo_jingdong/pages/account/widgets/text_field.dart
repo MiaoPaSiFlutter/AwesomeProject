@@ -122,8 +122,7 @@ class _MyTextFieldState extends State<MyTextField> {
                     child: Image.asset(
                       key: Key('${widget.keyName}_delete'),
                       NormalModuleUtils.normalModuleImagePath(
-                          name:
-                              'assets/images/jingdong_demos/login/qyg_shop_icon_delete.png'),
+                          name: 'assets/images/login/qyg_shop_icon_delete.png'),
                       width: 18.0,
                       height: 18.0,
                     ),
@@ -137,8 +136,8 @@ class _MyTextFieldState extends State<MyTextField> {
                       key: Key('${widget.keyName}_showPwd'),
                       NormalModuleUtils.normalModuleImagePath(
                           name: _isShowPwd
-                              ? 'assets/images/jingdong_demos/login/qyg_shop_icon_hide.png'
-                              : 'assets/images/jingdong_demos/login/qyg_shop_icon_display.png'),
+                              ? 'assets/images/login/qyg_shop_icon_hide.png'
+                              : 'assets/images/login/qyg_shop_icon_display.png'),
                       width: 18.0,
                       height: 18.0,
                     ),

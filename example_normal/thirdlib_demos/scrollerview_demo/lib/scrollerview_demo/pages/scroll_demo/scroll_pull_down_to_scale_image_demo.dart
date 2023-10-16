@@ -181,8 +181,8 @@ class _ExampleState extends State<ScrollPullDownToScaleImageDemo>
               width: MediaQuery.of(context).size.width,
               child: Image.asset(
                   NormalModuleUtils.configPackagesImage(
-                      packagename: 'demo_jingdong',
-                      name: 'assets/images/scroll_demos/banner3.webp'),
+                      packagename: 'scrollerview_demo',
+                      name: 'assets/banner3.webp'),
                   height: _defaultExpandHeight + extraHeight,
                   fit: _fitType),
             )
@@ -255,8 +255,8 @@ class _ExampleState extends State<ScrollPullDownToScaleImageDemo>
                             children: [
                               Image.asset(
                                 NormalModuleUtils.configPackagesImage(
-                                    packagename: 'demo_jingdong',
-                                    name: 'assets/images/scroll_demos/man.png'),
+                                    packagename: 'scrollerview_demo',
+                                    name: 'assets/man.png'),
                                 width: 12,
                                 height: 12,
                               ),
@@ -289,8 +289,8 @@ class _ExampleState extends State<ScrollPullDownToScaleImageDemo>
                 child: ClipOval(
                   child: Image.asset(
                     NormalModuleUtils.configPackagesImage(
-                        packagename: 'demo_jingdong',
-                        name: 'assets/images/scroll_demos/banner3.webp'),
+                        packagename: 'scrollerview_demo',
+                        name: 'assets/banner3.webp'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -433,8 +433,7 @@ class _PersonPage extends State {
           borderRadius: const BorderRadius.all(Radius.circular(2)),
           child: Image.asset(
             NormalModuleUtils.configPackagesImage(
-                packagename: 'demo_jingdong',
-                name: 'assets/images/scroll_demos/banner3.webp'),
+                packagename: 'scrollerview_demo', name: 'assets/banner3.webp'),
             width: 116,
             fit: BoxFit.fill,
             height: 76,
