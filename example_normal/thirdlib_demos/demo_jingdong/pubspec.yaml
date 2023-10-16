@@ -9,6 +9,11 @@ environment:
 dependencies:
   # 瀑布流
   waterfall_flow: ^3.0.2
+  # 扩展NestedScrollView
+  extended_nested_scroll_view: ^6.1.2
+  # 加载更多列表支持ListView,GridView以及瀑布流。
+  loading_more_list: ^6.0.0
+
   hzy_common_module:
     path: ../../thirdlib/hzy_common_module/
   flutter:
@@ -21,8 +26,10 @@ flutter:
   assets:
     - assets/
     - assets/images/
-    - assets/images/home/
-    - assets/images/login/
-    - assets/images/news/
-    - assets/images/product/
-    - assets/images/store/
+    - assets/images/jingdong_demos/
+    - assets/images/jingdong_demos/home/
+    - assets/images/jingdong_demos/login/
+    - assets/images/jingdong_demos/news/
+    - assets/images/jingdong_demos/product/
+    - assets/images/jingdong_demos/store/
+    - assets/images/scroll_demos/

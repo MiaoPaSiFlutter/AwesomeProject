@@ -1,28 +1,24 @@
 import 'package:flutter/material.dart';
-
-import 'package:get/get.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
-import '../../../config/jingdong_launch_id_config.dart';
-
-class PwdloginView extends CommonGetXWidget<PwdloginController> {
+class RegisterView extends CommonGetXWidget<RegisterController> {
   @override
-  String? createAppBarTitleStr() => JindDongLaunchIdConfig.general.tr;
+  String? createAppBarTitleStr() => "注册";
 
   @override
   Widget createScallBody(
       {required BuildContext context, BoxConstraints? constraints}) {
     return const Center(
       child: Text(
-        'PwdloginView is working',
+        'RegisterView is working',
         style: TextStyle(fontSize: 20),
       ),
     );
   }
 }
 
-class PwdloginController extends CommonGetXController {
-  //TODO: Implement PwdloginController
+class RegisterController extends CommonGetXController {
+  //TODO: Implement RegisterController
 
   final count = 0.obs;
 

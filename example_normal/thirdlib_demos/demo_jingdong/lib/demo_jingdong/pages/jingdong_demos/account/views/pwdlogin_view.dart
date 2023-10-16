@@ -1,27 +1,24 @@
-import 'package:demo_jingdong/demo_jingdong.dart';
 import 'package:flutter/material.dart';
-
-import 'package:get/get.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
-class SmsloginView extends CommonGetXWidget<SmsloginController> {
+class PwdloginView extends CommonGetXWidget<PwdloginController> {
   @override
-  String? createAppBarTitleStr() => JindDongLaunchIdConfig.general.tr;
+  String? createAppBarTitleStr() => "密码登录";
 
   @override
   Widget createScallBody(
       {required BuildContext context, BoxConstraints? constraints}) {
     return const Center(
       child: Text(
-        'SmsloginView is working',
+        'PwdloginView is working',
         style: TextStyle(fontSize: 20),
       ),
     );
   }
 }
 
-class SmsloginController extends CommonGetXController {
-  //TODO: Implement SmsloginController
+class PwdloginController extends CommonGetXController {
+  //TODO: Implement PwdloginController
 
   final count = 0.obs;
 

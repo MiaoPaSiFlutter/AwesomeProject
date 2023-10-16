@@ -1,11 +1,42 @@
 import 'package:hzy_common_module/hzy_common_module.dart';
-import '../pages/jingdong_home_v.dart';
-import '../pages/news/views/news_view.dart';
 import '../pages/pages_index.dart';
 import 'routers_index.dart';
 
 class JingdongModulePagesS {
   static final routerS = [
+    
+    GetPage(
+      name: JingDongModuleRouterS.ScrollPullDownToScaleImageDemo,
+      page: () => ScrollPullDownToScaleImageDemo(),
+    ),
+    GetPage(
+      name: JingDongModuleRouterS.ScrollPullDownToScaleImageDemo2,
+      page: () => ScrollPullDownToScaleImageDemo2(),
+    ),
+    GetPage(
+      name: JingDongModuleRouterS.ScrollExtendedNestedScrollViewDemo,
+      page: () => ScrollExtendedNestedScrollViewDemo(),
+    ),
+    GetPage(
+      name: JingDongModuleRouterS.ScrollScrollDirectionDemo,
+      page: () => ScrollScrollDirectionDemo(),
+    ),
+    GetPage(
+      name: JingDongModuleRouterS.ScrollDynamicPinnedHeaderHeightDemo,
+      page: () => ScrollDynamicPinnedHeaderHeightDemo(),
+    ),
+    GetPage(
+      name: JingDongModuleRouterS.ScrollScrollToTopDemo,
+      page: () => ScrollScrollToTopDemo(),
+    ),
+    GetPage(
+      name: JingDongModuleRouterS.ScrollOfficialDemo,
+      page: () => ScrollOfficialDemo(),
+    ),
+    GetPage(
+      name: JingDongModuleRouterS.ScrollLoadMoreDemo,
+      page: () => ScrollLoadMoreDemo(),
+    ),
     GetPage(
       name: JingDongModuleRouterS.HOME,
       page: () => JingdongHomePage(),

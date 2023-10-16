@@ -21,7 +21,40 @@ class JingDongConfig {
       leftMsg: "新品页面",
       router: JingDongModuleRouterS.NEWS,
     ),
+    HzyNormalItemModel(
+      leftMsg: "Scroll-官方demo",
+      router: JingDongModuleRouterS.ScrollOfficialDemo,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "Scroll-加载更多",
+      router: JingDongModuleRouterS.ScrollLoadMoreDemo,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "Scroll-滑动到顶部",
+      router: JingDongModuleRouterS.ScrollScrollToTopDemo,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "Scroll-pinnedHeader高度不固定",
+      router: JingDongModuleRouterS.ScrollDynamicPinnedHeaderHeightDemo,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "Scroll-ScrollView横向滚动",
+      router: JingDongModuleRouterS.ScrollScrollDirectionDemo,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "Scroll-多个ScrollView嵌套",
+      router: JingDongModuleRouterS.ScrollExtendedNestedScrollViewDemo,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "Scroll-下拉放大顶部图片Demo",
+      router: JingDongModuleRouterS.ScrollPullDownToScaleImageDemo,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "Scroll-下拉放大顶部图片Demo2",
+      router: JingDongModuleRouterS.ScrollPullDownToScaleImageDemo2,
+    ),
 
     /// 按钮
+    ///
   ];
 }

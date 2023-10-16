@@ -1,11 +1,11 @@
 // ignore_for_file: must_be_immutable
 
+import 'package:demo_jingdong/demo_jingdong.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:provider/provider.dart';
 import 'package:waterfall_flow/waterfall_flow.dart';
-import '../../../tools/tools_index.dart';
 import '../vm/jingxuan_viewmodel.dart';
 
 class JingXuanFeedView extends StatefulWidget {

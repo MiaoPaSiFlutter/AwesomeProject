@@ -16,7 +16,8 @@ class SelectedImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String assetName = NormalModuleUtils.configPackagesImage(
-        packagename: 'demo_jingdong', name: "assets/images/store/icon_zj.png");
+        packagename: 'demo_jingdong',
+        name: "assets/images/jingdong_demos/store/icon_zj.png");
 
     return InkWell(
       borderRadius: BorderRadius.circular(16.0),

@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
-
-import '../../../config/jingdong_launch_id_config.dart';
 import '../widgets/pwd_login_widget.dart';
 import '../widgets/sms_login_widget.dart';
 
 class LoginView extends CommonGetXWidget<LoginController> {
   LoginView({Key? key}) : super(key: key);
   @override
-  String? createAppBarTitleStr() => JindDongLaunchIdConfig.general.tr;
+  String? createAppBarTitleStr() => '登录';
   @override
   LoginController get controller => Get.put(LoginController());
 
