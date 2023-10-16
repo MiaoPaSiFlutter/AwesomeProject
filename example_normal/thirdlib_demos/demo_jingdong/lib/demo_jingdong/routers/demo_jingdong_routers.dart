@@ -17,4 +17,7 @@ class JingDongModuleRouterS {
       '/scroll/ScrollPullDownToScaleImageDemo';
   static const ScrollPullDownToScaleImageDemo2 =
       '/scroll/ScrollPullDownToScaleImageDemo2';
+  static const CustomScrollDemo1Page = '/scroll/CustomScrollDemo1Page';
+  static const CustomScrollDemo2Page = '/scroll/CustomScrollDemo2Page';
+  static const CustomScrollDemo3Page = '/scroll/CustomScrollDemo3Page';
 }

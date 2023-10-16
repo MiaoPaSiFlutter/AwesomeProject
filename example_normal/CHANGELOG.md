@@ -1,3 +1,10 @@
+### 2023-10-16
+
+1、创建 extended_sliver_demo 模块儿
+sh hzy_rob_project.sh -n extended_sliver_demo -l pro -t package
+
+extended_sliver_demo
+
 ### 2023-10-15
 
 1、创建 京东 模块儿

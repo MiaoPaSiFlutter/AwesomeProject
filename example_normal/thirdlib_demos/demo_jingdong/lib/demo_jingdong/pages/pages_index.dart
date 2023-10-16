@@ -14,3 +14,6 @@ export 'scroll_demo/scroll_scroll_direction_demo.dart';
 export 'scroll_demo/scroll_extended_nested_scrollview_demo.dart';
 export 'scroll_demo/scroll_pull_down_to_scale_image_demo.dart';
 export 'scroll_demo/scroll_pull_down_to_scale_image_demo2.dart';
+export 'scroll_demo/customscroll_demo1_page.dart';
+export 'scroll_demo/customscroll_demo2_page.dart';
+export 'scroll_demo/customscroll_demo3_page.dart';

@@ -53,6 +53,18 @@ class JingDongConfig {
       leftMsg: "Scroll-下拉放大顶部图片Demo2",
       router: JingDongModuleRouterS.ScrollPullDownToScaleImageDemo2,
     ),
+    HzyNormalItemModel(
+      leftMsg: "Scroll-CustomScrollDemo1Page",
+      router: JingDongModuleRouterS.CustomScrollDemo1Page,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "Scroll-CustomScrollDemo2Page",
+      router: JingDongModuleRouterS.CustomScrollDemo2Page,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "Scroll-CustomScrollDemo3Page",
+      router: JingDongModuleRouterS.CustomScrollDemo3Page,
+    ),
 
     /// 按钮
     ///

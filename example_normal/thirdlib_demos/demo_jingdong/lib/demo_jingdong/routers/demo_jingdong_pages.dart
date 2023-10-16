@@ -4,7 +4,18 @@ import 'routers_index.dart';
 
 class JingdongModulePagesS {
   static final routerS = [
-    
+    GetPage(
+      name: JingDongModuleRouterS.CustomScrollDemo1Page,
+      page: () => CustomScrollDemo1Page(),
+    ),
+    GetPage(
+      name: JingDongModuleRouterS.CustomScrollDemo2Page,
+      page: () => CustomScrollDemo2Page(),
+    ),
+    GetPage(
+      name: JingDongModuleRouterS.CustomScrollDemo3Page,
+      page: () => CustomScrollDemo3Page(),
+    ),
     GetPage(
       name: JingDongModuleRouterS.ScrollPullDownToScaleImageDemo,
       page: () => ScrollPullDownToScaleImageDemo(),

@@ -3,6 +3,7 @@ import 'package:example_normal/modules/example_module/routers/example_module_pag
 import 'package:example_normal/modules/my_module/routers/my_module_pages.dart';
 // 京东模块儿
 import 'package:demo_jingdong/demo_jingdong.dart';
+import 'package:extended_sliver_demo/extended_sliver_demo.dart';
 
 import '../dataconfig/page_id_config.dart';
 
@@ -13,6 +14,7 @@ class RouterS {
       ...MyModulePages.routerS,
       ...ExampleModulePageS.routerS,
       ...JingdongModulePagesS.routerS,
+      ...ExtendedSliverModulePagesS.routerS,
     ];
   }
 

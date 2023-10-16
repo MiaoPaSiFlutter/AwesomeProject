@@ -23,6 +23,9 @@ dependencies:
   demo_jingdong:
     path: ./thirdlib_demos/demo_jingdong
 
+  extended_sliver_demo:
+    path: ./thirdlib_demos/extended_sliver_demo
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
