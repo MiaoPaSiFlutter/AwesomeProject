@@ -36,6 +36,7 @@ flutter:
     - assets/images/news/
     - assets/images/product/
     - assets/images/store/
+    - assets/images/loading/
     - assets/json/mock-data/functionId/@new/tab/xinpin/
     - assets/json/mock-data/functionId/@new/tab/xinpin/getNewsTrendsTabDetails/
     - assets/json/mock-data/functionId/@new/tab/xinpin/getRecommendNewFeedsList/

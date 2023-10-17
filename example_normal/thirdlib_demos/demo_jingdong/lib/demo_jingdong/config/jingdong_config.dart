@@ -33,6 +33,10 @@ class JingDongConfig {
       leftMsg: "我的订单",
       router: JingDongModuleRouterS.OrderView,
     ),
+    HzyNormalItemModel(
+      leftMsg: "我的",
+      router: JingDongModuleRouterS.MineView,
+    ),
 
     /// 按钮
     ///
