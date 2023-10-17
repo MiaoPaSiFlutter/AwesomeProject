@@ -21,6 +21,18 @@ class JingDongConfig {
       leftMsg: "新品页面",
       router: JingDongModuleRouterS.NEWS,
     ),
+    HzyNormalItemModel(
+      leftMsg: "浏览历史",
+      router: JingDongModuleRouterS.BrowseHistoryView,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "账户设置",
+      router: JingDongModuleRouterS.AccountSetView,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "我的订单",
+      router: JingDongModuleRouterS.OrderView,
+    ),
 
     /// 按钮
     ///

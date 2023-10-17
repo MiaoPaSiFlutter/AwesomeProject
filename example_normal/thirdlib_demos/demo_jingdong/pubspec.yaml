@@ -7,6 +7,8 @@ environment:
   sdk: ">=3.1.3 <4.0.0"
   flutter: ">=1.17.0"
 dependencies:
+  flutter_animated_dialog: ^2.0.1
+  easy_refresh: ^3.3.2+1
   # 瀑布流
   waterfall_flow: ^3.0.2
   # 强大的Sliver扩展库, 包括 SliverToNestedScrollBoxAdapter, SliverPinnedPersistentHeader,
@@ -45,3 +47,14 @@ flutter:
     - assets/json/mock-data/functionId/@new/tab/xinpin/getTabProductsList/20/
     - assets/json/mock-data/functionId/@new/tab/xinpin/getTabProductsList/22/
     - assets/json/mock-data/functionId/@new/tab/xinpin/getTabProductsList/95/
+    - assets/json/mock-data/functionId/@new/tab/person/
+    - assets/json/mock-data/functionId/@new/tab/person/address/
+    - assets/json/mock-data/functionId/@new/tab/person/browseHistory/
+    - assets/json/mock-data/functionId/@new/tab/person/favorite/
+    - assets/json/mock-data/functionId/@new/tab/person/recommend/
+    - assets/json/mock-data/functionId/@new/tab/person/order/
+    - assets/json/mock-data/functionId/@new/tab/person/order/allOrder/
+    - assets/json/mock-data/functionId/@new/tab/person/order/cancleOrder/
+    - assets/json/mock-data/functionId/@new/tab/person/order/completedOrder/
+    - assets/json/mock-data/functionId/@new/tab/person/order/wait4DeliveryOrder/
+    - assets/json/mock-data/functionId/@new/tab/person/order/wait4PaymentOrder/

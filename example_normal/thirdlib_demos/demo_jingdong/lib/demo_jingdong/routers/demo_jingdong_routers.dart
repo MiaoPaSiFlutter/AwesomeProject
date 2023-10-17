@@ -5,4 +5,7 @@ class JingDongModuleRouterS {
   static const SMSLOGIN = '/jd/smslogin';
   static const PWDLOGIN = '/jd/pwdlogin';
   static const NEWS = '/jd/news';
+  static const BrowseHistoryView = '/jd/account/BrowseHistoryView';
+  static const AccountSetView = '/jd/account/AccountSetView';
+  static const OrderView = '/jd/account/OrderView';
 }

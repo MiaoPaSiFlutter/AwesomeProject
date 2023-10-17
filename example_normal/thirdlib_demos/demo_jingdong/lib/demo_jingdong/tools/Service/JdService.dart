@@ -14,6 +14,7 @@ import '../Network/http_utils.dart';
 import '../Network/response/response.dart';
 
 class JdService {
+  static bool useAssetsMockData = true;
   static String kAssetsPath = "assets/json/mock-data/functionId/@new/";
   static String kBaseUrl =
       "https://gitlab.com/ikumock-data/MockDatas/-/raw/JingDong/20220629/functionId/@new/";
@@ -53,6 +54,8 @@ class JdService {
           data: value,
           statusCode: 200,
           requestOptions: RequestOptions(path: fullUrl));
+      await 1.delay();
+
       return MpsfResponse(dioResponse: response);
     } catch (e) {
       dPrint(e);
@@ -67,28 +70,31 @@ class JdService {
 
   /// 加载网络数据
   static Future<MpsfResponse> getJsonDATA(String path) async {
-    return loadFromAssets(path);
-    //保存数据
-    String fullUrl = kBaseUrl + path;
-    var id = generateMD5(fullUrl);
-    String? jsonStr = await JMGLManager.shared().syncFetchFile(path: id);
-    if (jsonStr != null) {
-      print("$path 本地有数据");
-      Response response = Response(
-          data: jsonStr,
-          statusCode: 200,
-          requestOptions: RequestOptions(path: fullUrl));
-      await 1.delay();
-      return MpsfResponse(dioResponse: response);
+    if (useAssetsMockData) {
+      return loadFromAssets(path);
     } else {
-      print("$path 本地无数据 - 开始请求");
-      MpsfResponse respM = await loadFromServer(path);
-      if (!respM.hasError) {
-        JMGLManager.shared().asyncSaveFile(contents: respM.data, path: id);
-      }
-      print("$path 本地无数据 - 结束请求");
+      //保存数据
+      String fullUrl = kBaseUrl + path;
+      var id = generateMD5(fullUrl);
+      String? jsonStr = await JMGLManager.shared().syncFetchFile(path: id);
+      if (jsonStr != null) {
+        print("$path 本地有数据");
+        Response response = Response(
+            data: jsonStr,
+            statusCode: 200,
+            requestOptions: RequestOptions(path: fullUrl));
+        await 1.delay();
+        return MpsfResponse(dioResponse: response);
+      } else {
+        print("$path 本地无数据 - 开始请求");
+        MpsfResponse respM = await loadFromServer(path);
+        if (!respM.hasError) {
+          JMGLManager.shared().asyncSaveFile(contents: respM.data, path: id);
+        }
+        print("$path 本地无数据 - 结束请求");
 
-      return respM;
+        return respM;
+      }
     }
   }
 
