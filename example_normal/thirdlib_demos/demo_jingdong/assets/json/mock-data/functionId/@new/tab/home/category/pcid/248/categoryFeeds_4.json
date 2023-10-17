@@ -1,0 +1,62 @@
+{
+  "cards": [
+    {
+      "skuId": "10043639579561",
+      "skuName": "华为 p50 pocket 折叠屏 手机 曜石黑(8GB+256GB) 官方标配(无充版)",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/98121/33/19713/98931/63880c52E44dd7c6c/fd74dbd0eea10343.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "7958.01",
+      "reviews": "200+条评价",
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI3MTBkYjE5Y2I0NzQ4Mjk5OTJlNmM1NzM3OGY5ZDVmMTJiMjRhODE2In0=\",\"priceTag\":\"0\",\"page\":\"4\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"10043639579561\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "10065873399373",
+      "skuName": "华为mate50pro 新品上市手机 曜金黑（昆仑玻璃） 256G 全网通",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/10139/39/20543/142139/6375d1b2E58289a63/740d2719610a941b.png!gray",
+      "jdPrice": "6999.00",
+      "reviews": "14条评价",
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxMyIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI3MTBkYjE5Y2I0NzQ4Mjk5OTJlNmM1NzM3OGY5ZDVmMTJiMjRhODE2In0=\",\"priceTag\":\"0\",\"page\":\"4\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"10065873399373\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100016880289",
+      "skuName": "荣耀50 SE 1亿像素超清影像 5G 6.78英寸全视屏 66W超级快充 全网通版 12GB+256GB 魅海蓝【购机补贴版】",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/210248/23/7782/148946/6183b2ffE7c62f153/fcd736fc18f7561c.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "2699.00",
+      "reviews": "",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI3MTBkYjE5Y2I0NzQ4Mjk5OTJlNmM1NzM3OGY5ZDVmMTJiMjRhODE2In0=\",\"priceTag\":\"0\",\"page\":\"4\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100016880289\",\"categoryId\":\"655\",\"commentStatus\":\"0\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    }
+  ],
+  "code": "0",
+  "hasNextPage": 1,
+  "srvJson": "{\"classfyid\":718,\"poolid\":\"41\",\"classfynum\":\"1\",\"keyWord\":\"-100\"}",
+  "page": 5
+}

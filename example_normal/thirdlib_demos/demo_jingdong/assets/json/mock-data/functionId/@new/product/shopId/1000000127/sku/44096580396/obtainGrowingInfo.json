@@ -1,0 +1,586 @@
+{
+  "code": 0,
+  "data": {
+    "cateGoodsInfo": {
+      "cateName": [
+        {
+          "tehui": "特惠"
+        }
+      ],
+      "productInfo": {
+        "tehui": [
+          {
+            "pop": "3",
+            "groupId": "0",
+            "goodsField": {
+              "thirdCategory": "13578",
+              "secondCategory": "13553",
+              "totalPriceTagsInfo": {},
+              "realPriceNum": "",
+              "firstCategory": "12218",
+              "shortTitle": "",
+              "title": "东粮 鲜腐竹 原浆头层皮 无盐无添加 免泡发  东北特产 200克/袋 1袋（尝鲜装）",
+              "img_dfs_url": "jfs/t1/180786/28/30818/172520/637745bdEd8faa56d/d2e0f1ad07bb494c.jpg",
+              "promoTagsInfo": {},
+              "brandId": "541175",
+              "jdPrice": "11.50",
+              "shopId": "10026520",
+              "sku": "10065964175881",
+              "realPrice": ""
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "20190660_X",
+            "skuId": "10065964175881"
+          },
+          {
+            "pop": "3",
+            "groupId": "0",
+            "goodsField": {
+              "thirdCategory": "12207",
+              "secondCategory": "12202",
+              "totalPriceTagsInfo": {
+                "startTime": 1670675211,
+                "endTime": 1672502399,
+                "tags": {
+                  "19": "满2件，总价打9折"
+                },
+                "subExtInfo": "{\"extType\":14,\"subExtType\":19,\"subRuleList\":[{\"needNum\":\"2\",\"rebate\":\"9\",\"subRuleList\":[]}]}"
+              },
+              "realPriceNum": "2",
+              "firstCategory": "1320",
+              "shortTitle": "桃渊茗武夷山的正山小种红茶",
+              "title": "桃渊茗 武夷红茶 茶叶红茶武夷山红茶正山小种 武夷红茶蜜香型散装罐装茶叶礼盒装送礼礼品希捍 50G单罐装",
+              "img_dfs_url": "jfs/t1/154159/1/11202/421928/5fe2f78fEc18ac2b2/4d27381e143d4ea4.png",
+              "whiteBackground": "jfs/t1/171529/13/21330/13847/614befa2E34337cef/928726a60621d948.jpg",
+              "maxSave": "1.59",
+              "promoTagsInfo": {
+                "cashGiftText": "店铺新客限时优惠，限享一次",
+                "cashGiftAmount": "1.00",
+                "promoTags": [1012],
+                "tags": {
+                  "84": "店铺新客限时优惠，限享一次"
+                },
+                "extInfo": {
+                  "pinLimitedNum": "1",
+                  "cashGift": "1.00"
+                }
+              },
+              "brandId": "174408",
+              "jdPrice": "10.90",
+              "shopId": "77313",
+              "sku": "71884053242",
+              "realPrice": "9.31"
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "20190660_X",
+            "skuId": "71884053242"
+          },
+          {
+            "pop": "3",
+            "groupId": "0",
+            "goodsField": {
+              "thirdCategory": "1601",
+              "secondCategory": "1585",
+              "totalPriceTagsInfo": {},
+              "realPriceNum": "",
+              "firstCategory": "1320",
+              "shortTitle": "",
+              "title": "老金磨方 坊 酸奶果粒烘培麦片纤盈紫薯味 300g 即食营养早餐免煮燕麦片",
+              "img_dfs_url": "jfs/t1/156440/21/5384/144753/5ffba957E3d9925f8/a7c7c7408c342551.jpg",
+              "whiteBackground": "jfs/t1/213829/3/464/128957/61690877E2a27af66/00574bb667a33bc7.jpg",
+              "promoTagsInfo": {},
+              "brandId": "27430",
+              "jdPrice": "14.90",
+              "shopId": "39219",
+              "sku": "65737025675",
+              "realPrice": ""
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "20190660_X",
+            "skuId": "65737025675"
+          },
+          {
+            "pop": "3",
+            "groupId": "0",
+            "goodsField": {
+              "thirdCategory": "2677",
+              "secondCategory": "1584",
+              "totalPriceTagsInfo": {},
+              "realPriceNum": "",
+              "firstCategory": "1320",
+              "shortTitle": "吉香居榨菜15g*30袋",
+              "title": "吉香居 鲜香榨菜 下饭菜泡菜 小袋便携15g*30袋",
+              "img_dfs_url": "jfs/t1/222536/37/21491/169180/630db690E2a22d244/5a7f406afac75709.png",
+              "whiteBackground": "jfs/t1/193541/27/26537/168019/630db68eEc41b4c4a/5201824a66878680.jpg",
+              "promoTagsInfo": {},
+              "brandId": "41569",
+              "jdPrice": "14.90",
+              "shopId": "742142",
+              "sku": "22751482587",
+              "realPrice": ""
+            },
+            "recommendReason": "近期2114人购买",
+            "strategyId": "20190660_X",
+            "skuId": "22751482587"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "1533",
+              "secondCategory": "1524",
+              "realPriceNum": "",
+              "firstCategory": "1319",
+              "shortTitle": "英氏1阶加铁原味米粉40g",
+              "title": "英氏（Engnice）婴儿米粉宝宝辅食营养维C高铁米糊123段英式益生元米粉6-12月罐装 尝鲜装40g",
+              "img_dfs_url": "jfs/t1/71162/33/21858/61070/630c796dE7db7da95/510e77ef20d9e369.png",
+              "whiteBackground": "jfs/t1/217430/24/19494/50329/62e38204E7f0aefca/9d9d1839e7fbdb06.jpg",
+              "brandId": "32618",
+              "jdPrice": "20.00",
+              "shopId": "715777",
+              "sku": "10051472911860",
+              "realPrice": ""
+            },
+            "recommendReason": "近期5470人购买",
+            "strategyId": "5308",
+            "skuId": "10051472911860"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "13286",
+              "secondCategory": "1526",
+              "couponInfo": {
+                "quota": "2",
+                "discount": "1",
+                "couponStyle": 0
+              },
+              "realPriceNum": "1",
+              "firstCategory": "1319",
+              "shortTitle": "科巢宝宝吃饭围兜",
+              "title": "科巢宝宝吃饭围兜辅食饭兜防水硅胶婴儿超软儿童围嘴口水兜巾防脏神器 （纳米银色）超轻3D（纳米银抑菌）【带收纳盒】",
+              "img_dfs_url": "jfs/t1/193636/2/29688/46432/635d43eaE11b84ffa/260437834eb1c4a9.jpg",
+              "maxSave": "1.00",
+              "brandId": "520313",
+              "jdPrice": "17.90",
+              "shopId": "10237812",
+              "sku": "10056853308903",
+              "realPrice": "16.90"
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "5308",
+            "skuId": "10056853308903"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "13287",
+              "secondCategory": "1526",
+              "couponInfo": {
+                "quota": "2",
+                "discount": "1",
+                "couponStyle": 0
+              },
+              "realPriceNum": "1",
+              "firstCategory": "1319",
+              "shortTitle": "科巢婴儿奶粉袋",
+              "title": "科巢（scoornest)婴儿奶粉袋 宝宝便携外出一次性保鲜奶粉盒储存袋分装盒30片 [拍2盒发3盒]布拉诺粉（30片）+记号笔",
+              "img_dfs_url": "jfs/t1/198686/12/10917/56700/615554a0Ea7d6874b/4cc1a066e131601f.jpg",
+              "whiteBackground": "jfs/t1/218234/39/782/95195/616c9296Eb77c3b00/455957c4451dfdf2.jpg",
+              "maxSave": "1.00",
+              "brandId": "520313",
+              "jdPrice": "19.90",
+              "shopId": "10237812",
+              "sku": "10030963952463",
+              "realPrice": "18.90"
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "5308",
+            "skuId": "10030963952463"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "1552",
+              "secondCategory": "1526",
+              "totalPriceTagsInfo": {
+                "startTime": 1669824000,
+                "endTime": 1672502399,
+                "tags": {
+                  "19": "满2件，总价打9折；满3件，总价打8折"
+                },
+                "subExtInfo": "{\"extType\":15,\"subExtType\":23,\"subRuleList\":[{\"needNum\":\"2\",\"rebate\":\"9\",\"subRuleList\":[]},{\"needNum\":\"3\",\"rebate\":\"8\",\"subRuleList\":[]}]}"
+              },
+              "realPriceNum": "3",
+              "firstCategory": "1319",
+              "shortTitle": "舒贝迪儿童练习筷学习筷训练筷",
+              "title": "儿童筷子训练筷一段2 3 6岁宝宝练习学习筷二段小孩家用 黄小鸡【无盒】",
+              "img_dfs_url": "jfs/t1/190879/10/3896/64096/60a36268E0b59bc24/27a1fd44b1ebeb48.jpg",
+              "whiteBackground": "jfs/t1/87637/2/21599/29846/62125371E704a6f6e/eb1ac27f1b9d3747.jpg",
+              "maxSave": "1.98",
+              "promoTagsInfo": {},
+              "brandId": "314806",
+              "jdPrice": "9.90",
+              "shopId": "667114",
+              "sku": "10031116361643",
+              "realPrice": "7.92"
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "5308",
+            "skuId": "10031116361643"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "6315",
+              "secondCategory": "6313",
+              "couponInfo": {
+                "quota": "2",
+                "discount": "1",
+                "couponStyle": 0
+              },
+              "realPriceNum": "1",
+              "firstCategory": "1319",
+              "shortTitle": "科巢婴儿童围脖",
+              "title": "科巢婴儿童围脖宝宝棉围巾婴幼儿春秋冬季防风保暖脖套男童女童 格拉斯小象A3 0-9岁",
+              "img_dfs_url": "jfs/t1/218476/18/9245/55783/61c976f1E2ecfc2fb/590ada54000e9a5e.jpg",
+              "maxSave": "1.00",
+              "brandId": "520313",
+              "jdPrice": "19.90",
+              "shopId": "10237812",
+              "sku": "10042846474237",
+              "realPrice": "18.90"
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "5308",
+            "skuId": "10042846474237"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "6317",
+              "secondCategory": "6313",
+              "realPriceNum": "",
+              "firstCategory": "1319",
+              "shortTitle": "慕卡索Mc床围栏加固绑带",
+              "title": "M-CASTLE慕卡索床护栏绑带床围栏粘扣带加固魔术带连接织带婴儿床栏通用 床围栏专用绑带(4只装)",
+              "img_dfs_url": "jfs/t1/143127/3/21940/139365/61a9e04aE4d423221/23667319efa9d0c2.jpg",
+              "whiteBackground": "jfs/t1/194260/2/18964/116630/611ccd42E18167481/293655689c56456b.jpg",
+              "brandId": "92069",
+              "jdPrice": "12.90",
+              "shopId": "100794",
+              "sku": "10024786586981",
+              "realPrice": ""
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "5308",
+            "skuId": "10024786586981"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "21879",
+              "secondCategory": "21813",
+              "totalPriceTagsInfo": {
+                "startTime": 1670860800,
+                "endTime": 1671379200,
+                "tags": {
+                  "15": "每满200元，可减20元现金，包邮（限中国内地）"
+                },
+                "subExtInfo": "{\"extType\":2,\"needMoney\":\"200\",\"rewardMoney\":\"20\",\"subExtType\":9,\"subRuleList\":[]}"
+              },
+              "couponInfo": {
+                "quota": "2",
+                "discount": "1",
+                "couponStyle": 0
+              },
+              "realPriceNum": "1",
+              "firstCategory": "6233",
+              "shortTitle": "佳智之星宝宝洗澡戏水玩具",
+              "title": "宝宝洗澡戏水玩具小象婴儿女孩男孩沙滩浴室趣味小孩沐浴花洒泳池玩具 小象水壶【颜色随机】",
+              "img_dfs_url": "jfs/t21313/90/1157404101/49118/23d384e2/5b208e17Nc25cded7.jpg",
+              "maxSave": "2.00",
+              "promoTagsInfo": {
+                "cashGiftText": "店铺新客限时优惠，限享一次",
+                "cashGiftAmount": "1.00",
+                "promoTags": [1012],
+                "tags": {
+                  "84": "店铺新客限时优惠，限享一次"
+                },
+                "extInfo": {
+                  "pinLimitedNum": "1",
+                  "cashGift": "1.00"
+                }
+              },
+              "brandId": "318064",
+              "jdPrice": "7.90",
+              "shopId": "725790",
+              "sku": "29228390163",
+              "realPrice": "5.90"
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "5308",
+            "skuId": "29228390163"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "13286",
+              "secondCategory": "1526",
+              "couponInfo": {
+                "quota": "2",
+                "discount": "1",
+                "couponStyle": 0
+              },
+              "realPriceNum": "1",
+              "firstCategory": "1319",
+              "shortTitle": "科巢宝宝吃饭围兜",
+              "title": "科巢宝宝吃饭围兜辅食饭兜防水硅胶婴儿超软儿童围嘴口水兜巾防脏神器 （维尔粉）超轻3D（纳米银抑菌）【带收纳盒】",
+              "img_dfs_url": "jfs/t1/207738/8/27084/41697/635d43f9E0a88caf8/1b779dd65bb8d9b7.jpg",
+              "maxSave": "1.00",
+              "brandId": "520313",
+              "jdPrice": "17.90",
+              "shopId": "10237812",
+              "sku": "10056853308904",
+              "realPrice": "16.90"
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "5308",
+            "skuId": "10056853308904"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "13287",
+              "secondCategory": "1526",
+              "couponInfo": {
+                "quota": "2",
+                "discount": "1",
+                "couponStyle": 0
+              },
+              "realPriceNum": "1",
+              "firstCategory": "1319",
+              "shortTitle": "科巢婴儿奶粉袋",
+              "title": "科巢（scoornest)婴儿奶粉袋 宝宝便携外出一次性保鲜奶粉盒储存袋分装盒30片 [拍2盒发3盒]科尔马白（30片）+记号笔",
+              "img_dfs_url": "jfs/t1/204956/11/8633/39510/61555418E977d344b/7bdb253c9c9782fb.jpg",
+              "whiteBackground": "jfs/t1/218234/39/782/95195/616c9296Eb77c3b00/455957c4451dfdf2.jpg",
+              "maxSave": "1.00",
+              "brandId": "520313",
+              "jdPrice": "19.90",
+              "shopId": "10237812",
+              "sku": "71395464558",
+              "realPrice": "18.90"
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "5308",
+            "skuId": "71395464558"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "1552",
+              "secondCategory": "1526",
+              "couponInfo": {
+                "quota": "2",
+                "discount": "1",
+                "couponStyle": 0
+              },
+              "realPriceNum": "1",
+              "firstCategory": "1319",
+              "shortTitle": "",
+              "title": "科巢儿童筷子虎口训练筷2-3-6-12岁宝宝学习筷练习筷婴幼儿园家用吃饭二段餐具套装 亚希绿",
+              "img_dfs_url": "jfs/t1/182953/21/28010/84899/631320aaE234571d6/046500564fcc9ab9.jpg",
+              "maxSave": "1.00",
+              "brandId": "520313",
+              "jdPrice": "18.80",
+              "shopId": "10237812",
+              "sku": "10059764176527",
+              "realPrice": "17.80"
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "5308",
+            "skuId": "10059764176527"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "6315",
+              "secondCategory": "6313",
+              "couponInfo": {
+                "quota": "2",
+                "discount": "1",
+                "couponStyle": 0
+              },
+              "realPriceNum": "1",
+              "firstCategory": "1319",
+              "shortTitle": "科巢婴儿童围脖",
+              "title": "科巢婴儿童围脖宝宝棉围巾婴幼儿春秋冬季防风保暖脖套男童女童 博卡普兔子A9 0-9岁",
+              "img_dfs_url": "jfs/t1/88172/13/20340/49800/61c9770dEb4dc4460/0785aa9be4376fd6.jpg",
+              "maxSave": "1.00",
+              "brandId": "520313",
+              "jdPrice": "19.90",
+              "shopId": "10237812",
+              "sku": "10042846474241",
+              "realPrice": "18.90"
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "5308",
+            "skuId": "10042846474241"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "13286",
+              "secondCategory": "1526",
+              "couponInfo": {
+                "quota": "2",
+                "discount": "1",
+                "couponStyle": 0
+              },
+              "realPriceNum": "1",
+              "firstCategory": "1319",
+              "shortTitle": "科巢宝宝吃饭围兜",
+              "title": "科巢宝宝吃饭围兜辅食饭兜防水硅胶婴儿超软儿童围嘴口水兜巾防脏神器 （索菲白）超轻3D（纳米银抑菌）【带收纳盒】",
+              "img_dfs_url": "jfs/t1/203126/39/28563/43565/635d4407E92c23910/836f5df1857a8e4b.jpg",
+              "maxSave": "1.00",
+              "brandId": "520313",
+              "jdPrice": "17.90",
+              "shopId": "10237812",
+              "sku": "10056853308905",
+              "realPrice": "16.90"
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "5308",
+            "skuId": "10056853308905"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "1552",
+              "secondCategory": "1526",
+              "couponInfo": {
+                "quota": "2",
+                "discount": "1",
+                "couponStyle": 0
+              },
+              "realPriceNum": "1",
+              "firstCategory": "1319",
+              "shortTitle": "",
+              "title": "科巢儿童筷子虎口训练筷2-3-6-12岁宝宝学习筷练习筷婴幼儿园家用吃饭二段餐具套装 卡克黄",
+              "img_dfs_url": "jfs/t1/138198/19/28930/88394/63132072Eb464ff8b/a43f9c6cf2783dc9.jpg",
+              "maxSave": "1.00",
+              "brandId": "520313",
+              "jdPrice": "18.80",
+              "shopId": "10237812",
+              "sku": "10059764176523",
+              "realPrice": "17.80"
+            },
+            "recommendReason": "近期1137人购买",
+            "strategyId": "5308",
+            "skuId": "10059764176523"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "6315",
+              "secondCategory": "6313",
+              "couponInfo": {
+                "quota": "2",
+                "discount": "1",
+                "couponStyle": 0
+              },
+              "realPriceNum": "1",
+              "firstCategory": "1319",
+              "shortTitle": "科巢婴儿童围脖",
+              "title": "科巢婴儿童围脖宝宝棉围巾婴幼儿春秋冬季防风保暖脖套男童女童 格拉斯小象A12 0-9岁",
+              "img_dfs_url": "jfs/t1/215353/40/9143/66534/61c9771dEf11335fd/f28cad75d3bb3076.jpg",
+              "maxSave": "1.00",
+              "brandId": "520313",
+              "jdPrice": "19.90",
+              "shopId": "10237812",
+              "sku": "10042846474243",
+              "realPrice": "18.90"
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "5308",
+            "skuId": "10042846474243"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "13286",
+              "secondCategory": "1526",
+              "couponInfo": {
+                "quota": "2",
+                "discount": "1",
+                "couponStyle": 0
+              },
+              "realPriceNum": "1",
+              "firstCategory": "1319",
+              "shortTitle": "科巢宝宝吃饭围兜",
+              "title": "科巢宝宝吃饭围兜辅食饭兜防水硅胶婴儿超软儿童围嘴口水兜巾防脏神器 【纳米银色】超轻3D【纳米银抑菌】",
+              "img_dfs_url": "jfs/t1/111133/6/27596/49681/635d4415E90eef755/950428e03279528a.jpg",
+              "maxSave": "1.00",
+              "brandId": "520313",
+              "jdPrice": "15.90",
+              "shopId": "10237812",
+              "sku": "10056853308906",
+              "realPrice": "14.90"
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "5308",
+            "skuId": "10056853308906"
+          },
+          {
+            "pop": "3",
+            "groupId": "5406",
+            "goodsField": {
+              "thirdCategory": "1552",
+              "secondCategory": "1526",
+              "couponInfo": {
+                "quota": "2",
+                "discount": "1",
+                "couponStyle": 0
+              },
+              "realPriceNum": "1",
+              "firstCategory": "1319",
+              "shortTitle": "",
+              "title": "科巢儿童筷子虎口训练筷2-3-6-12岁宝宝学习筷练习筷婴幼儿园家用吃饭二段餐具套装 戈里蓝",
+              "img_dfs_url": "jfs/t1/136401/12/29103/76465/6313207fE8c15a277/260cc544d724c6d3.jpg",
+              "maxSave": "1.00",
+              "brandId": "520313",
+              "jdPrice": "18.80",
+              "shopId": "10237812",
+              "sku": "10059764176524",
+              "realPrice": "17.80"
+            },
+            "recommendReason": "此商品热销中",
+            "strategyId": "5308",
+            "skuId": "10059764176524"
+          }
+        ]
+      }
+    },
+    "extInfo": {
+      "strategyGroupIdMta": "5308#5406#",
+      "goodsTestId": "tsabtest|base64|QnV5VG9nZXRoZXJfMTQwNTd8Qw|tsabtest&tsabtest|base64|QnV5VG9nZXRoZXJfMTQwNTZ8QQ|tsabtest&tsabtest|base64|QnV5VG9nZXRoZXJfNDIzMnxB|tsabtest&tsabtest|base64|QnV5VG9nZXRoZXJfMTEwMjJ8QQ|tsabtest&tsabtest|base64|QnV5VG9nZXRoZXJfMTYwNDR8QQ|tsabtest"
+    }
+  },
+  "success": true,
+  "message": "success",
+  "class": "com.jd.app.server.teemo.client.vo.TeemoResponse"
+}

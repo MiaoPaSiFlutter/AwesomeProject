@@ -1,0 +1,1462 @@
+{
+	"code": 0,
+	"floors": [{
+		"bId": "eCustom_flo_299",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"isShowAR": false,
+			"threeDSwitch": false,
+			"videoControl": {
+				"autoPlay": false,
+				"masterVideo": {
+					"duration": 29,
+					"imageUrl": "https://jvod.300hu.com/img/2021/81470178/1/img2.jpg",
+					"playBackFlag": false,
+					"playUrl": "https://jvod.300hu.com/vod/product/bddf49ce-369e-4e99-9184-0d7ad9f9a43a/04f891cffbcf44d69e38b6599a1eba58.mp4?source=2&h265=h265/18799/e13a223d7659476c8734ff68d1ed6a63.mp4",
+					"useCoverPicture": false,
+					"videoDuration": "00'29\"",
+					"videoId": "579100993",
+					"videoShare": {
+						"des": "我发现了一个精彩的视频，快来看看吧",
+						"microBlog": "我发现了一个精彩的视频，快来看看吧https://h5.m.jd.com/dev/3UmozpxSyHxMaXRXndHbUhwC4iuN/index.html?skuId=70479667894",
+						"title": "这个小视频不错哦~",
+						"url": "https://h5.m.jd.com/dev/3UmozpxSyHxMaXRXndHbUhwC4iuN/index.html?skuId=70479667894"
+					}
+				},
+				"optimize": true
+			}
+		},
+		"mId": "bpMainImage",
+		"refId": "eMainImage_0000000030",
+		"sortId": 1
+	}, {
+		"bId": "eCustom_flo_505",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"bgc": "#ffffff"
+		},
+		"mId": "bpCjxpUp",
+		"sortId": 2
+	}, {
+		"bId": "eCustom_flo_334",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"bgc": "#ffffff"
+		},
+		"mId": "bpPromot",
+		"refId": "ePromot_0000000051",
+		"sortId": 2
+	}, {
+		"bId": "eCustom_flo_333",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"bgc": "#ffffff"
+		},
+		"mId": "bpSkinBanner",
+		"refId": "eSkinBanner_0000000023",
+		"sortId": 2
+	}, {
+		"bId": "eCustom_flo_508",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"bgc": "#ffffff"
+		},
+		"mId": "bpDsj",
+		"sortId": 2
+	}, {
+		"bId": "eCustom_flo_506",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"bgc": "#ffffff"
+		},
+		"mId": "bpCjxpDown",
+		"sortId": 4
+	}, {
+		"bId": "eCustom_flo_229",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"priceIcon": {
+				"jiangJia": "https://m.360buyimg.com/cc/jfs/t17767/313/1571185437/16553/ad5bc0be/5acdf3deN0078de63.png",
+				"kanJia": "https://m.360buyimg.com/cc/jfs/t18559/311/1506989738/3700/cea16f48/5acdf410N0435a64a.png"
+			},
+			"priceInfo": {
+				"mprice": {
+					"display": true,
+					"name": "参考价：",
+					"value": "4999.00"
+				},
+				"isCut": false,
+				"discount": {
+					"display": true
+				},
+				"jprice": {
+					"display": true,
+					"name": "京东价：",
+					"value": "3599.00"
+				}
+			},
+			"showAttentionPriceFloor": true
+		},
+		"mId": "bpJPrice",
+		"refId": "eJPrice_0000000098",
+		"sortId": 5
+	}, {
+		"bId": "eCustom_flo_207",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"discountPriceInfo": {
+				"crossLinePrice": ""
+			}
+		},
+		"mId": "bpDeprecated",
+		"refId": "eDeprecated_0000000099",
+		"sortId": 6
+	}, {
+		"bId": "eCustom_flo_337",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"bgc": "#ffffff"
+		},
+		"mId": "bpGroup",
+		"refId": "eGroup_0000000006",
+		"sortId": 8
+	}, {
+		"bId": "eCustom_flo_332",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"bgc": "#ffffff"
+		},
+		"mId": "bpSeckill",
+		"refId": "eSeckill_0000000100",
+		"sortId": 8
+	}, {
+		"bId": "eCustom_flo_300",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"showAttention": false
+		},
+		"mId": "bpName",
+		"refId": "eName_0000000015",
+		"sortId": 10
+	}, {
+		"bId": "eCustom_flo_502",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"unitedPLUSExpansion": {
+				"floorDO": {
+					"discount": "37.89元",
+					"iImg": "https://m.360buyimg.com/cc/jfs/t5620/277/5195437445/1126/147d0ac2/595b525dN56017baf.png",
+					"sign": "2",
+					"tailArrow": "https://m.360buyimg.com/cc/jfs/t1/37190/21/1884/640/5cb468e7E0320d6ee/b6b82a415a131526.png",
+					"tailText": "查看详情",
+					"textBeforeDiscount": "续费PLUS年卡预估此单额外省",
+					"url": "https://plus.m.jd.com/rights/renewalGift?SourceCode=6&topInfo=70479667894"
+				},
+				"mmDO": "2&20_4&17.89",
+				"popupDO": {
+					"btnDiscount": "开通PLUS会员，预估优惠37.89元",
+					"jBean": {
+						"discount": "17.89元",
+						"discountText": "抵",
+						"head": "购物返京豆",
+						"notice": "订单完成后，会员预估额外返1789个京豆，可在下次购物时抵现",
+						"ps": "京豆返利规则：返豆数量＝商品实付金额（扣除促销、优惠券等各项优惠后的金额）×50.0%，以最终到账为准，详细规则可在PLUS会员专区查看"
+					},
+					"notice": "实际优惠金额请以结算页下单结果为准",
+					"title": "PLUS会员 享更多优惠",
+					"vip": {
+						"head": "PLUS会员专属优惠",
+						"vipDetail": [{
+							"discount": "20元",
+							"discountText": "省",
+							"head": "PLUS专享券[限时福利]",
+							"notice": "无门槛减20全品类京券（开通年卡后24h内到PLUS专区领取）"
+						}],
+						"discount": "20.00元",
+						"discountText": "共可省"
+					}
+				},
+				"shieldLanded": false
+			}
+		},
+		"mId": "bpPLUSExpandTop",
+		"sortId": 11
+	}, {
+		"bId": "eCustom_flo_199",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"ad": {
+				"adLink": "https://item.jd.com/67953198720.html",
+				"adLinkContent": "查看>",
+				"adword": "【下单送】蓝牙音箱+90天碎屏险+高清水凝膜+保护壳+运费险+全国联保；荣耀magic3系列咨询客服减200元",
+				"color": "#f23030",
+				"hasFold": true,
+				"newALContent": true,
+				"textColor": "#8C8C8C"
+			}
+		},
+		"mId": "bpAdword",
+		"refId": "eAdword_0000000028",
+		"sortId": 13
+	}, {
+		"bId": "eCustom_flo_335",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"bgc": "#ffffff"
+		},
+		"mId": "bpBlank",
+		"refId": "eBlank_0000000102",
+		"sortId": 14
+	}, {
+		"bId": "eCustom_flo_347",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"bgc": "#ffffff"
+		},
+		"mId": "bpInstallment",
+		"refId": "eInstallment_0000000075",
+		"sortId": 20
+	}, {
+		"bId": "eCustom_flo_329",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"bgc": "#ffffff"
+		},
+		"mId": "bpCardFlow",
+		"refId": "eCardFlow_0000000053",
+		"sortId": 24
+	}, {
+		"bId": "eCustom_flo_330",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"bgc": "#ffffff"
+		},
+		"mId": "bpCertify",
+		"refId": "eCertify_0000000004",
+		"sortId": 30
+	}, {
+		"bId": "eCustom_flo_221",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "line"
+		},
+		"data": {
+			"compare": {
+				"action": "1",
+				"compareUrl": "openapp.jdmobile://virtual?params={\"ishidden\":true,\"des\":\"jdreactcommon\",\"appname\":\"JDReactGoodsContrast\",\"param\":{\"cateId\":\"655\",\"action\":\"1\",\"client\":\"app\",\"skuId\":\"70479667894\"},\"modulename\":\"JDReactGoodsContrast\",\"category\":\"jump\",\"h5params\":{}}",
+				"icon": "https://m.360buyimg.com/cc/jfs/t1/148739/25/5766/749/5f3b7655E3954cb13/0e5cd417c4d55d0c.png",
+				"iconName": "商品对比"
+			},
+			"specBuryPoint": "上市时间_后置摄像头_机身厚度_机身内存_屏幕尺寸_屏幕分辨率_前置_热点_摄像头数量_双卡",
+			"title": "规格",
+			"CccKernel": [{
+				"icon": "https://img14.360buyimg.com/imagetools/jfs/t1/124944/18/16514/2381/5f9a2ee0E28728a79/82acd83c7a8ae479.png",
+				"paramName": "上市时间",
+				"paramValue": "2021年6月"
+			}, {
+				"icon": "https://img12.360buyimg.com/imagetools/jfs/t1/138949/36/12419/2615/5f9a2dc7E99fc028f/fbfed26f6a7d938d.png",
+				"paramName": "后置摄像头",
+				"paramValue": "f/1.9"
+			}, {
+				"icon": "https://img11.360buyimg.com/imagetools/jfs/t1/120722/20/16728/3284/5f9a2de6Ef5d53784/78c0897e32318d41.png",
+				"paramName": "机身厚度",
+				"paramValue": "8.05mm"
+			}, {
+				"icon": "https://img14.360buyimg.com/imagetools/jfs/t1/129195/14/16401/1657/5f9a2e30Eb1ad26ff/eac4218ac05e7545.png",
+				"paramName": "机身内存",
+				"paramValue": "256GB"
+			}, {
+				"icon": "https://img11.360buyimg.com/imagetools/jfs/t1/124745/24/16440/1695/5f9a2e61Ec4a782b2/a3593e605aac750d.png",
+				"paramName": "屏幕尺寸",
+				"paramValue": "6.72英寸"
+			}, {
+				"icon": "https://img14.360buyimg.com/imagetools/jfs/t1/149622/4/12463/1942/5f9a2e7bE9b07ce2e/7e9c07f9bf39464e.png",
+				"paramName": "屏幕分辨率",
+				"paramValue": "全高清FHD+"
+			}, {
+				"icon": "https://img11.360buyimg.com/imagetools/jfs/t1/136925/1/14001/2823/5f9a2eaaE10fc114a/6b1f67518bef2c6e.png",
+				"paramName": "前置",
+				"paramValue": "f/2.4"
+			}, {
+				"icon": "https://img14.360buyimg.com/imagetools/jfs/t1/139225/18/12291/2711/5f9a2ec6Ea61fc26e/ab8263a09516abae.png",
+				"paramName": "热点",
+				"paramValue": "NFC,5G,快速充电,曲面屏,屏幕高刷新率"
+			}, {
+				"icon": "https://img10.360buyimg.com/imagetools/jfs/t1/150871/27/4627/2555/5f9a2efcE785f03b9/6e5ebaf24cff605c.png",
+				"paramName": "摄像头数量",
+				"paramValue": "后置四摄"
+			}, {
+				"icon": "https://img13.360buyimg.com/imagetools/jfs/t1/135816/29/13986/1811/5f9a2f11Ea98d8947/6b1f98fc3a439a9b.png",
+				"paramName": "双卡",
+				"paramValue": "双卡双待"
+			}]
+		},
+		"mId": "bpParam",
+		"sortId": 49
+	}, {
+		"bId": "eCustom_flo_462",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip"
+		},
+		"data": {
+			"preferentialGuide": {
+				"couponInfo": [{
+					"addDays": 3,
+					"anotherType": 0,
+					"applicability": true,
+					"area": 0,
+					"batchId": 0,
+					"beginTime": "2021.10.11",
+					"couponId": "0",
+					"couponKind": 1005,
+					"couponStyle": 1001,
+					"couponType": 1001,
+					"discount": 30,
+					"encryptedKey": "PGXwGHpYse4I7lO0zEdoC2tTAL8VhBbj",
+					"endTime": "2021.10.14",
+					"gwcCoupon": {
+						"appid": "warecoresoa",
+						"batchId": "0",
+						"biinfo": "-100",
+						"channel": "商品详情",
+						"channelDetail": "-100",
+						"couponPos": "可领券#0",
+						"couponSource": "cmcGuide",
+						"couponStatus": "0",
+						"getType": 1,
+						"platformid": "app-itemdetail",
+						"skus": "70479667894",
+						"subChannel": "优惠弹层"
+					},
+					"isMultipleDiscount": false,
+					"isOverlap": false,
+					"isPlusCoupon": false,
+					"jrBatchId": "1033306",
+					"labelTxt": "白条券",
+					"limitType": 1,
+					"milliSecond": 0,
+					"name": "限首次使用白条购买指定实物商品可用（虚拟品类、京东国际、众筹、保险、理财等除外）分期产生服务费，仅首次退款优惠券退回",
+					"personalCoupon": false,
+					"platform": 0,
+					"quota": 0,
+					"roleId": 0,
+					"roleIdCBC": "Gjan5grvEJA=",
+					"timeDesc": "2021.10.11-2021.10.14",
+					"tip": "仅选择白条支付时可用",
+					"userRiskLevel": 0
+				}],
+				"whiteBarInfo": {
+					"ava": true,
+					"btUser": true,
+					"login": true,
+					"marketingText": "",
+					"marketingTitle": "白条",
+					"pct": 0,
+					"planId": 1,
+					"planInfos": [{
+						"isMaxdiscount": true,
+						"laterPay": "3599.00",
+						"mainTitle": "不分期",
+						"plan": 1,
+						"planFee": "0.00",
+						"rate": "0.00",
+						"secondTitle": "先用后付，无服务费"
+					}],
+					"secLevelBtnName": "立即打白条",
+					"secLevelTitle": "白条支付"
+				},
+				"iconCode": "detail_var_045",
+				"couponIconText": "领券",
+				"promotion": {
+					"activity": [],
+					"activityTypes": ["10"],
+					"attach": [],
+					"canReturnHaggleInfo": false,
+					"gift": [{
+						"proId": "111683690393",
+						"num": "1",
+						"link": "",
+						"text": "赠品",
+						"value": "华为（HUAWEI） CM33 Type-c版原装有线耳机 三键线控 带麦克风半入耳式 原装手机耳机 华为CM33 Type-c 版黑色（条件：购买1件及以上，赠完即止）",
+						"skuId": "10030545115834"
+					}, {
+						"proId": "111683690393",
+						"num": "1",
+						"link": "",
+						"text": "赠品",
+						"value": "全国联保（荣耀50系列预定版）（条件：购买1件及以上，赠完即止）",
+						"skuId": "10032580936149"
+					}, {
+						"proId": "111683690393",
+						"num": "1",
+						"link": "",
+						"text": "赠品",
+						"value": "品胜无忧卡-碎屏宝季卡（荣耀50系列预定版） 标准版（条件：购买1件及以上，赠完即止）",
+						"skuId": "10032580938954"
+					}, {
+						"proId": "111683690393",
+						"num": "1",
+						"link": "",
+						"text": "赠品",
+						"value": "荣耀50系列 运费险【预定】 运费险（条件：购买1件及以上，赠完即止）",
+						"skuId": "10028494302220"
+					}, {
+						"proId": "111683690393",
+						"num": "1",
+						"link": "",
+						"text": "赠品",
+						"value": "荣耀50pro适用水凝膜（赠品）非荣耀品牌（条件：购买1件及以上，赠完即止）",
+						"skuId": "10032580676718"
+					}, {
+						"proId": "111683690393",
+						"num": "1",
+						"link": "",
+						"text": "赠品",
+						"value": "50pro适用手机壳（赠品）非品牌（条件：购买1件及以上，赠完即止）",
+						"skuId": "10033897542047"
+					}, {
+						"proId": "111683690393",
+						"num": "1",
+						"link": "",
+						"text": "赠品",
+						"value": "无线蓝牙音箱 颜色随机赠送【赠完为止以订单页面为准】（条件：购买1件及以上，赠完即止）",
+						"skuId": "33788153308"
+					}, {
+						"proId": "111683690393",
+						"num": "1",
+						"link": "",
+						"text": "赠品",
+						"value": "10元晒单红包(赠品)（条件：购买1件及以上，赠完即止）",
+						"skuId": "41246279728"
+					}, {
+						"num": "1",
+						"link": "https://aco.m.jd.com?channel=phonepage",
+						"text": "赠品",
+						"value": "【点击领取】限量送超大流量卡",
+						"skuId": ""
+					}],
+					"isBargain": false,
+					"isTwoLine": true,
+					"limitBuyInfo": {
+						"noSaleFlag": "0",
+						"limitNum": "0",
+						"strategyFlag": "0",
+						"isPlusLimit": "0",
+						"limitPeopleFlag": "1",
+						"limitAreaFlag": "1"
+					},
+					"normalMark": "tab_var_071",
+					"plusDiscountMap": {},
+					"plusMark": "tab_var_124",
+					"prompt": "",
+					"screenLiPurMap": {},
+					"tip": "以下促销，可在购物车任选其一",
+					"tips": []
+				},
+				"hasFinanceCoupon": true
+			}
+		},
+		"mId": "bpAggrePromo",
+		"sortId": 51
+	}, {
+		"bId": "eCustom_flo_442",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "white_line_L"
+		},
+		"data": {
+			"actions": {
+				"bigSale": {
+					"bizKey": "gjhsNew",
+					"desc": "旧机赚钱卖高价，金秋至高多卖666元",
+					"descBounce": "旧机赚钱卖高价，金秋至高多卖666元",
+					"icon": "https://m.360buyimg.com/cc/jfs/t1/17024/4/15356/2143/5caeb5efEf90f64a9/f4205d7302e4433c.png",
+					"jumpType": 1,
+					"mustLogin": false,
+					"truthBigSale": false,
+					"url": "https://huishou.m.jd.com/index?s=1&source=3&skuId=70479667894&cid1=9987&cid2=653&cid3=655&province=7&city=412&town=56824&longitude=113.850691&latitude=34.581480&hx=0&IsSXQJ=0&IsYZS=0&menu=0&commodityType=1&activityType=1&localProductParam=LocalProductParam(brand=apple, model=iPhone9,2)"
+				},
+				"bizActs": [{
+					"bizKey": "manyordergift",
+					"desc": "10月通讯品类三单有礼,点击报名参加",
+					"icon": "https://m.360buyimg.com/cc/jfs/t1/46345/16/8309/2519/5d5a7ab0E0be07f9a/9587542907c212cb.png",
+					"jumpType": 1,
+					"mustLogin": false,
+					"truthBigSale": false,
+					"url": "https://h5.m.jd.com/babelDiy/Zeus/39dxXFMNj1BjuogKR22vhwBZHgzA/index.html?id=416&mode=2"
+				}, {
+					"bizKey": "shopactivity",
+					"desc": "店铺秒杀活动，限时抢！",
+					"icon": "https://img10.360buyimg.com/imgzone/jfs/t1/150379/26/9263/4485/5fc5fd0aEcf116246/9eba0735eaeb4de3.png",
+					"jumpType": 2,
+					"mustLogin": false,
+					"truthBigSale": false,
+					"url": "openApp.jdMobile://virtual?params={\"category\":\"jump\",\"des\":\"jshopMain\",\"venderId\":\"784932\",\"jumpTab\":\"secKill\"}"
+				}]
+			}
+		},
+		"mId": "bpActivity",
+		"sortId": 55
+	}, {
+		"bId": "eCustom_flo_309",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip"
+		},
+		"data": {
+			"selected": ""
+		},
+		"mId": "bpChoice",
+		"refId": "eChoice_0000000018",
+		"sortId": 64
+	}, {
+		"bId": "eCustom_flo_253",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "white_line_L"
+		},
+		"data": {
+			"defaultAddr": {
+				"cityId": "412",
+				"cityName": "郑州市",
+				"countyId": "46820",
+				"countyName": "新郑市",
+				"provinceId": "7",
+				"provinceName": "河南",
+				"townId": "56824",
+				"townName": "郑港街道"
+			},
+			"stock": "现货,今日16:00前完成下单，预计10月11日21:00前发货，10月13日24:00前送达",
+			"jdService": false,
+			"imgType": 2
+		},
+		"mId": "bpAddr",
+		"refId": "eAddr_0000000008",
+		"sortId": 69
+	}, {
+		"bId": "eCustom_flo_204",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "white_line_L"
+		},
+		"data": {
+			"fare": "在线支付免运费（请以提交订单时为准）"
+		},
+		"mId": "bpFare",
+		"refId": "eFare_0000000037",
+		"sortId": 70
+	}, {
+		"bId": "eCustom_flo_231",
+		"cf": {
+			"bgc": "#fcfcfc",
+			"spl": "empty"
+		},
+		"data": {
+			"servIconRelation": [{
+				"iconType": "exclamation",
+				"iconValue": "detail_006"
+			}, {
+				"iconType": "right",
+				"iconValue": "detail_005"
+			}],
+			"serviceInfo": {
+				"basic": {
+					"iconList": [{
+						"iconType": "right",
+						"imageUrl": "https://m.360buyimg.com/mobilecms/jfs/t1918/274/1086575987/1970/bc766f2d/5680f4b3N24b48659.png",
+						"jichu": false,
+						"show": true,
+						"sortId": 7,
+						"text": "7天无理由退货（激活后不支持）",
+						"tip": "支持7天无理由退货(激活后不支持)"
+					}, {
+						"iconType": "right",
+						"imageUrl": "https://img20.360buyimg.com/cms/jfs/t19081/162/2287283438/2390/bd04833a/5aeff583N486c49a2.png",
+						"jichu": false,
+						"show": true,
+						"sortId": 7,
+						"text": "一年质保",
+						"tip": "商品自签收之日起一年内出现质保范围内质量问题，商家视情形在规定时效内向消费者提供退换货、免费维修、免费补寄或提供维修费等形式的售后保障服务"
+					}, {
+						"iconType": "right",
+						"imageUrl": "https://img12.360buyimg.com/cms/jfs/t17392/50/2193380502/1757/a1750a73/5aec1d89Nd2d12bd5.png",
+						"jichu": false,
+						"show": true,
+						"sortId": 7,
+						"text": "7天价保",
+						"tip": "此商品支持7天价保，下单7天内前台京东价发生降价可以申请价格保护。"
+					}, {
+						"iconType": "right",
+						"imageUrl": "https://img30.360buyimg.com/mobilecms/g14/M02/0B/19/rBEhV1LL0eMIAAAAAAAGJkJVp5YAAHzEQN_HwoAAAY-499.jpg",
+						"jichu": false,
+						"jumpUrl": "https://prodev.m.jd.com/jdjr/active/3wdBuWUkrT2v7gPNfaP8iguxnmdQ/index.html?showhead=no",
+						"show": true,
+						"sortId": 7,
+						"text": "退换货运费险",
+						"tip": "送运费险"
+					}, {
+						"iconType": "right",
+						"imageUrl": "https://img20.360buyimg.com/cms/jfs/t19081/162/2287283438/2390/bd04833a/5aeff583N486c49a2.png",
+						"jichu": false,
+						"show": true,
+						"sortId": 7,
+						"text": "全国联保",
+						"tip": "消费者购买的商品，可就近选择全国任何地方的品牌售后服务网点享受商品维修或升级服务"
+					}, {
+						"iconType": "right",
+						"imageUrl": "https://m.360buyimg.com/cc/jfs/t26506/115/2085763768/4237/781a667a/5bf7781cN04a64b9e.png",
+						"jichu": false,
+						"show": true,
+						"sortId": 7,
+						"text": "24H发货",
+						"tip": "24点前下单，24小时内发货"
+					}, {
+						"iconType": "right",
+						"imageUrl": "https://m.360buyimg.com/mobilecms/jfs/t2176/234/1856411458/2044/91ae040b/5680f585N70da96a6.png",
+						"jichu": false,
+						"show": true,
+						"sortId": 6,
+						"text": "店铺发货&售后",
+						"tip": "由微炫数码旗舰店发货并提供售后服务"
+					}],
+					"title": "服务说明"
+				}
+			},
+			"isIcon": true
+		},
+		"mId": "bpServe",
+		"refId": "eServe_0000000038",
+		"sortId": 75
+	}, {
+		"bId": "eCustom_flo_496",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip"
+		},
+		"data": {
+			"unitedRank": {
+				"jumpType": "OPENAPP",
+				"arrowPic": "https://m.360buyimg.com/rank/jfs/t1/150553/18/8825/500/5fc73568E201b7eb9/ff5562da1388602f.png",
+				"icon": "https://m.360buyimg.com/rank/jfs/t1/136248/38/18023/4527/5fc7355dEb30639b7/212447ae34dc9d99.png",
+				"floorBgImage": "https://m.360buyimg.com/rank/jfs/t1/137017/16/18232/13551/5fc73563E45a80b1d/e1492c57e773ec56.png",
+				"id": "256755712",
+				"floorPosition": "0",
+				"type": "2",
+				"url": "openapp.jdmobile://virtual?params={\"ishidden\":true,\"des\":\"jdreactcommon\",\"transparentenable\":true,\"appname\":\"JDReactRankingList\",\"param\":{\"innerIndex\":2,\"detailPageType\":\"2\",\"contentId\":\"256755712\",\"fromSkuId\":\"70479667894\"},\"fromName\":\"Productdetail\",\"modulename\":\"JDReactRankingList\",\"category\":\"jump\"}",
+				"fontColor": "#262626",
+				"desc": "画质流畅手机榜第13名"
+			}
+		},
+		"mId": "bpUnionRank",
+		"sortId": 81
+	}, {
+		"bId": "eCustom_flo_302",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip"
+		},
+		"data": {},
+		"mId": "bpEvaluate",
+		"refId": "eEvaluate_0000000007",
+		"sortId": 83
+	}, {
+		"bId": "eCustom_flo_517",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "line"
+		},
+		"data": {
+			"bgc": "#ffffff"
+		},
+		"mId": "bpAsk",
+		"refId": "eAsk_0000000044",
+		"sortId": 84
+	}, {
+		"bId": "eCustom_flo_239",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip"
+		},
+		"data": {
+			"darkModel": false,
+			"eventId": "Productdetail",
+			"tenthRevision": false,
+			"bizList": [{
+				"bizKey": "redCard",
+				"icon": "https://m.360buyimg.com/cc/jfs/t8746/206/1817663053/1477/344350f9/59bfa60fNd6d66c7c.png",
+				"title": "手机靓号 ",
+				"type": 1,
+				"url": "https://pro.m.jd.com/mall/active/37KLd8my2W19ekZLTHsz5WvEx7uu/index.html",
+				"mustLogin": false,
+				"desc": "不换号一键升5G"
+			}, {
+				"bizKey": "ensure",
+				"icon": "https://m.360buyimg.com/mobilecms/jfs/t1156/166/1499324257/1982/49bdbf10/572c6869N578efca5.png",
+				"jumpData": {
+					"bizType": 2
+				},
+				"title": "保障服务",
+				"type": 3,
+				"url": "2",
+				"mustLogin": false,
+				"desc": "为商品保驾护航"
+			}],
+			"slide": {
+				"slideSelect": "#F0250F",
+				"slideColor": "#e3e5e9"
+			}
+		},
+		"mId": "bpBusSupport",
+		"refId": "eBusSupport_0000000019",
+		"sortId": 86
+	}, {
+		"bId": "eCustom_flo_331",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip"
+		},
+		"data": {
+			"track": {
+				"floorId": "flo_331",
+				"shopId": "",
+				"skuId": ""
+			},
+			"bgc": "#ffffff"
+		},
+		"mId": "bpShop",
+		"refId": "eShop_0000000012",
+		"sortId": 88
+	}, {
+		"bId": "bpParts_flo_295",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip"
+		},
+		"data": {
+			"jumpType": 1,
+			"text3C": "#000000",
+			"text1C": "#2E2D2D",
+			"text3Bgc": "#F9F9F9",
+			"text2C": "#2E2D2D",
+			"text1B": true,
+			"buried": "Productdetail",
+			"imgInfo": [{
+				"imgUrl": "https://img12.360buyimg.com/img/jfs/t1/157488/30/8388/6259/603311cbEb6b03a8f/cc0ffc4aab14b466.jpg",
+				"imgText": "直插充电器",
+				"imgJumpType": 1,
+				"imgJumpUrl": "https://3c-peijian.jd.com/index?cid=655&sku=70479667894&source=itemDetail&accyCategoryId=12"
+			}, {
+				"imgUrl": "https://img12.360buyimg.com/img/jfs/t1/35794/7/2043/7048/5cb9ce74Eabf015ac/37b91e86245190d6.png",
+				"imgText": "移动电源",
+				"imgJumpType": 1,
+				"imgJumpUrl": "https://3c-peijian.jd.com/index?cid=655&sku=70479667894&source=itemDetail&accyCategoryId=10"
+			}, {
+				"imgUrl": "https://img12.360buyimg.com/img/jfs/t1/155700/26/10340/11456/6030d667Eb583900d/c127d58334a882ec.jpg",
+				"imgText": "数据线",
+				"imgJumpType": 1,
+				"imgJumpUrl": "https://3c-peijian.jd.com/index?cid=655&sku=70479667894&source=itemDetail&accyCategoryId=13"
+			}, {
+				"imgUrl": "https://img12.360buyimg.com/img/jfs/t1/174598/6/18860/8889/60e7c202Ee0512454/67aecd800e1469fa.jpg",
+				"imgText": "耳机/耳麦",
+				"imgJumpType": 1,
+				"imgJumpUrl": "https://3c-peijian.jd.com/index?cid=655&sku=70479667894&source=itemDetail&accyCategoryId=966"
+			}, {
+				"imgUrl": "https://img12.360buyimg.com/img/jfs/t1/171267/10/7097/4845/6030d632E60844f44/c12c6abcb123b04d.jpg",
+				"imgText": "手机耳机",
+				"imgJumpType": 1,
+				"imgJumpUrl": "https://3c-peijian.jd.com/index?cid=655&sku=70479667894&source=itemDetail&accyCategoryId=286"
+			}, {
+				"imgUrl": "https://img12.360buyimg.com/img/jfs/t1/40612/18/452/17692/5cc265b6Ed82d1bf5/24bbf9d972a05e1c.png",
+				"imgText": "蓝牙耳机",
+				"imgJumpType": 1,
+				"imgJumpUrl": "https://3c-peijian.jd.com/index?cid=655&sku=70479667894&source=itemDetail&accyCategoryId=16"
+			}, {
+				"imgUrl": "https://img12.360buyimg.com/img/jfs/t1/79129/24/14200/31350/5db94896E90a92bf6/fbdecb9b982071e0.png",
+				"imgText": "手机支架",
+				"imgJumpType": 1,
+				"imgJumpUrl": "https://3c-peijian.jd.com/index?cid=655&sku=70479667894&source=itemDetail&accyCategoryId=254"
+			}],
+			"jumpUrl": "https://3c-peijian.jd.com/index?cid=655&sku=70479667894&source=itemDetail&accyCategoryId=-99999",
+			"tailIcon": "https://m.360buyimg.com/cc/jfs/t20419/242/1733633141/407/d3fcd52b/5b31f170Neb3e95e0.png",
+			"text3": "",
+			"text3S": 24,
+			"text1": "热门配件",
+			"text1S": 26,
+			"text2": "查看全部",
+			"text2S": 24,
+			"tailIconH": 20,
+			"viewMore": true,
+			"bgc": "#ffffff"
+		},
+		"mId": "bpParts",
+		"refId": "eAccyCenter_0000000056",
+		"sortId": 90
+	}, {
+		"bId": "eCustom_flo_339",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip"
+		},
+		"data": {
+			"recommend": ""
+		},
+		"mId": "bpRecommend",
+		"refId": "eRecommend_0000000034",
+		"sortId": 92
+	}, {
+		"bId": "eCustom_flo_307",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip"
+		},
+		"data": {
+			"bgc": "#ffffff"
+		},
+		"mId": "bpDetails",
+		"refId": "eDetails_0000000000",
+		"sortId": 94
+	}, {
+		"bId": "eCustom_flo_201",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"templateType": "normal",
+			"topOn": false,
+			"colorSizeInfo": {
+				"colorSize": [{
+					"buttons": [{
+						"no": "7",
+						"skuList": ["10033794755513", "10035005135858", "70479667894"],
+						"text": "初雪水晶"
+					}, {
+						"no": "8",
+						"skuList": ["10036300214247", "10036300214248", "10036300214249"],
+						"text": "荣耀密码"
+					}, {
+						"no": "22",
+						"skuList": ["10033794755514", "10035005135859", "70479667895"],
+						"text": "亮黑色"
+					}, {
+						"no": "23",
+						"skuList": ["10033794755515", "10035005135860", "70479667896"],
+						"text": "夏日琥珀"
+					}, {
+						"no": "24",
+						"skuList": ["10033794755516", "10035005135861", "70479667897"],
+						"text": "墨玉青"
+					}],
+					"title": "颜色"
+				}, {
+					"buttons": [{
+						"no": "1",
+						"skuList": ["10036300214247", "70479667894", "70479667895", "70479667896", "70479667897"],
+						"text": "8GB+256GB【华为耳机套装】"
+					}, {
+						"no": "6",
+						"skuList": ["10033794755513", "10033794755514", "10033794755515", "10033794755516", "10036300214248"],
+						"text": "全网通(8GB+256GB)套装"
+					}, {
+						"no": "7",
+						"skuList": ["10035005135858", "10035005135859", "10035005135860", "10035005135861", "10036300214249"],
+						"text": "8GB+256GB【15个月碎屏险套装】"
+					}],
+					"title": "版本"
+				}],
+				"colorSizeTips": "#与其他已选项无法组成可售商品，请重选"
+			},
+			"isOpenCar": true,
+			"promotionPoint": {
+				"promotionSkinPoint": "0",
+				"promotionTagPoint": "0"
+			},
+			"supportSale": true,
+			"abTest800": true,
+			"jdSerPlusInfo": {
+				"jdSerPlusUrl": "https://m-weixiu.jd.com/spbuy/getServicePlusInfo?pid=70479667894,7,412,46820,56824,",
+				"jdSerPlusList": [{
+					"products": [{
+						"discount": "云充电无限换",
+						"goldSafe": false,
+						"itemIndex": 1,
+						"serviceSku": "100014997134",
+						"serviceSkuAdWord": "不用充电+可随处换壳的黑科技充电宝",
+						"serviceSkuPrice": "129.00",
+						"serviceSkuShortName": "黑科技充电宝"
+					}],
+					"scIconUrl": "https://img30.360buyimg.com/test/jfs/t19900/129/209360534/1863/c00239fd/5aebb3a8N6f74bbd1.png",
+					"scId": 477,
+					"scName": "DIY服务",
+					"scOrder": 1
+				}],
+				"jdSerPlusTitle": "京东服务+"
+			},
+			"yuyueInfo": {
+				"isYuYue": false,
+				"isbuyTime": false,
+				"mad": false,
+				"plusType": 0,
+				"showDraw": false,
+				"yuYue": false,
+				"yuyueNum": 0
+			},
+			"isOpenNode": true,
+			"rankName": "画质流畅手机榜第13名",
+			"property": {
+				"isJzfp": false,
+				"newReceiveCoupon": true,
+				"suitABTest": 1,
+				"buyMaxNum": 200,
+				"isJnbtNewText": false,
+				"plus20Flag": false,
+				"easyBuy": true,
+				"isFxyl": false,
+				"isRegisterUser": false,
+				"isFlimPrint": "",
+				"isShowShopNameB": false,
+				"dpgRevisionFlag": true,
+				"showEmptyPrice": false,
+				"threeSuperFlag": false,
+				"noStockOrder": false,
+				"virtualCardUrl": "https://gamerecg.m.jd.com?skuId=70479667894&chargeType=655&skuName=荣耀50pro手机 5G手机 支持NFC功能 初雪水晶 8GB+256GB【华为耳机套装】&skuPrice=3599.00",
+				"isfans": true,
+				"batchReceiveCoupon": true,
+				"addAndSubToast": {
+					"lowestToastText": "最少购买1件哦！"
+				},
+				"isEasyBuyPrice": true,
+				"isRx": false,
+				"sdkDegrade": false,
+				"stockNotice": false,
+				"opForIos": true,
+				"treatyIntroUrl": "https://pro.m.jd.com/mall/active/Zwdz5grwF8fTpiha3XVNGHu2kaU/index.html",
+				"isCollect": false,
+				"recTabEnable": true,
+				"isJx": false,
+				"isOTC": "0",
+				"cartFlag": true,
+				"wareImageTest": "",
+				"treatyIntroText": "合约机购买说明",
+				"brandId": "413457",
+				"isOP": false,
+				"isPop": true,
+				"androidImageSwitch": true,
+				"shareUrl": "https://item.m.jd.com/product/70479667894.html",
+				"chatUrl": "https://m.360buyimg.com/n3/jfs/t1/206285/27/3978/498554/612f3af2Ea6a63764/99adb2ec3893126c.jpg.webp",
+				"evaluateTabEnable": true,
+				"category": "9987;653;655",
+				"isRegularPrice": true,
+				"isEncrypt": true
+			},
+			"leVieuxFusil": false,
+			"newStyle": false,
+			"miaoshaInfo": {
+				"icon": "detail_027",
+				"msTrailer": "10月12日00:00 秒杀价¥3589.00",
+				"seckillType": "3",
+				"startTime": 1633968000000,
+				"state": 1
+			},
+			"yanBaoInfo": {
+				"yanBaoUrl": "https://baozhang.jd.com/static/serviceDesc",
+				"yanBaoTitle": "京东保障服务",
+				"yanBaoDetailUrl": "https://b.jr.jd.com/service/serveIntroduce/#/introduce3?mainSkuId=70479667894&brandId=413457&thirdCategoryId=655&bindSkuId=",
+				"yanBaoList": [{
+					"imgurl": "https://img30.360buyimg.com/fuwu/jfs/t1/158438/10/701/763/5fec13e2E02477cf7/2b89ca11304f0684.png",
+					"productId": 70479667894,
+					"products": [{
+						"discount": "送2年电池换新",
+						"platformPid": 10027611838011,
+						"price": "169.00",
+						"sortName": "2年碎屏换屏",
+						"tip": "磕碰挤压意外致碎屏免费换屏1次"
+					}, {
+						"platformPid": 10028286175305,
+						"price": "109.00",
+						"sortName": "1年碎屏换屏",
+						"tip": "磕碰挤压意外碎屏免费换屏"
+					}, {
+						"discount": "↓维修换原厂屏",
+						"platformPid": 10026377482562,
+						"price": "169.00",
+						"sortName": "1年碎屏保修",
+						"tip": "意外碎屏免费换原厂屏1次"
+					}],
+					"sortName": "屏幕保护（碎屏无忧）"
+				}, {
+					"imgurl": "https://img30.360buyimg.com/fuwu/jfs/t1/149480/36/16725/1913/5fc5f16dEb6dd16c6/2e1886937795a770.png",
+					"productId": 70479667894,
+					"products": [{
+						"discount": "进液、电池也保",
+						"platformPid": 10028304677134,
+						"price": "229.00",
+						"sortName": "2年全保修+",
+						"tip": "三包/意外/电池故障免费维修"
+					}, {
+						"discount": "赠自拍杆单独送",
+						"platformPid": 10024822904467,
+						"price": "328.00",
+						"sortName": "3年全保修",
+						"tip": "三包/意外故障免费维修"
+					}, {
+						"discount": "含保值换新补贴",
+						"platformPid": 68970410075,
+						"price": "249.00",
+						"sortName": "2年京享无忧",
+						"tip": "2年原厂全保修+升级补3百元"
+					}],
+					"sortName": "故障维修"
+				}, {
+					"imgurl": "https://img30.360buyimg.com/fuwu/jfs/t1/153613/38/7946/1416/5fc5f18eEc8350811/b75997eb49ce57ed.png",
+					"productId": 70479667894,
+					"products": [{
+						"discount": "↓换原厂电池",
+						"platformPid": 10031249666225,
+						"price": "39.00",
+						"sortName": "2年电池换新",
+						"tip": "电池续航不足6小时免费换原厂电池"
+					}, {
+						"platformPid": 55039501435,
+						"price": "229.00",
+						"sortName": "1年免费换新",
+						"tip": "三包性能故障免费换JD新机"
+					}],
+					"sortName": "故障换新"
+				}]
+			},
+			"priceLabel": "¥",
+			"discountPriceInfo": {
+				"crossLinePrice": ""
+			},
+			"abTestInfo": {
+				"addCarRecommendAB": false,
+				"askMedicineInfoAb": false,
+				"attentionAB": "A",
+				"changeButtonIsRed": true,
+				"collectABInfo": {
+					"bottom3ABTest": true,
+					"bottom4ABTest": true,
+					"titleABTest": true
+				},
+				"darkModel": false,
+				"easyDelAB": true,
+				"evaluateAB": false,
+				"feedBackAB": true,
+				"hasChangeButton": true,
+				"hospitalAB": "A",
+				"hwShare": false,
+				"newUser": false,
+				"newuserFreeAb": false,
+				"noBotmShop": false,
+				"packABTest": 1,
+				"qaUpAb": false,
+				"rankYhTag": true,
+				"recommendPopup": true,
+				"recommendYhTag": true,
+				"shareM": "a",
+				"shareShield": false,
+				"shopABTest": "a",
+				"shopCardTypeAb": true,
+				"shopExtendsAb": true,
+				"shopIntensifyAB": true,
+				"shopPromotionAB": "B",
+				"show3cService": true,
+				"showBuyLayer": true,
+				"skuSource": 0,
+				"specialSelectAB": true,
+				"toABTest": true
+			},
+			"shopInfo": {
+				"shopTag": {
+					"priority": 4,
+					"shopMark": "jdhd",
+					"tagIcon": "tab_115"
+				},
+				"shop": {
+					"afterSaleGrade": "高",
+					"afterSaleScore": "9.06",
+					"afterSaleTxt": "售后",
+					"avgEfficiencyScore": 0.0,
+					"avgServiceScore": 0.0,
+					"avgWareScore": 0.0,
+					"bigAtmosphere": false,
+					"brief": "官网正品|全国联保|急速发货|电子发票",
+					"cardType": 3,
+					"cateGoodShop": 0,
+					"diamond": false,
+					"efficiencyScore": 0.0,
+					"evaluateGrade": "中",
+					"evaluateScore": "9.56",
+					"evaluateTxt": "评价",
+					"followCount": 389466,
+					"followText": "关注人数",
+					"giftIcon": "",
+					"globalGoodShop": 0,
+					"goodShop": 1,
+					"hasCoupon": false,
+					"hotcates": [{
+						"cardId": "-100",
+						"categoryType": 1,
+						"cid": 8937507,
+						"cname": "华为",
+						"commendSkuId": 10020796850112,
+						"imgPath": "https://img11.360buyimg.com/cms/jfs/t1/193820/15/607/110621/608ba424E3c712ef5/3bd1236d2ca24d4e.jpg"
+					}, {
+						"cardId": "-100",
+						"categoryType": 1,
+						"cid": 8937508,
+						"cname": "荣耀",
+						"commendSkuId": 10034894271714,
+						"imgPath": "https://img11.360buyimg.com/cms/jfs/t1/201048/39/9883/163199/615c3ec2E73bf2f4c/16d6fb8b67963f65.jpg"
+					}, {
+						"cardId": "-100",
+						"categoryType": 1,
+						"cid": 10785702,
+						"cname": "Apple",
+						"commendSkuId": 68574042077,
+						"imgPath": "https://img11.360buyimg.com/cms/jfs/t1/178547/38/9262/779022/60c804a2Ee3b669ab/f10f36582616b14c.png"
+					}, {
+						"cardId": "-100",
+						"categoryType": 1,
+						"cid": 10905938,
+						"cname": "小米",
+						"commendSkuId": 10034887367076,
+						"imgPath": "https://img11.360buyimg.com/cms/jfs/t1/204373/29/1811/128267/611b788dEedde9a17/1493b2a9a8d24ce0.jpg"
+					}],
+					"isSquareLogo": true,
+					"logisticsGrade": "中",
+					"logisticsScore": "8.86",
+					"logisticsText": "物流",
+					"logisticsTxt": "物流",
+					"logo": "https://img11.360buyimg.com/cms/jfs/t1/110312/14/12344/1177/5e9670eeEb6fe6af0/8d65c39d18e9647c.png",
+					"name": "微炫数码旗舰店",
+					"nameB": "微炫数码旗舰店",
+					"newNum": 0,
+					"promotionNum": 0,
+					"promotions": [{
+						"name": "限时秒杀",
+						"url": "openApp.jdMobile://virtual?params={\"category\":\"jump\",\"des\":\"jshopMain\",\"jumpTab\":\"secKill\",\"shopId\":\"780775\",\"venderId\":\"784932\",\"shopName\":\"微炫数码旗舰店\",\"logoUrl\":\"https://img11.360buyimg.com/cms/jfs/t1/110312/14/12344/1177/5e9670eeEb6fe6af0/8d65c39d18e9647c.png\",\"signboardUrl\":\"https://img11.360buyimg.com/cms/jfs/t1/99821/5/185/199503/5da95b93E74f43c54/9f755e0f40dc364d.jpg\",\"activityTabInfo\":{},\"source\":{\"moduleId\":\"app-productDetail\",\"entrance\":\"商详卡片\"}}"
+					}, {
+						"name": "满189减10元",
+						"url": "openApp.jdMobile://virtual?params={\"category\":\"jump\",\"des\":\"jshopMain\",\"jumpTab\":\"activity\",\"shopId\":\"780775\",\"venderId\":\"784932\",\"shopName\":\"微炫数码旗舰店\",\"logoUrl\":\"https://img11.360buyimg.com/cms/jfs/t1/110312/14/12344/1177/5e9670eeEb6fe6af0/8d65c39d18e9647c.png\",\"signboardUrl\":\"https://img11.360buyimg.com/cms/jfs/t1/99821/5/185/199503/5da95b93E74f43c54/9f755e0f40dc364d.jpg\",\"activityTabInfo\":{\"promotionTitleId\":\"110458202773\"},\"source\":{\"moduleId\":\"app-productDetail\",\"entrance\":\"商详卡片\"}}"
+					}, {
+						"name": "满289减20元",
+						"url": "openApp.jdMobile://virtual?params={\"category\":\"jump\",\"des\":\"jshopMain\",\"jumpTab\":\"activity\",\"shopId\":\"780775\",\"venderId\":\"784932\",\"shopName\":\"微炫数码旗舰店\",\"logoUrl\":\"https://img11.360buyimg.com/cms/jfs/t1/110312/14/12344/1177/5e9670eeEb6fe6af0/8d65c39d18e9647c.png\",\"signboardUrl\":\"https://img11.360buyimg.com/cms/jfs/t1/99821/5/185/199503/5da95b93E74f43c54/9f755e0f40dc364d.jpg\",\"activityTabInfo\":{\"promotionTitleId\":\"110457773189\"},\"source\":{\"moduleId\":\"app-productDetail\",\"entrance\":\"商详卡片\"}}"
+					}, {
+						"name": "满429减20元",
+						"url": "openApp.jdMobile://virtual?params={\"category\":\"jump\",\"des\":\"jshopMain\",\"jumpTab\":\"activity\",\"shopId\":\"780775\",\"venderId\":\"784932\",\"shopName\":\"微炫数码旗舰店\",\"logoUrl\":\"https://img11.360buyimg.com/cms/jfs/t1/110312/14/12344/1177/5e9670eeEb6fe6af0/8d65c39d18e9647c.png\",\"signboardUrl\":\"https://img11.360buyimg.com/cms/jfs/t1/99821/5/185/199503/5da95b93E74f43c54/9f755e0f40dc364d.jpg\",\"activityTabInfo\":{\"promotionTitleId\":\"110458179698\"},\"source\":{\"moduleId\":\"app-productDetail\",\"entrance\":\"商详卡片\"}}"
+					}],
+					"score": 0.0,
+					"scoreText": "综合评分",
+					"serverText": "服务",
+					"serviceScore": 0.0,
+					"shopActivityTotalNum": 0,
+					"shopId": 780775,
+					"shopImage": "https://img14.360buyimg.com/cms/jfs/t1/128210/7/5398/135043/5ef0729cEd25fa337/514c15b5ec8f4cdd.jpg",
+					"shopStateText": "店铺动态",
+					"showSignboardUrl": false,
+					"signboardUrl": "https://img11.360buyimg.com/cms/jfs/t1/99821/5/185/199503/5da95b93E74f43c54/9f755e0f40dc364d.jpg",
+					"skuCntText": "全部商品",
+					"skuText": "商品",
+					"source": 6,
+					"squareLogo": "https://img11.360buyimg.com/cms/jfs/t1/117168/40/1260/26502/5e96726aEf87c1211/7e1b610bbc16412c.jpg",
+					"telephone": "",
+					"totalNum": 165,
+					"venderType": "0",
+					"wareScore": 0.0
+				},
+				"customerService": {
+					"hasChat": true,
+					"hasJimi": false,
+					"allGoodJumpUrl": "openApp.jdMobile://virtual?params={\"category\":\"jump\",\"des\":\"jshopMain\",\"shopId\":\"780775\",\"venderId\":\"784932\",\"jumpTab\":\"allProduct\"}",
+					"mLink": "https://m.jd.com/product/70479667894.html",
+					"online": true,
+					"inShopLookJumpUrl": "openApp.jdMobile://virtual?params={\"category\":\"jump\",\"des\":\"jshopMain\",\"shopId\":\"780775\",\"venderId\":\"784932\",\"jumpTab\":\"home\"}",
+					"chatInfo": {
+						"allGoodIcon": "detail_030",
+						"allGoodText": "精选商品",
+						"bottomIcon": "detail_044",
+						"bottomText": "客服",
+						"isBubble": false,
+						"isBubbleHV": false,
+						"shopIcon": "detail_044",
+						"shopText": "联系客服"
+					}
+				}
+			},
+			"flashInfo": {
+				"cd": 0,
+				"state": 0
+			},
+			"isDesCbc": true,
+			"proPageWhiteBarInfo": {
+				"planInfos": [{
+					"btDefaultPlanId": 1,
+					"laterPay": "3599.00",
+					"mainTitle": "不分期",
+					"plan": 1,
+					"planFee": "0.00",
+					"rate": "0.00",
+					"secondTitle": "0服务费"
+				}, {
+					"btDefaultPlanId": 3,
+					"laterPay": "1239.25",
+					"mainTitle": "¥1239.25 x 3期",
+					"plan": 3,
+					"planFee": "39.59",
+					"rate": "1.10",
+					"secondTitle": "含服务费¥39.59/期"
+				}, {
+					"btDefaultPlanId": 6,
+					"laterPay": "639.44",
+					"mainTitle": "¥639.44 x 6期",
+					"plan": 6,
+					"planFee": "39.59",
+					"rate": "1.10",
+					"secondTitle": "含服务费¥39.59/期"
+				}, {
+					"btDefaultPlanId": 12,
+					"laterPay": "339.47",
+					"mainTitle": "¥339.47 x 12期",
+					"plan": 12,
+					"planFee": "39.59",
+					"rate": "1.10",
+					"secondTitle": "含服务费¥39.59/期"
+				}, {
+					"btDefaultPlanId": 24,
+					"laterPay": "189.51",
+					"mainTitle": "¥189.51 x 24期",
+					"plan": 24,
+					"planFee": "39.59",
+					"rate": "1.10",
+					"secondTitle": "含服务费¥39.59/期"
+				}],
+				"pmkt": "",
+				"topText": "白条"
+			},
+			"isNewPP": true,
+			"isOpen": true,
+			"jumpToProduct": false,
+			"jdwlType": 0,
+			"liveInfo": {
+				"openapp": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"sourceValue\":\"sourceValue_test\",\"sourceType\":\"sourceType_test\",\"des\":\"LivePlayerRoom\",\"id\":\"4835424\",\"isNeedVideo\":true,\"sku\":\"70479667894\",\"liveOrigin\":\"20\"}",
+				"livePic": "https://m.360buyimg.com/livecms/jfs/t1/151981/32/1801/42950/5f8026adE7ffe14fc/f4e32e67b428d8fb.gif",
+				"liveType": "0",
+				"indexImage": "",
+				"screen": "",
+				"isCloseDetailLive": false,
+				"title": "直播中",
+				"h5pullUrl": "",
+				"liveId": "4835424"
+			},
+			"eventParam": {
+				"sep": "{\"area\":\"7_412_46820_56824\",\"sku\":[[\"70479667894\",\"3599.00\",\"现货,今日16:00前完成下单，预计10月11日21:00前发货，10月13日24:00前送达\",\"33\",\"0\"]]}"
+			},
+			"rankType": 5,
+			"webCast": {
+				"bottomPicFlag": 1,
+				"ejectText": "店铺直播",
+				"iconUrl": "https://m.360buyimg.com/mobilecal/jfs/t1/111482/9/15141/13251/5f3a285dEd0c9e981/bfe085c8766ca0d9.gif",
+				"liveStatus": "1",
+				"popupIcon": "https://m.360buyimg.com/cc/jfs/t1/74551/6/13853/1603/5db2c816E31a432b3/6871e8c02b3bb21f.png",
+				"shopFloorText1": "直播中",
+				"shopIcon": "https://m.360buyimg.com/cc/jfs/t1/93246/32/717/3522/5db2c7e2Eb494766c/cde4700a1343c30e.png",
+				"shopList": [{
+					"price": "239.00",
+					"skuId": "10035158569146",
+					"skuImg": "https://m.360buyimg.com/mobilecms/jfs/t1/191087/29/9874/134450/60d2d2f1Eae0155df/0f7cac54ff797afe.jpg"
+				}, {
+					"price": "2899.00",
+					"skuId": "10037742101121",
+					"skuImg": "https://m.360buyimg.com/mobilecms/jfs/t1/201773/34/8509/124278/61518464E963adb3e/200beb4eaf115ee8.jpg"
+				}, {
+					"price": "2699.00",
+					"skuId": "10037572694670",
+					"skuImg": "https://m.360buyimg.com/mobilecms/jfs/t1/198359/9/9892/94358/614d6113Ef002e7f8/5a815519d59b549f.jpg"
+				}],
+				"skuShowtime": "7",
+				"styleType": "2",
+				"text": "买5G手机找主播领券下单更优惠",
+				"url": "openapp.jdmobile://virtual?params={\"liveOrigin\":\"20\",\"des\":\"LivePlayerRoom\",\"sourceType\":\"sourceValue_test\",\"needLogin\":\"0\",\"id\":\"5496422\",\"sourceValue\":\"sourceValue_test\",\"category\":\"jump\"}"
+			},
+			"priceInfo": {
+				"rangePriceFlag": false,
+				"originPrice": "4699.00",
+				"jprice": "3599.00"
+			},
+			"showAttentionButton": true,
+			"tenthRevision": false,
+			"attentionInfo": {
+				"txt2": "已收藏",
+				"txt1": "收藏"
+			},
+			"showHongmengBtn": true,
+			"buttonInfo": {
+				"main": {
+					"bgColor": "#FFA600,#FFB000,#FFBC00;#E59500,#E59B00,#E6A800;#bfbfbf,#bfbfbf,#bfbfbf",
+					"name": "立即购买",
+					"source": 0,
+					"textColor": "#ffffffff",
+					"type": 1
+				},
+				"second": {
+					"bgColor": "#F10000,#FF2000,#FF4F18;#D80000,#E51C00,#E54615;#bfbfbf,#bfbfbf,#bfbfbf",
+					"name": "加入购物车",
+					"source": 0,
+					"textColor": "#ffffffff",
+					"type": 0
+				}
+			},
+			"bottomButtonInfo": {
+				"leftButtonInfo": {
+					"buttonBusiness": "businessCommonGoods",
+					"buttonDisableColor": "#bfbfbf,#bfbfbf,#bfbfbf",
+					"buttonEnable": true,
+					"buttonEvent": 1,
+					"buttonHightColor": "#D80000,#E51C00,#E54615",
+					"buttonNeedLogin": false,
+					"buttonNormalColor": "#F10000,#FF2000,#FF4F18",
+					"buttonPriority": 240,
+					"buttonText": "加入购物车",
+					"buttonTextColor": "#ffffffff"
+				},
+				"rightButtonInfo": {
+					"buttonBusiness": "businessCommonGoods",
+					"buttonDisableColor": "#bfbfbf,#bfbfbf,#bfbfbf",
+					"buttonEnable": true,
+					"buttonEvent": 2,
+					"buttonHightColor": "#E59500,#E59B00,#E6A800",
+					"buttonNeedLogin": false,
+					"buttonNormalColor": "#FFA600,#FFB000,#FFBC00",
+					"buttonPriority": 240,
+					"buttonText": "立即购买",
+					"buttonTextColor": "#ffffffff"
+				}
+			},
+			"pointInfo": {
+				"isShowAr": false,
+				"discountPrice": "1"
+			},
+			"wareImage": [{
+				"small": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/206285/27/3978/498554/612f3af2Ea6a63764/99adb2ec3893126c.jpg!q70.dpg.webp",
+				"big": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/206285/27/3978/498554/612f3af2Ea6a63764/99adb2ec3893126c.jpg!q70.dpg.webp",
+				"share": "https://m.360buyimg.com/mobilecms/s120x120_jfs/t1/206285/27/3978/498554/612f3af2Ea6a63764/99adb2ec3893126c.jpg!q70.jpg"
+			}, {
+				"small": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/71146/1/16546/84287/60ecf88cEfb9da0d4/40e2eb7f08eea325.jpg!q70.dpg.webp",
+				"big": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/71146/1/16546/84287/60ecf88cEfb9da0d4/40e2eb7f08eea325.jpg!q70.dpg.webp"
+			}, {
+				"small": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/196532/19/12846/27886/60ecf88cEbc748a15/879ad2cc186cccbf.jpg!q70.dpg.webp",
+				"big": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/196532/19/12846/27886/60ecf88cEbc748a15/879ad2cc186cccbf.jpg!q70.dpg.webp"
+			}, {
+				"small": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/39254/3/15661/81446/60ecf88cEf4de9c8d/619c8f5992dda0f7.jpg!q70.dpg.webp",
+				"big": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/39254/3/15661/81446/60ecf88cEf4de9c8d/619c8f5992dda0f7.jpg!q70.dpg.webp"
+			}, {
+				"small": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/182284/15/13860/24775/60ecf88cE0aedf2a4/1b69e9c1885340d8.jpg!q70.dpg.webp",
+				"big": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/182284/15/13860/24775/60ecf88cE0aedf2a4/1b69e9c1885340d8.jpg!q70.dpg.webp"
+			}, {
+				"small": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/188118/40/12962/59867/60ecf88cEa750b0a7/f934fdced7ea1268.jpg!q70.dpg.webp",
+				"big": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/188118/40/12962/59867/60ecf88cEa750b0a7/f934fdced7ea1268.jpg!q70.dpg.webp"
+			}, {
+				"small": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/176583/38/19613/20941/60ecf88cEf13b0a8d/0506cd31399f3644.jpg!q70.dpg.webp",
+				"big": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/176583/38/19613/20941/60ecf88cEf13b0a8d/0506cd31399f3644.jpg!q70.dpg.webp"
+			}, {
+				"small": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/188712/7/12971/13680/60ecf88cE063eaa00/453fa3d33e431de1.jpg!q70.dpg.webp",
+				"big": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/188712/7/12971/13680/60ecf88cE063eaa00/453fa3d33e431de1.jpg!q70.dpg.webp"
+			}, {
+				"small": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/43056/3/16558/15844/60ecf88cE1ad1a7ab/b06dea2aae18b072.jpg!q70.dpg.webp",
+				"big": "https://m.360buyimg.com/mobilecms/s800x800_jfs/t1/43056/3/16558/15844/60ecf88cE1ad1a7ab/b06dea2aae18b072.jpg!q70.dpg.webp"
+			}],
+			"oldMoreStyle": false,
+			"wareInfo": {
+				"name": "荣耀50pro手机 5G手机 支持NFC功能 初雪水晶 8GB+256GB【华为耳机套装】",
+				"venderId": "784932",
+				"skuId": "70479667894"
+			},
+			"promotionInfo": {
+				"isBargain": false,
+				"prompt": ""
+			},
+			"tabUrl": "https://in.m.jd.com/product/graphext_0_0_0_0_0/sequ/70479667894.html",
+			"isOpenH5": true,
+			"locCouponFlag": false,
+			"generalTrackDic": {
+				"shopId": "780775",
+				"skuId": "70479667894"
+			},
+			"ddFatigueMechanism": {
+				"leftBottomBubbleCount": "5",
+				"leftBottomBubbleDuration": "5",
+				"ddBottomToastDuration": "10",
+				"ddBottomToastCount": "5",
+				"ddRightCount": "5"
+			},
+			"appointAndPresaleOpen": true,
+			"plusShieldLandedPriceFlag": false,
+			"shareImgInfo": {
+				"priceDes": "价格具有时效性",
+				"promotionStr": "",
+				"shareLanguage": "推荐一个好物给你，请查收",
+				"jprice": "3599.00"
+			}
+		},
+		"mId": "bpMasterdata",
+		"sortId": 199
+	}],
+	"others": {
+		"templateType": "normal"
+	},
+	"wait": 0
+}

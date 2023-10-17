@@ -1,0 +1,1506 @@
+{
+  "diffStatus": 2,
+  "timeStamp": 1676429227,
+  "coldOrNot": "2",
+  "diffOff": "3",
+  "code": "0",
+  "data": [
+    {
+      "data": "",
+      "switches": [
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "shvphttps_enabled",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "zxingNew_enabled",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "preloadJShop",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "preloadScan",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ttt_webDelProg",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ttt_newGif_disabled",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "coupon_search",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "netWorkDetect",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "couponFeedsSwitch",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ccDarkMode",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "performanceReportForRN",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "paycode_seed",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "photoBuyIndependentScanQuery",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "addressDelete",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "changedCookieCleaner",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "DarkModelEnable",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "disableMataDataInUA",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "hybridLogEnable",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "isLoginStateAlignment",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "limitUA",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "nativePhoto",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "newHybridNetworkKit",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "newshangxiang_enale",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "web_jsHidden",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "webInnerGentoken",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "secretEnable",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "WebNewOpenUrl",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "subClsPreload",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "WebUrlNoLbs",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "tttAppendParams",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ua_encrypt",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "URLFilterRedirect",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "urlschememeta",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "webviewOverPushProtect",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "wbCanCloseNative",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "WebViewPluginEnable",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "wk_webcontentterminatememorylog",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "wk_webcontentterminatereload",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "wk_cashierinsert",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "addressIdCtr_enabled",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "isvVoiceEnable",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "metricEnable",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "appstart_upload_enable",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "perfToMainThread",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "mainPageLoadDataAsync",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "JDSHPPreloadNetGatewayApiSwitch",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "screenShotShare",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "wk_websocket",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "hybriddownloadNew",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "prefetchMemoryLimit",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "h_bc",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "dropOutCPP",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "starscream_enabled",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "applicationOnMainThread",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "scanZoom",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "h_xcache",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jcomm_create_switch",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "flexcube",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "hybrid_view",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "flexcubeTangent",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "unionParams",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "fixQueryPercent",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "multipleInstances",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "md5Report",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "nearbyAsyncParse",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ttt_controlLeftBack",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "XAnimationSwitch",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "closeSeckillPreload",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "wvLoginClose",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "mp_disable_async_load_cache_data",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "reportExCookies",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "enableMultipleLikeAnimation",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "showAttentionShortCard",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "goShopDynamicProductsDisable",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "goShopDynamicDetailDisable",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "goShopTakeCouponDisable",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "xviewPreDownLoad",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "videoNewComment",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "htmlPreloadDataByArray",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jshop_member_decorate",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "videoNewTopic",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "botDetectorOpen",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ttt_multab_optomize",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "sss_seckill_flex_open",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "isIos16VerificationVaild",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "disableClog",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ttt_webviewOOMFix",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "enableVideoTopicTaskRiskIdentification",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "sssXViewUpgrade",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "isHybridXslAvailable",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ttt_removePage",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "placeholderEnable",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "recordRemovedVCInfo",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "hybridErrView",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jdshop_jump_tab_inner_switch",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "wvTopLogo",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "recordVCStackInfo",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "xrenderEnabled",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jshop_open_loft",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "etracker_operatequeue",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "fixXCache",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "BlobjsSendbeaconFixed",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "hybridNetworkSessionFix",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "maybeTTTOpen",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ttt_webviewRefreshWhite",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "FixLoginTwice",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "TTTWhiteCheck",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "WhiteScreenTopJudge",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "newGentoken",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "commonPkgUseFix",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "contextStopCancel",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "bskFLBannerOpenLazyPlayGifFlag",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "bskFLBannerOpenLoadFlag",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "xviewPreloadSuccess",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "xviewPopReport",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "open_perf_flag",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "handle_pointerAuth",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "pthreadMutexDestroyLock",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "hybridKVStorageFix",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "newTiming",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "hybridZipNewNoUse",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "isOldPreloadOffline",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "测试开关",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "RankAutoJump",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "sssTabImgBugFix",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "sessionCookieSyncNew",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jwl_fixAbnormalURL_flag",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "layerReLoad",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "isNumberJKLValid",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "sss_seckill_page_life_fix_close",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "newStoreHybridNetwork",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "sssWaterfallFlexCube",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "removeDefaultTitle",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "NewSetTitle",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "xview1StartExpoSwitch",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "FixCookieDomain",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "XStorageWebViewEnabled",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ttt_backInterceptEnable",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jdshop_category_use_new",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "linkTrackEnable",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jwl_sdkOpen_flag2",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "test-jiaojie",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "sssIOSMarginFix",
+          "status": 1,
+          "value": "no"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "WebViewDismiss",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "XHealthKitWebPluginUsable",
+          "status": 1,
+          "value": "yes"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "hybridUseJDCache",
+          "status": 1,
+          "value": "no"
+        }
+      ],
+      "type": "booleanSwitch"
+    },
+    {
+      "data": "",
+      "switches": [
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "x_s",
+          "status": 1,
+          "value": "1"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "hybridSyncCookie",
+          "status": 1,
+          "value": "2"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jdshop_home_maxFinanceCouponNum",
+          "status": 1,
+          "value": "2"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "mp_popup_start_image",
+          "status": 1,
+          "value": "60"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "newProductNotchScreenExtraSpace",
+          "status": 1,
+          "value": "20"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jshop_isv_diskStorageLimit",
+          "status": 1,
+          "value": "100"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jshop_isv_memoryCacheLimit",
+          "status": 1,
+          "value": "10"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "bskFLBannerPlayGifDelayMillSecond",
+          "status": 1,
+          "value": "500"
+        }
+      ],
+      "type": "intSwitch"
+    },
+    {
+      "data": "",
+      "switches": [
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ttttimeout",
+          "status": 1,
+          "value": "3500"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "x_pp",
+          "status": 1,
+          "value": "1"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "x_ep",
+          "status": 1,
+          "value": "1"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "abTestScanQuery ",
+          "status": 1,
+          "value": "1"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ceTime",
+          "status": 1,
+          "value": "43200000"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "DarkModeWhiteList",
+          "status": 1,
+          "value": "h5.m.jd.com,2vjxBCRDqunDaABmg6EvrzW1hsP3;h5.m.jd.com,kq8ExPRgpHk4rQbz49qe8efypvs"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "fetchUAMethod",
+          "status": 1,
+          "value": "2"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "hostBlackList",
+          "status": 1,
+          "value": "taobao,tmall,yandex.com"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "wbWebControlBack",
+          "status": 1,
+          "value": "h5.m.jd.com,jm-webview;plus.m.jd.com,1398XHSIWsjshwe12;carry.m.jd.com,3KSjXqQabiTuD1cJ28QskrpWoBKT;bunearth.m.jd.com;jdsupermarket.jd.com;h5.m.jd.com,2B8kKnT21JEjo9JMcuHsdwUepJJ;pro.m.jd.com;prodev.m.jd.com;h5.m.jd.com,jx5KuRH4XVKHqDWpt7sBcMGxp3i;sfgala.jd.com;plus.m.jd.com,renewalGift;prodev.m.jd.com,8tHNdJLcqwqhkLNA8hqwNRaNu5f;wbbny.m.jd.com;h5.m.jd.com,fegzUHaydYypy;h5.m.jd.com,2DC7QCKjLiTq;h5.m.jd.com,2umFErnCStpf9;u.jr.jd.com,order-cash-back;utest.jr.jd.com,order-cash-back;h5.m.jd.com,pFAZGLdzVhpi;h5.m.jd.com,3LYvkC7wvijnhQXscB;smc.m.jd.com,monthIndex;xspace.m.jd.com;h5.m.jd.com,42yjy8na6pF;daojia.jd.com,openAppMiddle;testpdj-three.jd.com;m.healthjd.com;show.jd.com;h5.m.jd.com,2oVbuzLRvZ69aJgPjx;laputa.healthjd.com;h5.m.jd.com,2QYfJJCmbFQNS1Shet461mVTH8YL;bispa-pro.pf.jd.com"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "staticUAMethod",
+          "status": 1,
+          "value": "4.0"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "webviewHandlesHttpsList",
+          "status": 1,
+          "value": "jd.com"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "wk_filterVCName",
+          "status": 1,
+          "value": "SCSWebDrawerViewController"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "wkPlayVideoList",
+          "status": 1,
+          "value": "vod.300hu.com,mp4"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "passGentokenList2",
+          "status": 1,
+          "value": "eco.m.jd.com,app_home_xview;h5.m.jd.com,3Yh19s;pro.m.jd.com; prodev.m.jd.com;turntable.m.jd.com;happy.m.jd.com,3ugedFa7yA6NhxLN5gw2L3PF9sQC;zpsy.jd.com;h5.m.jd.com,4Z9z4nizt7grWAtyxFdJp2YvE9T;smile.m.jd.com,3EwBJrd7NUZkZh9d1pzL1euftZ3M;h5.m.jd.com,3QSqgVKK5qAACe9XW4FR52LkXChe;h5.m.jd.com,3ir78c82wkBTA4kwtuAUb3F1T5ej;yfe.jd.com,tuancoupon;jdjoy.jd.com,pet/index;storage.jd.com;app.m.jd.com;h5.m.jd.com,itBjR9jfNaFK;h5.m.jd.com,GiEdFEZZbEe;red.m.jd.com;huishou.m.jd.com;wqs.jd.com,jx_youxuan;xspace.m.jd.com;h5.m.jd.com,WiXHzdNRV;sfgala.jd.com;h5static.m.jd.com,fkqnGJ5WPqPEwUA"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "perfMonitor",
+          "status": 1,
+          "value": "1"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "OOMDetectSwitch",
+          "status": 1,
+          "value": "{\n\t\"isOOMDetectOpen\": \"1\",\n\t\"exceptionLockHours\": \"24\"\n}"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "xtimeurl",
+          "status": 1,
+          "value": "-1"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "gentokenBlackList",
+          "status": 1,
+          "value": "pay.m.jd.com;m.jr.com"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "WebNetList",
+          "status": 1,
+          "value": "xspace.m.jd.com;h5.m.jd.com;prodev.m.jd.com;test-demo-beta.pf.jd.com;beta-pro.m.jd.com;pro.m.jd.com;prodev.m.jd.com"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "w_tr",
+          "status": 1,
+          "value": "{\"u\":\"jd.com\",\"-1001\":\"哎呀，前方福利堵车中，等会再来呀～\",\"310\":\"哎呀，前方福利堵车中，等会再来呀～\"}"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ShareWhiteClasses",
+          "status": 1,
+          "value": "TTTChannelWebViewController"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "abTestScanQuery",
+          "status": 1,
+          "value": "1"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "sortWeiXinContentParam",
+          "status": 1,
+          "value": "price,secKill,ranking,rating,plusMember"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jklCnRegex",
+          "status": 1,
+          "value": "(?:(?:[2-9]{2}[斤包袋箱]){1}[\\u4e00-\\u9fa5]{2}[☂-➾⠁-⣿]{1}){3}|(?:[\\u4e00-\\u9fa5]{4}[☂-➾⠁-⣿]{1}){3}|(?:[\\u4e00-\\u9fa5]{4}[☂-➾⠁-⣿]{1}){3}|[\\u4e00-\\u9fa5]{16}[☂-➾⠁-⣿]{1}|[☂-➾⠁-⣿]{1}[\\u4e00-\\u9fa5]{14}[☂-➾⠁-⣿]{1}|(?:[☂-➾⠁-⣿]{1}[\\u4e00-\\u9fa5]{6}){2}[☂-➾⠁-⣿]{1}|(?:[0-9A-Za-zα-ωА-Яа-яÀ-ž]{3}[\\u4e00-\\u9fa5]{2}){2}[☂-➾⠁-⣿]{1}|(?:[☂-➾⠁-⣿]{1}[0-9A-Za-zα-ωА-Яа-яÀ-ž]{2}[\\u4e00-\\u9fa5]{2}){2}[☂-➾⠁-⣿]{1}"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jklEngRegex",
+          "status": 1,
+          "value": "[$#%@(￥！][0-9A-Za-z]{6,20}[$%@!)￥！\"]|[2-9]{14}|[2-9]{18}"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "shareIconImageUrl",
+          "status": 1,
+          "value": "https://img12.360buyimg.com/imagetools/jfs/t1/196793/1/9562/5292/60d0576eEa1a70e94/ad29e5f651f8434b.png"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jcommCreateSwitch",
+          "status": 1,
+          "value": "1"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jcommExchangeSwitch",
+          "status": 1,
+          "value": "1"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jcomm_spot_ch",
+          "status": 1,
+          "value": "$,%,￥,@,！,(-),%-@,#-@,#-%,￥-%,%-!"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "shop_entrance_config",
+          "status": 1,
+          "value": "{\"whitelist\":{\"vip\":[{\"shopId\":\"1000000021\",\"venderId\":\"1000000021\"},{\"shopId\":\"11613320\",\"venderId\":\"11898183\"}],\"vipUrl\":\"https://pages.jd.com/vip/home\"}}"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "H5-retry-config",
+          "status": 1,
+          "value": "{\"img10.360buyimg.com\":[\"m1.360buyimg.com\",\"m2.360buyimg.com\",\"m3.360buyimg.com\"],\"img11.360buyimg.com\":[\"m1.360buyimg.com\",\"m2.360buyimg.com\",\"m3.360buyimg.com\"],\"img12.360buyimg.com\":[\"m1.360buyimg.com\",\"m2.360buyimg.com\",\"m3.360buyimg.com\"],\"img13.360buyimg.com\":[\"m1.360buyimg.com\",\"m2.360buyimg.com\",\"m3.360buyimg.com\"],\"img14.360buyimg.com\":[\"m1.360buyimg.com\",\"m2.360buyimg.com\",\"m3.360buyimg.com\"],\"img20.360buyimg.com\":[\"m1.360buyimg.com\",\"m2.360buyimg.com\",\"m3.360buyimg.com\"],\"img30.360buyimg.com\":[\"m1.360buyimg.com\",\"m2.360buyimg.com\",\"m3.360buyimg.com\"],\"m.360buyimg.com\":[\"m1.360buyimg.com\",\"m2.360buyimg.com\",\"m3.360buyimg.com\"],\"storage.360buyimg.com\":[\"storage1.360buyimg.com\",\"storage2.360buyimg.com\",\"storage3.360buyimg.com\"],\"storage11.360buyimg.com\":[\"storage1.360buyimg.com\",\"storage2.360buyimg.com\",\"storage3.360buyimg.com\"],\"h5static.m.jd.com\":[\"h5static1.m.jd.com\",\"h5static2.m.jd.com\",\"h5static3.m.jd.com\"],\"plus-static.jd.com\":[\"plus-static1.jd.com\",\"plus-static2.jd.com\",\"plus-static3.jd.com\"],\"h5.360buyimg.com\":[\"h51.360buyimg.com\",\"h52.360buyimg.com\",\"h53.360buyimg.com\"],\"storage.jd.com\":[\"storage1.jd.com\",\"storage2.jd.com\",\"storage3.jd.com\",\"storage4.jd.com\",\"storage5.jd.com\",\"storage6.jd.com\",\"storage9.jd.com\"],\"static.360buyimg.com\":[\"static1.360buyimg.com\",\"static2.360buyimg.com\",\"static3.360buyimg.com\"],\"apk.360buyimg.com\":[\"apk1.360buyimg.com\",\"apk2.360buyimg.com\",\"apk3.360buyimg.com\"],\"storage23.360buyimg.com\":[\"storage1.360buyimg.com\",\"storage2.360buyimg.com\",\"storage3.360buyimg.com\"],\"m11.360buyimg.com\":[\"m1.360buyimg.com\",\"m2.360buyimg.com\",\"m3.360buyimg.com\"],\"m15.360buyimg.com\":[\"m1.360buyimg.com\",\"m2.360buyimg.com\",\"m3.360buyimg.com\"],\"static-fe.360buyimg.com\":[\"static-fe1.360buyimg.com\",\"static-fe2.360buyimg.com\",\"static-fe3.360buyimg.com\"]}"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ios_hook",
+          "status": 1,
+          "value": "{\n    \"hookOpen\": true,\n    \"rules\": [\n        {\n            \"targetClass\": \"JDNavtiveNewVideoView\",\n            \"sel\": \"setVideosModel:autoPlay:\",\n            \"paraIndex\": 0,\n            \"matchArr\": [\n                \"JDNavtiveNewVideoView\"\n            ]\n        }\n    ]\n}"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "calorie_img_monitor",
+          "status": 1,
+          "value": "9527,9528,9529,112,117,124,129"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "hybrid_item_config_ios",
+          "status": 1,
+          "value": "[{\"appId\":\"730824832662863872\",\"moduleCode\":33},{\"appId\":\"734097917579067392\",\"moduleCode\":17},{\"appId\":\"746030556091219968\",\"moduleCode\":27},{\"appId\":\"746037160069005312\",\"moduleCode\":11},{\"appId\":\"746780023052533760\",\"moduleCode\":25},{\"appId\":\"748493981199335424\",\"moduleCode\":11},{\"appId\":\"748557195752734720\",\"moduleCode\":2},{\"appId\":\"751796566450733056\",\"moduleCode\":1},{\"appId\":\"754338704559427584\",\"moduleCode\":9},{\"appId\":\"755749849984892928\",\"moduleCode\":10},{\"appId\":\"756525929863806976\",\"moduleCode\":18},{\"appId\":\"757310062445690880\",\"moduleCode\":5},{\"appId\":\"757603412633681920\",\"moduleCode\":2},{\"appId\":\"760921754965626880\",\"moduleCode\":6},{\"appId\":\"760925451570348032\",\"moduleCode\":2},{\"appId\":\"761641920691163136\",\"moduleCode\":6},{\"appId\":\"763352000578965504\",\"moduleCode\":31},{\"appId\":\"763352379542720512\",\"moduleCode\":31},{\"appId\":\"763418062197587968\",\"moduleCode\":7},{\"appId\":\"763453663441551360\",\"moduleCode\":5},{\"appId\":\"763459730815832064\",\"moduleCode\":16},{\"appId\":\"765897076631896064\",\"moduleCode\":12},{\"appId\":\"765955149090226176\",\"moduleCode\":6},{\"appId\":\"769244617725411328\",\"moduleCode\":12},{\"appId\":\"771407695635271680\",\"moduleCode\":2},{\"appId\":\"772457548138139648\",\"moduleCode\":7},{\"appId\":\"772490276904620032\",\"moduleCode\":15},{\"appId\":\"776493758260150272\",\"moduleCode\":43},{\"appId\":\"779383465453256704\",\"moduleCode\":3},{\"appId\":\"781575666403889152\",\"moduleCode\":3},{\"appId\":\"789165369895387136\",\"moduleCode\":11},{\"appId\":\"791358196606816256\",\"moduleCode\":6},{\"appId\":\"791634290165665792\",\"moduleCode\":33},{\"appId\":\"792404632937156608\",\"moduleCode\":5},{\"appId\":\"796416527751938048\",\"moduleCode\":16},{\"appId\":\"799007180478447616\",\"moduleCode\":2},{\"appId\":\"813004272986308608\",\"moduleCode\":4},{\"appId\":\"815173784062590976\",\"moduleCode\":3},{\"appId\":\"815259713062240256\",\"moduleCode\":1},{\"appId\":\"832257803472580608\",\"moduleCode\":1}]"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jdshop_h5_pages_config",
+          "status": 1,
+          "value": "{\n    \"shopDetail\":{\n        \"isOpen\":true,\n         \"url\":\"https://pages.jd.com/app/introduce\"\n    }\n}"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jshop_ios_useage",
+          "status": 1,
+          "value": "{\n    \"rules\": [\n        {\n            \"targetClass\": \"JDNavtiveNewVideoView\"\n        }\n    ]\n}"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "XCacheConfig",
+          "status": 1,
+          "value": "{\n    \"modules\":[\n        {\n            \"nameSpace\":\"BankModel\",\n            \"files\":[\n                {\n                    \"demand_classes\":[\"JDWebViewController\", \"MyJDViewController\"],                  \"url\":\"https://storage.360buyimg.com/hybrid/bank/models.bin.zip\",\n                    \"fileId\":\"1\",\n                    \"md5\":\"1d8b87f4abee7a6abe8734745fa0dd50\",\n                    \"app_min\":\"11.2.0\",\n                    \"app_max\":\"\",\n                    \"version_code\":1, \n                    \"project_priority\":0,\n                    \"file_type\": \"zip\"\n                }\n            ]\n        }\n    ],\n    \"delay_time\":10\n}"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "xWidgetAvailableElement",
+          "status": 1,
+          "value": "hybrid-video,hybrid-image"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "farmGameBuildInAppHtmlUrl",
+          "status": 1,
+          "value": "https://carry.m.jd.com/babelDiy/buildin/3KSjXqQabiTuD1cJ28QskrpWoBKT/index.html"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "ttt_statusBariPhone14Fix",
+          "status": 1,
+          "value": "0"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "iPhone14Fix",
+          "status": 1,
+          "value": "59"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "HybridXSLWebList",
+          "status": 1,
+          "value": "prodev.m.jd.com;pro.m.jd.com;h5.m.jd.com;xsl.local-pf.jd.com;xsl-test1.local-pf.jd.com"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "placeHolderRemove",
+          "status": 1,
+          "value": "3.5"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "hybridBanUrlList",
+          "status": 1,
+          "value": "pro.m.jd.com,3ujoKS1qRVgCxh;prodev.m.jd.com,3b7G7dKJ5JYkB;pro.m.jd.com,JQLf3sCuXsonQR1mUrfjyph;pro.m.jd.com,YF7N8Ysny72jvM;prodev.m.jd.com,45V1ccgBQPH;prodev.m.jd.com,399NTBiirhvDgFPSb;prodev.m.jd.com,3qQThxzgk3XRvHVK9ePzRF;"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "webWhiteScreenMonitor",
+          "status": 1,
+          "value": "{\"vclimit\":\"30\",\"enable\":\"1\",\"whiteList\":\"\",\"js\":\"1\",\"terminate\":\"1\",\"network\":\"1\",\"fail\":\"1\",\"retryCount\":\"2\",\"blankThreshold\":\"0.98\"}"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "wkWebcontentReloadBlackList",
+          "status": 1,
+          "value": "FinderWebViewViewController"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "xviewExceptionReport",
+          "status": 1,
+          "value": "210_198_304_237"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jdguard_function_list",
+          "status": 1,
+          "value": "[\n    \"newReceiveRvcCoupon\",\n    \"nReceiveCoupon\",\n    \"newReceiveRvcCouponWithTask\",\n    \"receiveNecklaceCoupon\",\n    \"receiveJrCoupon\",\n    \"receiveMultiCoupon\",\n    \"getCouponConfig\",\n    \"getCcFeedInfo\",\n    \"getCcFeedList\",\n    \"delHistoryOrder\",\n    \"orderDetailInfo\",\n    \"ase_mc_submitOrder_rn\",\n    \"getLegoWareDetailComment\",\n    \"getCommentListWithCard\",\n    \"wareBusiness\",\n    \"currentOrder\",\n    \"submitOrder\",\n    \"cart\",\n    \"getFoldCommentList\"\n ]"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jdg_dcfg",
+          "status": 1,
+          "value": "{\"ano\":83,\"plc\":{\"uv\":20},\"dyn\":{\"sw\":0,\"dt\":5,\"di\":15,\"rpt\":{\"sw\":1,\"dt\":3,\"di\":1200},\"plc\":{\"cd\":{\"sw\":1},\"iup\":{\"sw\":1},\"cs\":{\"sw\":1},\"cjb\":{\"sw\":1,\"cbbp\":1,\"cba\":1,\"cjb\":1,\"cbe\":1,\"cbs\":1},\"cbif\":{\"sw\":1,\"c\":\"\"},\"cbsl\":{\"sw\":1,\"c\":\"\"},\"cma\":{\"sw\":1,\"c\":\"\"},\"cml\":{\"sw\":1,\"c\":\"\"},\"cbd\":{\"sw\":1,\"c\":\"\"}}},\"oth\":{\"cvm\":{\"sw\":1}},\"sta\":{\"sw\":1,\"dt\":5,\"di\":10,\"plc\":{\"jdgai\":{\"gcv\":1,\"gan\":0,\"gbdn\":0,\"gbn\":0,\"gen\":0,\"gbv\":1},\"jdgdi\":{\"gdm\":1,\"gcdm\":1,\"gov\":1,\"gdn\":0,\"gon\":1,\"hpa\":1,\"ca\":1,\"fca\":1,\"cfa\":1,\"gr\":1,\"grs\":0,\"gss\":1,\"gc\":1,\"lrt\":1,\"o\":1,\"bs\":1,\"gcc\":1,\"gcu\":1,\"gcvov\":1,\"gtms\":1,\"gams\":1,\"gtds\":1,\"gads\":1,\"khn\":1,\"hm\":1,\"hmbn\":0,\"gsb\":0,\"gsnb\":0,\"gsns\":1,\"gou\":0,\"gdi\":0,\"cu\":0,\"a\":0,\"i\":1,\"cts\":1,\"ls\":1,\"tzs\":1,\"crs\":1,\"pme\":11,\"nt\":1},\"jdgni\":{\"cria\":0,\"crma\":1,\"cia\":0,\"ci6a\":0,\"cma\":0,\"cna\":0,\"cba\":0,\"wia\":0,\"wi6a\":0,\"wma\":0,\"wna\":0,\"wba\":0,\"wra\":0,\"alia\":0,\"ctw\":0,\"ctcn\":0,\"ctwi6\":0,\"ctcni6\":0,\"ma\":0,\"gi\":1,\"ws\":1,\"wb\":1},\"ai\":{\"gcv\":1,\"gan\":0,\"gbdn\":0,\"gbn\":0,\"gen\":0,\"gbv\":1},\"di\":{\"gdm\":1,\"gcdm\":1,\"gov\":1,\"gdn\":0,\"gon\":1,\"hpa\":1,\"ca\":1,\"fca\":1,\"cfa\":1,\"gr\":1,\"grs\":0,\"gss\":1,\"gc\":1,\"lrt\":1,\"o\":1,\"bs\":1,\"gcc\":1,\"gcu\":1,\"gcvov\":1,\"gtms\":1,\"gams\":1,\"gtds\":1,\"gads\":1,\"khn\":1,\"hm\":1,\"hmbn\":0,\"gsb\":0,\"gsnb\":0,\"gsns\":1,\"gou\":0,\"gdi\":0,\"cu\":0,\"a\":0,\"i\":1,\"cts\":1,\"ls\":1,\"tzs\":1,\"crs\":1,\"pme\":11,\"nt\":1},\"ni\":{\"cria\":0,\"crma\":1,\"cia\":0,\"ci6a\":0,\"cma\":0,\"cna\":0,\"cba\":0,\"wia\":0,\"wi6a\":0,\"wma\":0,\"wna\":0,\"wba\":0,\"wra\":0,\"alia\":0,\"ctw\":0,\"ctcn\":0,\"ctwi6\":0,\"ctcni6\":0,\"ma\":0,\"gi\":1,\"ws\":1,\"wb\":1}}}}"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jdg_cfg",
+          "status": 1,
+          "value": "{\n  \"eventPushEnable\": true,\n  \"eventPushPercentage\": 100,\n  \"ejdgm\": 1,\n  \"ejdgs\": 1,\n  \"funcs\": [\n    \"iOSGR\",\n    \"welcomeHome\",\n    \"newReceiveRvcCoupon\",\n    \"nReceiveCoupon\",\n    \"newReceiveRvcCouponWithTask\",\n    \"receiveNecklaceCoupon\",\n    \"receiveJrCoupon\",\n    \"receiveMultiCoupon\",\n    \"getCouponConfig\",\n    \"getCcFeedInfo\",\n    \"getCcFeedList\",\n    \"delHistoryOrder\",\n    \"orderDetailInfo\",\n    \"ase_mc_submitOrder_rn\",\n    \"getLegoWareDetailComment\",\n    \"getCommentListWithCard\",\n    \"wareBusiness\",\n    \"currentOrder\",\n    \"submitOrder\",\n    \"cart\",\n    \"getFoldCommentList\",\n    \"NewLogin\",\n    \"NewLogin_RegArea\",\n    \"PhoneLogin_MsgCode\"\n  ]\n}\n"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "RankAutoJumpUrl",
+          "status": 1,
+          "value": "https://pro.m.jd.com/mall/active/31rhHxMvPQ3A3K1ckTXFz1wdrd4f/index.html?showhead=no&has_native=0"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "newGentokenWhiteList",
+          "status": 1,
+          "value": "pro.m.jd.com;prodev.m.jd.com;h5.m.jd.com"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "preloadWebViewForHybridBlcakList",
+          "status": 1,
+          "value": "https://prodev.m.jd.com/mall/active/G7sQ92vWSBsTHzk4e953qUGWQJ4/index.html"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "xviewInvokeException",
+          "status": 1,
+          "value": "210_198"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "xrender_ab",
+          "status": 1,
+          "value": "{\"https://prodev.m.jd.com/mall/active/2yeSZQfU28v98j97qSSQptrTQhRP/index.html\":\"ab,2\",\"https://beta-pro.m.jd.com/mall/active/31GnaMLL2duZvPAY2wrcRg8B7jVA/index.html\":\"ab,2\",\"https://prodev.m.jd.com/mall/active/G7sQ92vWSBsTHzk4e953qUGWQJ4/index.html\":\"ab,2\",\"https://prodev.m.jd.com/mall/active/3yoTRNeUsecghqr7kwa9WXr9uaGK/index.html\":\"a,1\",\"https://pro.m.jd.com/mall/active/31GnaMLL2duZvPAY2wrcRg8B7jVA/index.html\":\"ab,2\",\"https://prodev.m.jd.com/mall/active/G7sQ92vWSBsTHzk4e953qUGWQJ4/index.html\":\"a,2\"}"
+        },
+        {
+          "appVersionDown": "",
+          "appVersionUp": "",
+          "name": "jshopAdapter",
+          "status": 1,
+          "value": "[{\"name\":\"toInventoryDetail\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/h5\\\\.m\\\\.jd\\\\.com\\\\/active\\\\/faxian\\\\/inventory\\\\/index\\\\.html\\\\?(?:.+&)*id=(\\\\d+)\"}]},{\"name\":\"toCommentDetail\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/share\\\\.m\\\\.jd\\\\.com\\\\/shareOrder\\\\/showSharePage\\\\.action\\\\?(?:.+&)*productId=(\\\\d+)\"}]},{\"name\":\"toFaxianAuthor\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/h5\\\\.m\\\\.jd\\\\.com\\\\/active\\\\/faxian\\\\/html\\\\/public\\\\.html\\\\?(?:.+&)*authorId=(\\\\d+)\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/eco\\\\.m\\\\.jd\\\\.com\\\\/content\\\\/dr_home\\\\/index\\\\.html\\\\?(?:.+&)*authorId=(\\\\d+)\"}]},{\"name\":\"toVideoBuy\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/h5\\\\.m\\\\.jd\\\\.com\\\\/active\\\\/faxian\\\\/video\\\\/index\\\\.html\\\\?(?:.+&)*id=(\\\\d+)\"}]},{\"name\":\"toPinGou\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/wqs\\\\.jd\\\\.com\\\\/pingou\\\\/item\\\\.shtml\\\\?sku=(\\\\d+)*\"}]},{\"name\":\"toCouponCenter\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/coupon\\\\.m\\\\.jd\\\\.com\\\\/center\\\\/getCouponCenter\\\\.action.*\"}]},{\"name\":\"toLivePlayerRoom\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/lives\\\\.jd\\\\.com\\\\/(\\\\d+)\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/lives\\\\.jd\\\\.com\\\\/#\\\\/(\\\\d+)\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/h5\\\\.m\\\\.jd\\\\.com\\\\/active\\\\/3Py5mBpfcJux1LmBJb2gCQB2XFb7\\\\/live\\\\.html\\\\?(?:.+&)*id=(\\\\d+)\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/h5\\\\.m\\\\.jd\\\\.com\\\\/active\\\\/4PWVRtMJhmRHkFqHzfP94mJT4qmu\\\\/live\\\\.html\\\\?(?:.+&)*id=(\\\\d+)\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/h5\\\\.m\\\\.jd\\\\.com\\\\/dev\\\\/3pbY8ZuCx4ML99uttZKLHC2QcAMn\\\\/live\\\\.html\\\\?(?:.+&)*id=(\\\\d+)\"}]},{\"name\":\"webp\",\"rules\":[{\"type\":\"webpSwitch\",\"useWebp\":1}]},{\"name\":\"toJdMiniProg\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"http(s?)://mini-app-static\\\\.jd\\\\.com\\\\/apps\\\\/mpshare\\\\/index\\\\.html\\\\b(?=.*(&|\\\\?)category=jump(&|\\\\b))(?=.*(&|\\\\?)des=jdmp(&|\\\\b))(?=.*(&|\\\\?)vapptype=[0-9](&|\\\\b))(?=.*(&|\\\\?)appId=[A-Za-z0-9]{6,40}(&|\\\\b)).*\"}]},{\"name\":\"toVideoBuyPortrait\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/h5\\\\.m\\\\.jd\\\\.com\\\\/active\\\\/faxian\\\\/video\\\\/indexShu\\\\.html.*\"}]},{\"name\":\"URLException\",\"rules\":[{\"type\":\"exception\",\"contain\":[\"un.m.jd.com/cgi-bin/app/appjmp\"]}]},{\"name\":\"toProductList\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/so\\\\.m\\\\.jd\\\\.com\\\\/ware\\\\/search\\\\.action\\\\?(?:.+&)*keyword=(.*)\"}]},{\"name\":\"toMyJD\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/wqs\\\\.jd\\\\.com\\\\/my\\\\/indexv2\\\\.shtml\"}]},{\"name\":\"toCart\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/wqdeal\\\\.jd\\\\.com\\\\/deal\\\\/mshopcart\\\\/mycart\"}]},{\"name\":\"toHomePage\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/m\\\\.jd\\\\.com(?:/)?\\\\?isopen=1.*\"}]},{\"name\":\"toCashier\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/pay\\\\.m\\\\.jd\\\\.com\\\\/.*\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/paybeta\\\\.m\\\\.jd\\\\.com\\\\/.*\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/beta-cashier\\\\.m\\\\.jd\\\\.com.*\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/cashier\\\\.m\\\\.jd\\\\.com.*\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/beta-mpay\\\\.m\\\\.jd\\\\.com\\\\/.((?!(useM=1)).)*$\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/mpay\\\\.m\\\\.jd\\\\.com\\\\/.((?!(useM=1)).)*$\"}]},{\"name\":\"toSkyTower\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/pro(?:\\\\.m)?\\\\.jd\\\\.com\\\\/mall\\\\/active\\\\/([a-zA-Z0-9]+)\\\\/index\\\\.html\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/h5(?:\\\\.m)?\\\\.jd\\\\.com\\\\/rn\\\\/([a-zA-Z0-9]+)\\\\/index\\\\.html\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/(?:[a-z]+)-pro\\\\.m\\\\.jd\\\\.com\\\\/mall\\\\/active\\\\/([a-zA-Z0-9]+)\\\\/index\\\\.html\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/probeta\\\\.m\\\\.jd\\\\.com\\\\/([a-zA-Z0-9]+)\\\\/index\\\\.html\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/probeta\\\\.m\\\\.jd\\\\.com\\\\/mall\\\\/active\\\\/([a-zA-Z0-9]+)\\\\/index\\\\.html\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/beta-babel\\\\.jd\\\\.com\\\\/rn\\\\/preview\\\\/([a-zA-Z0-9]+)\\\\/index\\\\.html\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/prodev(?:\\\\.m)?\\\\.jd\\\\.com\\\\/mall\\\\/active\\\\/([a-zA-Z0-9]+)\\\\/index\\\\.html\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/babelserv\\\\.m\\\\.jd\\\\.com\\\\/service\\\\/preview\\\\/mall\\\\/active\\\\/([a-zA-Z0-9]+)\\\\/[0-9]+\"}]},{\"name\":\"toMall\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/ok\\\\.jd\\\\.com\\\\/m\\\\/index\\\\-(\\\\d+)\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/mall\\\\.jd\\\\.com\\\\/index\\\\-(\\\\d+)\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/shop\\\\.m\\\\.jd\\\\.com\\\\/\\\\?(?:.+&)*shopId=(\\\\d+)\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/shop\\\\.m\\\\.jd\\\\.com\\\\?(?:.+&)*shopId=(\\\\d+)\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/shop\\\\.m\\\\.jd\\\\.com\\\\/shop\\\\/home\\\\?(?:.+&)*shopId=(\\\\d+)\"}]},{\"name\":\"toCpsUnion\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/union[-|.]click\\\\.jd\\\\.com\\\\/.*\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/u\\\\.jd\\\\.com\\\\/.*\"}]},{\"name\":\"toWareDetail\",\"rules\":[{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/(?:item\\\\.m\\\\.jd\\\\.com\\\\/product|m\\\\.jd\\\\.com\\\\/product|item\\\\.jd\\\\.com)\\\\/(\\\\d+)\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/(?:item\\\\.)?m\\\\.jd\\\\.com\\\\/ware\\\\/view\\\\.action\\\\?(?:.+&)*wareId=(\\\\d+)\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/(?:mitem\\\\.jd\\\\.hk|m\\\\.yiyaojd\\\\.com)\\\\/product\\\\/(\\\\d+)\\\\.html\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/(?:mitem\\\\.jd\\\\.hk|m\\\\.yiyaojd\\\\.com)\\\\/ware\\\\/view\\\\.action\\\\?(?:.+&)*wareId=(\\\\d+)\"},{\"type\":\"regexString\",\"regexString\":\"^http(?:s)?:\\\\/\\\\/(?:wqitem\\\\.jd\\\\.com|wqs\\\\.jd\\\\.com|wq\\\\.jd\\\\.com|wqitem\\\\.jd\\\\.hk)\\\\/item\\\\/view\\\\?(?:.+&)*sku=(\\\\d+)\"}]}]"
+        }
+      ],
+      "type": "stringSwitch"
+    },
+    {
+      "data": "{\"hdid\":\"JM9F1ywUPwflvMIpYPok0tt5k9kW4ArJEU3lfLhxBqw=\",\"ciphertype\":5,\"ts\":1676429227670,\"ridx\":-1,\"cipher\":{\"data\":\"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\"}}",
+      "switches": [],
+      "type": "encodedSwitch"
+    }
+  ],
+  "switchCount": "211",
+  "dataVersion": 1676428975000,
+  "cdnHost": "https://storage.jd.com/appcms/",
+  "degrade": "0"
+}

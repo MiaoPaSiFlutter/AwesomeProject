@@ -1,0 +1,33 @@
+{
+  "cards": [
+    {
+      "skuId": "100026819200",
+      "skuName": "HUAWEI P50 原色双影像单元 基于鸿蒙操作系统 万象双环设计 支持66W超级快充 8GB+256GB曜金黑 华为手机",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/134760/11/30992/60445/6387664dE7a038b36/77437aea94b5ab3d.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "4228.00",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "5万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI3MDlkNjdkMDkzMWI2MTU5NTVmNTkzZjhkMzQ3NTdlMjdmMWE1ODZiIn0=\",\"priceTag\":\"secKillPrice\",\"page\":\"10\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100026819200\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    }
+  ],
+  "code": "0",
+  "hasNextPage": 1,
+  "srvJson": "{\"classfyid\":718,\"poolid\":\"41\",\"classfynum\":\"1\",\"keyWord\":\"-100\"}",
+  "page": 11
+}

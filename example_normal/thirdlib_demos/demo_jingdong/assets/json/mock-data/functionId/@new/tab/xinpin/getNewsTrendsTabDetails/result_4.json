@@ -1,0 +1,164 @@
+{
+	"code": "0",
+	"message": "响应成功",
+	"result": {
+		"feedResult": {
+			"page": 4,
+			"pageSize": 20,
+			"list": [{
+				"insert": false,
+				"type": 1,
+				"saleType": 3,
+				"preCount": "",
+				"followsCount": 5119,
+				"countStr": "5119人已种草",
+				"onShelvesTime": "2021-08-20 11:02:23",
+				"benefits": [{
+					"title": "当季新品",
+					"type": 4
+				}, {
+					"title": "激光雷达避障",
+					"type": 3
+				}, {
+					"title": "强劲吸力",
+					"type": 3
+				}, {
+					"title": "7重专业降噪",
+					"type": 3
+				}],
+				"imageSourceType": 3,
+				"transImageUrl": "https://m.360buyimg.com/img/s1035x1035_jfs/t1/186919/9/18800/234549/611cb2daE1b0089ee/869fc4db717e93c2.png.webp!q70",
+				"liveStatus": 0,
+				"tagName": "新科技",
+				"skuId": "100013477431",
+				"skuName": "华为智选 360智能扫地机2S 扫地机器人扫拖一体 激光雷达导航 快速建图AI避障 2700Pa强劲吸力",
+				"skuImg": "https://m.360buyimg.com/mobilecms/s1035x1035_jfs/t1/198042/17/13823/126893/616d384bEeac05a59/ae0e5d8c5723b601.jpg.webp!q70",
+				"jdPrice": "1599",
+				"cid1": "737",
+				"cid2": "738",
+				"cid3": "12394",
+				"skuStyle": 3
+			}, {
+				"insert": false,
+				"type": 1,
+				"saleType": 3,
+				"preCount": "",
+				"followsCount": 25,
+				"countStr": "25人已种草",
+				"onShelvesTime": "2021-07-26 15:36:36",
+				"benefits": [{
+					"title": "当季新品",
+					"type": 4
+				}, {
+					"title": "代餐饱腹",
+					"type": 3
+				}, {
+					"title": "Q弹顺滑",
+					"type": 3
+				}, {
+					"title": "方便携带",
+					"type": 3
+				}],
+				"imageSourceType": 3,
+				"transImageUrl": "https://m.360buyimg.com/img/s1035x1035_jfs/t1/171907/11/19113/241624/60e810dcE81cf10af/c1f933759888171e.png.webp!q70",
+				"liveStatus": 0,
+				"tagName": "新生活",
+				"skuId": "100023958908",
+				"skuName": "小鸡收腹魔芋凉皮 代餐魔芋粉丝结面 开袋即食食品 轻主食饱腹感强的食品速食免煮魔芋凉皮蒟蒻面275g*6",
+				"skuImg": "https://m.360buyimg.com/mobilecms/s1035x1035_jfs/t1/209130/35/2775/421848/615429bbE6cee62d2/6799152ad4252de6.jpg.webp!q70",
+				"jdPrice": "69.9",
+				"cid1": "1320",
+				"cid2": "1584",
+				"cid3": "2679",
+				"skuStyle": 3
+			}, {
+				"insert": false,
+				"type": 1,
+				"saleType": 3,
+				"preCount": "",
+				"followsCount": 54,
+				"countStr": "54人已种草",
+				"onShelvesTime": "2021-07-23 09:10:02",
+				"benefits": [{
+					"title": "当季新品",
+					"type": 4
+				}, {
+					"title": "无线便携",
+					"type": 3
+				}, {
+					"title": "3档可调",
+					"type": 3
+				}, {
+					"title": "点动模式",
+					"type": 3
+				}],
+				"imageSourceType": 3,
+				"commentBubble": ["快速研磨", "携带方便", "噪音较小", "声音很轻"],
+				"transImageUrl": "https://m.360buyimg.com/img/s1035x1035_jfs/t1/195436/40/7641/260856/60c31b88Edfafaf4e/8b492e14b2e2da4c.png.webp!q70",
+				"liveStatus": 0,
+				"tagName": "新科技",
+				"skuId": "100023828884",
+				"skuName": "康佳（KONKA）打蛋器 无线小型电动家用迷你烘焙手持式搅蛋搅拌器打发器奶油器KJ-BS2",
+				"skuImg": "https://m.360buyimg.com/mobilecms/s1035x1035_jfs/t1/217181/2/142/212532/61667a3eE7d63d64c/65975ce88e0c5e1b.jpg.webp!q70",
+				"jdPrice": "69.9",
+				"cid1": "737",
+				"cid2": "752",
+				"cid3": "15124",
+				"skuStyle": 3
+			}, {
+				"insert": false,
+				"type": 1,
+				"saleType": 3,
+				"preCount": "",
+				"followsCount": 11,
+				"countStr": "11人已种草",
+				"onShelvesTime": "2021-08-10 17:43:36",
+				"benefits": [{
+					"title": "当季新品",
+					"type": 4
+				}],
+				"imageSourceType": 3,
+				"transImageUrl": "https://m.360buyimg.com/img/s1035x1035_jfs/t1/198437/18/2386/236776/6110f80dEa21991d7/45cf72bd25b5996b.png.webp!q70",
+				"liveStatus": 0,
+				"rankName": "除湿机榜第5名",
+				"rankUrl": "https://h5.m.jd.com/babelDiy/Zeus/qPtWihKEDTcxtGgR9R736RZTuLB/index.html?renderpage=rank&fromName=xinpin&sku=100013274337&contentId=54623",
+				"tagName": "新科技",
+				"skuId": "100013274337",
+				"skuName": "格力（GREE）除湿机抽湿机家用/工业/大功率地下室除湿器抽湿器CF3.8BDE企业采购",
+				"skuImg": "https://m.360buyimg.com/mobilecms/s1035x1035_jfs/t1/197323/37/8679/122434/6142c523E19042e47/3a17ac2e96a57bc2.jpg.webp!q70",
+				"jdPrice": "6999",
+				"cid1": "737",
+				"cid2": "738",
+				"cid3": "1283",
+				"skuStyle": 3
+			}, {
+				"insert": false,
+				"type": 1,
+				"saleType": 3,
+				"preCount": "",
+				"followsCount": 60,
+				"countStr": "60人已种草",
+				"onShelvesTime": "2021-07-30 13:54:52",
+				"benefits": [{
+					"title": "当季新品",
+					"type": 4
+				}],
+				"imageSourceType": 3,
+				"transImageUrl": "https://m.360buyimg.com/img/s1035x1035_jfs/t1/185348/14/16253/666351/6100bb21Ee351d566/4a9c524cd23025be.png.webp!q70",
+				"liveStatus": 0,
+				"tagName": "新生活",
+				"skuId": "100012193021",
+				"skuName": "拉面说 豚骨原汤彩蔬面方便速食拉面非油炸方便面381.2g*3盒",
+				"skuImg": "https://m.360buyimg.com/mobilecms/s1035x1035_jfs/t1/185354/38/16247/103321/6100bb0fEf8f33ff0/9d6ea1fea43282e6.jpg.webp!q70",
+				"jdPrice": "89.9",
+				"cid1": "1320",
+				"cid2": "1584",
+				"cid3": "2679",
+				"skuStyle": 3
+			}],
+			"isNext": true,
+			"trendFeedToast": "精选人气单品"
+		}
+	},
+	"success": false
+}

@@ -1,0 +1,32 @@
+{
+	"code": "0",
+	"pass": "{\"datas\":{},\"sig\":\"8D6F4D7875\",\"timestamp\":1633314054805,\"uuid\":\"fb16c90c-f858-439f-93aa-4fd93833c5a9\"}",
+	"elements": [{
+		"rightIcon": "https://m.360buyimg.com/mobilecms/jfs/t6214/243/1461710809/1171/f28e8798/5952375aN3c135b19.png",
+		"subTitleColor": "#686868",
+		"flag": "1",
+		"frontImage": "https://m.360buyimg.com/mobilecms/jfs/t5575/138/4722631360/76673/d5d4c656/5954c8c1N278383c0.png",
+		"btnStartColorNew": "#FA003F",
+		"pass": {
+			"timestamp": 1633314054805,
+			"uuid": "d03de3ba-11de-4f02-b66e-1780823ef89e",
+			"datas": {}
+		},
+		"btnEndColor": "#ce53da",
+		"frontImageNew": "https://m.360buyimg.com/mobilecms/jfs/t1/80086/24/4400/83982/5d26d29eE76a77797/9c3e91d5883286a2.png",
+		"index": "1",
+		"closeEnabled": "0",
+		"type": "2",
+		"btnTitle": "常购清单",
+		"timeStamp": "1633314054821",
+		"btnStartColor": "#ed3bab",
+		"businessCode": "purchaseWare",
+		"btnEndColorNew": "#FF6906",
+		"subTitle": "这些商品降价啦",
+		"wareImages": ["https://m.360buyimg.com/mobilecms/s300x300_jfs/t1/196799/3/15125/421102/60ff8514Eb64003bb/d0e64b5f581c059a.jpg!q70.dpg.webp", "https://m.360buyimg.com/mobilecms/s300x300_jfs/t1/210651/11/278/217687/613d8f6aE4ede9a4e/3bc379fbc32078ed.jpg!q70.dpg.webp", "https://m.360buyimg.com/mobilecms/s300x300_jfs/t1/175400/3/8193/177019/6093a219Ecb75918c/068e12e9808f97c1.jpg!q70.dpg.webp"],
+		"btnTitleColor": "#ffffff",
+		"rightIconNew": "https://m.360buyimg.com/mobilecms/jfs/t1/32673/12/11304/259/5cb45214E7299f350/bc328904de621dab.png",
+		"businessType": "常购清单",
+		"hasPurchaseWareList": true
+	}]
+}

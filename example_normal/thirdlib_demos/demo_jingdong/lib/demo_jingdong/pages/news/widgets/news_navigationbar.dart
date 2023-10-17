@@ -22,7 +22,7 @@ class _NewsNavigationBarState extends State<NewsNavigationBar> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: MediaQuery.of(context).padding.top + 44,
+      height: MediaQuery.of(context).padding.top + kToolbarHeight,
       child: Stack(
         children: [
           Consumer<NewsViewModel>(
@@ -34,11 +34,9 @@ class _NewsNavigationBarState extends State<NewsNavigationBar> {
           ),
           Column(
             children: [
+              SizedBox(height: MediaQuery.of(context).padding.top),
               SizedBox(
-                height: MediaQuery.of(context).padding.top,
-              ),
-              SizedBox(
-                height: 44,
+                height: kToolbarHeight,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [

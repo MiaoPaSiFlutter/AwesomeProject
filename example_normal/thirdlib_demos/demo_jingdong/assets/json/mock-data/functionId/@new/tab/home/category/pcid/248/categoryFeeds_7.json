@@ -1,0 +1,52 @@
+{
+  "cards": [
+    {
+      "skuId": "100020974908",
+      "skuName": "荣耀畅玩20 5000mAh超大电池续航 6.5英寸大屏  莱茵护眼 4GB+128GB 幻夜黑 双卡双待 全网通",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/161014/2/20478/140699/6082904aEc60ee1d7/2fa0342ba547cfac.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "869.00",
+      "reviews": "20万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJmZjFhOGY5MTZkNWEzNDk2YjRkNTBhZjFiNzUwYjJlMDA4Zjc0YmIxIn0=\",\"priceTag\":\"0\",\"page\":\"7\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100020974908\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100032938600",
+      "skuName": "荣耀60 SE 120Hz十亿色曲面屏 66W超级快充 6400万Vlog相机 全网通版 5G手机 8GB+128GB 流光幻镜",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/199057/34/27102/26936/632973daE1d964774/31793ff7247388f3.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "1699.00",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "2万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJmZjFhOGY5MTZkNWEzNDk2YjRkNTBhZjFiNzUwYjJlMDA4Zjc0YmIxIn0=\",\"priceTag\":\"secKillPrice\",\"page\":\"7\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100032938600\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    }
+  ],
+  "code": "0",
+  "hasNextPage": 1,
+  "srvJson": "{\"classfyid\":718,\"poolid\":\"41\",\"classfynum\":\"1\",\"keyWord\":\"-100\"}",
+  "page": 8
+}

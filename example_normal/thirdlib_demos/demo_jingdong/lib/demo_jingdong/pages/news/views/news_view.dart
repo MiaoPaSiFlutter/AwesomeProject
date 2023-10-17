@@ -1,27 +1,20 @@
 import 'package:demo_jingdong/demo_jingdong.dart';
 import 'package:flutter/material.dart';
-
 import 'package:hzy_common_module/hzy_common_module.dart';
+
 import '../vm/news_viewmodel.dart';
-import '../widgets/jingxuan_view.dart';
+import '../widgets/carefully_chosen/carefully_chosen_widget.dart';
 import '../widgets/news_navigationbar.dart';
-import '../widgets/qushi_view.dart';
+import '../widgets/tendency/qushi_view.dart';
 
 class NewsView extends CommonGetXWidget<NewsController> {
   NewsView({Key? key}) : super(key: key);
   @override
   NewsController get controller => Get.put(NewsController());
-  // 隐藏导航条
   @override
-  bool configIsShowAppBar() {
-    return false;
-  }
-
+  bool configIsShowAppBar() => false;
   @override
-  bool configSafeAreaTop() {
-    // TODO: implement configSafeAreaTop
-    return false;
-  }
+  bool configSafeAreaTop() => false;
 
   @override
   Widget createScallBody(
@@ -41,13 +34,13 @@ class NewsView extends CommonGetXWidget<NewsController> {
                   physics: const NeverScrollableScrollPhysics(),
                   controller: controller.pageController,
                   children: const [
-                    JingXuanView(),
+                    CarefullyChosenWidget(),
                     QuShiView(),
                   ],
                 ),
                 Container(
                   decoration: BoxDecoration(
-                      border: Border.all(color: Colors.red, width: 2)),
+                      border: Border.all(color: Colors.transparent, width: 2)),
                   child: NewsNavigationBar(
                     onTap: (index) {
                       controller.pageController.jumpToPage(index);

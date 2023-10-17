@@ -1,0 +1,227 @@
+{
+  "cards": [
+    {
+      "skuId": "100023054146",
+      "skuName": "荣耀50 SE 1亿像素超清影像 5G 6.78英寸全视屏 66W超级快充 全网通版 8GB+128GB流光幻镜",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/140183/19/29901/23197/63297956E2cbcca17/48939c1ee58f2ab3.jpg!q70.jpg.dpg.webp",
+      "jdPrice": "1599.00",
+      "reviews": "2万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI3ZmIxZDQyMTk3YzY4YzllOTU0N2U1ZDRkZDcxYTM5MWI5ZDE5NmQ4In0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100023054146\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100013035471",
+      "skuName": "华为智选 优畅享20 Plus 5G 40W超级快充 90Hz高刷真全屏 U-Magic 6GB+128GB幻夜黑全网通5G手机",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/183314/17/16543/161691/6103c568E5da2dd2e/ed625ea982ebb32b.jpg!q70.jpg.dpg.webp",
+      "jdPrice": "1299.00",
+      "reviews": "5000+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI3ZmIxZDQyMTk3YzY4YzllOTU0N2U1ZDRkZDcxYTM5MWI5ZDE5NmQ4In0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100013035471\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100038998060",
+      "skuName": "荣耀畅玩30 5000mAh大电池 128GB大储存 高通骁龙5G芯 全网通 4GB+128GB 极光蓝",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/90570/12/30910/54565/63515232Ea8a2e719/d0fcfa19d6846c7e.jpg!q70.jpg.dpg.webp",
+      "jdPrice": "1069.00",
+      "reviews": "500+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI3ZmIxZDQyMTk3YzY4YzllOTU0N2U1ZDRkZDcxYTM5MWI5ZDE5NmQ4In0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100038998060\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100038222811",
+      "skuName": "荣耀X40 120Hz OLED硬核曲屏 5100mAh 快充大电池 7.9mm轻薄设计 5G手机 8GB+128GB 幻夜黑",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/197008/29/28074/30682/63244a99E25c50323/a729014d8c47ac3b.jpg!q70.jpg.dpg.webp",
+      "jdPrice": "1699.00",
+      "reviews": "1万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI3ZmIxZDQyMTk3YzY4YzllOTU0N2U1ZDRkZDcxYTM5MWI5ZDE5NmQ4In0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100038222811\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100040441363",
+      "skuName": "华为智选 麦芒·十年臻爱版 5G手机 6.6英寸高刷全视屏 40W超级快充 8GB+256GB 极光蓝 全网通",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/140785/7/29668/24856/6332a4b7Efb1ab7b0/f161077f5dd5c2bc.jpg!q70.jpg.dpg.webp",
+      "jdPrice": "1699.00",
+      "reviews": "11条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI3ZmIxZDQyMTk3YzY4YzllOTU0N2U1ZDRkZDcxYTM5MWI5ZDE5NmQ4In0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100040441363\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100017044359",
+      "skuName": "华为智选 优畅享30e 5G 智慧双5G 22.5W安全快充 5000mAh大容量电池U-Magic 4GB+128GB月光银 全网通手机",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/214134/40/7498/66815/61b733f5Ef52f4cb4/5027fe65d9679239.jpg!q70.jpg.dpg.webp",
+      "jdPrice": "899.00",
+      "reviews": "2000+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI3ZmIxZDQyMTk3YzY4YzllOTU0N2U1ZDRkZDcxYTM5MWI5ZDE5NmQ4In0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100017044359\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100007940951",
+      "skuName": "华为智选 麦芒 9 5G手机 6400万高清三摄6.8英寸全高清大屏 4300mAh大电池8GB+128GB绮境森林5G全网通",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/160664/2/21447/202317/616e6417Ea7ac5310/3b48e747eae3d1ab.jpg!q70.jpg.dpg.webp",
+      "jdPrice": "1069.00",
+      "reviews": "1万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI3ZmIxZDQyMTk3YzY4YzllOTU0N2U1ZDRkZDcxYTM5MWI5ZDE5NmQ4In0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100007940951\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100025447519",
+      "skuName": "华为智选 优畅享50 5000mAh大容量电池 智慧双5G U-Magic 22.5W安全快充 8GB+128GB 月光银 5G全网通手机",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/21886/5/25401/45095/635bb631E2b161c0d/2bc0b5aeca8dba7c.jpg!q70.jpg.dpg.webp",
+      "jdPrice": "1099.00",
+      "reviews": "5000+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI3ZmIxZDQyMTk3YzY4YzllOTU0N2U1ZDRkZDcxYTM5MWI5ZDE5NmQ4In0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100025447519\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100035194014",
+      "skuName": "realme真我GT Neo3 150W 天玑8100 150W光速秒充 独立显示芯片 赛道双条纹设计 12GB+256GB 银石 5G手机",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/203802/8/19436/63167/6368ec00Ed4a302c0/76b847286719aa90.jpg!q70.jpg.dpg.webp",
+      "jdPrice": "2869.00",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "5000+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI3ZmIxZDQyMTk3YzY4YzllOTU0N2U1ZDRkZDcxYTM5MWI5ZDE5NmQ4In0=\",\"priceTag\":\"secKillPrice\",\"page\":\"1\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100035194014\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "10058520754100",
+      "skuName": "【新品上市】OPPO K10x 5G手机新品 67W超级闪充 5000mAh超长续航 6400万超清 极夜 8GB+128GB",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/85314/29/20101/81575/6368f135Eb336fe57/46225ab99ac23500.jpg!q70.jpg.dpg.webp",
+      "jdPrice": "1499.00",
+      "reviews": "200+条评价",
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI3ZmIxZDQyMTk3YzY4YzllOTU0N2U1ZDRkZDcxYTM5MWI5ZDE5NmQ4In0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"10058520754100\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    }
+  ],
+  "code": "0",
+  "hasNextPage": 1,
+  "srvJson": "{\"classfyid\":718,\"poolid\":\"41\",\"classfynum\":\"2\",\"keyWord\":\"-100\"}",
+  "page": 2
+}

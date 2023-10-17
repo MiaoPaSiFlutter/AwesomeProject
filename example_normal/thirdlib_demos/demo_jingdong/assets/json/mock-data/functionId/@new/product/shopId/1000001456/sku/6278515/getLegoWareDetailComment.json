@@ -1,0 +1,346 @@
+{
+  "canConsultFlag": true,
+  "mainPicName": null,
+  "commentFloorShowNum": 2,
+  "semanticTagList": [
+    {
+      "id": "e62bf087db98fc82",
+      "name": "结实耐用",
+      "count": "2",
+      "tagId": "e62bf087db98fc82",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=e62bf087db98fc82^^pid=30013^^sku=10023135283412^^sversion=1000^^token=1389882a18c7b87b"
+    },
+    {
+      "id": "649e4c0cd9a0be4b",
+      "name": "操作便捷",
+      "count": "2",
+      "tagId": "649e4c0cd9a0be4b",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=649e4c0cd9a0be4b^^pid=30013^^sku=10023135283412^^sversion=1000^^token=ef644fd6fca46d27"
+    },
+    {
+      "id": "e07d7bcb4f9ed1d5",
+      "name": "轻便实用",
+      "count": "1",
+      "tagId": "e07d7bcb4f9ed1d5",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=e07d7bcb4f9ed1d5^^pid=30013^^sku=10023135283412^^sversion=1000^^token=58a2af12b36048ca"
+    },
+    {
+      "id": "a82883cfae33a780",
+      "name": "方便实用",
+      "count": "1",
+      "tagId": "a82883cfae33a780",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=a82883cfae33a780^^pid=30013^^sku=10023135283412^^sversion=1000^^token=d61732bd8d43d03f"
+    },
+    {
+      "id": "3e5243037fe2dbab",
+      "name": "实用性强",
+      "count": "1",
+      "tagId": "3e5243037fe2dbab",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=3e5243037fe2dbab^^pid=30013^^sku=10023135283412^^sversion=1000^^token=a8c28b331259e1c1"
+    },
+    {
+      "id": "d5bf873e85e0d53c",
+      "name": "简单好用",
+      "count": "1",
+      "tagId": "d5bf873e85e0d53c",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=d5bf873e85e0d53c^^pid=30013^^sku=10023135283412^^sversion=1000^^token=69af44a62660c831"
+    }
+  ],
+  "isAllDefaultGoodComment": false,
+  "styleType": "1",
+  "showCommentFloor": true,
+  "normalCnt": "1",
+  "commentButtonText": "查看全部评价",
+  "questionList": [],
+  "ugcTextInfo": [
+    {
+      "text": "相当不错,小朋友很开心"
+    },
+    {
+      "text": "孩子很喜欢,在里面玩"
+    }
+  ],
+  "allCnt": "100",
+  "questionAbTest": null,
+  "showQualityComment": true,
+  "allCntStr": "200+",
+  "showPicCnt": "34",
+  "noQuestionText": "商品好不好，问问买过的人吧",
+  "biData": null,
+  "noCommentText": "",
+  "goodCnt": "0",
+  "pictureCnt": "34",
+  "cardStyle": false,
+  "defaultGoodCountText": "MjAwK+S4queUqOaIt+m7mOiupOivhOS7t+S6huivpeWVhuWTgQ==",
+  "isShowBuyersShow": false,
+  "abTest": "A",
+  "goodRate": "96%",
+  "code": "0",
+  "commentInfoList": [
+    {
+      "userNickName": "E***O",
+      "userLevel": "-1",
+      "userImgURL": "https://img30.360buyimg.com/mobile/s60x60_jfs/t493/15/557644423/10532/62d3112/5473e62aNdb4251d8.png",
+      "commentId": "18141295702",
+      "commentType": "1",
+      "commentShareUrl": "https://share.m.jd.com/shareOrder/showSharePage.action?productId=10060881620004&commentId=d0ae6e8fa0860f02dce2d17e21aad3f6",
+      "wareAttribute": [
+        {
+          "颜色": "14+2蓝【折叠+篮球架+垫+海洋球】"
+        }
+      ],
+      "plusAvailable": "201",
+      "plusAddress": "https://plus.m.jd.com/index",
+      "afterComment": {},
+      "noCommentMessage": "用户未及时作出评价哦~",
+      "isShowUserLevel": "0",
+      "isShowPlusPendant": "1",
+      "plusLogoId": "tab_gif_085",
+      "plusLogoType": "2",
+      "markingList": [],
+      "imageStatusText": "",
+      "commentOfficerStatus": "0",
+      "iconList": [
+        {
+          "iconId": "commentOfficer",
+          "iconTagId": "comment-201",
+          "iconJumpUrl": "getCommentOfficerStatusInfo",
+          "iconType": "1"
+        },
+        {
+          "iconId": "plus",
+          "iconTagId": "tab_gif_085",
+          "iconJumpUrl": "https://plus.m.jd.com/index",
+          "iconType": "0",
+          "iconTagType": "2"
+        }
+      ],
+      "tagCommentContent": "",
+      "carTagInfo": "",
+      "ownerStatus": "0",
+      "productId": "10060881620004",
+      "commentDate": "2022-09-30 10:46:10",
+      "commentScore": "5",
+      "praiseCnt": "0",
+      "replyCnt": "1",
+      "commentData": "围栏没有一点异味，质量也很牢固，主要是不用组装，打开就可以用，可以折叠，小宝不待里面的时候可以方便收起来，很方便好用",
+      "pictureInfoList": [
+        {
+          "picURL": "https://img30.360buyimg.com/shaidan/s411x411_jfs/t1/95755/7/32173/171011/6336586eE821ce5ac/8080f12b83a31dd3.jpg.dpg",
+          "largePicURL": "https://img30.360buyimg.com/shaidan/s850x850_jfs/t1/95755/7/32173/171011/6336586eE821ce5ac/8080f12b83a31dd3.jpg.dpg",
+          "mediaType": "1"
+        },
+        {
+          "picURL": "https://img30.360buyimg.com/shaidan/s411x411_jfs/t1/150131/33/30739/156328/6336586fE5ef816ac/ab22ae1316454015.jpg.dpg",
+          "largePicURL": "https://img30.360buyimg.com/shaidan/s850x850_jfs/t1/150131/33/30739/156328/6336586fE5ef816ac/ab22ae1316454015.jpg.dpg",
+          "mediaType": "1"
+        },
+        {
+          "picURL": "https://img30.360buyimg.com/shaidan/s411x411_jfs/t1/180752/25/28476/159527/63365870E458ae595/c89a35797f2dc950.jpg.dpg",
+          "largePicURL": "https://img30.360buyimg.com/shaidan/s850x850_jfs/t1/180752/25/28476/159527/63365870E458ae595/c89a35797f2dc950.jpg.dpg",
+          "mediaType": "1"
+        },
+        {
+          "picURL": "https://img30.360buyimg.com/shaidan/s411x411_jfs/t1/178709/1/29245/160775/63365871E5ddad80a/e0be0ca1509442db.jpg.dpg",
+          "largePicURL": "https://img30.360buyimg.com/shaidan/s850x850_jfs/t1/178709/1/29245/160775/63365871E5ddad80a/e0be0ca1509442db.jpg.dpg",
+          "mediaType": "1"
+        }
+      ],
+      "guid": "d0ae6e8fa0860f02dce2d17e21aad3f6",
+      "maidianInfo": "6233;21811;21862_10060881620005_全部_1_1_d0ae6e8fa0860f02dce2d17e21aad3f6_-100_cmt_-100",
+      "ckeKeyWordBury": "",
+      "testId": "cmt",
+      "imageStatus": "1",
+      "excellentCommentIcon": "",
+      "pictureCnt": 0,
+      "officerScore": "272",
+      "userId": "",
+      "praiseFlag": true
+    },
+    {
+      "userNickName": "****0",
+      "userLevel": "-1",
+      "userImgURL": "https://img30.360buyimg.com/mobile/s60x60_jfs/t493/15/557644423/10532/62d3112/5473e62aNdb4251d8.png",
+      "commentId": "18359029138",
+      "commentType": "1",
+      "commentShareUrl": "https://share.m.jd.com/shareOrder/showSharePage.action?productId=10060881620007&commentId=aa8d9aeb81895566bf420503ca0f7b13",
+      "wareAttribute": [
+        {
+          "颜色": "12+2粉【折叠+篮球架+垫+海洋球】"
+        }
+      ],
+      "plusAvailable": "0",
+      "plusAddress": "https://plus.m.jd.com/index",
+      "afterComment": {},
+      "noCommentMessage": "用户未及时作出评价哦~",
+      "isShowUserLevel": "0",
+      "isShowPlusPendant": "1",
+      "plusLogoId": "",
+      "plusLogoType": "",
+      "markingList": [],
+      "imageStatusText": "",
+      "commentOfficerStatus": "0",
+      "iconList": [],
+      "tagCommentContent": "",
+      "carTagInfo": "",
+      "ownerStatus": "0",
+      "productId": "10060881620007",
+      "commentDate": "2022-11-09 21:59:17",
+      "commentScore": "5",
+      "praiseCnt": "0",
+      "replyCnt": "0",
+      "commentData": "一收到，立马叫客服发安装视频，很快就装好，非常满意，放宝宝进来玩一开始有点害怕，然后就陪她进来一起玩，一会就喜欢上了，围栏还是挺稳的，非常非常满意！",
+      "pictureInfoList": [
+        {
+          "picURL": "https://img30.360buyimg.com/shaidan/s411x411_jfs/t1/113895/24/30570/139964/636bb234Ec0a83a09/1eda2f1098dc63c6.jpg.dpg",
+          "largePicURL": "https://img30.360buyimg.com/shaidan/s850x850_jfs/t1/113895/24/30570/139964/636bb234Ec0a83a09/1eda2f1098dc63c6.jpg.dpg",
+          "mediaType": "1"
+        }
+      ],
+      "guid": "aa8d9aeb81895566bf420503ca0f7b13",
+      "maidianInfo": "6233;21811;21862_10060881620005_全部_1_2_aa8d9aeb81895566bf420503ca0f7b13_-100_cmt_-100",
+      "ckeKeyWordBury": "",
+      "testId": "cmt",
+      "imageStatus": "1",
+      "excellentCommentIcon": "",
+      "pictureCnt": 0,
+      "officerScore": "0",
+      "userId": "",
+      "praiseFlag": true
+    }
+  ],
+  "tagStatisticsinfoList": [
+    {
+      "id": "e62bf087db98fc82",
+      "name": "结实耐用",
+      "count": "2",
+      "tagId": "e62bf087db98fc82",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=e62bf087db98fc82^^pid=30013^^sku=10023135283412^^sversion=1000^^token=1389882a18c7b87b"
+    },
+    {
+      "id": "649e4c0cd9a0be4b",
+      "name": "操作便捷",
+      "count": "2",
+      "tagId": "649e4c0cd9a0be4b",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=649e4c0cd9a0be4b^^pid=30013^^sku=10023135283412^^sversion=1000^^token=ef644fd6fca46d27"
+    },
+    {
+      "id": "e07d7bcb4f9ed1d5",
+      "name": "轻便实用",
+      "count": "1",
+      "tagId": "e07d7bcb4f9ed1d5",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=e07d7bcb4f9ed1d5^^pid=30013^^sku=10023135283412^^sversion=1000^^token=58a2af12b36048ca"
+    },
+    {
+      "id": "a82883cfae33a780",
+      "name": "方便实用",
+      "count": "1",
+      "tagId": "a82883cfae33a780",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=a82883cfae33a780^^pid=30013^^sku=10023135283412^^sversion=1000^^token=d61732bd8d43d03f"
+    },
+    {
+      "id": "3e5243037fe2dbab",
+      "name": "实用性强",
+      "count": "1",
+      "tagId": "3e5243037fe2dbab",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=3e5243037fe2dbab^^pid=30013^^sku=10023135283412^^sversion=1000^^token=a8c28b331259e1c1"
+    },
+    {
+      "id": "d5bf873e85e0d53c",
+      "name": "简单好用",
+      "count": "1",
+      "tagId": "d5bf873e85e0d53c",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=d5bf873e85e0d53c^^pid=30013^^sku=10023135283412^^sversion=1000^^token=69af44a62660c831"
+    },
+    {
+      "id": "091285effccb667c",
+      "name": "面料舒适",
+      "count": "1",
+      "tagId": "091285effccb667c",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=091285effccb667c^^pid=30013^^sku=10023135283412^^sversion=1000^^token=e216aeea927adc97"
+    },
+    {
+      "id": "cf292b5b5a2fa3b8",
+      "name": "精美绝伦",
+      "count": "1",
+      "tagId": "cf292b5b5a2fa3b8",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=cf292b5b5a2fa3b8^^pid=30013^^sku=10023135283412^^sversion=1000^^token=1920c0793018f660"
+    },
+    {
+      "id": "4373009c6260164a",
+      "name": "做工一流",
+      "count": "1",
+      "tagId": "4373009c6260164a",
+      "type": "4",
+      "canBeFiltered": true,
+      "stand": "1",
+      "ckeKeyWordBury": "eid=100^^tagid=4373009c6260164a^^pid=30013^^sku=10023135283412^^sversion=1000^^token=a71243a0a759bc94"
+    }
+  ],
+  "isShowConsultBtn": false,
+  "questionGeneralInfo": {
+    "questionIcon": "https://m.360buyimg.com/cc/jfs/t1/117749/2/1908/3495/5e9d13c8E864ecc1f/b839854ce8687569.png",
+    "sum": "0",
+    "questionText": "暂无问答"
+  },
+  "isShowYoutuShaituBtn": true,
+  "currentSkuStatus": "2",
+  "commentVideoInfoList": [],
+  "isShowCommentBtn": true,
+  "badCnt": "1",
+  "showTag": true,
+  "consultBtnName": "购买咨询",
+  "mdKey": "0_NULL_NULL_NULL_NULL_NULL",
+  "youTuOrShaiTu": "0",
+  "videoAutoPlaySwitch": "1",
+  "consultationCount": "0",
+  "newCommentStyle": false,
+  "showUgc": true,
+  "commentTitle": "评价",
+  "testId": "cmt",
+  "showKoc": false,
+  "userVideoStyleType": "1",
+  "defaultGoodLogo": "https://m.360buyimg.com/mobilecms/jfs/t10447/176/1359340654/2177/9ceed2ba/59df1d27N55b368df.png"
+}

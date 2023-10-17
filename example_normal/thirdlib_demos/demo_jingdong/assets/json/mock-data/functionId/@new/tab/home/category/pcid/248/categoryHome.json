@@ -1,0 +1,1059 @@
+{
+  "floorList": [
+    {
+      "floorId": 823,
+      "floorName": "品牌精选（三排）",
+      "showHead": 0,
+      "rightText": "",
+      "style": "0903",
+      "srvJson": "{\"classfyid\":\"718\",\"styleid\":\"0903\",\"floorLoc\":\"0\",\"poolid\":\"41\",\"pid\":\"487\",\"classfynum\":\"1\",\"floorIdDetail\":\"823\"}",
+      "content": [
+        {
+          "id": 7500,
+          "materialId": "0",
+          "name": "OPPO",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/171926/21/30944/4744/6385f0d5Ef75d2e16/99c18d25b595e0c5.gif!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/2M85UWrVM3JmdPwZbfqnh96CbNxx/index.html?babelChannel=ttt27"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"biinfo\":\"manual\",\"materialId\":\"0\"}"
+          }
+        },
+        {
+          "id": 3489,
+          "materialId": "14026",
+          "name": "Apple",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t2989/240/151377693/3895/30ad9044/574d36dbN262ef26d.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "手机Apple"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"biinfo\":\"manual\",\"materialId\":\"14026\"}"
+          }
+        },
+        {
+          "id": 3491,
+          "materialId": "18374",
+          "name": "小米",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/156223/15/22684/3178/61764659Ebfccc8c1/e84d202cc34091a5.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "手机小米"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"biinfo\":\"manual\",\"materialId\":\"18374\"}"
+          }
+        },
+        {
+          "id": 3490,
+          "materialId": "413457",
+          "name": "荣耀",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/139060/38/19638/2825/5fe0477aE64df77e0/55af9759d5e9d78a.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "手机荣耀"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"biinfo\":\"manual\",\"materialId\":\"413457\"}"
+          }
+        },
+        {
+          "id": 3492,
+          "materialId": "25591",
+          "name": "vivo",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/115757/4/9851/3464/5ee0af9bEc6576114/0dfceda9f7809bb5.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "手机vivo"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"biinfo\":\"manual\",\"materialId\":\"25591\"}"
+          }
+        },
+        {
+          "id": 7769,
+          "materialId": "8557",
+          "name": "华为",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/132808/6/8420/2045/5f486e43E8ff5f3a1/62b97e5188766c42.png!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "手机华为"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"5\",\"biinfo\":\"1#57b04290c2b80ef6f07a2d516a4337b63fcb5dae-100-621309#\",\"materialId\":\"8557\"}"
+          }
+        },
+        {
+          "id": 6261,
+          "materialId": "000",
+          "name": "iQOO",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/66652/18/22292/118591/63241e81E2ea05741/876f14db9cbc5b7b.png!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/2zvirqRJvFwBpJnhuU681Zs45WS2/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"6\",\"biinfo\":\"manual\",\"materialId\":\"000\"}"
+          }
+        },
+        {
+          "id": 3711,
+          "materialId": "00",
+          "name": "一加",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/174439/3/25582/6451/61d82465Ee4403bdc/637ba9e0d597be12.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/2xy1D3EZhYWsDd1PbW2FpnzWgvjr/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"7\",\"biinfo\":\"manual\",\"materialId\":\"00\"}"
+          }
+        },
+        {
+          "id": 7769,
+          "materialId": "2032",
+          "name": "OPPO",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/22465/2/10288/3283/5c860ac9E1bbb5da9/33ffbca794e7b965.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "手机OPPO"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"8\",\"biinfo\":\"1#57b04290c2b80ef6f07a2d516a4337b63fcb5dae-100-621309#\",\"materialId\":\"2032\"}"
+          }
+        },
+        {
+          "id": 7769,
+          "materialId": "438621",
+          "name": "真我",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/66989/27/17717/4077/627ccdddEc5e378af/2b5adfc75075a606.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "手机真我"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"9\",\"biinfo\":\"1#57b04290c2b80ef6f07a2d516a4337b63fcb5dae-100-621309#\",\"materialId\":\"438621\"}"
+          }
+        },
+        {
+          "id": 7769,
+          "materialId": "15127",
+          "name": "三星",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/1534/38/9873/3556/5bc93df2E73c40121/74dc92d16e483509.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "手机三星"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"10\",\"biinfo\":\"1#57b04290c2b80ef6f07a2d516a4337b63fcb5dae-100-621309#\",\"materialId\":\"15127\"}"
+          }
+        },
+        {
+          "id": 7769,
+          "materialId": "2266",
+          "name": "ROG",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t25714/151/2114096477/2971/2c57ec07/5bc467c2Ned5a3c61.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "手机ROG"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"11\",\"biinfo\":\"1#57b04290c2b80ef6f07a2d516a4337b63fcb5dae-100-621309#\",\"materialId\":\"2266\"}"
+          }
+        }
+      ],
+      "showIconName": 1
+    },
+    {
+      "floorId": 896,
+      "floorName": "一切二-新",
+      "showHead": 0,
+      "rightText": "",
+      "style": "0911",
+      "srvJson": "{\"classfyid\":\"718\",\"styleid\":\"0911\",\"floorLoc\":\"1\",\"poolid\":\"41\",\"pid\":\"487\",\"classfynum\":\"1\",\"floorIdDetail\":\"896\"}",
+      "height": 130,
+      "content": [
+        {
+          "id": 8336,
+          "materialId": "8336",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/2PimE38Vam99eMLJWXiLTx1VgLJs/index.html?babelChannel=ttt216"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"materialId\":\"8336\",\"moduleid\":\"8336\",\"sku\":\"\"}"
+          },
+          "materialType": "1",
+          "bgImg": "https://m15.360buyimg.com/mobilecms/s510x330_jfs/t1/147779/25/32115/11416/6385cd9aE56fd0ced/e29c9d9d8187a493.png!gray"
+        },
+        {
+          "id": 8337,
+          "materialId": "8337",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/2M85UWrVM3JmdPwZbfqnh96CbNxx/index.html?babelChannel=ttt4"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"materialId\":\"8337\",\"moduleid\":\"8337\",\"sku\":\"\"}"
+          },
+          "materialType": "1",
+          "bgImg": "https://m15.360buyimg.com/mobilecms/s510x330_jfs/t1/68239/34/22822/26565/6385bf24E52280c78/6483d134dd5b190d.png!gray"
+        }
+      ]
+    },
+    {
+      "floorId": 2,
+      "floorName": "限时抢购",
+      "showHead": 3,
+      "headImg": "https://m15.360buyimg.com/mobilecms/jfs/t1/87043/33/151/3925/5da84aa1Ea3c9d140/49954711fd31a7f1.png!gray",
+      "rightImg": "",
+      "rightText": "更多",
+      "rightJump": {
+        "des": "miaosha",
+        "params": {
+          "categorys": "9987%2C653%2C655",
+          "secKillKeyTabType": "seckill",
+          "topSkus": "52751384715,100025446672,100016931027"
+        },
+        "srv": "",
+        "srvJson": "{\"materialId\":\"\"}"
+      },
+      "style": "0902",
+      "srvJson": "{\"classfyid\":\"718\",\"styleid\":\"0902\",\"floorLoc\":\"2\",\"poolid\":\"41\",\"pid\":\"487\",\"classfynum\":\"1\",\"floorIdDetail\":\"2\"}",
+      "content": [
+        {
+          "id": 2,
+          "materialId": "52751384715",
+          "img": "https://m15.360buyimg.com/mobilecms/s276x276_jfs/t1/213431/24/22071/39431/634694bfEe2acea61/8f629d4bca51d009.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "52751384715"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"biinfo\":\"1#2#dbd5b3cf096c461aa9d3a1a1c7d7dafc267fb53-100-621213#16153555\",\"materialId\":\"52751384715\"}"
+          },
+          "jdPrice": "4699.00",
+          "sprice": "2599.00",
+          "saleRatio": "18",
+          "promotionTag": "50天最低价"
+        },
+        {
+          "id": 2,
+          "materialId": "100025446672",
+          "img": "https://m15.360buyimg.com/mobilecms/s276x276_jfs/t1/178918/7/19768/187857/611cb592Ef40e4d3d/ff1666a5941fde4c.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100025446672"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"biinfo\":\"1#2#dbd5b3cf096c461aa9d3a1a1c7d7dafc267fb53-100-621213#16153555\",\"materialId\":\"100025446672\"}"
+          },
+          "jdPrice": "2999.00",
+          "sprice": "1969.00",
+          "saleRatio": "29",
+          "promotionTag": "1年最低价"
+        },
+        {
+          "id": 2,
+          "materialId": "100016931027",
+          "img": "https://m15.360buyimg.com/mobilecms/s276x276_jfs/t1/78922/12/21539/28999/632984e5Ebd20a9b8/d3d1a1a5a226139b.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100016931027"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"biinfo\":\"1#2#dbd5b3cf096c461aa9d3a1a1c7d7dafc267fb53-100-621213#16153555\",\"materialId\":\"100016931027\"}"
+          },
+          "jdPrice": "1999.00",
+          "sprice": "1769.00",
+          "saleRatio": "20",
+          "promotionTag": "22天最低价"
+        },
+        {
+          "id": 2,
+          "materialId": "100029677858",
+          "img": "https://m15.360buyimg.com/mobilecms/s276x276_jfs/t1/116382/9/27769/51190/632870a9E006f989c/0bc7951538dbef75.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100029677858"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"biinfo\":\"1#2#dbd5b3cf096c461aa9d3a1a1c7d7dafc267fb53-100-621213#16153555\",\"materialId\":\"100029677858\"}"
+          },
+          "jdPrice": "3699.00",
+          "sprice": "2799.00",
+          "saleRatio": "26",
+          "promotionTag": "1年最低价"
+        },
+        {
+          "id": 2,
+          "materialId": "67286554733",
+          "img": "https://m15.360buyimg.com/mobilecms/s276x276_jfs/t1/116929/4/7956/131632/5ec79883E5744e985/b1f815cee49fb113.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "67286554733"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"biinfo\":\"1#2#dbd5b3cf096c461aa9d3a1a1c7d7dafc267fb53-100-621213#16153555\",\"materialId\":\"67286554733\"}"
+          },
+          "jdPrice": "900.00",
+          "sprice": "838.00",
+          "saleRatio": "21",
+          "promotionTag": "1年最低价"
+        },
+        {
+          "id": 2,
+          "materialId": "10030072851492",
+          "img": "https://m15.360buyimg.com/mobilecms/s276x276_jfs/t1/221579/16/20510/59350/631e9259E26e7f56c/4b75a140ec886084.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "10030072851492"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"5\",\"biinfo\":\"1#2#dbd5b3cf096c461aa9d3a1a1c7d7dafc267fb53-100-621213#16153555\",\"materialId\":\"10030072851492\"}"
+          },
+          "jdPrice": "1199.00",
+          "sprice": "889.00",
+          "saleRatio": "33",
+          "promotionTag": "1年最低价"
+        },
+        {
+          "id": 2,
+          "materialId": "10060065159367",
+          "img": "https://m15.360buyimg.com/mobilecms/s276x276_jfs/t1/206834/32/29330/55142/637abd84E1f7252b6/cc9649d1d3daf3ac.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "10060065159367"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"6\",\"biinfo\":\"1#2#dbd5b3cf096c461aa9d3a1a1c7d7dafc267fb53-100-621213#16153555\",\"materialId\":\"10060065159367\"}"
+          },
+          "jdPrice": "4999.00",
+          "sprice": "2989.00",
+          "saleRatio": "40",
+          "promotionTag": "84天最低价"
+        },
+        {
+          "id": 2,
+          "materialId": "100023070509",
+          "img": "https://m15.360buyimg.com/mobilecms/s276x276_jfs/t1/29883/26/18864/50384/63292efcEb3345893/fc845f4dc592749f.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100023070509"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"7\",\"biinfo\":\"1#2#dbd5b3cf096c461aa9d3a1a1c7d7dafc267fb53-100-621213#16153555\",\"materialId\":\"100023070509\"}"
+          },
+          "jdPrice": "3999.00",
+          "sprice": "3599.00",
+          "saleRatio": "16",
+          "promotionTag": "185天最低价"
+        },
+        {
+          "id": 2,
+          "materialId": "100024272631",
+          "img": "https://m15.360buyimg.com/mobilecms/s276x276_jfs/t1/46788/29/21747/34952/6329303dE1454232f/f4fb0f4c281b436e.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100024272631"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"8\",\"biinfo\":\"1#2#dbd5b3cf096c461aa9d3a1a1c7d7dafc267fb53-100-621213#16153555\",\"materialId\":\"100024272631\"}"
+          },
+          "jdPrice": "4299.00",
+          "sprice": "4199.00",
+          "saleRatio": "21",
+          "promotionTag": "185天最低价"
+        },
+        {
+          "id": 2,
+          "materialId": "100044548215",
+          "img": "https://m15.360buyimg.com/mobilecms/s276x276_jfs/t1/77598/11/16196/38875/63524780E43161fc6/eac85b6857740f9d.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100044548215"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"9\",\"biinfo\":\"1#2#dbd5b3cf096c461aa9d3a1a1c7d7dafc267fb53-100-621213#16153555\",\"materialId\":\"100044548215\"}"
+          },
+          "jdPrice": "1999.00",
+          "sprice": "1759.00",
+          "saleRatio": "22",
+          "promotionTag": "20天最低价"
+        },
+        {
+          "id": 2,
+          "name": "限时抢购",
+          "jump": {
+            "des": "miaosha",
+            "params": {
+              "categorys": "9987%2C653%2C655",
+              "secKillKeyTabType": "seckill",
+              "topSkus": "52751384715,100025446672,100016931027"
+            },
+            "srv": ""
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "floorId": 1039,
+      "floorName": "聚合榜单",
+      "showHead": 0,
+      "rightText": "",
+      "style": "0910",
+      "srvJson": "{\"classfyid\":\"718\",\"styleid\":\"0910\",\"floorLoc\":\"3\",\"poolid\":\"41\",\"pid\":\"487\",\"classfynum\":\"1\",\"floorIdDetail\":\"1039\"}",
+      "content": [
+        {
+          "id": 9537,
+          "materialId": "249855",
+          "name": "金榜",
+          "img": "https://m15.360buyimg.com/mobilecms/s267x267_jfs/t1/93432/8/25582/516778/62344ac6E20bb5ac9/4f99b7b8c4f16394.png!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://h5.m.jd.com/babelDiy/Zeus/2kuDDsNmnkdsxbv8sLoZhHWtqh5Z/index.html?rankType=13&contentId=249855&fromName=Xiaoshouye&hideAd=1&sku=100035225788"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"biinfo\":\"0\",\"materialId\":\"249855\",\"sku\":\"100035225788\",\"type\":\"1\",\"categoryId\":\"null\"}"
+          },
+          "jdPrice": "",
+          "saleNumText": "9778.6万人想买",
+          "rankName": "主流手机榜",
+          "bgImg": "https://m15.360buyimg.com/mobilecms/jfs/t1/194876/4/28485/4232/6305a44cE4ae3474f/926e7b4c82f3bfa1.png!gray",
+          "bgColor": "#D78F36"
+        },
+        {
+          "id": 9538,
+          "materialId": "110839",
+          "name": "热卖榜",
+          "img": "https://m15.360buyimg.com/mobilecms/s267x267_jfs/t1/160664/2/21447/202317/616e6417Ea7ac5310/3b48e747eae3d1ab.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/31rhHxMvPQ3A3K1ckTXFz1wdrd4f/index.html?has_native=0&indParam=%7B%22currSku%22%3A%22100007940951%22%2C%22rankId%22%3A%22110839%22%2C%22fromName%22%3A%22Xiaoshouye%22%7D&sowhead=no"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"biinfo\":\"0\",\"materialId\":\"110839\",\"sku\":\"100007940951\",\"type\":\"1\",\"categoryId\":\"null\"}"
+          },
+          "jdPrice": "",
+          "saleNumText": "特惠促销中",
+          "rankName": "手机榜",
+          "bgImg": "https://m15.360buyimg.com/mobilecms/jfs/t1/32477/3/16845/5062/6305a449E63f88ea7/daefcb7f3dc5ee6b.png!gray",
+          "bgColor": "#FA2C29"
+        },
+        {
+          "id": 9539,
+          "materialId": "1890184",
+          "name": "飙升榜",
+          "img": "https://m15.360buyimg.com/mobilecms/s267x267_jfs/t1/31505/10/16954/412116/62f06c35E23ee8007/48f59be0714e2dda.png!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://h5.m.jd.com/babelDiy/Zeus/qPtWihKEDTcxtGgR9R736RZTuLB/index.html?rankType=8&contentId=1890184&fromName=Xiaoshouye&hideAd=1&sku=100033719303&renderpage=rank"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"biinfo\":\"0\",\"materialId\":\"1890184\",\"sku\":\"100033719303\",\"type\":\"1\",\"categoryId\":\"null\"}"
+          },
+          "jdPrice": "",
+          "saleNumText": "58.3万人正在追捧",
+          "rankName": "手机榜",
+          "bgImg": "https://m15.360buyimg.com/mobilecms/jfs/t1/83356/18/21801/4573/6305a44aE7f245cbb/1d0420b04a97c7f5.png!gray",
+          "bgColor": "#264AFF"
+        }
+      ],
+      "showRankType": 0
+    },
+    {
+      "floorId": 735,
+      "floorName": "手机共建楼层",
+      "showHead": 0,
+      "rightText": "",
+      "style": "0914",
+      "srvJson": "{\"classfyid\":\"718\",\"styleid\":\"0914\",\"floorLoc\":\"4\",\"poolid\":\"41\",\"pid\":\"487\",\"classfynum\":\"1\",\"floorIdDetail\":\"735\"}",
+      "content": [
+        {
+          "id": 6678,
+          "materialId": "6678",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/19319/20/18034/5925/62ea299eE174950a1/da13dd2f0520c08a.png!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/Y9FVe619hMoajzqpxky1CQQJAkk/index.html?babelChannel=ttt11"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"materialId\":\"6678\"}"
+          },
+          "title": "手机卖场",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 6680,
+          "materialId": "6680",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/149062/4/28742/4683/62ea2a08Eb37df034/81d228f00d81ffef.png!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/2DWXWszt6VvNx4HDctSa4TA7rHh6/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"materialId\":\"6680\"}"
+          },
+          "title": "京奢手机",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 6681,
+          "materialId": "6681",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/76752/14/21115/3621/62ea2a69Ea7fb7087/d119d4cdf3d4e945.png!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/3V6GJwuqXXmNQqsaq3MHND6sksNj/index.html?babelChannel=ttt139"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"materialId\":\"6681\"}"
+          },
+          "title": "小时购",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 8987,
+          "materialId": "8987",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/69328/18/20991/4330/62ea2a7bEb76f3cf9/b46c23c3e147bd59.png!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://txsm-m.jd.com/?babelChannel=ttt9"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"materialId\":\"8987\"}"
+          },
+          "title": "充值中心",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 6679,
+          "materialId": "6679",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/183432/9/30295/6428/634fa826Efb8b3637/8eecf0cda07d6317.png!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/JQZ9P6NLind8rpnJVHaqzA7eKDJ/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"materialId\":\"6679\"}"
+          },
+          "title": "手机助手",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        }
+      ],
+      "showSubTitle": 0
+    },
+    {
+      "floorId": 688,
+      "floorName": "手机测试合并类目楼层",
+      "showHead": 0,
+      "rightText": "",
+      "style": "0901",
+      "srvJson": "{\"classfyid\":\"718\",\"styleid\":\"0901\",\"floorLoc\":\"5\",\"poolid\":\"41\",\"pid\":\"487\",\"classfynum\":\"1\",\"floorIdDetail\":\"688\"}",
+      "content": [
+        {
+          "id": 5457,
+          "materialId": "1544",
+          "name": "手机",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/135400/31/382/19522/5ecd01a5E522225e9/b87ed966e2f88b27.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "手机"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"biinfo\":\"0\",\"materialId\":\"1544\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 5457,
+          "materialId": "1545",
+          "name": "折叠屏手机",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/140040/26/16010/9675/5fbf7f4eEa176b5bb/dac1ab7e275da292.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "折叠屏手机"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"biinfo\":\"0\",\"materialId\":\"1545\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 5457,
+          "materialId": "1543",
+          "name": "游戏手机",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/48750/3/14191/5191/5db17578E237d03cf/37d3cf8fa484af65.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "游戏手机"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"biinfo\":\"0\",\"materialId\":\"1543\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 5457,
+          "materialId": "3084",
+          "name": "中国联通",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/137909/9/5827/10776/5f3bb38eE464ab76a/e55973fb20ca1bf2.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "中国联通"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"biinfo\":\"diviner#621328#100#24b166f800625f8409a9850732e6e89d103ecffd\",\"materialId\":\"3084\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 5457,
+          "materialId": "6004",
+          "name": "苹果周边",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/191468/5/20890/4346/612d982cE94169075/6b35122e0702b255.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "苹果周边"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"biinfo\":\"diviner#621328#100#24b166f800625f8409a9850732e6e89d103ecffd\",\"materialId\":\"6004\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 5457,
+          "materialId": "1546",
+          "name": "长续航",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/102666/27/632/4470/5db17744E1b994be1/ef6c3963bce640b5.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "长续航手机"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"5\",\"biinfo\":\"diviner#621328#100#24b166f800625f8409a9850732e6e89d103ecffd\",\"materialId\":\"1546\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 5457,
+          "materialId": "3081",
+          "name": "购机补贴",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/142569/12/5763/6562/5f3bb34bE49cdfdf7/22d1211ecbe64373.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "购机补贴"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"6\",\"biinfo\":\"diviner#621328#100#24b166f800625f8409a9850732e6e89d103ecffd\",\"materialId\":\"3081\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 5457,
+          "materialId": "720",
+          "name": "手机耳机",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/199862/29/5545/3818/612d97cdE0adc92a3/47dc840e3341e937.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "手机耳机"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"7\",\"biinfo\":\"diviner#621328#100#24b166f800625f8409a9850732e6e89d103ecffd\",\"materialId\":\"720\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 5457,
+          "materialId": "3082",
+          "name": "中国移动",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/123068/30/9929/11528/5f3bb379E3706b800/a032b43b0ba4eaf1.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "中国移动"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"8\",\"biinfo\":\"diviner#621328#100#24b166f800625f8409a9850732e6e89d103ecffd\",\"materialId\":\"3082\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 5457,
+          "materialId": "6510",
+          "name": "无线充电器",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/194803/37/20953/5095/612d988cEaa196a88/2804b326788988bd.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "无线充电器"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"9\",\"biinfo\":\"diviner#621328#100#24b166f800625f8409a9850732e6e89d103ecffd\",\"materialId\":\"6510\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        }
+      ],
+      "filteredCateIds": "1544,1545,1543,3084,6004,1546,3081,720,3082,6510",
+      "catePoolId": 192,
+      "cid": "718",
+      "pcid": "248"
+    },
+    {
+      "floorId": 5,
+      "floorName": "京挑惠选",
+      "showHead": 2,
+      "headImg": "https://m15.360buyimg.com/mobilecms/jfs/t1/56160/28/22209/11155/63413e63E4fbce07d/b5ea26324fe435e9.png!gray",
+      "rightText": "",
+      "style": "0906",
+      "srvJson": "{\"classfyid\":\"718\",\"styleid\":\"0906\",\"floorLoc\":\"6\",\"poolid\":\"41\",\"pid\":\"487\",\"classfynum\":\"1\",\"floorIdDetail\":\"5\"}",
+      "content": []
+    }
+  ],
+  "code": "0",
+  "background": {},
+  "pid": "487"
+}

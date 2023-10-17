@@ -34,3 +34,14 @@ flutter:
     - assets/images/news/
     - assets/images/product/
     - assets/images/store/
+    - assets/json/mock-data/functionId/@new/tab/xinpin/
+    - assets/json/mock-data/functionId/@new/tab/xinpin/getNewsTrendsTabDetails/
+    - assets/json/mock-data/functionId/@new/tab/xinpin/getRecommendNewFeedsList/
+    - assets/json/mock-data/functionId/@new/tab/xinpin/getTabProductsList/
+    - assets/json/mock-data/functionId/@new/tab/xinpin/getTabProductsList/1/
+    - assets/json/mock-data/functionId/@new/tab/xinpin/getTabProductsList/7/
+    - assets/json/mock-data/functionId/@new/tab/xinpin/getTabProductsList/9/
+    - assets/json/mock-data/functionId/@new/tab/xinpin/getTabProductsList/19/
+    - assets/json/mock-data/functionId/@new/tab/xinpin/getTabProductsList/20/
+    - assets/json/mock-data/functionId/@new/tab/xinpin/getTabProductsList/22/
+    - assets/json/mock-data/functionId/@new/tab/xinpin/getTabProductsList/95/

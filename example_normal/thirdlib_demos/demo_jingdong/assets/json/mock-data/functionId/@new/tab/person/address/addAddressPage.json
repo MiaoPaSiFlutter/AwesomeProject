@@ -1,0 +1,76 @@
+{
+	"addressDarkGrain": {
+		"area": "省市区县、乡镇等",
+		"addressDetail": "街道、楼牌号等",
+		"phone": "",
+		"name": "请填写收货人姓名",
+		"mobile": "请填写收货人手机号",
+		"postCode": "",
+		"email": ""
+	},
+	"gangAoAddressDarkGrain": {
+		"area": "省市區縣、鄉鎮等",
+		"addressDetail": "請填寫準確的城市、街道、門牌號",
+		"phone": "建議填寫備用電話，以便及時聯絡您",
+		"name": "請填寫真實收件人姓名",
+		"mobile": "填寫收貨地電話號碼",
+		"postCode": "必填",
+		"email": "必填"
+	},
+	"code": "0",
+	"isOpenLocate": true,
+	"foreignAddressDarkGrain": {
+		"area": "省市区县、乡镇等",
+		"addressDetail": "请用英文填写准确的城市、街道、门牌号",
+		"phone": "选填",
+		"name": "请填写真实的英文全名",
+		"mobile": "填写收货地电话号码",
+		"postCode": "请填写准确的邮编",
+		"email": "必填"
+	},
+	"allAddressDetailCheckMap": {
+		"foreignAddressCheck": {
+			"rule": "^[a-zA-Z\\d\\(\\)\\.\\-\\s\\\u0026;#/,_]*$",
+			"message": "抱歉，只支持输入英文详细地址"
+		},
+		"addressCheck": {
+			"rule": "",
+			"message": ""
+		},
+		"emailCheck": {
+			"rule": "^[a-zA-Z\\d\\$\\(\\)\\*\\+\\.\\[\\]\\?\\^\\{\\}\\-\\s\\@%\u0026\u003d;~\u0027”\u003c\u003e`!#:/,_]*$",
+			"message": "邮箱格式有误，请重新填写"
+		},
+		"nameCheck": {
+			"rule": "",
+			"message": ""
+		},
+		"mobileCheck": {
+			"rule": "[()\\-0-9]+",
+			"message": "手机号格式有误，请重新填写"
+		},
+		"postCodeCheck": {
+			"rule": "^[a-zA-Z\\d\\$\\(\\)\\*\\+\\.\\[\\]\\?\\^\\{\\}\\-\\s\\@%\u0026\u003d;~\u0027”\u003c\u003e`!#:/,_]*$",
+			"message": "邮编格式有误，请重新填写"
+		},
+		"foreignNameCheck": {
+			"rule": "^[a-zA-Z\\d\\(\\)\\.\\-\\s\\\u0026;#/,_]*$",
+			"message": "抱歉，只支持输入英文姓名"
+		}
+	},
+	"areaBeanVO": {
+		"Id": 0,
+		"Name": "中国",
+		"IsSupCOD": false,
+		"isForeignOverSea": false,
+		"isGangAoTai": false,
+		"isDiaoYuDao": false,
+		"areaCode": "86",
+		"parentId": 0,
+		"parentName": ""
+	},
+	"isSupportVersionNineUI": true,
+	"switchControl": {
+		"openContactsSwitch": "1"
+	}
+}

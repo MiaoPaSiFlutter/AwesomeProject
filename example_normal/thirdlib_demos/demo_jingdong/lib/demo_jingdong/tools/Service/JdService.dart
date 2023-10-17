@@ -3,16 +3,18 @@ import 'dart:convert';
 import 'package:crypto/crypto.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 //因为使用Getx进行状态管理，使用dio进行HTTP请求，它们都有response类，所以会造成冲突，
 //解决方法：即修改get的引入方式：
 import 'package:get/get.dart' hide Response;
+import 'package:hzy_common_module/hzy_common_module.dart';
 
 import '../JMGL/JMGLManager.dart';
 import '../Network/http_utils.dart';
 import '../Network/response/response.dart';
 
 class JdService {
-  static String basePath = "assets/datas-mock/20220629/";
+  static String kAssetsPath = "assets/json/mock-data/functionId/@new/";
   static String kBaseUrl =
       "https://gitlab.com/ikumock-data/MockDatas/-/raw/JingDong/20220629/functionId/@new/";
 
@@ -39,7 +41,33 @@ class JdService {
   }
 
   /// 加载网络数据
+  static Future<MpsfResponse> loadFromAssets(String path) async {
+    String fullUrl = kAssetsPath + path;
+    dPrint(fullUrl);
+    try {
+      String key = NormalModuleUtils.configPackagesImage(
+          packagename: 'demo_jingdong', name: fullUrl);
+      var value = await rootBundle.loadString(key);
+      // var map = json.decode(value); // 解码
+      Response response = Response(
+          data: value,
+          statusCode: 200,
+          requestOptions: RequestOptions(path: fullUrl));
+      return MpsfResponse(dioResponse: response);
+    } catch (e) {
+      dPrint(e);
+
+      Response response = Response(
+          data: null,
+          statusCode: e.hashCode,
+          requestOptions: RequestOptions(path: fullUrl));
+      return MpsfResponse(dioResponse: response);
+    }
+  }
+
+  /// 加载网络数据
   static Future<MpsfResponse> getJsonDATA(String path) async {
+    return loadFromAssets(path);
     //保存数据
     String fullUrl = kBaseUrl + path;
     var id = generateMD5(fullUrl);
@@ -286,7 +314,7 @@ class JdService {
     int page,
     Map tabInfo,
   ) async {
-    int id = tabInfo["id"];
+    int id = 1;
     String path = "tab/xinpin/getTabProductsList/$id/result_$page.json";
     MpsfResponse respM = await getJsonDATA(path);
     return respM;

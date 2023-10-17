@@ -1,0 +1,53 @@
+{
+  "cards": [
+    {
+      "skuId": "100016931023",
+      "skuName": "荣耀X30 骁龙6nm疾速5G芯 66W超级快充 120Hz全视屏 全网通版 8GB+128GB 钛空银",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/78922/12/21539/28999/632984e5Ebd20a9b8/d3d1a1a5a226139b.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "1499.00",
+      "reviews": "10万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI2MTIwODQ0MzMzZWJmNGM1MzgwNDk5MTc4Nzk3ZmU2NjFiYWVlZWQ0In0=\",\"priceTag\":\"0\",\"page\":\"6\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100016931023\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100026258254",
+      "skuName": "荣耀畅玩20 5000mAh超大电池续航 6.5英寸大屏 莱茵护眼 6GB+128GB 极光蓝 双卡双待 全网通",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/203355/20/4577/88731/6131d6acEcfd61d5e/9341076994991b08.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "899.00",
+      "reviews": "2000+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI2MTIwODQ0MzMzZWJmNGM1MzgwNDk5MTc4Nzk3ZmU2NjFiYWVlZWQ0In0=\",\"priceTag\":\"0\",\"page\":\"6\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100026258254\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    }
+  ],
+  "code": "0",
+  "hasNextPage": 1,
+  "srvJson": "{\"classfyid\":718,\"poolid\":\"41\",\"classfynum\":\"1\",\"keyWord\":\"-100\"}",
+  "page": 7
+}
