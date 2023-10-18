@@ -61,6 +61,10 @@ class JingDongConfig {
       leftMsg: "商品详情",
       router: JingDongModuleRouterS.ProductView,
     ),
+    HzyNormalItemModel(
+      leftMsg: "首页",
+      router: JingDongModuleRouterS.HomeView,
+    ),
 
     /// 按钮
     ///

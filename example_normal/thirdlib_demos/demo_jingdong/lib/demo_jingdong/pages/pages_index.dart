@@ -15,3 +15,4 @@ export './guide/views/guide_view.dart';
 export './splash/views/splash_view.dart';
 export './web/common_web_page.dart';
 export './product/views/product_view.dart';
+export './home/views/home_view.dart';
