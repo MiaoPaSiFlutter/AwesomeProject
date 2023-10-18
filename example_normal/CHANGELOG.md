@@ -1,3 +1,17 @@
+### 2023-10-19
+
+#### 1、编译 web
+
+flutter build web --web-renderer html
+问题:[创建 flutter web 的构建版本时显示一个空页面](https://www.saoniuhuo.com/question/detail-2518136.html)
+
+```
+描述：在localhost中运行flutter run -d chrome时工作正常，但是当我准备发布它时，使用命令flutter build web，它显示一个空白页面，并通过控制台抛出一些一般性错误。
+
+解决：
+在/build/web index.html中，需要将href="/”改为href="./”，以便它最终可以工作，似乎href="”也可以工作
+```
+
 ### 2023-10-18
 
 #### 1、[添加 web 支持](https://docs.flutter.dev/platform-integration/web/building)
