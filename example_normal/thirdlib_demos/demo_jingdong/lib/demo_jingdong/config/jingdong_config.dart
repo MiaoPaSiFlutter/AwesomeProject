@@ -41,6 +41,10 @@ class JingDongConfig {
       leftMsg: "发现",
       router: JingDongModuleRouterS.DiscoverView,
     ),
+    HzyNormalItemModel(
+      leftMsg: "分类",
+      router: JingDongModuleRouterS.CategoryView,
+    ),
 
     /// 按钮
     ///

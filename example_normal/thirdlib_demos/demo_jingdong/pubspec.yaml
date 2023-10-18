@@ -67,6 +67,10 @@ flutter:
     - assets/json/mock-data/functionId/@new/tab/discovery/feedStream/
     - assets/json/mock-data/functionId/@new/tab/category/
     - assets/json/mock-data/functionId/@new/tab/category/cid/
+    - assets/json/mock-data/functionId/@new/tab/category/cid/0/
+    - assets/json/mock-data/functionId/@new/tab/category/cid/300014703/
+    - assets/json/mock-data/functionId/@new/tab/category/cid/300015294/
+    - assets/json/mock-data/functionId/@new/tab/category/cid/300015359/
     - assets/json/mock-data/functionId/@new/tab/cart/
     - assets/json/mock-data/functionId/@new/tab/cart/confirmOrder/
     - assets/json/mock-data/functionId/@new/tab/cart/uniformRecommend/

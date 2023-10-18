@@ -10,3 +10,4 @@ export './account_set/account_set_view.dart';
 export './order/order_view.dart';
 export './mine/mine_view.dart';
 export './discover/views/discover_view.dart';
+export './category/views/category_view.dart';
