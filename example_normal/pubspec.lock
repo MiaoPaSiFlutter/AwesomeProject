@@ -805,6 +805,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.1"
+  package_rename:
+    dependency: "direct main"
+    description:
+      name: package_rename
+      sha256: "9af59d761bfa48a6a5d90fd285622d8d3893ed1a3d428f47305520b0b888abf1"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.3.3"
   path:
     dependency: transitive
     description:
@@ -1137,6 +1145,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.3.2"
+  universal_io:
+    dependency: transitive
+    description:
+      name: universal_io
+      sha256: "1722b2dcc462b4b2f3ee7d188dad008b6eb4c40bbd03a3de451d82c78bba9aad"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.2.2"
   url_launcher:
     dependency: transitive
     description:

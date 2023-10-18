@@ -8,6 +8,10 @@ flutter_launcher_icons: ^0.13.1
 
 https://github.com/fluttercommunity/flutter_launcher_icons/
 
+2、使用 package_rename 修改包名。
+package_rename: ^1.3.3
+https://github.com/OutdatedGuy/package_rename/tree/main
+
 ### 2023-10-16
 
 1、创建 extended_sliver_demo 模块儿
