@@ -1,16 +1,62 @@
+### 2023-10-18
+
+#### 1、[添加 web 支持](https://docs.flutter.dev/platform-integration/web/building)
+
+This application is not configured to build on the web.
+To add web support to a project, run `flutter create .`.
+
+运行 `flutter create .` 会创建 web 文件夹
+运行 `flutter run -d chrome` 运行到 Chrome
+
+#### 2、[ Flutter Web 预览时白屏解决方法 ](https://www.cnblogs.com/letleon/p/16869746.html)
+
+原因是因为运行 flutter run 是自动选择渲染器
+
+--- 桌面端 WEB 浏览器默认使用 CanvasKit 渲染器
+
+--- 移动端 WEB 浏览器默认使用 HTML 渲染器
+
+问题就出在了 CanvasKit 渲染器,他需要下载一些库的支持，
+
+解决方法：
+
+```javascript：
+1：挂梯子
+2：改渲染器
+　　2.1：在命令行中指定渲染器（每次都得敲命令,run 和 build 都可用）
+　　　　　　HTML渲染器
+　　　　　　　　flutter run -d chrome --web-renderer html
+
+　　　　　　CANVASKIT渲染器（默认 flutter run -d chrome 就是这个）
+　　　　　　　　flutter build web --web-renderer canvaskit
+
+　　2.2:在WEB index.html 中设置渲染器（只需要修改一次）
+　　　　　　在 web/index.html 文件中，main.dart.js 之前加入一个 <script>
+复制代码
+
+<!-- 渲染模式 -->
+<script type="text/javascript">
+   let useHtml = true;//你懂的
+   if(useHtml) {
+     window.flutterWebRenderer = "html";
+   } else {
+     window.flutterWebRenderer = "canvaskit";
+   }
+ </script>
+<!--  在main.dart.js之前 -->
+<!--  <script src="main.dart.js" type="application/javascript"></script> -->
+```
+
 ### 2023-10-17
 
-1、使用 flutter_launcher_icons 修改程序的图标
+1、[使用 flutter_launcher_icons 修改程序的图标](https://github.com/fluttercommunity/flutter_launcher_icons/)
 
 # 一个软件包，可简化更新 Flutter 应用程序启动器图标的任务。
 
 flutter_launcher_icons: ^0.13.1
 
-https://github.com/fluttercommunity/flutter_launcher_icons/
-
-2、使用 package_rename 修改包名。
+2、[使用 package_rename 修改包名。](https://github.com/OutdatedGuy/package_rename/tree/main)
 package_rename: ^1.3.3
-https://github.com/OutdatedGuy/package_rename/tree/main
 
 ### 2023-10-16
 

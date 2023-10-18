@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_update_dialog/flutter_update_dialog.dart';
 import 'dart:io';
@@ -29,31 +31,31 @@ class UpdatePrompter {
     String title = "是否升级到${updateEntity.versionName}版本？";
     String updateContent = getUpdateContent();
     CommonUtils.getApkFileByUpdateEntity(updateEntity).then((value) {
-      if (Platform.isAndroid) {
-        _apkFile = value;
-      }
-      if (_apkFile != null && _apkFile!.existsSync()) {
-        _dialog = UpdateDialog.showUpdate(
-          context,
-          title: title,
-          updateContent: updateContent,
-          updateButtonText: "安装",
-          extraHeight: 10,
-          enableIgnore: updateEntity.isIgnorable,
-          isForce: updateEntity.isForce,
-          onUpdate: doInstall,
-        );
-      } else {
-        _dialog = UpdateDialog.showUpdate(
-          context,
-          title: title,
-          updateContent: updateContent,
-          extraHeight: 10,
-          enableIgnore: updateEntity.isIgnorable,
-          isForce: updateEntity.isForce,
-          onUpdate: onUpdate,
-        );
-      }
+      // if (Platform.isAndroid && value != null) {
+      //   _apkFile = value;
+      // }
+      // if (_apkFile != null && _apkFile!.existsSync()) {
+      //   _dialog = UpdateDialog.showUpdate(
+      //     context,
+      //     title: title,
+      //     updateContent: updateContent,
+      //     updateButtonText: "安装",
+      //     extraHeight: 10,
+      //     enableIgnore: updateEntity.isIgnorable,
+      //     isForce: updateEntity.isForce,
+      //     onUpdate: doInstall,
+      //   );
+      // } else {
+      //   _dialog = UpdateDialog.showUpdate(
+      //     context,
+      //     title: title,
+      //     updateContent: updateContent,
+      //     extraHeight: 10,
+      //     enableIgnore: updateEntity.isIgnorable,
+      //     isForce: updateEntity.isForce,
+      //     onUpdate: onUpdate,
+      //   );
+      // }
     });
   }
 
