@@ -23,6 +23,7 @@ dependencies:
   flutter_update_dialog: ^2.0.0
   carousel_slider: ^4.2.1
   geolocator: ^10.0.0
+  event_bus_plus: ^0.6.1
   hzy_common_module:
     path: ../../thirdlib/hzy_common_module/
   flutter:
