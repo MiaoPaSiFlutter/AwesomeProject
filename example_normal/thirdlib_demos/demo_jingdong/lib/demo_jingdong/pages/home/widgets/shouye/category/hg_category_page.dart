@@ -10,7 +10,6 @@ import 'styleWidgets/JdFloorStyle0909.dart';
 import 'styleWidgets/JdFloorStyle0910.dart';
 import 'styleWidgets/JdFloorStyle0911.dart';
 import 'styleWidgets/JdFloorStyle0914.dart';
-import 'widgets/hg_category_page_widgets.dart';
 
 class HGCategoryPage extends StatefulWidget {
   final Map? itemObj;
@@ -114,7 +113,6 @@ class _HGCategoryPageState extends State<HGCategoryPage>
         ],
       ),
     );
-    // return HGCatgFloorContent_TMP(floor: floor);
   }
 
   Widget _createFloorItem(

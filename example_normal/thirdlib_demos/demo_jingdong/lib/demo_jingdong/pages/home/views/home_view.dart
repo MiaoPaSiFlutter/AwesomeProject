@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
-import 'mpsf_home_page.dart';
+import '../widgets/shouye/JdShouYeScreen.dart';
 
 class HomeView extends CommonGetXWidget<HomeController> {
   HomeView({Key? key}) : super(key: key);
@@ -15,7 +15,7 @@ class HomeView extends CommonGetXWidget<HomeController> {
   @override
   Widget createScallBody(
       {required BuildContext context, BoxConstraints? constraints}) {
-    return const MpsfHomePage();
+    return const JdShouYeScreen();
   }
 }
 

@@ -223,7 +223,7 @@ class _CommonSegmentViewState extends State<CommonSegmentView>
                 child: Text(
                   text,
                   style: TextStyle(
-                    color: isSelect ? Colors.white : Colors.white54,
+                    color: isSelect ? Colors.black : Colors.black38,
                   ),
                 ),
               );
