@@ -16,4 +16,5 @@ class JingDongModuleRouterS {
   static const CommonWebPage = '/jd/common/CommonWebPage';
   static const ProductView = '/jd/common/ProductView';
   static const HomeView = '/jd/tab/HomeView';
+  static const ShopcarView = '/jd/tab/ShopcarView';
 }

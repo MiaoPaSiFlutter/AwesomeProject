@@ -6,3 +6,4 @@ export 'network/network_index.dart';
 export 'models/models_index.dart';
 export 'compontents/compontents_index.dart';
 export 'config/config_index.dart';
+export 'global/global_index.dart';
