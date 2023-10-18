@@ -8,5 +8,6 @@ class JingDongModuleRouterS {
   static const BrowseHistoryView = '/jd/account/BrowseHistoryView';
   static const AccountSetView = '/jd/account/AccountSetView';
   static const OrderView = '/jd/account/OrderView';
-  static const MineView = '/jd/account/MineView';
+  static const MineView = '/jd/tab/MineView';
+  static const DiscoverView = '/jd/tab/DiscoverView';
 }

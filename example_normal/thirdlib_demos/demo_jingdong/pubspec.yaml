@@ -36,6 +36,7 @@ flutter:
     - assets/images/news/
     - assets/images/product/
     - assets/images/store/
+    - assets/images/discover/
     - assets/images/loading/
     - assets/json/mock-data/functionId/@new/tab/xinpin/
     - assets/json/mock-data/functionId/@new/tab/xinpin/getNewsTrendsTabDetails/
@@ -59,3 +60,26 @@ flutter:
     - assets/json/mock-data/functionId/@new/tab/person/order/completedOrder/
     - assets/json/mock-data/functionId/@new/tab/person/order/wait4DeliveryOrder/
     - assets/json/mock-data/functionId/@new/tab/person/order/wait4PaymentOrder/
+    - assets/json/mock-data/functionId/@new/tab/discFollow/
+    - assets/json/mock-data/functionId/@new/tab/discFollow/discFollowNextContent/
+    - assets/json/mock-data/functionId/@new/tab/discovery/
+    - assets/json/mock-data/functionId/@new/tab/discovery/follow/
+    - assets/json/mock-data/functionId/@new/tab/discovery/feedStream/
+    - assets/json/mock-data/functionId/@new/tab/category/
+    - assets/json/mock-data/functionId/@new/tab/category/cid/
+    - assets/json/mock-data/functionId/@new/tab/cart/
+    - assets/json/mock-data/functionId/@new/tab/cart/confirmOrder/
+    - assets/json/mock-data/functionId/@new/tab/cart/uniformRecommend/
+    - assets/json/mock-data/functionId/@new/tab/home/
+    - assets/json/mock-data/functionId/@new/tab/home/hours/
+    - assets/json/mock-data/functionId/@new/tab/home/category/
+    - assets/json/mock-data/functionId/@new/tab/home/category/pcid/
+    - assets/json/mock-data/functionId/@new/tab/home/category/pcid/234/
+    - assets/json/mock-data/functionId/@new/tab/home/category/pcid/237/
+    - assets/json/mock-data/functionId/@new/tab/home/category/pcid/246/
+    - assets/json/mock-data/functionId/@new/tab/home/category/pcid/248/
+    - assets/json/mock-data/functionId/@new/tab/home/category/pcid/700/
+    - assets/json/mock-data/functionId/@new/tab/home/category/pcid/1761/
+    - assets/json/mock-data/functionId/@new/tab/home/category/pcid/2230/
+    - assets/json/mock-data/functionId/@new/tab/home/category/pmid/
+    - assets/json/mock-data/functionId/@new/tab/home/category/pmid/142/
