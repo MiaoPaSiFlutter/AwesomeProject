@@ -45,6 +45,22 @@ class JingDongConfig {
       leftMsg: "分类",
       router: JingDongModuleRouterS.CategoryView,
     ),
+    HzyNormalItemModel(
+      leftMsg: "引导页",
+      router: JingDongModuleRouterS.GuideView,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "闪屏页",
+      router: JingDongModuleRouterS.SplashView,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "H5",
+      router: JingDongModuleRouterS.CommonWebPage,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "商品详情",
+      router: JingDongModuleRouterS.ProductView,
+    ),
 
     /// 按钮
     ///

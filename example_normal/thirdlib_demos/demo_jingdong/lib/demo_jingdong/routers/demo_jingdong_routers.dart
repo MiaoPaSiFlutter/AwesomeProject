@@ -10,5 +10,9 @@ class JingDongModuleRouterS {
   static const OrderView = '/jd/account/OrderView';
   static const MineView = '/jd/tab/MineView';
   static const DiscoverView = '/jd/tab/DiscoverView';
-  static const CategoryView = '/jd/tab/CategoryView';
+  static const CategoryView = '/jd/common/CategoryView';
+  static const GuideView = '/jd/common/GuideView';
+  static const SplashView = '/jd/common/SplashView';
+  static const CommonWebPage = '/jd/common/CommonWebPage';
+  static const ProductView = '/jd/common/ProductView';
 }

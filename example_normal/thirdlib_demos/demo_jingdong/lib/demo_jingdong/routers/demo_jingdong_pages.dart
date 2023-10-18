@@ -5,6 +5,22 @@ import 'routers_index.dart';
 class JingdongModulePagesS {
   static final routerS = [
     GetPage(
+      name: JingDongModuleRouterS.ProductView,
+      page: () => ProductView(),
+    ),
+    GetPage(
+      name: JingDongModuleRouterS.CommonWebPage,
+      page: () => CommonWebPage(),
+    ),
+    GetPage(
+      name: JingDongModuleRouterS.SplashView,
+      page: () => SplashView(),
+    ),
+    GetPage(
+      name: JingDongModuleRouterS.GuideView,
+      page: () => GuideView(),
+    ),
+    GetPage(
       name: JingDongModuleRouterS.CategoryView,
       page: () => CategoryView(),
     ),

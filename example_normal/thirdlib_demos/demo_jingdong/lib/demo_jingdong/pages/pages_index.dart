@@ -11,3 +11,7 @@ export './order/order_view.dart';
 export './mine/mine_view.dart';
 export './discover/views/discover_view.dart';
 export './category/views/category_view.dart';
+export './guide/views/guide_view.dart';
+export './splash/views/splash_view.dart';
+export './web/common_web_page.dart';
+export './product/views/product_view.dart';

@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  # 用于获取主机平台文件系统上的常用位置，例如临时目录和应用程序数据目录。
+  path_provider: 2.1.1
+  # 用于查询应用程序包的信息，例如iOS上的CFBundleVersion或Android上的versionCode。
+  package_info_plus: 4.1.0
   # 相机
   wechat_camera_picker: 4.0.2
   # 相册选择
