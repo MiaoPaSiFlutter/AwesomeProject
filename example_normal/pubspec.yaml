@@ -16,6 +16,8 @@ dependencies:
   flutter_markdown: ^0.6.14
   string_scanner: ^1.2.0
   flutter_screenutil: ^5.8.4
+  # 一个软件包，可简化更新 Flutter 应用程序启动器图标的任务。
+  flutter_launcher_icons: ^0.13.1
   get: ^4.6.5
   hzy_common_module:
     path: ./thirdlib/hzy_common_module

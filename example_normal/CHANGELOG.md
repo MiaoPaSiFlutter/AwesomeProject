@@ -1,3 +1,13 @@
+### 2023-10-17
+
+1、使用 flutter_launcher_icons 修改程序的图标
+
+# 一个软件包，可简化更新 Flutter 应用程序启动器图标的任务。
+
+flutter_launcher_icons: ^0.13.1
+
+https://github.com/fluttercommunity/flutter_launcher_icons/
+
 ### 2023-10-16
 
 1、创建 extended_sliver_demo 模块儿
