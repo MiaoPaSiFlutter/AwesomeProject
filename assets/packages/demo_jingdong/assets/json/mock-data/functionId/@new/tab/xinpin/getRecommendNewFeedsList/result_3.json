@@ -1,0 +1,388 @@
+{
+	"code": "0",
+	"data": {
+		"ddTime": 1634612252067,
+		"videoListPlayAuto": 1,
+		"dataExist": 1,
+		"ddState": 0,
+		"sort": 0,
+		"list": [{
+			"pvNum": 4,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"biRt": "14",
+			"title": "家里一半梅雨季，一半舒爽天，会不会是你的除湿器没有选对",
+			"authorPic": "https://m.360buyimg.com/ceco/jfs/t1/101257/7/10632/8762/5e1ed3b6Eef9a7319/6313a14769a38a9b.jpg!q70.jpg",
+			"pvNumStr": "4",
+			"pin": "jd_494f28aeff647",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6IjIwMDEiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTA3IiwicmVxc2lnIjoiNmZlYmMwOGU3ZTdiOGIyZjRiNzNmMjI2NWFiYzM0ZWY4YjM3MmY0ZSJ9",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "VideoImmersion",
+				"params": {
+					"referpageid": "DemoVideo_List",
+					"playtype": "65",
+					"subPosition": "143",
+					"modeid": "1",
+					"channel": "faxianRecommendNewfeedlist",
+					"style": "11",
+					"id": "279034705"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"unionId": "1001036927",
+			"subPosition": 143,
+			"indexImage": "https://m.360buyimg.com/ceco/s800x800_jfs/t1/209389/18/5276/317172/6168fbe3Ec37dc488/926f4b751bad720e.jpg!q60",
+			"articleId": 279034705,
+			"authorId": "158775",
+			"biclk": "1#6febc08e7e7b8b2f4b73f2265abc34ef8b372f4e-107-621370#145498",
+			"appearance": 800,
+			"playInfo": {
+				"vid": "635755304",
+				"videoUrl": "https://dvod.300hu.com/vod/product/7f772a43-479b-48a4-aad8-0d637b256456/0c740e432bf54b1baed5de74fe50f580.mp4?source=2&h265=h265/19366/490ae96123094cf69f4ccde320d2e28d.mp4",
+				"class": "com.jd.discovery.channel.bff.client.model.output.feeds.VideoPlayInfo",
+				"videoType": "mp4"
+			},
+			"authorName": "电叫兽",
+			"style": 11,
+			"taskId": "00146571"
+		}, {
+			"pvNum": 803,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"biRt": "14",
+			"title": "荣耀畅玩20-大牌推荐",
+			"authorPic": "https://m.360buyimg.com/ceco/jfs/t1/172413/31/19667/27471/60eedb91E671dc49b/d288b627c9f0ef6f.jpg!q70.jpg",
+			"pvNumStr": "803",
+			"pin": "jd_50cbf6f5325d8",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6IjIwMDIiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTA3IiwicmVxc2lnIjoiNmZlYmMwOGU3ZTdiOGIyZjRiNzNmMjI2NWFiYzM0ZWY4YjM3MmY0ZSJ9",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "VideoImmersion",
+				"params": {
+					"referpageid": "DemoVideo_List",
+					"playtype": "65",
+					"subPosition": "143",
+					"modeid": "1",
+					"channel": "faxianRecommendNewfeedlist",
+					"style": "11",
+					"id": "265270307"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"unionId": "2016429511",
+			"subPosition": 143,
+			"indexImage": "https://m.360buyimg.com/ceco/s800x800_jfs/t1/176247/11/20957/177072/60fa7e6eE44ba4a5e/ce3dcc5f1c122509.jpg!q60",
+			"articleId": 265270307,
+			"authorId": "5531495",
+			"biclk": "1#6febc08e7e7b8b2f4b73f2265abc34ef8b372f4e-107-621370#145498",
+			"appearance": 800,
+			"playInfo": {
+				"vid": "597696990",
+				"videoUrl": "https://dvod.300hu.com/vod/product/20f47a7a-b365-43be-a834-f326ca97aacf/4debf66349924596b22c00f787dbece7.mp4?source=2&h265=h265/19366/fabeb72f517c4d948b84755fdab7a051.mp4",
+				"class": "com.jd.discovery.channel.bff.client.model.output.feeds.VideoPlayInfo",
+				"videoType": "mp4"
+			},
+			"authorName": "暖阳爱生活",
+			"style": 11,
+			"taskId": "00145498"
+		}, {
+			"pvNum": 7013,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"pictureCntStr": "2",
+			"biRt": "55",
+			"title": "界面是真的流畅，60Hz刷新率果然名不虚传，响应速度也不拖沓，而且，自带的功能也很够用了，符合这个价位产品应有的表现，但是，可下载的第三方APP并不多。材质打磨的还行，周围是磨砂质感的，不过，有一说一，塑料感还是有点强。",
+			"authorPic": "https://img30.360buyimg.com/ceco/jfs/t1/202102/23/10261/7052/61601719E3c91c9ea/ade9183046ef9cb9.jpg",
+			"pvNumStr": "7013",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6Ijk0NiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDciLCJyZXFzaWciOiI2ZmViYzA4ZTdlN2I4YjJmNGI3M2YyMjY1YWJjMzRlZjhiMzcyZjRlIn0=",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "shareOrderUgcContent",
+				"params": {
+					"channel": "faxianrecommend",
+					"contentId": "7579245",
+					"category": "jump",
+					"skuId": "100014489871",
+					"cmtType": "4"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"indexImage": "https://img30.360buyimg.com/da/s800x800_jfs/t1/199399/23/12090/643913/616019c4Ee9fb83ba/75f883b87d7b107d.jpg!q60",
+			"articleId": 7579245,
+			"biclk": "1#6febc08e7e7b8b2f4b73f2265abc34ef8b372f4e-107-621370#145498",
+			"appearance": 808,
+			"authorName": "沫百熙",
+			"pictureCnt": 2
+		}, {
+			"pvNum": 20061,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"pictureCntStr": "7",
+			"biRt": "55",
+			"title": "高颜值厨房好物|我的微蒸烤箱超好看！每天看视频里的烘焙达人心动到不行，我也想烤鸡翅烤蛋糕烤批萨[色色R]！！但同时作为一名社畜，微波炉热饭是我的刚需呀[哭惹R] 所以最后入了美的的这款PG2311W微蒸烤箱一体，更能节省空间。莫兰迪色系超可爱有没有\uD83D\uDE0A，颜色款式真的是太好看了，颜值爆表！！击中少女心～[害羞R][害羞R]微波功能大家不用担心，现在都可以做的很好了。但是一体机的烤箱功能大家得多做功课，很多是只有上方加热管的，吐槽的帖子很多，大家一搜就懂了。PG2311W这款是上下都有热源，可以立体加热的。温度也可控，其中100-180是适合烘焙的温度，180-230适合用来肉类烤制，超级专业。蒸箱功能用来蒸鱼很不错！可以用手机app控制，里有内置菜单，适合我这种小白～看我做的虾还有批萨，不错吧～[派对R][派对R]",
+			"authorPic": "https://img30.360buyimg.com/ceco/jfs/t1/199434/33/11530/98893/615bfb60E92a31e4c/c0a5596981e2d140.jpg",
+			"pvNumStr": "2W",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6Ijk0NiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDciLCJyZXFzaWciOiI2ZmViYzA4ZTdlN2I4YjJmNGI3M2YyMjY1YWJjMzRlZjhiMzcyZjRlIn0=",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "shareOrderUgcContent",
+				"params": {
+					"channel": "faxianrecommend",
+					"contentId": "4824556",
+					"category": "jump",
+					"skuId": "71944382427",
+					"cmtType": "4"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"indexImage": "https://img30.360buyimg.com/da/s800x800_jfs/t1/191343/34/17960/334979/61148fd6Ef669368a/804168a83df6a1a4.jpg!q60",
+			"articleId": 4824556,
+			"biclk": "1#6febc08e7e7b8b2f4b73f2265abc34ef8b372f4e-107-621370#145498",
+			"appearance": 808,
+			"authorName": "超人数码",
+			"pictureCnt": 7
+		}, {
+			"pvNum": 276,
+			"cardWhSize": {
+				"h": 1,
+				"w": 1
+			},
+			"biRt": "14",
+			"title": "静音节能家用取暖器，烘衣加湿实用方便",
+			"authorPic": "https://m.360buyimg.com/ceco/jfs/t1/116472/39/999/10768/5e93d0e2E2550d0d0/22630bb0eeef0ec4.jpg!q70.jpg",
+			"pvNumStr": "276",
+			"pin": "引爆味觉享受",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6IjIwMTAiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTA3IiwicmVxc2lnIjoiNmZlYmMwOGU3ZTdiOGIyZjRiNzNmMjI2NWFiYzM0ZWY4YjM3MmY0ZSJ9",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "VideoImmersion",
+				"params": {
+					"referpageid": "DemoVideo_List",
+					"playtype": "65",
+					"subPosition": "42",
+					"modeid": "1",
+					"channel": "faxianRecommendNewfeedlist",
+					"style": "2",
+					"id": "242176699"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"unionId": "1001003387",
+			"subPosition": 42,
+			"indexImage": "https://m.360buyimg.com/ceco/s800x800_jfs/t1/140413/10/19609/64096/5fe326e5E31888824/08c43a5a9fce94b1.jpg!q60",
+			"articleId": 242176699,
+			"authorId": "186000",
+			"biclk": "1#6febc08e7e7b8b2f4b73f2265abc34ef8b372f4e-107-621370#145498",
+			"appearance": 801,
+			"playInfo": {
+				"vid": "526408344",
+				"videoUrl": "https://vod.300hu.com/4c1f7a6atransbjngwcloud1oss/1f84964c394210653919784961/v.f30.mp4?source=1&h265=v.f1022_h265.mp4",
+				"class": "com.jd.discovery.channel.bff.client.model.output.feeds.VideoPlayInfo",
+				"videoType": "mp4"
+			},
+			"authorName": "美丽秘密工坊",
+			"style": 2,
+			"taskId": "00145498"
+		}, {
+			"pvNum": 607,
+			"cardWhSize": {
+				"h": 1,
+				"w": 1
+			},
+			"pictureCntStr": "1",
+			"biRt": "55",
+			"title": "收到货，第一时间拆包装，感觉质量还是比较好的，与卖家描述的还是一致的，非常满意，发货速度比较快，物流公司服务态度很好，运送速度很快，总的来说这次是很满意的一次购物，感谢卖家。",
+			"authorPic": "https://img30.360buyimg.com/ceco/jfs/t1/190112/39/9125/7926/60cd9b5aE5debadce/31259b490e2ccbc3.jpg",
+			"pvNumStr": "607",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6Ijk0OCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDciLCJyZXFzaWciOiI2ZmViYzA4ZTdlN2I4YjJmNGI3M2YyMjY1YWJjMzRlZjhiMzcyZjRlIn0=",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "shareOrderUgcContent",
+				"params": {
+					"channel": "faxianrecommend",
+					"contentId": "5398799",
+					"category": "jump",
+					"skuId": "100005676004",
+					"cmtType": "4"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"indexImage": "https://img30.360buyimg.com/da/s800x800_jfs/t1/56812/17/17286/1002256/613c764eE9d05bbf6/1ef9a705520115f9.jpg!q60",
+			"articleId": 5398799,
+			"biclk": "1#6febc08e7e7b8b2f4b73f2265abc34ef8b372f4e-107-621370#145498",
+			"appearance": 808,
+			"authorName": "绅士547",
+			"pictureCnt": 1
+		}, {
+			"pvNum": 742,
+			"cardWhSize": {
+				"h": 1,
+				"w": 1
+			},
+			"biRt": "14",
+			"title": "用手机拍Vlog？荣耀50 Pro上手体验",
+			"authorPic": "https://m.360buyimg.com/ceco/jfs/t1/90859/36/14922/14258/5e6a5946Ed50920e9/a60b4e5e240569ac.jpg!q70.jpg",
+			"pvNumStr": "742",
+			"pin": "jd_5dc8107d0f40d",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6IjIwMDIiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTA3IiwicmVxc2lnIjoiNmZlYmMwOGU3ZTdiOGIyZjRiNzNmMjI2NWFiYzM0ZWY4YjM3MmY0ZSJ9",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "VideoImmersion",
+				"params": {
+					"referpageid": "DemoVideo_List",
+					"playtype": "65",
+					"subPosition": "42",
+					"modeid": "1",
+					"channel": "faxianRecommendNewfeedlist",
+					"style": "2",
+					"id": "260160889"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"unionId": "1002477822",
+			"subPosition": 42,
+			"indexImage": "https://m.360buyimg.com/ceco/s800x800_jfs/t1/17502/34/12852/457488/60ca0b40Eebbec772/808001b6f055fe35.jpg!q60",
+			"articleId": 260160889,
+			"authorId": "609790",
+			"biclk": "1#6febc08e7e7b8b2f4b73f2265abc34ef8b372f4e-107-621370#145498",
+			"appearance": 801,
+			"playInfo": {
+				"vid": "582745891",
+				"videoUrl": "https://dvod.300hu.com/vod/product/3db60df4-b81f-4661-9958-50468384b44f/cf28a030754b4c75a2ce8699f9354024.mp4",
+				"class": "com.jd.discovery.channel.bff.client.model.output.feeds.VideoPlayInfo",
+				"videoType": "mp4"
+			},
+			"authorName": "轻荐",
+			"style": 2,
+			"taskId": "00145500"
+		}, {
+			"pvNum": 109817,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"ctrl": "900001@00146750#624",
+			"biRt": "14",
+			"title": "充电快就选Anker Nano快充套装！",
+			"authorPic": "https://m.360buyimg.com//popshop/jfs/t21325/168/2311981734/22509/ce77ab3d/5b4ff8dbNe7c2251b.jpg!q70.jpg",
+			"pvNumStr": "10.9W",
+			"pin": "oceanwing360",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "VideoImmersion",
+				"params": {
+					"referpageid": "DemoVideo_List",
+					"playtype": "65",
+					"subPosition": "143",
+					"modeid": "1",
+					"channel": "faxianRecommendNewfeedlist",
+					"style": "11",
+					"id": "270154823"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"unionId": "",
+			"subPosition": 143,
+			"indexImage": "https://m.360buyimg.com/ceco/s800x800_jfs/t1/198770/24/5005/1056525/612755eaE79f5eb42/5f0295d93c42281b.png",
+			"articleId": 270154823,
+			"authorId": "128757",
+			"appearance": 800,
+			"playInfo": {
+				"vid": "612201054",
+				"videoUrl": "https://dvod.300hu.com/vod/product/017ce068-cc08-4602-a6af-8501b6b3c00d/098326eade7d4828b14bbdc6b227b4e7.mp4",
+				"class": "com.jd.discovery.channel.bff.client.model.output.feeds.VideoPlayInfo",
+				"videoType": "mp4"
+			},
+			"authorName": "Anker京东自营旗舰店",
+			"style": 11,
+			"taskId": "00146750"
+		}, {
+			"pvNum": 2061,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"biRt": "14",
+			"title": "华为随身wifi，让你随时随地尽情上网",
+			"authorPic": "https://m.360buyimg.com/ceco/jfs/t1/204985/29/5945/165153/613e05a8E8a2ba5b6/d258b1ee0cbf54b7.jpg!q70.jpg",
+			"pvNumStr": "2061",
+			"pin": "t15275005892",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6IjIwMTAiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTA3IiwicmVxc2lnIjoiNmZlYmMwOGU3ZTdiOGIyZjRiNzNmMjI2NWFiYzM0ZWY4YjM3MmY0ZSJ9",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "VideoImmersion",
+				"params": {
+					"referpageid": "DemoVideo_List",
+					"playtype": "65",
+					"subPosition": "143",
+					"modeid": "1",
+					"channel": "faxianRecommendNewfeedlist",
+					"style": "11",
+					"id": "273833807"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"unionId": "2018444151",
+			"subPosition": 143,
+			"indexImage": "https://m.360buyimg.com/ceco/s800x800_jfs/t1/71014/36/17229/169792/614353b7Ec1489614/08334fb2f874ba00.jpg!q60",
+			"articleId": 273833807,
+			"authorId": "7506191",
+			"biclk": "1#6febc08e7e7b8b2f4b73f2265abc34ef8b372f4e-107-621370#145498",
+			"appearance": 800,
+			"playInfo": {
+				"vid": "622584016",
+				"videoUrl": "https://dvod.300hu.com/vod/product/863cd776-4d39-401e-a6c2-59053bad8193/a31aed6a4df44d748af90be3798ba882.mp4?source=2&h265=h265/19366/87eb995f8e4c49779fbbf4079c21cbf1.mp4",
+				"class": "com.jd.discovery.channel.bff.client.model.output.feeds.VideoPlayInfo",
+				"videoType": "mp4"
+			},
+			"authorName": "河河宝贝吖",
+			"style": 11,
+			"taskId": "00146636"
+		}, {
+			"pvNum": 515,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"pictureCntStr": "4",
+			"biRt": "55",
+			"title": "✔比我想象的大，也比我想象的重，制热过程中无声无息，好像没开启一样，但室内真的有暖和一點，可能房间大的缘故，不是很热很热的那种。",
+			"authorPic": "https://img30.360buyimg.com/ceco/jfs/t1/169818/36/576/175965/5ff0751aE9525aad3/2e9394c4e04e186a.jpg",
+			"pvNumStr": "515",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6Ijk0NiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDciLCJyZXFzaWciOiI2ZmViYzA4ZTdlN2I4YjJmNGI3M2YyMjY1YWJjMzRlZjhiMzcyZjRlIn0=",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "shareOrderUgcContent",
+				"params": {
+					"channel": "faxianrecommend",
+					"contentId": "7751156",
+					"category": "jump",
+					"cmtType": "4"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"indexImage": "https://m.360buyimg.com/occupy/s800x800_jfs/t1/211593/39/4987/1563194/616535f5Ea6edfaf5/33520ede29892658.jpg!q60",
+			"articleId": 7751156,
+			"biclk": "1#6febc08e7e7b8b2f4b73f2265abc34ef8b372f4e-107-621370#145498",
+			"appearance": 808,
+			"authorName": "来吧展示",
+			"pictureCnt": 4
+		}],
+		"currentTime": 1634612251878,
+		"bannerList": [],
+		"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewContentFeedsOut"
+	},
+	"message": "success",
+	"bizMsg": "success",
+	"class": "com.jd.discovery.channel.bff.client.base.BaseResponse",
+	"bizCode": "0"
+}

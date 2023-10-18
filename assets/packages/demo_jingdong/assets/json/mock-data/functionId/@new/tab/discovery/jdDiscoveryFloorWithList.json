@@ -1,0 +1,118 @@
+{
+	"view": 1,
+	"code": "0",
+	"searchJump": {
+		"des": "DiscSearch",
+		"params": {
+			"name": "ME"
+		},
+		"srv": ""
+	},
+	"defaultTabId": "",
+	"topIcon": "https://m.360buyimg.com/mobilecms/jfs/t11074/192/74501093/8161/38645eed/59e71a0eNae637450.png.webp",
+	"browseHere": "刚刚看到这里 点击刷新",
+	"indexBanner": [{
+		"atmosphereImage": "",
+		"bannerColor": "",
+		"darkState": false,
+		"dynamicBanner": 0,
+		"id": "1544",
+		"indexImage": "",
+		"jump": {
+			"des": "discoveryNewFollow",
+			"params": {},
+			"srv": ""
+		},
+		"order": 1,
+		"slogan": "",
+		"sloganImg": "",
+		"testPlan": "",
+		"title": "关注",
+		"type": 1
+	}, {
+		"atmosphereImage": "",
+		"bannerColor": "",
+		"darkState": false,
+		"dynamicBanner": 0,
+		"id": "1416",
+		"indexImage": "https://m.360buyimg.com/mobilecms/jfs/t1/68780/5/8640/6240/5d664397E02cb9202/d503cc6821e99ce7.png.webp",
+		"jump": {
+			"des": "JDFinderUGC",
+			"params": {
+				"moduleName": "JDReactUGCFinder",
+				"page": "UserCenter"
+			},
+			"srv": ""
+		},
+		"order": 2,
+		"slogan": "",
+		"sloganImg": "",
+		"testPlan": "",
+		"title": "晒一晒",
+		"type": 1
+	}, {
+		"atmosphereImage": "",
+		"bannerColor": "",
+		"darkState": false,
+		"dynamicBanner": 0,
+		"id": "1495",
+		"indexImage": "",
+		"jump": {
+			"des": "m",
+			"params": {
+				"url": "https://prodev.m.jd.com/mall/active/3V2EuUWyrHbEegRC8WqousEuUHrj/index.html"
+			},
+			"srv": ""
+		},
+		"order": 7,
+		"slogan": "",
+		"sloganImg": "",
+		"testPlan": "",
+		"title": "5G",
+		"type": 0
+	}, {
+		"atmosphereImage": "",
+		"bannerColor": "",
+		"darkState": false,
+		"dynamicBanner": 0,
+		"id": "659",
+		"indexImage": "",
+		"jump": {
+			"des": "FindLivePlayList",
+			"params": {
+				"position": "0"
+			},
+			"srv": ""
+		},
+		"order": 10,
+		"slogan": "",
+		"sloganImg": "",
+		"testPlan": "",
+		"title": "直播",
+		"type": 1
+	}, {
+		"atmosphereImage": "",
+		"bannerColor": "",
+		"darkState": false,
+		"dynamicBanner": 0,
+		"id": "1485",
+		"indexImage": "",
+		"jump": {
+			"des": "VideoMixedList",
+			"params": {
+				"referpageid": "faxian",
+				"bannertype": "5",
+				"vertlisttype": "1"
+			},
+			"srv": ""
+		},
+		"order": 12,
+		"slogan": "",
+		"sloganImg": "",
+		"testPlan": "",
+		"title": "视频",
+		"type": 1
+	}],
+	"validTime": 900,
+	"updateLetter": "#条内容更新"
+}

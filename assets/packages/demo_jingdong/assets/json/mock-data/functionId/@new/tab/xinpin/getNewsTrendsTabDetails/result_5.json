@@ -1,0 +1,109 @@
+{
+	"code": "0",
+	"message": "响应成功",
+	"result": {
+		"feedResult": {
+			"page": 5,
+			"pageSize": 20,
+			"list": [{
+				"insert": false,
+				"type": 1,
+				"saleType": 2,
+				"preCount": "23653人已预约",
+				"countStr": "23653人已预约",
+				"onShelvesTime": "2021-08-11 10:00:36",
+				"benefits": [{
+					"title": "当季新品",
+					"type": 4
+				}, {
+					"title": "洗烘存一体",
+					"type": 3
+				}, {
+					"title": "三重除菌",
+					"type": 3
+				}, {
+					"title": "洗果蔬海鲜",
+					"type": 3
+				}],
+				"imageSourceType": 3,
+				"transImageUrl": "https://m.360buyimg.com/img/s1035x1035_jfs/t1/198269/28/2281/123308/6110bc71Ec2eb153f/97b99c886fbbb1dd.png.webp!q70",
+				"liveStatus": 0,
+				"tagName": "新科技",
+				"skuId": "100025041462",
+				"skuName": "林内 Rinnai 13套嵌入式洗碗机 欧式顶吸油烟机 防干烧莲花火燃气灶 烟灶洗三件套ETW11G+2WLGM＋M2",
+				"skuImg": "https://m.360buyimg.com/mobilecms/s1035x1035_jfs/t1/204768/13/11627/242917/616c3d44Edd53e27e/512d5b79cd3f0f65.jpg.webp!q70",
+				"jdPrice": "11999",
+				"cid1": "737",
+				"cid2": "13297",
+				"cid3": "13117",
+				"skuStyle": 3
+			}, {
+				"insert": false,
+				"type": 1,
+				"saleType": 3,
+				"preCount": "",
+				"followsCount": 16,
+				"countStr": "16人已种草",
+				"onShelvesTime": "2021-10-08 13:06:23",
+				"benefits": [{
+					"title": "上新10天",
+					"type": 4
+				}, {
+					"title": "自动昼夜切换",
+					"type": 3
+				}, {
+					"title": "断电续航",
+					"type": 3
+				}, {
+					"title": "缺水提醒",
+					"type": 3
+				}],
+				"imageSourceType": 3,
+				"transImageUrl": "https://m.360buyimg.com/img/s1035x1035_jfs/t1/182699/27/14397/287996/60f2a28bEb7254d5a/cf07c7e04fcb0b14.png.webp!q70",
+				"liveStatus": 0,
+				"tagName": "新生活",
+				"skuId": "10034019915060",
+				"skuName": "小黑兽FutePet 智能宠物饮水机猫咪狗狗自动饮水器 循环过滤活氧喝水器活水猫狗用品食具水具宠物碗 智能版",
+				"skuImg": "https://m.360buyimg.com/mobilecms/s1035x1035_jfs/t1/214135/1/441/108417/61691d1cE057e6b04/32e0a7d47105c34a.jpg.webp!q70",
+				"jdPrice": "159",
+				"cid1": "6994",
+				"cid2": "6998",
+				"cid3": "7018",
+				"skuStyle": 3
+			}, {
+				"insert": false,
+				"type": 1,
+				"saleType": 3,
+				"preCount": "",
+				"followsCount": 11,
+				"countStr": "11人已种草",
+				"onShelvesTime": "2021-08-03 11:52:22",
+				"benefits": [{
+					"title": "当季新品",
+					"type": 4
+				}, {
+					"title": "分体式全自动",
+					"type": 3
+				}, {
+					"title": "自动饮水机",
+					"type": 3
+				}],
+				"imageSourceType": 3,
+				"transImageUrl": "https://m.360buyimg.com/img/s1035x1035_jfs/t1/188923/35/9567/429308/60d00a63Ebe2cd67f/cd8be1cb368d6117.png.webp!q70",
+				"liveStatus": 0,
+				"tagName": "新生活",
+				"skuId": "100012106255",
+				"skuName": "尚宝宠物用品猫碗狗碗自动饮水器+食盆猫盆狗盆猫饭盆喂食器喝水器猫狗通用饭盆粉色",
+				"skuImg": "https://m.360buyimg.com/mobilecms/s1035x1035_jfs/t1/191379/40/9532/103630/60d009a5E950f2cd1/f846aae8672d2432.jpg.webp!q70",
+				"jdPrice": "19.9",
+				"cid1": "6994",
+				"cid2": "6998",
+				"cid3": "7018",
+				"skuStyle": 3
+			}],
+			"isNext": false,
+			"trendFeedToast": "精选人气单品"
+		}
+	},
+	"success": false
+}

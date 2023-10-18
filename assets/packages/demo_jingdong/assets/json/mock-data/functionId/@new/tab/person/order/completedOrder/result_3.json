@@ -1,0 +1,36 @@
+{
+  "functionId": "userCompletedOrderList",
+  "code": "0",
+  "orderTabs": [
+    {
+      "name": "全部",
+      "functionId": "newUserAllOrderList",
+      "listId": 1
+    },
+    {
+      "name": "待付款",
+      "functionId": "wait4Payment",
+      "listId": 2
+    },
+    {
+      "name": "待收货",
+      "functionId": "wait4Delivery",
+      "listId": 3
+    },
+    {
+      "name": "已完成",
+      "functionId": "userCompletedOrderList",
+      "listId": 4
+    },
+    {
+      "name": "已取消",
+      "functionId": "canceledOrderList",
+      "listId": 5
+    }
+  ],
+  "pass": "{\"datas\":{},\"sig\":\"8F9BE73B6D\",\"timestamp\":1633314539858,\"uuid\":\"10bbf8f1-db72-4562-9c94-833728a2f105\"}",
+  "orderListCount": "10",
+  "bottomTips": "2014年及之前订单可在订单搜索内查询",
+  "orderList": [],
+  "bottomImage": "order_108"
+}

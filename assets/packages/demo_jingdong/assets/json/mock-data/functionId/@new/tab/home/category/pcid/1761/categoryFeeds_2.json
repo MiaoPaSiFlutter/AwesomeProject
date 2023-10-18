@@ -1,0 +1,190 @@
+{
+  "cards": [
+    {
+      "skuId": "27277207692",
+      "skuName": "佳沛（zespri）新西兰金果奇异果25-27只礼盒装大果 115-135g大果进口猕猴桃水果",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/35097/6/18253/133222/6388647cE88e613da/5996f7b6f7169cf9.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "197.00",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "2万+条评价",
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13556",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJlYjVlZWE1MDk0NTExZThlODFhNjg0MDQyNDcyNmQxM2UwZmIyNzgzIn0=\",\"priceTag\":\"secKillPrice\",\"page\":\"2\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"27277207692\",\"categoryId\":\"13556\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "65863455640",
+      "skuName": "思念速冻汤圆 冬至汤圆 思念大汤圆 大黄米汤圆 454g 大黄米黑芝麻汤圆",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/199637/27/29338/191347/6371a604Eb798b91b/5f8b99487680bd68.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "29.90",
+      "reviews": "2万+条评价",
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "13593",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJlYjVlZWE1MDk0NTExZThlODFhNjg0MDQyNDcyNmQxM2UwZmIyNzgzIn0=\",\"priceTag\":\"0\",\"page\":\"2\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"65863455640\",\"categoryId\":\"13593\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100031334572",
+      "skuName": "黄天鹅大师小点 0添加葡式蛋挞套装 蛋挞皮8枚+蛋挞液250ml 烘焙原料半成品 ",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/190438/18/27596/300307/62d7cea2E604c26a1/765f6e09e19f7823.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "34.80",
+      "reviews": "1万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "21467",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJlYjVlZWE1MDk0NTExZThlODFhNjg0MDQyNDcyNmQxM2UwZmIyNzgzIn0=\",\"priceTag\":\"0\",\"page\":\"2\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100031334572\",\"categoryId\":\"21467\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "10033451090833",
+      "skuName": "日鲜沛 橙汁 2L",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/138554/40/31931/33689/637cac66Ec380ac2d/db2732505cfec811.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "23.88",
+      "reviews": "2万+条评价",
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13601",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJlYjVlZWE1MDk0NTExZThlODFhNjg0MDQyNDcyNmQxM2UwZmIyNzgzIn0=\",\"priceTag\":\"0\",\"page\":\"2\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"10033451090833\",\"categoryId\":\"13601\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "7877287",
+      "skuName": "进口小蜜橘软皮柑 500g小糖橘尝鲜装 单果重约70-100g 新鲜橘子 生鲜水果",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/184506/39/27589/423106/62e8c885Ea46055f2/c1733fa15adaa630.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "19.80",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "5万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13567",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJlYjVlZWE1MDk0NTExZThlODFhNjg0MDQyNDcyNmQxM2UwZmIyNzgzIn0=\",\"priceTag\":\"secKillPrice\",\"page\":\"2\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"7877287\",\"categoryId\":\"13567\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "4738322",
+      "skuName": "思念 放心油条 900g 20只 早餐油条 半成品早点 无矾油条 速冻食品面点 生鲜 儿童速冻",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/107831/37/32573/91754/6363967eEac89e5c5/281dbad787baaa3f.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "30.90",
+      "reviews": "20万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "13594",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJlYjVlZWE1MDk0NTExZThlODFhNjg0MDQyNDcyNmQxM2UwZmIyNzgzIn0=\",\"priceTag\":\"0\",\"page\":\"2\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"4738322\",\"categoryId\":\"13594\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "1340727",
+      "skuName": "阿榴哥泰国进口金枕头冷冻榴莲果肉 300g 冷冻榴莲",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/219199/4/10283/238130/61d685bbE940cae85/a1aadb71038414c2.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "49.90",
+      "subPrice": {
+        "type": "plusPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t17692/203/1709370700/1809/bb326132/5ad4acf5Nca044b5a.png",
+        "describe": "plusPrice",
+        "price": "￥47.90"
+      },
+      "reviews": "20万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "15565",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJlYjVlZWE1MDk0NTExZThlODFhNjg0MDQyNDcyNmQxM2UwZmIyNzgzIn0=\",\"priceTag\":\"plusPrice\",\"page\":\"2\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"1340727\",\"categoryId\":\"15565\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "5674804",
+      "skuName": "蒙都 原味羊杂 500g/袋 国产 加热即食",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t11170/243/556608856/239582/8ce4c22e/59f2c7d1Nbd6961ac.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "19.90",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "5万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13583",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJlYjVlZWE1MDk0NTExZThlODFhNjg0MDQyNDcyNmQxM2UwZmIyNzgzIn0=\",\"priceTag\":\"secKillPrice\",\"page\":\"2\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"5674804\",\"categoryId\":\"13583\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    }
+  ],
+  "code": "0",
+  "hasNextPage": 1,
+  "srvJson": "{\"classfyid\":1650,\"poolid\":\"41\",\"classfynum\":\"4\",\"keyWord\":\"-100\"}",
+  "page": 3
+}

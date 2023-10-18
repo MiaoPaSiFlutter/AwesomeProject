@@ -1,0 +1,91 @@
+{
+  "cards": [
+    {
+      "skuId": "100028177890",
+      "skuName": "荣耀X30i 7.45mm超薄全视屏 22.5w超级快充 6nm 5G疾速芯 全网通版 8G+128G 幻夜黑",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/169787/38/21682/130238/6178fe76Ed2766328/dde6287e25ac1c96.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "1399.00",
+      "reviews": "5000+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI0MzY5MWRmNTJhNTM1NGNiYzgyZjM4YThlNTVmMjFmMmVjYTVhOTE1In0=\",\"priceTag\":\"0\",\"page\":\"3\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100028177890\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100029666262",
+      "skuName": "荣耀60 前后双曲设计 1亿像素超清摄影 高通骁龙778G 5G 66W智慧超级快充 全网通版 8GB+256GB 幻境星空",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/118880/4/26680/52601/63286f62Ebd590f8b/24b9169c46f9bac1.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "2099.00",
+      "reviews": "5万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNSIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI0MzY5MWRmNTJhNTM1NGNiYzgyZjM4YThlNTVmMjFmMmVjYTVhOTE1In0=\",\"priceTag\":\"0\",\"page\":\"3\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100029666262\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100024021135",
+      "skuName": "华为nova9se 手机 贝母白 8+256GB全网通（无充电器和数据线）上海电信",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/199902/24/24259/81070/628f1f9dE9c3c1aac/2669d280f8df67f5.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "1499.00",
+      "reviews": "100+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNSIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI0MzY5MWRmNTJhNTM1NGNiYzgyZjM4YThlNTVmMjFmMmVjYTVhOTE1In0=\",\"priceTag\":\"0\",\"page\":\"3\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100024021135\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100027028257",
+      "skuName": "HUAWEI nova 10 【内置66W华为超级快充】 前置6000万超广角镜头 6.88mm轻薄机身 128GB 10号色 华为手机",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/22047/1/19531/66141/63876350E60872646/bf8a3aabc3964faf.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "2549.00",
+      "reviews": "1万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI0MzY5MWRmNTJhNTM1NGNiYzgyZjM4YThlNTVmMjFmMmVjYTVhOTE1In0=\",\"priceTag\":\"0\",\"page\":\"3\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100027028257\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    }
+  ],
+  "code": "0",
+  "hasNextPage": 1,
+  "srvJson": "{\"classfyid\":718,\"poolid\":\"41\",\"classfynum\":\"1\",\"keyWord\":\"-100\"}",
+  "page": 4
+}

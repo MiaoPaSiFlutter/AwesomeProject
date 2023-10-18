@@ -1,0 +1,876 @@
+{
+  "floorList": [
+    {
+      "floorId": 87,
+      "floorName": "细分类目",
+      "showHead": 0,
+      "rightText": "",
+      "style": "0901",
+      "srvJson": "{\"classfyid\":\"377\",\"styleid\":\"0901\",\"floorLoc\":\"0\",\"poolid\":\"41\",\"pid\":\"473\",\"classfynum\":\"3\",\"floorIdDetail\":\"87\"}",
+      "content": [
+        {
+          "id": 98,
+          "materialId": "2124",
+          "name": "笔记本配件",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/92483/23/10867/11998/5e240afbEe278b690/65b3223f46d7846c.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "笔记本配件"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"biinfo\":\"diviner#621328#100#2d0134723cad367b5074d38502fda55fa5691bdc\",\"materialId\":\"2124\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2193",
+          "name": "打印机",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/99989/28/10903/2581/5e241eaaE8301c09e/b0cdbffe7f9cda9c.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "打印机"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"biinfo\":\"diviner#621328#100#2d0134723cad367b5074d38502fda55fa5691bdc\",\"materialId\":\"2193\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2149",
+          "name": "插座",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/97361/35/10762/17737/5e241245E52726cb4/dbf70f272ed86cc5.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "插座"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"biinfo\":\"diviner#621328#100#2d0134723cad367b5074d38502fda55fa5691bdc\",\"materialId\":\"2149\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2223",
+          "name": "墨粉",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/87801/10/10892/4860/5e242398E94d9bf25/105fc6f7f6ed41e9.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "墨粉"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"biinfo\":\"diviner#621328#100#2d0134723cad367b5074d38502fda55fa5691bdc\",\"materialId\":\"2223\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2117",
+          "name": "笔记本",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/216039/31/5357/8672/619b69d3Eb66a13c2/ed997dffd91da6cf.png!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "笔记本电脑"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"biinfo\":\"diviner#621328#100#2d0134723cad367b5074d38502fda55fa5691bdc\",\"materialId\":\"2117\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2141",
+          "name": "鼠标",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/95320/29/11086/9924/5e241099E5e5a1dcf/fe27aab0a946a485.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "鼠标"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"5\",\"biinfo\":\"diviner#621328#100#2d0134723cad367b5074d38502fda55fa5691bdc\",\"materialId\":\"2141\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2218",
+          "name": "墨盒",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/106120/6/10940/5539/5e242317E19d3b449/82ccc10cb584ee0d.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "墨盒"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"6\",\"biinfo\":\"diviner#621328#100#2d0134723cad367b5074d38502fda55fa5691bdc\",\"materialId\":\"2218\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2139",
+          "name": "机械键盘",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/102711/16/11002/10519/5e241008E0a95560f/0215cf4a55425618.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "键盘"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"7\",\"biinfo\":\"diviner#621328#100#2d0134723cad367b5074d38502fda55fa5691bdc\",\"materialId\":\"2139\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2140",
+          "name": "键鼠套装",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/107802/22/4654/9804/5e24104dEff84272b/256956f472fa3129.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "键鼠套装"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"8\",\"biinfo\":\"diviner#621328#100#2d0134723cad367b5074d38502fda55fa5691bdc\",\"materialId\":\"2140\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2125",
+          "name": "显示器",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/94280/16/11034/24485/5e240b52Ec0eee036/a972114ef23e1607.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "显示器"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"9\",\"biinfo\":\"diviner#621328#100#2d0134723cad367b5074d38502fda55fa5691bdc\",\"materialId\":\"2125\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2132",
+          "name": "SSD固态硬盘",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/88946/32/11041/9772/5e240daaEecefbe77/bb6dde04fa7b3cd4.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "SSD"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"10\",\"biinfo\":\"diviner#621328#100#2d0134723cad367b5074d38502fda55fa5691bdc\",\"materialId\":\"2132\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2142",
+          "name": "鼠标垫",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/90858/19/11035/6112/5e2410d0Ecc88b223/b7638b66152e6f79.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "鼠标垫"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"11\",\"biinfo\":\"diviner#621328#100#2d0134723cad367b5074d38502fda55fa5691bdc\",\"materialId\":\"2142\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2151",
+          "name": "路由器",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/101015/28/11012/9652/5e2412e4Eefa717e1/f34bfdf2a86b03f2.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "路由器"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"12\",\"biinfo\":\"diviner#621328#100#2d0134723cad367b5074d38502fda55fa5691bdc\",\"materialId\":\"2151\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2217",
+          "name": "纸类",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/108468/15/4721/17314/5e2422daEa2e4848d/a928c8fae0c94988.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "打印纸"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"13\",\"biinfo\":\"diviner#621328#100#2d0134723cad367b5074d38502fda55fa5691bdc\",\"materialId\":\"2217\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 0,
+          "name": "更多分类",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/69671/10/12704/2880/5da1a548E0d3bea6c/a43cb049cd5740f5.png!gray",
+          "jump": {
+            "srvJson": "{\"loc\":\"14\",\"biinfo\":\"0\",\"materialId\":\"0\"}"
+          },
+          "iconType": 1
+        }
+      ],
+      "filteredCateIds": "2124,2193,2149,2223,2117,2141,2218,2139,2140,2125,2132,2142,2151,2217",
+      "catePoolId": 97,
+      "cid": "377",
+      "pcid": "234"
+    },
+    {
+      "floorId": 900,
+      "floorName": "一切二-新",
+      "showHead": 0,
+      "rightText": "",
+      "style": "0911",
+      "srvJson": "{\"classfyid\":\"377\",\"styleid\":\"0911\",\"floorLoc\":\"1\",\"poolid\":\"41\",\"pid\":\"473\",\"classfynum\":\"3\",\"floorIdDetail\":\"900\"}",
+      "height": 130,
+      "content": [
+        {
+          "id": 8345,
+          "materialId": "8345",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/SyNEMyANkXQuUmzn5dUef8CQGPA/index.html?babelChannel=ttt48"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"materialId\":\"8345\",\"moduleid\":\"8345\",\"sku\":\"\"}"
+          },
+          "materialType": "1",
+          "bgImg": "https://m15.360buyimg.com/mobilecms/s510x330_jfs/t1/42167/39/21106/87412/6385b95cE3a5955d6/7fad3558d7dc9afa.png!gray"
+        },
+        {
+          "id": 8346,
+          "materialId": "8346",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/24qWmGEbiPnPYxZzEfMj6ktgWxxR/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"materialId\":\"8346\",\"moduleid\":\"8346\",\"sku\":\"\"}"
+          },
+          "materialType": "1",
+          "bgImg": "https://m15.360buyimg.com/mobilecms/s510x330_jfs/t1/219321/28/21478/32458/638892d3E71c403c7/ead13238ce643c98.png!gray"
+        }
+      ]
+    },
+    {
+      "floorId": 85,
+      "floorName": "品牌精选",
+      "showHead": 2,
+      "headImg": "https://m15.360buyimg.com/mobilecms/jfs/t1/95089/2/241/4595/5da9ba28E291393de/98c77ce1efbef5d0.png!gray",
+      "rightText": "",
+      "style": "0903",
+      "srvJson": "{\"classfyid\":\"377\",\"styleid\":\"0903\",\"floorLoc\":\"2\",\"poolid\":\"41\",\"pid\":\"473\",\"classfynum\":\"3\",\"floorIdDetail\":\"85\"}",
+      "content": [
+        {
+          "id": 96,
+          "materialId": "413457",
+          "name": "荣耀",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/139060/38/19638/2825/5fe0477aE64df77e0/55af9759d5e9d78a.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "荣耀"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"biinfo\":\"1#2b8571599503d88770d504637d67260bf27bd820-100-621309#\",\"materialId\":\"413457\"}"
+          }
+        },
+        {
+          "id": 96,
+          "materialId": "8557",
+          "name": "华为",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/132808/6/8420/2045/5f486e43E8ff5f3a1/62b97e5188766c42.png!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "华为"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"biinfo\":\"1#2b8571599503d88770d504637d67260bf27bd820-100-621309#\",\"materialId\":\"8557\"}"
+          }
+        },
+        {
+          "id": 96,
+          "materialId": "44287",
+          "name": "绿巨能",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/185484/33/12817/3297/60e2da6eEd30de1a5/eeb0a58aa81cc466.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "绿巨能"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"biinfo\":\"1#2b8571599503d88770d504637d67260bf27bd820-100-621309#\",\"materialId\":\"44287\"}"
+          }
+        },
+        {
+          "id": 96,
+          "materialId": "8740",
+          "name": "惠普",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/42555/24/11711/3073/5d53c164E7c86b7a5/db9725025cffb6c0.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "惠普"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"biinfo\":\"1#2b8571599503d88770d504637d67260bf27bd820-100-621309#\",\"materialId\":\"8740\"}"
+          }
+        },
+        {
+          "id": 96,
+          "materialId": "2032",
+          "name": "OPPO",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/22465/2/10288/3283/5c860ac9E1bbb5da9/33ffbca794e7b965.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "OPPO"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"biinfo\":\"1#2b8571599503d88770d504637d67260bf27bd820-100-621309#\",\"materialId\":\"2032\"}"
+          }
+        },
+        {
+          "id": 96,
+          "materialId": "7474",
+          "name": "公牛",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/252/10/11529/18115/5bce7d98E35c8962f/850cf6fed42b9450.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "公牛"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"5\",\"biinfo\":\"1#2b8571599503d88770d504637d67260bf27bd820-100-621309#\",\"materialId\":\"7474\"}"
+          }
+        },
+        {
+          "id": 96,
+          "materialId": "25591",
+          "name": "vivo",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/115757/4/9851/3464/5ee0af9bEc6576114/0dfceda9f7809bb5.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "vivo"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"6\",\"biinfo\":\"1#2b8571599503d88770d504637d67260bf27bd820-100-621309#\",\"materialId\":\"25591\"}"
+          }
+        },
+        {
+          "id": 96,
+          "materialId": "438621",
+          "name": "真我",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/66989/27/17717/4077/627ccdddEc5e378af/2b5adfc75075a606.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "真我"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"7\",\"biinfo\":\"1#2b8571599503d88770d504637d67260bf27bd820-100-621309#\",\"materialId\":\"438621\"}"
+          }
+        }
+      ],
+      "showIconName": 1
+    },
+    {
+      "floorId": 736,
+      "floorName": "电脑共建楼层",
+      "showHead": 0,
+      "rightText": "",
+      "style": "0914",
+      "srvJson": "{\"classfyid\":\"377\",\"styleid\":\"0914\",\"floorLoc\":\"3\",\"poolid\":\"41\",\"pid\":\"473\",\"classfynum\":\"3\",\"floorIdDetail\":\"736\"}",
+      "content": [
+        {
+          "id": 8691,
+          "materialId": "8691",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/109759/17/23306/10311/6201e029Ee75e4664/38831a1833659e24.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/31XPWPTonxJ9e5YoQ85HS7z8XNYQ/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"materialId\":\"8691\"}"
+          },
+          "title": "电脑馆",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 6683,
+          "materialId": "6683",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/181163/33/1237/11749/608805afE9baf3285/3ff19c60ee5b5332.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/3HVeS5MHYjH9Be6xpR9BRL9tr4w/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"materialId\":\"6683\"}"
+          },
+          "title": "京品电脑",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 6684,
+          "materialId": "6684",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/179700/29/26935/30377/62cf02d0Ec9cf3a61/82782f6c9b6199b7.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/RoiF2F1UZMHQHogyhu4kCTdedX6/index.htmlX6/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"materialId\":\"6684\"}"
+          },
+          "title": "快乐办公",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 6685,
+          "materialId": "6685",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/189751/37/299/13465/6088061cE34e29594/d310017351143820.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/36ECsU17gYq7d7A8p4kEbq4yr5Y8/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"materialId\":\"6685\"}"
+          },
+          "title": "京东游戏",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 6686,
+          "materialId": "6686",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/182774/31/1167/12150/60880645E72a43c36/81ab696a490dfe1d.jpg!q70.jpg.dpg.webp!gray",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/V2ncpc1kK8fANfv6mc1dzNunnTr/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"materialId\":\"6686\"}"
+          },
+          "title": "学生专享",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        }
+      ],
+      "showSubTitle": 0
+    },
+    {
+      "floorId": 883,
+      "floorName": "京挑惠选+热卖榜",
+      "showHead": 2,
+      "headImg": "https://m15.360buyimg.com/mobilecms/jfs/t1/162240/12/31009/11155/63413ecbE15bc73d6/6b13eb38528ea06c.png!gray",
+      "rightText": "",
+      "style": "0906",
+      "srvJson": "{\"classfyid\":\"377\",\"styleid\":\"0906\",\"floorLoc\":\"4\",\"poolid\":\"41\",\"pid\":\"473\",\"classfynum\":\"3\",\"floorIdDetail\":\"883\"}",
+      "content": []
+    }
+  ],
+  "code": "0",
+  "background": {},
+  "pid": "473"
+}

@@ -1,0 +1,717 @@
+{
+  "code": "0",
+  "msg": "成功(0)",
+  "result": {
+    "config": {
+      "searchFloor": {
+        "id": 12,
+        "index": 1,
+        "floorStyle": 1,
+        "directFlag": 1,
+        "data": [
+          {
+            "id": 800,
+            "floorId": 12,
+            "floorStyle": 1,
+            "moduleStyle": 2,
+            "moduleNum": 1,
+            "directFlag": 1,
+            "srvJson": "{\"floorid\":\"12\",\"searchword\":\"0\",\"style\":\"1\",\"moduleid\":\"800\"}",
+            "stm": "{\"src\":\"-100\",\"cont\":[],\"abtest\":[]}",
+            "searchWords": [
+              {
+                "showWord": "柠檬",
+                "searchWord": "柠檬",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"caller\":\"1006\",\"category\":\"jump\",\"des\":\"channelSearch\",\"from\":\"channelSearch\",\"latitude\":\"31.189\",\"longitude\":\"121.638\",\"realWord\":\"柠檬\",\"showWord\":\"柠檬\"}"
+              },
+              {
+                "showWord": "消毒液",
+                "searchWord": "消毒液",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"caller\":\"1006\",\"category\":\"jump\",\"des\":\"channelSearch\",\"from\":\"channelSearch\",\"latitude\":\"31.189\",\"longitude\":\"121.638\",\"realWord\":\"消毒液\",\"showWord\":\"消毒液\"}"
+              },
+              {
+                "showWord": "鸡蛋",
+                "searchWord": "鸡蛋",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"caller\":\"1006\",\"category\":\"jump\",\"des\":\"channelSearch\",\"from\":\"channelSearch\",\"latitude\":\"31.189\",\"longitude\":\"121.638\",\"realWord\":\"鸡蛋\",\"showWord\":\"鸡蛋\"}"
+              },
+              {
+                "showWord": "洗衣液",
+                "searchWord": "洗衣液",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"caller\":\"1006\",\"category\":\"jump\",\"des\":\"channelSearch\",\"from\":\"channelSearch\",\"latitude\":\"31.189\",\"longitude\":\"121.638\",\"realWord\":\"洗衣液\",\"showWord\":\"洗衣液\"}"
+              },
+              {
+                "showWord": "日常防疫 家庭常备",
+                "searchWord": "日常防疫 家庭常备",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"caller\":\"1006\",\"category\":\"jump\",\"des\":\"channelSearch\",\"from\":\"channelSearch\",\"latitude\":\"31.189\",\"longitude\":\"121.638\",\"realWord\":\"日常防疫 家庭常备\",\"showWord\":\"日常防疫 家庭常备\"}"
+              },
+              {
+                "showWord": "暖宝宝",
+                "searchWord": "暖宝宝",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"caller\":\"1006\",\"category\":\"jump\",\"des\":\"channelSearch\",\"from\":\"channelSearch\",\"latitude\":\"31.189\",\"longitude\":\"121.638\",\"realWord\":\"暖宝宝\",\"showWord\":\"暖宝宝\"}"
+              },
+              {
+                "showWord": "暖冬吃水饺 满99减20",
+                "searchWord": "暖冬吃水饺 满99减20",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"caller\":\"1006\",\"category\":\"jump\",\"des\":\"channelSearch\",\"from\":\"channelSearch\",\"latitude\":\"31.189\",\"longitude\":\"121.638\",\"realWord\":\"暖冬吃水饺 满99减20\",\"showWord\":\"暖冬吃水饺 满99减20\"}"
+              },
+              {
+                "showWord": "上海消费券",
+                "searchWord": "上海消费券",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"caller\":\"1006\",\"category\":\"jump\",\"des\":\"channelSearch\",\"from\":\"channelSearch\",\"latitude\":\"31.189\",\"longitude\":\"121.638\",\"realWord\":\"上海消费券\",\"showWord\":\"上海消费券\"}"
+              },
+              {
+                "showWord": "小米13",
+                "searchWord": "小米13",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"caller\":\"1006\",\"category\":\"jump\",\"des\":\"channelSearch\",\"from\":\"channelSearch\",\"latitude\":\"31.189\",\"longitude\":\"121.638\",\"realWord\":\"小米13\",\"showWord\":\"小米13\"}"
+              },
+              {
+                "showWord": "水果",
+                "searchWord": "水果",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"caller\":\"1006\",\"category\":\"jump\",\"des\":\"channelSearch\",\"from\":\"channelSearch\",\"latitude\":\"31.189\",\"longitude\":\"121.638\",\"realWord\":\"水果\",\"showWord\":\"水果\"}"
+              }
+            ],
+            "channelDescImage": {
+              "imgUrl": "https://img10.360buyimg.com/cms/s468x36_jfs/t1/177581/13/24802/3074/6275d8c1E25d6b7d1/e67d0fcb73667acb.png.webp",
+              "width": 468,
+              "height": 36
+            },
+            "followViewColorType": 1
+          }
+        ],
+        "decorateItem": {
+          "id": 7,
+          "marginTop": 16,
+          "marginBottom": 0,
+          "priority": 0
+        }
+      },
+      "pageBgDailyColor": "#F9F9F9",
+      "retainPopFloor": {
+        "id": 60,
+        "index": 600,
+        "floorStyle": 12,
+        "directFlag": 1,
+        "data": [
+          {
+            "id": 130,
+            "floorId": 60,
+            "floorStyle": 12,
+            "moduleStyle": 1,
+            "moduleNum": 1,
+            "directFlag": 1,
+            "srvJson": "{\"floorid\":\"60\",\"style\":\"12\",\"moduleid\":\"130\"}",
+            "stm": "{\"src\":\"-100\",\"cont\":[],\"abtest\":[]}",
+            "popImage": {
+              "imgUrl": "https://img10.360buyimg.com/cms/s885x798_jfs/t1/202803/37/8917/143759/6154455eE7f39691e/713c9a6c6ad3e4b2.png.webp",
+              "width": 885,
+              "height": 798
+            },
+            "btnWords": "我知道了",
+            "btnWordsColor": "#fafafa",
+            "btnBgColor": "#d50707",
+            "guideClosePopShowNum": 1,
+            "guideClosePopShowDay": 30
+          }
+        ]
+      },
+      "startPopupFloor": {
+        "id": 108,
+        "index": 9999,
+        "floorStyle": 17,
+        "directFlag": 1,
+        "data": [
+          {
+            "id": 1399,
+            "floorId": 108,
+            "floorStyle": 17,
+            "moduleStyle": 1,
+            "moduleNum": 1,
+            "directFlag": 2,
+            "srvJson": "{\"floorid\":\"108\",\"putfloor\":\"26\",\"biinfo\":\"-100\",\"style\":\"17\",\"moduleid\":\"1399\",\"type\":\"2\"}",
+            "stm": "{\"src\":\"-100\",\"cont\":[],\"abtest\":[]}",
+            "popupType": 3,
+            "materialSource": 1,
+            "btnCloseFlag": true,
+            "dayMaxShowCount": 1,
+            "maxShowCount": 3,
+            "popupBorderImage": {
+              "imgUrl": "https://img10.360buyimg.com/cms/s885x1230_jfs/t1/130036/10/27240/79584/6335706eE2ac06b58/ae3cca7370807bcf.png.webp",
+              "width": 885,
+              "height": 1230
+            },
+            "closeTime": -1,
+            "landFloorStyle": 26,
+            "popupVideoUrl": "https://jvod.300hu.com/vod/product/3152d70f-b881-4cce-a63f-4a402f7151fa/7f6abf3694984eb4930fa87d64cc3e65.mp4?source=2&h265=h265/113393/2113c9e2364644ecbe83404a85c865af.mp4"
+          }
+        ],
+        "config": {
+          "startPopupDayShowNum": 1
+        }
+      },
+      "title": "附近频道",
+      "wholeAtmosphereFlag": false,
+      "benefitPointPopFlag": true,
+      "benefitPointPopShowDay": 14,
+      "benefitPointPopShowNum": 1,
+      "benefitPointPopXViewExclusionFlag": false
+    },
+    "data": [
+      {
+        "id": 13,
+        "index": 5,
+        "floorStyle": 3,
+        "directFlag": 1,
+        "data": [
+          {
+            "id": 121,
+            "floorId": 13,
+            "floorStyle": 3,
+            "moduleStyle": 1,
+            "moduleNum": 1,
+            "directFlag": 1,
+            "lineNum": 2,
+            "iconItems": [
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/145542/35/29902/2535/63086a8bE5f286acc/53b754c687367ea2.png.webp",
+                "iconWords": "超市便利",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://prodev.m.jd.com/mall/active/3VkCd27ULRjdC2DtqFJTvqwS2dVe/index.html\"}",
+                "adGroupId": "05855015",
+                "advertId": "7601709537",
+                "tag": {
+                  "id": 44043653935301,
+                  "directFlag": 1,
+                  "tagWords": "车厘子",
+                  "effectiveTimeBegin": "2022-12-21 00:00:00",
+                  "effectiveTimeEnd": "2022-12-21 23:59:59"
+                },
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"车厘子\",\"tagid\":\"44043653935301\",\"biinfo\":\"{\\\"testid\\\":\\\"5\\\"}\",\"name\":\"超市便利\",\"style\":\"3\",\"aids\":\"05855015\",\"moduleid\":\"121\",\"advertid\":\"7601709537\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"05855015\"},{\"typ\":\"2_1\",\"id\":\"7601709537\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/94746/13/33167/4143/63453895E1d8ec3b8/b2eea7f9b9b0a4c9.png.webp",
+                "iconWords": "京东买菜",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://pro.m.jd.com/mall/active/zRMRJ9VbmjTzofrb1WmwxYePSSj/index.html\"}",
+                "adGroupId": "05855037",
+                "advertId": "8801697131",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"testid\\\":\\\"5\\\"}\",\"name\":\"京东买菜\",\"style\":\"3\",\"aids\":\"05855037\",\"moduleid\":\"121\",\"advertid\":\"8801697131\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"05855037\"},{\"typ\":\"2_1\",\"id\":\"8801697131\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/68807/31/19526/2769/62aaf318Ed1eeb25d/3b71e425c79def4f.png.webp",
+                "iconWords": "水果店",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://prodev.m.jd.com/mall/active/4D9FzN54EEqY8PNA1omkDb2idN4Z/index.html\"}",
+                "adGroupId": "05855038",
+                "advertId": "4701671347",
+                "tag": {
+                  "id": 44491013319365,
+                  "directFlag": 1,
+                  "tagWords": "草莓",
+                  "effectiveTimeBegin": "2022-12-21 00:00:00",
+                  "effectiveTimeEnd": "2022-12-21 23:59:59"
+                },
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"草莓\",\"tagid\":\"44491013319365\",\"biinfo\":\"{\\\"testid\\\":\\\"2\\\"}\",\"name\":\"水果店\",\"style\":\"3\",\"aids\":\"05855038\",\"moduleid\":\"121\",\"advertid\":\"4701671347\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"05855038\"},{\"typ\":\"2_1\",\"id\":\"4701671347\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/190710/21/26855/9246/62aaf1d2E83ef5c7a/1362f87ea0b2d563.png.webp",
+                "iconWords": "鲜花绿植",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://pro.m.jd.com/mall/active/43bGtHpr5Jqd8M7cRi2JXsGi86FE/index.html\"}",
+                "adGroupId": "05855039",
+                "advertId": "0501650307",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"testid\\\":\\\"2\\\"}\",\"name\":\"鲜花绿植\",\"style\":\"3\",\"aids\":\"05855039\",\"moduleid\":\"121\",\"advertid\":\"0501650307\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"05855039\"},{\"typ\":\"2_1\",\"id\":\"0501650307\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/200550/17/25406/3092/62aaf1fbE81ab4c84/e4fdb132ac98f715.png.webp",
+                "iconWords": "蛋糕烘焙",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://pro.m.jd.com/mall/active/3gP5hZB7pnaPMwPTTaSA7XqK8MSg/index.html\"}",
+                "adGroupId": "05855040",
+                "advertId": "0066652602",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"testid\\\":\\\"2\\\"}\",\"name\":\"蛋糕烘焙\",\"style\":\"3\",\"aids\":\"05855040\",\"moduleid\":\"121\",\"advertid\":\"0066652602\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"05855040\"},{\"typ\":\"2_1\",\"id\":\"0066652602\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/22043/34/17281/4679/62aaf38aEb9880979/80f90c80a686e9d6.png.webp",
+                "iconWords": "药急送",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://diansong.jkcsjd.com/channel?source=fujin_yjs_icon\"}",
+                "adGroupId": "05855144",
+                "advertId": "9001634950",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"testid\\\":\\\"2\\\"}\",\"name\":\"药急送\",\"style\":\"3\",\"aids\":\"05855144\",\"moduleid\":\"121\",\"advertid\":\"9001634950\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"05855144\"},{\"typ\":\"2_1\",\"id\":\"9001634950\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/204543/36/23986/2357/62aaeee1E59a53521/0c011e9728a0b7f8.png.webp",
+                "iconWords": "电脑数码",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://prodev.m.jd.com/mall/active/49MADg5wrqYmg9tPSwGFPYF7puvB/index.html\"}",
+                "adGroupId": "05855042",
+                "advertId": "4301667736",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"testid\\\":\\\"2\\\"}\",\"name\":\"电脑数码\",\"style\":\"3\",\"aids\":\"05855042\",\"moduleid\":\"121\",\"advertid\":\"4301667736\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"05855042\"},{\"typ\":\"2_1\",\"id\":\"4301667736\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/25191/3/17475/2935/62aaedceE6a4af332/edc99b13bb90b1d4.png.webp",
+                "iconWords": "手机通讯",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://pro.m.jd.com/mall/active/3xiUryUzT2v7x3pr81cStuAvkUW5/index.html\"}",
+                "adGroupId": "05855043",
+                "advertId": "7401652413",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"testid\\\":\\\"2\\\"}\",\"name\":\"手机通讯\",\"style\":\"3\",\"aids\":\"05855043\",\"moduleid\":\"121\",\"advertid\":\"7401652413\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"05855043\"},{\"typ\":\"2_1\",\"id\":\"7401652413\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/200941/28/27193/7166/632d2a39E9867aecf/c88d44d837cf07fe.png.webp",
+                "iconWords": "新百货",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://prodev.m.jd.com/mall/active/4DmR2WkWLmuxML3KbfmDQJ63fEPg/index.html\"}",
+                "adGroupId": "06620182",
+                "advertId": "4901683124",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"testid\\\":\\\"2\\\"}\",\"name\":\"新百货\",\"style\":\"3\",\"aids\":\"06620182\",\"moduleid\":\"121\",\"advertid\":\"4901683124\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"06620182\"},{\"typ\":\"2_1\",\"id\":\"4901683124\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/55389/1/18994/2845/62aaf329E896a20a9/c691126c6d9b53ce.png.webp",
+                "iconWords": "宠物生活",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://prodev.m.jd.com/mall/active/ArUqUPw4kCGtDDfPSLopALKAAdj/index.html\"}",
+                "adGroupId": "05974475",
+                "advertId": "0401699737",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"crowdPoolId\\\":703936,\\\"directid\\\":8}\",\"name\":\"宠物生活\",\"style\":\"3\",\"aids\":\"05974475\",\"moduleid\":\"121\",\"advertid\":\"0401699737\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"05974475\"},{\"typ\":\"2_1\",\"id\":\"0401699737\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/72505/23/19569/2275/62aaf36cEac98801e/d9837008de41b746.png.webp",
+                "iconWords": "家装定制",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://prodev.m.jd.com/mall/active/s7L9nLFrTsPk1FnNGkhGheYqbb5/index.html\"}",
+                "adGroupId": "05855212",
+                "advertId": "0601710372",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"testid\\\":\\\"2\\\"}\",\"name\":\"家装定制\",\"style\":\"3\",\"aids\":\"05855212\",\"moduleid\":\"121\",\"advertid\":\"0601710372\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"05855212\"},{\"typ\":\"2_1\",\"id\":\"0601710372\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/194626/34/26002/5095/62aaf34eE50147572/242e835fb589ac71.png.webp",
+                "iconWords": "自营速达",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://prodev.m.jd.com/mall/active/3oqFyzNykDmeikqQVeDNppXS9rS5/index.html\"}",
+                "adGroupId": "06523331",
+                "advertId": "0801695978",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"directid\\\":8}\",\"name\":\"自营速达\",\"style\":\"3\",\"aids\":\"06523331\",\"moduleid\":\"121\",\"advertid\":\"0801695978\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"06523331\"},{\"typ\":\"2_1\",\"id\":\"0801695978\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/194022/6/25256/3161/62aaf2eaEd8f59620/0c12bb5d6f91f965.png.webp",
+                "iconWords": "上门服务",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://pro.m.jd.com/mall/active/3ogzyBZFLahaBVkoSxhkuSgZBxkw/index.html\"}",
+                "adGroupId": "06523316",
+                "advertId": "9301691589",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"directid\\\":8}\",\"name\":\"上门服务\",\"style\":\"3\",\"aids\":\"06523316\",\"moduleid\":\"121\",\"advertid\":\"9301691589\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"06523316\"},{\"typ\":\"2_1\",\"id\":\"9301691589\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/95928/12/34266/2259/63775646E0ea6a629/8d07167a31e0ca41.png.webp",
+                "iconWords": "母婴用品",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://pro.m.jd.com/mall/active/3WKMn1sBmTqc1CaoUCqPffrGtTzH/index.html\"}",
+                "adGroupId": "06127448",
+                "advertId": "3201703421",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"testid\\\":\\\"2\\\"}\",\"name\":\"母婴用品\",\"style\":\"3\",\"aids\":\"06127448\",\"moduleid\":\"121\",\"advertid\":\"3201703421\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"06127448\"},{\"typ\":\"2_1\",\"id\":\"3201703421\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/200198/8/25493/4239/62aaf0ffE112333ed/397ca48dfbeece47.png.webp",
+                "iconWords": "酒水饮料",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://pro.m.jd.com/mall/active/3DVSnTuiDyux2p8HtDGZ4X4MexYM/index.html\"}",
+                "adGroupId": "06127450",
+                "advertId": "3301708384",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"testid\\\":\\\"2\\\"}\",\"name\":\"酒水饮料\",\"style\":\"3\",\"aids\":\"06127450\",\"moduleid\":\"121\",\"advertid\":\"3301708384\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"06127450\"},{\"typ\":\"2_1\",\"id\":\"3301708384\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/465/9/18122/3806/62aaedaeE4af7b948/28039bcc74f8c003.png.webp",
+                "iconWords": "家用电器",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://prodev.m.jd.com/mall/active/3aCwGQpLzi6AVFNFkkJqN1aVdhzt/index.htmlhttps://prodev.m.jd.com/mall/active/3aCwGQpLzi6AVFNFkkJqN1aVdhzt/index.html?babelChannel=ttt5\"}",
+                "adGroupId": "06295199",
+                "advertId": "3901701337",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"testid\\\":\\\"2\\\"}\",\"name\":\"家用电器\",\"style\":\"3\",\"aids\":\"06295199\",\"moduleid\":\"121\",\"advertid\":\"3901701337\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"06295199\"},{\"typ\":\"2_1\",\"id\":\"3901701337\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/186703/39/29552/3706/635f366aEbc519495/e9709aef4228ecee.png.webp",
+                "iconWords": "同城跑腿",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdmp\",\"appId\":\"FCC7C98AB2B0D5C7D58E153B9B5062FF\",\"vapptype\":\"1\",\"path\":\"pages/index/index.html\",\"param\":{\"附近百宝箱\":\"channel202212207wtsv4\"}}",
+                "adGroupId": "06322877",
+                "advertId": "7801717361",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"directid\\\":8}\",\"name\":\"同城跑腿\",\"style\":\"3\",\"aids\":\"06322877\",\"moduleid\":\"121\",\"advertid\":\"7801717361\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"06322877\"},{\"typ\":\"2_1\",\"id\":\"7801717361\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/185026/14/26307/18125/62bb0ca9E8bff4a09/4d2b290835e0a1b4.png.webp",
+                "iconWords": "场馆服务",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdmp\",\"appId\":\"AD8D9754F70F61497BE8B55EE571DFAB\",\"vapptype\":\"1\",\"path\":\"pages/index/index.html?sourceId=icon_cgyd\",\"param\": {\"fwhere\":\"icon_cgyd\"}}",
+                "adGroupId": "06469403",
+                "advertId": "4401700369",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"crowdPoolId\\\":721926,\\\"directid\\\":8}\",\"name\":\"场馆服务\",\"style\":\"3\",\"aids\":\"06469403\",\"moduleid\":\"121\",\"advertid\":\"4401700369\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"06469403\"},{\"typ\":\"2_1\",\"id\":\"4401700369\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/197339/22/26017/4340/62bae0c0Ea586c2e8/97fbcb20c20d21d2.png.webp",
+                "iconWords": "健康服务",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://prodev.m.jd.com/mall/active/2SLPp2wh6mJ62hqk174swcctBj7A/index.html?babelChannel=ttt5\"}",
+                "adGroupId": "06469946",
+                "advertId": "5501695664",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"directid\\\":8}\",\"name\":\"健康服务\",\"style\":\"3\",\"aids\":\"06469946\",\"moduleid\":\"121\",\"advertid\":\"5501695664\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"06469946\"},{\"typ\":\"2_1\",\"id\":\"5501695664\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/25784/25/18594/2753/62f3567eE23064685/d89da099757c37d8.png.webp",
+                "iconWords": "电影演出",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://m-movie.jd.com?jdreactkey=JDReactMovie&jdreactapp=JDReactMovie&rn_transparentenable=true&rn_buyFrom=2&rn_channel=3&ms=2&mc=3\"}",
+                "adGroupId": "06538926",
+                "advertId": "9001679906",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"testid\\\":\\\"2\\\"}\",\"name\":\"电影演出\",\"style\":\"3\",\"aids\":\"06538926\",\"moduleid\":\"121\",\"advertid\":\"9001679906\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"06538926\"},{\"typ\":\"2_1\",\"id\":\"9001679906\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/129329/18/27223/5937/634fcd46Ef5fb89d7/32aa8ea9cfb2d835.png.webp",
+                "iconWords": "养车购车",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://prodev.m.jd.com/mall/active/2qhR5YXGXQ9e14drLYy1GyGbqrvX/index.html\"}",
+                "adGroupId": "06673199",
+                "advertId": "5001695192",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"directid\\\":8}\",\"name\":\"养车购车\",\"style\":\"3\",\"aids\":\"06673199\",\"moduleid\":\"121\",\"advertid\":\"5001695192\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"06673199\"},{\"typ\":\"2_1\",\"id\":\"5001695192\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/104331/18/31758/5542/632af49bEd6f29d4a/80d25e7ca038a8c7.png.webp",
+                "iconWords": "生活缴费",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://m-jiaofei.jd.com/index.html?sk=20\"}",
+                "adGroupId": "06623327",
+                "advertId": "5501695662",
+                "srvJson": "{\"floorid\":\"13\",\"tagname\":\"-100\",\"tagid\":\"-100\",\"biinfo\":\"{\\\"testid\\\":\\\"2\\\"}\",\"name\":\"生活缴费\",\"style\":\"3\",\"aids\":\"06623327\",\"moduleid\":\"121\",\"advertid\":\"5501695662\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\",\"id\":\"06623327\"},{\"typ\":\"2_1\",\"id\":\"5501695662\"}],\"abtest\":[]}"
+              }
+            ],
+            "maxNum": 3
+          }
+        ],
+        "decorateItem": {
+          "id": 8,
+          "marginTop": 0,
+          "marginBottom": 0,
+          "priority": 0
+        }
+      },
+      {
+        "id": 151,
+        "index": 7,
+        "floorStyle": 22,
+        "directFlag": 2,
+        "data": [
+          {
+            "id": 649,
+            "floorId": 151,
+            "floorStyle": 22,
+            "moduleStyle": 1,
+            "moduleNum": 1,
+            "directFlag": 2,
+            "operationItems": [
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/176828/5/27074/97216/62d6c9d8E9d15bff4/b3b4b63b32416ac6.gif",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://prodev.m.jd.com/mall/active/3MFSkPGCDZrP2WPKBRZdiKm9AZ7D/index.html?babelChannel=ttt6\"}",
+                "words": "天天领福利",
+                "subWords": "免费抢京豆",
+                "subWordsList": ["免费抢京豆"],
+                "advertId": "8701702013",
+                "adGroupId": "06245440",
+                "srvJson": "{\"floorid\":\"151\",\"style\":\"22\",\"aids\":\"06245440\",\"moduleid\":\"649\",\"advertid\":\"8701702013\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1\",\"id\":\"8701702013\"},{\"typ\":\"2_1_group\",\"id\":\"06245440\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/s246x285_jfs/t1/123455/11/28891/2981/62d0d798E5fed880f/dad7da8173322312.png.webp",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://prodev.m.jd.com/mall/active/2T8MxyGmn4CQtGJ1asZybjMvakmR/index.html?babelChannel=ttt1\"}",
+                "words": "抽888京豆",
+                "subWords": "幸运大转盘",
+                "subWordsList": ["幸运大转盘"],
+                "advertId": "8401699232",
+                "adGroupId": "06245448",
+                "srvJson": "{\"floorid\":\"151\",\"style\":\"22\",\"aids\":\"06245448\",\"moduleid\":\"649\",\"advertid\":\"8401699232\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1\",\"id\":\"8401699232\"},{\"typ\":\"2_1_group\",\"id\":\"06245448\"}],\"abtest\":[]}"
+              },
+              {
+                "imgUrl": "https://m.360buyimg.com/babel/s246x285_jfs/t1/110894/39/26089/2248/62bef4acE63fe3ad8/c26a095ef7264ab8.png.webp",
+                "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://mcard.jd.com/?cardIdEnc=rfIt9Ewvhrg=&channel=9003\"}",
+                "words": "我的同城卡",
+                "subWords": "5元X6张叠加券",
+                "subWordsList": ["5元X6张叠加券"],
+                "advertId": "0801704588",
+                "adGroupId": "06245452",
+                "srvJson": "{\"floorid\":\"151\",\"style\":\"22\",\"aids\":\"06245452\",\"moduleid\":\"649\",\"advertid\":\"0801704588\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1\",\"id\":\"0801704588\"},{\"typ\":\"2_1_group\",\"id\":\"06245452\"}],\"abtest\":[]}"
+              }
+            ]
+          }
+        ],
+        "decorateItem": {
+          "id": 75,
+          "marginTop": 0,
+          "marginBottom": 16,
+          "priority": 0
+        }
+      },
+      {
+        "id": 280,
+        "index": 20,
+        "floorStyle": 6,
+        "directFlag": 2,
+        "data": [
+          {
+            "id": 1957,
+            "floorId": 280,
+            "floorStyle": 6,
+            "moduleStyle": 1,
+            "moduleNum": 1,
+            "directFlag": 2,
+            "srvJson": "{\"floorid\":\"280\",\"style\":\"6\",\"aids\":\"5501709404\",\"floortype\":\"0\",\"moduleid\":\"1957\",\"advertType\":\"0\",\"advertid\":\"5501709404\"}",
+            "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1\",\"id\":\"5501709404\"}],\"abtest\":[]}",
+            "imgSource": 1,
+            "imgW": 1125,
+            "imgH": 252,
+            "adGroupId": "5501709404",
+            "imgUrl": "https://m.360buyimg.com/babel/jfs/t1/61729/6/20247/126811/63a0829dE8dc82c61/218751a7334b0cd6.gif",
+            "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://pro.m.jd.com/mall/active/DkRMqK8ZtMSULdJmVr2CHScDXgN/index.html?babelChannel=ttt1\"}",
+            "advertId": "5501709404",
+            "beLocalCard": false
+          }
+        ],
+        "decorateItem": {
+          "id": 98,
+          "borderRadiusUL": 0,
+          "borderRadiusUR": 0,
+          "borderRadiusDL": 0,
+          "borderRadiusDR": 0,
+          "marginTop": 0,
+          "marginBottom": 16,
+          "priority": 0
+        }
+      },
+      {
+        "id": 96,
+        "index": 30,
+        "floorStyle": 16,
+        "directFlag": 2,
+        "data": [
+          {
+            "id": 1954,
+            "floorId": 96,
+            "floorStyle": 16,
+            "moduleStyle": 1,
+            "moduleNum": 1,
+            "directFlag": 2,
+            "srvJson": "{\"floorid\":\"96\",\"biinfo\":\"-100\",\"style\":\"16\",\"moduleid\":\"1954\",\"loctype\":\"1\"}",
+            "stm": "{\"src\":\"-100\",\"cont\":[],\"abtest\":[]}",
+            "adGroupId": "06363102",
+            "mainTitleWords": "附近商家",
+            "storeNum": 10,
+            "tabImage": {
+              "imgUrl": "https://img10.360buyimg.com/cms/s30x30_jfs/t1/217483/22/1490/405/61728bcbE1e882d19/90500510a97e1773.png.webp",
+              "width": 30,
+              "height": 30
+            },
+            "rightIconWords": "查看更多",
+            "rightIconJumpUrl": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"m\",\"needLogin\":\"0\",\"url\":\"https://prodev.m.jd.com/mall/active/3GGjZmXRNU7CAuhYEaZ1a4TwGX4x/index.html\"}",
+            "tabs": [
+              {
+                "storeList": [
+                  {
+                    "storeId": "1005559855",
+                    "venderId": "10559587",
+                    "shopLogo": "https://m.360buyimg.com/popshop/jfs/t17815/10/1165301958/17857/34565043/5abdf45bNd33a42d1.jpg!cc_80x80",
+                    "storeName": "山姆会员商店（张江）",
+                    "agingType": "68分钟",
+                    "srvJson": "{\"floorid\":\"96\",\"storetype\":\"1\",\"biinfo\":\"{\\\"brokerInfo\\\":\\\"eyJwIjoiNjE5NjQ5IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJwaSI6ImJhYmVsIiwic291cmNlIjoiMCIsInRhZyI6Ijc4MDUiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTAxIiwicmVxc2lnIjoiYmZiYjc0ODMxZGQwZTBmM2MxZDI0M2ZmYWU1MGUxOTgwMzU0MGI2MSJ9\\\",\\\"testId\\\":1,\\\"alid\\\":\\\"2\\\",\\\"udi\\\":\\\"N\\\",\\\"did\\\":\\\"50212719\\\",\\\"alclk\\\":\\\"bfbb74831dd0e0f3c1d243ffae50e19803540b61-101-619649\\\"}\",\"venderid\":\"10559587\",\"style\":\"16\",\"saleinfo\":\"精选好店\",\"aids\":\"06363102\",\"time\":\"68分钟\",\"moduleid\":\"1954\",\"storeid\":\"1005559855\",\"loctype\":\"0\",\"isfollow\":\"0\"}",
+                    "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"7\",\"id\":\"1005559855\"},{\"typ\":\"8\",\"id\":\"10559587\"}],\"abtest\":[]}",
+                    "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdmp\",\"appId\":\"10559587\",\"vapptype\":\"1\",\"param\":{\"source\":\"index_nearby_tab\",\"venderId\":\"10559587\",\"storeId\":\"1005559855\",\"bizType\":1}}",
+                    "couponVOList": [
+                      {
+                        "couponDesc": "精选好店"
+                      }
+                    ],
+                    "storePic": "https://m.360buyimg.com/babel/jfs/t1/84863/7/12163/27293/5e43eac1E622d1024/6cb5a86a5edde718.jpg",
+                    "isCollection": "0",
+                    "storeType": "1"
+                  },
+                  {
+                    "storeId": "1000268765",
+                    "venderId": "11905511",
+                    "shopLogo": "https://m.360buyimg.com/popshop/jfs/t1/180272/8/17317/43380/6107d4feE544624d0/4b006d2c1e3c9a2d.jpg!cc_80x80",
+                    "storeName": "家乐福-上海张江高科店",
+                    "agingType": "79分钟",
+                    "srvJson": "{\"floorid\":\"96\",\"storetype\":\"1\",\"biinfo\":\"{\\\"brokerInfo\\\":\\\"eyJwIjoiNjE5NjQ5IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJwaSI6ImJhYmVsIiwic291cmNlIjoiMCIsInRhZyI6Ijc4MDUiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTAxIiwicmVxc2lnIjoiYmZiYjc0ODMxZGQwZTBmM2MxZDI0M2ZmYWU1MGUxOTgwMzU0MGI2MSJ9\\\",\\\"testId\\\":1,\\\"alid\\\":\\\"2\\\",\\\"udi\\\":\\\"N\\\",\\\"did\\\":\\\"50212719\\\",\\\"alclk\\\":\\\"bfbb74831dd0e0f3c1d243ffae50e19803540b61-101-619649\\\"}\",\"venderid\":\"11905511\",\"style\":\"16\",\"saleinfo\":\"领券满5减5\",\"aids\":\"06363102\",\"time\":\"79分钟\",\"moduleid\":\"1954\",\"storeid\":\"1000268765\",\"loctype\":\"0\",\"isfollow\":\"0\"}",
+                    "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"7\",\"id\":\"1000268765\"},{\"typ\":\"8\",\"id\":\"11905511\"}],\"abtest\":[]}",
+                    "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdmp\",\"appId\":\"11905511\",\"vapptype\":\"1\",\"param\":{\"source\":\"index_nearby_tab\",\"venderId\":\"11905511\",\"storeId\":\"1000268765\",\"bizType\":1}}",
+                    "couponVOList": [
+                      {
+                        "couponDesc": "领券满5减5"
+                      }
+                    ],
+                    "storePic": "https://m.360buyimg.com/babel/jfs/t1/155742/18/24567/72169/61938295Ee253688c/02d5fecf97816155.jpg",
+                    "isCollection": "0",
+                    "storeType": "1"
+                  },
+                  {
+                    "storeId": "1006273858",
+                    "venderId": "12771811",
+                    "shopLogo": "https://m.360buyimg.com/popshop/jfs/t1/114524/16/7442/33746/5ec376c4Eb39d07d8/698d43700f460c3d.png!cc_80x80",
+                    "storeName": "好德便利（紫薇0792店）",
+                    "agingType": "55分钟",
+                    "srvJson": "{\"floorid\":\"96\",\"storetype\":\"1\",\"biinfo\":\"{\\\"brokerInfo\\\":\\\"eyJwIjoiNjE5NjQ5IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJwaSI6ImJhYmVsIiwic291cmNlIjoiMCIsInRhZyI6Ijc4MDgiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTAxIiwicmVxc2lnIjoiYmZiYjc0ODMxZGQwZTBmM2MxZDI0M2ZmYWU1MGUxOTgwMzU0MGI2MSJ9\\\",\\\"testId\\\":1,\\\"alid\\\":\\\"2\\\",\\\"udi\\\":\\\"N\\\",\\\"did\\\":\\\"50212719\\\",\\\"alclk\\\":\\\"bfbb74831dd0e0f3c1d243ffae50e19803540b61-101-619649\\\"}\",\"venderid\":\"12771811\",\"style\":\"16\",\"saleinfo\":\"领券满39减4\",\"aids\":\"06363102\",\"time\":\"55分钟\",\"moduleid\":\"1954\",\"storeid\":\"1006273858\",\"loctype\":\"0\",\"isfollow\":\"0\"}",
+                    "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"7\",\"id\":\"1006273858\"},{\"typ\":\"8\",\"id\":\"12771811\"}],\"abtest\":[]}",
+                    "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdmp\",\"appId\":\"12771811\",\"vapptype\":\"1\",\"param\":{\"source\":\"index_nearby_tab\",\"venderId\":\"12771811\",\"storeId\":\"1006273858\",\"bizType\":1}}",
+                    "couponVOList": [
+                      {
+                        "couponDesc": "领券满39减4"
+                      }
+                    ],
+                    "storePic": "https://m.360buyimg.com/babel/jfs/t1/115185/12/15265/51916/5f3c763dEa3022723/ed524cd1a8540d77.png",
+                    "isCollection": "0",
+                    "storeType": "1"
+                  },
+                  {
+                    "storeId": "1004642630",
+                    "venderId": "12510411",
+                    "shopLogo": "https://m.360buyimg.com/popshop/jfs/t1/210504/40/23659/14064/62cf8e8dE4f783978/69259a4d071725c9.jpg",
+                    "storeName": "知音琴行(联洋店)",
+                    "agingType": "24小时",
+                    "srvJson": "{\"floorid\":\"96\",\"storetype\":\"1\",\"biinfo\":\"{\\\"brokerInfo\\\":\\\"eyJwIjoiNjE5NjQ5IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJwaSI6ImJhYmVsIiwic291cmNlIjoiMCIsInRhZyI6Ijc4MDgiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTAxIiwicmVxc2lnIjoiYmZiYjc0ODMxZGQwZTBmM2MxZDI0M2ZmYWU1MGUxOTgwMzU0MGI2MSJ9\\\",\\\"testId\\\":1,\\\"alid\\\":\\\"2\\\",\\\"udi\\\":\\\"N\\\",\\\"did\\\":\\\"50212719\\\",\\\"alclk\\\":\\\"bfbb74831dd0e0f3c1d243ffae50e19803540b61-101-619649\\\"}\",\"venderid\":\"12510411\",\"style\":\"16\",\"saleinfo\":\"领券满1000减10\",\"aids\":\"06363102\",\"time\":\"24小时\",\"moduleid\":\"1954\",\"storeid\":\"1004642630\",\"loctype\":\"0\",\"isfollow\":\"0\"}",
+                    "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"7\",\"id\":\"1004642630\"},{\"typ\":\"8\",\"id\":\"12510411\"}],\"abtest\":[]}",
+                    "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdmp\",\"appId\":\"12510411\",\"vapptype\":\"1\",\"param\":{\"source\":\"index_nearby_tab\",\"venderId\":\"12510411\",\"storeId\":\"1004642630\",\"bizType\":1}}",
+                    "couponVOList": [
+                      {
+                        "couponDesc": "领券满1000减10"
+                      }
+                    ],
+                    "storePic": "https://m.360buyimg.com/babel/jfs/t1/215906/12/264/9400/61679aaaE4c3acbae/c98a9e7600531df5.png",
+                    "isCollection": "0",
+                    "storeType": "1"
+                  },
+                  {
+                    "storeId": "1005399095",
+                    "venderId": "12594383",
+                    "shopLogo": "https://m.360buyimg.com/popshop/jfs/t1/191334/6/28079/50363/630de12eEb4a8cf04/d85ff46c4c3a6900.jpg!cc_80x80",
+                    "storeName": "美心月饼(上海店)",
+                    "agingType": "2小时",
+                    "srvJson": "{\"floorid\":\"96\",\"storetype\":\"1\",\"biinfo\":\"{\\\"brokerInfo\\\":\\\"eyJwIjoiNjE5NjQ5IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJwaSI6ImJhYmVsIiwic291cmNlIjoiMCIsInRhZyI6Ijc4MDciLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTAxIiwicmVxc2lnIjoiYmZiYjc0ODMxZGQwZTBmM2MxZDI0M2ZmYWU1MGUxOTgwMzU0MGI2MSJ9\\\",\\\"testId\\\":1,\\\"alid\\\":\\\"2\\\",\\\"udi\\\":\\\"N\\\",\\\"did\\\":\\\"50212719\\\",\\\"alclk\\\":\\\"bfbb74831dd0e0f3c1d243ffae50e19803540b61-101-619649\\\"}\",\"venderid\":\"12594383\",\"style\":\"16\",\"saleinfo\":\"精选好店\",\"aids\":\"06363102\",\"time\":\"2小时\",\"moduleid\":\"1954\",\"storeid\":\"1005399095\",\"loctype\":\"0\",\"isfollow\":\"0\"}",
+                    "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"7\",\"id\":\"1005399095\"},{\"typ\":\"8\",\"id\":\"12594383\"}],\"abtest\":[]}",
+                    "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdmp\",\"appId\":\"12594383\",\"vapptype\":\"1\",\"param\":{\"source\":\"index_nearby_tab\",\"venderId\":\"12594383\",\"storeId\":\"1005399095\",\"bizType\":1}}",
+                    "couponVOList": [
+                      {
+                        "couponDesc": "精选好店"
+                      }
+                    ],
+                    "storePic": "https://m.360buyimg.com/babel/jfs/t1/220528/17/16159/138108/62419ca4E138246df/4eff1bb53b453f63.png",
+                    "isCollection": "0",
+                    "storeType": "1"
+                  },
+                  {
+                    "storeId": "1005421708",
+                    "venderId": "12359860",
+                    "shopLogo": "https://m.360buyimg.com/popshop/jfs/t1/207332/23/18711/24140/6231983cE9f2d6a78/2c63742f22976986.jpg!cc_80x80",
+                    "storeName": "布鲁诺钢琴（宝龙旗舰店）",
+                    "agingType": "24小时",
+                    "srvJson": "{\"floorid\":\"96\",\"storetype\":\"1\",\"biinfo\":\"{\\\"brokerInfo\\\":\\\"eyJwIjoiNjE5NjQ5IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJwaSI6ImJhYmVsIiwic291cmNlIjoiMCIsInRhZyI6Ijc4MDgiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTAxIiwicmVxc2lnIjoiYmZiYjc0ODMxZGQwZTBmM2MxZDI0M2ZmYWU1MGUxOTgwMzU0MGI2MSJ9\\\",\\\"testId\\\":1,\\\"alid\\\":\\\"2\\\",\\\"udi\\\":\\\"N\\\",\\\"did\\\":\\\"50212719\\\",\\\"alclk\\\":\\\"bfbb74831dd0e0f3c1d243ffae50e19803540b61-101-619649\\\"}\",\"venderid\":\"12359860\",\"style\":\"16\",\"saleinfo\":\"精选好店\",\"aids\":\"06363102\",\"time\":\"24小时\",\"moduleid\":\"1954\",\"storeid\":\"1005421708\",\"loctype\":\"0\",\"isfollow\":\"0\"}",
+                    "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"7\",\"id\":\"1005421708\"},{\"typ\":\"8\",\"id\":\"12359860\"}],\"abtest\":[]}",
+                    "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdmp\",\"appId\":\"12359860\",\"vapptype\":\"1\",\"param\":{\"source\":\"index_nearby_tab\",\"venderId\":\"12359860\",\"storeId\":\"1005421708\",\"bizType\":1}}",
+                    "couponVOList": [
+                      {
+                        "couponDesc": "精选好店"
+                      }
+                    ],
+                    "storePic": "https://m.360buyimg.com/babel/jfs/t1/215906/12/264/9400/61679aaaE4c3acbae/c98a9e7600531df5.png",
+                    "isCollection": "0",
+                    "storeType": "1"
+                  },
+                  {
+                    "storeId": "1000011820",
+                    "venderId": "10358358",
+                    "shopLogo": "https://m.360buyimg.com/popshop/jfs/t1/184203/36/30008/69566/63a112a6E0ca83596/3c1b376dc6731ff9.jpg!cc_80x80",
+                    "storeName": "百果园-上海中科路店",
+                    "agingType": "60分钟",
+                    "srvJson": "{\"floorid\":\"96\",\"storetype\":\"1\",\"biinfo\":\"{\\\"brokerInfo\\\":\\\"eyJwIjoiNjE5NjQ5IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJwaSI6ImJhYmVsIiwic291cmNlIjoiMCIsInRhZyI6Ijc4MDciLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTAxIiwicmVxc2lnIjoiYmZiYjc0ODMxZGQwZTBmM2MxZDI0M2ZmYWU1MGUxOTgwMzU0MGI2MSJ9\\\",\\\"testId\\\":1,\\\"alid\\\":\\\"2\\\",\\\"udi\\\":\\\"N\\\",\\\"did\\\":\\\"50212719\\\",\\\"alclk\\\":\\\"bfbb74831dd0e0f3c1d243ffae50e19803540b61-101-619649\\\"}\",\"venderid\":\"10358358\",\"style\":\"16\",\"saleinfo\":\"领券满39减8\",\"aids\":\"06363102\",\"time\":\"60分钟\",\"moduleid\":\"1954\",\"storeid\":\"1000011820\",\"loctype\":\"0\",\"isfollow\":\"0\"}",
+                    "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"7\",\"id\":\"1000011820\"},{\"typ\":\"8\",\"id\":\"10358358\"}],\"abtest\":[]}",
+                    "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdmp\",\"appId\":\"10358358\",\"vapptype\":\"1\",\"param\":{\"source\":\"index_nearby_tab\",\"venderId\":\"10358358\",\"storeId\":\"1000011820\",\"bizType\":1}}",
+                    "couponVOList": [
+                      {
+                        "couponDesc": "领券满39减8"
+                      }
+                    ],
+                    "storePic": "https://m.360buyimg.com/babel/jfs/t1/96045/32/12139/130137/5e436b48Eb66477b1/fb23718f6a967a1f.png",
+                    "isCollection": "0",
+                    "storeType": "1"
+                  },
+                  {
+                    "storeId": "1000337172",
+                    "venderId": "11881638",
+                    "shopLogo": "https://m.360buyimg.com/popshop/jfs/t1/163708/31/28807/2494/6212fa8aE49dad498/2386c1cdd12ff5e5.jpg!cc_80x80",
+                    "storeName": "自然堂（孙桥店）",
+                    "agingType": "60分钟",
+                    "srvJson": "{\"floorid\":\"96\",\"storetype\":\"1\",\"biinfo\":\"{\\\"brokerInfo\\\":\\\"eyJwIjoiNjE5NjQ5IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJwaSI6ImJhYmVsIiwic291cmNlIjoiMCIsInRhZyI6Ijc4MDciLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTAxIiwicmVxc2lnIjoiYmZiYjc0ODMxZGQwZTBmM2MxZDI0M2ZmYWU1MGUxOTgwMzU0MGI2MSJ9\\\",\\\"testId\\\":1,\\\"alid\\\":\\\"2\\\",\\\"udi\\\":\\\"N\\\",\\\"did\\\":\\\"50212719\\\",\\\"alclk\\\":\\\"bfbb74831dd0e0f3c1d243ffae50e19803540b61-101-619649\\\"}\",\"venderid\":\"11881638\",\"style\":\"16\",\"saleinfo\":\"领券满79减10\",\"aids\":\"06363102\",\"time\":\"60分钟\",\"moduleid\":\"1954\",\"storeid\":\"1000337172\",\"loctype\":\"0\",\"isfollow\":\"0\"}",
+                    "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"7\",\"id\":\"1000337172\"},{\"typ\":\"8\",\"id\":\"11881638\"}],\"abtest\":[]}",
+                    "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdmp\",\"appId\":\"11881638\",\"vapptype\":\"1\",\"param\":{\"source\":\"index_nearby_tab\",\"venderId\":\"11881638\",\"storeId\":\"1000337172\",\"bizType\":1}}",
+                    "couponVOList": [
+                      {
+                        "couponDesc": "领券满79减10"
+                      }
+                    ],
+                    "storePic": "https://m.360buyimg.com/babel/jfs/t1/99556/17/27053/121065/6241958fE1a5a7113/76350863cb9444e4.png",
+                    "isCollection": "0",
+                    "storeType": "1"
+                  },
+                  {
+                    "storeId": "1004522712",
+                    "venderId": "12516261",
+                    "shopLogo": "https://m.360buyimg.com/popshop/jfs/t1/61486/14/19152/109057/62bd43eaE321d57d2/67ce41e01d34cfdc.jpg!cc_80x80",
+                    "storeName": "京东闪电仓-孙桥路店",
+                    "agingType": "3小时",
+                    "srvJson": "{\"floorid\":\"96\",\"storetype\":\"1\",\"biinfo\":\"{\\\"brokerInfo\\\":\\\"eyJwIjoiNjE5NjQ5IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJwaSI6ImJhYmVsIiwic291cmNlIjoiMCIsInRhZyI6Ijc4MDgiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTAxIiwicmVxc2lnIjoiYmZiYjc0ODMxZGQwZTBmM2MxZDI0M2ZmYWU1MGUxOTgwMzU0MGI2MSJ9\\\",\\\"testId\\\":1,\\\"alid\\\":\\\"2\\\",\\\"udi\\\":\\\"N\\\",\\\"did\\\":\\\"50212719\\\",\\\"alclk\\\":\\\"bfbb74831dd0e0f3c1d243ffae50e19803540b61-101-619649\\\"}\",\"venderid\":\"12516261\",\"style\":\"16\",\"saleinfo\":\"精选好店\",\"aids\":\"06363102\",\"time\":\"3小时\",\"moduleid\":\"1954\",\"storeid\":\"1004522712\",\"loctype\":\"0\",\"isfollow\":\"0\"}",
+                    "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"7\",\"id\":\"1004522712\"},{\"typ\":\"8\",\"id\":\"12516261\"}],\"abtest\":[]}",
+                    "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdmp\",\"appId\":\"12516261\",\"vapptype\":\"1\",\"param\":{\"source\":\"index_nearby_tab\",\"venderId\":\"12516261\",\"storeId\":\"1004522712\",\"bizType\":1}}",
+                    "couponVOList": [
+                      {
+                        "couponDesc": "精选好店"
+                      }
+                    ],
+                    "storePic": "https://m.360buyimg.com/babel/jfs/t1/213423/14/16116/32952/6241962fEdcb58b96/e65e463630e3e271.png",
+                    "isCollection": "0",
+                    "storeType": "1"
+                  },
+                  {
+                    "storeId": "1000707273",
+                    "venderId": "11904089",
+                    "shopLogo": "https://m.360buyimg.com/popshop/jfs/t1/109832/25/22313/469785/61ea3606Ecce012bc/e5688dbbe1eb9ccb.png!cc_80x80",
+                    "storeName": "中国移动-孙桥店",
+                    "agingType": "60分钟",
+                    "srvJson": "{\"floorid\":\"96\",\"storetype\":\"1\",\"biinfo\":\"{\\\"brokerInfo\\\":\\\"eyJwIjoiNjE5NjQ5IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJwaSI6ImJhYmVsIiwic291cmNlIjoiMCIsInRhZyI6Ijc4MDUiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTAxIiwicmVxc2lnIjoiYmZiYjc0ODMxZGQwZTBmM2MxZDI0M2ZmYWU1MGUxOTgwMzU0MGI2MSJ9\\\",\\\"testId\\\":1,\\\"alid\\\":\\\"2\\\",\\\"udi\\\":\\\"N\\\",\\\"did\\\":\\\"50212719\\\",\\\"alclk\\\":\\\"bfbb74831dd0e0f3c1d243ffae50e19803540b61-101-619649\\\"}\",\"venderid\":\"11904089\",\"style\":\"16\",\"saleinfo\":\"精选好店\",\"aids\":\"06363102\",\"time\":\"60分钟\",\"moduleid\":\"1954\",\"storeid\":\"1000707273\",\"loctype\":\"0\",\"isfollow\":\"0\"}",
+                    "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"7\",\"id\":\"1000707273\"},{\"typ\":\"8\",\"id\":\"11904089\"}],\"abtest\":[]}",
+                    "jumpLink": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdmp\",\"appId\":\"11904089\",\"vapptype\":\"1\",\"param\":{\"source\":\"index_nearby_tab\",\"venderId\":\"11904089\",\"storeId\":\"1000707273\",\"bizType\":1}}",
+                    "couponVOList": [
+                      {
+                        "couponDesc": "精选好店"
+                      }
+                    ],
+                    "storePic": "https://m.360buyimg.com/babel/jfs/t1/118533/1/22430/110857/624195a8Eeb5adb14/4fa2d64484644a18.png",
+                    "isCollection": "0",
+                    "storeType": "1"
+                  }
+                ],
+                "srvJson": "{\"floorid\":\"96\",\"biinfo\":\"-100\",\"name\":\"-100\",\"style\":\"16\",\"aids\":\"-100\",\"moduleid\":\"1954\"}",
+                "stm": "{\"src\":\"-100\",\"cont\":[{\"typ\":\"2_1_group\"}],\"abtest\":[]}"
+              }
+            ]
+          }
+        ],
+        "decorateItem": {
+          "id": 52,
+          "marginTop": 0,
+          "marginBottom": 16,
+          "priority": 0
+        }
+      }
+    ],
+    "degrade": false
+  },
+  "umpTraceId": "1985273.47896.16715889090828212",
+  "success": true
+}

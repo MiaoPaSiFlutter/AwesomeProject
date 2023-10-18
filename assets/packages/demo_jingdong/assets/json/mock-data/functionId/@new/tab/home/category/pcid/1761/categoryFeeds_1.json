@@ -1,0 +1,176 @@
+{
+  "cards": [
+    {
+      "skuId": "10066162315592",
+      "skuName": "【顺丰空运-多地次日达】 山东特产奶油草莓 时令水果白色淡雪草莓红色草莓孕妇宝宝圣诞节礼物送女生 【红草莓】礼盒装 250g*2盒",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/216714/40/24138/164961/637ecd13Ec37deb87/8e672aec3d0b25fc.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "99.90",
+      "reviews": "13条评价",
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13569",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxMyIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiIyODlkZDU1NTdmM2ZhMzlhZmFmZWVlM2JjN2UyZjg5M2NmMzIzMTMwIn0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"10066162315592\",\"categoryId\":\"13569\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100009737890",
+      "skuName": "好利来 冰山熔岩巧克力糕点网红下午茶送女友告白2枚/盒 ",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/34951/1/18827/82987/6375db0eE55971f9d/1cbca5e5aab292e4.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "58.00",
+      "subPrice": {
+        "type": "flashBuyPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/20943/15/15849/1826/5cb330edE430334ea/e89cc4b506b62fd6.png",
+        "describe": "flashBuyPrice",
+        "price": ""
+      },
+      "reviews": "2万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "21466",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiIyODlkZDU1NTdmM2ZhMzlhZmFmZWVlM2JjN2UyZjg5M2NmMzIzMTMwIn0=\",\"priceTag\":\"flashBuyPrice\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100009737890\",\"categoryId\":\"21466\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100003597391",
+      "skuName": "农夫山泉 NFC果汁（冷藏型）100%鲜榨橙汁 300ml*4瓶",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/173403/12/19587/125794/60eff450Ee0157eab/431f7b66ed903018.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "37.60",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "10万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13601",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiIyODlkZDU1NTdmM2ZhMzlhZmFmZWVlM2JjN2UyZjg5M2NmMzIzMTMwIn0=\",\"priceTag\":\"secKillPrice\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100003597391\",\"categoryId\":\"13601\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "23336041893",
+      "skuName": "四川丑橘不知火净重5斤装 新鲜水果丑柑中大果现摘",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/125793/40/33265/112021/637ad71cEfc940299/b5129434a2d5555c.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "24.90",
+      "reviews": "20万+条评价",
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "13567",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiIyODlkZDU1NTdmM2ZhMzlhZmFmZWVlM2JjN2UyZjg5M2NmMzIzMTMwIn0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"23336041893\",\"categoryId\":\"13567\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "6405685",
+      "skuName": "陕西洛川苹果 红富士12粒 单果180-220g 生鲜 新鲜水果 新老包装随机发货",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/21044/7/19681/49996/6348fc2eEfa7a44fb/cf9845e4904a6410.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "59.90",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "10万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13554",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiIyODlkZDU1NTdmM2ZhMzlhZmFmZWVlM2JjN2UyZjg5M2NmMzIzMTMwIn0=\",\"priceTag\":\"secKillPrice\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"6405685\",\"categoryId\":\"13554\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "31507300676",
+      "skuName": "Member’s Mark 山姆小青柠汁饮料 300ml*8支 菲律宾",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/95312/3/20940/78957/61e928e8Ef1618c4a/edd73dfaf527293d.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "59.88",
+      "reviews": "20万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13601",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiIyODlkZDU1NTdmM2ZhMzlhZmFmZWVlM2JjN2UyZjg5M2NmMzIzMTMwIn0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"31507300676\",\"categoryId\":\"13601\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "10028965459715",
+      "skuName": "山东烟台苹果栖霞红富士 脆甜当季新鲜水果时令生鲜整箱 红富士苹果3斤中大果 75-80mm",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/83776/21/17360/271756/635e45c3E85f0c4a3/5fd7348a2ca70ee7.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "16.50",
+      "reviews": "5000+条评价",
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13554",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiIyODlkZDU1NTdmM2ZhMzlhZmFmZWVlM2JjN2UyZjg5M2NmMzIzMTMwIn0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"10028965459715\",\"categoryId\":\"13554\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "2341185",
+      "skuName": "农夫山泉17.5°NFC鲜橙汁  100%果汁 950ml/瓶  冷藏果汁",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/186411/34/15436/40445/6102121cE3012446b/ce4e25747428458d.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "36.90",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "10万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13601",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImhiIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiIyODlkZDU1NTdmM2ZhMzlhZmFmZWVlM2JjN2UyZjg5M2NmMzIzMTMwIn0=\",\"priceTag\":\"secKillPrice\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"2341185\",\"categoryId\":\"13601\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    }
+  ],
+  "code": "0",
+  "hasNextPage": 1,
+  "srvJson": "{\"classfyid\":1650,\"poolid\":\"41\",\"classfynum\":\"4\",\"keyWord\":\"-100\"}",
+  "page": 2
+}

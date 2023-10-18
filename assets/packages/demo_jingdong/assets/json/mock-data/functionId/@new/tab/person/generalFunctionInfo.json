@@ -1,0 +1,364 @@
+{
+  "code": 0,
+  "floors": [
+    {
+      "cf": {
+        "spl": "empty",
+        "bgc": "#ffffff"
+      },
+      "data": {
+        "nodes": [
+          {
+            "group": [
+              {
+                "functionId": "notification",
+                "redDotType": 0,
+                "clickMta": {
+                  "eventId": "MoreOption_MessageSendSet",
+                  "eventParam": "",
+                  "pageLevel": "",
+                  "pageId": "MyJD_Settings"
+                },
+                "subtitle": {
+                  "color": "#848484",
+                  "value": ""
+                },
+                "title": {
+                  "color": "#2e2e2e",
+                  "value": "消息推送设置"
+                },
+                "updateRedDotTime": 0,
+                "jumpStyle": 1,
+                "jumpInfo": {
+                  "jumpType": 4,
+                  "needLogin": 0,
+                  "jumpUrl": "router://JDMessageCenterModule/msgSet"
+                }
+              },
+              {
+                "functionId": "yinsishezhi",
+                "redDotType": 0,
+                "clickMta": {
+                  "eventId": "MyJD_Settings_PrivacySet",
+                  "eventParam": "",
+                  "pageLevel": "",
+                  "pageId": "MyJD_Settings"
+                },
+                "subtitle": {
+                  "color": "#848484",
+                  "value": ""
+                },
+                "childItems": [
+                  {
+                    "mUrl": "https://in.m.jd.com/help/app/location_authority.html",
+                    "next": "1",
+                    "reddotflag": 0,
+                    "eventId": "MyJD_PrivacySet_Location",
+                    "functionId": "diliweizhi",
+                    "lableName": "开启地理位置定位",
+                    "color": "",
+                    "title": "已开启-去设置",
+                    "pageId": "MyJD_PrivacySet",
+                    "content": "根据您位置更新库存、配送追踪、精准推荐。关于//《位置信息》",
+                    "reddotversion": 0
+                  },
+                  {
+                    "mUrl": "https://in.m.jd.com/help/app/camera_authority.html",
+                    "next": "1",
+                    "reddotflag": 0,
+                    "eventId": "MyJD_PrivacySet_Camera",
+                    "functionId": "fangwenxiangji",
+                    "lableName": "允许京东访问相机",
+                    "color": "",
+                    "title": "已开启-去设置",
+                    "pageId": "MyJD_PrivacySet",
+                    "content": "实现您扫码、拍摄、实景购物。关于//《访问相机》",
+                    "reddotversion": 0
+                  },
+                  {
+                    "mUrl": "https://in.m.jd.com/help/app/voice_authority.html",
+                    "next": "1",
+                    "reddotflag": 0,
+                    "eventId": "MyJD_PrivacySet_Audio",
+                    "functionId": "fangwenyinpin",
+                    "lableName": "允许京东访问音频",
+                    "color": "",
+                    "title": "已开启-去设置",
+                    "pageId": "MyJD_PrivacySet",
+                    "content": "为您提供语音功能。关于//《语音信息》",
+                    "reddotversion": 0
+                  },
+                  {
+                    "mUrl": "https://in.m.jd.com/help/app/address_list_authority.html",
+                    "next": "1",
+                    "reddotflag": 0,
+                    "eventId": "MyJD_PrivacySet_Contacts",
+                    "functionId": "fangwentongxunlu",
+                    "lableName": "允许京东访问通讯录",
+                    "color": "",
+                    "title": "已开启-去设置",
+                    "pageId": "MyJD_PrivacySet",
+                    "content": "方便您购物时取用您的联系人信息。关于//《通讯录信息》",
+                    "reddotversion": 0
+                  },
+                  {
+                    "mUrl": "https://in.m.jd.com/help/app/upload_authority.html",
+                    "next": "1",
+                    "reddotflag": 0,
+                    "eventId": "MyJD_PrivacySet_Album",
+                    "functionId": "fangwenxiangce",
+                    "lableName": "允许京东访问相册",
+                    "color": "",
+                    "title": "已开启-去设置",
+                    "pageId": "MyJD_PrivacySet",
+                    "content": "实现您图片或视频的取用与上传。关于//《图片与视频》",
+                    "reddotversion": 0
+                  },
+                  {
+                    "mUrl": "https://jzt.jd.com/public/adConfig/index.html",
+                    "next": "1",
+                    "reddotflag": 0,
+                    "eventId": "MyJD_PrivacySet_Advertisement",
+                    "functionId": "guanggaoshezhi",
+                    "lableName": "程序化广告设置",
+                    "color": "",
+                    "title": "已开启-已开启",
+                    "pageId": "MyJD_PrivacySet",
+                    "content": "",
+                    "reddotversion": 0
+                  }
+                ],
+                "title": {
+                  "color": "#2e2e2e",
+                  "value": "隐私设置"
+                },
+                "updateRedDotTime": 0,
+                "jumpStyle": 1,
+                "jumpInfo": {
+                  "jumpType": 2,
+                  "needLogin": 0,
+                  "jumpUrl": ""
+                }
+              },
+              {
+                "expoMta": {
+                  "eventId": "MoreOption_NearSettingExpo",
+                  "eventParam": "",
+                  "pageLevel": "",
+                  "pageId": "MyJD_Settings"
+                },
+                "functionId": "fujinkaiguan",
+                "redDotType": 0,
+                "clickMta": {
+                  "eventId": "MoreOption_NearSetting",
+                  "eventParam": "",
+                  "pageLevel": "",
+                  "pageId": "MyJD_Settings"
+                },
+                "subtitle": {
+                  "color": "#848484",
+                  "value": ""
+                },
+                "title": {
+                  "color": "#2e2e2e",
+                  "value": "无门店服务时仍显示“附近”"
+                },
+                "updateRedDotTime": 0,
+                "jumpStyle": 2,
+                "jumpInfo": {
+                  "jumpType": 4,
+                  "needLogin": 0,
+                  "jumpUrl": ""
+                }
+              },
+              {
+                "functionId": "videoautoplay",
+                "redDotType": 0,
+                "clickMta": {
+                  "eventId": "MoreOption_VideoAuto",
+                  "eventParam": "",
+                  "pageLevel": "",
+                  "pageId": "MyJD_Settings"
+                },
+                "subtitle": {
+                  "color": "#848484",
+                  "value": ""
+                },
+                "title": {
+                  "color": "#2e2e2e",
+                  "value": "WLAN环境下自动播放视频"
+                },
+                "updateRedDotTime": 0,
+                "jumpStyle": 2,
+                "jumpInfo": {
+                  "jumpType": 4,
+                  "needLogin": 0,
+                  "jumpUrl": ""
+                }
+              },
+              {
+                "functionId": "screenshot",
+                "redDotType": 0,
+                "clickMta": {
+                  "eventId": "MyJD_Settings_Screenshot",
+                  "eventParam": "",
+                  "pageLevel": "",
+                  "pageId": "MyJD_Settings"
+                },
+                "subtitle": {
+                  "color": "#848484",
+                  "value": ""
+                },
+                "title": {
+                  "color": "#2e2e2e",
+                  "value": "截屏弹出分享弹窗"
+                },
+                "updateRedDotTime": 0,
+                "jumpStyle": 2,
+                "jumpInfo": {
+                  "jumpType": 4,
+                  "needLogin": 0,
+                  "jumpUrl": ""
+                }
+              },
+              {
+                "functionId": "darkModel",
+                "redDotType": 0,
+                "clickMta": {
+                  "eventId": "MyJD_Settings_DarkMode",
+                  "eventParam": "",
+                  "pageLevel": "",
+                  "pageId": "MyJD_Settings"
+                },
+                "subtitle": {
+                  "color": "#848484",
+                  "value": ""
+                },
+                "title": {
+                  "color": "#2e2e2e",
+                  "value": "暗黑模式"
+                },
+                "updateRedDotTime": 0,
+                "jumpStyle": 1,
+                "jumpInfo": {
+                  "jumpType": 4,
+                  "needLogin": 0,
+                  "jumpUrl": ""
+                }
+              },
+              {
+                "functionId": "imagerecognition",
+                "redDotType": 0,
+                "clickMta": {
+                  "eventId": "MyJD_Settings_ImageRecognition",
+                  "eventParam": "",
+                  "pageLevel": "",
+                  "pageId": "MyJD_Settings"
+                },
+                "subtitle": {
+                  "color": "#848484",
+                  "value": ""
+                },
+                "title": {
+                  "color": "#2e2e2e",
+                  "value": "图片文字识别"
+                },
+                "updateRedDotTime": 0,
+                "jumpStyle": 2,
+                "jumpInfo": {
+                  "jumpType": 4,
+                  "needLogin": 1,
+                  "jumpUrl": ""
+                }
+              },
+              {
+                "functionId": "wangluozhenduan",
+                "redDotType": 0,
+                "clickMta": {
+                  "eventId": "MoreOption_Netdiagnosis",
+                  "eventParam": "",
+                  "pageLevel": "",
+                  "pageId": "MyJD_Settings"
+                },
+                "subtitle": {
+                  "color": "#848484",
+                  "value": ""
+                },
+                "title": {
+                  "color": "#2e2e2e",
+                  "value": "网络诊断"
+                },
+                "updateRedDotTime": 0,
+                "jumpStyle": 1,
+                "jumpInfo": {
+                  "jumpType": 4,
+                  "needLogin": 0,
+                  "jumpUrl": "router://JDNetDiagnoModule/show"
+                }
+              },
+              {
+                "functionId": "qingchubendihuancun",
+                "redDotType": 0,
+                "clickMta": {
+                  "eventId": "MoreOption_ClearPictures",
+                  "eventParam": "",
+                  "pageLevel": "",
+                  "pageId": "MyJD_Settings"
+                },
+                "subtitle": {
+                  "color": "#848484",
+                  "value": ""
+                },
+                "title": {
+                  "color": "#2e2e2e",
+                  "value": "清除本地缓存"
+                },
+                "updateRedDotTime": 0,
+                "jumpStyle": 0,
+                "jumpInfo": {
+                  "jumpType": 4,
+                  "needLogin": 0,
+                  "jumpUrl": ""
+                }
+              }
+            ]
+          },
+          {
+            "group": [
+              {
+                "functionId": "qiehuanzhandian",
+                "redDotType": 0,
+                "clickMta": {
+                  "eventId": "MyJD_Settings_Country",
+                  "eventParam": "",
+                  "pageLevel": "",
+                  "pageId": "MyJD_Settings"
+                },
+                "subtitle": {
+                  "color": "#848484",
+                  "value": ""
+                },
+                "title": {
+                  "color": "#2e2e2e",
+                  "value": "切换站点"
+                },
+                "updateRedDotTime": 0,
+                "jumpStyle": 1,
+                "jumpInfo": {
+                  "jumpType": 2,
+                  "needLogin": 0,
+                  "jumpUrl": "openapp.jdmobile://virtual?params={\"category\": \"jump\",\"sourceValue\":\"\",\"sourceType\":\"\",\"des\":\"home_oversea\"}"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "sortId": 1,
+      "mId": "generalFunctionFloor",
+      "refId": "tongyonggongneng",
+      "bId": "eCustom_flo_476"
+    }
+  ],
+  "others": {}
+}
