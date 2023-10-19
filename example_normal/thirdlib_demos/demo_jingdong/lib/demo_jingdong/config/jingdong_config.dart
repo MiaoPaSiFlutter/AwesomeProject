@@ -69,6 +69,22 @@ class JingDongConfig {
       leftMsg: "购物车",
       router: JingDongModuleRouterS.ShopcarView,
     ),
+    HzyNormalItemModel(
+      leftMsg: "AzlistviewLargeDataView",
+      router: JingDongModuleRouterS.AzlistviewLargeDataView,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "CarModelsView",
+      router: JingDongModuleRouterS.CarModelsView,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "CityListView",
+      router: JingDongModuleRouterS.CityListView,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "CityListCustomHeaderView",
+      router: JingDongModuleRouterS.CityListCustomHeaderView,
+    ),
 
     /// 按钮
     ///

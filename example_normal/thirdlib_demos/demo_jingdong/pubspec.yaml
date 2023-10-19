@@ -32,6 +32,11 @@ dependencies:
   geolocator: ^10.0.0
   # 使用 Dart Streams 来解耦应用程序的简单事件总线
   event_bus_plus: ^0.6.1
+  # Flutter 粘性标题和索引 ListView。  索引栏。  例如城市列表、联系人列表。  索引和悬停效果。
+  azlistview: ^2.0.0
+  # 汉字转换拼音库。准确完整的汉字词典。转换速度快。
+  lpinyin: ^2.0.3
+  # 通用
   hzy_common_module:
     path: ../../thirdlib/hzy_common_module/
   flutter:
@@ -56,6 +61,9 @@ flutter:
     - assets/lottiefiles/
     - assets/lottiefiles/mdb_splash/
     - assets/lottiefiles/mdb_splash/images/
+
+    - assets/azlistview/data/
+    - assets/azlistview/images/
 
     - assets/json/mock-data/functionId/@new/tab/xinpin/
     - assets/json/mock-data/functionId/@new/tab/xinpin/getNewsTrendsTabDetails/

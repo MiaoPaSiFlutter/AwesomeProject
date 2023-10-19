@@ -17,4 +17,8 @@ class JingDongModuleRouterS {
   static const ProductView = '/jd/common/ProductView';
   static const HomeView = '/jd/tab/HomeView';
   static const ShopcarView = '/jd/tab/ShopcarView';
+  static const AzlistviewLargeDataView = '/jd/common/AzlistviewLargeDataView';
+  static const CarModelsView = '/jd/common/CarModelsPage';
+  static const CityListView = '/jd/common/CityListView';
+  static const CityListCustomHeaderView = '/jd/common/CityListCustomHeaderView';
 }
