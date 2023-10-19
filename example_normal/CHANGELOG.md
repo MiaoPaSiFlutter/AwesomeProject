@@ -4,6 +4,10 @@
 
 新建`ts-pages`分支，将编译出的 web 产物放置到该分支下。
 
+#### 2、添加一键上传脚本文件
+
+python3.10 upload.py --type='apk' --upload='apk'
+
 ### 2023-10-19
 
 #### 1、编译 web

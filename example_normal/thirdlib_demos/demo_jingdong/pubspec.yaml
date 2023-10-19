@@ -26,8 +26,11 @@ dependencies:
   oktoast: ^3.3.1
   # 一个漂亮的flutter应用程序版本更新对话框。您可以自定义自己的版本更新弹窗！
   flutter_update_dialog: ^2.0.0
+  # 一个轮播滑块小部件，支持无限滚动和自定义子部件。
   carousel_slider: ^4.2.1
+  # Flutter 的地理定位插件。  该插件为通用位置（GPS 等）功能提供跨平台（iOS、Android）API。
   geolocator: ^10.0.0
+  # 使用 Dart Streams 来解耦应用程序的简单事件总线
   event_bus_plus: ^0.6.1
   hzy_common_module:
     path: ../../thirdlib/hzy_common_module/
