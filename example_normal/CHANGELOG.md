@@ -1,3 +1,9 @@
+### 2023-10-20
+
+#### 1、使用[GitHub Pages](https://zhuanlan.zhihu.com/p/647963756) 预览编译出的 web 产物
+
+新建`ts-pages`分支，将编译出的 web 产物放置到该分支下。
+
 ### 2023-10-19
 
 #### 1、编译 web
