@@ -1,8 +1,95 @@
-# AwesomeProject
+# 基于 Flutter 的高仿「京东」
 
-flutter 项目整理
+> [「京东」](https://app.jd.com/)京东客户端
 
-### 用到的插件
+> 支持设备: Android 4.1+ and iOS 9.0+
+
+## 声明
+
+该 APP 所用到的 API 均由 [「京东」](https://app.jd.com/)提供，[本人](https://github.com/ZYHB)采取非正常手段获取。获取跟共享的行为或许有侵犯权益的嫌疑。请您了解相关情况，并保证不侵犯[「京东」](https://app.jd.com/)的利益，并遵守开源协议
+
+## 项目描述
+
+1. 基于 GetX 框架开发，能同时运行在 Android、iOS、Web 环境下
+2. 到目前为止，该项目均由本人独立完成。实现了[「京东」](https://app.jd.com/)较为常用的功能点.
+   以下是功能列表
+
+- 登录页面（内容比较简单）
+- 浏览历史页面（上拉加载、下拉刷新）
+- 新品页面（内容比较复杂）
+  - 瀑布流
+    waterfall_flow: ^3.0.2
+  - 强大的 Sliver 扩展库
+    extended_sliver: ^2.1.3
+  - 扩展 NestedScrollView
+    extended_nested_scroll_view: ^6.1.2
+  - 加载更多列表支持 ListView,GridView 以及瀑布流。
+    loading_more_list: ^6.0.0
+- 账户设置页面
+- 我的订单页面
+- 我的页面
+- 发现页面
+- 分类页面
+- 引导页面
+- 闪屏页面
+- 商品详情页面
+- 首页页面
+- 购物车页面
+
+## 接口文档
+
+json 文件内置到工程中
+
+## Web
+
+web 产物在`ts-pages`分支可查看。
+[查看运行效果](https://miaopasiflutter.github.io/AwesomeProject/#/index)
+
+## Android
+
+![one_download](./screenshots/app_download.jpg)
+[JD-Android-V0.1 下载地址](https://www.pgyer.com/1lJA)
+
+## iOS
+
+无苹果开发者账号, 暂时无法打包 APP, 请亲自进行编译并在模拟器或手机上运行
+
+## APP 截图
+
+![picture_detail](./screenshots/picture_detail.png) ![picture_list](./screenshots/picture_list.png)
+![reading_container](./screenshots/reading_container.png) ![article_list](./screenshots/article_list.png)
+![article_list1](./screenshots/article_list1.png) ![article_list2](./screenshots/article_list2.png)
+![essay_detail](./screenshots/essay_detail.png) ![essay_comment](./screenshots/essay_comment.png)
+![music_detail](./screenshots/music_detail.png) ![music_list](./screenshots/music_list.png)
+![movie_list](./screenshots/movie_list.png) ![movie_detail1](./screenshots/movie_detail1.png)
+![movie_detail2](./screenshots/movie_detail2.png) ![movie_detail3](./screenshots/movie_detail3.png)
+![movie_video](./screenshots/movie_video.png) ![movie_comment](./screenshots/movie_comment.png)
+
+## 整体思路
+
+1. 分析「京东」App 的业务逻辑结构，将整体业务按重要程度进行划分，安排整体开发流程
+2. 在 Mac 环境下使用 Charles 软件抓包，抓取「京东」的网络接口数据，并整理接口
+3. 使用 GetX 开发项目
+
+## 目前所发现的 bug 以及尚未完成的功能点
+
+### Android
+
+### iOS
+
+### 共同问题
+
+## 将来也许会做的功能点
+
+1. 搜索
+2. 音频视频缓存
+3. javascript 热更新
+4. 收藏
+5. ......
+
+## Build
+
+## 第三方库
 
 ```
 
@@ -86,7 +173,3 @@ liquid_pull_to_refresh: ^3.0.1
 
 
 ```
-
-# 运行截图
-
-[点击查看运行效果](https://miaopasiflutter.github.io/AwesomeProject/#/index)
