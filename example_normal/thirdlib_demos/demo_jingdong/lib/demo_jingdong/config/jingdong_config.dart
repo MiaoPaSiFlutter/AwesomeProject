@@ -13,77 +13,8 @@ import 'package:hzy_common_module/hzy_common_module.dart';
 class JingDongConfig {
   List itemList = [
     HzyNormalItemModel(
-      leftMsg: "登录页面",
-      router: JingDongModuleRouterS.LOGIN,
-    ),
-
-    HzyNormalItemModel(
-      leftMsg: "新品页面",
-      router: JingDongModuleRouterS.NEWS,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "浏览历史",
-      router: JingDongModuleRouterS.BrowseHistoryView,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "账户设置",
-      router: JingDongModuleRouterS.AccountSetView,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "我的订单",
-      router: JingDongModuleRouterS.OrderView,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "我的",
-      router: JingDongModuleRouterS.MineView,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "发现",
-      router: JingDongModuleRouterS.DiscoverView,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "分类",
-      router: JingDongModuleRouterS.CategoryView,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "引导页",
-      router: JingDongModuleRouterS.GuideView,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "闪屏页",
-      router: JingDongModuleRouterS.SplashView,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "H5",
-      router: JingDongModuleRouterS.CommonWebPage,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "商品详情",
-      router: JingDongModuleRouterS.ProductView,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "首页",
-      router: JingDongModuleRouterS.HomeView,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "购物车",
-      router: JingDongModuleRouterS.ShopcarView,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "AzlistviewLargeDataView",
-      router: JingDongModuleRouterS.AzlistviewLargeDataView,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "CarModelsView",
-      router: JingDongModuleRouterS.CarModelsView,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "CityListView",
-      router: JingDongModuleRouterS.CityListView,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "CityListCustomHeaderView",
-      router: JingDongModuleRouterS.CityListCustomHeaderView,
+      leftMsg: "HOME",
+      router: JingDongModuleRouterS.HOME,
     ),
 
     /// 按钮

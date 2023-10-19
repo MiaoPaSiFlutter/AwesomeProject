@@ -62,7 +62,7 @@ class MineOrderIdFloorCell extends StatelessWidget {
                 } else if (index == 1) {
                   // NavigatorUtil.push(context, "/account/storeAttention");
                 } else if (index == 2) {
-                  currentToPage(JingDongModuleRouterS.BrowseHistoryView);
+                  // currentToPage(JingDongModuleRouterS.BrowseHistoryView);
                 }
               },
             ),
@@ -112,16 +112,16 @@ class MineOrderIdFloorCell extends StatelessWidget {
     return GestureDetector(
       onTap: () {
         if (title == "待付款") {
-          currentToPage(JingDongModuleRouterS.OrderView,
-              parameters: {"index": "1"});
+          // currentToPage(JingDongModuleRouterS.OrderView,
+          //     parameters: {"index": "1"});
         } else if (title == "待收货") {
-          currentToPage(JingDongModuleRouterS.OrderView,
-              parameters: {"index": "2"});
+          // currentToPage(JingDongModuleRouterS.OrderView,
+          //     parameters: {"index": "2"});
         } else if (title == "待评价") {
         } else if (title == "退换/售后") {
         } else if (title == "我的订单") {
-          currentToPage(JingDongModuleRouterS.OrderView,
-              parameters: {"index": "0"});
+          // currentToPage(JingDongModuleRouterS.OrderView,
+          //     parameters: {"index": "0"});
         }
       },
       child: SmallCollectionItem(
