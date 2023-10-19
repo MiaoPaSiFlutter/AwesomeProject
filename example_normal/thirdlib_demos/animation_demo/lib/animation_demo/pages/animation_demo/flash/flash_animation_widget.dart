@@ -275,7 +275,8 @@ class _FlashRenderBox extends RenderProxyBox {
   _FlashRenderBox(this._percent, this._direction, this._gradient);
 
   @override
-  ShaderMaskLayer? get layer => super.layer as ShaderMaskLayer;
+  ShaderMaskLayer? get layer =>
+      super.layer != null ? super.layer as ShaderMaskLayer : null;
 
   @override
   bool get alwaysNeedsCompositing => child != null;

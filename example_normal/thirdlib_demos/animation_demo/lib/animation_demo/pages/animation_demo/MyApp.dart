@@ -5,6 +5,7 @@ import 'example_number_PageTransitionSwitcher.dart';
 import 'example_number_PageTransitionSwitcher2.dart';
 import 'example_pie2_animagtion_page.dart';
 import 'example_pie_animagtion_page.dart';
+import 'flash/animation_flash_view.dart';
 import 'hero_demo/test_hero_page.dart';
 import 'hero_demo/test_hero_show_imgpage.dart';
 import 'test.dart';
@@ -31,6 +32,7 @@ class _MyHomePageState extends State<AnimationMyApp> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            createCommonItem("闪光动画", const AnimationFlashView()),
             createCommonItem("水波纹", const Example001()),
             createCommonItem("数字切换-动画", const Example002()),
             createCommonItem("长按出现动画", const Example003()),
