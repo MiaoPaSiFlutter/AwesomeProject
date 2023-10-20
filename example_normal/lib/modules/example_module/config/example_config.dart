@@ -10,7 +10,7 @@
 import 'package:animation_demo/animation_demo.dart';
 import 'package:canvas_demo/canvas_demo.dart';
 import 'package:common_demo/common_demo.dart';
-import 'package:demo_jingdong/demo_jingdong.dart';
+import 'package:flutter_jd/flutter_jd.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:scrollerview_demo/scrollerview_demo.dart';

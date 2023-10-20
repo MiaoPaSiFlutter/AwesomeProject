@@ -107,7 +107,7 @@ sh hzy_rob_project.sh -n common_demo -l pro -t package
 ### 2023-10-15
 
 1、创建 京东 模块儿
-sh hzy_rob_project.sh -n demo_jingdong -l pro -t package
+sh hzy_rob_project.sh -n flutter_jd -l pro -t package
 
 2、添加京东登录页面
 

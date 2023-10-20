@@ -24,8 +24,8 @@ dependencies:
   hzy_common_module:
     path: ./thirdlib/hzy_common_module
 
-  demo_jingdong:
-    path: ./thirdlib_demos/demo_jingdong
+  flutter_jd:
+    path: ./thirdlib_demos/flutter_jd
   flutter_books:
     path: ./thirdlib_demos/flutter_books
 
