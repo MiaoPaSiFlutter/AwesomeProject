@@ -1,3 +1,8 @@
+### 2023-10-21
+
+1、创建 flutter_books 模块儿
+sh hzy_rob_project.sh -n flutter_books -l pro -t package
+
 ### 2023-10-20
 
 #### 1、使用[GitHub Pages](https://zhuanlan.zhihu.com/p/647963756) 预览编译出的 web 产物
