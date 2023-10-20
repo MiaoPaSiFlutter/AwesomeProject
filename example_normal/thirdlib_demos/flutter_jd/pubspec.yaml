@@ -30,8 +30,6 @@ dependencies:
   carousel_slider: ^4.2.1
   # Flutter 的地理定位插件。  该插件为通用位置（GPS 等）功能提供跨平台（iOS、Android）API。
   geolocator: ^10.0.0
-  # 使用 Dart Streams 来解耦应用程序的简单事件总线
-  event_bus_plus: ^0.6.1
   # Flutter 粘性标题和索引 ListView。  索引栏。  例如城市列表、联系人列表。  索引和悬停效果。
   azlistview: ^2.0.0
   # 汉字转换拼音库。准确完整的汉字词典。转换速度快。

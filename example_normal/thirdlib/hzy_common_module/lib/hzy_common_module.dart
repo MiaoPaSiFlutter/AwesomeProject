@@ -58,3 +58,7 @@ export 'package:wechat_camera_picker/wechat_camera_picker.dart'
 export 'package:package_info_plus/package_info_plus.dart';
 // 用于获取主机平台文件系统上的常用位置，例如临时目录和应用程序数据目录。
 export 'package:path_provider/path_provider.dart';
+
+
+export 'package:event_bus_plus/event_bus_plus.dart';
+

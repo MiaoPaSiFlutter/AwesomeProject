@@ -10,6 +10,7 @@
 import 'package:animation_demo/animation_demo.dart';
 import 'package:canvas_demo/canvas_demo.dart';
 import 'package:common_demo/common_demo.dart';
+import 'package:flutter_books/flutter_books.dart';
 import 'package:flutter_jd/flutter_jd.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
@@ -28,6 +29,10 @@ class ExamplConfig {
     HzyNormalItemModel(
       leftMsg: "京东",
       router: JingDongModuleRouterS.HOME,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "书城",
+      router: BooksModuleRouterS.HOME,
     ),
     HzyNormalItemModel(
       leftMsg: "extended_sliver_demo",

@@ -3,6 +3,9 @@
 1、创建 flutter_books 模块儿
 sh hzy_rob_project.sh -n flutter_books -l pro -t package
 
+[Panda 看书](https://juejin.cn/post/6844903907110420488)
+[追书神器 API 整理合集一](https://juejin.cn/post/6844903480939773966)
+
 ### 2023-10-20
 
 #### 1、使用[GitHub Pages](https://zhuanlan.zhihu.com/p/647963756) 预览编译出的 web 产物
