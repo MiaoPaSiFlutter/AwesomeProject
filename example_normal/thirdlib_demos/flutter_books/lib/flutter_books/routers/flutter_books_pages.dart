@@ -6,7 +6,7 @@ class BooksModulePagesS {
   static final routerS = [
     GetPage(
       name: BooksModuleRouterS.HOME,
-      page: () => BooksApp(),
+      page: () => FlutterBooksApp(),
     ),
   ];
 }

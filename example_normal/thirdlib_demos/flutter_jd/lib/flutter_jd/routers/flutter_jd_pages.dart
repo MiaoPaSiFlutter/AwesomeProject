@@ -6,7 +6,7 @@ class JingdongModulePagesS {
   static final routerS = [
     GetPage(
       name: JingDongModuleRouterS.HOME,
-      page: () => MainHomeView(),
+      page: () => FlutterJDHomeView(),
     ),
   ];
 }

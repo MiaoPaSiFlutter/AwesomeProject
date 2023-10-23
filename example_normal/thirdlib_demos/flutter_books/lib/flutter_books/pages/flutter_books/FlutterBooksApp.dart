@@ -13,7 +13,7 @@ import 'ui/splash/splash_page.dart';
 //   SystemChrome.setSystemUIOverlayStyle(systemUiOverlayStyle);
 // }
 
-class BooksApp extends StatelessWidget {
+class FlutterBooksApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

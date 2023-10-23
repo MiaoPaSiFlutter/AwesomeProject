@@ -1,2 +1,1 @@
-
-export './BooksApp.dart';
+export 'flutter_books/FlutterBooksApp.dart';

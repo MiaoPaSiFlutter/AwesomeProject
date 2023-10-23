@@ -7,6 +7,9 @@ environment:
   sdk: ">=3.1.3 <4.0.0"
   flutter: ">=1.17.0"
 dependencies:
+  # 使用 fonts.google.com 字体的 Flutter 包。
+  # 支持 HTTP 获取、缓存和资源捆绑。
+  google_fonts: ^5.1.0
   # 通用
   hzy_common_module:
     path: ../../thirdlib/hzy_common_module/
@@ -19,4 +22,5 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 flutter:
   assets:
-    - assets/images/
+    - assets/ModernSmartHomeUI/images/
+    - assets/screenshots/

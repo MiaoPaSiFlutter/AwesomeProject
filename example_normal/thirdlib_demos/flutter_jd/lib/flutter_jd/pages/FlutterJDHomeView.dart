@@ -21,8 +21,8 @@ import './azlistview/car_models/views/car_models_view.dart';
 import './azlistview/city_list/views/city_list_view.dart';
 import './azlistview/city_list_custom_header/views/city_list_custom_header_view.dart';
 
-class MainHomeView extends StatelessWidget {
-  const MainHomeView({Key? key}) : super(key: key);
+class FlutterJDHomeView extends StatelessWidget {
+  const FlutterJDHomeView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

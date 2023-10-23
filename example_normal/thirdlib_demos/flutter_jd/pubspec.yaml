@@ -63,6 +63,8 @@ flutter:
     - assets/azlistview/data/
     - assets/azlistview/images/
 
+    - assets/screenshots/
+
     - assets/json/mock-data/functionId/@new/tab/xinpin/
     - assets/json/mock-data/functionId/@new/tab/xinpin/getNewsTrendsTabDetails/
     - assets/json/mock-data/functionId/@new/tab/xinpin/getRecommendNewFeedsList/
