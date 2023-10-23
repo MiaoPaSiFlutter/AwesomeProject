@@ -64,6 +64,8 @@ web 产物在`ts-pages`分支可查看。
 
 ![现代智能家居 UI x Flutter](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ModernSmartHomeUI.gif)
 
+![DonutAppUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/DonutAppUI.gif)
+
 ## 整体思路
 
 1. 分析「京东」App 的业务逻辑结构，将整体业务按重要程度进行划分，安排整体开发流程
