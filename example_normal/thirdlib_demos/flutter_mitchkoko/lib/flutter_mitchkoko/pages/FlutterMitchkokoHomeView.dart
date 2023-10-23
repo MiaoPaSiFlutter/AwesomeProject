@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
+import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
 
 class FlutterMitchkokoHomeView extends StatelessWidget {
@@ -31,6 +32,7 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
     list.addAll([
       createSectionTitle('JD'),
       createCommonItem("现代智能家居 UI x Flutter", ModernSmartHomeUIApp()),
+      createCommonItem("使用 Firebase 通过电子邮件登录和注销。", EmailLoginLogoutUI()),
     ]);
     return list;
   }
