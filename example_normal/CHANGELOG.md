@@ -1,3 +1,8 @@
+### 2023-10-23
+
+1、创建 flutter_mitchkoko 模块儿
+sh hzy_rob_project.sh -n flutter_mitchkoko -l pro -t package
+
 ### 2023-10-21
 
 1、创建 flutter_books 模块儿
