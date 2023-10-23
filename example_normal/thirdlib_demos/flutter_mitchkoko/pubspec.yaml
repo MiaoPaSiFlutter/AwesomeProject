@@ -28,4 +28,5 @@ flutter:
   assets:
     - assets/ModernSmartHomeUI/images/
     - assets/EmailLoginLogoutUI/images/
+    - assets/DonutAppUI/images/
     - assets/screenshots/
