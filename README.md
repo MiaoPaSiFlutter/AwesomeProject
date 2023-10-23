@@ -56,14 +56,13 @@ web 产物在`ts-pages`分支可查看。
 
 ## APP 截图
 
-![picture_detail](./screenshots/picture_detail.png) ![picture_list](./screenshots/picture_list.png)
-![reading_container](./screenshots/reading_container.png) ![article_list](./screenshots/article_list.png)
-![article_list1](./screenshots/article_list1.png) ![article_list2](./screenshots/article_list2.png)
-![essay_detail](./screenshots/essay_detail.png) ![essay_comment](./screenshots/essay_comment.png)
-![music_detail](./screenshots/music_detail.png) ![music_list](./screenshots/music_list.png)
-![movie_list](./screenshots/movie_list.png) ![movie_detail1](./screenshots/movie_detail1.png)
-![movie_detail2](./screenshots/movie_detail2.png) ![movie_detail3](./screenshots/movie_detail3.png)
-![movie_video](./screenshots/movie_video.png) ![movie_comment](./screenshots/movie_comment.png)
+##### flutter_jd 截图
+
+![发现页面](./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/登录页面.gif)![发现页面](./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/发现页面.gif)![分类页面](./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/分类页面.gif)![浏览历史页面](./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/浏览历史页面.gif)![闪屏页页](./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/闪屏页页面.gif)![商品详情页页面](./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/商品详情页页面.gif)![我的订单页面](./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/我的订单页面.gif)![新品页面](./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/新品页面.gif)![引导页页面](./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/引导页页面.gif)![购物车页面](./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/购物车页面.gif)
+
+##### flutter_mitchkoko 截图
+
+![现代智能家居 UI x Flutter](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ModernSmartHomeUI.gif)
 
 ## 整体思路
 
