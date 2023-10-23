@@ -1,5 +1,21 @@
 ### 2023-10-23
 
+使用 Firebase 通过电子邮件登录和注销。
+
+[将 Firebase 添加到您的 Flutter 应用](https://console.firebase.google.com/project/awesomeproject-flutter/overview?hl=zh-cn)
+具体操作：
+1、[安装 Firebase CLI](https://firebase.google.com/docs/cli?hl=zh&authuser=0)
+➜ npm install -g firebase-tools
+2、使用您的 Google 帐号登录 Firebase
+➜ firebase login
+3、安装并运行 FlutterFire CLI
+➜ dart pub global activate flutterfire_cli
+4、在您的 Flutter 项目的根目录下，运行以下命令：
+➜ flutterfire configure --project=awesomeproject-flutter
+这会自动向 Firebase 注册您的每个平台应用，并向您的 Flutter 项目添加 lib/firebase_options.dart 配置文件。
+
+### 2023-10-22
+
 1、创建 flutter_mitchkoko 模块儿
 sh hzy_rob_project.sh -n flutter_mitchkoko -l pro -t package
 
