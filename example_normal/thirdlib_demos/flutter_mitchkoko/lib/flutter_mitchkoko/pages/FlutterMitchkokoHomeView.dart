@@ -7,6 +7,7 @@ import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
 import 'MathGameUI/MathGameUI.dart';
 import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
+import 'MusicplayerUI/MusicplayerUI.dart';
 import 'NFTappuiUI/NFTappuiUI.dart';
 
 class FlutterMitchkokoHomeView extends StatelessWidget {
@@ -45,6 +46,9 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
           HabitTrackerUI()),
       createCommonItem("这是一个有趣的用户界面，看起来很酷！", NFTappuiUI()),
       createCommonItem("编写数学游戏", MathGameUI()),
+      createCommonItem(
+          "一个音乐播放器应用程序，例如使用同质化主题的 Spotify 或 Apple Music：DI 喜欢同质化呵呵。",
+          MusicplayerUI()),
     ]);
     return list;
   }

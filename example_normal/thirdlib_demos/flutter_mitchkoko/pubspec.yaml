@@ -7,6 +7,8 @@ environment:
   sdk: ">=3.1.3 <4.0.0"
   flutter: ">=1.17.0"
 dependencies:
+  # 库允许您根据百分比显示进度小部件，可以是圆形或线性，您也可以根据您的需要对其进行自定义。
+  percent_indicator: ^4.2.3
   # 可滑动列表项的 Flutter 实现，具有可关闭的定向滑动操作。
   flutter_slidable: ^3.0.0
   # 用纯 Dart 编写的轻量级且速度极快的键值数据库。  使用 AES-256 进行严格加密。
@@ -43,4 +45,5 @@ flutter:
     - assets/CompassUI/images/
     - assets/HabitTrackerUI/images/
     - assets/NFTappuiUI/images/
+    - assets/MusicplayerUI/images/
     - assets/screenshots/
