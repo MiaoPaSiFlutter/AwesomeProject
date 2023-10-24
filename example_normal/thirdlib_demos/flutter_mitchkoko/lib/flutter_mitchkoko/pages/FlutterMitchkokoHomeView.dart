@@ -9,6 +9,7 @@ import 'MathGameUI/MathGameUI.dart';
 import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
 import 'MusicplayerUI/MusicplayerUI.dart';
 import 'NFTappuiUI/NFTappuiUI.dart';
+import 'WheelscrollUI/WheelscrollUI.dart';
 
 class FlutterMitchkokoHomeView extends StatelessWidget {
   const FlutterMitchkokoHomeView({Key? key}) : super(key: key);
@@ -49,6 +50,9 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
       createCommonItem(
           "一个音乐播放器应用程序，例如使用同质化主题的 Spotify 或 Apple Music：DI 喜欢同质化呵呵。",
           MusicplayerUI()),
+      createCommonItem(
+          "ListWheelScrollView和ListView同源，但它的渲染效果类似于车轮（或者滚筒），它不是在平面上滑动，而是转动车轮",
+          WheelscrollUI()),
     ]);
     return list;
   }
