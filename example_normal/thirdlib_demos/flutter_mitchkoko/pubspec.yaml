@@ -7,6 +7,8 @@ environment:
   sdk: ">=3.1.3 <4.0.0"
   flutter: ">=1.17.0"
 dependencies:
+  # 来自流行网络图标字体的 Flutter 图标。  使用 fluttericon.com 自定义您的最终图标包。
+  fluttericon: ^2.0.0
   # 库允许您根据百分比显示进度小部件，可以是圆形或线性，您也可以根据您的需要对其进行自定义。
   percent_indicator: ^4.2.3
   # 可滑动列表项的 Flutter 实现，具有可关闭的定向滑动操作。
@@ -46,4 +48,5 @@ flutter:
     - assets/HabitTrackerUI/images/
     - assets/NFTappuiUI/images/
     - assets/MusicplayerUI/images/
+    - assets/SmartHomeAnimatedAppUI/images/
     - assets/screenshots/

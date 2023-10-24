@@ -9,6 +9,7 @@ import 'MathGameUI/MathGameUI.dart';
 import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
 import 'MusicplayerUI/MusicplayerUI.dart';
 import 'NFTappuiUI/NFTappuiUI.dart';
+import 'SmartHomeAnimatedAppUI/SmartHomeAnimatedAppUI.dart';
 import 'TiktokscrollUI/TiktokscrollUI.dart';
 import 'WheelscrollUI/WheelscrollUI.dart';
 
@@ -55,6 +56,7 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
           "ListWheelScrollView和ListView同源，但它的渲染效果类似于车轮（或者滚筒），它不是在平面上滑动，而是转动车轮",
           WheelscrollUI()),
       createCommonItem("TIKTOK 风格滚动 • PAGEVIEW", TiktokscrollUI()),
+      createCommonItem("动画智能家居应用程序 • 视差效果", SmartHomeAnimatedAppUI()),
     ]);
     return list;
   }

@@ -62,7 +62,7 @@ web 产物在`ts-pages`分支可查看。
 
 ##### flutter_mitchkoko 截图
 
-![现代智能家居 UI x Flutter](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ModernSmartHomeUI.gif)![DonutAppUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/DonutAppUI.gif)![CompassUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/CompassUI.gif)![MusicplayerUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MusicplayerUI.gif)![WheelscrollUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/WheelscrollUI.gif)![TiktokscrollUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TiktokscrollUI.gif)
+![现代智能家居 UI x Flutter](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ModernSmartHomeUI.gif)![DonutAppUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/DonutAppUI.gif)![CompassUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/CompassUI.gif)![MusicplayerUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MusicplayerUI.gif)![WheelscrollUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/WheelscrollUI.gif)![TiktokscrollUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TiktokscrollUI.gif)![SmartHomeAnimatedAppUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/SmartHomeAnimatedAppUI.gif)
 
 ## 整体思路
 
