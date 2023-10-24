@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
+import 'CompassUI/CompassUI.dart';
 import 'DonutAppUI/DonutAppUI.dart';
 import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
@@ -35,6 +36,7 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
       createCommonItem("现代智能家居 UI x Flutter", ModernSmartHomeUIApp()),
       createCommonItem("使用 Firebase 通过电子邮件登录和注销。", EmailLoginLogoutUI()),
       createCommonItem("Donut 应用程序 UI • Flutter", DonutAppUI()),
+      createCommonItem("手机罗盘 • Flutter", CompassUI()),
     ]);
     return list;
   }
