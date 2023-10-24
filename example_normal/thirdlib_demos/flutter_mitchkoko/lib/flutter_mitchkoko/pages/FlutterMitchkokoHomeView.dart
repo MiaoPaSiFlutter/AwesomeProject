@@ -4,6 +4,7 @@ import 'package:hzy_common_module/hzy_common_module.dart';
 import 'CompassUI/CompassUI.dart';
 import 'DonutAppUI/DonutAppUI.dart';
 import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
+import 'HabitTrackerUI/HabitTrackerUI.dart';
 import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
 
 class FlutterMitchkokoHomeView extends StatelessWidget {
@@ -37,6 +38,9 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
       createCommonItem("使用 Firebase 通过电子邮件登录和注销。", EmailLoginLogoutUI()),
       createCommonItem("Donut 应用程序 UI • Flutter", DonutAppUI()),
       createCommonItem("手机罗盘 • Flutter", CompassUI()),
+      createCommonItem(
+          "用 Flutter 制作的功能齐全的习惯追踪器应用程序！  我使用 Hive 作为本地存储后端，还使用了热图包！",
+          HabitTrackerUI()),
     ]);
     return list;
   }
