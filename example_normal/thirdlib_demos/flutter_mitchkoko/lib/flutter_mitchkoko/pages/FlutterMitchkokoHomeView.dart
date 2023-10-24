@@ -6,6 +6,7 @@ import 'DonutAppUI/DonutAppUI.dart';
 import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
 import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
+import 'NFTappuiUI/NFTappuiUI.dart';
 
 class FlutterMitchkokoHomeView extends StatelessWidget {
   const FlutterMitchkokoHomeView({Key? key}) : super(key: key);
@@ -41,6 +42,7 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
       createCommonItem(
           "用 Flutter 制作的功能齐全的习惯追踪器应用程序！  我使用 Hive 作为本地存储后端，还使用了热图包！",
           HabitTrackerUI()),
+      createCommonItem("这是一个有趣的用户界面，看起来很酷！", NFTappuiUI()),
     ]);
     return list;
   }
