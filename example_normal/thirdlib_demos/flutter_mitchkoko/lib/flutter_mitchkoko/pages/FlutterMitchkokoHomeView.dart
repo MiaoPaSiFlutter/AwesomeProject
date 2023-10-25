@@ -10,6 +10,7 @@ import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
 import 'MusicplayerUI/MusicplayerUI.dart';
 import 'NFTappuiUI/NFTappuiUI.dart';
 import 'ParallaxEffectUI/ParallaxEffectUI.dart';
+import 'ResponsiveWelcomeLoginAndSignUpUI/ResponsiveWelcomeLoginAndSignUpUI.dart';
 import 'SmartHomeAnimatedAppUI/SmartHomeAnimatedAppUI.dart';
 import 'TiktokscrollUI/TiktokscrollUI.dart';
 import 'WheelscrollUI/WheelscrollUI.dart';
@@ -59,6 +60,8 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
       createCommonItem("TIKTOK 风格滚动 • PAGEVIEW", TiktokscrollUI()),
       createCommonItem("动画智能家居应用程序 • 视差效果", SmartHomeAnimatedAppUI()),
       createCommonItem("Flutter视差滚动效果预览", ParallaxEffectUI()),
+      createCommonItem(
+          "响应式欢迎、登录和注册页面 - Flutter UI", ResponsiveWelcomeLoginAndSignUpUI()),
     ]);
     return list;
   }

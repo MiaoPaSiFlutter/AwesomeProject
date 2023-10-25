@@ -62,8 +62,23 @@ web 产物在`ts-pages`分支可查看。
 
 ##### flutter_mitchkoko 截图
 
-![现代智能家居 UI x Flutter](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ModernSmartHomeUI.gif)![DonutAppUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/DonutAppUI.gif)![CompassUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/CompassUI.gif)![MusicplayerUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MusicplayerUI.gif)![WheelscrollUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/WheelscrollUI.gif)![TiktokscrollUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TiktokscrollUI.gif)![SmartHomeAnimatedAppUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/SmartHomeAnimatedAppUI.gif)
-![ParallaxEffectUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ParallaxEffectUI.gif)
+- 视差动画效果
+  ![SmartHomeAnimatedAppUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/SmartHomeAnimatedAppUI.gif)![ParallaxEffectUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ParallaxEffectUI.gif)
+- 响应式效果
+  ![ResponsiveWelcomeLoginAndSignUpUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ResponsiveWelcomeLoginAndSignUpUI.gif)
+
+- 音乐播放器效果
+  ![MusicplayerUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MusicplayerUI.gif)
+
+- 手机罗盘效果
+  ![CompassUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/CompassUI.gif)
+
+- Tiktok 滚动效果
+  ![TiktokscrollUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TiktokscrollUI.gif)
+
+- 其他
+
+![现代智能家居 UI x Flutter](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ModernSmartHomeUI.gif)![DonutAppUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/DonutAppUI.gif)![WheelscrollUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/WheelscrollUI.gif)
 
 ## 整体思路
 
