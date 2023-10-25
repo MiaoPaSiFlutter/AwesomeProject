@@ -4,6 +4,7 @@ import 'package:hzy_common_module/hzy_common_module.dart';
 import 'AnalogClockLightDarkThemeUI/AnalogClockLightDarkThemeUI.dart';
 import 'CompassUI/CompassUI.dart';
 import 'DonutAppUI/DonutAppUI.dart';
+import 'ECommerceMobileAppUI/ECommerceMobileAppUI.dart';
 import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
 import 'MathGameUI/MathGameUI.dart';
@@ -45,6 +46,9 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
     List<Widget> list = [];
     list.addAll([
       createSectionTitle('JD'),
+      createCommonItem("模拟时钟明暗主题 - Flutter UI", AnalogClockLightDarkThemeUI()),
+      createCommonItem("Flutter 电子商务移动应用模板", ECommerceMobileAppUI()),
+      createCommonItem("Flutter视差滚动效果预览", ParallaxEffectUI()),
       createCommonItem("现代智能家居 UI x Flutter", ModernSmartHomeUIApp()),
       createCommonItem("使用 Firebase 通过电子邮件登录和注销。", EmailLoginLogoutUI()),
       createCommonItem("Donut 应用程序 UI • Flutter", DonutAppUI()),
@@ -62,12 +66,10 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
           WheelscrollUI()),
       createCommonItem("TIKTOK 风格滚动 • PAGEVIEW", TiktokscrollUI()),
       createCommonItem("动画智能家居应用程序 • 视差效果", SmartHomeAnimatedAppUI()),
-      createCommonItem("Flutter视差滚动效果预览", ParallaxEffectUI()),
       createCommonItem(
           "响应式欢迎、登录和注册页面 - Flutter UI", ResponsiveWelcomeLoginAndSignUpUI()),
       createCommonItem("每日锻炼应用程序 - App", MeditationAppUI()),
       createCommonItem("测验应用程序 - App", QuizAppUI()),
-      createCommonItem("模拟时钟明暗主题 - Flutter UI", AnalogClockLightDarkThemeUI()),
     ]);
     return list;
   }

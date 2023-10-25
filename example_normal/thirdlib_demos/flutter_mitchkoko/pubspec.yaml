@@ -58,6 +58,8 @@ flutter:
     - assets/MeditationAppUI/images/
     - assets/QuizAppUI/images/
     - assets/AnalogClockLightDarkThemeUI/images/
+    - assets/ECommerceMobileAppUI/icons/
+    - assets/ECommerceMobileAppUI/images/
     - assets/screenshots/
 
   fonts:
