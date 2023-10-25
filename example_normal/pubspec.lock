@@ -262,6 +262,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "5.3.3"
+  dynamic_fonts:
+    dependency: transitive
+    description:
+      name: dynamic_fonts
+      sha256: "4a73bf0ec832311b4b7fb48cf22df1cea0a9084edad6000ef6bdb96945bd2e70"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.2.0"
   easy_refresh:
     dependency: transitive
     description:

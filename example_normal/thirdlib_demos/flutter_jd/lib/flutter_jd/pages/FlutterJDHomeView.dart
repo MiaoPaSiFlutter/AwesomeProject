@@ -6,6 +6,7 @@ import 'account_set/account_set_view.dart';
 import 'browse_history/browse_history_view.dart';
 import 'category/views/category_view.dart';
 import 'discover/views/discover_view.dart';
+import 'dynamic-fonts/DynamicFontsView.dart';
 import 'guide/views/guide_view.dart';
 import 'home/views/home_view.dart';
 import 'mine/mine_view.dart';
@@ -37,6 +38,7 @@ class FlutterJDHomeView extends StatelessWidget {
             children: <Widget>[
               ..._buildProviderUseList(),
               ..._buildAzlistviewUseList(),
+              ..._buildOtherList(),
             ],
           ),
         ),
@@ -75,6 +77,17 @@ class FlutterJDHomeView extends StatelessWidget {
       createCommonItem("CityListView", const CityListView()),
       createCommonItem(
           "CityListCustomHeaderView", const CityListCustomHeaderView()),
+    ]);
+    return list;
+  }
+
+  List<Widget> _buildOtherList() {
+    List<Widget> list = [];
+    list.addAll([
+      createSectionTitle('Other'),
+      createCommonItem(
+          "Flutter 的 dynamic_fonts 包允许您（相对）轻松地将动态加载的 Web 托管字体添加到您的应用程序中，就像 google_fonts 包一样，但适用于在任何地方托管的任意字体。Dynamic_fonts 是 google_fonts 的一个分支，公开了更多 API，以便您可以指定自己的字体。",
+          DynamicFontsView()),
     ]);
     return list;
   }

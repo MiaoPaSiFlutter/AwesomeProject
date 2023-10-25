@@ -7,6 +7,8 @@ environment:
   sdk: ">=3.1.3 <4.0.0"
   flutter: ">=1.17.0"
 dependencies:
+  # Flutter 的 dynamic_fonts 包允许您（相对）轻松地将动态加载的 Web 托管字体添加到您的应用程序中，就像 google_fonts 包一样，但适用于在任何地方托管的任意字体。
+  dynamic_fonts: ^2.2.0
   # 在 Flutter 上原生渲染 After Effects 动画.
   lottie: ^2.6.0
   # 一个新的 Flutter 对话框，带有一系列精美的动画，滑动、淡入淡出、旋转、大小、缩放、旋转 3D 动画。
