@@ -62,8 +62,11 @@ web 产物在`ts-pages`分支可查看。
 
 ##### flutter_mitchkoko 截图
 
+- 模拟时钟明暗主题
+  ![模拟时钟明暗主题](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/AnalogClockLightDarkThemeUI.gif)
+
 - 做题效果
-  ![QuizAppUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/QuizAppUI.gif)
+  ![做题效果](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/QuizAppUI.gif)
 - 视差动画效果
   ![SmartHomeAnimatedAppUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/SmartHomeAnimatedAppUI.gif)![ParallaxEffectUI](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ParallaxEffectUI.gif)
 - 响应式效果

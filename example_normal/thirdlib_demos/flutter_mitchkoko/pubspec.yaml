@@ -57,6 +57,7 @@ flutter:
     - assets/MeditationAppUI/icons/
     - assets/MeditationAppUI/images/
     - assets/QuizAppUI/images/
+    - assets/AnalogClockLightDarkThemeUI/images/
     - assets/screenshots/
 
   fonts:

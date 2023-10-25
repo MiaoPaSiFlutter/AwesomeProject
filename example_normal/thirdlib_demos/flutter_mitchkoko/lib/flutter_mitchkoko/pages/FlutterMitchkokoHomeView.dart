@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
+import 'AnalogClockLightDarkThemeUI/AnalogClockLightDarkThemeUI.dart';
 import 'CompassUI/CompassUI.dart';
 import 'DonutAppUI/DonutAppUI.dart';
 import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
@@ -66,6 +67,7 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
           "响应式欢迎、登录和注册页面 - Flutter UI", ResponsiveWelcomeLoginAndSignUpUI()),
       createCommonItem("每日锻炼应用程序 - App", MeditationAppUI()),
       createCommonItem("测验应用程序 - App", QuizAppUI()),
+      createCommonItem("模拟时钟明暗主题 - Flutter UI", AnalogClockLightDarkThemeUI()),
     ]);
     return list;
   }
