@@ -56,6 +56,7 @@ flutter:
     - assets/MeditationAppUI/fonts/
     - assets/MeditationAppUI/icons/
     - assets/MeditationAppUI/images/
+    - assets/QuizAppUI/images/
     - assets/screenshots/
 
   fonts:

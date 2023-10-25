@@ -11,6 +11,7 @@ import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
 import 'MusicplayerUI/MusicplayerUI.dart';
 import 'NFTappuiUI/NFTappuiUI.dart';
 import 'ParallaxEffectUI/ParallaxEffectUI.dart';
+import 'QuizAppUI/QuizAppUI.dart';
 import 'ResponsiveWelcomeLoginAndSignUpUI/ResponsiveWelcomeLoginAndSignUpUI.dart';
 import 'SmartHomeAnimatedAppUI/SmartHomeAnimatedAppUI.dart';
 import 'TiktokscrollUI/TiktokscrollUI.dart';
@@ -64,6 +65,7 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
       createCommonItem(
           "响应式欢迎、登录和注册页面 - Flutter UI", ResponsiveWelcomeLoginAndSignUpUI()),
       createCommonItem("每日锻炼应用程序 - App", MeditationAppUI()),
+      createCommonItem("测验应用程序 - App", QuizAppUI()),
     ]);
     return list;
   }
