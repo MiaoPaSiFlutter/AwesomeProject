@@ -11,20 +11,25 @@ class TimeInHourAndMinute extends StatefulWidget {
 
 class _TimeInHourAndMinuteState extends State<TimeInHourAndMinute> {
   TimeOfDay _timeOfDay = TimeOfDay.now();
+  Timer? _timer;
+
   @override
   void initState() {
     super.initState();
-    Timer.periodic(const Duration(seconds: 1), (timer) {
+    _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (_timeOfDay.minute != TimeOfDay.now().minute) {
-        setState(() {
-          _timeOfDay = TimeOfDay.now();
-        });
+        if (mounted) {
+          setState(() {
+            _timeOfDay = TimeOfDay.now();
+          });
+        } else {}
       }
     });
   }
 
   @override
   void dispose() {
+    _timer?.cancel();
     super.dispose();
   }
 
