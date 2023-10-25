@@ -6,6 +6,7 @@ import 'DonutAppUI/DonutAppUI.dart';
 import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
 import 'MathGameUI/MathGameUI.dart';
+import 'MeditationAppUI/MeditationAppUI.dart';
 import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
 import 'MusicplayerUI/MusicplayerUI.dart';
 import 'NFTappuiUI/NFTappuiUI.dart';
@@ -62,6 +63,7 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
       createCommonItem("Flutter视差滚动效果预览", ParallaxEffectUI()),
       createCommonItem(
           "响应式欢迎、登录和注册页面 - Flutter UI", ResponsiveWelcomeLoginAndSignUpUI()),
+      createCommonItem("每日锻炼应用程序 - App", MeditationAppUI()),
     ]);
     return list;
   }

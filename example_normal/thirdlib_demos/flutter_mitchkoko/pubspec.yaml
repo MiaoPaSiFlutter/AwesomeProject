@@ -53,4 +53,29 @@ flutter:
     - assets/SmartHomeAnimatedAppUI/images/
     - assets/ParallaxEffectUI/images/
     - assets/ResponsiveWelcomeLoginAndSignUpUI/images/
+    - assets/MeditationAppUI/fonts/
+    - assets/MeditationAppUI/icons/
+    - assets/MeditationAppUI/images/
     - assets/screenshots/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/MeditationAppUI/fonts/Cairo/Cairo-Regular.ttf
+        - asset: assets/MeditationAppUI/fonts/Cairo/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/MeditationAppUI/fonts/Cairo/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/MeditationAppUI/fonts/Cairo/Cairo-Black.ttf
+          weight: 900
+
+    - family: AlibabaSans
+      fonts:
+        - asset: assets/MeditationAppUI/fonts/AlibabaSans/AlibabaSans-Light.ttf
+    - family: DingTalk
+      fonts:
+        - asset: assets/MeditationAppUI/fonts/DingTalk/DingTalk-JinBuTi.ttf
+        - asset: assets/MeditationAppUI/fonts/DingTalk/DingTalk-Sans.ttf
+    - family: RubikMicrobe
+      fonts:
+        - asset: assets/MeditationAppUI/fonts/RubikMicrobe/RubikMicrobe.ttf
