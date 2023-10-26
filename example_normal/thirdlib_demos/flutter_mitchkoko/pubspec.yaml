@@ -60,6 +60,9 @@ flutter:
     - assets/AnalogClockLightDarkThemeUI/images/
     - assets/ECommerceMobileAppUI/icons/
     - assets/ECommerceMobileAppUI/images/
+    - assets/ECommerceComplateAppUI/fonts/
+    - assets/ECommerceComplateAppUI/icons/
+    - assets/ECommerceComplateAppUI/images/
     - assets/screenshots/
 
   fonts:
@@ -83,3 +86,10 @@ flutter:
     - family: RubikMicrobe
       fonts:
         - asset: assets/MeditationAppUI/fonts/RubikMicrobe/RubikMicrobe.ttf
+    - family: Muli
+      fonts:
+        - asset: assets/ECommerceComplateAppUI/fonts/muli/Muli.ttf
+        - asset: assets/ECommerceComplateAppUI/fonts/muli/Muli-Bold.ttf
+          weight: 700
+        - asset: assets/ECommerceComplateAppUI/fonts/muli/Muli-Light.ttf
+          weight: 300

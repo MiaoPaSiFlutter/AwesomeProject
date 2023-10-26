@@ -63,7 +63,7 @@ web 产物在`ts-pages`分支可查看。
 ##### flutter_mitchkoko 截图
 
 - Flutter 电子商务移动应用模板
-  ![Flutter 电子商务移动应用模板](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ECommerceMobileAppUI.gif)
+  ![Flutter 电子商务移动应用模板](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ECommerceMobileAppUI.gif)![Flutter 电子商务移动应用模板](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ECommerceComplateAppUI.gif)
 - 模拟时钟明暗主题
   ![模拟时钟明暗主题](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/AnalogClockLightDarkThemeUI.gif)
 

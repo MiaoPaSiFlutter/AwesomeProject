@@ -4,6 +4,7 @@ import 'package:hzy_common_module/hzy_common_module.dart';
 import 'AnalogClockLightDarkThemeUI/AnalogClockLightDarkThemeUI.dart';
 import 'CompassUI/CompassUI.dart';
 import 'DonutAppUI/DonutAppUI.dart';
+import 'ECommerceComplateAppUI/ECommerceComplateAppUI.dart';
 import 'ECommerceMobileAppUI/ECommerceMobileAppUI.dart';
 import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
@@ -46,6 +47,7 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
     List<Widget> list = [];
     list.addAll([
       createSectionTitle('JD'),
+      createCommonItem("JD 商城", ECommerceComplateAppUI()),
       createCommonItem("模拟时钟明暗主题 - Flutter UI", AnalogClockLightDarkThemeUI()),
       createCommonItem("Flutter 电子商务移动应用模板", ECommerceMobileAppUI()),
       createCommonItem("Flutter视差滚动效果预览", ParallaxEffectUI()),
