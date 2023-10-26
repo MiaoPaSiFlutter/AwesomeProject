@@ -47,8 +47,9 @@ class FlutterMitchkokoHomeView extends StatelessWidget {
     List<Widget> list = [];
     list.addAll([
       createSectionTitle('JD'),
-      createCommonItem("JD 商城", ECommerceComplateAppUI()),
       createCommonItem("模拟时钟明暗主题 - Flutter UI", AnalogClockLightDarkThemeUI()),
+      createCommonItem(
+          "使用 #Flutter 打造漂亮、干净的在线商店应用程序 UI。", ECommerceComplateAppUI()),
       createCommonItem("Flutter 电子商务移动应用模板", ECommerceMobileAppUI()),
       createCommonItem("Flutter视差滚动效果预览", ParallaxEffectUI()),
       createCommonItem("现代智能家居 UI x Flutter", ModernSmartHomeUIApp()),
