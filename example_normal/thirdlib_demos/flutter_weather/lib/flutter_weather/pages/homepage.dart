@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
   List<PaletteColor> colors = [];
   List<PaletteColor> colors2 = [];
 
-  Future<Object> fetchWeather(lat, lon) async {
+  Future<Object?> fetchWeather(lat, lon) async {
     final response = await http.get(Uri.parse(
         'https://api.openweathermap.org/data/3.0/onecall?lat=$lat&lon=$lon&exclude=minutely&appid=${Utils.appid()}'));
 
@@ -86,8 +86,8 @@ class _HomePageState extends State<HomePage> {
 
       return weatherData;
     } else {
-      print('Failed to load weather data');
-      throw Exception('Failed to load weather data');
+      return null;
+      // throw Exception('Failed to load weather data');
     }
   }
 
