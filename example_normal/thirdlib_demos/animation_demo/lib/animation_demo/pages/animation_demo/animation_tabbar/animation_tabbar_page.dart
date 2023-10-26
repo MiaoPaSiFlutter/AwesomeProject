@@ -2,29 +2,14 @@ import 'package:animations/animations.dart';
 
 import 'package:flutter/material.dart';
 
-/// 创建人： Created by zhaolong
-/// 创建时间：Created by  on 2020/10/31.
-///
-/// 可关注公众号：我的大前端生涯   获取最新技术分享
-/// 可关注网易云课堂：https://study.163.com/instructor/1021406098.htm
-/// 可关注博客：https://blog.csdn.net/zl18603543572
-///
-/// 代码清单
-
-void main() {
-  runApp(const MaterialApp(
-    home: Example006(),
-  ));
-}
-
-class Example006 extends StatefulWidget {
-  const Example006({super.key});
+class AnimationTabbarPage extends StatefulWidget {
+  const AnimationTabbarPage({super.key});
 
   @override
-  _TestingFadeThroughState createState() => _TestingFadeThroughState();
+  State createState() => _AnimationTabbarPageState();
 }
 
-class _TestingFadeThroughState extends State<Example006> {
+class _AnimationTabbarPageState extends State<AnimationTabbarPage> {
   int pageIndex = 0;
   List<Widget> pageList = <Widget>[
     Container(key: UniqueKey(), color: Colors.red),

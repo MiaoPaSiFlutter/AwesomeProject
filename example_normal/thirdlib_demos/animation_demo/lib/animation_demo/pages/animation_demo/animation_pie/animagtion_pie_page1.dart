@@ -1,39 +1,18 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 
-/// 创建人： Created by zhaolong
-/// 创建时间：Created by  on 2020/11/24.
-///
-/// 可关注公众号：我的大前端生涯   获取最新技术分享
-/// 可关注网易云课堂：https://study.163.com/instructor/1021406098.htm
-/// 可关注博客：https://blog.csdn.net/zl18603543572
-/// 西瓜视频 https://www.ixigua.com/home/3662978423
-/// 知乎 https://www.zhihu.com/people/zhao-long-90-89
-///
-///代码清单
-///程序入口
-void main() {
-  //启动根目录
-  runApp(
-    const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Example004(),
-    ),
-  );
-}
-
 //定义一个全局的内容主颜色
 Color mainColor = const Color(0xFFCADCED);
 
 ///默认显示的首页面
-class Example004 extends StatefulWidget {
-  const Example004({super.key});
+class AnimagtionPiePage1 extends StatefulWidget {
+  const AnimagtionPiePage1({super.key});
 
   @override
-  _TestPieAnimationPageState createState() => _TestPieAnimationPageState();
+  State createState() => _AnimagtionPiePage1State();
 }
 
-class _TestPieAnimationPageState extends State<Example004>
+class _AnimagtionPiePage1State extends State<AnimagtionPiePage1>
     with SingleTickerProviderStateMixin {
   //来个动画控制器
   late AnimationController _animationController;
@@ -148,7 +127,9 @@ class _TestPieAnimationPageState extends State<Example004>
           //来个内边距
           padding: const EdgeInsets.all(22),
           //来个边框装饰
-          decoration: BoxDecoration(color: mainColor, shape: BoxShape.circle,
+          decoration: BoxDecoration(
+              color: mainColor,
+              shape: BoxShape.circle,
               //来个阴影
               boxShadow: [
                 BoxShadow(

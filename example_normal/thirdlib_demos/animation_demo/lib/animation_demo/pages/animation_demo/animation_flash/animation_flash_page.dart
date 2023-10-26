@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import '../flash/flash_animation_widget.dart';
-import '../flash/gradient/default_linear_gradient.dart';
 
-class AnimationFlashView extends StatelessWidget {
-  const AnimationFlashView({Key? key}) : super(key: key);
+import 'flash_animation_widget.dart';
+import 'gradient/default_linear_gradient.dart';
+
+class AnimationFlashPage extends StatelessWidget {
+  const AnimationFlashPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

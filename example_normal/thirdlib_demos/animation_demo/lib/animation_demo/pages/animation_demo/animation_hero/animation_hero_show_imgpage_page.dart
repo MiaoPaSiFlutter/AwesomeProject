@@ -1,15 +1,7 @@
+import 'package:animation_demo/animation_demo.dart';
 import 'package:flutter/material.dart';
 
-/// 创建人： Created by zhaolong
-/// 创建时间：Created by  on 2020/11/12.
-///
-/// 可关注公众号：我的大前端生涯   获取最新技术分享
-/// 可关注网易云课堂：https://study.163.com/instructor/1021406098.htm
-/// 可关注博客：https://blog.csdn.net/zl18603543572
-///
 import 'dart:math' as math;
-
-import 'package:hzy_common_module/hzy_common_module.dart';
 
 ///一个具备点击事件的 Image
 class CustomImage extends StatelessWidget {
@@ -72,8 +64,8 @@ class OvalTransitRectWidget extends StatelessWidget {
   }
 }
 
-class RadialExpansionDemo extends StatelessWidget {
-  const RadialExpansionDemo({super.key});
+class AnimationHeroShowImgpagePage extends StatelessWidget {
+  const AnimationHeroShowImgpagePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -97,26 +89,11 @@ class RadialExpansionDemo extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   _buildHeroImage(
-                      context,
-                      NormalModuleUtils.configPackagesImage(
-                        packagename: 'animation_demo',
-                        name: "assets/maomi1.jpg",
-                      ),
-                      '哈哈'),
+                      context, Utils.assets("images/maomi1.jpg"), '哈哈'),
                   _buildHeroImage(
-                      context,
-                      NormalModuleUtils.configPackagesImage(
-                        packagename: 'animation_demo',
-                        name: "assets/maomi2.jpg",
-                      ),
-                      '你知道的！！！'),
+                      context, Utils.assets("images/maomi2.jpg"), '你知道的！！！'),
                   _buildHeroImage(
-                      context,
-                      NormalModuleUtils.configPackagesImage(
-                        packagename: 'animation_demo',
-                        name: "assets/maomi3.jpg",
-                      ),
-                      '困困困？？？'),
+                      context, Utils.assets("images/maomi3.jpg"), '困困困？？？'),
                 ],
               ),
             )

@@ -6,7 +6,7 @@ class AnimationDemoModulePagesS {
   static final routerS = [
     GetPage(
       name: AnimationDemoModuleRouterS.HOME,
-      page: () => AnimationMyApp(),
+      page: () => const AnimationDemoHomeView(),
     ),
   ];
 }

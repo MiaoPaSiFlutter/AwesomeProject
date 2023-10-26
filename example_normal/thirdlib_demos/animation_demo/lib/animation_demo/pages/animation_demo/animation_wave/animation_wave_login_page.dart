@@ -2,35 +2,17 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-/// 创建人： Created by zhaolong
-/// 创建时间：Created by  on 2020/11/21.
-///
-/// 可关注公众号：我的大前端生涯   获取最新技术分享
-/// 可关注网易云课堂：https://study.163.com/instructor/1021406098.htm
-/// 可关注博客：https://blog.csdn.net/zl18603543572
-/// 西瓜视频 https://www.ixigua.com/home/3662978423
-/// 知乎 https://www.zhihu.com/people/zhao-long-90-89
-
-void main() {
-  //启动根目录
-  runApp(const MaterialApp(
-    //默认的页面
-    home: Example001(),
-  ));
-}
-
-/// 代码清单 8-30
-///
-class Example001 extends StatefulWidget {
-  const Example001({super.key});
+class AnimationWaveLoginPage extends StatefulWidget {
+  const AnimationWaveLoginPage({super.key});
 
   @override
   State<StatefulWidget> createState() {
-    return _ExampleState();
+    return _AnimationWaveLoginPageState();
   }
 }
 
-class _ExampleState extends State with SingleTickerProviderStateMixin {
+class _AnimationWaveLoginPageState extends State
+    with SingleTickerProviderStateMixin {
   ///动画控制器
   late AnimationController _animationController;
 

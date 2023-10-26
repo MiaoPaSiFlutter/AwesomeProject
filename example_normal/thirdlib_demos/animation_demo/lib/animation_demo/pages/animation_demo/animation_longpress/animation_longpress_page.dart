@@ -2,47 +2,14 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
 
-// 创建人： Created by zhaolong
-// 创建时间：Created by  on 2020/9/25.
-//
-// 创建人： Created by zhaolong
-// 创建时间：Created by  on 2020/9/25.
-//
-// gongzhonghao biglead
-// https://study.163.com/instructor/1021406208.htm
-// https://blog.csdn.net/zl1
-// https://www.toutiao.com/c/user/token/MS4wLjABAAAAYMrKikomuQJ4d-cPaeBqtAK2cQY697Pv9xIyyDhtwIM/
-//
-//
-
-void main() => runApp(const MyApp());
-
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+class AnimationLongpressPage extends StatefulWidget {
+  const AnimationLongpressPage({super.key});
 
   @override
-  State<StatefulWidget> createState() => MyAppState();
+  State createState() => _AnimationLongpressPageState();
 }
 
-class MyAppState extends State<MyApp> {
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Coach Mark Demo',
-      home: Example003(),
-    );
-  }
-}
-
-class Example003 extends StatefulWidget {
-  const Example003({super.key});
-
-  @override
-  _HomeScreenState createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<Example003> {
+class _AnimationLongpressPageState extends State<AnimationLongpressPage> {
   final GlobalKey<ScaffoldState> _scaffold = GlobalKey();
   final GlobalKey<CoachMarkState> _calendarMark = GlobalKey();
 

@@ -1,34 +1,15 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 
-// 创建人： Created by zhaolong
-// 创建时间：Created by  on 2020/9/25.
-//
-// 创建人： Created by zhaolong
-// 创建时间：Created by  on 2020/9/25.
-//
-// gongzhonghao biglead
-// https://study.163.com/instructor/1021406208.htm
-// https://blog.csdn.net/zl1
-// https://www.toutiao.com/c/user/token/MS4wLjABAAAAYMrKikomuQJ4d-cPaeBqtAK2cQY697Pv9xIyyDhtwIM/
-//
-//
-
-void main() {
-  //启动根目录
-  runApp(const MaterialApp(
-    home: Example002(),
-  ));
-}
-
-class Example002 extends StatefulWidget {
-  const Example002({super.key});
+class AnimationNumberSwitcherPage1 extends StatefulWidget {
+  const AnimationNumberSwitcherPage1({super.key});
 
   @override
-  _PageState createState() => _PageState();
+  State createState() => _AnimationNumberSwitcherPage1State();
 }
 
-class _PageState extends State with TickerProviderStateMixin {
+class _AnimationNumberSwitcherPage1State extends State
+    with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,1 +1,1 @@
-export 'animation_demo/MyApp.dart';
+export 'animation_demo/AnimationDemoHomeView.dart';
