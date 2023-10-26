@@ -9,6 +9,7 @@ import 'package:flutter_books/flutter_books.dart';
 import 'package:flutter_jd/flutter_jd.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
 import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
+import 'package:flutter_weather/flutter_weather.dart';
 import 'package:scrollerview_demo/scrollerview_demo.dart';
 
 import '../dataconfig/page_id_config.dart';
@@ -27,6 +28,7 @@ class RouterS {
       ...CommonDemoModulePagesS.routerS,
       ...BooksModulePagesS.routerS,
       ...MitchkokoModulePagesS.routerS,
+      ...WeatherModulePagesS.routerS,
     ];
   }
 

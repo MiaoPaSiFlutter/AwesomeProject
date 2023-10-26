@@ -30,6 +30,8 @@ dependencies:
     path: ./thirdlib_demos/flutter_books
   flutter_mitchkoko:
     path: ./thirdlib_demos/flutter_mitchkoko
+  flutter_weather:
+    path: ./thirdlib_demos/flutter_weather
 
   extended_sliver_demo:
     path: ./thirdlib_demos/extended_sliver_demo

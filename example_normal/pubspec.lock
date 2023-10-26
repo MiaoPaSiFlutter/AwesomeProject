@@ -32,6 +32,14 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  animation_search_bar:
+    dependency: transitive
+    description:
+      name: animation_search_bar
+      sha256: "1742679df01989988a45075dbda1f84d7bfd94a197ca4e578179155689337b7b"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.0.10"
   animations:
     dependency: transitive
     description:
@@ -56,6 +64,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.4.2"
+  arrow_path:
+    dependency: transitive
+    description:
+      name: arrow_path
+      sha256: "794651f27eca2e9b4749d307b1e7fb8254fb8343124cc24ee6497f3ceff94651"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.1.0"
   async:
     dependency: transitive
     description:
@@ -238,6 +254,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.6"
+  cupertino_listview:
+    dependency: transitive
+    description:
+      name: cupertino_listview
+      sha256: "6ad1e8c1014003c3f41b11d5a7b64e5957d19a1c9f0dd7180e94e8b03211aafe"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.0.0"
   dart_style:
     dependency: transitive
     description:
@@ -556,6 +580,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.16"
+  flutter_riverpod:
+    dependency: transitive
+    description:
+      name: flutter_riverpod
+      sha256: bdba94be666ecb1beeb0f5a748d96cdd6a37215f27e6b48c7673b95cecb800c8
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.4.4"
   flutter_screenutil:
     dependency: "direct main"
     description:
@@ -564,6 +596,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "5.8.4"
+  flutter_sensors:
+    dependency: transitive
+    description:
+      name: flutter_sensors
+      sha256: "3ac86cd414eb127c4afb97b6d986996d5f4bd7e2223f5c9aea53c13a7022c7aa"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.1"
   flutter_slidable:
     dependency: transitive
     description:
@@ -617,6 +657,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.0"
+  flutter_weather:
+    dependency: "direct main"
+    description:
+      path: "thirdlib_demos/flutter_weather"
+      relative: true
+    source: path
+    version: "0.0.1"
   flutter_web_plugins:
     dependency: transitive
     description: flutter
@@ -718,6 +765,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "5.1.0"
+  gradient_borders:
+    dependency: transitive
+    description:
+      name: gradient_borders
+      sha256: "69eeaff519d145a4c6c213ada1abae386bcc8981a4970d923e478ce7ba19e309"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.0"
   hive:
     dependency: transitive
     description:
@@ -931,6 +986,30 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "3.0.0"
+  location:
+    dependency: transitive
+    description:
+      name: location
+      sha256: "9051959f6f2ccadd887b28b66e9cbbcc25b6838e37cf9e894c421ccc0ebf80b5"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "4.4.0"
+  location_platform_interface:
+    dependency: transitive
+    description:
+      name: location_platform_interface
+      sha256: "62eeaf1658e92e4459b727f55a3c328eccbac8ba043fa6d262ac5286ad48384c"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.3.0"
+  location_web:
+    dependency: transitive
+    description:
+      name: location_web
+      sha256: "6c08c408a040534c0269c4ff9fe17eebb5a36dea16512fbaf116b9c8bc21545b"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.1.1"
   logger:
     dependency: transitive
     description:
@@ -1059,6 +1138,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.3.3"
+  palette_generator:
+    dependency: transitive
+    description:
+      name: palette_generator
+      sha256: eb7082b4b97487ebc65b3ad3f6f0b7489b96e76840381ed0e06a46fe7ffd4068
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.3.3+3"
   path:
     dependency: transitive
     description:
@@ -1267,6 +1354,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.6.0"
+  riverpod:
+    dependency: transitive
+    description:
+      name: riverpod
+      sha256: "2af3d127a6e4e34b89b8f1f018086f5ded04b8e538174f0510bba3e4c0d878b1"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.4.4"
   rxdart:
     dependency: transitive
     description:
@@ -1359,6 +1454,30 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
+  sleek_circular_slider:
+    dependency: transitive
+    description:
+      name: sleek_circular_slider
+      sha256: "8844d036269a13e60dda4e16534d30d27cacaff8d2f10d042d9d61d111468b13"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.0.1"
+  smooth_compass:
+    dependency: transitive
+    description:
+      name: smooth_compass
+      sha256: "6439c8a72eb9451850a427c1ef05d047242ebb3455c1fd2a8ab918863f35509e"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.0.17"
+  smooth_page_indicator:
+    dependency: transitive
+    description:
+      name: smooth_page_indicator
+      sha256: "725bc638d5e79df0c84658e1291449996943f93bacbc2cec49963dbbab48d8ae"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.1.0"
   source_gen:
     dependency: transitive
     description:
@@ -1407,6 +1526,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.11.0"
+  state_notifier:
+    dependency: transitive
+    description:
+      name: state_notifier
+      sha256: b8677376aa54f2d7c58280d5a007f9e8774f1968d1fb1c096adcb4792fba29bb
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.0"
   stream_channel:
     dependency: transitive
     description:
@@ -1639,6 +1766,22 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "3.0.2"
+  weather_animation:
+    dependency: transitive
+    description:
+      name: weather_animation
+      sha256: "37cfdcdd919b11b1ea7eefa08a8480d06b85eb4f5470380589150e8e457f2497"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.0.2"
+  weather_icons:
+    dependency: transitive
+    description:
+      name: weather_icons
+      sha256: "76bd96fda0b723fba74a35083b6d77313306aae4c0f915636cbb7299b69d3b91"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.0.0"
   web:
     dependency: transitive
     description:

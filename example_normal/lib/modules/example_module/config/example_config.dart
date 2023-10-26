@@ -14,6 +14,7 @@ import 'package:flutter_books/flutter_books.dart';
 import 'package:flutter_jd/flutter_jd.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
 import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
+import 'package:flutter_weather/flutter_weather.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:scrollerview_demo/scrollerview_demo.dart';
 import 'example_launch_id_config.dart';
@@ -34,6 +35,10 @@ class ExamplConfig {
     HzyNormalItemModel(
       leftMsg: "书城",
       router: BooksModuleRouterS.HOME,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "天气",
+      router: WeatherModuleRouterS.HOME,
     ),
     HzyNormalItemModel(
       leftMsg: "MitchkokoModule",
