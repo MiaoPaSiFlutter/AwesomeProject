@@ -1,5 +1,4 @@
-import 'package:hzy_common_module/hzy_common_module.dart';
-
+import '../helper/helper_index.dart';
 import '../screens/components/body.dart';
 import '../size_config.dart';
 import 'package:flutter/material.dart';
@@ -22,9 +21,7 @@ class HomeScreen extends StatelessWidget {
     return AppBar(
       leading: IconButton(
         icon: SvgPicture.asset(
-          NormalModuleUtils.configPackagesImage(
-              packagename: "flutter_mitchkoko",
-              name: "assets/AnalogClockLightDarkThemeUI/images/Settings.svg"),
+          Utils.assets("images/Settings.svg"),
           // color: Theme.of(context).iconTheme.color,
         ),
         onPressed: () {},

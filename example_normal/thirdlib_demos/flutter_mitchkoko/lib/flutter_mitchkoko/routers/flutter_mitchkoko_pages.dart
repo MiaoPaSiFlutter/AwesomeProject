@@ -6,7 +6,7 @@ class MitchkokoModulePagesS {
   static final routerS = [
     GetPage(
       name: MitchkokoModuleRouterS.HOME,
-      page: () => FlutterMitchkokoHomeView(),
+      page: () => const MitchkokoHomeView(),
     ),
   ];
 }

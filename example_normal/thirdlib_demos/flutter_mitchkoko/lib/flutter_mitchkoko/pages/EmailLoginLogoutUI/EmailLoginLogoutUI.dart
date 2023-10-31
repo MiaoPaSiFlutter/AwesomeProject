@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
 import 'pages/auth_page.dart';
 
 class EmailLoginLogoutUI extends StatefulWidget {
@@ -11,17 +9,10 @@ class EmailLoginLogoutUI extends StatefulWidget {
 }
 
 class _EmailLoginLogoutUIState extends State<EmailLoginLogoutUI> {
-  bool _isInitializeApp = false;
+  bool _isInitializeApp = true;
   @override
   void initState() {
     super.initState();
-    Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform,
-    ).then((value) {
-      setState(() {
-        _isInitializeApp = true;
-      });
-    });
   }
 
   @override

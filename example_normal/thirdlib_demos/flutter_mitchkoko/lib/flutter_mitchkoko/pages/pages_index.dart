@@ -1,1 +1,1 @@
-export './FlutterMitchkokoHomeView.dart';
+export 'view.dart';

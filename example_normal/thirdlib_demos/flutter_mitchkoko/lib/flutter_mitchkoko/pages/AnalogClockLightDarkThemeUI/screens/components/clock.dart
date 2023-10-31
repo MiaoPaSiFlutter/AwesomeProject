@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:provider/provider.dart';
+import '../../helper/helper_index.dart';
 import '../../models/my_theme_provider.dart';
 import '../../constants.dart';
 import '../../size_config.dart';
@@ -76,14 +76,8 @@ class _ClockState extends State<Clock> {
               onTap: () => theme.changeTheme(),
               child: SvgPicture.asset(
                 theme.isLightTheme
-                    ? NormalModuleUtils.configPackagesImage(
-                        packagename: "flutter_mitchkoko",
-                        name:
-                            "assets/AnalogClockLightDarkThemeUI/images/Sun.svg")
-                    : NormalModuleUtils.configPackagesImage(
-                        packagename: "flutter_mitchkoko",
-                        name:
-                            "assets/AnalogClockLightDarkThemeUI/images/Moon.svg"),
+                    ? Utils.assets("images/Sun.svg")
+                    : Utils.assets("images/Moon.svg"),
                 height: 24,
                 width: 24,
                 color: Theme.of(context).primaryColor,

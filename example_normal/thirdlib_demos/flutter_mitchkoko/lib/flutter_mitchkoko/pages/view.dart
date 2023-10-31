@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
 import 'AnalogClockLightDarkThemeUI/AnalogClockLightDarkThemeUI.dart';
@@ -19,27 +20,32 @@ import 'ResponsiveWelcomeLoginAndSignUpUI/ResponsiveWelcomeLoginAndSignUpUI.dart
 import 'SmartHomeAnimatedAppUI/SmartHomeAnimatedAppUI.dart';
 import 'TiktokscrollUI/TiktokscrollUI.dart';
 import 'WheelscrollUI/WheelscrollUI.dart';
+import 'controller.dart';
 
-class FlutterMitchkokoHomeView extends StatelessWidget {
-  const FlutterMitchkokoHomeView({Key? key}) : super(key: key);
+class MitchkokoHomeView extends GetView<MitchkokoHomeController> {
+  const MitchkokoHomeView({Key? key}) : super(key: key);
+
+  // @override
+  // MitchkokoHomeController get controller => Get.put(MitchkokoHomeController());
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("Mitchkoko"),
-      ),
-      body: SafeArea(
-        child: SingleChildScrollView(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              ..._buildCommonList(),
-              ..._buildAzlistviewUseList(),
-            ],
-          ),
-        ),
-      ),
+    Get.put(MitchkokoHomeController());
+    return GetBuilder<MitchkokoHomeController>(
+      builder: (controller) {
+        return Scaffold(
+            appBar: AppBar(
+              title: const Text("Mitchkoko"),
+            ),
+            body: SafeArea(
+              child: ListView.builder(
+                itemCount: controller.uiModels.length,
+                itemBuilder: (context, index) {
+                  return createItem(controller.uiModels[index]);
+                },
+              ),
+            ));
+      },
     );
   }
 
@@ -108,6 +114,23 @@ Widget createCommonItem(String text, Widget nextWidget) {
       //OrientationBuilder
       Navigator.of(Get.context!).push(MaterialPageRoute(builder: (_) {
         return nextWidget;
+      }));
+    },
+  );
+}
+
+Widget createItem(InterestingUIModel uiModel) {
+  return InkWell(
+    child: Container(
+      width: double.infinity,
+      margin: const EdgeInsets.all(5),
+      padding: const EdgeInsets.all(5),
+      child: Text(uiModel.title),
+    ),
+    onTap: () {
+      //OrientationBuilder
+      Navigator.of(Get.context!).push(MaterialPageRoute(builder: (_) {
+        return uiModel.app;
       }));
     },
   );

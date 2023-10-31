@@ -1,4 +1,5 @@
-import 'package:firebase_auth/firebase_auth.dart';
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
@@ -30,29 +31,9 @@ class _LoginPageState extends State<LoginPage> {
       },
     );
 
-    // try sign in
-    try {
-      await FirebaseAuth.instance.signInWithEmailAndPassword(
-        email: emailController.text,
-        password: passwordController.text,
-      );
-      // pop the loading circle
+    Future.delayed(const Duration(seconds: 2), () {
       Navigator.pop(context);
-    } on FirebaseAuthException catch (e) {
-      // pop the loading circle
-      Navigator.pop(context);
-      // WRONG EMAIL
-      if (e.code == 'user-not-found') {
-        // show error to user
-        wrongEmailMessage();
-      }
-
-      // WRONG PASSWORD
-      else if (e.code == 'wrong-password') {
-        // show error to user
-        wrongPasswordMessage();
-      }
-    }
+    });
   }
 
   // wrong email message popup

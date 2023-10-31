@@ -24,10 +24,6 @@ dependencies:
 
   # 颤振指南针。  航向范围为 0-360，0 为北。
   flutter_compass: ^0.8.0
-  # Firebase Core 的 Flutter 插件，可连接到多个 Firebase 应用程序。
-  firebase_core: ^2.15.1
-  # 适用于 Firebase Auth 的 Flutter 插件，支持使用密码、电话号码和 Google、Facebook 和 Twitter 等身份提供商进行 Android 和 iOS 身份验证。
-  firebase_auth: ^4.9.0
   # 使用 fonts.google.com 字体的 Flutter 包。
   # 支持 HTTP 获取、缓存和资源捆绑。
   google_fonts: ^5.1.0
