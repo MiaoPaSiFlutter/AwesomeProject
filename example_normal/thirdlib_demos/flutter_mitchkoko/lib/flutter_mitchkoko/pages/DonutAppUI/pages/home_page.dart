@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 
+import '../helper/helper_index.dart';
 import '../tab/burger_tab.dart';
 import '../tab/donut_tab.dart';
 import '../tab/pancake_tab.dart';
@@ -20,37 +20,27 @@ class _HomePageState extends State<HomePage> {
   List<Widget> myTabs = [
     // donut tab
     MyTab(
-      iconPath: NormalModuleUtils.configPackagesImage(
-          packagename: "flutter_mitchkoko",
-          name: "assets/DonutAppUI/images/donut.png"),
+      iconPath: Utils.assets("images/donut.png"),
     ),
 
     // burger tab
     MyTab(
-      iconPath: NormalModuleUtils.configPackagesImage(
-          packagename: "flutter_mitchkoko",
-          name: "assets/DonutAppUI/images/burger.png"),
+      iconPath: Utils.assets("images/burger.png"),
     ),
 
     // smoothie tab
     MyTab(
-      iconPath: NormalModuleUtils.configPackagesImage(
-          packagename: "flutter_mitchkoko",
-          name: "assets/DonutAppUI/images/smoothie.png"),
+      iconPath: Utils.assets("images/smoothie.png"),
     ),
 
     // pancake tab
     MyTab(
-      iconPath: NormalModuleUtils.configPackagesImage(
-          packagename: "flutter_mitchkoko",
-          name: "assets/DonutAppUI/images/pancakes.png"),
+      iconPath: Utils.assets("images/pancakes.png"),
     ),
 
     // pizza tab
     MyTab(
-      iconPath: NormalModuleUtils.configPackagesImage(
-          packagename: "flutter_mitchkoko",
-          name: "assets/DonutAppUI/images/pizza.png"),
+      iconPath: Utils.assets("images/pizza.png"),
     ),
   ];
 
@@ -122,16 +112,16 @@ class _HomePageState extends State<HomePage> {
                   DonutTab(),
 
                   // burger page
-                  BurgerTab(),
+                  const BurgerTab(),
 
                   // smoothie page
-                  SmoothieTab(),
+                  const SmoothieTab(),
 
                   // pancake page
-                  PancakeTab(),
+                  const PancakeTab(),
 
                   // pizza page
-                  PizzaTab(),
+                  const PizzaTab(),
                 ],
               ),
             )

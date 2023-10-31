@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 
 import '../components/my_button.dart';
 import '../components/my_textfield.dart';
 import '../components/square_tile.dart';
+import '../helper/helper_index.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -178,18 +178,12 @@ class _LoginPageState extends State<LoginPage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   // google button
-                  SquareTile(
-                      imagePath: NormalModuleUtils.configPackagesImage(
-                          packagename: "flutter_mitchkoko",
-                          name: "assets/EmailLoginLogoutUI/images/google.png")),
+                  SquareTile(imagePath: Utils.assets("images/google.png")),
 
                   SizedBox(width: 25),
 
                   // apple button
-                  SquareTile(
-                      imagePath: NormalModuleUtils.configPackagesImage(
-                          packagename: "flutter_mitchkoko",
-                          name: "assets/EmailLoginLogoutUI/images/apple.png"))
+                  SquareTile(imagePath: Utils.assets("images/apple.png"))
                 ],
               ),
 

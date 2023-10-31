@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
+
+import '../helper/helper_index.dart';
 
 class SearchBar extends StatelessWidget {
   const SearchBar({
@@ -20,9 +21,7 @@ class SearchBar extends StatelessWidget {
         decoration: InputDecoration(
           hintText: "Search",
           icon: SvgPicture.asset(
-            NormalModuleUtils.configPackagesImage(
-                packagename: "flutter_mitchkoko",
-                name: "assets/MeditationAppUI/icons/search.svg"),
+            Utils.assets("icons/search.svg"),
           ),
           border: InputBorder.none,
         ),

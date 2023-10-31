@@ -1,7 +1,8 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
+
+import 'helper/helper_index.dart';
 
 ///Notice that by default this class is not used
 ///Go to [home_page.dart] and replace [ExhibitionBottomSheet] with [ScrollableExhibitionSheet] to use it
@@ -135,10 +136,7 @@ class MyEventItem extends StatelessWidget {
                   right: Radius.circular(16 * (1 - percentageCompleted)),
                 ),
                 child: Image.asset(
-                  NormalModuleUtils.configPackagesImage(
-                      packagename: "flutter_mitchkoko",
-                      name:
-                          "assets/ParallaxEffectUI/images/${event.assetName}"),
+                  Utils.assets("images/${event.assetName}"),
                   width: 120,
                   height: 120,
                   fit: BoxFit.cover,

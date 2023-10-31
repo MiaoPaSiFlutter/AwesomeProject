@@ -4,6 +4,7 @@ import 'package:hzy_common_module/hzy_common_module.dart';
 
 import '../../../constants.dart';
 import '../../../controllers/question_controller.dart';
+import '../../../helper/helper_index.dart';
 import 'progress_bar.dart';
 import 'question_card.dart';
 
@@ -19,9 +20,7 @@ class Body extends StatelessWidget {
     return Stack(
       children: [
         SvgPicture.asset(
-          NormalModuleUtils.configPackagesImage(
-              packagename: "flutter_mitchkoko",
-              name: "assets/QuizAppUI/images/bg.svg"),
+          Utils.assets("images/bg.svg"),
           fit: BoxFit.fill,
           width: MediaQuery.of(context).size.width,
         ),

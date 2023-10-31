@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 
 import '../../constants.dart';
+import '../../helper/helper_index.dart';
 import '../../models/Product.dart';
 import '../details/details_screen.dart';
 import 'components/categorries.dart';
@@ -16,26 +16,20 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         elevation: 0,
         leading: IconButton(
-          icon: SvgPicture.asset(NormalModuleUtils.configPackagesImage(
-              packagename: "flutter_mitchkoko",
-              name: "assets/ECommerceMobileAppUI/icons/back.svg")),
+          icon: SvgPicture.asset(Utils.assets("icons/back.svg")),
           onPressed: () {},
         ),
         actions: <Widget>[
           IconButton(
             icon: SvgPicture.asset(
-              NormalModuleUtils.configPackagesImage(
-                  packagename: "flutter_mitchkoko",
-                  name: "assets/ECommerceMobileAppUI/icons/search.svg"),
+              Utils.assets("icons/search.svg"),
               colorFilter: const ColorFilter.mode(kTextColor, BlendMode.srcIn),
             ),
             onPressed: () {},
           ),
           IconButton(
             icon: SvgPicture.asset(
-              NormalModuleUtils.configPackagesImage(
-                  packagename: "flutter_mitchkoko",
-                  name: "assets/ECommerceMobileAppUI/icons/cart.svg"),
+              Utils.assets("icons/cart.svg"),
               colorFilter: const ColorFilter.mode(kTextColor, BlendMode.srcIn),
             ),
             onPressed: () {},

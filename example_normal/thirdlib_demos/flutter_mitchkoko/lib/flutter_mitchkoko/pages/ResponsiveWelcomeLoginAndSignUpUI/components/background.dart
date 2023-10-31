@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
+
+import '../helper/helper_index.dart';
 
 class Background extends StatelessWidget {
   final Widget child;
@@ -26,11 +27,7 @@ class Background extends StatelessWidget {
               top: 0,
               left: 0,
               child: Image.asset(
-                topImage ??
-                    NormalModuleUtils.configPackagesImage(
-                        packagename: "flutter_mitchkoko",
-                        name:
-                            "assets/ResponsiveWelcomeLoginAndSignUpUI/images/main_top.png"),
+                topImage ?? Utils.assets("images/main_top.png"),
                 width: 120,
               ),
             ),

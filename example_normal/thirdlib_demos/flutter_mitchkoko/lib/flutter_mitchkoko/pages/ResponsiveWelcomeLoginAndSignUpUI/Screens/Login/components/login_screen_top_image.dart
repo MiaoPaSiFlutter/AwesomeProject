@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 
 import '../../../constants.dart';
+import '../../../helper/helper_index.dart';
 
 class LoginScreenTopImage extends StatelessWidget {
   const LoginScreenTopImage({
@@ -23,10 +23,7 @@ class LoginScreenTopImage extends StatelessWidget {
             const Spacer(),
             Expanded(
               flex: 8,
-              child: SvgPicture.asset(NormalModuleUtils.configPackagesImage(
-                  packagename: "flutter_mitchkoko",
-                  name:
-                      "assets/ResponsiveWelcomeLoginAndSignUpUI/images/login.svg")),
+              child: SvgPicture.asset(Utils.assets("images/login.svg")),
             ),
             const Spacer(),
           ],

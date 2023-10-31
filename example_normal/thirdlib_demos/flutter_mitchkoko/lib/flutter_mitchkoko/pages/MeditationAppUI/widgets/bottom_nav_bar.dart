@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 
 import '../constants.dart';
+import '../helper/helper_index.dart';
 
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({
@@ -20,22 +20,16 @@ class BottomNavBar extends StatelessWidget {
         children: <Widget>[
           BottomNavItem(
             title: "Today",
-            svgScr: NormalModuleUtils.configPackagesImage(
-                packagename: "flutter_mitchkoko",
-                name: "assets/MeditationAppUI/icons/calendar.svg"),
+            svgScr: Utils.assets("icons/calendar.svg"),
           ),
           BottomNavItem(
             title: "All Exercises",
-            svgScr: NormalModuleUtils.configPackagesImage(
-                packagename: "flutter_mitchkoko",
-                name: "assets/MeditationAppUI/icons/gym.svg"),
+            svgScr: Utils.assets("icons/gym.svg"),
             isActive: true,
           ),
           BottomNavItem(
             title: "Settings",
-            svgScr: NormalModuleUtils.configPackagesImage(
-                packagename: "flutter_mitchkoko",
-                name: "assets/MeditationAppUI/icons/Settings.svg"),
+            svgScr: Utils.assets("icons/Settings.svg"),
           ),
         ],
       ),

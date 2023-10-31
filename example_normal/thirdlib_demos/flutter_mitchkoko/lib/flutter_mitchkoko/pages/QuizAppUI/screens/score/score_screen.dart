@@ -4,6 +4,7 @@ import 'package:hzy_common_module/hzy_common_module.dart';
 
 import '../../constants.dart';
 import '../../controllers/question_controller.dart';
+import '../../helper/helper_index.dart';
 
 class ScoreScreen extends StatelessWidget {
   @override
@@ -13,11 +14,7 @@ class ScoreScreen extends StatelessWidget {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          SvgPicture.asset(
-              NormalModuleUtils.configPackagesImage(
-                  packagename: "flutter_mitchkoko",
-                  name: "assets/QuizAppUI/images/bg.svg"),
-              fit: BoxFit.fill),
+          SvgPicture.asset(Utils.assets("images/bg.svg"), fit: BoxFit.fill),
           Column(
             children: [
               const Spacer(flex: 3),

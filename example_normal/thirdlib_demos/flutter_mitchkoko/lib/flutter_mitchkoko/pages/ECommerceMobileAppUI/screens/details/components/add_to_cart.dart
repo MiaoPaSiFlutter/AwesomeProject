@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 
 import '../../../constants.dart';
+import '../../../helper/helper_index.dart';
 import '../../../models/Product.dart';
 
 class AddToCart extends StatelessWidget {
@@ -27,9 +27,7 @@ class AddToCart extends StatelessWidget {
             ),
             child: IconButton(
               icon: SvgPicture.asset(
-                NormalModuleUtils.configPackagesImage(
-                    packagename: "flutter_mitchkoko",
-                    name: "assets/ECommerceMobileAppUI/icons/add_to_cart.svg"),
+                Utils.assets("icons/add_to_cart.svg"),
                 colorFilter: ColorFilter.mode(product.color, BlendMode.srcIn),
               ),
               onPressed: () {},

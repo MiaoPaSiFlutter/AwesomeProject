@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 
 import 'constants.dart';
+import 'helper/helper_index.dart';
 import 'screens/details_screen.dart';
 import 'widgets/bottom_nav_bar.dart';
 import 'widgets/category_card.dart';
@@ -40,10 +40,8 @@ class HomeScreen extends StatelessWidget {
               color: Color(0xFFF5CEB8),
               image: DecorationImage(
                 alignment: Alignment.centerLeft,
-                image: AssetImage(NormalModuleUtils.configPackagesImage(
-                    packagename: "flutter_mitchkoko",
-                    name:
-                        "assets/MeditationAppUI/images/undraw_pilates_gpdb.png")),
+                image:
+                    AssetImage(Utils.assets("images/undraw_pilates_gpdb.png")),
               ),
             ),
           ),
@@ -63,10 +61,7 @@ class HomeScreen extends StatelessWidget {
                         color: Color(0xFFF2BEA1),
                         shape: BoxShape.circle,
                       ),
-                      child: SvgPicture.asset(
-                          NormalModuleUtils.configPackagesImage(
-                              packagename: "flutter_mitchkoko",
-                              name: "assets/MeditationAppUI/icons/menu.svg")),
+                      child: SvgPicture.asset(Utils.assets("icons/menu.svg")),
                     ),
                   ),
                   Text(
@@ -86,26 +81,17 @@ class HomeScreen extends StatelessWidget {
                       children: <Widget>[
                         CategoryCard(
                           title: "Diet Recommendation",
-                          svgSrc: NormalModuleUtils.configPackagesImage(
-                              packagename: "flutter_mitchkoko",
-                              name:
-                                  "assets/MeditationAppUI/icons/Hamburger.svg"),
+                          svgSrc: Utils.assets("icons/Hamburger.svg"),
                           press: () {},
                         ),
                         CategoryCard(
                           title: "Kegel Exercises",
-                          svgSrc: NormalModuleUtils.configPackagesImage(
-                              packagename: "flutter_mitchkoko",
-                              name:
-                                  "assets/MeditationAppUI/icons/Excrecises.svg"),
+                          svgSrc: Utils.assets("icons/Excrecises.svg"),
                           press: () {},
                         ),
                         CategoryCard(
                           title: "Meditation",
-                          svgSrc: NormalModuleUtils.configPackagesImage(
-                              packagename: "flutter_mitchkoko",
-                              name:
-                                  "assets/MeditationAppUI/icons/Meditation.svg"),
+                          svgSrc: Utils.assets("icons/Meditation.svg"),
                           press: () {
                             Navigator.push(
                               context,
@@ -117,9 +103,7 @@ class HomeScreen extends StatelessWidget {
                         ),
                         CategoryCard(
                           title: "Yoga",
-                          svgSrc: NormalModuleUtils.configPackagesImage(
-                              packagename: "flutter_mitchkoko",
-                              name: "assets/MeditationAppUI/icons/yoga.svg"),
+                          svgSrc: Utils.assets("icons/yoga.svg"),
                           press: () {},
                         ),
                       ],

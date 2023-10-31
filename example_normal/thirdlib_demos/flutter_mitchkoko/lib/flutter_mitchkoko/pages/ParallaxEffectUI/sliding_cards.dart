@@ -1,10 +1,10 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 
 import 'card_content.dart';
 import 'card_model.dart';
+import 'helper/helper_index.dart';
 
 class SlidingCardsView extends StatefulWidget {
   const SlidingCardsView({super.key});
@@ -71,10 +71,7 @@ class _SlidingCardsViewState extends State<SlidingCardsView> {
                         borderRadius: const BorderRadius.vertical(
                             top: Radius.circular(32)),
                         child: Image.asset(
-                          NormalModuleUtils.configPackagesImage(
-                              packagename: "flutter_mitchkoko",
-                              name:
-                                  "assets/ParallaxEffectUI/images/${demoCardData[index].image}"),
+                          Utils.assets("images/${demoCardData[index].image}"),
                           height: MediaQuery.of(context).size.height * 0.3,
                           alignment: Alignment(-pageOffset.abs(), 0),
                           fit: BoxFit.none,

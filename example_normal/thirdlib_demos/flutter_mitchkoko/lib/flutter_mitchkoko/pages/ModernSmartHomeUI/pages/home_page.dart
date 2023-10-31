@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
+import '../helper/helper_index.dart';
 import '../util/smart_device_box.dart';
 
 class HomePage extends StatefulWidget {
@@ -18,34 +18,10 @@ class _HomePageState extends State<HomePage> {
   // list of smart devices
   List mySmartDevices = [
     // [ smartDeviceName, iconPath , powerStatus ]
-    [
-      "Smart Light",
-      NormalModuleUtils.configPackagesImage(
-          packagename: "flutter_mitchkoko",
-          name: "assets/ModernSmartHomeUI/images/light-bulb.png"),
-      true
-    ],
-    [
-      "Smart AC",
-      NormalModuleUtils.configPackagesImage(
-          packagename: "flutter_mitchkoko",
-          name: "assets/ModernSmartHomeUI/images/air-conditioner.png"),
-      false
-    ],
-    [
-      "Smart TV",
-      NormalModuleUtils.configPackagesImage(
-          packagename: "flutter_mitchkoko",
-          name: "assets/ModernSmartHomeUI/images/smart-tv.png"),
-      false
-    ],
-    [
-      "Smart Fan",
-      NormalModuleUtils.configPackagesImage(
-          packagename: "flutter_mitchkoko",
-          name: "assets/ModernSmartHomeUI/images/fan.png"),
-      false
-    ],
+    ["Smart Light", Utils.assets("images/light-bulb.png"), true],
+    ["Smart AC", Utils.assets("images/air-conditioner.png"), false],
+    ["Smart TV", Utils.assets("images/smart-tv.png"), false],
+    ["Smart Fan", Utils.assets("images/fan.png"), false],
   ];
   // power button switched
   void powerSwitchChanged(bool value, int index) {
@@ -73,9 +49,7 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   // menu icon
                   Image.asset(
-                    NormalModuleUtils.configPackagesImage(
-                        packagename: "flutter_mitchkoko",
-                        name: "assets/ModernSmartHomeUI/images/menu.png"),
+                    Utils.assets("images/menu.png"),
                     height: 45,
                     color: Colors.grey[800],
                   ),

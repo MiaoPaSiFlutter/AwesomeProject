@@ -5,6 +5,7 @@ import 'package:hzy_common_module/hzy_common_module.dart';
 
 import '../../../constants.dart';
 import '../../../controllers/question_controller.dart';
+import '../../../helper/helper_index.dart';
 
 class ProgressBar extends StatelessWidget {
   const ProgressBar({
@@ -45,9 +46,7 @@ class ProgressBar extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text("${(controller.animation.value * 60).round()} sec"),
-                      SvgPicture.asset(NormalModuleUtils.configPackagesImage(
-                          packagename: "flutter_mitchkoko",
-                          name: "assets/QuizAppUI/images/clock.svg")),
+                      SvgPicture.asset(Utils.assets("images/clock.svg")),
                     ],
                   ),
                 ),

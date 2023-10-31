@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 
+import 'helper/helper_index.dart';
 import 'neu_box.dart';
 
 class SongPage extends StatefulWidget {
@@ -50,9 +50,8 @@ class _SongPageState extends State<SongPage> {
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(8),
-                        child: Image.asset(NormalModuleUtils.configPackagesImage(
-                            packagename: "flutter_mitchkoko",
-                            name: "assets/MusicplayerUI/images/cover_art.png")),
+                        child:
+                            Image.asset(Utils.assets("images/cover_art.png")),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),

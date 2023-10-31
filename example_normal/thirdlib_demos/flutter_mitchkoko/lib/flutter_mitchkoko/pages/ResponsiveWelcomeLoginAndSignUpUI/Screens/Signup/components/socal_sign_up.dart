@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 
+import '../../../helper/helper_index.dart';
 import '../../../screens/Signup/components/or_divider.dart';
 import '../../../screens/Signup/components/social_icon.dart';
 
@@ -18,24 +18,15 @@ class SocalSignUp extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             SocalIcon(
-              iconSrc: NormalModuleUtils.configPackagesImage(
-                  packagename: "flutter_mitchkoko",
-                  name:
-                      "assets/ResponsiveWelcomeLoginAndSignUpUI/images/facebook.svg"),
+              iconSrc: Utils.assets("images/facebook.svg"),
               press: () {},
             ),
             SocalIcon(
-              iconSrc: NormalModuleUtils.configPackagesImage(
-                  packagename: "flutter_mitchkoko",
-                  name:
-                      "assets/ResponsiveWelcomeLoginAndSignUpUI/images/twitter.svg"),
+              iconSrc: Utils.assets("images/twitter.svg"),
               press: () {},
             ),
             SocalIcon(
-              iconSrc: NormalModuleUtils.configPackagesImage(
-                  packagename: "flutter_mitchkoko",
-                  name:
-                      "assets/ResponsiveWelcomeLoginAndSignUpUI/images/google-plus.svg"),
+              iconSrc: Utils.assets("images/google-plus.svg"),
               press: () {},
             ),
           ],

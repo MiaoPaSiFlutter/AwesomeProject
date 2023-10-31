@@ -2,7 +2,8 @@ import 'dart:math' as math;
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
+
+import 'helper/helper_index.dart';
 
 const double minHeight = 120;
 const double iconStartSize = 44;
@@ -122,9 +123,7 @@ class _ExhibitionBottomSheetState extends State<ExhibitionBottomSheet>
           right: Radius.circular(iconRightBorderRadius),
         ),
         child: Image.asset(
-          NormalModuleUtils.configPackagesImage(
-              packagename: "flutter_mitchkoko",
-              name: "assets/ParallaxEffectUI/images/${event.assetName}"),
+          Utils.assets("images/${event.assetName}"),
           fit: BoxFit.cover,
           alignment: Alignment(lerp(1, 0), 0),
         ),

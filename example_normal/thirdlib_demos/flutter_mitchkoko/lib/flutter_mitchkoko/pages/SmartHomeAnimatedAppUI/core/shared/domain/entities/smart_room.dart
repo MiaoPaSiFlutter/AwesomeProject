@@ -1,5 +1,4 @@
-import 'package:hzy_common_module/hzy_common_module.dart';
-
+import '../../../../helper/helper_index.dart';
 import 'music_info.dart';
 import 'smart_device.dart';
 
@@ -74,19 +73,9 @@ final _room = SmartRoom(
 );
 
 List _imagesUrls = [
-  NormalModuleUtils.configPackagesImage(
-      packagename: "flutter_mitchkoko",
-      name: "assets/SmartHomeAnimatedAppUI/images/0.jpeg"),
-  NormalModuleUtils.configPackagesImage(
-      packagename: "flutter_mitchkoko",
-      name: "assets/SmartHomeAnimatedAppUI/images/1.jpeg"),
-  NormalModuleUtils.configPackagesImage(
-      packagename: "flutter_mitchkoko",
-      name: "assets/SmartHomeAnimatedAppUI/images/2.jpeg"),
-  NormalModuleUtils.configPackagesImage(
-      packagename: "flutter_mitchkoko",
-      name: "assets/SmartHomeAnimatedAppUI/images/3.jpeg"),
-  NormalModuleUtils.configPackagesImage(
-      packagename: "flutter_mitchkoko",
-      name: "assets/SmartHomeAnimatedAppUI/images/4.jpeg"),
+  Utils.assets("images/0.jpeg"),
+  Utils.assets("images/1.jpeg"),
+  Utils.assets("images/2.jpeg"),
+  Utils.assets("images/3.jpeg"),
+  Utils.assets("images/4.jpeg"),
 ];

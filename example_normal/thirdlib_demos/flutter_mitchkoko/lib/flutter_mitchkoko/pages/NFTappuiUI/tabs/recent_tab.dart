@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 
 import '../components/nft_card.dart';
+import '../helper/helper_index.dart';
 
 class RecentTab extends StatelessWidget {
   const RecentTab({Key? key}) : super(key: key);
@@ -9,9 +9,7 @@ class RecentTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return NftCard(
-      imagePath: NormalModuleUtils.configPackagesImage(
-          packagename: "flutter_mitchkoko",
-          name: "assets/NFTappuiUI/images/apiens_1.png"),
+      imagePath: Utils.assets("images/apiens_1.png"),
     );
   }
 }

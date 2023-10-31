@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 
 import '../constants.dart';
+import '../helper/helper_index.dart';
 import '../widgets/bottom_nav_bar.dart';
 
 class DetailsScreen extends StatelessWidget {
@@ -18,9 +18,7 @@ class DetailsScreen extends StatelessWidget {
             decoration: BoxDecoration(
               color: kBlueLightColor,
               image: DecorationImage(
-                image: AssetImage(NormalModuleUtils.configPackagesImage(
-                    packagename: "flutter_mitchkoko",
-                    name: "assets/MeditationAppUI/images/meditation_bg.png")),
+                image: AssetImage(Utils.assets("images/meditation_bg.png")),
                 fit: BoxFit.fitWidth,
               ),
             ),
@@ -116,10 +114,7 @@ class DetailsScreen extends StatelessWidget {
                       child: Row(
                         children: <Widget>[
                           SvgPicture.asset(
-                            NormalModuleUtils.configPackagesImage(
-                                packagename: "flutter_mitchkoko",
-                                name:
-                                    "assets/MeditationAppUI/icons/Meditation_women_small.svg"),
+                            Utils.assets("icons/Meditation_women_small.svg"),
                           ),
                           const SizedBox(width: 20),
                           Expanded(
@@ -139,10 +134,7 @@ class DetailsScreen extends StatelessWidget {
                           Padding(
                             padding: const EdgeInsets.all(10),
                             child: SvgPicture.asset(
-                                NormalModuleUtils.configPackagesImage(
-                                    packagename: "flutter_mitchkoko",
-                                    name:
-                                        "assets/MeditationAppUI/icons/Lock.svg")),
+                                Utils.assets("icons/Lock.svg")),
                           ),
                         ],
                       ),

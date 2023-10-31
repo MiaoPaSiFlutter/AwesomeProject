@@ -1,8 +1,8 @@
 // ignore_for_file: must_be_immutable
 
 import 'package:flutter/material.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 
+import '../helper/helper_index.dart';
 import '../util/donut_tile.dart';
 
 class DonutTab extends StatelessWidget {
@@ -11,38 +11,15 @@ class DonutTab extends StatelessWidget {
   // list of donuts
   List donutsOnSale = [
     // [ donutFlavor, donutPrice, donutColor, imageName ]
-    [
-      "Ice Cream",
-      "36",
-      Colors.blue,
-      NormalModuleUtils.configPackagesImage(
-          packagename: "flutter_mitchkoko",
-          name: "assets/DonutAppUI/images/icecream_donut.png")
-    ],
+    ["Ice Cream", "36", Colors.blue, Utils.assets("images/icecream_donut.png")],
     [
       "Strawberry",
       "45",
       Colors.red,
-      NormalModuleUtils.configPackagesImage(
-          packagename: "flutter_mitchkoko",
-          name: "assets/DonutAppUI/images/strawberry_donut.png")
+      Utils.assets("images/strawberry_donut.png")
     ],
-    [
-      "Grape Ape",
-      "84",
-      Colors.purple,
-      NormalModuleUtils.configPackagesImage(
-          packagename: "flutter_mitchkoko",
-          name: "assets/DonutAppUI/images/grape_donut.png")
-    ],
-    [
-      "Choco",
-      "95",
-      Colors.brown,
-      NormalModuleUtils.configPackagesImage(
-          packagename: "flutter_mitchkoko",
-          name: "assets/DonutAppUI/images/chocolate_donut.png")
-    ],
+    ["Grape Ape", "84", Colors.purple, Utils.assets("images/grape_donut.png")],
+    ["Choco", "95", Colors.brown, Utils.assets("images/chocolate_donut.png")],
   ];
 
   @override

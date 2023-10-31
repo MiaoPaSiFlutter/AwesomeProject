@@ -3,6 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
 import '../../constants.dart';
+import '../../helper/helper_index.dart';
 import '../quiz/quiz_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
@@ -11,11 +12,7 @@ class WelcomeScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          SvgPicture.asset(
-              NormalModuleUtils.configPackagesImage(
-                  packagename: "flutter_mitchkoko",
-                  name: "assets/QuizAppUI/images/bg.svg"),
-              fit: BoxFit.fill),
+          SvgPicture.asset(Utils.assets("images/bg.svg"), fit: BoxFit.fill),
           SafeArea(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),

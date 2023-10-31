@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 
+import '../../../helper/helper_index.dart';
 import 'cart_counter.dart';
 
 class CounterWithFavBtn extends StatelessWidget {
@@ -21,9 +21,7 @@ class CounterWithFavBtn extends StatelessWidget {
             color: Color(0xFFFF6464),
             shape: BoxShape.circle,
           ),
-          child: SvgPicture.asset(NormalModuleUtils.configPackagesImage(
-              packagename: "flutter_mitchkoko",
-              name: "assets/ECommerceMobileAppUI/icons/heart.svg")),
+          child: SvgPicture.asset(Utils.assets("icons/heart.svg")),
         )
       ],
     );

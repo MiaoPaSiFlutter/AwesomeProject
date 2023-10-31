@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
 
 import '../../constants.dart';
+import '../../helper/helper_index.dart';
 import '../../models/Product.dart';
 import 'components/add_to_cart.dart';
 import 'components/color_and_size.dart';
@@ -26,24 +26,18 @@ class DetailsScreen extends StatelessWidget {
         elevation: 0,
         leading: IconButton(
           icon: SvgPicture.asset(
-            NormalModuleUtils.configPackagesImage(
-                packagename: "flutter_mitchkoko",
-                name: "assets/ECommerceMobileAppUI/icons/back.svg"),
+            Utils.assets("icons/back.svg"),
             colorFilter: const ColorFilter.mode(Colors.white, BlendMode.srcIn),
           ),
           onPressed: () => Navigator.pop(context),
         ),
         actions: <Widget>[
           IconButton(
-            icon: SvgPicture.asset(NormalModuleUtils.configPackagesImage(
-                packagename: "flutter_mitchkoko",
-                name: "assets/ECommerceMobileAppUI/icons/search.svg")),
+            icon: SvgPicture.asset(Utils.assets("icons/search.svg")),
             onPressed: () {},
           ),
           IconButton(
-            icon: SvgPicture.asset(NormalModuleUtils.configPackagesImage(
-                packagename: "flutter_mitchkoko",
-                name: "assets/ECommerceMobileAppUI/icons/cart.svg")),
+            icon: SvgPicture.asset(Utils.assets("icons/cart.svg")),
             onPressed: () {},
           ),
           const SizedBox(width: kDefaultPaddin / 2)

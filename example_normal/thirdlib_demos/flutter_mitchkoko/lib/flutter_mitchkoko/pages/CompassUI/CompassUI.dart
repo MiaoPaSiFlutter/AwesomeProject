@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_compass/flutter_compass.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
+import 'helper/helper_index.dart';
 import 'neu_circle.dart';
 
 class CompassUI extends StatefulWidget {
@@ -71,9 +72,7 @@ class _CompassUIState extends State<CompassUI> {
           child: Transform.rotate(
             angle: (direction * (math.pi / 180) * -1),
             child: Image.asset(
-              NormalModuleUtils.configPackagesImage(
-                  packagename: "flutter_mitchkoko",
-                  name: "assets/CompassUI/images/compass.png"),
+              Utils.assets("images/compass.png"),
               color: Colors.white,
               fit: BoxFit.fill,
             ),
