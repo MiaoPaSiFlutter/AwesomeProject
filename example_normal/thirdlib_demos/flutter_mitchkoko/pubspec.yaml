@@ -7,6 +7,9 @@ environment:
   sdk: ">=3.1.3 <4.0.0"
   flutter: ">=1.17.0"
 dependencies:
+  # Rive 2 颤振运行时。  该包提供了运行时功能，用于播放使用 Rive 编辑器构建的动画并与之交互，
+  # 该编辑器可在 https://rive.app 上找到。
+  rive: ^0.11.16
   # Flutter 的 SVG 渲染和小部件库，允许绘制和显示可扩展矢量图形 1.1 文件。
   flutter_svg: ^2.0.8
   # 来自流行网络图标字体的 Flutter 图标。  使用 fluttericon.com 自定义您的最终图标包。
@@ -59,9 +62,14 @@ flutter:
     - assets/ECommerceComplateAppUI/fonts/
     - assets/ECommerceComplateAppUI/icons/
     - assets/ECommerceComplateAppUI/images/
+    - assets/AnimatedAppWithRiveUI/avaters/
+    - assets/AnimatedAppWithRiveUI/Backgrounds/
+    - assets/AnimatedAppWithRiveUI/icons/
+    - assets/AnimatedAppWithRiveUI/RiveAssets/
     - assets/screenshots/
 
   fonts:
+    ### MeditationAppUI
     - family: Cairo
       fonts:
         - asset: assets/MeditationAppUI/fonts/Cairo/Cairo-Regular.ttf
@@ -82,6 +90,8 @@ flutter:
     - family: RubikMicrobe
       fonts:
         - asset: assets/MeditationAppUI/fonts/RubikMicrobe/RubikMicrobe.ttf
+
+    ### ECommerceComplateAppUI
     - family: Muli
       fonts:
         - asset: assets/ECommerceComplateAppUI/fonts/muli/Muli.ttf
@@ -89,3 +99,14 @@ flutter:
           weight: 700
         - asset: assets/ECommerceComplateAppUI/fonts/muli/Muli-Light.ttf
           weight: 300
+
+    ### AnimatedAppWithRiveUI
+    - family: Intel
+      fonts:
+        - asset: assets/AnimatedAppWithRiveUI/Fonts/Inter-Regular.ttf
+        - asset: assets/AnimatedAppWithRiveUI/Fonts/Inter-SemiBold.ttf
+          weight: 600
+    - family: Poppins
+      fonts:
+        - asset: assets/AnimatedAppWithRiveUI/Fonts/Poppins-Bold.ttf
+          weight: 700

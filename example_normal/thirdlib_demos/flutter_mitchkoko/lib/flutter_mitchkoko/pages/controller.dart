@@ -2,6 +2,7 @@ import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
 import 'AnalogClockLightDarkThemeUI/AnalogClockLightDarkThemeUI.dart';
+import 'AnimatedAppWithRiveUI/AnimatedAppWithRiveUI.dart';
 import 'CompassUI/CompassUI.dart';
 import 'DonutAppUI/DonutAppUI.dart';
 import 'ECommerceComplateAppUI/ECommerceComplateAppUI.dart';
@@ -32,6 +33,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '使用 Rive 和 Flutter 的动画应用程序',
+          description: '使用 Rive 和 Flutter 的动画应用程序.',
+          date: '2022年12月20日',
+          tags: ['动画', 'Rive'],
+          gifOrPictures: ['screenshots/AnimatedAppWithRiveUI.gif'],
+          app: const AnimatedAppWithRiveUI(),
+          author: 'The Flutter Way',
+          url: 'https://www.youtube.com/watch?v=Td3xEWwRAQA'),
       InterestingUIModel(
           title: '模拟时钟明暗主题',
           description:
