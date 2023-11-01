@@ -32,6 +32,8 @@ dependencies:
     path: ./thirdlib_demos/flutter_mitchkoko
   flutter_weather:
     path: ./thirdlib_demos/flutter_weather
+  flutter_black_hole:
+    path: ./thirdlib_demos/flutter_black_hole
 
   extended_sliver_demo:
     path: ./thirdlib_demos/extended_sliver_demo
