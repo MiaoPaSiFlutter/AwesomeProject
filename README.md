@@ -63,6 +63,7 @@ web 产物在`ts-pages`分支可查看。
 ##### flutter_mitchkoko 截图
 
 - 一个在线聊天简单 UI 的 APP
+
   ![一个在线聊天简单UI的APP](./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ChatMessageAppUI.gif)
 
 - 使用 Rive 和 Flutter 的动画应用程序
