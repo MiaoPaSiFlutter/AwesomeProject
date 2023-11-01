@@ -66,6 +66,8 @@ flutter:
     - assets/AnimatedAppWithRiveUI/Backgrounds/
     - assets/AnimatedAppWithRiveUI/icons/
     - assets/AnimatedAppWithRiveUI/RiveAssets/
+    - assets/ChatMessageAppUI/images/
+    - assets/ChatMessageAppUI/icons/
     - assets/screenshots/
 
   fonts:

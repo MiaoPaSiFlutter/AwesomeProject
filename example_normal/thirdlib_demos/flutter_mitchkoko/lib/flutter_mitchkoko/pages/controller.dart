@@ -3,6 +3,7 @@ import 'package:hzy_common_module/hzy_common_module.dart';
 
 import 'AnalogClockLightDarkThemeUI/AnalogClockLightDarkThemeUI.dart';
 import 'AnimatedAppWithRiveUI/AnimatedAppWithRiveUI.dart';
+import 'ChatMessageAppUI/ChatMessageAppUI.dart';
 import 'CompassUI/CompassUI.dart';
 import 'DonutAppUI/DonutAppUI.dart';
 import 'ECommerceComplateAppUI/ECommerceComplateAppUI.dart';
@@ -33,6 +34,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个在线聊天简单UI的APP',
+          description: '',
+          date: '2022年8月12日',
+          tags: ['聊天', '主题'],
+          gifOrPictures: ['screenshots/ChatMessageAppUI.gif'],
+          app: const ChatMessageAppUI(),
+          author: 'swenes - Github',
+          url: 'https://github.com/swenes/chat_message_app_FLUTTER'),
       InterestingUIModel(
           title: '使用 Rive 和 Flutter 的动画应用程序',
           description: '使用 Rive 和 Flutter 的动画应用程序.',
