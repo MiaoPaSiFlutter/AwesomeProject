@@ -10,6 +10,7 @@
 import 'package:animation_demo/animation_demo.dart';
 import 'package:canvas_demo/canvas_demo.dart';
 import 'package:common_demo/common_demo.dart';
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_books/flutter_books.dart';
 import 'package:flutter_jd/flutter_jd.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
@@ -43,6 +44,10 @@ class ExamplConfig {
     HzyNormalItemModel(
       leftMsg: "MitchkokoModule",
       router: MitchkokoModuleRouterS.HOME,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "BlackHoleModule",
+      router: BlackHoleModuleRouterS.HOME,
     ),
     HzyNormalItemModel(
       leftMsg: "extended_sliver_demo",
