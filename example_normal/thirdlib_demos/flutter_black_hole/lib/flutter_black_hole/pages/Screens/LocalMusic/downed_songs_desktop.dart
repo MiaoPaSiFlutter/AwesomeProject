@@ -19,6 +19,7 @@
 
 import 'dart:io';
 
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/helpers_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Services/services_index.dart';
@@ -416,7 +417,7 @@ class _DownloadedSongsDesktopState extends State<DownloadedSongsDesktop>
 //                   child: Stack(
 //                     children: [
 //                       const Image(
-//                         image: AssetImage('assets/cover.jpg'),
+//                         image: AssetImage(Utils.assets('images/cover.jpg'),
 //                       ),
 //                       if (_cachedVideos[index]['image'] == null)
 //                         const SizedBox()
@@ -688,11 +689,11 @@ class _SongsTabState extends State<SongsTab>
                           borderRadius: BorderRadius.circular(7.0),
                         ),
                         clipBehavior: Clip.antiAlias,
-                        child: const Image(
+                        child: Image(
                           fit: BoxFit.cover,
                           height: 50,
                           width: 50,
-                          image: AssetImage('assets/cover.jpg'),
+                          image: AssetImage(Utils.assets('images/cover.jpg')),
                         ),
                       ),
                       title: Text(
@@ -937,7 +938,7 @@ class _SongsTabState extends State<SongsTab>
                       //     //                               ? const Image(
                       //     //                                   fit: BoxFit.cover,
                       //     //                                   image: AssetImage(
-                      //     //                                       'assets/cover.jpg'),
+                      //     //                                       Utils.assets('images/cover.jpg'),
                       //     //                                 )
                       //     //                               : Image(
                       //     //                                   fit: BoxFit.cover,

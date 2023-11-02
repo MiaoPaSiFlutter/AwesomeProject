@@ -19,6 +19,7 @@
  * Copyright (c) 2021-2023, Ankit Sangwan
  */
 
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/helpers_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/LocalMusic/downed_songs.dart';
@@ -30,6 +31,7 @@ class LocalPlaylists extends StatefulWidget {
   final List<PlaylistModel> playlistDetails;
   final OfflineAudioQuery offlineAudioQuery;
   const LocalPlaylists({
+    super.key,
     required this.playlistDetails,
     required this.offlineAudioQuery,
   });
@@ -110,11 +112,11 @@ class _LocalPlaylistsState extends State<LocalPlaylists> {
                       artworkBorder: BorderRadius.circular(7.0),
                       nullArtworkWidget: ClipRRect(
                         borderRadius: BorderRadius.circular(7.0),
-                        child: const Image(
+                        child: Image(
                           fit: BoxFit.cover,
                           height: 50.0,
                           width: 50.0,
-                          image: AssetImage('assets/cover.jpg'),
+                          image: AssetImage(Utils.assets('images/cover.jpg')),
                         ),
                       ),
                     ),

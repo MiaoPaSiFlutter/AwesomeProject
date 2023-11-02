@@ -19,6 +19,7 @@
 
 import 'dart:io';
 
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/APIs/api_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/helpers_index.dart';
@@ -668,10 +669,13 @@ class _SearchPageState extends State<SearchPage> {
                                                         title == 'Artists' ||
                                                                 itemType ==
                                                                     'artist'
-                                                            ? 'assets/artist.png'
+                                                            ? Utils.assets(
+                                                                'images/artist.png')
                                                             : title == 'Songs'
-                                                                ? 'assets/cover.jpg'
-                                                                : 'assets/album.png',
+                                                                ? Utils.assets(
+                                                                    'images/cover.jpg')
+                                                                : Utils.assets(
+                                                                    'images/album.png'),
                                                       ),
                                                       imageUrl: items[index]
                                                               ['image']

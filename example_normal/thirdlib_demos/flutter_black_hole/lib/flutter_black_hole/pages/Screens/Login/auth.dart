@@ -19,6 +19,7 @@
  * Copyright (c) 2021-2023, Ankit Sangwan
  */
 
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/helpers_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/flutter_gen/gen_l10n/app_localizations.dart';
@@ -64,9 +65,9 @@ class _AuthScreenState extends State<AuthScreen> {
                 child: SizedBox(
                   width: MediaQuery.sizeOf(context).width,
                   height: MediaQuery.sizeOf(context).width,
-                  child: const Image(
+                  child: Image(
                     image: AssetImage(
-                      'assets/icon-white-trans.png',
+                      Utils.assets('images/icon-white-trans.png'),
                     ),
                   ),
                 ),

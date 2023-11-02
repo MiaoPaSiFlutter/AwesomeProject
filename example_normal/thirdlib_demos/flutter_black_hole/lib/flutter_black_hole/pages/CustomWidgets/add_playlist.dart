@@ -19,6 +19,7 @@
 
 import 'package:audio_service/audio_service.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:hive/hive.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 
@@ -99,12 +100,12 @@ class AddToOffPlaylist {
                             artworkBorder: BorderRadius.circular(7.0),
                             nullArtworkWidget: ClipRRect(
                               borderRadius: BorderRadius.circular(7.0),
-                              child: const Image(
-                                fit: BoxFit.cover,
-                                height: 50.0,
-                                width: 50.0,
-                                image: AssetImage('assets/cover.jpg'),
-                              ),
+                              child: Image(
+                                  fit: BoxFit.cover,
+                                  height: 50.0,
+                                  width: 50.0,
+                                  image: AssetImage(
+                                      Utils.assets('images/cover.jpg'))),
                             ),
                           ),
                         ),
@@ -216,11 +217,11 @@ class AddToPlaylist {
                                   borderRadius: BorderRadius.circular(7.0),
                                 ),
                                 clipBehavior: Clip.antiAlias,
-                                child: const SizedBox.square(
+                                child: SizedBox.square(
                                   dimension: 50,
                                   child: Image(
                                     image: AssetImage(
-                                      'assets/album.png',
+                                      Utils.assets('images/album.png'),
                                     ),
                                   ),
                                 ),
@@ -229,7 +230,8 @@ class AddToPlaylist {
                                 imageList: playlistDetails[playlistNames[index]]
                                     ['imagesList'] as List,
                                 showGrid: true,
-                                placeholderImage: 'assets/cover.jpg',
+                                placeholderImage:
+                                    Utils.assets('images/cover.jpg'),
                               ),
                         title: Text(
                           '${playlistDetails.containsKey(playlistNames[index]) ? playlistDetails[playlistNames[index]]["name"] ?? playlistNames[index] : playlistNames[index]}',

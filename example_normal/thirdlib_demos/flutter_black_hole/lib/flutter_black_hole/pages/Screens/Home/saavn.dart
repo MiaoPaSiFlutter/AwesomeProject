@@ -19,6 +19,7 @@
 
 import 'dart:io';
 
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/APIs/api_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/helpers_index.dart';
@@ -255,7 +256,8 @@ class _SaavnHomePageState extends State<SaavnHomePage>
                                     imageList: playlistDetails[name]
                                         ['imagesList'] as List,
                                     showGrid: true,
-                                    placeholderImage: 'assets/cover.jpg',
+                                    placeholderImage:
+                                        Utils.assets('images/cover.jpg'),
                                   ),
                                   builder: ({
                                     required BuildContext context,
@@ -587,15 +589,18 @@ class _SaavnHomePageState extends State<SaavnHomePage>
                                                                 'type'] ==
                                                             'playlist' ||
                                                         item['type'] == 'album')
-                                                    ? const AssetImage(
-                                                        'assets/album.png',
+                                                    ? AssetImage(
+                                                        Utils.assets(
+                                                            'images/album.png'),
                                                       )
                                                     : item['type'] == 'artist'
-                                                        ? const AssetImage(
-                                                            'assets/artist.png',
+                                                        ? AssetImage(
+                                                            Utils.assets(
+                                                                'images/artist.png'),
                                                           )
-                                                        : const AssetImage(
-                                                            'assets/cover.jpg',
+                                                        : AssetImage(
+                                                            Utils.assets(
+                                                                'images/cover.jpg'),
                                                           ),
                                               ),
                                             ),
@@ -679,19 +684,21 @@ class _SaavnHomePageState extends State<SaavnHomePage>
                                               : 10.0,
                                       imageUrl: item['image'].toString(),
                                       imageQuality: ImageQuality.medium,
-                                      placeholderImage:
-                                          (item['type'] == 'playlist' ||
-                                                  item['type'] == 'album')
-                                              ? const AssetImage(
-                                                  'assets/album.png',
+                                      placeholderImage: (item['type'] ==
+                                                  'playlist' ||
+                                              item['type'] == 'album')
+                                          ? AssetImage(
+                                              Utils.assets('images/album.png'),
+                                            )
+                                          : item['type'] == 'artist'
+                                              ? AssetImage(
+                                                  Utils.assets(
+                                                      'images/artist.png'),
                                                 )
-                                              : item['type'] == 'artist'
-                                                  ? const AssetImage(
-                                                      'assets/artist.png',
-                                                    )
-                                                  : const AssetImage(
-                                                      'assets/cover.jpg',
-                                                    ),
+                                              : AssetImage(
+                                                  Utils.assets(
+                                                      'images/cover.jpg'),
+                                                ),
                                     ),
                                     builder: ({
                                       required BuildContext context,

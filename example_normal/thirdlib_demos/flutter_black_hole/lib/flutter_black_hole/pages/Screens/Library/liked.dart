@@ -17,6 +17,7 @@
  * Copyright (c) 2021-2023, Ankit Sangwan
  */
 
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/Library/show_songs.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Services/services_index.dart';
@@ -872,15 +873,15 @@ class _AlbumsTabState extends State<AlbumsTab>
                         imageList: imageList,
                         showGrid: widget.type == 'genre',
                         placeholderImage: widget.type == 'artist'
-                            ? 'assets/artist.png'
-                            : 'assets/album.png',
+                            ? Utils.assets('images/artist.png')
+                            : Utils.assets('images/album.png'),
                       )
                     : Collage(
                         imageList: imageList,
                         showGrid: widget.type == 'genre',
                         placeholderImage: widget.type == 'artist'
-                            ? 'assets/artist.png'
-                            : 'assets/album.png',
+                            ? Utils.assets('images/artist.png')
+                            : Utils.assets('images/album.png'),
                       ),
                 title: Text(
                   '${widget.sortedAlbumKeysList[index]}',

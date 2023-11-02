@@ -21,6 +21,7 @@ import 'dart:io';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 
 import 'package:flutter_black_hole/flutter_black_hole/pages/Models/models_index.dart';
 
@@ -31,9 +32,7 @@ Widget imageCard({
   EdgeInsetsGeometry margin = EdgeInsets.zero,
   double borderRadius = 7.0,
   double? boxDimension = 55.0,
-  ImageProvider placeholderImage = const AssetImage(
-    'assets/cover.jpg',
-  ),
+  ImageProvider? placeholderImage,
   bool selected = false,
   ImageQuality imageQuality = ImageQuality.low,
   Function(Object, StackTrace?)? localErrorFunction,
@@ -59,7 +58,10 @@ Widget imageCard({
                 }
                 return Image(
                   fit: BoxFit.cover,
-                  image: placeholderImage,
+                  image: placeholderImage ??
+                      AssetImage(
+                        Utils.assets('images/cover.jpg'),
+                      ),
                 );
               },
               image: FileImage(
@@ -73,13 +75,19 @@ Widget imageCard({
               fit: BoxFit.cover,
               errorWidget: (context, _, __) => Image(
                 fit: BoxFit.cover,
-                image: placeholderImage,
+                image: placeholderImage ??
+                    AssetImage(
+                      Utils.assets('images/cover.jpg'),
+                    ),
               ),
               imageUrl:
                   UrlImageGetter([imageUrl]).getImageUrl(quality: imageQuality),
               placeholder: (context, url) => Image(
                 fit: BoxFit.cover,
-                image: placeholderImage,
+                image: placeholderImage ??
+                    AssetImage(
+                      Utils.assets('images/cover.jpg'),
+                    ),
               ),
             ),
           if (selected)

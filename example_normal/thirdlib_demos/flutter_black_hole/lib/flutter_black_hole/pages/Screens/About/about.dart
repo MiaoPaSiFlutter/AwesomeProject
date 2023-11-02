@@ -18,6 +18,7 @@
  */
 
 import 'package:flutter/material.dart';
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
@@ -56,10 +57,10 @@ class _AboutScreenState extends State<AboutScreen> {
             top: MediaQuery.sizeOf(context).width / 5,
             child: SizedBox(
               width: MediaQuery.sizeOf(context).width,
-              child: const Image(
+              child: Image(
                 fit: BoxFit.fill,
                 image: AssetImage(
-                  'assets/icon-white-trans.png',
+                  Utils.assets('images/icon-white-trans.png'),
                 ),
               ),
             ),
@@ -99,10 +100,11 @@ class _AboutScreenState extends State<AboutScreen> {
                           borderRadius: BorderRadius.circular(100.0),
                         ),
                         clipBehavior: Clip.antiAlias,
-                        child: const SizedBox(
+                        child: SizedBox(
                           width: 150,
                           child: Image(
-                            image: AssetImage('assets/ic_launcher.png'),
+                            image: AssetImage(
+                                Utils.assets('images/ic_launcher.png')),
                           ),
                         ),
                       ),
@@ -143,10 +145,12 @@ class _AboutScreenState extends State<AboutScreen> {
                             child: Image(
                               image: Theme.of(context).brightness ==
                                       Brightness.dark
-                                  ? const AssetImage(
-                                      'assets/GitHub_Logo_White.png',
+                                  ? AssetImage(
+                                      Utils.assets(
+                                          'images/GitHub_Logo_White.png'),
                                     )
-                                  : const AssetImage('assets/GitHub_Logo.png'),
+                                  : AssetImage(
+                                      Utils.assets('images/GitHub_Logo.png')),
                             ),
                           ),
                         ),
@@ -178,8 +182,9 @@ class _AboutScreenState extends State<AboutScreen> {
                         },
                         child: SizedBox(
                           width: MediaQuery.sizeOf(context).width / 2,
-                          child: const Image(
-                            image: AssetImage('assets/black-button.png'),
+                          child: Image(
+                            image: AssetImage(
+                                Utils.assets('images/black-button.png')),
                           ),
                         ),
                       ),
@@ -217,8 +222,8 @@ class _AboutScreenState extends State<AboutScreen> {
                           child: Image(
                             image: AssetImage(
                               Theme.of(context).brightness == Brightness.dark
-                                  ? 'assets/gpay-white.png'
-                                  : 'assets/gpay-white.png',
+                                  ? Utils.assets('images/gpay-white.png')
+                                  : Utils.assets('images/gpay-white.png'),
                             ),
                           ),
                         ),

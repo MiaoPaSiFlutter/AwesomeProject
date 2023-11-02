@@ -18,7 +18,7 @@
  */
 
 import 'package:flutter/material.dart';
-
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/APIs/api_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Models/models_index.dart';
@@ -106,15 +106,15 @@ class HorizontalAlbumsList extends StatelessWidget {
                       imageQuality: ImageQuality.high,
                       placeholderImage: (item['type'] == 'playlist' ||
                               item['type'] == 'album')
-                          ? const AssetImage(
-                              'assets/album.png',
+                          ? AssetImage(
+                              Utils.assets('images/album.png'),
                             )
                           : item['type'] == 'artist'
-                              ? const AssetImage(
-                                  'assets/artist.png',
+                              ? AssetImage(
+                                  Utils.assets('images/artist.png'),
                                 )
-                              : const AssetImage(
-                                  'assets/cover.jpg',
+                              : AssetImage(
+                                  Utils.assets('images/cover.jpg'),
                                 ),
                     ),
                   );
@@ -138,15 +138,15 @@ class HorizontalAlbumsList extends StatelessWidget {
                   imageQuality: ImageQuality.medium,
                   placeholderImage:
                       (item['type'] == 'playlist' || item['type'] == 'album')
-                          ? const AssetImage(
-                              'assets/album.png',
+                          ? AssetImage(
+                              Utils.assets('images/album.png'),
                             )
                           : item['type'] == 'artist'
-                              ? const AssetImage(
-                                  'assets/artist.png',
+                              ? AssetImage(
+                                  Utils.assets('images/artist.png'),
                                 )
-                              : const AssetImage(
-                                  'assets/cover.jpg',
+                              : AssetImage(
+                                  Utils.assets('images/cover.jpg'),
                                 ),
                 ),
                 builder: ({

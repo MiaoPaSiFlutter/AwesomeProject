@@ -21,6 +21,7 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:logging/logging.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 
@@ -213,7 +214,7 @@ class OfflineAudioQuery {
                       fit: BoxFit.cover,
                       height: height,
                       width: width,
-                      image: const AssetImage('assets/cover.jpg'),
+                      image:  AssetImage(Utils.assets('images/cover.jpg')),
                     );
               },
             ),
@@ -230,7 +231,7 @@ class OfflineAudioQuery {
                 fit: BoxFit.cover,
                 height: height,
                 width: width,
-                image: const AssetImage('assets/cover.jpg'),
+                image:  AssetImage(Utils.assets('images/cover.jpg')),
               ),
         );
       },

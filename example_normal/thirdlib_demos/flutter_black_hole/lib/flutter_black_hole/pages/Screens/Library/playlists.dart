@@ -19,6 +19,7 @@
  * Copyright (c) 2021-2023, Ankit Sangwan
  */
 
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/helpers_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/Library/import.dart';
@@ -221,14 +222,16 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
                                               height: 50,
                                               width: 50,
                                               child: name == 'Favorite Songs'
-                                                  ? const Image(
+                                                  ? Image(
                                                       image: AssetImage(
-                                                        'assets/cover.jpg',
+                                                        Utils.assets(
+                                                            'images/cover.jpg'),
                                                       ),
                                                     )
-                                                  : const Image(
+                                                  : Image(
                                                       image: AssetImage(
-                                                        'assets/album.png',
+                                                        Utils.assets(
+                                                            'images/album.png'),
                                                       ),
                                                     ),
                                             ),
@@ -237,8 +240,8 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
                                             imageList: playlistDetails[name]
                                                 ['imagesList'] as List,
                                             showGrid: true,
-                                            placeholderImage:
-                                                'assets/cover.jpg',
+                                            placeholderImage: Utils.assets(
+                                                'images/cover.jpg'),
                                           ),
                                   );
                                 },
@@ -398,14 +401,14 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
                                   height: 50,
                                   width: 50,
                                   child: name == 'Favorite Songs'
-                                      ? const Image(
+                                      ? Image(
                                           image: AssetImage(
-                                            'assets/cover.jpg',
+                                            Utils.assets('images/cover.jpg'),
                                           ),
                                         )
-                                      : const Image(
+                                      : Image(
                                           image: AssetImage(
-                                            'assets/album.png',
+                                            Utils.assets('images/album.png'),
                                           ),
                                         ),
                                 ),
@@ -414,7 +417,8 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
                                 imageList:
                                     playlistDetails[name]['imagesList'] as List,
                                 showGrid: true,
-                                placeholderImage: 'assets/cover.jpg',
+                                placeholderImage:
+                                    Utils.assets('images/cover.jpg'),
                               ),
                         title: Text(
                           showName,

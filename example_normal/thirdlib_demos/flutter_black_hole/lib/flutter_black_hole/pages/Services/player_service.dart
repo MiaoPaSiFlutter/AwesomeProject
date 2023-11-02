@@ -21,6 +21,7 @@ import 'dart:io';
 
 import 'package:audio_service/audio_service.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/mediaitem_converter.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/Player/audioplayer.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Services/youtube_services.dart';
@@ -121,7 +122,7 @@ class PlayerInvoke {
     getTemporaryDirectory().then((tempDir) async {
       final File file = File('${tempDir.path}/cover.jpg');
       if (!await file.exists()) {
-        final byteData = await rootBundle.load('assets/cover.jpg');
+        final byteData = await rootBundle.load(Utils.assets('images/cover.jpg'));
         await file.writeAsBytes(
           byteData.buffer
               .asUint8List(byteData.offsetInBytes, byteData.lengthInBytes),
@@ -160,7 +161,7 @@ class PlayerInvoke {
     getTemporaryDirectory().then((tempDir) async {
       final File file = File('${tempDir.path}/cover.jpg');
       if (!await file.exists()) {
-        final byteData = await rootBundle.load('assets/cover.jpg');
+        final byteData = await rootBundle.load(Utils.assets('images/cover.jpg'));
         await file.writeAsBytes(
           byteData.buffer
               .asUint8List(byteData.offsetInBytes, byteData.lengthInBytes),

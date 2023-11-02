@@ -17,6 +17,7 @@
  * Copyright (c) 2021-2023, Ankit Sangwan
  */
 
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/Search/search.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/YouTube/youtube_playlist.dart';
@@ -165,16 +166,17 @@ class _YouTubeState extends State<YouTube>
                           clipBehavior: Clip.antiAlias,
                           child: CachedNetworkImage(
                             fit: BoxFit.cover,
-                            errorWidget: (context, _, __) => const Image(
+                            errorWidget: (context, _, __) => Image(
                               fit: BoxFit.cover,
                               image: AssetImage(
-                                'assets/ytCover.png',
+                                Utils.assets('images/ytCover.png'),
                               ),
                             ),
                             imageUrl: headList[index]['image'].toString(),
-                            placeholder: (context, url) => const Image(
+                            placeholder: (context, url) => Image(
                               fit: BoxFit.cover,
-                              image: AssetImage('assets/ytCover.png'),
+                              image: AssetImage(
+                                  Utils.assets('images/ytCover.png')),
                             ),
                           ),
                         ),
@@ -301,11 +303,13 @@ class _YouTubeState extends State<YouTube>
                                                         fit: BoxFit.cover,
                                                         image: item['type'] !=
                                                                 'playlist'
-                                                            ? const AssetImage(
-                                                                'assets/ytCover.png',
+                                                            ? AssetImage(
+                                                                Utils.assets(
+                                                                    'images/ytCover.png'),
                                                               )
-                                                            : const AssetImage(
-                                                                'assets/cover.jpg',
+                                                            : AssetImage(
+                                                                Utils.assets(
+                                                                    'images/cover.jpg'),
                                                               ),
                                                       ),
                                                       imageUrl: item['image']
@@ -316,11 +320,13 @@ class _YouTubeState extends State<YouTube>
                                                         fit: BoxFit.cover,
                                                         image: item['type'] !=
                                                                 'playlist'
-                                                            ? const AssetImage(
-                                                                'assets/ytCover.png',
+                                                            ? AssetImage(
+                                                                Utils.assets(
+                                                                    'images/ytCover.png'),
                                                               )
-                                                            : const AssetImage(
-                                                                'assets/cover.jpg',
+                                                            : AssetImage(
+                                                                Utils.assets(
+                                                                    'images/cover.jpg'),
                                                               ),
                                                       ),
                                                     ),

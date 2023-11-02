@@ -17,6 +17,7 @@
  * Copyright (c) 2021-2023, Ankit Sangwan
  */
 
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/APIs/api_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Models/models_index.dart';
@@ -111,7 +112,7 @@ class _ArtistSearchPageState extends State<ArtistSearchPage> {
                     ],
                     title: widget.data['title']?.toString() ??
                         AppLocalizations.of(context)!.songs,
-                    placeholderImage: 'assets/artist.png',
+                    placeholderImage: Utils.assets('images/artist.png'),
                     imageUrl: UrlImageGetter([widget.data['image'].toString()])
                         .mediumQuality,
                     sliverList: SliverList(
@@ -568,8 +569,10 @@ class _ArtistSearchPageState extends State<ArtistSearchPage> {
                                               (entry.key == 'Top Songs' ||
                                                       entry.key ==
                                                           'Latest Release')
-                                                  ? 'assets/cover.jpg'
-                                                  : 'assets/album.png',
+                                                  ? Utils.assets(
+                                                      'images/cover.jpg')
+                                                  : Utils.assets(
+                                                      'images/album.png'),
                                             ),
                                             imageUrl: entry.value[index]
                                                     ['image']

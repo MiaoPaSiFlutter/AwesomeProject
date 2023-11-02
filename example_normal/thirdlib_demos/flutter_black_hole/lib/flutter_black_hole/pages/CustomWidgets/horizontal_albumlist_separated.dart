@@ -18,6 +18,7 @@
  */
 
 import 'package:flutter/material.dart';
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 
@@ -108,15 +109,15 @@ class HorizontalAlbumsListSeparated extends StatelessWidget {
                       imageUrl: item['image'].toString(),
                       placeholderImage: (item['type'] == 'playlist' ||
                               item['type'] == 'album')
-                          ? const AssetImage(
-                              'assets/album.png',
+                          ? AssetImage(
+                              Utils.assets('images/album.png')
                             )
                           : item['type'] == 'artist'
-                              ? const AssetImage(
-                                  'assets/artist.png',
+                              ? AssetImage(
+                                  Utils.assets('images/artist.png')
                                 )
-                              : const AssetImage(
-                                  'assets/cover.jpg',
+                              : AssetImage(
+                                  Utils.assets('images/cover.jpg')
                                 ),
                     ),
                     trailing: SongTileTrailingMenu(

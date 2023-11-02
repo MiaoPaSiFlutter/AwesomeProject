@@ -20,6 +20,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/APIs/api_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/helpers_index.dart';
@@ -255,7 +256,7 @@ class _SongsListPageState extends State<SongsListPage> {
                   isOffline: false,
                   shuffle: true,
                 ),
-                placeholderImage: 'assets/album.png',
+                placeholderImage: Utils.assets('images/album.png'),
                 imageUrl: UrlImageGetter([widget.listItem['image']?.toString()])
                     .mediumQuality,
                 sliverList: SliverList(

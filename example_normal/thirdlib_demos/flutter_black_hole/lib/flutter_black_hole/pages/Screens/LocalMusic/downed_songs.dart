@@ -511,7 +511,7 @@ class _DownloadedSongsState extends State<DownloadedSongs>
 //                   child: Stack(
 //                     children: [
 //                       const Image(
-//                         image: AssetImage('assets/cover.jpg'),
+//                         image: AssetImage(Utils.assets('images/cover.jpg'),
 //                       ),
 //                       if (_cachedVideos[index]['image'] == null)
 //                         const SizedBox()
@@ -1042,7 +1042,7 @@ class _SongsTabState extends State<SongsTab>
                             //                               ? const Image(
                             //                                   fit: BoxFit.cover,
                             //                                   image: AssetImage(
-                            //                                       'assets/cover.jpg'),
+                            //                                       Utils.assets('images/cover.jpg'),
                             //                                 )
                             //                               : Image(
                             //                                   fit: BoxFit.cover,

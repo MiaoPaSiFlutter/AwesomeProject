@@ -22,6 +22,7 @@ import 'dart:math';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 
 class BouncyImageSliverScrollView extends StatelessWidget {
   final ScrollController scrollController;
@@ -31,7 +32,7 @@ class BouncyImageSliverScrollView extends StatelessWidget {
   final String title;
   final String? imageUrl;
   final bool localImage;
-  final String placeholderImage;
+  final String? placeholderImage;
   final bool fromYt;
   BouncyImageSliverScrollView({
     super.key,
@@ -39,7 +40,7 @@ class BouncyImageSliverScrollView extends StatelessWidget {
     this.shrinkWrap = false,
     required this.sliverList,
     required this.title,
-    this.placeholderImage = 'assets/cover.jpg',
+    this.placeholderImage,
     this.localImage = false,
     this.fromYt = false,
     this.imageUrl,
@@ -53,7 +54,8 @@ class BouncyImageSliverScrollView extends StatelessWidget {
     final Widget image = imageUrl == null
         ? Image(
             fit: BoxFit.cover,
-            image: AssetImage(placeholderImage),
+            image: AssetImage(
+                placeholderImage ?? Utils.assets('images/cover.jpg')),
           )
         : localImage
             ? Image(
@@ -68,12 +70,14 @@ class BouncyImageSliverScrollView extends StatelessWidget {
                 fit: BoxFit.cover,
                 errorWidget: (context, _, __) => Image(
                   fit: BoxFit.cover,
-                  image: AssetImage(placeholderImage),
+                  image: AssetImage(
+                      placeholderImage ?? Utils.assets('images/cover.jpg')),
                 ),
                 imageUrl: imageUrl!,
                 placeholder: (context, url) => Image(
                   fit: BoxFit.cover,
-                  image: AssetImage(placeholderImage),
+                  image: AssetImage(
+                      placeholderImage ?? Utils.assets('images/cover.jpg')),
                 ),
               );
     // final bool rotated =

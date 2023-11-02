@@ -17,6 +17,7 @@
  * Copyright (c) 2021-2023, Ankit Sangwan
  */
 
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/APIs/api_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/Common/song_list.dart';
@@ -144,8 +145,8 @@ class _AlbumSearchPageState extends State<AlbumSearchPage> {
                     scrollController: _scrollController,
                     title: widget.type,
                     placeholderImage: widget.type == 'Artists'
-                        ? 'assets/artist.png'
-                        : 'assets/album.png',
+                        ? Utils.assets('images/artist.png')
+                        : Utils.assets('images/album.png'),
                     sliverList: SliverList(
                       delegate: SliverChildListDelegate(
                         _searchedList!.map(
@@ -178,8 +179,8 @@ class _AlbumSearchPageState extends State<AlbumSearchPage> {
                                       widget.type == 'Artists' ? 50.0 : 7.0,
                                   placeholderImage: AssetImage(
                                     widget.type == 'Artists'
-                                        ? 'assets/artist.png'
-                                        : 'assets/album.png',
+                                        ? Utils.assets('images/artist.png')
+                                        : Utils.assets('images/album.png'),
                                   ),
                                   imageUrl: entry['image'].toString(),
                                 ),

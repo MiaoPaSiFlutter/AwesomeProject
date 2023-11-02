@@ -19,6 +19,7 @@
 
 import 'dart:io';
 
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/helpers_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/Common/routes.dart';
@@ -297,8 +298,8 @@ class _HomePageState extends State<HomePage> {
                         alignment: Alignment.topCenter,
                         image: AssetImage(
                           Theme.of(context).brightness == Brightness.dark
-                              ? 'assets/header-dark.jpg'
-                              : 'assets/header.jpg',
+                              ? Utils.assets('images/header-dark.jpg')
+                              : Utils.assets('images/header.jpg'),
                         ),
                       ),
                     ),

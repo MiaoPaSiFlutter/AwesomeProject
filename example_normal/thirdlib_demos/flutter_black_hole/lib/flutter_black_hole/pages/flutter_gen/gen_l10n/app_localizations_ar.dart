@@ -1,3 +1,5 @@
+// ignore_for_file: text_direction_code_point_in_literal
+
 import 'app_localizations.dart';
 
 /// The translations for Arabic (`ar`).
@@ -89,7 +91,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get autoplay => 'تشغيل تلقائي';
 
   @override
-  String get autoplaySub => 'إضافة الأغاني ذات الصلة تلقائيًا إلى قائمة الانتظار';
+  String get autoplaySub =>
+      'إضافة الأغاني ذات الصلة تلقائيًا إلى قائمة الانتظار';
 
   @override
   String get back => 'رجوع';
@@ -110,13 +113,16 @@ class AppLocalizationsAr extends AppLocalizations {
   String get blacklistHomeSections => 'وضع هذا القسم في القائمة السوداء';
 
   @override
-  String get blacklistHomeSectionsConfirm => 'هل أنت متأكد أنك تريد وضع هذا القسم في القائمة السوداء؟ بمجرد وضعه في القائمة السوداء، لن يتم عرضه على الشاشة الرئيسية';
+  String get blacklistHomeSectionsConfirm =>
+      'هل أنت متأكد أنك تريد وضع هذا القسم في القائمة السوداء؟ بمجرد وضعه في القائمة السوداء، لن يتم عرضه على الشاشة الرئيسية';
 
   @override
-  String get blacklistedHomeSections => 'أقسام الرئيسية المدرجة في القائمة السوداء';
+  String get blacklistedHomeSections =>
+      'أقسام الرئيسية المدرجة في القائمة السوداء';
 
   @override
-  String get blacklistedHomeSectionsSub => 'لن يتم عرض الأقسام التي تحمل هذه العناوين على الشاشة الرئيسية';
+  String get blacklistedHomeSectionsSub =>
+      'لن يتم عرض الأقسام التي تحمل هذه العناوين على الشاشة الرئيسية';
 
   @override
   String get bottomGrad => 'أوراق سفلية متدرجة';
@@ -134,13 +140,15 @@ class AppLocalizationsAr extends AppLocalizations {
   String get cacheSong => 'أغاني ذاكرة التخزين المؤقت';
 
   @override
-  String get cacheSongSub => 'سيتم تخزين الأغاني مؤقتًا للتشغيل في المستقبل. سيتم شغل مساحة إضافية على جهازك';
+  String get cacheSongSub =>
+      'سيتم تخزين الأغاني مؤقتًا للتشغيل في المستقبل. سيتم شغل مساحة إضافية على جهازك';
 
   @override
   String get cancel => 'إلغاء';
 
   @override
-  String get cantAddToQueue => 'لا يمكن إضافة أغنية عبر الإنترنت إلى قائمة الانتظار دون اتصال';
+  String get cantAddToQueue =>
+      'لا يمكن إضافة أغنية عبر الإنترنت إلى قائمة الانتظار دون اتصال';
 
   @override
   String get cantFind => 'لا تستطيع أن تجد ما تبحث عنه؟ ';
@@ -182,7 +190,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get checkUpdate => 'التحقق التلقائي من وجود تحديثات';
 
   @override
-  String get checkUpdateSub => 'إذا قمت بتحميل BlackHole من أي مستودع تطبيقات مثل \'F-Droid\', \'IzzyOnDroid\', الخ التي توفر خيارات التحديث ، الحافظ على وضع إيقاف.  حيث إنه ، إذا قمت بتحميله من \'أو أي مصدر آخر لا يوفر تحديثات تلقائية ، فقم بتشغيله ، وذلك لتلقي تنبيهات التحديث\n';
+  String get checkUpdateSub =>
+      'إذا قمت بتحميل BlackHole من أي مستودع تطبيقات مثل \'F-Droid\', \'IzzyOnDroid\', الخ التي توفر خيارات التحديث ، الحافظ على وضع إيقاف.  حيث إنه ، إذا قمت بتحميله من \'أو أي مصدر آخر لا يوفر تحديثات تلقائية ، فقم بتشغيله ، وذلك لتلقي تنبيهات التحديث\n';
 
   @override
   String get clear => 'تنظيف';
@@ -194,7 +203,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get clearCache => 'تنظيف تفاصيل الكاش';
 
   @override
-  String get clearCacheSub => 'يحذف التفاصيل المخزنة مؤقتا بما في ذلك الصفحة الرئيسية وأفضل مخططات Spotify و YouTube وبيانات الجلسة الأخيرة. عادة ما يقوم التطبيق بمسحها تلقائيا عندما تصبح البيانات كبيرة\n';
+  String get clearCacheSub =>
+      'يحذف التفاصيل المخزنة مؤقتا بما في ذلك الصفحة الرئيسية وأفضل مخططات Spotify و YouTube وبيانات الجلسة الأخيرة. عادة ما يقوم التطبيق بمسحها تلقائيا عندما تصبح البيانات كبيرة\n';
 
   @override
   String get compactNotificationButtons => 'أزرار الإشعار المدمجة';
@@ -203,7 +213,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get compactNotificationButtonsHeader => 'يمكنك تحديد 3 أزرار كحد أقصى';
 
   @override
-  String get compactNotificationButtonsSub => 'الأزرار المراد إظهارها في عرض الإشعار المضغوط';
+  String get compactNotificationButtonsSub =>
+      'الأزرار المراد إظهارها في عرض الإشعار المضغوط';
 
   @override
   String get confirmViewable => 'تأكد من أن قائمة التشغيل قابلة للعرض';
@@ -233,7 +244,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get createAlbumFold => 'إنشاء مجلد لتحميل الألبوم وقائمة التشغيل';
 
   @override
-  String get createAlbumFoldSub => 'إنشاء مجلد مشترك للأغاني عند تحميل الألبوم أو قائمة التشغيل';
+  String get createAlbumFoldSub =>
+      'إنشاء مجلد مشترك للأغاني عند تحميل الألبوم أو قائمة التشغيل';
 
   @override
   String get createBack => 'إنشاء نسخة احتياطية';
@@ -251,7 +263,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get createYtFold => 'إنشاء مجلد مختلف لتحميلات YouTube';
 
   @override
-  String get createYtFoldSub => 'إنشاء مجلد مختلف للأغاني التي تم تحميلها من YouTube';
+  String get createYtFoldSub =>
+      'إنشاء مجلد مختلف للأغاني التي تم تحميلها من YouTube';
 
   @override
   String get currentTheme => 'الثيم الحالي';
@@ -284,7 +297,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get disclaimer => 'اخلاء المسؤوليه:';
 
   @override
-  String get disclaimerText => 'نحن نحترم خصوصيتك أكثر من أي شيء آخر. يتم تخزين جميع بياناتك محليا على جهازك فقط.';
+  String get disclaimerText =>
+      'نحن نحترم خصوصيتك أكثر من أي شيء آخر. يتم تخزين جميع بياناتك محليا على جهازك فقط.';
 
   @override
   String get displayName => 'اسم العرض';
@@ -293,7 +307,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get donateGpay => 'تبرع بواسطة GPay';
 
   @override
-  String get donateGpaySub => 'كل مبلغ صغير يجعلني أبتسم :)\nإضغط للتبرع أو الضغط مطولاً لنسخ معرف UPI';
+  String get donateGpaySub =>
+      'كل مبلغ صغير يجعلني أبتسم :)\nإضغط للتبرع أو الضغط مطولاً لنسخ معرف UPI';
 
   @override
   String get down => 'التحميل';
@@ -347,7 +362,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get enableGesture => 'تمكين إيماءات العمل الفني';
 
   @override
-  String get enableGestureSub => 'تمكين النقر ، المطول ، التمرير السريع ، إلخ على العمل الفني في شاشة المشغل';
+  String get enableGestureSub =>
+      'تمكين النقر ، المطول ، التمرير السريع ، إلخ على العمل الفني في شاشة المشغل';
 
   @override
   String get enforceRepeat => 'فرض التكرار';
@@ -425,7 +441,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get getLyricsOnline => 'البحث عن كلمات الأغاني المحلية';
 
   @override
-  String get getLyricsOnlineSub => 'البحث عبر الإنترنت إذا كانت الأغاني غير متاحة / تم تحميلها لأي أغنية غير متصلة بالإنترنت';
+  String get getLyricsOnlineSub =>
+      'البحث عبر الإنترنت إذا كانت الأغاني غير متاحة / تم تحميلها لأي أغنية غير متصلة بالإنترنت';
 
   @override
   String get genre => 'النوع';
@@ -482,7 +499,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get includeExcludeFolder => 'تضمين/استبعاد المجلدات';
 
   @override
-  String get includeExcludeFolderSub => 'يتضمن/يستبعد المجلدات المحددة من قسم \"الموسيقى الخاصة بي\"';
+  String get includeExcludeFolderSub =>
+      'يتضمن/يستبعد المجلدات المحددة من قسم \"الموسيقى الخاصة بي\"';
 
   @override
   String get included => 'متضمن';
@@ -566,7 +584,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get minAudioLen => 'الحد الأدنى لطول صوت البحث عن الموسيقى';
 
   @override
-  String get minAudioLenSub => 'لن يتم عرض الصوتيات ذات الطول الأصغر من هذا في قسم \"الموسيقى الخاصة بي\"';
+  String get minAudioLenSub =>
+      'لن يتم عرض الصوتيات ذات الطول الأصغر من هذا في قسم \"الموسيقى الخاصة بي\"';
 
   @override
   String get minFourRequired => 'مطلوب 4 دقائق';
@@ -614,7 +633,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get noFolderSelected => 'لا يوجد مجلد محدد';
 
   @override
-  String get noLangSelected => 'لم يتم تحديد لغة الموسيقى. تحديد لغة لمشاهدة الأغاني على الشاشة الرئيسية';
+  String get noLangSelected =>
+      'لم يتم تحديد لغة الموسيقى. تحديد لغة لمشاهدة الأغاني على الشاشة الرئيسية';
 
   @override
   String get notAvailable => 'غير متوفر';
@@ -653,7 +673,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get playerScreenBackground => 'خلفية شاشة المشغل';
 
   @override
-  String get playerScreenBackgroundSub => 'سيتم عرض الخلفية المحددة في شاشة المشغل';
+  String get playerScreenBackgroundSub =>
+      'سيتم عرض الخلفية المحددة في شاشة المشغل';
 
   @override
   String get playNext => 'تشغيل التالي';
@@ -719,7 +740,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get resetOnSkip => 'إعادة التشغيل وتخطي السابق';
 
   @override
-  String get resetOnSkipSub => 'إعادة التشغيل من البداية بدلاً من تخطي الأغنية السابقة';
+  String get resetOnSkipSub =>
+      'إعادة التشغيل من البداية بدلاً من تخطي الأغنية السابقة';
 
   @override
   String get restart => 'You might need to restart app';
@@ -731,7 +753,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get restore => 'إعادة';
 
   @override
-  String get restoreSub => 'استعادة البيانات الخاصة بك من النسخ الاحتياطي.\nقد تحتاج إلى إعادة تشغيل التطبيق\n';
+  String get restoreSub =>
+      'استعادة البيانات الخاصة بك من النسخ الاحتياطي.\nقد تحتاج إلى إعادة تشغيل التطبيق\n';
 
   @override
   String get resultsNotFound => 'لم يتم العثور على نتائج';
@@ -821,7 +844,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get showTopCharts => 'إظهار أهم المخططات';
 
   @override
-  String get showTopChartsSub => 'إظهار أفضل الرسوم البيانية لـ Spotify على الشاشة الرئيسية';
+  String get showTopChartsSub =>
+      'إظهار أفضل الرسوم البيانية لـ Spotify على الشاشة الرئيسية';
 
   @override
   String get shuffle => 'خلط';
@@ -899,7 +923,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get stopOnClose => 'إيقاف الموسيقى عند إغلاق التطبيق';
 
   @override
-  String get stopOnCloseSub => 'إذا تم إيقاف تشغيل الموسيقى ، فلن تتوقف الموسيقى حتى بعد \"إغلاق\" التطبيق \', حتى تضغط على زر التوقف.  هذا الخيار للتطبيق \'\"الإغلاق\" ليس عندما يكون التطبيق في \"الخلفية\". سيتم تشغيل الموسيقى دائمًا في الخلفية ولن تحتاج إلى تغيير أي إعداد لذلك.\n';
+  String get stopOnCloseSub =>
+      'إذا تم إيقاف تشغيل الموسيقى ، فلن تتوقف الموسيقى حتى بعد \"إغلاق\" التطبيق \', حتى تضغط على زر التوقف.  هذا الخيار للتطبيق \'\"الإغلاق\" ليس عندما يكون التطبيق في \"الخلفية\". سيتم تشغيل الموسيقى دائمًا في الخلفية ولن تحتاج إلى تغيير أي إعداد لذلك.\n';
 
   @override
   String get streamQuality => 'جودة البث';
@@ -920,7 +945,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get supportEq => 'دعم المعادل';
 
   @override
-  String get supportEqSub => 'الحفاظ على إيقاف تشغيل هذا إذا كنت غير قادر على تشغيل الأغاني (في وضع متصل وغير متصل)';
+  String get supportEqSub =>
+      'الحفاظ على إيقاف تشغيل هذا إذا كنت غير قادر على تشغيل الأغاني (في وضع متصل وغير متصل)';
 
   @override
   String get tg => 'Telegram';
@@ -986,28 +1012,33 @@ class AppLocalizationsAr extends AppLocalizations {
   String get useDenseMiniSub => 'سيتم تقليل ارتفاع المشغل المصغر';
 
   @override
-  String get useBlurForNowPlayingSub => 'سيتم إستخدام التمويه مع تعتيم أقل كخلفية لقسم التشغيل الآن';
+  String get useBlurForNowPlayingSub =>
+      'سيتم إستخدام التمويه مع تعتيم أقل كخلفية لقسم التشغيل الآن';
 
   @override
   String get useDown => 'دفق الأغاني التي تم تحميلها ، إذا كانت متوفرة';
 
   @override
-  String get useDownSub => 'إذا تم تحميل الأغنية بالفعل ، فسيتم تشغيل الأغنية التي تم تحميلها بدلاً من البث عبر الإنترنت';
+  String get useDownSub =>
+      'إذا تم تحميل الأغنية بالفعل ، فسيتم تشغيل الأغنية التي تم تحميلها بدلاً من البث عبر الإنترنت';
 
   @override
-  String get useHome => 'إستخدام القسم الرئيسي للحصول على جودة أفضل ودعم التحميل';
+  String get useHome =>
+      'إستخدام القسم الرئيسي للحصول على جودة أفضل ودعم التحميل';
 
   @override
   String get useLessDataImage => 'Use Less Data for Images';
 
   @override
-  String get useLessDataImageSub => 'This will reduce the quality of images in the app, but will save your data';
+  String get useLessDataImageSub =>
+      'This will reduce the quality of images in the app, but will save your data';
 
   @override
   String get useProxy => 'إستخدام الوكيل';
 
   @override
-  String get useProxySub => 'قم بتشغيل هذا إذا لم تكن في الهند وتواجه مشكلات في البحث ، مثل الحصول على الأغاني الهندية فقط أو عدم الحصول على أي نتائج ، وما إلى ذلك. يمكنك حتى استخدام VPN بواسطة الخادم الهندي\n';
+  String get useProxySub =>
+      'قم بتشغيل هذا إذا لم تكن في الهند وتواجه مشكلات في البحث ، مثل الحصول على الأغاني الهندية فقط أو عدم الحصول على أي نتائج ، وما إلى ذلك. يمكنك حتى استخدام VPN بواسطة الخادم الهندي\n';
 
   @override
   String get useSystemTheme => 'إستخدام ثيم النظام';
@@ -1064,7 +1095,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get ytDownQualitySub => 'تستخدم الجودة العالية مساحة أكبر على القرص';
 
   @override
-  String get ytLiveAlert => 'إما أن الفيديو مباشر أو حدث خطأ ما. الرجاء الإنتظار حتى انتهاء البث المباشر أو المحاولة مرة أخرى.';
+  String get ytLiveAlert =>
+      'إما أن الفيديو مباشر أو حدث خطأ ما. الرجاء الإنتظار حتى انتهاء البث المباشر أو المحاولة مرة أخرى.';
 
   @override
   String get ytStreamQuality => 'جودة البث من YouTube';

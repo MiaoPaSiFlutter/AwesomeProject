@@ -23,6 +23,7 @@ import 'dart:math';
 import 'dart:ui' as ui;
 
 import 'package:audio_service/audio_service.dart';
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/helpers_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/Common/song_list.dart';
@@ -250,7 +251,7 @@ class _PlayScreenState extends State<PlayScreen> {
                     IconButton(
                       icon: const Icon(Icons.lyrics_rounded),
                       //     Image.asset(
-                      //   'assets/lyrics.png',
+                      //   Utils.assets('images/lyrics.png',
                       // ),
                       tooltip: AppLocalizations.of(context)!.lyrics,
                       onPressed: () => cardKey.currentState!.toggleCard(),
@@ -1067,10 +1068,11 @@ class NowPlayingStream extends StatelessWidget {
                         ),
                         clipBehavior: Clip.antiAlias,
                         child: (queue[queueStateIndex + index].artUri == null)
-                            ? const SizedBox.square(
+                            ? SizedBox.square(
                                 dimension: 50,
                                 child: Image(
-                                  image: AssetImage('assets/cover.jpg'),
+                                  image: AssetImage(
+                                      Utils.assets('images/cover.jpg')),
                                 ),
                               )
                             : SizedBox.square(
@@ -1093,18 +1095,17 @@ class NowPlayingStream extends StatelessWidget {
                                         fit: BoxFit.cover,
                                         errorWidget:
                                             (BuildContext context, _, __) =>
-                                                const Image(
+                                                Image(
                                           fit: BoxFit.cover,
                                           image: AssetImage(
-                                            'assets/cover.jpg',
+                                            Utils.assets('images/cover.jpg'),
                                           ),
                                         ),
                                         placeholder:
-                                            (BuildContext context, _) =>
-                                                const Image(
+                                            (BuildContext context, _) => Image(
                                           fit: BoxFit.cover,
                                           image: AssetImage(
-                                            'assets/cover.jpg',
+                                            Utils.assets('images/cover.jpg'),
                                           ),
                                         ),
                                         imageUrl: queue[queueStateIndex + index]
@@ -1485,43 +1486,46 @@ class _ArtWorkWidgetState extends State<ArtWorkWidget> {
                         borderRadius: BorderRadius.circular(15.0),
                       ),
                       clipBehavior: Clip.antiAlias,
-                      child:
-                          widget.mediaItem.artUri.toString().startsWith('file')
-                              ? Image(
-                                  fit: BoxFit.contain,
-                                  width: widget.width * 0.85,
-                                  gaplessPlayback: true,
-                                  errorBuilder: (
-                                    BuildContext context,
-                                    Object exception,
-                                    StackTrace? stackTrace,
-                                  ) {
-                                    return const Image(
-                                      fit: BoxFit.cover,
-                                      image: AssetImage('assets/cover.jpg'),
-                                    );
-                                  },
-                                  image: FileImage(
-                                    File(
-                                      widget.mediaItem.artUri!.toFilePath(),
-                                    ),
-                                  ),
-                                )
-                              : CachedNetworkImage(
-                                  fit: BoxFit.contain,
-                                  errorWidget: (BuildContext context, _, __) =>
-                                      const Image(
-                                    fit: BoxFit.cover,
-                                    image: AssetImage('assets/cover.jpg'),
-                                  ),
-                                  placeholder: (BuildContext context, _) =>
-                                      const Image(
-                                    fit: BoxFit.cover,
-                                    image: AssetImage('assets/cover.jpg'),
-                                  ),
-                                  imageUrl: widget.mediaItem.artUri.toString(),
-                                  width: widget.width * 0.85,
+                      child: widget.mediaItem.artUri
+                              .toString()
+                              .startsWith('file')
+                          ? Image(
+                              fit: BoxFit.contain,
+                              width: widget.width * 0.85,
+                              gaplessPlayback: true,
+                              errorBuilder: (
+                                BuildContext context,
+                                Object exception,
+                                StackTrace? stackTrace,
+                              ) {
+                                return Image(
+                                  fit: BoxFit.cover,
+                                  image: AssetImage(
+                                      Utils.assets('images/cover.jpg')),
+                                );
+                              },
+                              image: FileImage(
+                                File(
+                                  widget.mediaItem.artUri!.toFilePath(),
                                 ),
+                              ),
+                            )
+                          : CachedNetworkImage(
+                              fit: BoxFit.contain,
+                              errorWidget: (BuildContext context, _, __) =>
+                                  Image(
+                                fit: BoxFit.cover,
+                                image: AssetImage(
+                                    Utils.assets('images/cover.jpg')),
+                              ),
+                              placeholder: (BuildContext context, _) => Image(
+                                fit: BoxFit.cover,
+                                image: AssetImage(
+                                    Utils.assets('images/cover.jpg')),
+                              ),
+                              imageUrl: widget.mediaItem.artUri.toString(),
+                              width: widget.width * 0.85,
+                            ),
                     ),
                     ValueListenableBuilder(
                       valueListenable: dragging,

@@ -21,6 +21,7 @@ import 'dart:io';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 
 import 'package:flutter_black_hole/flutter_black_hole/pages/flutter_gen/gen_l10n/app_localizations.dart';
 
@@ -34,7 +35,7 @@ class BouncyPlaylistHeaderScrollView extends StatelessWidget {
   final String? secondarySubtitle;
   final String? imageUrl;
   final bool localImage;
-  final String placeholderImage;
+  final String? placeholderImage;
   final Function? onPlayTap;
   final Function? onShuffleTap;
 
@@ -46,7 +47,7 @@ class BouncyPlaylistHeaderScrollView extends StatelessWidget {
     required this.title,
     this.subtitle,
     this.secondarySubtitle,
-    this.placeholderImage = 'assets/cover.jpg',
+    this.placeholderImage,
     this.localImage = false,
     this.imageUrl,
     this.actions,
@@ -61,7 +62,8 @@ class BouncyPlaylistHeaderScrollView extends StatelessWidget {
     final Widget image = imageUrl == null
         ? Image(
             fit: BoxFit.cover,
-            image: AssetImage(placeholderImage),
+            image: AssetImage(
+                placeholderImage ?? Utils.assets('images/cover.jpg')),
           )
         : localImage
             ? Image(
@@ -76,12 +78,14 @@ class BouncyPlaylistHeaderScrollView extends StatelessWidget {
                 fit: BoxFit.cover,
                 errorWidget: (context, _, __) => Image(
                   fit: BoxFit.cover,
-                  image: AssetImage(placeholderImage),
+                  image: AssetImage(
+                      placeholderImage ?? Utils.assets('images/cover.jpg')),
                 ),
                 imageUrl: imageUrl!,
                 placeholder: (context, url) => Image(
                   fit: BoxFit.cover,
-                  image: AssetImage(placeholderImage),
+                  image: AssetImage(
+                      placeholderImage ?? Utils.assets('images/cover.jpg')),
                 ),
               );
     final bool rotated =

@@ -20,6 +20,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Models/models_index.dart';
 import 'package:logging/logging.dart';
@@ -162,7 +163,7 @@ class _SongsListViewPageState extends State<SongsListViewPage> {
                 onPlayTap: widget.onPlay,
                 onShuffleTap: widget.onShuffle,
                 placeholderImage:
-                    widget.placeholderImageUrl ?? 'assets/cover.jpg',
+                    widget.placeholderImageUrl ?? Utils.assets('images/cover.jpg'),
                 imageUrl: UrlImageGetter([widget.imageUrl]).mediumQuality,
                 sliverList: SliverList(
                   delegate: SliverChildListDelegate([
