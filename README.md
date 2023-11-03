@@ -66,6 +66,10 @@ web 产物在`ts-pages`分支可查看。
 
 ##### Flutter 精美 UI 截图
 
+- 一个旅行类的 APP
+
+  <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/AnimatedTravelAppUI.gif" width="32%">
+
 - 一个在线聊天简单 UI 的 APP
 
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ChatMessageAppUI.gif" width="32%">

@@ -3,6 +3,7 @@ import 'package:hzy_common_module/hzy_common_module.dart';
 
 import 'AnalogClockLightDarkThemeUI/AnalogClockLightDarkThemeUI.dart';
 import 'AnimatedAppWithRiveUI/AnimatedAppWithRiveUI.dart';
+import 'AnimatedTravelAppUI/AnimatedTravelAppUI.dart';
 import 'ChatMessageAppUI/ChatMessageAppUI.dart';
 import 'CompassUI/CompassUI.dart';
 import 'DonutAppUI/DonutAppUI.dart';
@@ -35,6 +36,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个旅行类的APP',
+          description: '',
+          date: '2022年11月16日',
+          tags: ['购物'],
+          gifOrPictures: ['screenshots/AnimatedTravelAppUI.gif'],
+          app: const AnimatedTravelAppUI(),
+          author: 'Hmida71 - Github',
+          url: 'https://github.com/Hmida71/Animated-Travel-App-ui'),
       InterestingUIModel(
           title: '一个购物类的APP',
           description: '',

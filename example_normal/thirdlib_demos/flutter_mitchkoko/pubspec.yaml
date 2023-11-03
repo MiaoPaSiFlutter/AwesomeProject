@@ -7,6 +7,8 @@ environment:
   sdk: ">=3.1.3 <4.0.0"
   flutter: ">=1.17.0"
 dependencies:
+  # Ionicons 是一个完全开源的图标集，包含专为 Web、iOS、Android 和桌面应用程序制作的 1k3+ 图标。  他们有 Material Design 和 iOS 版本。
+  ionicons: ^0.2.2
   # 例如，用于显示页面浏览进度的点指示器
   dots_indicator: ^3.0.0
   # 用于快速构建自定义设计的极简 Flutter 框架。
@@ -56,14 +58,12 @@ flutter:
     - assets/SmartHomeAnimatedAppUI/images/
     - assets/ParallaxEffectUI/images/
     - assets/ResponsiveWelcomeLoginAndSignUpUI/images/
-    - assets/MeditationAppUI/fonts/
     - assets/MeditationAppUI/icons/
     - assets/MeditationAppUI/images/
     - assets/QuizAppUI/images/
     - assets/AnalogClockLightDarkThemeUI/images/
     - assets/ECommerceMobileAppUI/icons/
     - assets/ECommerceMobileAppUI/images/
-    - assets/ECommerceComplateAppUI/fonts/
     - assets/ECommerceComplateAppUI/icons/
     - assets/ECommerceComplateAppUI/images/
     - assets/AnimatedAppWithRiveUI/avaters/
@@ -75,6 +75,7 @@ flutter:
     - assets/ShoeAppUI/anims/
     - assets/ShoeAppUI/icons/
     - assets/ShoeAppUI/images/
+    - assets/AnimatedTravelAppUI/images/
     - assets/screenshots/
 
   fonts:
@@ -126,3 +127,10 @@ flutter:
           weight: 900
         - asset: assets/ShoeAppUI/fonts/Gilroy-Light.otf
           weight: 300
+    ### AnimatedTravelAppUI
+    - family: Montserrat
+      fonts:
+        - asset: assets/AnimatedTravelAppUI/fonts/Montserrat-SemiBold.otf
+          weight: 400
+        - asset: assets/AnimatedTravelAppUI/fonts/Montserrat-Bold.otf
+          weight: 700
