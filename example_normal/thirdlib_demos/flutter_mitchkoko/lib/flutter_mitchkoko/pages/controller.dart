@@ -18,6 +18,7 @@ import 'NFTappuiUI/NFTappuiUI.dart';
 import 'ParallaxEffectUI/ParallaxEffectUI.dart';
 import 'QuizAppUI/QuizAppUI.dart';
 import 'ResponsiveWelcomeLoginAndSignUpUI/ResponsiveWelcomeLoginAndSignUpUI.dart';
+import 'ShoeAppUI/ShoeAppUI.dart';
 import 'SmartHomeAnimatedAppUI/SmartHomeAnimatedAppUI.dart';
 import 'TiktokscrollUI/TiktokscrollUI.dart';
 import 'WheelscrollUI/WheelscrollUI.dart';
@@ -34,6 +35,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个购物类的APP',
+          description: '',
+          date: '2022年10月2日',
+          tags: ['购物'],
+          gifOrPictures: ['screenshots/ShoeAppUI.gif'],
+          app: const ShoeAppUI(),
+          author: 'rashidwassan - Github',
+          url: 'https://github.com/rashidwassan/flutter-ecommerce-app-ui'),
       InterestingUIModel(
           title: '一个在线聊天简单UI的APP',
           description: '',

@@ -121,6 +121,14 @@ packages:
       url: "https://github.com/Sangwan5688/Audiotagger"
     source: git
     version: "2.2.1"
+  auto_size_text_pk:
+    dependency: transitive
+    description:
+      name: auto_size_text_pk
+      sha256: ced55de5336fa7f438c1f5a9aa234e25d7a120c1d40d376a7cdc2af28cdb6995
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.0.0"
   azlistview:
     dependency: transitive
     description:
@@ -407,6 +415,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "5.3.3"
+  dots_indicator:
+    dependency: transitive
+    description:
+      name: dots_indicator
+      sha256: "58b6a365744aa62aa1b70c4ea29e5106fbe064f5edaf7e9652e9b856edbfd9bb"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.0.0"
   dynamic_fonts:
     dependency: transitive
     description:
@@ -2095,6 +2111,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.1.4"
+  velocity_x:
+    dependency: transitive
+    description:
+      name: velocity_x
+      sha256: "41734c40f1609aaafa5337fd9a9e7e9aaf3464dce8ee2cad18be4226b184e5ca"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "4.1.1"
   video_player:
     dependency: transitive
     description:
@@ -2143,6 +2167,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.4.0+2"
+  vxstate:
+    dependency: transitive
+    description:
+      name: vxstate
+      sha256: ed5a880018191c5cfed8528bd77f2a942b04847168ca12636a306c323d311086
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.3.0"
   watcher:
     dependency: transitive
     description:

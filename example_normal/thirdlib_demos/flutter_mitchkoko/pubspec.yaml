@@ -7,6 +7,10 @@ environment:
   sdk: ">=3.1.3 <4.0.0"
   flutter: ">=1.17.0"
 dependencies:
+  # 例如，用于显示页面浏览进度的点指示器
+  dots_indicator: ^3.0.0
+  # 用于快速构建自定义设计的极简 Flutter 框架。
+  velocity_x: ^4.1.1
   # Rive 2 颤振运行时。  该包提供了运行时功能，用于播放使用 Rive 编辑器构建的动画并与之交互，
   # 该编辑器可在 https://rive.app 上找到。
   rive: ^0.11.16
@@ -68,6 +72,9 @@ flutter:
     - assets/AnimatedAppWithRiveUI/RiveAssets/
     - assets/ChatMessageAppUI/images/
     - assets/ChatMessageAppUI/icons/
+    - assets/ShoeAppUI/anims/
+    - assets/ShoeAppUI/icons/
+    - assets/ShoeAppUI/images/
     - assets/screenshots/
 
   fonts:
@@ -112,3 +119,10 @@ flutter:
       fonts:
         - asset: assets/AnimatedAppWithRiveUI/Fonts/Poppins-Bold.ttf
           weight: 700
+    ### ShoeAppUI
+    - family: Gilroy
+      fonts:
+        - asset: assets/ShoeAppUI/fonts/Gilroy-ExtraBold.otf
+          weight: 900
+        - asset: assets/ShoeAppUI/fonts/Gilroy-Light.otf
+          weight: 300

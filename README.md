@@ -86,6 +86,7 @@ web 产物在`ts-pages`分支可查看。
 - Flutter 电子商务移动应用模板
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ECommerceMobileAppUI.gif" width="32%">
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ECommerceComplateAppUI.gif" width="32%">
+  <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ShoeAppUI.gif" width="32%">
 
 - 模拟时钟明暗主题
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/AnalogClockLightDarkThemeUI.gif" width="32%">
