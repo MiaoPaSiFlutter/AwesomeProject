@@ -54,17 +54,11 @@ web 产物在`ts-pages`分支可查看。
 
 无苹果开发者账号, 暂时无法打包 APP, 请亲自进行编译并在模拟器或手机上运行
 
-## APP 截图
+## 截图
 
-##### flutter_jd 截图
+## 仿京东 APP 截图
 
-<img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/登录页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/发现页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/分类页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/浏览历史页面.gif" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/闪屏页页面.gif" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/商品详情页页面.gif" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/我的订单页面.gif" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/新品页面.gif" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/引导页页面.gif" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/购物车页面.gif" width="32%">
+<img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/登录页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/发现页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/分类页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/浏览历史页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/闪屏页页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/商品详情页页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/我的订单页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/新品页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/引导页页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/购物车页面.gif" width="32%">
 
 ## [一款开源的音乐播放器应用程序！](https://github.com/Sangwan5688/BlackHole)
 
