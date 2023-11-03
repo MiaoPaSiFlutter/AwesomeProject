@@ -58,10 +58,7 @@ web 产物在`ts-pages`分支可查看。
 
 ##### flutter_jd 截图
 
-<img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/登录页面.gif" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/发现页面.gif" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/分类页面.gif" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/浏览历史页面.gif" width="32%">
+<img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/登录页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/发现页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/分类页面.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/浏览历史页面.gif" width="32%">
 <img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/闪屏页页面.gif" width="32%">
 <img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/商品详情页页面.gif" width="32%">
 <img src="./example_normal/thirdlib_demos/flutter_jd/assets/screenshots/我的订单页面.gif" width="32%">
