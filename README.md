@@ -84,33 +84,39 @@ web 产物在`ts-pages`分支可查看。
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/AnimatedAppWithRiveUI.gif" width="32%">
 
 - Flutter 电子商务移动应用模板
+
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ECommerceMobileAppUI.gif" width="32%">
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ECommerceComplateAppUI.gif" width="32%">
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ShoeAppUI.gif" width="32%">
 
 - 模拟时钟明暗主题
+
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/AnalogClockLightDarkThemeUI.gif" width="32%">
 
 - 做题效果
+
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/QuizAppUI.gif" width="32%">
 
 - 视差动画效果
+
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/SmartHomeAnimatedAppUI.gif" width="32%">
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ParallaxEffectUI.gif" width="32%">
 
 - 响应式效果
+
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ResponsiveWelcomeLoginAndSignUpUI.gif" width="32%">
 
 - 音乐播放器效果
+
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MusicplayerUI.gif" width="32%">
 
 - 手机罗盘效果
+
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/CompassUI.gif" width="32%">
 
-- Tiktok 滚动效果
-  <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TiktokscrollUI.gif" width="32%">
-
 - 其他
+
+  <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TiktokscrollUI.gif" width="32%">
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ModernSmartHomeUI.gif" width="32%">
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/DonutAppUI.gif" width="32%">
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/WheelscrollUI.gif" width="32%">
