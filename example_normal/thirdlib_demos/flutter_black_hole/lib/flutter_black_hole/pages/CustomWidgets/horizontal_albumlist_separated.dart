@@ -1,22 +1,3 @@
-/*
- *  This file is part of BlackHole (https://github.com/Sangwan5688/BlackHole).
- * 
- * BlackHole is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * BlackHole is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public License
- * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
- * 
- * Copyright (c) 2021-2023, Ankit Sangwan
- */
-
 import 'package:flutter/material.dart';
 import 'package:flutter_black_hole/flutter_black_hole.dart';
 
@@ -109,16 +90,10 @@ class HorizontalAlbumsListSeparated extends StatelessWidget {
                       imageUrl: item['image'].toString(),
                       placeholderImage: (item['type'] == 'playlist' ||
                               item['type'] == 'album')
-                          ? AssetImage(
-                              Utils.assets('images/album.png')
-                            )
+                          ? AssetImage(Utils.assets('images/album.png'))
                           : item['type'] == 'artist'
-                              ? AssetImage(
-                                  Utils.assets('images/artist.png')
-                                )
-                              : AssetImage(
-                                  Utils.assets('images/cover.jpg')
-                                ),
+                              ? AssetImage(Utils.assets('images/artist.png'))
+                              : AssetImage(Utils.assets('images/cover.jpg')),
                     ),
                     trailing: SongTileTrailingMenu(
                       data: item,

@@ -1,22 +1,3 @@
-/*
- *  This file is part of BlackHole (https://github.com/Sangwan5688/BlackHole).
- * 
- * BlackHole is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * BlackHole is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public License
- * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
- * 
- * Copyright (c) 2021-2023, Ankit Sangwan
- */
-
 import 'dart:io';
 
 import 'package:cached_network_image/cached_network_image.dart';
@@ -50,35 +31,7 @@ class Collage extends StatelessWidget {
       child: SizedBox.square(
         dimension: 50,
         child: showGrid
-            ? GridView.count(
-                shrinkWrap: true,
-                physics: const NeverScrollableScrollPhysics(),
-                crossAxisCount: imageList.length < 4 ? 1 : 2,
-                children: (imageList.isEmpty
-                        ? [
-                            {
-                              'image': '',
-                            }
-                          ]
-                        : imageList)
-                    .map(
-                      (image) => CachedNetworkImage(
-                        fit: BoxFit.cover,
-                        errorWidget: (context, _, __) => Image(
-                          fit: BoxFit.cover,
-                          image: AssetImage(placeholderImage),
-                        ),
-                        imageUrl: image['image']
-                            .toString()
-                            .replaceAll('http:', 'https:'),
-                        placeholder: (context, _) => Image(
-                          fit: BoxFit.cover,
-                          image: AssetImage(placeholderImage),
-                        ),
-                      ),
-                    )
-                    .toList(),
-              )
+            ? _buildGridWidget()
             : CachedNetworkImage(
                 fit: BoxFit.cover,
                 errorWidget: (context, _, __) => Image(
@@ -94,6 +47,36 @@ class Collage extends StatelessWidget {
                 ),
               ),
       ),
+    );
+  }
+
+  Widget _buildGridWidget() {
+    return GridView.count(
+      shrinkWrap: true,
+      physics: const NeverScrollableScrollPhysics(),
+      crossAxisCount: imageList.length < 4 ? 1 : 2,
+      children: (imageList.isEmpty
+              ? [
+                  {
+                    'image': '',
+                  }
+                ]
+              : imageList)
+          .map(
+            (image) => CachedNetworkImage(
+              fit: BoxFit.cover,
+              errorWidget: (context, _, __) => Image(
+                fit: BoxFit.cover,
+                image: AssetImage(placeholderImage),
+              ),
+              imageUrl: image['image'].toString().replaceAll('http:', 'https:'),
+              placeholder: (context, _) => Image(
+                fit: BoxFit.cover,
+                image: AssetImage(placeholderImage),
+              ),
+            ),
+          )
+          .toList(),
     );
   }
 }

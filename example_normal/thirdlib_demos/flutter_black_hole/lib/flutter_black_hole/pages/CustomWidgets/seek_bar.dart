@@ -1,22 +1,3 @@
-/*
- *  This file is part of BlackHole (https://github.com/Sangwan5688/BlackHole).
- * 
- * BlackHole is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * BlackHole is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public License
- * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
- * 
- * Copyright (c) 2021-2023, Ankit Sangwan
- */
-
 import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
@@ -30,18 +11,15 @@ class SeekBar extends StatefulWidget {
   final Duration position;
   final Duration bufferedPosition;
   final bool offline;
-  // final double width;
-  // final double height;
   final ValueChanged<Duration>? onChanged;
   final ValueChanged<Duration>? onChangeEnd;
 
   const SeekBar({
+    super.key,
     required this.duration,
     required this.position,
     required this.offline,
     required this.audioHandler,
-    // required this.width,
-    // required this.height,
     this.bufferedPosition = Duration.zero,
     this.onChanged,
     this.onChangeEnd,
@@ -83,16 +61,6 @@ class _SeekBarState extends State<SeekBar> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                // if (widget.offline)
-                //   Text(
-                //     'Offline',
-                //     style: TextStyle(
-                //       fontWeight: FontWeight.w500,
-                //       color: Theme.of(context).disabledColor,
-                //       fontSize: 14.0,
-                //     ),
-                //   )
-                // else
                 const SizedBox(),
                 StreamBuilder<double>(
                   stream: widget.audioHandler.speed,

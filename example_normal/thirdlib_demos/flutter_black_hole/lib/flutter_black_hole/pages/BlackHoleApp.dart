@@ -1,34 +1,8 @@
-/*
- *  This file is part of BlackHole (https://github.com/Sangwan5688/BlackHole).
- * 
- * BlackHole is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * BlackHole is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public License
- * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
- * 
- * Copyright (c) 2021-2023, Ankit Sangwan
- */
-
 import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_black_hole/flutter_black_hole/pages/Constants/constants_index.dart';
-import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/helpers_index.dart';
-import 'package:flutter_black_hole/flutter_black_hole/pages/Providers/providers_index.dart';
-import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/Common/routes.dart';
-import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/Player/audioplayer.dart';
-import 'package:flutter_black_hole/flutter_black_hole/pages/flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:flutter_black_hole/flutter_black_hole/pages/theme/app_theme.dart';
 import 'package:flutter_displaymode/flutter_displaymode.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get_it/get_it.dart';
@@ -38,6 +12,13 @@ import 'package:logging/logging.dart';
 import 'package:metadata_god/metadata_god.dart';
 import 'package:receive_sharing_intent/receive_sharing_intent.dart';
 import 'package:sizer/sizer.dart';
+import 'package:flutter_black_hole/flutter_black_hole/pages/Constants/constants_index.dart';
+import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/helpers_index.dart';
+import 'package:flutter_black_hole/flutter_black_hole/pages/Providers/providers_index.dart';
+import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/Common/routes.dart';
+import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/Player/audioplayer.dart';
+import 'package:flutter_black_hole/flutter_black_hole/pages/flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_black_hole/flutter_black_hole/pages/theme/app_theme.dart';
 
 class BlackHoleApp extends StatefulWidget {
   const BlackHoleApp({super.key});
@@ -82,6 +63,7 @@ class _BlackHoleAppState extends State<BlackHoleApp> {
   }
 
   Future<void> setOptimalDisplayMode() async {
+    // 将首选模式更改为最高刷新率 可保持当前分辨率
     await FlutterDisplayMode.setHighRefreshRate();
     // final List<DisplayMode> supported = await FlutterDisplayMode.supported;
     // final DisplayMode active = await FlutterDisplayMode.active;

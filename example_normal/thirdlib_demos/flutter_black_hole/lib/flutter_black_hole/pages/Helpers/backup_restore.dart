@@ -1,24 +1,3 @@
-// ignore_for_file: use_build_context_synchronously
-
-/*
- *  This file is part of BlackHole (https://github.com/Sangwan5688/BlackHole).
- * 
- * BlackHole is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * BlackHole is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public License
- * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
- * 
- * Copyright (c) 2021-2023, Ankit Sangwan
- */
-
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -53,6 +32,7 @@ Future<void> createBackup(
       await openAppSettings();
     }
   }
+  if (!context.mounted) return;
   final String savePath = path ??
       await Picker.selectFolder(
         context: context,
@@ -100,7 +80,7 @@ Future<void> createBackup(
       for (int i = 0; i < files.length; i++) {
         files[i].delete();
       }
-      if (showDialog) {
+      if (showDialog && context.mounted) {
         ShowSnackBar().showSnackBar(
           context,
           AppLocalizations.of(context)!.backupSuccess,
@@ -108,22 +88,24 @@ Future<void> createBackup(
       }
     } catch (e) {
       Logger.root.severe('Error in creating backup', e);
-      ShowSnackBar().showSnackBar(
-        context,
-        '${AppLocalizations.of(context)!.failedCreateBackup}\nError: $e',
-      );
+      if (context.mounted) {
+        ShowSnackBar().showSnackBar(
+          context,
+          '${AppLocalizations.of(context)!.failedCreateBackup}\nError: $e',
+        );
+      }
     }
   } else {
-    ShowSnackBar().showSnackBar(
-      context,
-      AppLocalizations.of(context)!.noFolderSelected,
-    );
+    if (context.mounted) {
+      ShowSnackBar().showSnackBar(
+        context,
+        AppLocalizations.of(context)!.noFolderSelected,
+      );
+    }
   }
 }
 
-Future<void> restore(
-  BuildContext context,
-) async {
+Future<void> restore(BuildContext context) async {
   Logger.root.info('Prompting for restore file selection');
   final String savePath = await Picker.selectFile(
     context: context,
@@ -160,10 +142,12 @@ Future<void> restore(
         }
       }
       await destinationDir.delete(recursive: true);
+      if (!context.mounted) return;
       ShowSnackBar()
           .showSnackBar(context, AppLocalizations.of(context)!.importSuccess);
     } catch (e) {
       Logger.root.severe('Error in restoring backup', e);
+      if (!context.mounted) return;
       ShowSnackBar().showSnackBar(
         context,
         '${AppLocalizations.of(context)!.failedImport}\nError: $e',
@@ -171,6 +155,7 @@ Future<void> restore(
     }
   } else {
     Logger.root.severe('Error in restoring backup', 'No file selected');
+    if (!context.mounted) return;
     ShowSnackBar().showSnackBar(
       context,
       AppLocalizations.of(context)!.noFileSelected,

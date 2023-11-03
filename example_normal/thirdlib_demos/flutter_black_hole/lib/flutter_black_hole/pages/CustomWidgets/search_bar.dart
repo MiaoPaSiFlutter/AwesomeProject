@@ -1,22 +1,3 @@
-/*
- *  This file is part of BlackHole (https://github.com/Sangwan5688/BlackHole).
- * 
- * BlackHole is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * BlackHole is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public License
- * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
- * 
- * Copyright (c) 2021-2023, Ankit Sangwan
- */
-
 import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
@@ -72,11 +53,7 @@ class _SearchBarState extends State<SearchBar> {
         widget.body,
         ValueListenableBuilder(
           valueListenable: hide,
-          builder: (
-            BuildContext context,
-            bool hidden,
-            Widget? child,
-          ) {
+          builder: (BuildContext context, bool hidden, Widget? child) {
             return Visibility(
               visible: !hidden,
               child: GestureDetector(
@@ -90,16 +67,9 @@ class _SearchBarState extends State<SearchBar> {
         Column(
           children: [
             Card(
-              margin: const EdgeInsets.fromLTRB(
-                18.0,
-                10.0,
-                18.0,
-                15.0,
-              ),
+              margin: const EdgeInsets.fromLTRB(18.0, 10.0, 18.0, 15.0),
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(
-                  10.0,
-                ),
+                borderRadius: BorderRadius.circular(10.0),
               ),
               elevation: 8.0,
               child: SizedBox(
@@ -117,31 +87,7 @@ class _SearchBarState extends State<SearchBar> {
                       ),
                       fillColor: Theme.of(context).colorScheme.secondary,
                       prefixIcon: widget.leading,
-                      suffixIcon: widget.showClose
-                          ? ValueListenableBuilder(
-                              valueListenable: hide,
-                              builder: (
-                                BuildContext context,
-                                bool hidden,
-                                Widget? child,
-                              ) {
-                                return Visibility(
-                                  visible: !hidden,
-                                  child: IconButton(
-                                    icon: const Icon(Icons.close_rounded),
-                                    onPressed: () {
-                                      widget.controller.text = '';
-                                      hide.value = true;
-                                      suggestionsList.value = [];
-                                      if (widget.onQueryCleared != null) {
-                                        widget.onQueryCleared!.call();
-                                      }
-                                    },
-                                  ),
-                                );
-                              },
-                            )
-                          : null,
+                      suffixIcon: _buildSuffixIconWidget(),
                       border: InputBorder.none,
                       hintText: widget.hintText,
                     ),
@@ -200,103 +146,99 @@ class _SearchBarState extends State<SearchBar> {
                 ),
               ),
             ),
-            ValueListenableBuilder(
-              valueListenable: hide,
-              builder: (
-                BuildContext context,
-                bool hidden,
-                Widget? child,
-              ) {
-                return Visibility(
-                  visible: !hidden,
-                  child: ValueListenableBuilder(
-                    valueListenable: suggestionsList,
-                    builder: (
-                      BuildContext context,
-                      List suggestedList,
-                      Widget? child,
-                    ) {
-                      return suggestedList.isEmpty
-                          ? const SizedBox()
-                          : Card(
-                              margin: const EdgeInsets.symmetric(
-                                horizontal: 18.0,
-                              ),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(
-                                  10.0,
-                                ),
-                              ),
-                              elevation: 8.0,
-                              child: SizedBox(
-                                height: min(
-                                  MediaQuery.sizeOf(context).height / 1.75,
-                                  70.0 * suggestedList.length,
-                                ),
-                                child: ListView.builder(
-                                  physics: const BouncingScrollPhysics(),
-                                  padding: const EdgeInsets.only(
-                                    top: 10,
-                                    bottom: 10,
-                                  ),
-                                  shrinkWrap: true,
-                                  itemExtent: 70.0,
-                                  itemCount: suggestedList.length,
-                                  itemBuilder: (context, index) {
-                                    return ListTile(
-                                      leading:
-                                          const Icon(CupertinoIcons.search),
-                                      title: Text(
-                                        suggestedList[index].toString(),
-                                        overflow: TextOverflow.ellipsis,
-                                      ),
-                                      onTap: () {
-                                        widget.onSubmitted(
-                                          suggestedList[index].toString(),
-                                        );
-                                        hide.value = true;
-                                        List searchQueries =
-                                            Hive.box('settings').get(
-                                          'search',
-                                          defaultValue: [],
-                                        ) as List;
-                                        if (searchQueries.contains(
-                                          suggestedList[index]
-                                              .toString()
-                                              .trim(),
-                                        )) {
-                                          searchQueries.remove(
-                                            suggestedList[index]
-                                                .toString()
-                                                .trim(),
-                                          );
-                                        }
-                                        searchQueries.insert(
-                                          0,
-                                          suggestedList[index]
-                                              .toString()
-                                              .trim(),
-                                        );
-                                        if (searchQueries.length > 10) {
-                                          searchQueries =
-                                              searchQueries.sublist(0, 10);
-                                        }
-                                        Hive.box('settings')
-                                            .put('search', searchQueries);
-                                      },
-                                    );
-                                  },
-                                ),
-                              ),
-                            );
-                    },
-                  ),
-                );
-              },
-            ),
+            _buildSuggestionsListWidget()
           ],
         ),
       ],
     );
+  }
+
+  Widget? _buildSuffixIconWidget() {
+    return widget.showClose
+        ? ValueListenableBuilder(
+            valueListenable: hide,
+            builder: (BuildContext context, bool hidden, Widget? child) {
+              return Visibility(
+                visible: !hidden,
+                child: IconButton(
+                  icon: const Icon(Icons.close_rounded),
+                  onPressed: () {
+                    widget.controller.text = '';
+                    hide.value = true;
+                    suggestionsList.value = [];
+                    if (widget.onQueryCleared != null) {
+                      widget.onQueryCleared!.call();
+                    }
+                  },
+                ),
+              );
+            },
+          )
+        : null;
+  }
+
+  Widget _buildSuggestionsListWidget() {
+    return ValueListenableBuilder(
+      valueListenable: hide,
+      builder: (BuildContext context, bool hidden, Widget? child) {
+        return Visibility(
+          visible: !hidden,
+          child: ValueListenableBuilder(
+            valueListenable: suggestionsList,
+            builder: (BuildContext context, List suggestedList, Widget? child) {
+              return suggestedList.isEmpty
+                  ? const SizedBox()
+                  : Card(
+                      margin: const EdgeInsets.symmetric(horizontal: 18.0),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10.0),
+                      ),
+                      elevation: 8.0,
+                      child: SizedBox(
+                        height: min(
+                          MediaQuery.sizeOf(context).height / 1.75,
+                          70.0 * suggestedList.length,
+                        ),
+                        child: ListView.builder(
+                          physics: const BouncingScrollPhysics(),
+                          padding: const EdgeInsets.only(top: 10, bottom: 10),
+                          shrinkWrap: true,
+                          itemExtent: 70.0,
+                          itemCount: suggestedList.length,
+                          itemBuilder: (context, index) {
+                            return ListTile(
+                              leading: const Icon(CupertinoIcons.search),
+                              title: Text(
+                                suggestedList[index].toString(),
+                                overflow: TextOverflow.ellipsis,
+                              ),
+                              onTap: () {
+                                _onTapSuggestedList(suggestedList, index);
+                              },
+                            );
+                          },
+                        ),
+                      ),
+                    );
+            },
+          ),
+        );
+      },
+    );
+  }
+
+  void _onTapSuggestedList(List suggestedList, int index) {
+    widget.onSubmitted(suggestedList[index].toString());
+    hide.value = true;
+    List searchQueries =
+        Hive.box('settings').get('search', defaultValue: []) as List;
+    if (searchQueries.contains(suggestedList[index].toString().trim())) {
+      searchQueries.remove(suggestedList[index].toString().trim());
+    }
+    searchQueries.insert(0, suggestedList[index].toString().trim());
+    if (searchQueries.length > 10) {
+      searchQueries = searchQueries.sublist(0, 10);
+    }
+    Hive.box('settings').put('search', searchQueries);
   }
 }

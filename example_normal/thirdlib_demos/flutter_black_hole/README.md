@@ -1,3 +1,5 @@
+# [代码实现来源](https://github.com/Sangwan5688/BlackHole)
+
 ### [【国际化 Intl】Flutter 国际化多语言实践](https://blog.csdn.net/daddykei/article/details/128124815)
 
 #### 第一步，添加 intl and flutter_localizations，并启动 generate 标志：
@@ -67,3 +69,7 @@ Text(AppLocalizations.of(context)!.helloWorld);
 
 版权声明：本文为 CSDN 博主「ThinkerWing」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/daddykei/article/details/128124815
+
+## Screenshots
+
+<img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png?raw=true" width="32%">
