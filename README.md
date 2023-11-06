@@ -68,6 +68,10 @@ web 产物在`ts-pages`分支可查看。
 
   <img src="./example_normal/thirdlib_demos/flutter_muet_attendance_taking_app/assets/screenshots/MuetAttendanceTakingApp.png" width="32%">
 
+## [一个美食中心 APP](https://github.com/radensaleh/FoodHub-App)
+
+<img src="./example_normal/thirdlib_demos/flutter_foodhub_app/assets/screenshots/banner-dark-theme.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_foodhub_app/assets/screenshots/banner-light-theme.png" width="32%">
+
 ##### Flutter 精美 UI 截图
 
 - 一个旅行类的 APP

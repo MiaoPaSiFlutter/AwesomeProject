@@ -12,6 +12,7 @@ import 'package:canvas_demo/canvas_demo.dart';
 import 'package:common_demo/common_demo.dart';
 import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_books/flutter_books.dart';
+import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 import 'package:flutter_jd/flutter_jd.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
 import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
@@ -54,6 +55,11 @@ class ExamplConfig {
       leftMsg: "通过手机记录学生的出勤情况，并生成文本或图像形式的报告",
       router: MuetAttendanceTakingModuleRouterS.HOME,
     ),
+    HzyNormalItemModel(
+      leftMsg: "一个美食中心APP",
+      router: FoodHubAppModuleRouterS.HOME,
+    ),
+    
 
     HzyNormalItemModel(
       leftMsg: "extended_sliver_demo",

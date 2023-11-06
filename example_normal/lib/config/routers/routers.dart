@@ -6,6 +6,7 @@ import 'package:example_normal/modules/example_module/routers/example_module_pag
 import 'package:example_normal/modules/my_module/routers/my_module_pages.dart';
 import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_books/flutter_books.dart';
+import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 // 京东模块儿
 import 'package:flutter_jd/flutter_jd.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
@@ -33,6 +34,7 @@ class RouterS {
       ...WeatherModulePagesS.routerS,
       ...BlackHoleModulePagesS.routerS,
       ...MuetAttendanceTakingModulePagesS.routerS,
+      ...FoodHubAppModulePagesS.routerS,
     ];
   }
 

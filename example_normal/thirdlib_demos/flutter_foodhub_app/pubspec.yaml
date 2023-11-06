@@ -1,0 +1,51 @@
+name: flutter_foodhub_app
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "http"
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../thirdlib/hzy_common_module/
+  # 为您的 dart 和 flutter 项目带来 HexColor，将材质颜色转换为十六进制颜色
+  hexcolor: ^3.0.1
+  # 一个高度可定制、功能强大且易于使用的 Flutter 警报库。
+  flash: ^3.0.5+1
+  # Flutter plugin for SQLite, a self-contained, high-reliability, embedded, SQL database engine.
+  sqflite: ^2.3.0
+  # Flutter 插件，用于访问 Android AlarmManager 服务，并在警报触发时在后台运行 Dart 代码。
+  android_alarm_manager_plus: ^3.0.2
+  # RxDart 是流行的reactiveX api 的实现，用于异步编程，利用本机Dart Streams api。
+  rxdart: ^0.27.7
+  # 一个跨平台插件，用于显示和调度 Flutter 应用程序的本地通知，并且能够针对每个平台进行自定义。
+  flutter_local_notifications: ^15.1.1
+  # 包含处理国际化/本地化消息、日期和数字格式和解析、双向文本以及其他国际化问题的代码。
+  intl: ^0.18.1
+  # 用于检查小部件的 Flutter 包。  对于快速调试或 QA 测试很有用。
+  inspector: ^2.1.0
+  # 通过 Inspection，您可以像 Laravel 框架一样验证 Flutter 和 Dart 中的输入。
+  inspection:
+    git:
+      url: https://github.com/radensaleh/inspection.git
+      ref: master
+
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/json/
+  fonts:
+    - family: sofia
+      fonts:
+        - asset: assets/fonts/sofiapro-light.otf
