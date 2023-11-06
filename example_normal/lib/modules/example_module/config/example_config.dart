@@ -15,6 +15,7 @@ import 'package:flutter_books/flutter_books.dart';
 import 'package:flutter_jd/flutter_jd.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
 import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
+import 'package:flutter_muet_attendance_taking_app/flutter_muet_attendance_taking_app.dart';
 import 'package:flutter_weather/flutter_weather.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:scrollerview_demo/scrollerview_demo.dart';
@@ -42,13 +43,18 @@ class ExamplConfig {
       router: WeatherModuleRouterS.HOME,
     ),
     HzyNormalItemModel(
-      leftMsg: "MitchkokoModule",
+      leftMsg: "Flutter 精美 UI 截图",
       router: MitchkokoModuleRouterS.HOME,
     ),
     HzyNormalItemModel(
-      leftMsg: "BlackHoleModule",
+      leftMsg: "一款开源的音乐播放器应用程序！",
       router: BlackHoleModuleRouterS.HOME,
     ),
+    HzyNormalItemModel(
+      leftMsg: "通过手机记录学生的出勤情况，并生成文本或图像形式的报告",
+      router: MuetAttendanceTakingModuleRouterS.HOME,
+    ),
+
     HzyNormalItemModel(
       leftMsg: "extended_sliver_demo",
       router: ExtendedSliverModuleRouterS.HOME,

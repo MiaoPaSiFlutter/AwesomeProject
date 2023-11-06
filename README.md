@@ -66,6 +66,10 @@ web 产物在`ts-pages`分支可查看。
 
 ##### Flutter 精美 UI 截图
 
+- 一个通过手机记录学生的出勤情况，并生成文本或图像形式的报告的 APP。
+
+  <img src="./example_normal/thirdlib_demos/flutter_muet_attendance_taking_app/assets/screenshots/MuetAttendanceTakingApp.png" width="32%">
+
 - 一个旅行类的 APP
 
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/AnimatedTravelAppUI.gif" width="32%">
