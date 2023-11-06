@@ -64,11 +64,11 @@ web 产物在`ts-pages`分支可查看。
 
 <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png?raw=true" width="32%">
 
-##### Flutter 精美 UI 截图
-
-- 一个通过手机记录学生的出勤情况，并生成文本或图像形式的报告的 APP。
+## [一个通过手机记录学生的出勤情况，并生成文本或图像形式的报告的 APP。](https://github.com/rashidwassan/muet-attendance-taking-app)
 
   <img src="./example_normal/thirdlib_demos/flutter_muet_attendance_taking_app/assets/screenshots/MuetAttendanceTakingApp.png" width="32%">
+
+##### Flutter 精美 UI 截图
 
 - 一个旅行类的 APP
 
