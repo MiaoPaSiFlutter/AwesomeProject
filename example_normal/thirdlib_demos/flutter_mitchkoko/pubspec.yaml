@@ -7,6 +7,12 @@ environment:
   sdk: ">=3.1.3 <4.0.0"
   flutter: ">=1.17.0"
 dependencies:
+  # Flutter 的条形码生成小部件，支持标准条形码。
+  barcode_widget: ^2.0.4
+  # 基于官方仓库的 Flutter 的 Microsoft Fluent UI Icons 包
+  fluentui_icons: ^1.0.0
+  # Flutter 小部件可轻松在 Flex 小部件内添加间隙，例如列和行或滚动视图。
+  gap: ^3.0.1
   # 提供了 Flutter 网格布局的集合（交错、砖石、绗缝、编织等）。
   flutter_staggered_grid_view: ^0.7.0
   # 一个 Flutter 插件，可轻松使 Flutter 应用程序响应。  自动调整 UI 以适应不同的屏幕尺寸。  响应能力变得简单。
@@ -91,6 +97,7 @@ flutter:
     - assets/OnlineShoppingAppUI/icons/profile/
     - assets/OnlineShoppingAppUI/icons/detail/
     - assets/TaskManagementAppUI/svg/
+    - assets/TicketBookingAppUI/images/
     - assets/screenshots/
 
   fonts:

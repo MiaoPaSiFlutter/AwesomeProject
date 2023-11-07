@@ -23,6 +23,7 @@ import 'ResponsiveWelcomeLoginAndSignUpUI/ResponsiveWelcomeLoginAndSignUpUI.dart
 import 'ShoeAppUI/ShoeAppUI.dart';
 import 'SmartHomeAnimatedAppUI/SmartHomeAnimatedAppUI.dart';
 import 'TaskManagementAppUI/TaskManagementAppUI.dart';
+import 'TicketBookingAppUI/TicketBookingAppUI.dart';
 import 'TiktokscrollUI/TiktokscrollUI.dart';
 import 'WheelscrollUI/WheelscrollUI.dart';
 
@@ -38,6 +39,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个在线订票的APP',
+          description: '',
+          date: '2022年12月29日',
+          tags: ['订票'],
+          gifOrPictures: ['screenshots/TicketBookingAppUI.gif'],
+          app: const TicketBookingAppUI(),
+          author: 'theMistDev - Github',
+          url: 'https://github.com/theMistDev/ticket-booking-app'),
       InterestingUIModel(
           title: '一个日常费用和财务管理的APP',
           description: '',
