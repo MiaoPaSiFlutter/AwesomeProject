@@ -7,6 +7,8 @@ environment:
   sdk: ">=3.1.3 <4.0.0"
   flutter: ">=1.17.0"
 dependencies:
+  # 仅显示文本的第一行并添加链接以展开全文的小部件。
+  expandable_text: ^2.3.0
   # Ionicons 是一个完全开源的图标集，包含专为 Web、iOS、Android 和桌面应用程序制作的 1k3+ 图标。  他们有 Material Design 和 iOS 版本。
   ionicons: ^0.2.2
   # 例如，用于显示页面浏览进度的点指示器
@@ -76,6 +78,15 @@ flutter:
     - assets/ShoeAppUI/icons/
     - assets/ShoeAppUI/images/
     - assets/AnimatedTravelAppUI/images/
+    - assets/OnlineShoppingAppUI/icons/
+    - assets/OnlineShoppingAppUI/icons/tabbar/bold/
+    - assets/OnlineShoppingAppUI/icons/tabbar/light/
+    - assets/OnlineShoppingAppUI/icons/light/
+    - assets/OnlineShoppingAppUI/icons/bold/
+    - assets/OnlineShoppingAppUI/icons/products/
+    - assets/OnlineShoppingAppUI/icons/profile/
+    - assets/OnlineShoppingAppUI/icons/detail/
+
     - assets/screenshots/
 
   fonts:
@@ -133,4 +144,12 @@ flutter:
         - asset: assets/AnimatedTravelAppUI/fonts/Montserrat-SemiBold.otf
           weight: 400
         - asset: assets/AnimatedTravelAppUI/fonts/Montserrat-Bold.otf
+          weight: 700
+    ### OnlineShoppingAppUI
+    - family: Urbanist
+      fonts:
+        - asset: assets/OnlineShoppingAppUI/fonts/Urbanist-Regular.ttf
+        - asset: assets/OnlineShoppingAppUI/fonts/Urbanist-Medium.ttf
+          weight: 500
+        - asset: assets/OnlineShoppingAppUI/fonts/Urbanist-Bold.ttf
           weight: 700

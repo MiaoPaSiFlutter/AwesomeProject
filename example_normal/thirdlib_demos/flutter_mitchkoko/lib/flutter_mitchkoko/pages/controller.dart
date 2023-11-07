@@ -16,6 +16,7 @@ import 'MeditationAppUI/MeditationAppUI.dart';
 import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
 import 'MusicplayerUI/MusicplayerUI.dart';
 import 'NFTappuiUI/NFTappuiUI.dart';
+import 'OnlineShoppingAppUI/OnlineShoppingAppUI.dart';
 import 'ParallaxEffectUI/ParallaxEffectUI.dart';
 import 'QuizAppUI/QuizAppUI.dart';
 import 'ResponsiveWelcomeLoginAndSignUpUI/ResponsiveWelcomeLoginAndSignUpUI.dart';
@@ -36,6 +37,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个商城购物APP',
+          description: '',
+          date: '2022年10月30日',
+          tags: ['商城'],
+          gifOrPictures: ['screenshots/OnlineShoppingAppUI.gif'],
+          app: const OnlineShoppingAppUI(),
+          author: 'Mansurisodev - Github',
+          url: 'https://github.com/Mansurisodev/online_shopping'),
       InterestingUIModel(
           title: '一个旅行类的APP',
           description: '',
