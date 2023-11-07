@@ -22,6 +22,7 @@ import 'QuizAppUI/QuizAppUI.dart';
 import 'ResponsiveWelcomeLoginAndSignUpUI/ResponsiveWelcomeLoginAndSignUpUI.dart';
 import 'ShoeAppUI/ShoeAppUI.dart';
 import 'SmartHomeAnimatedAppUI/SmartHomeAnimatedAppUI.dart';
+import 'TaskManagementAppUI/TaskManagementAppUI.dart';
 import 'TiktokscrollUI/TiktokscrollUI.dart';
 import 'WheelscrollUI/WheelscrollUI.dart';
 
@@ -37,6 +38,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个日常费用和财务管理的APP',
+          description: '',
+          date: '2022年1月25日',
+          tags: ['财务管理'],
+          gifOrPictures: ['screenshots/TaskManagementAppUI.gif'],
+          app: const TaskManagementAppUI(),
+          author: 'MuriithiEric - Github',
+          url: 'https://github.com/MuriithiEric/task_management.git'),
       InterestingUIModel(
           title: '一个商城购物APP',
           description: '',
