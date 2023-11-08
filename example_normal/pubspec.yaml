@@ -38,6 +38,8 @@ dependencies:
     path: ./thirdlib_demos/flutter_muet_attendance_taking_app
   flutter_foodhub_app:
     path: ./thirdlib_demos/flutter_foodhub_app
+  flutter_paytabs_tickets_app:
+    path: ./thirdlib_demos/flutter_paytabs_tickets_app
 
   extended_sliver_demo:
     path: ./thirdlib_demos/extended_sliver_demo

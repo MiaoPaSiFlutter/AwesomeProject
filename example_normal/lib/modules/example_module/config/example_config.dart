@@ -17,6 +17,7 @@ import 'package:flutter_jd/flutter_jd.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
 import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
 import 'package:flutter_muet_attendance_taking_app/flutter_muet_attendance_taking_app.dart';
+import 'package:flutter_paytabs_tickets_app/flutter_paytabs_tickets_app.dart';
 import 'package:flutter_weather/flutter_weather.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:scrollerview_demo/scrollerview_demo.dart';
@@ -59,7 +60,10 @@ class ExamplConfig {
       leftMsg: "一个美食中心APP",
       router: FoodHubAppModuleRouterS.HOME,
     ),
-    
+    HzyNormalItemModel(
+      leftMsg: "一个在线售卖门票的APP - api已不可用",
+      router: PaytabsTicketsModuleRouterS.HOME,
+    ),
 
     HzyNormalItemModel(
       leftMsg: "extended_sliver_demo",

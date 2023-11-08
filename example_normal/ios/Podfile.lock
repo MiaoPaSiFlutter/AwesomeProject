@@ -54,6 +54,9 @@ PODS:
     - Flutter
   - flutter_local_notifications (0.0.1):
     - Flutter
+  - flutter_paytabs_bridge (2.4.0):
+    - Flutter
+    - PayTabsSDK (= 6.6.4)
   - flutter_sensors (0.0.1):
     - Flutter
   - fluttertoast (0.0.2):
@@ -79,6 +82,7 @@ PODS:
   - path_provider_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
+  - PayTabsSDK (6.6.4)
   - permission_handler_apple (9.1.1):
     - Flutter
   - photo_manager (2.0.0):
@@ -128,6 +132,7 @@ DEPENDENCIES:
   - flutter_archive (from `.symlinks/plugins/flutter_archive/ios`)
   - flutter_compass (from `.symlinks/plugins/flutter_compass/ios`)
   - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - flutter_paytabs_bridge (from `.symlinks/plugins/flutter_paytabs_bridge/ios`)
   - flutter_sensors (from `.symlinks/plugins/flutter_sensors/ios`)
   - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
   - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
@@ -156,6 +161,7 @@ SPEC REPOS:
     - DKImagePickerController
     - DKPhotoGallery
     - FMDB
+    - PayTabsSDK
     - ReachabilitySwift
     - SDWebImage
     - SwiftyBeaver
@@ -186,6 +192,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_compass/ios"
   flutter_local_notifications:
     :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  flutter_paytabs_bridge:
+    :path: ".symlinks/plugins/flutter_paytabs_bridge/ios"
   flutter_sensors:
     :path: ".symlinks/plugins/flutter_sensors/ios"
   fluttertoast:
@@ -245,6 +253,7 @@ SPEC CHECKSUMS:
   flutter_archive: 1805fdd3a695fd284b43edb53dc35ca843fb761c
   flutter_compass: cbbd285cea1584c7ac9c4e0c3e1f17cbea55e855
   flutter_local_notifications: 0c0b1ae97e741e1521e4c1629a459d04b9aec743
+  flutter_paytabs_bridge: 9eae3b1a7aa05f4810a6231e612fcb76f53248ee
   flutter_sensors: dc6eed3291e7724bf8f4138d7d14c4071b42bd29
   fluttertoast: fafc4fa4d01a6a9e4f772ecd190ffa525e9e2d9c
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
@@ -256,6 +265,7 @@ SPEC CHECKSUMS:
   on_audio_query_ios: e5afb0d4b42cfa3e8762d8ec1953540cb4f02100
   package_info_plus: fd030dabf36271f146f1f3beacd48f564b0f17f7
   path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  PayTabsSDK: 589dba67c4271335197b2cb8c44b43bd9b1faf84
   permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
   photo_manager: 4f6810b7dfc4feb03b461ac1a70dacf91fba7604
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825

@@ -415,6 +415,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.3.3"
+  dartz:
+    dependency: transitive
+    description:
+      name: dartz
+      sha256: e6acf34ad2e31b1eb00948692468c30ab48ac8250e0f0df661e29f12dd252168
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.10.1"
   dbus:
     dependency: transitive
     description:
@@ -447,6 +455,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "7.0.0"
+  device_preview:
+    dependency: transitive
+    description:
+      name: device_preview
+      sha256: "2f097bf31b929e15e6756dbe0ec1bcb63952ab9ed51c25dc5a2c722d2b21fdaf"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.1.0"
   dio:
     dependency: transitive
     description:
@@ -826,6 +842,21 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  flutter_paytabs_bridge:
+    dependency: transitive
+    description:
+      name: flutter_paytabs_bridge
+      sha256: b2dd69262c1203c92aa5612429614c2ac08a67645d6b233d094cd7648e7037f9
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.6.3"
+  flutter_paytabs_tickets_app:
+    dependency: "direct main"
+    description:
+      path: "thirdlib_demos/flutter_paytabs_tickets_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   flutter_plugin_android_lifecycle:
     dependency: transitive
     description:
@@ -838,10 +869,10 @@ packages:
     dependency: transitive
     description:
       name: flutter_riverpod
-      sha256: bdba94be666ecb1beeb0f5a748d96cdd6a37215f27e6b48c7673b95cecb800c8
+      sha256: "305203d1578f6857675f9730568548b03900ce53afd319f4aa9d2fa943334dbe"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "2.4.4"
+    version: "2.4.5"
   flutter_rust_bridge:
     dependency: transitive
     description:
@@ -1854,10 +1885,10 @@ packages:
     dependency: transitive
     description:
       name: riverpod
-      sha256: "2af3d127a6e4e34b89b8f1f018086f5ded04b8e538174f0510bba3e4c0d878b1"
+      sha256: "2e84315036e64c59affaff7443dea51247bc2fe704461a32f26a27986fb63d55"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "2.4.4"
+    version: "2.4.5"
   rxdart:
     dependency: transitive
     description:
