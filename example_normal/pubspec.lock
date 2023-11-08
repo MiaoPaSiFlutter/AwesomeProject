@@ -842,6 +842,13 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  flutter_oorbswallpaper_app:
+    dependency: "direct main"
+    description:
+      path: "thirdlib_demos/flutter_oorbswallpaper_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   flutter_paytabs_bridge:
     dependency: transitive
     description:
