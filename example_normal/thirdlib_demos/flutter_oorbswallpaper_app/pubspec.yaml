@@ -10,8 +10,6 @@ dependencies:
   # 通用
   hzy_common_module:
     path: ../../thirdlib/hzy_common_module/
-    flutter_localizations:
-    sdk: flutter
   # # Flutter 小部件可自动调整文本大小以完美适合其边界。
   # auto_size_text: 3.0.0
   # # 用于加载和缓存网络图像的 Flutter 库。  还可以与占位符和错误小部件一起使用。

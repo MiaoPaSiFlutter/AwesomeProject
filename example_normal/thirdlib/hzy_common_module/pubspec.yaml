@@ -41,7 +41,7 @@ dependencies:
   # 路由
   get: 4.6.6
   # 使用 Dart Streams 来解耦应用程序的简单事件总线
-  event_bus_plus: ^0.6.1
+  event_bus_plus: 0.6.1
   # 基础项目工具
   hzy_normal_tool:
     path: ../hzy_normal_tool/

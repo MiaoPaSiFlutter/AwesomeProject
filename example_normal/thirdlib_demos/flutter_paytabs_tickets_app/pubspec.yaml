@@ -11,21 +11,22 @@ dependencies:
   hzy_common_module:
     path: ../../thirdlib/hzy_common_module/
   # 一种从应用程序中的任何位置访问状态的简单方法，同时健壮且可测试。
-  flutter_riverpod: ^2.4.5
+  flutter_riverpod: 2.4.5
   # Flutter 的 SVG 渲染和小部件库，允许绘制和显示可扩展矢量图形 1.1 文件。
-  flutter_svg: ^2.0.7
+  flutter_svg: 2.0.8
   # 提供了 Flutter 网格布局的集合（交错、砖石、绗缝、编织等）。
-  flutter_staggered_grid_view: ^0.7.0
+  flutter_staggered_grid_view: 0.7.0
   # Flutter 插件用于通过平台共享 UI 共享内容，在 Android 上使用 ACTION_SEND 意图，在 iOS 上使用 UIActivityViewController。
-  share_plus: ^7.1.0
+  share_plus: 7.2.1
   # 一个 Flutter 插件，在 Android 和 iOS 上提供 WebView 小部件。
-  webview_flutter: ^4.2.3
+  webview_flutter: 4.2.3
   # Dart 中的函数式编程。  使用高效的不可变数据结构、monad、镜头和其他 FP 工具来净化您的 Dart 代码。
-  dartz: ^0.10.1
+  dartz: 0.10.1
   # Paytabs 的 Flutter 插件，用于使用卡、Aps 等处理付款。
-  flutter_paytabs_bridge: ^2.6.3
+  flutter_paytabs_bridge: 2.6.3
   # 大致了解您的 Flutter 应用程序在其他设备上的外观和执行情况。
-  device_preview: ^1.1.0
+  device_preview: 1.1.0
+
   flutter:
     sdk: flutter
 dev_dependencies:
