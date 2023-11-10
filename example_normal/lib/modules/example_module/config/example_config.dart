@@ -66,7 +66,7 @@ class ExamplConfig {
       router: PaytabsTicketsModuleRouterS.HOME,
     ),
     HzyNormalItemModel(
-      leftMsg: "一个壁纸的APP（已集成谷歌广告，可增加收益）",
+      leftMsg: "一个壁纸的APP",
       router: OorbsWallpaperModuleRouterS.HOME,
     ),
 

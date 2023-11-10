@@ -66,11 +66,15 @@ web 产物在`ts-pages`分支可查看。
 
 ## [一个通过手机记录学生的出勤情况，并生成文本或图像形式的报告的 APP。](https://github.com/rashidwassan/muet-attendance-taking-app)
 
-  <img src="./example_normal/thirdlib_demos/flutter_muet_attendance_taking_app/assets/screenshots/MuetAttendanceTakingApp.png" width="32%">
+<img src="./example_normal/thirdlib_demos/flutter_muet_attendance_taking_app/assets/screenshots/MuetAttendanceTakingApp.png" width="32%">
 
 ## [一个美食中心 APP](https://github.com/radensaleh/FoodHub-App)
 
 <img src="./example_normal/thirdlib_demos/flutter_foodhub_app/assets/screenshots/banner-dark-theme.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_foodhub_app/assets/screenshots/banner-light-theme.png" width="32%">
+
+## [一个壁纸的 APP](https://github.com/barandenizdogan/OORBSWALLPAPER)
+
+<img src="./example_normal/thirdlib_demos/flutter_oorbswallpaper_app/assets/screenshots/flutter_oorbswallpaper_app.gif" width="32%">
 
 ##### Flutter 精美 UI 截图
 
