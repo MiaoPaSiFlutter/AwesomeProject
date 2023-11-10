@@ -78,6 +78,10 @@ web 产物在`ts-pages`分支可查看。
 
 ##### Flutter 精美 UI 截图
 
+- 一个仿 Instagram UI 的 APP
+
+  <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/InstagramUIRedesignUI.gif" width="32%">
+
 - 一个在线订票的 APP
 
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TicketBookingAppUI.gif" width="32%">

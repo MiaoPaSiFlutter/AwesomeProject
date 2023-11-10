@@ -51,6 +51,8 @@ dependencies:
   # 使用 fonts.google.com 字体的 Flutter 包。
   # 支持 HTTP 获取、缓存和资源捆绑。
   google_fonts: 5.1.0
+  # Flutter 小部件可自动调整文本大小以完美适合其边界。
+  auto_size_text: 3.0.0
 
   flutter:
     sdk: flutter
@@ -98,6 +100,10 @@ flutter:
     - assets/OnlineShoppingAppUI/icons/detail/
     - assets/TaskManagementAppUI/svg/
     - assets/TicketBookingAppUI/images/
+    - assets/InstagramUIRedesignUI/
+    - assets/InstagramUIRedesignUI/icons/
+    - assets/InstagramUIRedesignUI/images/
+    - assets/InstagramUIRedesignUI/postImgs/
     - assets/screenshots/
 
   fonts:

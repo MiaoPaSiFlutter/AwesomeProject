@@ -11,6 +11,7 @@ import 'ECommerceComplateAppUI/ECommerceComplateAppUI.dart';
 import 'ECommerceMobileAppUI/ECommerceMobileAppUI.dart';
 import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
+import 'InstagramUIRedesignUI/InstagramUIRedesignUI.dart';
 import 'MathGameUI/MathGameUI.dart';
 import 'MeditationAppUI/MeditationAppUI.dart';
 import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
@@ -39,6 +40,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个仿 Instagram UI 的APP',
+          description: '',
+          date: '2022年11月6日',
+          tags: ['Instagram'],
+          gifOrPictures: ['screenshots/InstagramUIRedesignUI.gif'],
+          app: const InstagramUIRedesignUI(),
+          author: 'anasfik - Github',
+          url: 'https://github.com/anasfik/instagram_ui_redesign'),
       InterestingUIModel(
           title: '一个在线订票的APP',
           description: '',
