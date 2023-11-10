@@ -23,6 +23,8 @@ dependencies:
   get: ^4.6.5
   hzy_common_module:
     path: ./thirdlib/hzy_common_module
+  json_path:
+    path: ./thirdlib/jessie
 
   flutter_jd:
     path: ./thirdlib_demos/flutter_jd
