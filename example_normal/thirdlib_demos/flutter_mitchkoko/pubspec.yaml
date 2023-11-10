@@ -53,6 +53,8 @@ dependencies:
   google_fonts: 5.1.0
   # Flutter 小部件可自动调整文本大小以完美适合其边界。
   auto_size_text: 3.0.0
+  # 用于创建徽章的包。  徽章可用作任何小部件的附加标记，例如显示购物车中的多个商品。
+  badges: 3.1.2
 
   flutter:
     sdk: flutter
@@ -104,6 +106,11 @@ flutter:
     - assets/InstagramUIRedesignUI/icons/
     - assets/InstagramUIRedesignUI/images/
     - assets/InstagramUIRedesignUI/postImgs/
+    - assets/FacebookUIRedesignUI/images/
+    - assets/FacebookUIRedesignUI/images/post/
+    - assets/FacebookUIRedesignUI/images/product/
+    - assets/FacebookUIRedesignUI/images/story/
+    - assets/FacebookUIRedesignUI/images/user/
     - assets/screenshots/
 
   fonts:
@@ -170,3 +177,7 @@ flutter:
           weight: 500
         - asset: assets/OnlineShoppingAppUI/fonts/Urbanist-Bold.ttf
           weight: 700
+    ### FacebookUIRedesignUI
+    - family: Klavika
+      fonts:
+        - asset: assets/FacebookUIRedesignUI/fonts/klavika-bold.otf

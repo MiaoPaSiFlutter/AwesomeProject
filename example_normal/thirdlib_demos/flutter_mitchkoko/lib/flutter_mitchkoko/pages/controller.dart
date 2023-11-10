@@ -10,6 +10,7 @@ import 'DonutAppUI/DonutAppUI.dart';
 import 'ECommerceComplateAppUI/ECommerceComplateAppUI.dart';
 import 'ECommerceMobileAppUI/ECommerceMobileAppUI.dart';
 import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
+import 'FacebookUIRedesignUI/FacebookUIRedesignUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
 import 'InstagramUIRedesignUI/InstagramUIRedesignUI.dart';
 import 'MathGameUI/MathGameUI.dart';
@@ -40,6 +41,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个仿 Facebook UI 的APP',
+          description: '',
+          date: '2022年6月10日',
+          tags: ['Instagram'],
+          gifOrPictures: ['screenshots/FacebookUIRedesignUI.gif'],
+          app: const FacebookUIRedesignUI(),
+          author: 'Mhassanbughio - Github',
+          url: 'https://github.com/Mhassanbughio/Facbook_UI_Flutter'),
       InterestingUIModel(
           title: '一个仿 Instagram UI 的APP',
           description: '',
