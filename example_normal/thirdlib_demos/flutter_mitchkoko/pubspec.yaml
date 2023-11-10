@@ -65,7 +65,8 @@ dependencies:
   video_player: 2.7.0
   # RxDart 是流行的reactiveX api 的实现，用于异步编程，利用本机Dart Streams api。
   rxdart: 0.27.7
-
+  # 用于在应用程序中创建 OTP 文本字段小部件的 flutter 包。
+  otp_text_field: 1.1.3
   flutter:
     sdk: flutter
 dev_dependencies:

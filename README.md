@@ -151,6 +151,7 @@ web 产物在`ts-pages`分支可查看。
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ModernSmartHomeUI.gif" width="32%">
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/DonutAppUI.gif" width="32%">
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/WheelscrollUI.gif" width="32%">
+  <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/GoplanAppUI.gif" width="32%">
 
 ## 整体思路
 

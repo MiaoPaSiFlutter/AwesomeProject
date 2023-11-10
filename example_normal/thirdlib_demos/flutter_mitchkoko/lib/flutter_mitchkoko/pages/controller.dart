@@ -12,6 +12,7 @@ import 'ECommerceComplateAppUI/ECommerceComplateAppUI.dart';
 import 'ECommerceMobileAppUI/ECommerceMobileAppUI.dart';
 import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 import 'FacebookUIRedesignUI/FacebookUIRedesignUI.dart';
+import 'GoplanAppUI/GoplanAppUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
 import 'InstagramUIRedesignUI/InstagramUIRedesignUI.dart';
 import 'MathGameUI/MathGameUI.dart';
@@ -115,6 +116,15 @@ class MitchkokoHomeController extends GetxController {
           app: const ShoeAppUI(),
           author: 'rashidwassan - Github',
           url: 'https://github.com/rashidwassan/flutter-ecommerce-app-ui'),
+      InterestingUIModel(
+          title: '一个基于GetX的登录｜注册｜忘记密码等基础界面的模板APP',
+          description: '',
+          date: '2022年6月10日',
+          tags: ['登录', '注册', '忘记密码'],
+          gifOrPictures: ['screenshots/GoplanAppUI.gif'],
+          app: GoplanAppUI(),
+          author: 'manushi7 - Github',
+          url: 'https://github.com/manushi7/goplan-flutter'),
       InterestingUIModel(
           title: '一个在线聊天简单UI的APP',
           description: '',

@@ -1654,6 +1654,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.6.0"
+  otp_text_field:
+    dependency: transitive
+    description:
+      name: otp_text_field
+      sha256: "340b1ed135e1abe9fac0aaebe1c4e48147d95a3e29ecb03ae45ad63a7c28d65d"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.1.3"
   package_config:
     dependency: transitive
     description:
