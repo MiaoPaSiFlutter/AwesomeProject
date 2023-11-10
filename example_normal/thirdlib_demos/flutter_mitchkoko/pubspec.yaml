@@ -55,6 +55,16 @@ dependencies:
   auto_size_text: 3.0.0
   # 用于创建徽章的包。  徽章可用作任何小部件的附加标记，例如显示购物车中的多个商品。
   badges: 3.1.2
+  # 一个 flutter 包，让用户可以轻松地在任何小部件周围添加虚线边框。
+  dotted_border: 2.1.0
+  # 可定制的动画页面指示器，具有一组内置效果。
+  smooth_page_indicator: 1.1.0
+  # flutter 的通用缓存管理器。  将网页文件保存在设备的存储上并使用 sqflite 保存缓存信息。
+  flutter_cache_manager: 3.3.1
+  # Flutter 插件，用于在 Android、iOS 和 Web 上与其他 Flutter 小部件一起显示内嵌视频。
+  video_player: 2.7.0
+  # RxDart 是流行的reactiveX api 的实现，用于异步编程，利用本机Dart Streams api。
+  rxdart: 0.27.7
 
   flutter:
     sdk: flutter
@@ -111,9 +121,26 @@ flutter:
     - assets/FacebookUIRedesignUI/images/product/
     - assets/FacebookUIRedesignUI/images/story/
     - assets/FacebookUIRedesignUI/images/user/
+    - assets/BlogClubAppUI/img/
+    - assets/BlogClubAppUI/img/icons/
+    - assets/BlogClubAppUI/img/posts/large/
+    - assets/BlogClubAppUI/img/posts/small/
+    - assets/BlogClubAppUI/img/stories/
+    - assets/BlogClubAppUI/img/background/
     - assets/screenshots/
 
   fonts:
+    ### BlogClubAppUI
+    - family: Avenir
+      fonts:
+        - asset: assets/BlogClubAppUI/fonts/AvenirLTProBook.otf
+          weight: 200
+        - asset: assets/BlogClubAppUI/fonts/AvenirLTProRoman.otf
+          weight: 300
+        - asset: assets/BlogClubAppUI/fonts/AvenirLTProMedium.otf
+          weight: 400
+        - asset: assets/BlogClubAppUI/fonts/AvenirLTProHeavy.otf
+          weight: 700
     ### MeditationAppUI
     - family: Cairo
       fonts:

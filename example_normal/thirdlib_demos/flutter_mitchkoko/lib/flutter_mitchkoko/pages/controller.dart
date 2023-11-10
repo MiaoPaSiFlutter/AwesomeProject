@@ -4,6 +4,7 @@ import 'package:hzy_common_module/hzy_common_module.dart';
 import 'AnalogClockLightDarkThemeUI/AnalogClockLightDarkThemeUI.dart';
 import 'AnimatedAppWithRiveUI/AnimatedAppWithRiveUI.dart';
 import 'AnimatedTravelAppUI/AnimatedTravelAppUI.dart';
+import 'BlogClubAppUI/BlogClubAppUI.dart';
 import 'ChatMessageAppUI/ChatMessageAppUI.dart';
 import 'CompassUI/CompassUI.dart';
 import 'DonutAppUI/DonutAppUI.dart';
@@ -41,6 +42,16 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个博客论坛的APP',
+          description: '',
+          date: '2022年6月10日',
+          tags: ['Instagram'],
+          gifOrPictures: ['screenshots/BlogClubAppUI.gif'],
+          app: const BlogClubAppUI(),
+          author: 'hojat2079 - Github',
+          url:
+              'https://github.com/hojat2079/FlutterUiSample/tree/main/01-BlogClub'),
       InterestingUIModel(
           title: '一个仿 Facebook UI 的APP',
           description: '',
