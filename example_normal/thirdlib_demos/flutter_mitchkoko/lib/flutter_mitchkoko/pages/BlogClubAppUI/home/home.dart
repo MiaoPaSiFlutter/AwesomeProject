@@ -3,12 +3,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'article.dart';
-import 'carousel/carousel_slider.dart';
-import 'data.dart';
-import 'gen/gen_index.dart';
-import 'helper/helper_index.dart';
-import 'story.dart';
+import '../article/article.dart';
+import '../carousel/carousel_slider.dart';
+import '../data.dart';
+import '../gen/gen_index.dart';
+import '../helper/helper_index.dart';
+import '../story/story.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);

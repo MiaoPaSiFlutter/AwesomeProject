@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'data.dart';
-import 'gen/gen_index.dart';
-import 'home.dart';
+import '../data.dart';
+import '../gen/gen_index.dart';
+import '../home/home.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({Key? key}) : super(key: key);

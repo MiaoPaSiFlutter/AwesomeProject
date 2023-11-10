@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'gen/gen_index.dart';
-import 'BlogClubAppUI.dart';
+import '../application/application.dart';
+import '../gen/gen_index.dart';
 
 class AuthPage extends StatefulWidget {
   const AuthPage({Key? key}) : super(key: key);

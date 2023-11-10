@@ -3,10 +3,10 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'gen/gen_index.dart';
-import 'story/controller/story_controller.dart';
-import 'story/utils.dart';
-import 'story/widgets/story_view.dart';
+import '../gen/gen_index.dart';
+import 'controller/story_controller.dart';
+import 'utils.dart';
+import 'widgets/story_view.dart';
 
 class StoryScreen extends StatefulWidget {
   const StoryScreen({Key? key}) : super(key: key);

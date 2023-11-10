@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'gen/gen_index.dart';
+import '../gen/gen_index.dart';
 
 class ArticlePage extends StatelessWidget {
   const ArticlePage({Key? key}) : super(key: key);

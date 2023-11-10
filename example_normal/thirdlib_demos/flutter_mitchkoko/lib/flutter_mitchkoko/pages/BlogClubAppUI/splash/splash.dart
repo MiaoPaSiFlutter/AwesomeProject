@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'gen/gen_index.dart';
-import 'onBoarding.dart';
+import '../gen/gen_index.dart';
+import '../onBoarding/onBoarding.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

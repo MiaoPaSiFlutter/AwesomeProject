@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import 'helper/helper_index.dart';
+import '../helper/helper_index.dart';
 
 class NewArticlePage extends StatefulWidget {
   const NewArticlePage({Key? key}) : super(key: key);
@@ -45,7 +45,8 @@ class _NewArticlePageState extends State<NewArticlePage> {
                 actions: [
                   IconButton(
                     onPressed: () {},
-                    icon: SvgPicture.asset(Utils.assets('img/icons/download.svg')),
+                    icon: SvgPicture.asset(
+                        Utils.assets('img/icons/download.svg')),
                   ),
                   const SizedBox(
                     width: 16,
@@ -207,7 +208,8 @@ class _NewArticlePageState extends State<NewArticlePage> {
                   ),
                   CircleAvatar(
                     backgroundColor: Colors.white,
-                    child: SvgPicture.asset(Utils.assets('img/icons/close.svg')),
+                    child:
+                        SvgPicture.asset(Utils.assets('img/icons/close.svg')),
                   ),
                   const SizedBox(
                     width: 16,

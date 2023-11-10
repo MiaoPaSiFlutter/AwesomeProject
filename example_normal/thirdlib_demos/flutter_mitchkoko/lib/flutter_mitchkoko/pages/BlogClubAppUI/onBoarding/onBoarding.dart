@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
-import 'auth.dart';
-import 'data.dart';
-import 'gen/gen_index.dart';
+import '../auth/auth.dart';
+import '../data.dart';
+import '../gen/gen_index.dart';
 
 class OnBoardingPage extends StatefulWidget {
   const OnBoardingPage({Key? key}) : super(key: key);
@@ -49,7 +49,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
               ),
             ),
             Container(
-              height: 270,
+              height: 280,
               decoration: BoxDecoration(
                   color: themeData.colorScheme.surface,
                   boxShadow: [
@@ -75,13 +75,13 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
                                 onBoardingItems[index].title,
                                 style: themeData.textTheme.headlineMedium,
                               ),
-                              const SizedBox(
-                                height: 16,
-                              ),
+                              const SizedBox(height: 16),
                               Text(
                                 onBoardingItems[index].desc,
                                 style: themeData.textTheme.titleMedium
                                     ?.apply(fontSizeFactor: 0.9),
+                                overflow: TextOverflow.ellipsis,
+                                maxLines: 3,
                               )
                             ],
                           ),
