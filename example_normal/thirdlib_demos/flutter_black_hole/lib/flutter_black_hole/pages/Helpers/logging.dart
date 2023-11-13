@@ -1,12 +1,12 @@
 import 'dart:developer';
-import 'dart:io';
+import 'dart:io' as SystemIO;
 
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:logging/logging.dart';
 
 Future<void> initializeLogging() async {
-  final Directory tempDir = await getTemporaryDirectory();
-  final File logFile = File('${tempDir.path}/logs/logs.txt');
+  final SystemIO.Directory tempDir = await getTemporaryDirectory();
+  final SystemIO.File logFile = SystemIO.File('${tempDir.path}/logs/logs.txt');
   if (!await logFile.exists()) {
     await logFile.create(recursive: true);
   }
@@ -19,7 +19,7 @@ Future<void> initializeLogging() async {
       try {
         await logFile.writeAsString(
           '${record.level.name}: ${record.time}: record.message: ${record.message}\nrecord.error: ${record.error}\nrecord.stackTrace: ${record.stackTrace}\n\n',
-          mode: FileMode.append,
+          mode: SystemIO.FileMode.append,
         );
       } catch (e) {
         log('Error writing to log file: $e');
@@ -29,7 +29,7 @@ Future<void> initializeLogging() async {
       try {
         await logFile.writeAsString(
           '${record.level.name}: ${record.time}: record.message: ${record.message}\n\n',
-          mode: FileMode.append,
+          mode: SystemIO.FileMode.append,
         );
       } catch (e) {
         log('Error writing to log file: $e');

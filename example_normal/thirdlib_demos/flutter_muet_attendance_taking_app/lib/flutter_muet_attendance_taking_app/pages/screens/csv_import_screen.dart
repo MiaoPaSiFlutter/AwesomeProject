@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:io' as SystemIO;
 
 import 'package:csv/csv.dart';
 import 'package:file_picker/file_picker.dart';
@@ -29,7 +30,7 @@ class CSVDataEntryScreenState extends State<CSVDataEntryScreen> {
   }
 
   openFile(filepath) async {
-    final File f = File(filepath.toString());
+    final SystemIO.File f = SystemIO.File(filepath.toString());
     final input = f.openRead();
     final fields = await input
         .transform(utf8.decoder)

@@ -1,4 +1,4 @@
-import 'dart:io';
+import 'dart:io' as SystemIO;
 import 'dart:typed_data';
 
 import 'package:hzy_common_module/hzy_common_module.dart';
@@ -63,7 +63,8 @@ class Utils {
         .then((Uint8List? image) async {
       if (image != null) {
         final directory = await getApplicationDocumentsDirectory();
-        final imagePath = await File('${directory.path}/image.png').create();
+        final imagePath =
+            await SystemIO.File('${directory.path}/image.png').create();
         await imagePath.writeAsBytes(image);
         await Share.shareFiles([imagePath.path]);
       }

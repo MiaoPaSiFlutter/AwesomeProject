@@ -7,6 +7,7 @@
  * @LastEditTime: 2023-05-08 12:12:09
  */
 
+import 'package:extended_image_library/extended_image_library.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 

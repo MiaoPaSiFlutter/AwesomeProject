@@ -11,7 +11,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/BlackHoleApp.dart';
 import 'package:hive/hive.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
+import 'package:hzy_common_module/hzy_common_module.dart' hide File;
 import 'package:share_plus/share_plus.dart';
 
 class OthersPage extends StatefulWidget {

@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'dart:io';
+import 'dart:io' as SystemIO;
 
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
@@ -33,9 +33,10 @@ Future<void> exportPlaylist(
     final Box playlistBox = Hive.box(playlistName);
     final Map songsMap = playlistBox.toMap();
     final String songs = json.encode(songsMap);
-    File file;
+    SystemIO.File file;
     try {
-      file = await File('$dirPath/$showName.json').create(recursive: true);
+      file = await SystemIO.File('$dirPath/$showName.json')
+          .create(recursive: true);
     } catch (e) {
       Logger.root.severe(
         'Error creating export playlist file. Retrying with file access permission',
@@ -43,7 +44,8 @@ Future<void> exportPlaylist(
       await [
         Permission.manageExternalStorage,
       ].request();
-      file = await File('$dirPath/$showName.json').create(recursive: true);
+      file = await SystemIO.File('$dirPath/$showName.json')
+          .create(recursive: true);
     }
     await file.writeAsString(songs);
     if (!context.mounted) return;
@@ -66,14 +68,15 @@ Future<void> sharePlaylist(
   String playlistName,
   String showName,
 ) async {
-  final Directory appDir = await getApplicationDocumentsDirectory();
+  final SystemIO.Directory appDir = await getApplicationDocumentsDirectory();
   final String temp = appDir.path;
 
   await Hive.openBox(playlistName);
   final Box playlistBox = Hive.box(playlistName);
   final Map songsMap = playlistBox.toMap();
   final String songs = json.encode(songsMap);
-  final File file = await File('$temp/$showName.json').create(recursive: true);
+  final SystemIO.File file =
+      await SystemIO.File('$temp/$showName.json').create(recursive: true);
   await file.writeAsString(songs);
   final files = <XFile>[XFile(file.path)];
   if (!context.mounted) return;
@@ -135,7 +138,7 @@ Future<List> importFilePlaylist(
         .replaceAll(avoid, '')
         .replaceAll('  ', ' ');
 
-    final File file = File(temp);
+    final SystemIO.File file = SystemIO.File(temp);
     final String finString = await file.readAsString();
     final Map songsMap = json.decode(finString) as Map;
     final List songs = songsMap.values.toList();

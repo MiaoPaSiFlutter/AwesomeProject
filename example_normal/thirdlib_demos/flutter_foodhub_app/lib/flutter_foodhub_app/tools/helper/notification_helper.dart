@@ -1,4 +1,4 @@
-import 'dart:io';
+import 'dart:io' as SystemIO;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -57,7 +57,7 @@ class NotificationHelper {
     var directory = await getApplicationDocumentsDirectory();
     var filePath = '${directory.path}/$fileName';
     var response = await http.get(Uri.parse(url));
-    var file = File(filePath);
+    var file = SystemIO.File(filePath);
     await file.writeAsBytes(response.bodyBytes);
     return filePath;
   }

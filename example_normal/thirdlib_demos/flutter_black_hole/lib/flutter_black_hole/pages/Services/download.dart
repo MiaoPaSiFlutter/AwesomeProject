@@ -1,4 +1,4 @@
-import 'dart:io';
+import 'dart:io' as SystemIO;
 
 import 'package:audiotagger/audiotagger.dart';
 import 'package:audiotagger/models/tag.dart';
@@ -59,7 +59,7 @@ class Download with ChangeNotifier {
   }) async {
     Logger.root.info('Preparing download for ${data['title']}');
     download = true;
-    if (Platform.isAndroid || Platform.isIOS) {
+    if (SystemIO.Platform.isAndroid || SystemIO.Platform.isIOS) {
       Logger.root.info('Requesting storage permission');
       PermissionStatus status = await Permission.storage.status;
       if (status.isDenied) {
@@ -113,24 +113,24 @@ class Download with ChangeNotifier {
     if (data['url'].toString().contains('google') && createYoutubeFolder) {
       Logger.root.info('Youtube audio detected, creating Youtube folder');
       dlPath = '$dlPath/YouTube';
-      if (!await Directory(dlPath).exists()) {
+      if (!await SystemIO.Directory(dlPath).exists()) {
         Logger.root.info('Creating Youtube folder');
-        await Directory(dlPath).create();
+        await SystemIO.Directory(dlPath).create();
       }
     }
 
     if (createFolder && createDownloadFolder && folderName != null) {
       final String foldername = folderName.replaceAll(avoid, '');
       dlPath = '$dlPath/$foldername';
-      if (!await Directory(dlPath).exists()) {
+      if (!await SystemIO.Directory(dlPath).exists()) {
         Logger.root.info('Creating folder $foldername');
-        await Directory(dlPath).create();
+        await SystemIO.Directory(dlPath).create();
       }
     }
 
-    final bool exists = await File('$dlPath/$filename').exists();
+    final bool exists = await SystemIO.File('$dlPath/$filename').exists();
     if (exists) {
-      Logger.root.info('File already exists');
+      Logger.root.info('SystemIO.File already exists');
       if (remember.value == true && rememberOption != null) {
         switch (rememberOption) {
           case 0:
@@ -140,7 +140,7 @@ class Download with ChangeNotifier {
             downloadSong(context, dlPath, filename, data);
             break;
           case 2:
-            while (await File('$dlPath/$filename').exists()) {
+            while (await SystemIO.File('$dlPath/$filename').exists()) {
               filename = filename.replaceAll('.m4a', ' (1).m4a');
             }
             break;
@@ -250,7 +250,8 @@ class Download with ChangeNotifier {
                             ),
                             onPressed: () async {
                               Navigator.pop(context);
-                              while (await File('$dlPath/$filename').exists()) {
+                              while (await SystemIO.File('$dlPath/$filename')
+                                  .exists()) {
                                 filename =
                                     filename.replaceAll('.m4a', ' (1).m4a');
                               }
@@ -299,28 +300,28 @@ class Download with ChangeNotifier {
     final List<int> bytes = [];
     String lyrics = '';
     final artname = fileName.replaceAll('.m4a', '.jpg');
-    if (!Platform.isWindows) {
+    if (!SystemIO.Platform.isWindows) {
       Logger.root.info('Getting App Path for storing image');
       appPath = Hive.box('settings').get('tempDirPath')?.toString();
       appPath ??= (await getTemporaryDirectory()).path;
     } else {
-      final Directory? temp = await getDownloadsDirectory();
+      final SystemIO.Directory? temp = await getDownloadsDirectory();
       appPath = temp!.path;
     }
 
     try {
       Logger.root.info('Creating audio file $dlPath/$fileName');
-      await File('$dlPath/$fileName')
+      await SystemIO.File('$dlPath/$fileName')
           .create(recursive: true)
           .then((value) => filepath = value.path);
       Logger.root.info('Creating image file $appPath/$artname');
-      await File('$appPath/$artname')
+      await SystemIO.File('$appPath/$artname')
           .create(recursive: true)
           .then((value) => filepath2 = value.path);
     } catch (e) {
       Logger.root
           .info('Error creating files, requesting additional permission');
-      if (Platform.isAndroid) {
+      if (SystemIO.Platform.isAndroid) {
         PermissionStatus status = await Permission.manageExternalStorage.status;
         if (status.isDenied) {
           Logger.root.info(
@@ -340,12 +341,12 @@ class Download with ChangeNotifier {
       }
 
       Logger.root.info('Retrying to create audio file');
-      await File('$dlPath/$fileName')
+      await SystemIO.File('$dlPath/$fileName')
           .create(recursive: true)
           .then((value) => filepath = value.path);
 
       Logger.root.info('Retrying to create image file');
-      await File('$appPath/$artname')
+      await SystemIO.File('$appPath/$artname')
           .create(recursive: true)
           .then((value) => filepath2 = value.path);
     }
@@ -404,15 +405,15 @@ class Download with ChangeNotifier {
     }).onDone(() async {
       if (download) {
         Logger.root.info('Download complete, modifying file');
-        final file = File(filepath!);
+        final file = SystemIO.File(filepath!);
         await file.writeAsBytes(bytes);
 
-        final client = HttpClient();
-        final HttpClientRequest request2 =
+        final client = SystemIO.HttpClient();
+        final SystemIO.HttpClientRequest request2 =
             await client.getUrl(Uri.parse(data['image'].toString()));
         final HttpClientResponse response2 = await request2.close();
         final bytes2 = await consolidateHttpClientResponseBytes(response2);
-        final File file2 = File(filepath2);
+        final SystemIO.File file2 = SystemIO.File(filepath2);
 
         await file2.writeAsBytes(bytes2);
         try {
@@ -464,11 +465,11 @@ class Download with ChangeNotifier {
         //     ];
         //   }
         //   // await FlutterFFmpeg().executeWithArguments(_argsList);
-        //   // await File(filepath!).delete();
+        //   // await SystemIO.File(filepath!).delete();
         //   // filepath = filepath!.replaceAll('.m4a', '.$downloadFormat');
         // }
         Logger.root.info('Getting audio tags');
-        if (Platform.isAndroid) {
+        if (SystemIO.Platform.isAndroid) {
           try {
             final Tag tag = Tag(
               title: data['title'].toString(),
@@ -519,7 +520,7 @@ class Download with ChangeNotifier {
               durationMs: int.parse(data['duration'].toString()) * 1000,
               fileSize: file.lengthSync(),
               picture: Picture(
-                data: File(filepath2).readAsBytesSync(),
+                data: SystemIO.File(filepath2).readAsBytesSync(),
                 mimeType: 'image/jpeg',
               ),
             ),
@@ -564,8 +565,8 @@ class Download with ChangeNotifier {
       } else {
         download = true;
         progress = 0.0;
-        File(filepath!).delete();
-        File(filepath2).delete();
+        SystemIO.File(filepath!).delete();
+        SystemIO.File(filepath2).delete();
       }
     });
   }

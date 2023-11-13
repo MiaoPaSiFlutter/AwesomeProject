@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'dart:io';
+import 'dart:io' as SystemIO;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -40,9 +40,11 @@ class _BlackHoleAppState extends State<BlackHoleApp> {
     WidgetsFlutterBinding.ensureInitialized();
     Paint.enableDithering = true;
 
-    if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
+    if (SystemIO.Platform.isWindows ||
+        SystemIO.Platform.isLinux ||
+        SystemIO.Platform.isMacOS) {
       await Hive.initFlutter('BlackHole/Database');
-    } else if (Platform.isIOS) {
+    } else if (SystemIO.Platform.isIOS) {
       await Hive.initFlutter('Database');
     } else {
       await Hive.initFlutter();
@@ -53,7 +55,7 @@ class _BlackHoleAppState extends State<BlackHoleApp> {
         limit: box['limit'] as bool? ?? false,
       );
     }
-    if (Platform.isAndroid) {
+    if (SystemIO.Platform.isAndroid) {
       setOptimalDisplayMode();
     }
     await startService();
@@ -96,13 +98,15 @@ class _BlackHoleAppState extends State<BlackHoleApp> {
   Future<void> openHiveBox(String boxName, {bool limit = false}) async {
     final box = await Hive.openBox(boxName).onError((error, stackTrace) async {
       Logger.root.severe('Failed to open $boxName Box', error, stackTrace);
-      final Directory dir = await getApplicationDocumentsDirectory();
+      final SystemIO.Directory dir = await getApplicationDocumentsDirectory();
       final String dirPath = dir.path;
-      File dbFile = File('$dirPath/$boxName.hive');
-      File lockFile = File('$dirPath/$boxName.lock');
-      if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
-        dbFile = File('$dirPath/BlackHole/$boxName.hive');
-        lockFile = File('$dirPath/BlackHole/$boxName.lock');
+      SystemIO.File dbFile = SystemIO.File('$dirPath/$boxName.hive');
+      SystemIO.File lockFile = SystemIO.File('$dirPath/$boxName.lock');
+      if (SystemIO.Platform.isWindows ||
+          SystemIO.Platform.isLinux ||
+          SystemIO.Platform.isMacOS) {
+        dbFile = SystemIO.File('$dirPath/BlackHole/$boxName.hive');
+        lockFile = SystemIO.File('$dirPath/BlackHole/$boxName.lock');
       }
       await dbFile.delete();
       await lockFile.delete();
@@ -177,7 +181,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    final String systemLangCode = Platform.localeName.substring(0, 2);
+    final String systemLangCode = SystemIO.Platform.localeName.substring(0, 2);
     final String? lang = Hive.box('settings').get('lang') as String?;
     if (lang == null &&
         LanguageCodes.languageCodes.values.contains(systemLangCode)) {
@@ -190,7 +194,7 @@ class _MyAppState extends State<MyApp> {
       setState(() {});
     });
 
-    // if (Platform.isAndroid || Platform.isIOS) {
+    // if (SystemIO.Platform.isAndroid || SystemIO.Platform.isIOS) {
     //   // For sharing or opening urls/text coming from outside the app while the app is in the memory
     //   _intentTextStreamSubscription =
     //       ReceiveSharingIntent.getTextStream().listen(

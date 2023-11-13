@@ -44,7 +44,7 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 import 'package:rxdart/rxdart.dart' as rxdart;
 import 'package:share_plus/share_plus.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
+import 'package:hzy_common_module/hzy_common_module.dart' hide File, FileImage;
 
 class PlayScreen extends StatefulWidget {
   const PlayScreen({super.key});

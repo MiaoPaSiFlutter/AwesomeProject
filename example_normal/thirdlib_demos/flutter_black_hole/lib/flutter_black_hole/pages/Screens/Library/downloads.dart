@@ -17,7 +17,7 @@
  * Copyright (c) 2021-2023, Ankit Sangwan
  */
 
-import 'dart:io';
+import 'dart:io' as SystemIO;
 
 import 'package:audiotagger/audiotagger.dart';
 import 'package:audiotagger/models/tag.dart';
@@ -30,7 +30,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:hive/hive.dart';
-import 'package:hzy_common_module/hzy_common_module.dart';
+import 'package:hzy_common_module/hzy_common_module.dart' hide FileImage;
 import 'package:logging/logging.dart';
 
 import 'liked.dart';
@@ -281,8 +281,8 @@ class _DownloadsState extends State<Downloads>
 
   Future<void> deleteSong(Map song) async {
     await downloadsBox.delete(song['id']);
-    final audioFile = File(song['path'].toString());
-    final imageFile = File(song['image'].toString());
+    final audioFile = SystemIO.File(song['path'].toString());
+    final imageFile = SystemIO.File(song['image'].toString());
     if (_albums[song['album']]!.length == 1) {
       _sortedAlbumKeysList.remove(song['album']);
     }
@@ -562,7 +562,7 @@ Future<Map> editTags(Map song, BuildContext context) async {
     builder: (BuildContext context) {
       final tagger = Audiotagger();
 
-      FileImage songImage = FileImage(File(song['image'].toString()));
+      FileImage songImage = FileImage(SystemIO.File(song['image'].toString()));
 
       final titlecontroller =
           TextEditingController(text: song['title'].toString());
@@ -600,9 +600,9 @@ Future<Map> editTags(Map song, BuildContext context) async {
                     );
                     if (filePath != '') {
                       final imagePath = filePath;
-                      File(imagePath).copy(song['image'].toString());
+                      SystemIO.File(imagePath).copy(song['image'].toString());
 
-                      songImage = FileImage(File(imagePath));
+                      songImage = FileImage(SystemIO.File(imagePath));
 
                       final Tag tag = Tag(
                         artwork: imagePath,
@@ -867,7 +867,7 @@ class _DownSongsTabState extends State<DownSongsTab>
     String songFilePath,
     String url,
   ) async {
-    final File file = File(imageFilePath);
+    final SystemIO.File file = SystemIO.File(imageFilePath);
 
     try {
       await file.create();
@@ -876,8 +876,8 @@ class _DownSongsTabState extends State<DownSongsTab>
         file.writeAsBytesSync(image);
       }
     } catch (e) {
-      final HttpClientRequest request2 =
-          await HttpClient().getUrl(Uri.parse(url));
+      final SystemIO.HttpClientRequest request2 =
+          await SystemIO.HttpClient().getUrl(Uri.parse(url));
       final HttpClientResponse response2 = await request2.close();
       final bytes2 = await consolidateHttpClientResponseBytes(response2);
       await file.writeAsBytes(bytes2);

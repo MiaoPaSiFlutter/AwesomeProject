@@ -19,7 +19,7 @@
  * Copyright (c) 2021-2023, Ankit Sangwan
  */
 
-import 'dart:io';
+import 'dart:io' as SystemIO;
 
 import 'package:flutter_black_hole/flutter_black_hole/pages/CustomWidgets/custom_widgets_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/helpers_index.dart';
@@ -129,7 +129,7 @@ class _DownloadedSongsState extends State<DownloadedSongs>
       Logger.root.info('Requesting permission to access local songs');
       await offlineAudioQuery.requestPermission();
       tempPath ??= (await getTemporaryDirectory()).path;
-      if (Platform.isAndroid) {
+      if (SystemIO.Platform.isAndroid) {
         Logger.root.info('Getting local playlists');
         playlistDetails = await offlineAudioQuery.getPlaylists();
       }
@@ -249,7 +249,7 @@ class _DownloadedSongsState extends State<DownloadedSongs>
   }
 
   Future<void> deleteSong(SongModel song) async {
-    final audioFile = File(song.data);
+    final audioFile = SystemIO.File(song.data);
     if (_albums[song.album]!.length == 1) {
       _sortedAlbumKeysList.remove(song.album);
     }
@@ -578,12 +578,12 @@ class _DownloadedSongsState extends State<DownloadedSongs>
 //                                             .toString()
 //                                             .replaceFirst(videoName, value);
 
-//                                         while (await File(newName).exists()) {
+//                                         while (await SystemIO.File(newName).exists()) {
 //                                           newName = newName.replaceFirst(
 //                                               value, '$value (1)');
 //                                         }
 
-//                                         File(_cachedVideos[index]['id']
+//                                         SystemIO.File(_cachedVideos[index]['id']
 //                                                 .toString())
 //                                             .rename(newName);
 //                                         _cachedVideos[index]['id'] = newName;
@@ -631,13 +631,13 @@ class _DownloadedSongsState extends State<DownloadedSongs>
 //                                         .replaceFirst(
 //                                             videoName, controller.text);
 
-//                                     while (await File(newName).exists()) {
+//                                     while (await SystemIO.File(newName).exists()) {
 //                                       newName = newName.replaceFirst(
 //                                           controller.text,
 //                                           '${controller.text} (1)');
 //                                     }
 
-//                                     File(_cachedVideos[index]['id'].toString())
+//                                     SystemIO.File(_cachedVideos[index]['id'].toString())
 //                                         .rename(newName);
 //                                     _cachedVideos[index]['id'] = newName;
 //                                     ShowSnackBar().showSnackBar(
@@ -667,7 +667,7 @@ class _DownloadedSongsState extends State<DownloadedSongs>
 //                     }
 //                     if (value == 1) {
 //                       try {
-//                         File(_cachedVideos[index]['id'].toString()).delete();
+//                         SystemIO.File(_cachedVideos[index]['id'].toString()).delete();
 //                         ShowSnackBar().showSnackBar(
 //                           context,
 //                           'Deleted ${_cachedVideos[index]['id'].split('/').last}',
@@ -870,12 +870,12 @@ class _SongsTabState extends State<SongsTab>
                             //                             .toString()
                             //                             .replaceFirst(songName, value);
 
-                            //                         while (await File(newName).exists()) {
+                            //                         while (await SystemIO.File(newName).exists()) {
                             //                           newName = newName.replaceFirst(
                             //                               value, '$value (1)');
                             //                         }
 
-                            //                         File(_cachedSongs[index]['id']
+                            //                         SystemIO.File(_cachedSongs[index]['id']
                             //                                 .toString())
                             //                             .rename(newName);
                             //                         _cachedSongs[index]['id'] = newName;
@@ -923,13 +923,13 @@ class _SongsTabState extends State<SongsTab>
                             //                         .replaceFirst(
                             //                             songName, controller.text);
 
-                            //                     while (await File(newName).exists()) {
+                            //                     while (await SystemIO.File(newName).exists()) {
                             //                       newName = newName.replaceFirst(
                             //                           controller.text,
                             //                           '${controller.text} (1)');
                             //                     }
 
-                            //                     File(_cachedSongs[index]['id'].toString())
+                            //                     SystemIO.File(_cachedSongs[index]['id'].toString())
                             //                         .rename(newName);
                             //                     _cachedSongs[index]['id'] = newName;
                             //                     ShowSnackBar().showSnackBar(
@@ -998,7 +998,7 @@ class _SongsTabState extends State<SongsTab>
                             //                           _imagePath = filePath;
                             //                           final Uri myUri = Uri.parse(filePath);
                             //                           final Uint8List imageBytes =
-                            //                               await File.fromUri(myUri)
+                            //                               await SystemIO.File.fromUri(myUri)
                             //                                   .readAsBytes();
                             //                           _imageByte = imageBytes;
                             //                           final Tag tag = Tag(

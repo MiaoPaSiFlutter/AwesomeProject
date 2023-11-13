@@ -1,4 +1,4 @@
-import 'dart:io';
+import 'dart:io' as SystemIO;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_archive/flutter_archive.dart';
@@ -18,7 +18,7 @@ Future<void> createBackup(
   String? fileName,
   bool showDialog = true,
 }) async {
-  if (Platform.isAndroid) {
+  if (SystemIO.Platform.isAndroid) {
     PermissionStatus status = await Permission.storage.status;
     if (status.isDenied) {
       await [
@@ -40,10 +40,10 @@ Future<void> createBackup(
       );
   if (savePath.trim() != '') {
     try {
-      final saveDir = Directory(savePath);
+      final saveDir = SystemIO.Directory(savePath);
       final dirExists = await saveDir.exists();
       if (!dirExists) saveDir.create(recursive: true);
-      final List<File> files = [];
+      final List<SystemIO.File> files = [];
       final List boxNames = [];
 
       for (int i = 0; i < items.length; i++) {
@@ -53,24 +53,24 @@ Future<void> createBackup(
       for (int i = 0; i < boxNames.length; i++) {
         await Hive.openBox(boxNames[i].toString());
         try {
-          await File(Hive.box(boxNames[i].toString()).path!)
+          await SystemIO.File(Hive.box(boxNames[i].toString()).path!)
               .copy('$savePath/${boxNames[i]}.hive');
         } catch (e) {
           await [
             Permission.manageExternalStorage,
           ].request();
-          await File(Hive.box(boxNames[i].toString()).path!)
+          await SystemIO.File(Hive.box(boxNames[i].toString()).path!)
               .copy('$savePath/${boxNames[i]}.hive');
         }
 
-        files.add(File('$savePath/${boxNames[i]}.hive'));
+        files.add(SystemIO.File('$savePath/${boxNames[i]}.hive'));
       }
 
       final now = DateTime.now();
       final String time =
           '${now.hour}${now.minute}_${now.day}${now.month}${now.year}';
-      final zipFile =
-          File('$savePath/${fileName ?? "BlackHole_Backup_$time"}.zip');
+      final zipFile = SystemIO.File(
+          '$savePath/${fileName ?? "BlackHole_Backup_$time"}.zip');
 
       await ZipFile.createFromFiles(
         sourceDir: saveDir,
@@ -114,9 +114,10 @@ Future<void> restore(BuildContext context) async {
   );
   Logger.root.info('Selected restore file path: $savePath');
   if (savePath != '') {
-    final File zipFile = File(savePath);
-    final Directory tempDir = await getTemporaryDirectory();
-    final Directory destinationDir = Directory('${tempDir.path}/restore');
+    final SystemIO.File zipFile = SystemIO.File(savePath);
+    final SystemIO.Directory tempDir = await getTemporaryDirectory();
+    final SystemIO.Directory destinationDir =
+        SystemIO.Directory('${tempDir.path}/restore');
 
     try {
       Logger.root.info('Extracting backup file');
@@ -124,7 +125,8 @@ Future<void> restore(BuildContext context) async {
         zipFile: zipFile,
         destinationDir: destinationDir,
       );
-      final List<FileSystemEntity> files = await destinationDir.list().toList();
+      final List<SystemIO.FileSystemEntity> files =
+          await destinationDir.list().toList();
       Logger.root.info('Found ${files.length} backup files');
 
       for (int i = 0; i < files.length; i++) {
@@ -136,7 +138,7 @@ Future<void> restore(BuildContext context) async {
         await box.close();
 
         try {
-          await File(backupPath).copy(boxPath);
+          await SystemIO.File(backupPath).copy(boxPath);
         } finally {
           await Hive.openBox(boxName);
         }
