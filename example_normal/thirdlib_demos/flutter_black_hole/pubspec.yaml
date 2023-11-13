@@ -68,7 +68,7 @@ dependencies:
       url: https://github.com/Sangwan5688/PersistentBottomNavBar
       ref: ecdadb0
   # 一个 flutter 插件，使 flutter 应用程序能够接收来自其他应用程序的共享照片、文本或 url。
-  receive_sharing_intent: 1.4.5
+  # receive_sharing_intent: 1.4.5
   # Flutter 插件用于通过平台共享 UI 共享内容，在 Android 上使用 ACTION_SEND 意图，在 iOS 上使用 UIActivityViewController。
   share_plus: 7.2.1
   # 一个 Flutter 插件，可轻松使 Flutter 应用程序响应。  自动调整 UI 以适应不同的屏幕尺寸。  响应能力变得简单。

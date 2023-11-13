@@ -15,7 +15,7 @@ dependencies:
   intl: 0.18.1
   gradient_borders: 1.0.0
   weather_animation: 0.0.2
-  location: 4.4.0
+  location: 5.0.3
   lottie: 2.6.0
   cupertino_listview: 2.0.0
   smooth_page_indicator: 1.1.0

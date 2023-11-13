@@ -10,7 +10,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:logging/logging.dart';
 import 'package:metadata_god/metadata_god.dart';
-import 'package:receive_sharing_intent/receive_sharing_intent.dart';
+// import 'package:receive_sharing_intent/receive_sharing_intent.dart';
 import 'package:sizer/sizer.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Constants/constants_index.dart';
 import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/helpers_index.dart';
@@ -190,81 +190,81 @@ class _MyAppState extends State<MyApp> {
       setState(() {});
     });
 
-    if (Platform.isAndroid || Platform.isIOS) {
-      // For sharing or opening urls/text coming from outside the app while the app is in the memory
-      _intentTextStreamSubscription =
-          ReceiveSharingIntent.getTextStream().listen(
-        (String value) {
-          Logger.root.info('Received intent on stream: $value');
-          handleSharedText(value, navigatorKey);
-        },
-        onError: (err) {
-          Logger.root.severe('ERROR in getTextStream', err);
-        },
-      );
+    // if (Platform.isAndroid || Platform.isIOS) {
+    //   // For sharing or opening urls/text coming from outside the app while the app is in the memory
+    //   _intentTextStreamSubscription =
+    //       ReceiveSharingIntent.getTextStream().listen(
+    //     (String value) {
+    //       Logger.root.info('Received intent on stream: $value');
+    //       handleSharedText(value, navigatorKey);
+    //     },
+    //     onError: (err) {
+    //       Logger.root.severe('ERROR in getTextStream', err);
+    //     },
+    //   );
 
-      // For sharing or opening urls/text coming from outside the app while the app is closed
-      ReceiveSharingIntent.getInitialText().then(
-        (String? value) {
-          Logger.root.info('Received Intent initially: $value');
-          if (value != null) handleSharedText(value, navigatorKey);
-        },
-        onError: (err) {
-          Logger.root.severe('ERROR in getInitialTextStream', err);
-        },
-      );
+    //   // For sharing or opening urls/text coming from outside the app while the app is closed
+    //   ReceiveSharingIntent.getInitialText().then(
+    //     (String? value) {
+    //       Logger.root.info('Received Intent initially: $value');
+    //       if (value != null) handleSharedText(value, navigatorKey);
+    //     },
+    //     onError: (err) {
+    //       Logger.root.severe('ERROR in getInitialTextStream', err);
+    //     },
+    //   );
 
-      // For sharing files coming from outside the app while the app is in the memory
-      _intentDataStreamSubscription =
-          ReceiveSharingIntent.getMediaStream().listen(
-        (List<SharedMediaFile> value) {
-          if (value.isNotEmpty) {
-            for (final file in value) {
-              if (file.path.endsWith('.json')) {
-                final List playlistNames = Hive.box('settings')
-                        .get('playlistNames')
-                        ?.toList() as List? ??
-                    ['Favorite Songs'];
-                importFilePlaylist(
-                  null,
-                  playlistNames,
-                  path: file.path,
-                  pickFile: false,
-                ).then(
-                  (value) => navigatorKey.currentState?.pushNamed('/playlists'),
-                );
-              }
-            }
-          }
-        },
-        onError: (err) {
-          Logger.root.severe('ERROR in getDataStream', err);
-        },
-      );
+    //   // For sharing files coming from outside the app while the app is in the memory
+    //   _intentDataStreamSubscription =
+    //       ReceiveSharingIntent.getMediaStream().listen(
+    //     (List<SharedMediaFile> value) {
+    //       if (value.isNotEmpty) {
+    //         for (final file in value) {
+    //           if (file.path.endsWith('.json')) {
+    //             final List playlistNames = Hive.box('settings')
+    //                     .get('playlistNames')
+    //                     ?.toList() as List? ??
+    //                 ['Favorite Songs'];
+    //             importFilePlaylist(
+    //               null,
+    //               playlistNames,
+    //               path: file.path,
+    //               pickFile: false,
+    //             ).then(
+    //               (value) => navigatorKey.currentState?.pushNamed('/playlists'),
+    //             );
+    //           }
+    //         }
+    //       }
+    //     },
+    //     onError: (err) {
+    //       Logger.root.severe('ERROR in getDataStream', err);
+    //     },
+    //   );
 
-      // For sharing files coming from outside the app while the app is closed
-      ReceiveSharingIntent.getInitialMedia()
-          .then((List<SharedMediaFile> value) {
-        if (value.isNotEmpty) {
-          for (final file in value) {
-            if (file.path.endsWith('.json')) {
-              final List playlistNames = Hive.box('settings')
-                      .get('playlistNames')
-                      ?.toList() as List? ??
-                  ['Favorite Songs'];
-              importFilePlaylist(
-                null,
-                playlistNames,
-                path: file.path,
-                pickFile: false,
-              ).then(
-                (value) => navigatorKey.currentState?.pushNamed('/playlists'),
-              );
-            }
-          }
-        }
-      });
-    }
+    //   // For sharing files coming from outside the app while the app is closed
+    //   ReceiveSharingIntent.getInitialMedia()
+    //       .then((List<SharedMediaFile> value) {
+    //     if (value.isNotEmpty) {
+    //       for (final file in value) {
+    //         if (file.path.endsWith('.json')) {
+    //           final List playlistNames = Hive.box('settings')
+    //                   .get('playlistNames')
+    //                   ?.toList() as List? ??
+    //               ['Favorite Songs'];
+    //           importFilePlaylist(
+    //             null,
+    //             playlistNames,
+    //             path: file.path,
+    //             pickFile: false,
+    //           ).then(
+    //             (value) => navigatorKey.currentState?.pushNamed('/playlists'),
+    //           );
+    //         }
+    //       }
+    //     }
+    //   });
+    // }
   }
 
   void setLocale(Locale value) {
