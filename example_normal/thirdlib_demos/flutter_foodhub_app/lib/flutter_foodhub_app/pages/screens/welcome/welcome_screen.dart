@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hexcolor/hexcolor.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 
@@ -50,7 +50,7 @@ class WelcomeScreen extends StatelessWidget {
                 Text(
                   'Your favourite foods delivered \nfast at your door.',
                   style: theme.textTheme.titleMedium?.copyWith(
-                    color: HexColor('#30384F'),
+                    color: getColorFromHex('#30384F'),
                     fontSize: 18,
                     height: 1.5,
                   ),
