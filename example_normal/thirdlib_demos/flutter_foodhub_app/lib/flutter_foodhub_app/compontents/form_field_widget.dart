@@ -64,17 +64,17 @@ class FormFieldWidget extends StatelessWidget {
                   ),
                 )
               : null,
-          hintStyle: context.theme.textTheme.titleMedium?.copyWith(
-            color: grayColor,
-          ),
+          hintStyle: Theme.of(context).textTheme.titleMedium?.copyWith(
+                color: grayColor,
+              ),
           counter: null,
           counterText: "",
           filled: true,
           isDense: true,
           errorMaxLines: 1,
-          errorStyle: context.theme.textTheme.bodySmall?.copyWith(
-            color: context.theme.colorScheme.error,
-          ),
+          errorStyle: Theme.of(context).textTheme.bodySmall?.copyWith(
+                color: Theme.of(context).colorScheme.error,
+              ),
           fillColor: darkTheme ? blackColor80 : whiteColor,
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(12),

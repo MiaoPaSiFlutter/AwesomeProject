@@ -21,8 +21,6 @@ dependencies:
   pull_to_refresh_notification: 3.1.0
   # webview
   webview_flutter: 4.2.3
-  # 用于启动 URL 的 Flutter 插件。  支持网络、电话、短信和电子邮件方案。
-  url_launcher: 6.2.1
 
   flutter:
     sdk: flutter

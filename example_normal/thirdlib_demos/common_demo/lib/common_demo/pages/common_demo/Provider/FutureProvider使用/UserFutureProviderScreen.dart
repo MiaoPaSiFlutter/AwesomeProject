@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
-import 'package:provider/provider.dart';
 
 class UserFutureProviderScreen extends StatelessWidget {
   @override

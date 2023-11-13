@@ -1,6 +1,6 @@
 import 'theme.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 import 'models/my_theme_provider.dart';
 import 'screens/home_screen.dart';
 

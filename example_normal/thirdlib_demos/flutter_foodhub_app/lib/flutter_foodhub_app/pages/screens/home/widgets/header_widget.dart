@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 
 class HeaderWidget extends StatelessWidget {
@@ -33,12 +33,12 @@ class HeaderWidget extends StatelessWidget {
                   children: [
                     Text(
                       'Deliver to',
-                      style: context.theme.textTheme.caption!.copyWith(
-                        color: preferenceSettingsProvider.isDarkTheme
-                            ? whiteColor
-                            : grayColor,
-                        fontSize: 14,
-                      ),
+                      style: Theme.of(context).textTheme.caption!.copyWith(
+                            color: preferenceSettingsProvider.isDarkTheme
+                                ? whiteColor
+                                : grayColor,
+                            fontSize: 14,
+                          ),
                     ),
                     Icon(
                       Icons.arrow_drop_down,
@@ -52,10 +52,10 @@ class HeaderWidget extends StatelessWidget {
                 const SizedBox(height: 4.0),
                 Text(
                   'Rukan CBD Greenlake City',
-                  style: context.theme.textTheme.bodySmall!.copyWith(
-                    color: orangeColor,
-                    fontSize: 14,
-                  ),
+                  style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                        color: orangeColor,
+                        fontSize: 14,
+                      ),
                 ),
               ],
             ),

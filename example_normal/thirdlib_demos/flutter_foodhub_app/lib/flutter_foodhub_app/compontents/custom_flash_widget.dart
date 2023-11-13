@@ -26,7 +26,7 @@ class CustomFlashWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    ThemeData theme = context.theme;
+    ThemeData theme = Theme.of(context);
 
     return Flash(
       controller: controller,

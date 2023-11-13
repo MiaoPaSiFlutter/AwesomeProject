@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../model/skateboards.dart';
 import '../provider/indexNotifier.dart';
-import 'package:provider/provider.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
 class PageIndicator extends StatelessWidget {
   const PageIndicator({Key? key}) : super(key: key);

@@ -75,10 +75,7 @@ dependencies:
   sizer: 2.0.15
   # 一个可拖动的 Flutter 小部件，使实现 SlidingUpPanel 变得更加容易！
   sliding_up_panel: 2.0.0+1
-  # 用于启动 URL 的 Flutter 插件。  支持网络、电话、短信和电子邮件方案。
-  url_launcher: 6.2.1
-  # 适用于所有 Dart 平台（Web、VM、Flutter）的 RFC4122（v1、v4、v5）UUID 生成器和解析器
-  uuid: 3.0.7
+
   # 颤振工作管理器。  该插件允许您在 Android 和 iOS 上安排后台工作。
   workmanager: 0.5.1
   # youtube 爆炸库的 dart 中的端口。  支持多种API函数，无需Youtube API Key。

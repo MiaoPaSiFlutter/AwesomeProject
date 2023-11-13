@@ -10,8 +10,6 @@ dependencies:
   # 通用
   hzy_common_module:
     path: ../../thirdlib/hzy_common_module/
-  # 为您的 dart 和 flutter 项目带来 HexColor，将材质颜色转换为十六进制颜色
-  hexcolor: 3.0.1
   # 一个高度可定制、功能强大且易于使用的 Flutter 警报库。
   flash: 3.0.5+1
   # Flutter plugin for SQLite, a self-contained, high-reliability, embedded, SQL database engine.

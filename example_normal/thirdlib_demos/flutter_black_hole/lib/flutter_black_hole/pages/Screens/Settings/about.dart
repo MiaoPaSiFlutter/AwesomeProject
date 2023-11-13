@@ -10,7 +10,6 @@ import 'package:hive/hive.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class AboutPage extends StatefulWidget {
   const AboutPage({super.key});

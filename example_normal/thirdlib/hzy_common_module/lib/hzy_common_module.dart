@@ -59,6 +59,11 @@ export 'package:package_info_plus/package_info_plus.dart';
 // 用于获取主机平台文件系统上的常用位置，例如临时目录和应用程序数据目录。
 export 'package:path_provider/path_provider.dart';
 
-
 export 'package:event_bus_plus/event_bus_plus.dart';
 
+export 'package:url_launcher/url_launcher.dart';
+
+export 'package:uuid/uuid.dart';
+
+export 'package:provider/provider.dart';
+export 'package:provider/single_child_widget.dart';

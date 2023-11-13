@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
-import 'package:provider/provider.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
 class RestaurantCardWidget extends StatefulWidget {
   final String id;
@@ -49,7 +49,7 @@ class _RestaurantCardWidgetState extends State<RestaurantCardWidget> {
 
   @override
   Widget build(BuildContext context) {
-    ThemeData theme = context.theme;
+    ThemeData theme = Theme.of(context);
     Size size = MediaQuery.of(context).size;
 
     return Consumer<PreferenceSettingsProvider>(

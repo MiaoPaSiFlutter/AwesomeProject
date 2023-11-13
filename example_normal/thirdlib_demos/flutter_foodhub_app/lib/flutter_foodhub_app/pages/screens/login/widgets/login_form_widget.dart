@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:inspection/inspection.dart';
 import 'package:intl/intl.dart';
-import 'package:provider/provider.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 
 class LoginFormWidget extends StatefulWidget {

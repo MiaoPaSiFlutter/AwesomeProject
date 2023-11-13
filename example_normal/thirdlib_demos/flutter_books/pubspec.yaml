@@ -18,8 +18,6 @@ dependencies:
   fluttertoast: 8.2.2
   # SQLite 的 Flutter 插件，SQLite 是一个独立的、高可靠性的嵌入式 SQL 数据库引擎。
   sqflite: 2.3.0
-  # Event Bus for Dart.
-  event_bus_plus: 0.6.1
   # Carousel组件，新增flutter3支持
   flutter_swiper_null_safety_flutter3: 4.0.0
 

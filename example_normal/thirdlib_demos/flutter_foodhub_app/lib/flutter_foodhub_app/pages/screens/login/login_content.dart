@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 
 import '../welcome/widgets/button_signin_widget.dart';
@@ -49,7 +49,7 @@ class _LoginContentState extends State<LoginContent> {
 
   @override
   Widget build(BuildContext context) {
-    ThemeData theme = context.theme;
+    ThemeData theme = Theme.of(context);
 
     return Consumer<PreferenceSettingsProvider>(
       builder: (context, preferenceSettingsProvider, _) {
@@ -127,10 +127,10 @@ class _LoginContentState extends State<LoginContent> {
                           context.showCustomFlashMessage(status: 'info'),
                       child: Text(
                         'Forgot password?',
-                        style: context.theme.textTheme.titleSmall!.copyWith(
-                          color: orangeColor,
-                          fontSize: 16,
-                        ),
+                        style: Theme.of(context).textTheme.titleSmall!.copyWith(
+                              color: orangeColor,
+                              fontSize: 16,
+                            ),
                       ),
                     ),
                   ),
@@ -153,12 +153,12 @@ class _LoginContentState extends State<LoginContent> {
                     children: [
                       Text(
                         "Don't have an account?",
-                        style: context.theme.textTheme.titleSmall!.copyWith(
-                          color: preferenceSettingsProvider.isDarkTheme
-                              ? whiteColor
-                              : blackColor20,
-                          fontSize: 16,
-                        ),
+                        style: Theme.of(context).textTheme.titleSmall!.copyWith(
+                              color: preferenceSettingsProvider.isDarkTheme
+                                  ? whiteColor
+                                  : blackColor20,
+                              fontSize: 16,
+                            ),
                       ),
                       const SizedBox(width: 8.0),
                       InkWell(
@@ -168,13 +168,14 @@ class _LoginContentState extends State<LoginContent> {
                         ),
                         child: Text(
                           'Sign Up',
-                          style: context.theme.textTheme.titleSmall!.copyWith(
-                            color: orangeColor,
-                            fontSize: 16,
-                            decoration: TextDecoration.underline,
-                            decorationColor: orangeColor,
-                            decorationThickness: 1.3,
-                          ),
+                          style:
+                              Theme.of(context).textTheme.titleSmall!.copyWith(
+                                    color: orangeColor,
+                                    fontSize: 16,
+                                    decoration: TextDecoration.underline,
+                                    decorationColor: orangeColor,
+                                    decorationThickness: 1.3,
+                                  ),
                         ),
                       ),
                     ],

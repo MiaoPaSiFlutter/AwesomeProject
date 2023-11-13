@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
 import 'complex/home_page.dart';
 import 'nested/webview.dart';

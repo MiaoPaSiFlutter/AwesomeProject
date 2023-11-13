@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
-import 'package:provider/provider.dart';
 
 import 'view_model.dart';
 

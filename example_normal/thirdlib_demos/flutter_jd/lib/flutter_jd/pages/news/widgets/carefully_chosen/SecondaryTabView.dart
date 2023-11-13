@@ -1,7 +1,6 @@
 import 'package:flutter_jd/flutter_jd.dart';
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
-import 'package:provider/provider.dart';
 
 import 'compontents/ListViewTabWidget.dart';
 import 'compontents/WaterfallFlowTabWidget.dart';

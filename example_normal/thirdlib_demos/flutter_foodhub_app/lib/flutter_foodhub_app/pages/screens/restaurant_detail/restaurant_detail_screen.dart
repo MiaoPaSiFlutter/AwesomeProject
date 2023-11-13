@@ -1,7 +1,7 @@
 // ignore_for_file: use_build_context_synchronously
 
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 
@@ -119,7 +119,7 @@ class _RestaurantDetailScreenState extends State<RestaurantDetailScreen> {
   }
 
   Widget _detailRestaurant(BuildContext context, RestaurantDetail restaurant) {
-    ThemeData theme = context.theme;
+    ThemeData theme = Theme.of(context);
     Size size = MediaQuery.of(context).size;
 
     return Scaffold(

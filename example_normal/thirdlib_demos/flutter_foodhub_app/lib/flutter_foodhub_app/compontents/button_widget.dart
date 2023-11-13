@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
-import 'package:provider/provider.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
 class ButtonWidget extends StatelessWidget {
   final VoidCallback onPress;
@@ -46,10 +46,10 @@ class ButtonWidget extends StatelessWidget {
             child: Text(
               title,
               textAlign: TextAlign.center,
-              style: context.theme.textTheme.labelLarge?.copyWith(
-                fontWeight: FontWeight.w700,
-                color: titleColor,
-              ),
+              style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                    fontWeight: FontWeight.w700,
+                    color: titleColor,
+                  ),
             ),
           ),
         );

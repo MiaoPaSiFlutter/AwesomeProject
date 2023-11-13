@@ -41,10 +41,10 @@ import 'package:get_it/get_it.dart';
 import 'package:hive/hive.dart';
 import 'package:logging/logging.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:rxdart/rxdart.dart';
+import 'package:rxdart/rxdart.dart' as rxdart;
 import 'package:share_plus/share_plus.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
 class PlayScreen extends StatefulWidget {
   const PlayScreen({super.key});
@@ -879,9 +879,9 @@ class ControlButtons extends StatelessWidget {
 abstract class AudioPlayerHandler implements AudioHandler {
   Stream<QueueState> get queueState;
   Future<void> moveQueueItem(int currentIndex, int newIndex);
-  ValueStream<double> get volume;
+  rxdart.ValueStream<double> get volume;
   Future<void> setVolume(double volume);
-  ValueStream<double> get speed;
+  rxdart.ValueStream<double> get speed;
 }
 
 class NowPlayingStream extends StatelessWidget {
@@ -1843,7 +1843,7 @@ class NameNControls extends StatelessWidget {
   Stream<Duration?> get _durationStream =>
       audioHandler.mediaItem.map((item) => item?.duration).distinct();
   Stream<PositionData> get _positionDataStream =>
-      Rx.combineLatest3<Duration, Duration, Duration?, PositionData>(
+      rxdart.Rx.combineLatest3<Duration, Duration, Duration?, PositionData>(
         AudioService.position,
         _bufferedPositionStream,
         _durationStream,

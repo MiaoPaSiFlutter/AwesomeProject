@@ -4,7 +4,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
-import 'package:provider/provider.dart';
 import '../../vm/product_detail_viewmodel.dart';
 
 class BpMainImageFloorView extends StatelessWidget {

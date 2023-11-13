@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 
-import 'package:provider/provider.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
 class RestaurantSearchCardWidget extends StatefulWidget {
   final String name;
@@ -26,7 +26,7 @@ class _RestaurantSearchCardWidgetState
     extends State<RestaurantSearchCardWidget> {
   @override
   Widget build(BuildContext context) {
-    ThemeData theme = context.theme;
+    ThemeData theme = Theme.of(context);
 
     return Consumer<PreferenceSettingsProvider>(
       builder: (context, preferenceSettingsProvider, _) {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 
 import '../welcome/widgets/button_signin_widget.dart';
@@ -52,7 +52,7 @@ class _RegisterContentState extends State<RegisterContent> {
 
   @override
   Widget build(BuildContext context) {
-    ThemeData theme = context.theme;
+    ThemeData theme = Theme.of(context);
 
     return Consumer<PreferenceSettingsProvider>(
       builder: (context, preferenceSettingsProvider, _) {
@@ -109,12 +109,12 @@ class _RegisterContentState extends State<RegisterContent> {
                     children: [
                       Text(
                         'Already have an account?',
-                        style: context.theme.textTheme.titleSmall!.copyWith(
-                          color: preferenceSettingsProvider.isDarkTheme
-                              ? whiteColor
-                              : blackColor20,
-                          fontSize: 16,
-                        ),
+                        style: Theme.of(context).textTheme.titleSmall!.copyWith(
+                              color: preferenceSettingsProvider.isDarkTheme
+                                  ? whiteColor
+                                  : blackColor20,
+                              fontSize: 16,
+                            ),
                       ),
                       const SizedBox(width: 8.0),
                       InkWell(
@@ -124,13 +124,14 @@ class _RegisterContentState extends State<RegisterContent> {
                         ),
                         child: Text(
                           'Sign In',
-                          style: context.theme.textTheme.titleSmall!.copyWith(
-                            color: orangeColor,
-                            fontSize: 16,
-                            decoration: TextDecoration.underline,
-                            decorationColor: orangeColor,
-                            decorationThickness: 1.3,
-                          ),
+                          style:
+                              Theme.of(context).textTheme.titleSmall!.copyWith(
+                                    color: orangeColor,
+                                    fontSize: 16,
+                                    decoration: TextDecoration.underline,
+                                    decorationColor: orangeColor,
+                                    decorationThickness: 1.3,
+                                  ),
                         ),
                       ),
                     ],

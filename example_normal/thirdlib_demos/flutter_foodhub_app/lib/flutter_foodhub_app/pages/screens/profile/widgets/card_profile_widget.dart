@@ -11,7 +11,7 @@ class CardProfileWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    ThemeData theme = context.theme;
+    ThemeData theme = Theme.of(context);
 
     return Column(
       children: [
@@ -110,7 +110,7 @@ class DataProfile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    ThemeData theme = context.theme;
+    ThemeData theme = Theme.of(context);
 
     return Row(
       crossAxisAlignment: CrossAxisAlignment.center,

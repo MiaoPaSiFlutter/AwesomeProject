@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:android_alarm_manager_plus/android_alarm_manager_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
-import 'package:provider/provider.dart';
+
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 
 class FoodHubApp extends StatefulWidget {

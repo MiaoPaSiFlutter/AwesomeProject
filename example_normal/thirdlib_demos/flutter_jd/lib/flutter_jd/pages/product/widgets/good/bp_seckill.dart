@@ -1,7 +1,7 @@
 // ignore_for_file: unused_local_variable
 
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 import '../../vm/product_detail_viewmodel.dart';
 
 class BpBpSeckill extends StatelessWidget {

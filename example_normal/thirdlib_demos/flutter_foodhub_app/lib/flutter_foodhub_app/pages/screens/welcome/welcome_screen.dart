@@ -10,7 +10,7 @@ class WelcomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    ThemeData theme = context.theme;
+    ThemeData theme = Theme.of(context);
     Size size = MediaQuery.of(context).size;
 
     return Scaffold(
@@ -109,10 +109,10 @@ class WelcomeScreen extends StatelessWidget {
                   children: [
                     Text(
                       'Already have an account?',
-                      style: context.theme.textTheme.titleSmall!.copyWith(
-                        color: whiteColor,
-                        fontSize: 16,
-                      ),
+                      style: Theme.of(context).textTheme.titleSmall!.copyWith(
+                            color: whiteColor,
+                            fontSize: 16,
+                          ),
                     ),
                     const SizedBox(width: 8.0),
                     InkWell(
@@ -122,13 +122,13 @@ class WelcomeScreen extends StatelessWidget {
                       ),
                       child: Text(
                         'Sign In',
-                        style: context.theme.textTheme.titleSmall!.copyWith(
-                          color: whiteColor,
-                          fontSize: 16,
-                          decoration: TextDecoration.underline,
-                          decorationColor: whiteColor,
-                          decorationThickness: 1.3,
-                        ),
+                        style: Theme.of(context).textTheme.titleSmall!.copyWith(
+                              color: whiteColor,
+                              fontSize: 16,
+                              decoration: TextDecoration.underline,
+                              decorationColor: whiteColor,
+                              decorationThickness: 1.3,
+                            ),
                       ),
                     ),
                   ],

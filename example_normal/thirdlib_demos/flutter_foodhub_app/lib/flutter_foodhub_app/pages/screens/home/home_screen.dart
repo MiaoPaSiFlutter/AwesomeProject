@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
-import 'package:provider/provider.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
 import 'widgets/food_search_widget.dart';
 import 'widgets/header_widget.dart';
@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _homeScreen(
       BuildContext context, RestaurantListProvider restaurantListProvider) {
-    ThemeData theme = context.theme;
+    ThemeData theme = Theme.of(context);
     Size size = MediaQuery.of(context).size;
 
     return RefreshIndicator(

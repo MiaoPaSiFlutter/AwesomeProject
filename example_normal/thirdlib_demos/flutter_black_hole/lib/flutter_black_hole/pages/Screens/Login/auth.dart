@@ -26,7 +26,7 @@ import 'package:flutter_black_hole/flutter_black_hole/pages/flutter_gen/gen_l10n
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:hive/hive.dart';
-import 'package:uuid/uuid.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({super.key});

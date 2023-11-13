@@ -3,7 +3,6 @@ import 'package:flutter_jd/flutter_jd/pages/news/vm/news_viewmodel.dart';
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:extended_nested_scroll_view/extended_nested_scroll_view.dart';
-import 'package:provider/provider.dart';
 
 import 'SecondaryTabView.dart';
 import 'news_carousel_view.dart';

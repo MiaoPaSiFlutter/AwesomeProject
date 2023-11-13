@@ -54,8 +54,6 @@ dependencies:
   smooth_page_indicator: 1.1.0
   # 用于创建模糊时间戳的库。  （例如“15 分钟前”）
   timeago: 3.6.0
-  # 用于启动 URL 的 Flutter 插件。  支持网络、电话、短信和电子邮件方案。
-  url_launcher: 6.2.1
   # 功能丰富的跨平台 Web 视图，在移动设备上使用 webview_flutter，在 Web 上使用 iframe。  JS 互操作就绪。
   # webviewx: 0.2.1
 

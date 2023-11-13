@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 
 class ButtonSigninWidget extends StatelessWidget {
   final VoidCallback onPress;
@@ -45,11 +44,11 @@ class ButtonSigninWidget extends StatelessWidget {
               child: Text(
                 title,
                 textAlign: TextAlign.center,
-                style: context.theme.textTheme.labelLarge?.copyWith(
-                  fontWeight: FontWeight.w700,
-                  color: titleColor,
-                  fontSize: 10,
-                ),
+                style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                      fontWeight: FontWeight.w700,
+                      color: titleColor,
+                      fontSize: 10,
+                    ),
               ),
             ),
           ],

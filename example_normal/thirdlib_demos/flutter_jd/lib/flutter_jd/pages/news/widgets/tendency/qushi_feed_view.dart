@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_jd/flutter_jd.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
-import 'package:provider/provider.dart';
+
 import 'package:waterfall_flow/waterfall_flow.dart';
 
 import '../../vm/news_viewmodel.dart';

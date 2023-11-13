@@ -12,6 +12,8 @@ dependencies:
     sdk: flutter
   # 用于获取主机平台文件系统上的常用位置，例如临时目录和应用程序数据目录。
   path_provider: 2.1.1
+  # InheritedWidget 的包装器，使它们更易于使用且更可重用。
+  provider: 6.0.5
   # 用于查询应用程序包的信息，例如iOS上的CFBundleVersion或Android上的versionCode。
   package_info_plus: 4.1.0
   # 相机
@@ -42,6 +44,10 @@ dependencies:
   get: 4.6.6
   # 使用 Dart Streams 来解耦应用程序的简单事件总线
   event_bus_plus: 0.6.1
+  # 用于启动 URL 的 Flutter 插件。  支持网络、电话、短信和电子邮件方案。
+  url_launcher: 6.2.1
+  # 适用于所有 Dart 平台（Web、VM、Flutter）的 RFC4122（v1、v4、v5）UUID 生成器和解析器
+  uuid: 3.0.7
   # 基础项目工具
   hzy_normal_tool:
     path: ../hzy_normal_tool/

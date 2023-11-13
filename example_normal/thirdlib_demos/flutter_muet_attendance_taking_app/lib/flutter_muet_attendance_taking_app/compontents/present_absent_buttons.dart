@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
 import 'package:flutter_muet_attendance_taking_app/flutter_muet_attendance_taking_app.dart';
 

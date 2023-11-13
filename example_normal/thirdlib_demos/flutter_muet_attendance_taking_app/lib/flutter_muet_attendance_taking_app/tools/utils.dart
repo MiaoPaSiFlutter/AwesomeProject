@@ -2,7 +2,6 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:hzy_common_module/hzy_common_module.dart';
-import 'package:provider/provider.dart';
 import 'package:clipboard/clipboard.dart';
 import 'package:flutter/material.dart';
 import 'package:screenshot/screenshot.dart';
