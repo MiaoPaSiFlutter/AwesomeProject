@@ -82,6 +82,10 @@ web 产物在`ts-pages`分支可查看。
 
 ##### Flutter 精美 UI 截图
 
+- 一个基于 GetX 的 Dashboard 纯 UI 界面自适应手机、平板、web 的模板 APP
+
+<img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/FDManagementUI/thumbnail_wall.png " width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/FDManagementUI/bg_mob2.gif " width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/FDManagementUI/bg_tab.gif " width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/FDManagementUI/bg_desk.gif " width="32%">
+
 - 一个包含动画，收藏，删除和切换主题等功能 UI 的邮件类 APP
 
 <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/reply-transitions-iOS.gif " width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/reply-transitions-android.gif " width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-232935.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-232946.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-232952.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233002.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233014.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233031.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233043.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233050.png" width="32%">

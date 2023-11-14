@@ -12,6 +12,7 @@ import 'ECommerceComplateAppUI/ECommerceComplateAppUI.dart';
 import 'ECommerceMobileAppUI/ECommerceMobileAppUI.dart';
 import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 import 'FDDailyTaskAppUI/FDDailyTaskAppUI.dart';
+import 'FDManagementUI/FDManagementUI.dart';
 import 'FacebookUIRedesignUI/FacebookUIRedesignUI.dart';
 import 'GoplanAppUI/GoplanAppUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
@@ -45,6 +46,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个基于GetX的Dashboard纯UI界面自适应手机、平板、web的模板APP',
+          description: '',
+          date: '2022年3月12日',
+          tags: ['自适应'],
+          gifOrPictures: ['screenshots/FDManagementUI.gif'],
+          app: const FDManagementUI(),
+          author: 'firgia - Github',
+          url: 'https://github.com/firgia/FD-Project-Management'),
       InterestingUIModel(
           title: '一个包含动画，收藏，删除和切换主题等功能UI的邮件类APP',
           description: '',
