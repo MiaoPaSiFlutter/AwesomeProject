@@ -1,0 +1,209 @@
+import 'package:flutter/material.dart';
+import '../values/values.dart';
+import '../widgets/custom_app_bar.dart';
+import '../widgets/potbelly_button.dart';
+
+class FindFriendsScreen extends StatelessWidget {
+  const FindFriendsScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: PreferredSize(
+        preferredSize: const Size.fromHeight(56.0),
+        child: CustomAppBar(
+          title: "Find Friends",
+        ),
+      ),
+      body: ListView(
+        shrinkWrap: true,
+        children: <Widget>[
+          Column(
+            children: <Widget>[
+              _buildContacts(context: context),
+              _buildSuggestions(context: context),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildContacts({required BuildContext context}) {
+    var textTheme = Theme.of(context).textTheme;
+    return Container(
+      child: Column(
+        children: <Widget>[
+          Container(
+            color: AppColors.secondaryColor,
+            padding: const EdgeInsets.symmetric(
+              horizontal: Sizes.MARGIN_16,
+              vertical: Sizes.MARGIN_16,
+            ),
+            child: Row(
+              children: <Widget>[
+                Text(
+                  "Contacts",
+                  style: textTheme.titleMedium?.copyWith(
+                    fontSize: Sizes.TEXT_SIZE_20,
+                    color: AppColors.indigoShade1,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          FriendsListTile(
+            imageUrl: ImagePath.anabel,
+            title: "Anabel",
+            subtitle: "50 reviews",
+            buttonText: "Follow",
+          ),
+          FriendsListTile(
+            imageUrl: ImagePath.andy,
+            title: "Andy",
+            subtitle: "12 reviews",
+            buttonText: "Unfollow",
+            isFollowing: false,
+          ),
+          FriendsListTile(
+            imageUrl: ImagePath.branson,
+            title: "Branson",
+            subtitle: "29 reviews",
+            buttonText: "Follow",
+          ),
+          FriendsListTile(
+            imageUrl: ImagePath.juliet,
+            title: "Juliet",
+            subtitle: "34 reviews",
+            buttonText: "Unfollow",
+            isFollowing: false,
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildSuggestions({required BuildContext context}) {
+    var textTheme = Theme.of(context).textTheme;
+    return Container(
+      child: Column(
+        children: <Widget>[
+          Container(
+            color: AppColors.secondaryColor,
+            padding: const EdgeInsets.symmetric(
+              horizontal: Sizes.MARGIN_16,
+              vertical: Sizes.MARGIN_16,
+            ),
+            child: Row(
+              children: <Widget>[
+                Text(
+                  "Suggestions",
+                  style: textTheme.titleMedium?.copyWith(
+                    fontSize: Sizes.TEXT_SIZE_20,
+                    color: AppColors.indigoShade1,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          FriendsListTile(
+            imageUrl: ImagePath.profile1,
+            title: "Ryan",
+            subtitle: "5 reviews",
+            buttonText: "Follow",
+          ),
+          FriendsListTile(
+            imageUrl: ImagePath.profile3,
+            title: "John",
+            subtitle: "21 reviews",
+            buttonText: "Follow",
+          ),
+          FriendsListTile(
+            imageUrl: ImagePath.deven,
+            title: "Deven",
+            subtitle: "43 reviews",
+            buttonText: "Follow",
+          ),
+          FriendsListTile(
+            imageUrl: ImagePath.duke,
+            title: "Duke",
+            subtitle: "92 reviews",
+            buttonText: "Follow",
+          ),
+          FriendsListTile(
+            imageUrl: ImagePath.ashlee,
+            title: "Ashlee",
+            subtitle: "89 reviews",
+            buttonText: "Follow",
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class FriendsListTile extends StatelessWidget {
+  const FriendsListTile({
+    super.key,
+    required this.imageUrl,
+    required this.title,
+    required this.subtitle,
+    required this.buttonText,
+    this.isFollowing = true,
+  });
+
+  final String imageUrl;
+  final String title;
+  final String subtitle;
+  final String buttonText;
+  final bool isFollowing;
+
+  @override
+  Widget build(BuildContext context) {
+    var textTheme = Theme.of(context).textTheme;
+
+    return ListTile(
+      contentPadding: const EdgeInsets.symmetric(
+          vertical: Sizes.PADDING_4, horizontal: Sizes.PADDING_16),
+      leading: Image.asset(imageUrl),
+      title: Container(
+        margin: const EdgeInsets.only(bottom: Sizes.MARGIN_8),
+        child: Text(
+          title,
+          style: textTheme.titleMedium?.copyWith(fontSize: Sizes.TEXT_SIZE_20),
+        ),
+      ),
+      subtitle: Text(
+        subtitle,
+        style: textTheme.titleSmall?.copyWith(
+          color: AppColors.accentText,
+          fontSize: Sizes.TEXT_SIZE_16,
+        ),
+      ),
+      trailing: isFollowing
+          ? PotbellyButton(
+              buttonText,
+              buttonWidth: 100,
+              buttonHeight: 36,
+            )
+          : PotbellyButton(
+              buttonText,
+              buttonWidth: 100,
+              buttonHeight: 36,
+              decoration: BoxDecoration(
+                color: AppColors.primaryColor,
+                border: Border.all(
+                  color: AppColors.indigo,
+                ),
+                borderRadius: const BorderRadius.all(
+                  Radius.circular(Sizes.RADIUS_8),
+                ),
+              ),
+              buttonTextStyle: textTheme.bodyMedium?.copyWith(
+                color: AppColors.accentText,
+                fontSize: Sizes.TEXT_SIZE_16,
+              ),
+            ),
+    );
+  }
+}

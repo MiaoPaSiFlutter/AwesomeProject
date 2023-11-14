@@ -14,6 +14,7 @@ import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 import 'FDDailyTaskAppUI/FDDailyTaskAppUI.dart';
 import 'FDManagementUI/FDManagementUI.dart';
 import 'FacebookUIRedesignUI/FacebookUIRedesignUI.dart';
+import 'FoodybiteAppUI/main.dart';
 import 'GoplanAppUI/GoplanAppUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
 import 'InstagramUIRedesignUI/InstagramUIRedesignUI.dart';
@@ -46,6 +47,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个美食评价打分的APP',
+          description: '',
+          date: '2022年3月12日',
+          tags: ['自适应'],
+          gifOrPictures: ['screenshots/FoodybiteAppUI.gif'],
+          app: const FoodybiteAppUI(),
+          author: 'david-legend - Github',
+          url: 'https://github.com/david-legend/foodybite'),
       InterestingUIModel(
           title: '一个基于GetX的Dashboard纯UI界面自适应手机、平板、web的模板APP',
           description: '',

@@ -82,6 +82,10 @@ web 产物在`ts-pages`分支可查看。
 
 ##### Flutter 精美 UI 截图
 
+- 一个美食评价打分的 APP
+
+  <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/FoodybiteAppUI.gif" width="32%">
+
 - 一个基于 GetX 的 Dashboard 纯 UI 界面自适应手机、平板、web 的模板 APP
 
 <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/FDManagementUI/thumbnail_wall.png " width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/FDManagementUI/bg_mob2.gif " width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/FDManagementUI/bg_tab.gif " width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/FDManagementUI/bg_desk.gif " width="32%">
