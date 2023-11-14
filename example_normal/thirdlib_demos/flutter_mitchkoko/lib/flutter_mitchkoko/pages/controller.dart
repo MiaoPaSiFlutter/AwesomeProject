@@ -19,6 +19,7 @@ import 'InstagramUIRedesignUI/InstagramUIRedesignUI.dart';
 import 'MathGameUI/MathGameUI.dart';
 import 'MeditationAppUI/MeditationAppUI.dart';
 import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
+import 'MotionAnimationsReplyUI/MotionAnimationsReplyUI.dart';
 import 'MusicplayerUI/MusicplayerUI.dart';
 import 'NFTappuiUI/NFTappuiUI.dart';
 import 'OnlineShoppingAppUI/OnlineShoppingAppUI.dart';
@@ -44,6 +45,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个包含动画，收藏，删除和切换主题等功能UI的邮件类APP',
+          description: '',
+          date: '2022年4月24日',
+          tags: ['动画', '切换主题'],
+          gifOrPictures: ['screenshots/MotionAnimationsReplyUI.gif'],
+          app: const MotionAnimationsReplyUI(),
+          author: 'gokhankar - Github',
+          url: 'https://github.com/gokhankar/flutter_motion_animations_reply'),
       InterestingUIModel(
           title: '一个基于GetX的Dashboard纯UI界面自适应手机、平板、web的模板APP',
           description: '',

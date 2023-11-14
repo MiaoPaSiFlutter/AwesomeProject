@@ -134,6 +134,7 @@ flutter:
     - assets/BlogClubAppUI/img/stories/
     - assets/BlogClubAppUI/img/background/
     - assets/FDDailyTaskAppUI/images/
+    - assets/MotionAnimationsReplyUI/images/
     - assets/screenshots/
 
   fonts:
