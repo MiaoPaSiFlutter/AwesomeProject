@@ -12,6 +12,7 @@ import 'package:flutter_jd/flutter_jd.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
 import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
 import 'package:flutter_muet_attendance_taking_app/flutter_muet_attendance_taking_app.dart';
+import 'package:flutter_nimbus_app/flutter_nimbus_app.dart';
 import 'package:flutter_oorbswallpaper_app/flutter_oorbswallpaper_app.dart';
 import 'package:flutter_paytabs_tickets_app/flutter_paytabs_tickets_app.dart';
 import 'package:flutter_weather/flutter_weather.dart';
@@ -39,6 +40,7 @@ class RouterS {
       ...FoodHubAppModulePagesS.routerS,
       ...PaytabsTicketsModulePagesS.routerS,
       ...OorbsWallpaperModulePagesS.routerS,
+      ...NimbusAppModulePagesS.routerS,
     ];
   }
 

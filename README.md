@@ -76,6 +76,10 @@ web 产物在`ts-pages`分支可查看。
 
 <img src="./example_normal/thirdlib_demos/flutter_oorbswallpaper_app/assets/screenshots/flutter_oorbswallpaper_app.gif" width="32%">
 
+## [一个个人博客类 UI 的 WEB & APP](https://github.com/david-legend/nimbus)
+
+<img src="./example_normal/thirdlib_demos/flutter_nimbus_app/assets/screenshots/flutter_nimbus_app.gif" width="32%">
+
 ##### Flutter 精美 UI 截图
 
 - 一个包含动画，收藏，删除和切换主题等功能 UI 的邮件类 APP
