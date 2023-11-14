@@ -80,16 +80,7 @@ web 产物在`ts-pages`分支可查看。
 
 - 一个包含动画，收藏，删除和切换主题等功能 UI 的邮件类 APP
 
-<img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/reply-transitions-iOS.gif " width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/reply-transitions-android.gif " width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-232935.png" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-232946.png" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-232952.png" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233002.png" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233014.png" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233031.png" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233043.png" width="32%">
-<img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233050.png" width="32%">
+<img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/reply-transitions-iOS.gif " width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/reply-transitions-android.gif " width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-232935.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-232946.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-232952.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233002.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233014.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233031.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233043.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/MotionAnimationsReplyUI/Ekran görüntüleri_20220423-233050.png" width="32%">
 
 - 一个博客论坛的 APP
 
