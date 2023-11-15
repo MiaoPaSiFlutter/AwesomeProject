@@ -80,6 +80,10 @@ web 产物在`ts-pages`分支可查看。
 
 <img src="./example_normal/thirdlib_demos/flutter_nimbus_app/assets/screenshots/flutter_nimbus_app.gif" width="32%">
 
+## [一款健身应用的 UI 模板 APP](https://github.com/HypeTeqSoftware/FitnessApp)
+
+<img src="./example_normal/thirdlib_demos/flutter_fitness_app/assets/screenshots/fitness_app.png" width="100%">
+
 ##### Flutter 精美 UI 截图
 
 - 一个美食评价打分的 APP
