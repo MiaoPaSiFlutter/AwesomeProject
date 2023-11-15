@@ -1162,6 +1162,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_to_do_app:
+    dependency: "direct main"
+    description:
+      path: "thirdlib_demos/flutter_to_do_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   flutter_update_dialog:
     dependency: transitive
     description:
@@ -1294,6 +1301,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "7.6.4"
+  get_storage:
+    dependency: transitive
+    description:
+      name: get_storage
+      sha256: "39db1fffe779d0c22b3a744376e86febe4ade43bf65e06eab5af707dc84185a2"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.1.1"
   glob:
     dependency: transitive
     description:
@@ -2172,6 +2187,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.2.0"
+  rename:
+    dependency: transitive
+    description:
+      name: rename
+      sha256: b0d9407186d834ad73aba9938da95a20208c4be99f151d9f376ac62a08d08bad
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.1.1"
   reorderables:
     dependency: transitive
     description:
@@ -2480,6 +2503,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.0"
+  step_progress_indicator:
+    dependency: transitive
+    description:
+      name: step_progress_indicator
+      sha256: b51bb1fcfc78454359f0658c5a2c21548c3825ebf76e826308e9ca10f383bbb8
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.2"
   stream_channel:
     dependency: transitive
     description:

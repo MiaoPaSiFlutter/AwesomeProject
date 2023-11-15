@@ -50,6 +50,8 @@ dependencies:
     path: ./thirdlib_demos/flutter_fitness_app
   flutter_periodic_table_app:
     path: ./thirdlib_demos/flutter_periodic_table_app
+  flutter_to_do_app:
+    path: ./thirdlib_demos/flutter_to_do_app
 
   extended_sliver_demo:
     path: ./thirdlib_demos/extended_sliver_demo

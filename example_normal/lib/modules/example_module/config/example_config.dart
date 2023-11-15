@@ -22,6 +22,7 @@ import 'package:flutter_nimbus_app/flutter_nimbus_app.dart';
 import 'package:flutter_oorbswallpaper_app/flutter_oorbswallpaper_app.dart';
 import 'package:flutter_paytabs_tickets_app/flutter_paytabs_tickets_app.dart';
 import 'package:flutter_periodic_table_app/flutter_periodic_table_app.dart';
+import 'package:flutter_to_do_app/flutter_to_do_app.dart';
 import 'package:flutter_weather/flutter_weather.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:scrollerview_demo/scrollerview_demo.dart';
@@ -83,6 +84,10 @@ class ExamplConfig {
     HzyNormalItemModel(
       leftMsg: "一款元素周期表及元素3D模型的APP",
       router: PeriodicTableAppModuleRouterS.HOME,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "一款计划｜待办事项的UI模板APP",
+      router: ToDoAppModuleRouterS.HOME,
     ),
 
     HzyNormalItemModel(

@@ -1,0 +1,36 @@
+name: flutter_to_do_app
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "http"
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../thirdlib/hzy_common_module/
+  # 完全用 Dart 编写的快速、超轻量级同步键值存储
+  get_storage: 2.1.1
+  # 由一系列选定和未选定步骤组成的条形指示器
+  step_progress_indicator: 1.0.2
+  intl: 0.18.1
+  rename: ^2.0.1
+  equatable: 2.0.5
+  flutter_easyloading: 3.0.5
+  dotted_border: 2.1.0
+
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  assets:
+    - assets/images/
+  fonts:
+    - family: Ubuntu
+      fonts:
+        - asset: assets/fonts/Ubuntu-Medium.ttf
+        - asset: assets/fonts/Ubuntu-Regular.ttf

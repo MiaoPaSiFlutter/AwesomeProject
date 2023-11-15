@@ -19,6 +19,7 @@ import 'package:flutter_paytabs_tickets_app/flutter_paytabs_tickets_app.dart';
 import 'package:flutter_periodic_table_app/flutter_periodic_table_app.dart';
 import 'package:flutter_weather/flutter_weather.dart';
 import 'package:scrollerview_demo/scrollerview_demo.dart';
+import 'package:flutter_to_do_app/flutter_to_do_app.dart';
 
 import '../dataconfig/page_id_config.dart';
 
@@ -45,6 +46,7 @@ class RouterS {
       ...NimbusAppModulePagesS.routerS,
       ...FitnessAppModulePagesS.routerS,
       ...PeriodicTableAppModulePagesS.routerS,
+      ...ToDoAppModulePagesS.routerS,
     ];
   }
 
