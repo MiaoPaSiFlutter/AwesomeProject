@@ -30,6 +30,7 @@ import 'QuizAppUI/QuizAppUI.dart';
 import 'ResponsiveWelcomeLoginAndSignUpUI/ResponsiveWelcomeLoginAndSignUpUI.dart';
 import 'ShoeAppUI/ShoeAppUI.dart';
 import 'SmartHomeAnimatedAppUI/SmartHomeAnimatedAppUI.dart';
+import 'SmartHomeAppUI/src/SmartHomeAppUI.dart';
 import 'TaskManagementAppUI/TaskManagementAppUI.dart';
 import 'TicketBookingAppUI/TicketBookingAppUI.dart';
 import 'TiktokscrollUI/TiktokscrollUI.dart';
@@ -47,6 +48,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一款智能家具应用的UI模板APP',
+          description: '',
+          date: '2022年3月12日',
+          tags: ['智能家具'],
+          gifOrPictures: ['screenshots/SmartHomeAppUI.gif'],
+          app: SmartHomeAppUI(),
+          author: 'zillur07 - Github',
+          url: 'https://github.com/zillur07/Flutter-Smart-Home-App'),
       InterestingUIModel(
           title: '一个美食评价打分的APP',
           description: '',

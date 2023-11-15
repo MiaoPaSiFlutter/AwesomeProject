@@ -75,6 +75,14 @@ dependencies:
   # AutoRoute 是一种声明式路由解决方案，会自动为您生成导航所需的所有内容。
   auto_route: 7.8.4
   auto_route_generator: 7.3.2
+  # 一个全能、高度可定制的持久/静态底部导航栏，用于颤动。  包括多达 20 种样式。  基于perpetual_bottom_nav_bar，目前未继续。
+  persistent_bottom_nav_bar_v2: 4.2.8
+  # 高度可定制的 Flutter 图表库，支持折线图、条形图、饼图、散点图和雷达图。
+  fl_chart: 0.63.0
+  # （另一个 Xlider）材料设计滑块和范围滑块，水平和垂直，具有 RTL 支持以及大量选项和针对 flutter 的自定义
+  another_xlider: 3.0.1
+  # 完全可定制、可拖动和动画切换，具有多种选择和流畅的加载动画。  它具有用于滚动和大小动画的预构建构造函数。
+  animated_toggle_switch: 0.8.0
 
   flutter:
     sdk: flutter
@@ -146,6 +154,8 @@ flutter:
     - assets/FoodybiteAppUI/images/2.0x/
     - assets/FoodybiteAppUI/images/3.0x/
     - assets/FoodybiteAppUI/launcher/
+    - assets/SmartHomeAppUI/img/
+    - assets/SmartHomeAppUI/svg/
     - assets/screenshots/
 
   fonts:

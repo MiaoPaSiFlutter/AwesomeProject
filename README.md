@@ -86,6 +86,10 @@ web 产物在`ts-pages`分支可查看。
 
 ##### Flutter 精美 UI 截图
 
+- 一款智能家具应用的 UI 模板 APP
+
+  <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/SmartHomeAppUI/SmartHomeAppUI.gif" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/SmartHomeAppUI/flutter_01.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/SmartHomeAppUI/flutter_02.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/SmartHomeAppUI/flutter_03.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/SmartHomeAppUI/flutter_04.png" width="32%"><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/SmartHomeAppUI/flutter_05.png" width="32%">
+
 - 一个美食评价打分的 APP
 
   <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/FoodybiteAppUI.gif" width="32%">
