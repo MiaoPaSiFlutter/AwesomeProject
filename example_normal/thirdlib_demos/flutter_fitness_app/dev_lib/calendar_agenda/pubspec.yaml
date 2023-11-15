@@ -1,0 +1,21 @@
+name: calendar_agenda
+description: Calendar agenda widget with a lot of customizable styles, also can be put as appbar widget.
+version: 0.0.2+2
+homepage: https://github.com/sud0su/calendar_agenda
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: 0.18.1
+  # 带有辅助方法的列表，用于以编程方式滚动到某个项目。
+  scrollable_positioned_list: 0.3.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

@@ -33,6 +33,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "4.2.2"
+  animated_toggle_switch:
+    dependency: transitive
+    description:
+      name: animated_toggle_switch
+      sha256: "19afc84373ad0fca147869e1b984afb3778ea8080f8d0af4fd1ff604d41b2635"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.8.0"
   animation_demo:
     dependency: "direct main"
     description:
@@ -172,10 +180,11 @@ packages:
   azlistview:
     dependency: transitive
     description:
-      name: azlistview
-      sha256: "93e865f11777a271b439f0d6b00799c0797e9daeec2e082a2e01373809c4b90d"
-      url: "https://pub.flutter-io.cn"
-    source: hosted
+      path: "."
+      ref: "yh-0.3.8"
+      resolved-ref: "643945c390948a9b5afc7ec0063c06ca80f37646"
+      url: "https://github.com/MiaoPaSiFlutter/azlistview.git"
+    source: git
     version: "2.0.0"
   badges:
     dependency: transitive
@@ -305,6 +314,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.1.0"
+  calendar_agenda:
+    dependency: transitive
+    description:
+      path: "thirdlib_demos/flutter_fitness_app/dev_lib/calendar_agenda"
+      relative: true
+    source: path
+    version: "0.0.2+2"
   camera:
     dependency: transitive
     description:
@@ -583,6 +599,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.1.0"
+  dotted_dashed_line:
+    dependency: transitive
+    description:
+      name: dotted_dashed_line
+      sha256: da3678819f4522c982eb256d2bc80d032fd2a3e7b437841ea83987c67c00cda5
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.0.3"
   dynamic_fonts:
     dependency: transitive
     description:
@@ -782,6 +806,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.1.0"
+  fl_chart:
+    dependency: transitive
+    description:
+      name: fl_chart
+      sha256: c1e26c7e48496be85104c16c040950b0436674cdf0737f3f6e95511b2529b592
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.63.0"
   flash:
     dependency: transitive
     description:
@@ -881,6 +913,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.0"
+  flutter_fitness_app:
+    dependency: "direct main"
+    description:
+      path: "thirdlib_demos/flutter_fitness_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   flutter_foodhub_app:
     dependency: "direct main"
     description:
@@ -2086,6 +2125,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "3.2.1"
+  readmore:
+    dependency: transitive
+    description:
+      name: readmore
+      sha256: "99c2483202f7c7e98c50834d72be2b119aefecf4497ca1960ae9d5f418eb1481"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.2.0"
   reorderables:
     dependency: transitive
     description:
@@ -2154,10 +2201,10 @@ packages:
     dependency: transitive
     description:
       name: scrollable_positioned_list
-      sha256: "9566352ab9ba05794ee6c8864f154afba5d36c5637d0e3e32c615ba4ceb92772"
+      sha256: "1b54d5f1329a1e263269abc9e2543d90806131aa14fe7c6062a8054d57249287"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.2.3"
+    version: "0.3.8"
   scrollerview_demo:
     dependency: "direct main"
     description:
@@ -2277,6 +2324,22 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.4"
+  simple_animation_progress_bar:
+    dependency: transitive
+    description:
+      name: simple_animation_progress_bar
+      sha256: ea5a84956d59541794aa2e8d9d68af3c3fc712f6224992ebb68ac13325401c1c
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.6.0"
+  simple_circular_progress_bar:
+    dependency: transitive
+    description:
+      name: simple_circular_progress_bar
+      sha256: e661ca942fbc617298e975b41fde19003d995de73ca6c2a1526c54d52f07151b
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.2"
   sizer:
     dependency: transitive
     description:

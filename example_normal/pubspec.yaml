@@ -46,6 +46,8 @@ dependencies:
     path: ./thirdlib_demos/flutter_oorbswallpaper_app
   flutter_nimbus_app:
     path: ./thirdlib_demos/flutter_nimbus_app
+  flutter_fitness_app:
+    path: ./thirdlib_demos/flutter_fitness_app
 
   extended_sliver_demo:
     path: ./thirdlib_demos/extended_sliver_demo

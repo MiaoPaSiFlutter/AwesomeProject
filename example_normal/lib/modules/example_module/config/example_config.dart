@@ -12,6 +12,7 @@ import 'package:canvas_demo/canvas_demo.dart';
 import 'package:common_demo/common_demo.dart';
 import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_books/flutter_books.dart';
+import 'package:flutter_fitness_app/flutter_fitness_app.dart';
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 import 'package:flutter_jd/flutter_jd.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
@@ -73,6 +74,10 @@ class ExamplConfig {
     HzyNormalItemModel(
       leftMsg: "一个个人博客类UI的 WEB & APP",
       router: NimbusAppModuleRouterS.HOME,
+    ),
+    HzyNormalItemModel(
+      leftMsg: "一款健身应用的UI模板APP",
+      router: FitnessAppModuleRouterS.HOME,
     ),
 
     HzyNormalItemModel(
