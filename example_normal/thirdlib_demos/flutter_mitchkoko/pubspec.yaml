@@ -156,9 +156,23 @@ flutter:
     - assets/FoodybiteAppUI/launcher/
     - assets/SmartHomeAppUI/img/
     - assets/SmartHomeAppUI/svg/
+    - assets/PayNowEWalletAppUI/images/
     - assets/screenshots/
 
   fonts:
+    ### PayNowEWalletAppUI
+    - family: SF-Pro-Rounded
+      fonts:
+        - asset: assets/PayNowEWalletAppUI/fonts/SF-Pro-Rounded-Light.otf
+          weight: 300
+        - asset: assets/PayNowEWalletAppUI/fonts/SF-Pro-Rounded-Regular.otf
+          weight: 400
+        - asset: assets/PayNowEWalletAppUI/fonts/SF-Pro-Rounded-Medium.otf
+          weight: 500
+        - asset: assets/PayNowEWalletAppUI/fonts/SF-Pro-Rounded-Semibold.otf
+          weight: 600
+        - asset: assets/PayNowEWalletAppUI/fonts/SF-Pro-Rounded-Bold.otf
+          weight: 700
     ### FoodybiteAppUI
     - family: Josefin Sans
       fonts:

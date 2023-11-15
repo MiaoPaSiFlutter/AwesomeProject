@@ -26,6 +26,7 @@ import 'MusicplayerUI/MusicplayerUI.dart';
 import 'NFTappuiUI/NFTappuiUI.dart';
 import 'OnlineShoppingAppUI/OnlineShoppingAppUI.dart';
 import 'ParallaxEffectUI/ParallaxEffectUI.dart';
+import 'PayNowEWalletAppUI/PayNowEWalletAppUI.dart';
 import 'QuizAppUI/QuizAppUI.dart';
 import 'ResponsiveWelcomeLoginAndSignUpUI/ResponsiveWelcomeLoginAndSignUpUI.dart';
 import 'ShoeAppUI/ShoeAppUI.dart';
@@ -48,6 +49,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一款收付款和记账本的UI模板APP',
+          description: '',
+          date: '2022年3月12日',
+          tags: ['收付款', '记账本'],
+          gifOrPictures: ['screenshots/PayNowEWalletAppUI.gif'],
+          app: PayNowEWalletAppUI(),
+          author: '0xayman - Github',
+          url: 'https://github.com/0xayman/Pay-Now-E-Wallet-App'),
       InterestingUIModel(
           title: '一款智能家具应用的UI模板APP',
           description: '',
