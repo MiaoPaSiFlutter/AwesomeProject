@@ -197,7 +197,7 @@ class SettingsScreen extends StatelessWidget {
                         color: AppColors.greyShade1,
                       ),
                     ),
-                    textStyle: textTheme.button
+                    textStyle: textTheme.labelLarge
                         ?.copyWith(color: AppColors.secondaryElement),
                     onPressed: () => AutoRouter.of(context)
                         .replaceAll([const LoginScreen()]),
