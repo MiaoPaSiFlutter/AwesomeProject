@@ -84,6 +84,10 @@ web 产物在`ts-pages`分支可查看。
 
 <img src="./example_normal/thirdlib_demos/flutter_fitness_app/assets/screenshots/fitness_app.png" width="100%">
 
+## [一款元素周期表及元素 3D 模型的 APP](https://github.com/berkayceylan/periodic_table_flutter)
+
+<img src="./example_normal/thirdlib_demos/flutter_periodic_table_app/assets/screenshots/periodic_table_1.gif" width="22%"><img src="./example_normal/thirdlib_demos/flutter_periodic_table_app/assets/screenshots/ss-1.png" width="22%"><img src="./example_normal/thirdlib_demos/flutter_periodic_table_app/assets/screenshots/ss-2.png" width="22%"><img src="./example_normal/thirdlib_demos/flutter_periodic_table_app/assets/screenshots/ss-3.png" width="22%">
+
 ##### Flutter 精美 UI 截图
 
 - 一款收付款和记账本的 UI 模板 APP

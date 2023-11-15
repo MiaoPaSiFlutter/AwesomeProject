@@ -1,0 +1,24 @@
+name: flutter_periodic_table_app
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "http"
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../thirdlib/hzy_common_module/
+  # 用于以 glTF 和 GLB 格式渲染交互式 3D 模型的 Flutter 小部件
+  model_viewer_plus: 1.7.0
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  assets:
+    - assets/images/
+    - assets/json/

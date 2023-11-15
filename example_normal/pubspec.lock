@@ -25,6 +25,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "3.0.2"
+  android_intent_plus:
+    dependency: transitive
+    description:
+      name: android_intent_plus
+      sha256: e1c62bb41c90e15083b7fb84dc327fe90396cc9c1445b55ff1082144fabfb4d9
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "4.0.3"
   animated_text_kit:
     dependency: transitive
     description:
@@ -1054,6 +1062,13 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  flutter_periodic_table_app:
+    dependency: "direct main"
+    description:
+      path: "thirdlib_demos/flutter_periodic_table_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   flutter_plugin_android_lifecycle:
     dependency: transitive
     description:
@@ -1764,6 +1779,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.4"
+  model_viewer_plus:
+    dependency: transitive
+    description:
+      name: model_viewer_plus
+      sha256: daeee3c498ece539125933e233252aebdc0b6d842538efb7061f7eaf3b97939e
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.7.0"
   nested:
     dependency: transitive
     description:

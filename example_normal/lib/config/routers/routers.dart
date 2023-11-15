@@ -16,6 +16,7 @@ import 'package:flutter_muet_attendance_taking_app/flutter_muet_attendance_takin
 import 'package:flutter_nimbus_app/flutter_nimbus_app.dart';
 import 'package:flutter_oorbswallpaper_app/flutter_oorbswallpaper_app.dart';
 import 'package:flutter_paytabs_tickets_app/flutter_paytabs_tickets_app.dart';
+import 'package:flutter_periodic_table_app/flutter_periodic_table_app.dart';
 import 'package:flutter_weather/flutter_weather.dart';
 import 'package:scrollerview_demo/scrollerview_demo.dart';
 
@@ -43,6 +44,7 @@ class RouterS {
       ...OorbsWallpaperModulePagesS.routerS,
       ...NimbusAppModulePagesS.routerS,
       ...FitnessAppModulePagesS.routerS,
+      ...PeriodicTableAppModulePagesS.routerS,
     ];
   }
 
