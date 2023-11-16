@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
@@ -6,6 +7,7 @@ import 'AnimatedAppWithRiveUI/AnimatedAppWithRiveUI.dart';
 import 'AnimatedTravelAppUI/AnimatedTravelAppUI.dart';
 import 'BlogClubAppUI/BlogClubAppUI.dart';
 import 'ChatMessageAppUI/ChatMessageAppUI.dart';
+import 'CoffeeAppUI/CoffeAppUI.dart';
 import 'CompassUI/CompassUI.dart';
 import 'DonutAppUI/DonutAppUI.dart';
 import 'ECommerceComplateAppUI/ECommerceComplateAppUI.dart';
@@ -43,14 +45,27 @@ class MitchkokoHomeController extends GetxController {
   MitchkokoHomeController();
 
   var uiModels = [].obs;
+
   @override
   void onInit() {
     super.onInit();
     getData();
   }
 
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个好看流畅的UI动画的咖啡APP',
+          description: '',
+          date: '2023年3月20日',
+          tags: ['动画', '咖啡'],
+          gifOrPictures: ['screenshots/CoffeAppUI.gif'],
+          app: CoffeAppUI(),
+          author: 'IZriouil - Github',
+          url: 'https://github.com/IZriouil/coffee_app'),
       InterestingUIModel(
           title: '一个特斯拉汽车在线销售的UI模板APP',
           description: '',

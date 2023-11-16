@@ -92,7 +92,9 @@ dependencies:
   carousel_slider: 4.2.1
   device_preview: 1.1.0
   font_awesome_flutter: 10.5.0
-
+  get_it: 7.6.4
+  # Feather 是一组简单漂亮的开源图标。  每个图标都设计在 24x24 网格上，强调简单性、一致性和可用性。
+  flutter_feather_icons: 2.0.0+1
   flutter:
     sdk: flutter
 dev_dependencies:
@@ -168,6 +170,9 @@ flutter:
     - assets/PayNowEWalletAppUI/images/
     - assets/ValorantInfoAppUI/
     - assets/TeslaAppUI/images/
+    - assets/CoffeeAppUI/images/
+    - assets/CoffeeAppUI/images/coffee/
+    - assets/CoffeeAppUI/images/treat/
     - assets/screenshots/
 
   fonts:
