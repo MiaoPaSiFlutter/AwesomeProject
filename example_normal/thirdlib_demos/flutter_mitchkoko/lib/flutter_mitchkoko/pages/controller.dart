@@ -33,6 +33,7 @@ import 'ShoeAppUI/ShoeAppUI.dart';
 import 'SmartHomeAnimatedAppUI/SmartHomeAnimatedAppUI.dart';
 import 'SmartHomeAppUI/src/SmartHomeAppUI.dart';
 import 'TaskManagementAppUI/TaskManagementAppUI.dart';
+import 'TeslaAppUI/TeslaAppUI.dart';
 import 'TicketBookingAppUI/TicketBookingAppUI.dart';
 import 'TiktokscrollUI/TiktokscrollUI.dart';
 import 'ValorantInfoAppUI/ValorantInfoAppUI.dart';
@@ -50,6 +51,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个特斯拉汽车在线销售的UI模板APP',
+          description: '',
+          date: '2023年3月20日',
+          tags: ['特斯拉'],
+          gifOrPictures: ['screenshots/TeslaAppUI.gif'],
+          app: TeslaAppUI(),
+          author: 'vegasandroid - Github',
+          url: 'https://github.com/vegasandroid/tesla-app'),
       InterestingUIModel(
           title: '一款游戏《无畏契约》资料的UI模板APP',
           description: '',

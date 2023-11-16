@@ -94,6 +94,10 @@ web 产物在`ts-pages`分支可查看。
 
 ##### Flutter 精美 UI 截图
 
+- 一个特斯拉汽车在线销售的 UI 模板 APP
+
+<img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TeslaAppUI/iphone_img1.png" width="22%" /><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TeslaAppUI/iphone_img2.png" width="22%" /><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TeslaAppUI/iphone_img3.png" width="22%" /><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TeslaAppUI/iphone_img4.png" width="22%" /><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TeslaAppUI/samsung_img1.png" width="22%" /><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TeslaAppUI/samsung_img2.png" width="22%" /><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TeslaAppUI/samsung_img3.png" width="22%" /><img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/TeslaAppUI/samsung_img4.png" width="22%" />
+
 - 一款游戏《无畏契约》资料的 UI 模板 APP
 
 <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/ValorantInfoAppUI.gif" width="33%" />
