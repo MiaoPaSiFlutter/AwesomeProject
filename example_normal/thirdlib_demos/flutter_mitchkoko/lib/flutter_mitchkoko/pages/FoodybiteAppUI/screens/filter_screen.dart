@@ -218,7 +218,7 @@ class _FilterScreenState extends State<FilterScreen> {
     );
   }
 
-  createCategoryButtons({@required numberOfButtons}) {
+  createCategoryButtons({required numberOfButtons}) {
     List<Widget> categoryButtons = <Widget>[];
     List<String> buttonTitles = [
       "Italian",

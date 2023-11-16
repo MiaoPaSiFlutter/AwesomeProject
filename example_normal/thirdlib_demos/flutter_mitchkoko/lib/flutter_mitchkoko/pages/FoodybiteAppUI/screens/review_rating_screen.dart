@@ -49,7 +49,7 @@ class ReviewRatingScreen extends StatelessWidget {
     );
   }
 
-  List<Widget> createUserListTiles({@required numberOfUsers}) {
+  List<Widget> createUserListTiles({required numberOfUsers}) {
     List<Widget> userListTiles = [];
     List<String> imagePaths = [
       ImagePath.profile1,

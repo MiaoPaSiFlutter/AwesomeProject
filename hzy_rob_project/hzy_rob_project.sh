@@ -310,6 +310,6 @@ modifyPubspec
 modifyTest
 configUpdata
 packageCreateExample
-openProject
-runProject
+# openProject
+# runProject
 echomsg '演示完成'

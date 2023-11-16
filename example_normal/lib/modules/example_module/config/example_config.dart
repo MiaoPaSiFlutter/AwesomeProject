@@ -16,6 +16,7 @@ import 'package:flutter_fitness_app/flutter_fitness_app.dart';
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 import 'package:flutter_jd/flutter_jd.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
+import 'package:flutter_marketky_app/flutter_marketky_app.dart';
 import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
 import 'package:flutter_muet_attendance_taking_app/flutter_muet_attendance_taking_app.dart';
 import 'package:flutter_nimbus_app/flutter_nimbus_app.dart';
@@ -89,7 +90,10 @@ class ExamplConfig {
       leftMsg: "一款计划｜待办事项的UI模板APP",
       router: ToDoAppModuleRouterS.HOME,
     ),
-
+    HzyNormalItemModel(
+      leftMsg: "一个商城类的UI界面的APP",
+      router: MarketkyAppModuleRouterS.HOME,
+    ),
     HzyNormalItemModel(
       leftMsg: "extended_sliver_demo",
       router: ExtendedSliverModuleRouterS.HOME,

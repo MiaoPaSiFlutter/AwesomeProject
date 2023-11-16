@@ -92,6 +92,10 @@ web 产物在`ts-pages`分支可查看。
 
 <img src="./example_normal/thirdlib_demos/flutter_to_do_app/assets/screenshots/Frame 3.png" width="30%"><img src="./example_normal/thirdlib_demos/flutter_to_do_app/assets/screenshots/Frame 4.png" width="30%"><img src="./example_normal/thirdlib_demos/flutter_to_do_app/assets/screenshots/Frame 6.png" width="30%"><img src="./example_normal/thirdlib_demos/flutter_to_do_app/assets/screenshots/Frame 7.png" width="30%">
 
+## [一个商城类的 UI 界面的 APP](https://github.com/ferdirhyme/marketplace)
+
+<img src="./example_normal/thirdlib_demos/flutter_marketky_app/assets/screenshots/details.jpg" width="100%">
+
 ##### Flutter 精美 UI 截图
 
 - 一个好看流畅的 UI 动画的咖啡 APP

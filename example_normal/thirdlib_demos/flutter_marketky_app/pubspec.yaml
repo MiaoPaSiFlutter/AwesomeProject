@@ -1,0 +1,58 @@
+name: flutter_marketky_app
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "http"
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../thirdlib/hzy_common_module/
+  flutter_svg: 2.0.8
+  pecahan_rupiah:
+    git:
+      url: https://github.com/MiaoPaSiFlutter/pecahan_rupiah_null_safety.git
+  smooth_page_indicator: 1.1.0
+  smooth_star_rating_null_safety: 1.0.4+2
+  # 一个 flutter 包将帮助您生成 pin 码字段。  例如，对于 OTP 很有用。
+  pin_code_fields: 8.0.1
+
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  assets:
+    - assets/images/
+    - assets/images/search/
+    - assets/icons/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/Poppins-ExtraBold.ttf
+          weight: 800
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito/Nunito-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Nunito/Nunito-Black.ttf
+          weight: 900

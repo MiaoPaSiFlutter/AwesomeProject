@@ -11,6 +11,7 @@ import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 // 京东模块儿
 import 'package:flutter_jd/flutter_jd.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
+import 'package:flutter_marketky_app/flutter_marketky_app.dart';
 import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
 import 'package:flutter_muet_attendance_taking_app/flutter_muet_attendance_taking_app.dart';
 import 'package:flutter_nimbus_app/flutter_nimbus_app.dart';
@@ -47,6 +48,7 @@ class RouterS {
       ...FitnessAppModulePagesS.routerS,
       ...PeriodicTableAppModulePagesS.routerS,
       ...ToDoAppModulePagesS.routerS,
+      ...MarketkyAppModulePagesS.routerS,
     ];
   }
 

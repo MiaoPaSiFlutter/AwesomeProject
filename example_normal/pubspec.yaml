@@ -52,6 +52,8 @@ dependencies:
     path: ./thirdlib_demos/flutter_periodic_table_app
   flutter_to_do_app:
     path: ./thirdlib_demos/flutter_to_do_app
+  flutter_marketky_app:
+    path: ./thirdlib_demos/flutter_marketky_app
 
   extended_sliver_demo:
     path: ./thirdlib_demos/extended_sliver_demo

@@ -142,7 +142,7 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  List<Widget> createUserProfilePhotos({@required numberOfProfilePhotos}) {
+  List<Widget> createUserProfilePhotos({required numberOfProfilePhotos}) {
     List<Widget> profilePhotos = [];
     List<String> imagePaths = [
       ImagePath.profile1,
