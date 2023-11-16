@@ -35,6 +35,7 @@ import 'SmartHomeAppUI/src/SmartHomeAppUI.dart';
 import 'TaskManagementAppUI/TaskManagementAppUI.dart';
 import 'TicketBookingAppUI/TicketBookingAppUI.dart';
 import 'TiktokscrollUI/TiktokscrollUI.dart';
+import 'ValorantInfoAppUI/ValorantInfoAppUI.dart';
 import 'WheelscrollUI/WheelscrollUI.dart';
 
 class MitchkokoHomeController extends GetxController {
@@ -49,6 +50,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一款游戏《无畏契约》资料的UI模板APP',
+          description: '',
+          date: '2023年3月20日',
+          tags: ['游戏资料'],
+          gifOrPictures: ['screenshots/ValorantInfoAppUI.gif'],
+          app: ValorantInfoAppUI(),
+          author: 'ZahaanMahajan - Github',
+          url: 'https://github.com/ZahaanMahajan/Valorant-Info'),
       InterestingUIModel(
           title: '一款收付款和记账本的UI模板APP',
           description: '',

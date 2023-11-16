@@ -599,6 +599,15 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "5.3.3"
+  dio_http_cache_lts:
+    dependency: transitive
+    description:
+      path: "."
+      ref: yh_dio_http_cache_lts
+      resolved-ref: ce1ac00318b9ce4e5ae334a9a4364eb6e3142f2e
+      url: "https://github.com/MiaoPaSiFlutter/dio_http_cache_lts.git"
+    source: git
+    version: "0.4.1"
   dots_indicator:
     dependency: transitive
     description:

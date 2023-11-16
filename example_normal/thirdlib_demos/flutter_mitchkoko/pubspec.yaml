@@ -10,6 +10,12 @@ dependencies:
   # 通用
   hzy_common_module:
     path: ../../thirdlib/hzy_common_module/
+  # 修改 dio_http_cache_lts 中的 dio版本
+  dio_http_cache_lts:
+    git:
+      url: https://github.com/MiaoPaSiFlutter/dio_http_cache_lts.git
+      ref: yh_dio_http_cache_lts
+  cached_network_image: 3.3.0
   # Flutter 的条形码生成小部件，支持标准条形码。
   barcode_widget: 2.0.4
   # 基于官方仓库的 Flutter 的 Microsoft Fluent UI Icons 包
@@ -157,9 +163,14 @@ flutter:
     - assets/SmartHomeAppUI/img/
     - assets/SmartHomeAppUI/svg/
     - assets/PayNowEWalletAppUI/images/
+    - assets/ValorantInfoAppUI/
     - assets/screenshots/
 
   fonts:
+    ### ValorantInfoAppUI
+    - family: Valorant
+      fonts:
+        - asset: assets/ValorantInfoAppUI/fonts/Valorant Font.ttf
     ### PayNowEWalletAppUI
     - family: SF-Pro-Rounded
       fonts:
