@@ -16,6 +16,7 @@ import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 import 'FDDailyTaskAppUI/FDDailyTaskAppUI.dart';
 import 'FDManagementUI/FDManagementUI.dart';
 import 'FacebookUIRedesignUI/FacebookUIRedesignUI.dart';
+import 'FoodAppUI/FoodAppUI.dart';
 import 'FoodybiteAppUI/main.dart';
 import 'GoplanAppUI/GoplanAppUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
@@ -57,6 +58,15 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一个食品应用程序概念动画',
+          description: '',
+          date: '2023年3月20日',
+          tags: ['动画'],
+          gifOrPictures: ['screenshots/FoodAppUI.gif'],
+          app: FoodAppUI(),
+          author: 'IZriouil - Github',
+          url: 'https://github.com/IZriouil/food_app'),
       InterestingUIModel(
           title: '一个好看流畅的UI动画的咖啡APP',
           description: '',

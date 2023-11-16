@@ -95,6 +95,9 @@ dependencies:
   get_it: 7.6.4
   # Feather 是一组简单漂亮的开源图标。  每个图标都设计在 24x24 网格上，强调简单性、一致性和可用性。
   flutter_feather_icons: 2.0.0+1
+  # 一个简单但完全可定制的 flutter 评级栏，其中还包括一个评级栏指示器，支持任何评级部分。
+  flutter_rating_bar: 4.0.1
+
   flutter:
     sdk: flutter
 dev_dependencies:
@@ -173,6 +176,9 @@ flutter:
     - assets/CoffeeAppUI/images/
     - assets/CoffeeAppUI/images/coffee/
     - assets/CoffeeAppUI/images/treat/
+    - assets/FoodAppUI/images/categories/
+    - assets/FoodAppUI/images/pasta/
+    - assets/FoodAppUI/images/pasta/extra/
     - assets/screenshots/
 
   fonts:

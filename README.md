@@ -98,6 +98,10 @@ web 产物在`ts-pages`分支可查看。
 
 ##### Flutter 精美 UI 截图
 
+- 一个食品应用程序概念动画
+
+<img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/FoodAppUI.gif" width="100%" />
+
 - 一个好看流畅的 UI 动画的咖啡 APP
 
 <img src="./example_normal/thirdlib_demos/flutter_mitchkoko/assets/screenshots/CoffeeAppUI/windows_demo.gif" width="100%" />
