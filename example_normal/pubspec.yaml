@@ -56,6 +56,8 @@ dependencies:
     path: ./thirdlib_demos/flutter_marketky_app
   flutter_crypto_market_app:
     path: ./thirdlib_demos/flutter_crypto_market_app
+  flutter_chatgpt_app:
+    path: ./thirdlib_demos/flutter_chatgpt_app
 
   #####
   extended_sliver_demo:

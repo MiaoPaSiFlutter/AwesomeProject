@@ -6,6 +6,7 @@ import 'package:example_normal/modules/example_module/routers/example_module_pag
 import 'package:example_normal/modules/my_module/routers/my_module_pages.dart';
 import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_books/flutter_books.dart';
+import 'package:flutter_chatgpt_app/flutter_chatgpt_app.dart';
 import 'package:flutter_crypto_market_app/flutter_crypto_market_app.dart';
 import 'package:flutter_fitness_app/flutter_fitness_app.dart';
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
@@ -51,6 +52,7 @@ class RouterS {
       ...ToDoAppModulePagesS.routerS,
       ...MarketkyAppModulePagesS.routerS,
       ...CryptoMarketAppModulePagesS.routerS,
+      ...ChatGPTAppModulePagesS.routerS,
     ];
   }
 

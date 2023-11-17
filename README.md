@@ -100,6 +100,10 @@ web 产物在`ts-pages`分支可查看。
 
 <img src="./example_normal/thirdlib_demos/flutter_crypto_market_app/assets/screenshots/flutter_crypto_market_app.gif" width="22%">
 
+## [ChatGPT 🤖 是一款基于 Flutter 的移动应用程序，带来了强大的 AI 聊天功能。 它提供了增强的移动 UI/UX、建议问题列表、可自定义的聊天主题、多个聊天主题、启动屏幕、更改 ChatGPT AI 模型的能力以及在主屏幕上添加的 Rive 动画。](https://github.com/HypeTeqSoftware/ChatGPTApp)
+
+<img src="./example_normal/thirdlib_demos/flutter_chatgpt_app/assets/chatGPT_Flutter.png.gif" width="100%">
+
 ##### Flutter 精美 UI 截图
 
 - 一个食品应用程序概念动画

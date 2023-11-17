@@ -12,6 +12,7 @@ import 'package:canvas_demo/canvas_demo.dart';
 import 'package:common_demo/common_demo.dart';
 import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_books/flutter_books.dart';
+import 'package:flutter_chatgpt_app/flutter_chatgpt_app.dart';
 import 'package:flutter_crypto_market_app/flutter_crypto_market_app.dart';
 import 'package:flutter_fitness_app/flutter_fitness_app.dart';
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
@@ -39,6 +40,11 @@ class ExamplConfig {
   ];
 
   List itemList = [
+    HzyNormalItemModel(
+      leftMsg:
+          "ChatGPT 🤖 是一款基于 Flutter 的移动应用程序，带来了强大的 AI 聊天功能。  它提供了增强的移动 UI/UX、建议问题列表、可自定义的聊天主题、多个聊天主题、启动屏幕、更改 ChatGPT AI 模型的能力以及在主屏幕上添加的 Rive 动画。",
+      router: ChatGPTAppModuleRouterS.HOME,
+    ),
     HzyNormalItemModel(
       leftMsg: "京东",
       router: JingDongModuleRouterS.HOME,
