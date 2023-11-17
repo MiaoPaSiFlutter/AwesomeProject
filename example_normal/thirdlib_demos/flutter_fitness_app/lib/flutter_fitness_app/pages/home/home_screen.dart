@@ -173,314 +173,13 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    const Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          "Welcome Back,",
-                          style: TextStyle(
-                            color: AppColors.midGrayColor,
-                            fontSize: 12,
-                          ),
-                        ),
-                        Text(
-                          "Stefani Wong",
-                          style: TextStyle(
-                            color: AppColors.blackColor,
-                            fontSize: 20,
-                            fontFamily: "Poppins",
-                            fontWeight: FontWeight.w700,
-                          ),
-                        )
-                      ],
-                    ),
-                    IconButton(
-                        onPressed: () {
-                          Navigator.pushNamed(
-                              context, NotificationScreen.routeName);
-                        },
-                        icon: Image.asset(
-                          Utils.assets("icons/notification_icon.png"),
-                          width: 25,
-                          height: 25,
-                          fit: BoxFit.fitHeight,
-                        ))
-                  ],
-                ),
+                NavigationBar(),
                 SizedBox(height: media.width * 0.05),
-                Container(
-                  height: media.width * 0.4,
-                  decoration: BoxDecoration(
-                      gradient: LinearGradient(colors: AppColors.primaryG),
-                      borderRadius: BorderRadius.circular(media.width * 0.065)),
-                  child: Stack(
-                    alignment: Alignment.center,
-                    children: [
-                      Image.asset(
-                        Utils.assets("icons/bg_dots.png"),
-                        height: media.width * 0.4,
-                        width: double.maxFinite,
-                        fit: BoxFit.fitHeight,
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(
-                            vertical: 25, horizontal: 25),
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                const Text(
-                                  "BMI (Body Mass Index)",
-                                  style: TextStyle(
-                                      color: AppColors.whiteColor,
-                                      fontSize: 14,
-                                      fontWeight: FontWeight.w600),
-                                ),
-                                Text(
-                                  "You have a normal weight",
-                                  style: TextStyle(
-                                    color:
-                                        AppColors.whiteColor.withOpacity(0.7),
-                                    fontSize: 12,
-                                    fontFamily: "Poppins",
-                                    fontWeight: FontWeight.w400,
-                                  ),
-                                ),
-                                SizedBox(height: media.width * 0.05),
-                                Padding(
-                                  padding: const EdgeInsets.all(0),
-                                  child: SizedBox(
-                                    height: 35,
-                                    width: 100,
-                                    child: RoundButton(
-                                        title: "View More", onPressed: () {}),
-                                  ),
-                                )
-                              ],
-                            ),
-                            AspectRatio(
-                              aspectRatio: 1,
-                              child: PieChart(
-                                PieChartData(
-                                  pieTouchData: PieTouchData(
-                                    touchCallback: (FlTouchEvent event,
-                                        pieTouchResponse) {},
-                                  ),
-                                  startDegreeOffset: 250,
-                                  borderData: FlBorderData(
-                                    show: false,
-                                  ),
-                                  sectionsSpace: 1,
-                                  centerSpaceRadius: 0,
-                                  sections: showingSections(),
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      )
-                    ],
-                  ),
-                ),
+                BMIView(),
                 SizedBox(height: media.width * 0.05),
-                Container(
-                  padding: const EdgeInsets.all(15),
-                  decoration: BoxDecoration(
-                      color: AppColors.primaryColor1.withOpacity(0.3),
-                      borderRadius: BorderRadius.circular(15)),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      const Text(
-                        "Today Target",
-                        style: TextStyle(
-                          color: AppColors.blackColor,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w500,
-                        ),
-                      ),
-                      SizedBox(
-                        width: 75,
-                        height: 30,
-                        child: RoundButton(
-                          title: "check",
-                          type: RoundButtonType.primaryBG,
-                          onPressed: () {
-                            Navigator.pushNamed(
-                                context, ActivityTrackerScreen.routeName);
-                          },
-                        ),
-                      )
-                    ],
-                  ),
-                ),
+                TodayTargetView(),
                 SizedBox(height: media.width * 0.05),
-                const Text(
-                  "Activity Status",
-                  style: TextStyle(
-                    color: AppColors.blackColor,
-                    fontSize: 16,
-                    fontWeight: FontWeight.w600,
-                  ),
-                ),
-                SizedBox(height: media.width * 0.02),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(25),
-                  child: Container(
-                    height: media.width * 0.4,
-                    width: media.width,
-                    decoration: BoxDecoration(
-                        color: AppColors.primaryColor2.withOpacity(0.3),
-                        borderRadius: BorderRadius.circular(25)),
-                    child: Stack(
-                      alignment: Alignment.topLeft,
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.symmetric(
-                              vertical: 20, horizontal: 20),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              const Text(
-                                "Heart Rate",
-                                style: TextStyle(
-                                    color: AppColors.blackColor,
-                                    fontSize: 12,
-                                    fontWeight: FontWeight.w500),
-                              ),
-                              SizedBox(height: media.width * 0.01),
-                              ShaderMask(
-                                blendMode: BlendMode.srcIn,
-                                shaderCallback: (bounds) {
-                                  return LinearGradient(
-                                          colors: AppColors.primaryG,
-                                          begin: Alignment.centerLeft,
-                                          end: Alignment.centerRight)
-                                      .createShader(Rect.fromLTRB(
-                                          0, 0, bounds.width, bounds.height));
-                                },
-                                child: const Text(
-                                  "78 BPM",
-                                  style: TextStyle(
-                                    color: AppColors.blackColor,
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.w600,
-                                  ),
-                                ),
-                              )
-                            ],
-                          ),
-                        ),
-                        LineChart(
-                          LineChartData(
-                            showingTooltipIndicators:
-                                showingTooltipOnSpots.map((index) {
-                              return ShowingTooltipIndicators([
-                                LineBarSpot(
-                                  tooltipsOnBar,
-                                  lineBarsData.indexOf(tooltipsOnBar),
-                                  tooltipsOnBar.spots[index],
-                                ),
-                              ]);
-                            }).toList(),
-                            lineTouchData: LineTouchData(
-                              enabled: true,
-                              handleBuiltInTouches: false,
-                              touchCallback: (FlTouchEvent event,
-                                  LineTouchResponse? response) {
-                                if (response == null ||
-                                    response.lineBarSpots == null) {
-                                  return;
-                                }
-                                if (event is FlTapUpEvent) {
-                                  final spotIndex =
-                                      response.lineBarSpots!.first.spotIndex;
-                                  showingTooltipOnSpots.clear();
-                                  setState(() {
-                                    showingTooltipOnSpots.add(spotIndex);
-
-                                    // if (showingTooltipOnSpots
-                                    //     .contains(spotIndex)) {
-                                    //   showingTooltipOnSpots.remove(spotIndex);
-                                    // } else {
-                                    //   showingTooltipOnSpots.add(spotIndex);
-                                    // }
-                                  });
-                                }
-                              },
-                              mouseCursorResolver: (FlTouchEvent event,
-                                  LineTouchResponse? response) {
-                                if (response == null ||
-                                    response.lineBarSpots == null) {
-                                  return SystemMouseCursors.basic;
-                                }
-                                return SystemMouseCursors.click;
-                              },
-                              getTouchedSpotIndicator:
-                                  (LineChartBarData barData,
-                                      List<int> spotIndexes) {
-                                return spotIndexes.map((index) {
-                                  return TouchedSpotIndicatorData(
-                                    const FlLine(
-                                      color: Colors.transparent,
-                                    ),
-                                    FlDotData(
-                                      show: true,
-                                      getDotPainter:
-                                          (spot, percent, barData, index) =>
-                                              FlDotCirclePainter(
-                                        radius: 3,
-                                        color: Colors.white,
-                                        strokeWidth: 2,
-                                        strokeColor: AppColors.secondaryColor2,
-                                      ),
-                                    ),
-                                  );
-                                }).toList();
-                              },
-                              touchTooltipData: LineTouchTooltipData(
-                                tooltipBgColor: AppColors.secondaryColor1,
-                                tooltipRoundedRadius: 20,
-                                getTooltipItems:
-                                    (List<LineBarSpot> lineBarsSpot) {
-                                  return lineBarsSpot.map((lineBarSpot) {
-                                    return LineTooltipItem(
-                                      //lineBarSpot.y.toString(),
-                                      "${lineBarSpot.x.toInt()} mins ago",
-                                      const TextStyle(
-                                          color: Colors.white,
-                                          fontSize: 10,
-                                          fontWeight: FontWeight.w400),
-                                    );
-                                  }).toList();
-                                },
-                              ),
-                            ),
-                            lineBarsData: lineBarsData,
-                            minY: 0,
-                            maxY: 130,
-                            titlesData: const FlTitlesData(show: false),
-                            gridData: const FlGridData(show: false),
-                            borderData: FlBorderData(
-                              show: true,
-                              border: Border.all(
-                                color: Colors.transparent,
-                              ),
-                            ),
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
-                ),
+                ActivityStatusView(),
                 SizedBox(height: media.width * 0.05),
                 Row(
                   children: [
@@ -488,13 +187,16 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Container(
                       height: media.width * 0.95,
                       padding: const EdgeInsets.symmetric(
-                          vertical: 25, horizontal: 10),
+                        vertical: 25,
+                        horizontal: 10,
+                      ),
                       decoration: BoxDecoration(
-                          color: AppColors.whiteColor,
-                          borderRadius: BorderRadius.circular(20),
-                          boxShadow: const [
-                            BoxShadow(color: Colors.black12, blurRadius: 2)
-                          ]),
+                        color: AppColors.whiteColor,
+                        borderRadius: BorderRadius.circular(20),
+                        boxShadow: const [
+                          BoxShadow(color: Colors.black12, blurRadius: 2)
+                        ],
+                      ),
                       child: Row(children: [
                         SimpleAnimationProgressBar(
                           height: media.width * 0.9,
@@ -511,9 +213,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               begin: Alignment.bottomCenter,
                               end: Alignment.topCenter),
                         ),
-                        const SizedBox(
-                          width: 10,
-                        ),
+                        const SizedBox(width: 10),
                         Expanded(
                             child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -554,83 +254,92 @@ class _HomeScreenState extends State<HomeScreen> {
                                   fontWeight: FontWeight.w400),
                             ),
                             SizedBox(height: media.width * 0.01),
-                            Column(
-                              children: waterArr.map((obj) {
-                                var isLast = obj == waterArr.last;
-                                return Row(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Column(
+                            Expanded(
+                              child: ListView.builder(
+                                itemCount: waterArr.length,
+                                itemBuilder: (context, index) {
+                                  var isLast = index == waterArr.length - 1;
+                                  return Row(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Column(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.start,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.center,
+                                          children: [
+                                            Container(
+                                              margin:
+                                                  const EdgeInsets.symmetric(
+                                                      vertical: 6),
+                                              width: 10,
+                                              height: 10,
+                                              decoration: BoxDecoration(
+                                                  color: AppColors
+                                                      .secondaryColor1
+                                                      .withOpacity(0.5),
+                                                  borderRadius:
+                                                      BorderRadius.circular(5)),
+                                            ),
+                                            if (!isLast)
+                                              DottedDashedLine(
+                                                width: 0,
+                                                height: media.width * 0.078,
+                                                axis: Axis.vertical,
+                                                dashColor: AppColors
+                                                    .secondaryColor1
+                                                    .withOpacity(0.5),
+                                              )
+                                          ]),
+                                      const SizedBox(width: 10),
+                                      Column(
                                         mainAxisAlignment:
                                             MainAxisAlignment.start,
                                         crossAxisAlignment:
-                                            CrossAxisAlignment.center,
+                                            CrossAxisAlignment.start,
                                         children: [
-                                          Container(
-                                            margin: const EdgeInsets.symmetric(
-                                                vertical: 6),
-                                            width: 10,
-                                            height: 10,
-                                            decoration: BoxDecoration(
-                                                color: AppColors.secondaryColor1
-                                                    .withOpacity(0.5),
-                                                borderRadius:
-                                                    BorderRadius.circular(5)),
-                                          ),
-                                          if (!isLast)
-                                            DottedDashedLine(
-                                              width: 0,
-                                              height: media.width * 0.078,
-                                              axis: Axis.vertical,
-                                              dashColor: AppColors
-                                                  .secondaryColor1
-                                                  .withOpacity(0.5),
-                                            )
-                                        ]),
-                                    const SizedBox(width: 10),
-                                    Column(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.start,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      children: [
-                                        SizedBox(height: media.width * 0.01),
-                                        Text(
-                                          obj["title"].toString(),
-                                          style: const TextStyle(
-                                              color: AppColors.blackColor,
-                                              fontSize: 11,
-                                              fontWeight: FontWeight.w400),
-                                        ),
-                                        const SizedBox(height: 1),
-                                        ShaderMask(
-                                          blendMode: BlendMode.srcIn,
-                                          shaderCallback: (bounds) {
-                                            return LinearGradient(
-                                                    colors:
-                                                        AppColors.secondaryG,
-                                                    begin: Alignment.centerLeft,
-                                                    end: Alignment.centerRight)
-                                                .createShader(Rect.fromLTRB(
-                                                    0,
-                                                    0,
-                                                    bounds.width,
-                                                    bounds.height));
-                                          },
-                                          child: Text(
-                                            obj["subtitle"].toString(),
+                                          SizedBox(height: media.width * 0.01),
+                                          Text(
+                                            waterArr[index]["title"].toString(),
                                             style: const TextStyle(
-                                              color: AppColors.blackColor,
-                                              fontSize: 12,
-                                              fontWeight: FontWeight.w500,
+                                                color: AppColors.blackColor,
+                                                fontSize: 11,
+                                                fontWeight: FontWeight.w400),
+                                          ),
+                                          const SizedBox(height: 1),
+                                          ShaderMask(
+                                            blendMode: BlendMode.srcIn,
+                                            shaderCallback: (bounds) {
+                                              return LinearGradient(
+                                                      colors:
+                                                          AppColors.secondaryG,
+                                                      begin:
+                                                          Alignment.centerLeft,
+                                                      end:
+                                                          Alignment.centerRight)
+                                                  .createShader(Rect.fromLTRB(
+                                                      0,
+                                                      0,
+                                                      bounds.width,
+                                                      bounds.height));
+                                            },
+                                            child: Text(
+                                              waterArr[index]["subtitle"]
+                                                  .toString(),
+                                              style: const TextStyle(
+                                                color: AppColors.blackColor,
+                                                fontSize: 12,
+                                                fontWeight: FontWeight.w500,
+                                              ),
                                             ),
                                           ),
-                                        ),
-                                      ],
-                                    )
-                                  ],
-                                );
-                              }).toList(),
+                                        ],
+                                      )
+                                    ],
+                                  );
+                                },
+                              ),
                             )
                           ],
                         ))
@@ -697,7 +406,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           width: double.maxFinite,
                           height: media.width * 0.45,
                           padding: const EdgeInsets.symmetric(
-                              vertical: 25, horizontal: 20),
+                              vertical: 20, horizontal: 20),
                           decoration: BoxDecoration(
                               color: AppColors.whiteColor,
                               borderRadius: BorderRadius.circular(20),
@@ -985,43 +694,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  List<PieChartSectionData> showingSections() {
-    return List.generate(
-      2,
-      (i) {
-        const color0 = AppColors.secondaryColor2;
-        const color1 = AppColors.whiteColor;
-
-        switch (i) {
-          case 0:
-            return PieChartSectionData(
-                color: color0,
-                value: 33,
-                title: '',
-                radius: 55,
-                titlePositionPercentageOffset: 0.55,
-                badgeWidget: const Text(
-                  "20.1",
-                  style: TextStyle(
-                      color: AppColors.whiteColor,
-                      fontWeight: FontWeight.w700,
-                      fontSize: 12),
-                ));
-          case 1:
-            return PieChartSectionData(
-              color: color1,
-              value: 75,
-              title: '',
-              radius: 42,
-              titlePositionPercentageOffset: 0.55,
-            );
-          default:
-            throw Error();
-        }
-      },
-    );
-  }
-
   SideTitles get rightTitles => SideTitles(
         getTitlesWidget: rightTitleWidgets,
         showTitles: true,
@@ -1106,6 +778,442 @@ class _HomeScreenState extends State<HomeScreen> {
       axisSide: meta.axisSide,
       space: 10,
       child: text,
+    );
+  }
+}
+
+class NavigationBar extends StatelessWidget {
+  const NavigationBar({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        const Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              "Welcome Back,",
+              style: TextStyle(
+                color: AppColors.midGrayColor,
+                fontSize: 12,
+              ),
+            ),
+            Text(
+              "Stefani Wong",
+              style: TextStyle(
+                color: AppColors.blackColor,
+                fontSize: 20,
+                fontFamily: "Poppins",
+                fontWeight: FontWeight.w700,
+              ),
+            )
+          ],
+        ),
+        IconButton(
+            onPressed: () {
+              Navigator.pushNamed(context, NotificationScreen.routeName);
+            },
+            icon: Image.asset(
+              Utils.assets("icons/notification_icon.png"),
+              width: 25,
+              height: 25,
+              fit: BoxFit.fitHeight,
+            ))
+      ],
+    );
+  }
+}
+
+class BMIView extends StatelessWidget {
+  const BMIView({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    var media = MediaQuery.of(context).size;
+
+    return Container(
+      height: media.width * 0.4,
+      decoration: BoxDecoration(
+          gradient: LinearGradient(colors: AppColors.primaryG),
+          borderRadius: BorderRadius.circular(media.width * 0.065)),
+      child: Stack(
+        alignment: Alignment.center,
+        children: [
+          Image.asset(
+            Utils.assets("icons/bg_dots.png"),
+            height: media.width * 0.4,
+            width: double.maxFinite,
+            fit: BoxFit.fitHeight,
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 25, horizontal: 25),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text(
+                      "BMI (Body Mass Index)",
+                      style: TextStyle(
+                          color: AppColors.whiteColor,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w600),
+                    ),
+                    Text(
+                      "You have a normal weight",
+                      style: TextStyle(
+                        color: AppColors.whiteColor.withOpacity(0.7),
+                        fontSize: 12,
+                        fontFamily: "Poppins",
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    SizedBox(height: media.width * 0.05),
+                    Padding(
+                      padding: const EdgeInsets.all(0),
+                      child: SizedBox(
+                        height: 35,
+                        width: 100,
+                        child:
+                            RoundButton(title: "View More", onPressed: () {}),
+                      ),
+                    )
+                  ],
+                ),
+                AspectRatio(
+                  aspectRatio: 1,
+                  child: PieChart(
+                    PieChartData(
+                      pieTouchData: PieTouchData(
+                        touchCallback:
+                            (FlTouchEvent event, pieTouchResponse) {},
+                      ),
+                      startDegreeOffset: 250,
+                      borderData: FlBorderData(
+                        show: false,
+                      ),
+                      sectionsSpace: 1,
+                      centerSpaceRadius: 0,
+                      sections: showingSections(),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          )
+        ],
+      ),
+    );
+  }
+
+  List<PieChartSectionData> showingSections() {
+    return List.generate(
+      2,
+      (i) {
+        const color0 = AppColors.secondaryColor2;
+        const color1 = AppColors.whiteColor;
+
+        switch (i) {
+          case 0:
+            return PieChartSectionData(
+                color: color0,
+                value: 33,
+                title: '',
+                radius: 55,
+                titlePositionPercentageOffset: 0.55,
+                badgeWidget: const Text(
+                  "20.1",
+                  style: TextStyle(
+                      color: AppColors.whiteColor,
+                      fontWeight: FontWeight.w700,
+                      fontSize: 12),
+                ));
+          case 1:
+            return PieChartSectionData(
+              color: color1,
+              value: 75,
+              title: '',
+              radius: 42,
+              titlePositionPercentageOffset: 0.55,
+            );
+          default:
+            throw Error();
+        }
+      },
+    );
+  }
+}
+
+class TodayTargetView extends StatelessWidget {
+  const TodayTargetView({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(15),
+      decoration: BoxDecoration(
+          color: AppColors.primaryColor1.withOpacity(0.3),
+          borderRadius: BorderRadius.circular(15)),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          const Text(
+            "Today Target",
+            style: TextStyle(
+              color: AppColors.blackColor,
+              fontSize: 14,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
+          SizedBox(
+            width: 75,
+            height: 30,
+            child: RoundButton(
+              title: "check",
+              type: RoundButtonType.primaryBG,
+              onPressed: () {
+                Navigator.pushNamed(context, ActivityTrackerScreen.routeName);
+              },
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
+
+class ActivityStatusView extends StatefulWidget {
+  const ActivityStatusView({super.key});
+
+  @override
+  State<ActivityStatusView> createState() => _ActivityStatusViewState();
+}
+
+class _ActivityStatusViewState extends State<ActivityStatusView> {
+  List<int> showingTooltipOnSpots = [21];
+
+  List<FlSpot> get allSpots => const [
+        FlSpot(0, 20),
+        FlSpot(1, 25),
+        FlSpot(2, 40),
+        FlSpot(3, 50),
+        FlSpot(4, 35),
+        FlSpot(5, 40),
+        FlSpot(6, 30),
+        FlSpot(7, 20),
+        FlSpot(8, 25),
+        FlSpot(9, 40),
+        FlSpot(10, 50),
+        FlSpot(11, 35),
+        FlSpot(12, 50),
+        FlSpot(13, 60),
+        FlSpot(14, 40),
+        FlSpot(15, 50),
+        FlSpot(16, 20),
+        FlSpot(17, 25),
+        FlSpot(18, 40),
+        FlSpot(19, 50),
+        FlSpot(20, 35),
+        FlSpot(21, 80),
+        FlSpot(22, 30),
+        FlSpot(23, 20),
+        FlSpot(24, 25),
+        FlSpot(25, 40),
+        FlSpot(26, 50),
+        FlSpot(27, 35),
+        FlSpot(28, 50),
+        FlSpot(29, 60),
+        FlSpot(30, 40),
+      ];
+
+  @override
+  Widget build(BuildContext context) {
+    var media = MediaQuery.of(context).size;
+
+    final lineBarsData = [
+      LineChartBarData(
+        showingIndicators: showingTooltipOnSpots,
+        spots: allSpots,
+        isCurved: false,
+        barWidth: 3,
+        belowBarData: BarAreaData(
+          show: true,
+          gradient: LinearGradient(colors: [
+            AppColors.primaryColor2.withOpacity(0.4),
+            AppColors.primaryColor1.withOpacity(0.1),
+          ], begin: Alignment.topCenter, end: Alignment.bottomCenter),
+        ),
+        dotData: const FlDotData(show: false),
+        gradient: LinearGradient(
+          colors: AppColors.primaryG,
+        ),
+      ),
+    ];
+
+    final tooltipsOnBar = lineBarsData[0];
+
+    return Column(
+      children: [
+        const Text(
+          "Activity Status",
+          style: TextStyle(
+            color: AppColors.blackColor,
+            fontSize: 16,
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+        SizedBox(height: media.width * 0.02),
+        ClipRRect(
+          borderRadius: BorderRadius.circular(25),
+          child: Container(
+            height: media.width * 0.4,
+            width: media.width,
+            decoration: BoxDecoration(
+                color: AppColors.primaryColor2.withOpacity(0.3),
+                borderRadius: BorderRadius.circular(25)),
+            child: Stack(
+              alignment: Alignment.topLeft,
+              children: [
+                Padding(
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        "Heart Rate",
+                        style: TextStyle(
+                            color: AppColors.blackColor,
+                            fontSize: 12,
+                            fontWeight: FontWeight.w500),
+                      ),
+                      SizedBox(height: media.width * 0.01),
+                      ShaderMask(
+                        blendMode: BlendMode.srcIn,
+                        shaderCallback: (bounds) {
+                          return LinearGradient(
+                                  colors: AppColors.primaryG,
+                                  begin: Alignment.centerLeft,
+                                  end: Alignment.centerRight)
+                              .createShader(Rect.fromLTRB(
+                                  0, 0, bounds.width, bounds.height));
+                        },
+                        child: const Text(
+                          "78 BPM",
+                          style: TextStyle(
+                            color: AppColors.blackColor,
+                            fontSize: 18,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      )
+                    ],
+                  ),
+                ),
+                LineChart(
+                  LineChartData(
+                    showingTooltipIndicators:
+                        showingTooltipOnSpots.map((index) {
+                      return ShowingTooltipIndicators([
+                        LineBarSpot(
+                          tooltipsOnBar,
+                          lineBarsData.indexOf(tooltipsOnBar),
+                          tooltipsOnBar.spots[index],
+                        ),
+                      ]);
+                    }).toList(),
+                    lineTouchData: LineTouchData(
+                      enabled: true,
+                      handleBuiltInTouches: false,
+                      touchCallback:
+                          (FlTouchEvent event, LineTouchResponse? response) {
+                        if (response == null || response.lineBarSpots == null) {
+                          return;
+                        }
+                        if (event is FlTapUpEvent) {
+                          final spotIndex =
+                              response.lineBarSpots!.first.spotIndex;
+                          showingTooltipOnSpots.clear();
+                          setState(() {
+                            showingTooltipOnSpots.add(spotIndex);
+
+                            // if (showingTooltipOnSpots
+                            //     .contains(spotIndex)) {
+                            //   showingTooltipOnSpots.remove(spotIndex);
+                            // } else {
+                            //   showingTooltipOnSpots.add(spotIndex);
+                            // }
+                          });
+                        }
+                      },
+                      mouseCursorResolver:
+                          (FlTouchEvent event, LineTouchResponse? response) {
+                        if (response == null || response.lineBarSpots == null) {
+                          return SystemMouseCursors.basic;
+                        }
+                        return SystemMouseCursors.click;
+                      },
+                      getTouchedSpotIndicator:
+                          (LineChartBarData barData, List<int> spotIndexes) {
+                        return spotIndexes.map((index) {
+                          return TouchedSpotIndicatorData(
+                            const FlLine(
+                              color: Colors.transparent,
+                            ),
+                            FlDotData(
+                              show: true,
+                              getDotPainter: (spot, percent, barData, index) =>
+                                  FlDotCirclePainter(
+                                radius: 3,
+                                color: Colors.white,
+                                strokeWidth: 2,
+                                strokeColor: AppColors.secondaryColor2,
+                              ),
+                            ),
+                          );
+                        }).toList();
+                      },
+                      touchTooltipData: LineTouchTooltipData(
+                        tooltipBgColor: AppColors.secondaryColor1,
+                        tooltipRoundedRadius: 20,
+                        getTooltipItems: (List<LineBarSpot> lineBarsSpot) {
+                          return lineBarsSpot.map((lineBarSpot) {
+                            return LineTooltipItem(
+                              //lineBarSpot.y.toString(),
+                              "${lineBarSpot.x.toInt()} mins ago",
+                              const TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 10,
+                                  fontWeight: FontWeight.w400),
+                            );
+                          }).toList();
+                        },
+                      ),
+                    ),
+                    lineBarsData: lineBarsData,
+                    minY: 0,
+                    maxY: 130,
+                    titlesData: const FlTitlesData(show: false),
+                    gridData: const FlGridData(show: false),
+                    borderData: FlBorderData(
+                      show: true,
+                      border: Border.all(
+                        color: Colors.transparent,
+                      ),
+                    ),
+                  ),
+                )
+              ],
+            ),
+          ),
+        )
+      ],
     );
   }
 }
