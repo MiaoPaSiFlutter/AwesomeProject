@@ -96,6 +96,10 @@ web 产物在`ts-pages`分支可查看。
 
 <img src="./example_normal/thirdlib_demos/flutter_marketky_app/assets/screenshots/details.jpg" width="100%">
 
+## [一个显示有关加密货币硬币的实时数据和详细信息的 APP](https://github.com/HypeTeqSoftware/CryptoMarketApp)
+
+<img src="./example_normal/thirdlib_demos/flutter_crypto_market_app/assets/screenshots/flutter_crypto_market_app.gif" width="22%">
+
 ##### Flutter 精美 UI 截图
 
 - 一个食品应用程序概念动画

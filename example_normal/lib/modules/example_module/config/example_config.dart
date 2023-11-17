@@ -12,6 +12,7 @@ import 'package:canvas_demo/canvas_demo.dart';
 import 'package:common_demo/common_demo.dart';
 import 'package:flutter_black_hole/flutter_black_hole.dart';
 import 'package:flutter_books/flutter_books.dart';
+import 'package:flutter_crypto_market_app/flutter_crypto_market_app.dart';
 import 'package:flutter_fitness_app/flutter_fitness_app.dart';
 import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 import 'package:flutter_jd/flutter_jd.dart';
@@ -94,6 +95,11 @@ class ExamplConfig {
       leftMsg: "一个商城类的UI界面的APP",
       router: MarketkyAppModuleRouterS.HOME,
     ),
+    HzyNormalItemModel(
+      leftMsg: '''一个显示有关加密货币硬币的实时数据和详细信息的APP''',
+      router: CryptoMarketAppModuleRouterS.HOME,
+    ),
+
     HzyNormalItemModel(
       leftMsg: "extended_sliver_demo",
       router: ExtendedSliverModuleRouterS.HOME,

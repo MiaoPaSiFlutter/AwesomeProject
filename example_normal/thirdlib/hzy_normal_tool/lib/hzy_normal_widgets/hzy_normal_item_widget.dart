@@ -323,6 +323,7 @@ class HzyNormalItemWidget extends StatelessWidget {
               color: itemModel.leftMsgColor,
             ),
         overflow: TextOverflow.ellipsis,
+        maxLines: 3,
       );
       double maxWidth = maxW;
       if (itemModel.rightType == 0 && itemModel.rightWidget == null) {

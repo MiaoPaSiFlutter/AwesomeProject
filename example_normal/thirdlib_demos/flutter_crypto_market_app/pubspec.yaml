@@ -1,0 +1,36 @@
+name: flutter_crypto_market_app
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "http"
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../thirdlib/hzy_common_module/
+  # Flutter 的精美迷你图。平均线、最高值和最低值。
+  chart_sparkline: 1.0.14
+  # Flutter Charts 库，其中包括数据可视化小部件（例如笛卡尔图表和圆形图表），用于创建实时、交互式、高性能的动画图表。
+  syncfusion_flutter_charts: 23.1.44
+  flutter_html: 3.0.0-beta.2
+  shimmer: 3.0.0
+  connectivity_plus: 5.0.1
+  smooth_page_indicator: 1.1.0
+
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  assets:
+    - assets/images/
+    - assets/mock-datas/api/v3/coins/
+
+  fonts:
+    - family: Vollkorn
+      fonts:
+        - asset: assets/fonts/Vollkorn-Regular.ttf

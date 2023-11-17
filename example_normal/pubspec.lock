@@ -400,6 +400,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.3.0"
+  chart_sparkline:
+    dependency: transitive
+    description:
+      name: chart_sparkline
+      sha256: "380196fdc12feee87ab7854e2867d0a20d4d01cead234ffb47ba1ca2c8a8219c"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.14"
   checked_yaml:
     dependency: transitive
     description:
@@ -499,10 +507,10 @@ packages:
     dependency: transitive
     description:
       name: csslib
-      sha256: "706b5707578e0c1b4b7550f64078f0a0f19dec3f50a178ffae7006b0a9ca58fb"
+      sha256: "831883fb353c8bdc1d71979e5b342c7d88acfbc643113c14ae51e2442ea0f20f"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "1.0.0"
+    version: "0.17.3"
   csv:
     dependency: transitive
     description:
@@ -914,6 +922,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.8.0"
+  flutter_crypto_market_app:
+    dependency: "direct main"
+    description:
+      path: "thirdlib_demos/flutter_crypto_market_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   flutter_displaymode:
     dependency: transitive
     description:
@@ -968,6 +983,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.5"
+  flutter_html:
+    dependency: transitive
+    description:
+      name: flutter_html
+      sha256: "02ad69e813ecfc0728a455e4bf892b9379983e050722b1dce00192ee2e41d1ee"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.0.0-beta.2"
   flutter_jd:
     dependency: "direct main"
     description:
@@ -1666,6 +1689,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "3.1.0"
+  list_counter:
+    dependency: transitive
+    description:
+      name: list_counter
+      sha256: c447ae3dfcd1c55f0152867090e67e219d42fe6d4f2807db4bbe8b8d69912237
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.2"
   loading_more_list:
     dependency: transitive
     description:
@@ -2427,6 +2458,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.4"
+  shimmer:
+    dependency: transitive
+    description:
+      name: shimmer
+      sha256: "5f88c883a22e9f9f299e5ba0e4f7e6054857224976a5d9f839d4ebdc94a14ac9"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.0.0"
   simple_animation_progress_bar:
     dependency: transitive
     description:
@@ -2584,6 +2623,22 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.2.0"
+  syncfusion_flutter_charts:
+    dependency: transitive
+    description:
+      name: syncfusion_flutter_charts
+      sha256: "300afb7ffb157207d88c489728bb043e3de2e3a399a34835babacf7841cab897"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "23.1.44"
+  syncfusion_flutter_core:
+    dependency: transitive
+    description:
+      name: syncfusion_flutter_core
+      sha256: "6f3056c548f4e039a8994904836881753c4c7643cd2142d3c226fcb45ec200fe"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "23.1.44"
   synchronized:
     dependency: transitive
     description:

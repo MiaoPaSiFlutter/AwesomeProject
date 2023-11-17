@@ -54,7 +54,10 @@ dependencies:
     path: ./thirdlib_demos/flutter_to_do_app
   flutter_marketky_app:
     path: ./thirdlib_demos/flutter_marketky_app
+  flutter_crypto_market_app:
+    path: ./thirdlib_demos/flutter_crypto_market_app
 
+  #####
   extended_sliver_demo:
     path: ./thirdlib_demos/extended_sliver_demo
   scrollerview_demo:
