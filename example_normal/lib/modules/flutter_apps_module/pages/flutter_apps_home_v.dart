@@ -13,7 +13,7 @@ class FlutterAppsHomePage extends StatefulWidget {
 class FlutterAppsHomePageState extends CommonState<FlutterAppsHomePage>
     with AutomaticKeepAliveClientMixin {
   @override
-  String? createAppBarTitleStr() => LaunchIdConfig.flutterUI.tr;
+  String? createAppBarTitleStr() => LaunchIdConfig.flutterApp.tr;
 
   FlutterAppsConfig get config => FlutterAppsConfig();
   @override

@@ -7,6 +7,9 @@
  * @LastEditTime: 2023-07-18 14:55:52
  */
 
+import 'package:example_normal/modules/flutter_apps_module/pages/flutter_apps_home_v.dart';
+import 'package:example_normal/modules/flutter_games_module/pages/flutter_games_home_v.dart';
+import 'package:example_normal/modules/flutter_test_module/pages/flutter_test_home_v.dart';
 import 'package:example_normal/modules/flutter_ui_module/pages/flutter_ui_home_v.dart';
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
@@ -191,6 +194,9 @@ class RootC extends CommonGetXController
   List<Widget> pageList = [
     // const HomePage(),
     const FlutterUIHomePage(),
+    const FlutterAppsHomePage(),
+    const FlutterGamesHomePage(),
+    const FlutterTestHomePage(),
     const ExampleHomePage(),
     ExampleTuListV(),
     const MyPage(),

@@ -10,6 +10,9 @@
 import 'launch_id_config.dart';
 
 const enUS = {
+  LaunchIdConfig.flutterTest: "🔥Test",
+  LaunchIdConfig.flutterGame: "🔥Game",
+  LaunchIdConfig.flutterApp: "🔥App",
   LaunchIdConfig.flutterUI: "🔥UI",
   LaunchIdConfig.example: "Example",
   LaunchIdConfig.my: "My",

@@ -13,7 +13,7 @@ class FlutterGamesHomePage extends StatefulWidget {
 class FlutterGamesHomePageState extends CommonState<FlutterGamesHomePage>
     with AutomaticKeepAliveClientMixin {
   @override
-  String? createAppBarTitleStr() => LaunchIdConfig.flutterUI.tr;
+  String? createAppBarTitleStr() => LaunchIdConfig.flutterGame.tr;
 
   FlutterGamesConfig get config => FlutterGamesConfig();
   @override

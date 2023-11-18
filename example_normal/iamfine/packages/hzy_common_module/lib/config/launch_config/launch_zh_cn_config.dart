@@ -10,6 +10,9 @@
 import 'launch_id_config.dart';
 
 const zhCN = {
+  LaunchIdConfig.flutterTest: "🔥Test",
+  LaunchIdConfig.flutterGame: "🔥Game",
+  LaunchIdConfig.flutterApp: "🔥App",
   LaunchIdConfig.flutterUI: "🔥UI",
   LaunchIdConfig.example: "示例",
   LaunchIdConfig.my: "我的",

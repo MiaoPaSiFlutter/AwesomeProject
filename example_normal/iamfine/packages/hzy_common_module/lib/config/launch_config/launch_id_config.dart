@@ -9,6 +9,15 @@
 
 class LaunchIdConfig {
   /// flutterUI
+  static const String flutterTest = "f-test";
+
+  /// flutterUI
+  static const String flutterGame = "f-game";
+
+  /// flutterUI
+  static const String flutterApp = "f-app";
+
+  /// flutterUI
   static const String flutterUI = "f-ui";
 
   /// 示例

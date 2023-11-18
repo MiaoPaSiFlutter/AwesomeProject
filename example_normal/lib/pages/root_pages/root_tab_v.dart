@@ -47,6 +47,16 @@ class RootTabV extends CommonGetXWidget<RootTabC> {
         ),
       ),
     );
+    body = ListView.builder(
+      scrollDirection: Axis.horizontal,
+      itemCount: controller.list.length,
+      itemBuilder: (context, index) {
+        return configItem(
+          index: index,
+          tabItemModel: controller.list[index],
+        );
+      },
+    );
 
     /// 创建底部 body
     body = Container(
@@ -77,12 +87,14 @@ class RootTabV extends CommonGetXWidget<RootTabC> {
         index: index,
         tabItemModel: tabItemModel,
       ),
-      text: tabItemModel.text,
+      text: '${tabItemModel.text}',
       tapCall: () {
         controller.tapItem(index: index);
       },
     );
-    body = Expanded(
+    body = Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12),
+      constraints: BoxConstraints(minWidth: SizeMacro.screenWidth / 4),
       child: body,
     );
     return body;
@@ -111,6 +123,33 @@ class RootTabC extends CommonGetXController {
   List<TabItemModel> get list => [
         TabItemModel(
           text: LaunchIdConfig.flutterUI.tr,
+          imagePath: HzyThemeImageConfig().configImagePath(
+            pathkey: HzyImageId.tabHomeNormal,
+          ),
+          selectImagePath: HzyThemeImageConfig().configImagePath(
+            pathkey: HzyImageId.tabHomeSelect,
+          ),
+        ),
+        TabItemModel(
+          text: LaunchIdConfig.flutterApp.tr,
+          imagePath: HzyThemeImageConfig().configImagePath(
+            pathkey: HzyImageId.tabHomeNormal,
+          ),
+          selectImagePath: HzyThemeImageConfig().configImagePath(
+            pathkey: HzyImageId.tabHomeSelect,
+          ),
+        ),
+        TabItemModel(
+          text: LaunchIdConfig.flutterGame.tr,
+          imagePath: HzyThemeImageConfig().configImagePath(
+            pathkey: HzyImageId.tabHomeNormal,
+          ),
+          selectImagePath: HzyThemeImageConfig().configImagePath(
+            pathkey: HzyImageId.tabHomeSelect,
+          ),
+        ),
+        TabItemModel(
+          text: LaunchIdConfig.flutterTest.tr,
           imagePath: HzyThemeImageConfig().configImagePath(
             pathkey: HzyImageId.tabHomeNormal,
           ),

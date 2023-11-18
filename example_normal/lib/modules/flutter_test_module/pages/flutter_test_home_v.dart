@@ -13,7 +13,7 @@ class FlutterTestHomePage extends StatefulWidget {
 class FlutterTestHomePageState extends CommonState<FlutterTestHomePage>
     with AutomaticKeepAliveClientMixin {
   @override
-  String? createAppBarTitleStr() => LaunchIdConfig.flutterUI.tr;
+  String? createAppBarTitleStr() => LaunchIdConfig.flutterTest.tr;
 
   FlutterTestConfig get config => FlutterTestConfig();
   @override
