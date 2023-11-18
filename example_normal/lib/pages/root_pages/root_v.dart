@@ -7,6 +7,7 @@
  * @LastEditTime: 2023-07-18 14:55:52
  */
 
+import 'package:example_normal/modules/flutter_ui_module/pages/flutter_ui_home_v.dart';
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:example_normal/modules/example_module/module_index.dart';
@@ -189,6 +190,7 @@ class RootC extends CommonGetXController
   /// tab 界面列表
   List<Widget> pageList = [
     // const HomePage(),
+    const FlutterUIHomePage(),
     const ExampleHomePage(),
     ExampleTuListV(),
     const MyPage(),

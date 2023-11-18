@@ -10,6 +10,7 @@
 import 'launch_id_config.dart';
 
 const enUS = {
+  LaunchIdConfig.flutterUI: "🔥UI",
   LaunchIdConfig.example: "Example",
   LaunchIdConfig.my: "My",
   LaunchIdConfig.privacy: "Privacy",

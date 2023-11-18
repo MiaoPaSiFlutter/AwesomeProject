@@ -8,6 +8,9 @@
  */
 
 class LaunchIdConfig {
+  /// flutterUI
+  static const String flutterUI = "f-ui";
+
   /// 示例
   static const String example = "Example";
 

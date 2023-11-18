@@ -110,6 +110,15 @@ class RootTabC extends CommonGetXController {
   ScrollController scrollController = ScrollController();
   List<TabItemModel> get list => [
         TabItemModel(
+          text: LaunchIdConfig.flutterUI.tr,
+          imagePath: HzyThemeImageConfig().configImagePath(
+            pathkey: HzyImageId.tabHomeNormal,
+          ),
+          selectImagePath: HzyThemeImageConfig().configImagePath(
+            pathkey: HzyImageId.tabHomeSelect,
+          ),
+        ),
+        TabItemModel(
           text: LaunchIdConfig.example.tr,
           imagePath: HzyThemeImageConfig().configImagePath(
             pathkey: HzyImageId.tabHomeNormal,

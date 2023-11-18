@@ -10,6 +10,7 @@
 import 'launch_id_config.dart';
 
 const zhCN = {
+  LaunchIdConfig.flutterUI: "🔥UI",
   LaunchIdConfig.example: "示例",
   LaunchIdConfig.my: "我的",
   LaunchIdConfig.privacy: "隐私",
