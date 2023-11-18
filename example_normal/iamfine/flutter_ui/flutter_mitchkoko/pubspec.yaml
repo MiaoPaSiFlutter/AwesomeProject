@@ -1,0 +1,390 @@
+name: flutter_mitchkoko
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "https://github.com/mitchkoko"
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../packages/hzy_common_module/
+  # 修改 dio_http_cache_lts 中的 dio版本
+  dio_http_cache_lts:
+    git:
+      url: https://github.com/MiaoPaSiFlutter/dio_http_cache_lts.git
+      ref: yh_dio_http_cache_lts
+  cached_network_image: 3.3.0
+  # Flutter 的条形码生成小部件，支持标准条形码。
+  barcode_widget: 2.0.4
+  # 基于官方仓库的 Flutter 的 Microsoft Fluent UI Icons 包
+  fluentui_icons: 1.0.0
+  # Flutter 小部件可轻松在 Flex 小部件内添加间隙，例如列和行或滚动视图。
+  gap: 3.0.1
+  # 提供了 Flutter 网格布局的集合（交错、砖石、绗缝、编织等）。
+  flutter_staggered_grid_view: 0.7.0
+  # 一个 Flutter 插件，可轻松使 Flutter 应用程序响应。  自动调整 UI 以适应不同的屏幕尺寸。  响应能力变得简单。
+  sizer: 2.0.15
+  # 仅显示文本的第一行并添加链接以展开全文的小部件。
+  expandable_text: 2.3.0
+  # Ionicons 是一个完全开源的图标集，包含专为 Web、iOS、Android 和桌面应用程序制作的 1k3+ 图标。  他们有 Material Design 和 iOS 版本。
+  ionicons: 0.2.2
+  # 例如，用于显示页面浏览进度的点指示器
+  dots_indicator: 3.0.0
+  # 用于快速构建自定义设计的极简 Flutter 框架。
+  velocity_x: 4.1.1
+  # Rive 2 颤振运行时。  该包提供了运行时功能，用于播放使用 Rive 编辑器构建的动画并与之交互，
+  # 该编辑器可在 https://rive.app 上找到。
+  rive: 0.11.16
+  # Flutter 的 SVG 渲染和小部件库，允许绘制和显示可扩展矢量图形 1.1 文件。
+  flutter_svg: 2.0.8
+  # 来自流行网络图标字体的 Flutter 图标。  使用 fluttericon.com 自定义您的最终图标包。
+  fluttericon: 2.0.0
+  # 库允许您根据百分比显示进度小部件，可以是圆形或线性，您也可以根据您的需要对其进行自定义。
+  percent_indicator: 4.2.3
+  # 可滑动列表项的 Flutter 实现，具有可关闭的定向滑动操作。
+  flutter_slidable: 3.0.0
+  # 用纯 Dart 编写的轻量级且速度极快的键值数据库。  使用 AES-256 进行严格加密。
+  hive: 2.2.3
+  # Hive 的扩展。  使在 Flutter 应用程序中使用 Hive 变得更加容易。
+  hive_flutter: 1.1.0
+  # Flutter 热图日历的灵感来自 github 贡献图，包括传统模式/日历模式。
+  flutter_heatmap_calendar: 1.0.5
+
+  # 颤振指南针。  航向范围为 0-360，0 为北。
+  flutter_compass: 0.8.0
+  # 使用 fonts.google.com 字体的 Flutter 包。
+  # 支持 HTTP 获取、缓存和资源捆绑。
+  google_fonts: 5.1.0
+  # Flutter 小部件可自动调整文本大小以完美适合其边界。
+  auto_size_text: 3.0.0
+  # 用于创建徽章的包。  徽章可用作任何小部件的附加标记，例如显示购物车中的多个商品。
+  badges: 3.1.2
+  # 一个 flutter 包，让用户可以轻松地在任何小部件周围添加虚线边框。
+  dotted_border: 2.1.0
+  # 可定制的动画页面指示器，具有一组内置效果。
+  smooth_page_indicator: 1.1.0
+  # flutter 的通用缓存管理器。  将网页文件保存在设备的存储上并使用 sqflite 保存缓存信息。
+  flutter_cache_manager: 3.3.1
+  # Flutter 插件，用于在 Android、iOS 和 Web 上与其他 Flutter 小部件一起显示内嵌视频。
+  video_player: 2.7.0
+  # RxDart 是流行的reactiveX api 的实现，用于异步编程，利用本机Dart Streams api。
+  rxdart: 0.27.7
+  # 用于在应用程序中创建 OTP 文本字段小部件的 flutter 包。
+  otp_text_field: 1.1.3
+  # Eva Icons 的 Flutter 包。  Eva Icons 是一个包含 480 多个制作精美的开源图标的包，用于常见的操作和项目。
+  eva_icons_flutter: 3.1.0
+  intl: 0.18.1
+  # 用于创建模糊时间戳的库。  （例如“15 分钟前”）
+  timeago: 3.6.0
+  # AutoRoute 是一种声明式路由解决方案，会自动为您生成导航所需的所有内容。
+  auto_route: 7.8.4
+  auto_route_generator: 7.3.2
+  # 一个全能、高度可定制的持久/静态底部导航栏，用于颤动。  包括多达 20 种样式。  基于perpetual_bottom_nav_bar，目前未继续。
+  persistent_bottom_nav_bar_v2: 4.2.8
+  # 高度可定制的 Flutter 图表库，支持折线图、条形图、饼图、散点图和雷达图。
+  fl_chart: 0.63.0
+  # （另一个 Xlider）材料设计滑块和范围滑块，水平和垂直，具有 RTL 支持以及大量选项和针对 flutter 的自定义
+  another_xlider: 3.0.1
+  # 完全可定制、可拖动和动画切换，具有多种选择和流畅的加载动画。  它具有用于滚动和大小动画的预构建构造函数。
+  animated_toggle_switch: 0.8.0
+  carousel_slider: 4.2.1
+  device_preview: 1.1.0
+  font_awesome_flutter: 10.5.0
+  get_it: 7.6.4
+  # Feather 是一组简单漂亮的开源图标。  每个图标都设计在 24x24 网格上，强调简单性、一致性和可用性。
+  flutter_feather_icons: 2.0.0+1
+  # 一个简单但完全可定制的 flutter 评级栏，其中还包括一个评级栏指示器，支持任何评级部分。
+  flutter_rating_bar: 4.0.1
+
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/ModernSmartHomeUI/images/
+    - assets/EmailLoginLogoutUI/images/
+    - assets/DonutAppUI/images/
+    - assets/CompassUI/images/
+    - assets/NFTappuiUI/images/
+    - assets/MusicplayerUI/images/
+    - assets/SmartHomeAnimatedAppUI/images/
+    - assets/ParallaxEffectUI/images/
+    - assets/ResponsiveWelcomeLoginAndSignUpUI/images/
+    - assets/MeditationAppUI/icons/
+    - assets/MeditationAppUI/images/
+    - assets/QuizAppUI/images/
+    - assets/AnalogClockLightDarkThemeUI/images/
+    - assets/ECommerceMobileAppUI/icons/
+    - assets/ECommerceMobileAppUI/images/
+    - assets/ECommerceComplateAppUI/icons/
+    - assets/ECommerceComplateAppUI/images/
+    - assets/AnimatedAppWithRiveUI/avaters/
+    - assets/AnimatedAppWithRiveUI/Backgrounds/
+    - assets/AnimatedAppWithRiveUI/icons/
+    - assets/AnimatedAppWithRiveUI/RiveAssets/
+    - assets/ChatMessageAppUI/images/
+    - assets/ChatMessageAppUI/icons/
+    - assets/ShoeAppUI/anims/
+    - assets/ShoeAppUI/icons/
+    - assets/ShoeAppUI/images/
+    - assets/AnimatedTravelAppUI/images/
+    - assets/OnlineShoppingAppUI/icons/
+    - assets/OnlineShoppingAppUI/icons/tabbar/bold/
+    - assets/OnlineShoppingAppUI/icons/tabbar/light/
+    - assets/OnlineShoppingAppUI/icons/light/
+    - assets/OnlineShoppingAppUI/icons/bold/
+    - assets/OnlineShoppingAppUI/icons/products/
+    - assets/OnlineShoppingAppUI/icons/profile/
+    - assets/OnlineShoppingAppUI/icons/detail/
+    - assets/TaskManagementAppUI/svg/
+    - assets/TicketBookingAppUI/images/
+    - assets/InstagramUIRedesignUI/
+    - assets/InstagramUIRedesignUI/icons/
+    - assets/InstagramUIRedesignUI/images/
+    - assets/InstagramUIRedesignUI/postImgs/
+    - assets/FacebookUIRedesignUI/images/
+    - assets/FacebookUIRedesignUI/images/post/
+    - assets/FacebookUIRedesignUI/images/product/
+    - assets/FacebookUIRedesignUI/images/story/
+    - assets/FacebookUIRedesignUI/images/user/
+    - assets/BlogClubAppUI/img/
+    - assets/BlogClubAppUI/img/icons/
+    - assets/BlogClubAppUI/img/posts/large/
+    - assets/BlogClubAppUI/img/posts/small/
+    - assets/BlogClubAppUI/img/stories/
+    - assets/BlogClubAppUI/img/background/
+    - assets/FDDailyTaskAppUI/images/
+    - assets/MotionAnimationsReplyUI/images/
+    - assets/FDManagementUI/images/
+    - assets/FDManagementUI/images/raster/
+    - assets/FDManagementUI/images/vector/
+    - assets/FoodybiteAppUI/images/
+    - assets/FoodybiteAppUI/images/2.0x/
+    - assets/FoodybiteAppUI/images/3.0x/
+    - assets/FoodybiteAppUI/launcher/
+    - assets/SmartHomeAppUI/img/
+    - assets/SmartHomeAppUI/svg/
+    - assets/PayNowEWalletAppUI/images/
+    - assets/ValorantInfoAppUI/
+    - assets/TeslaAppUI/images/
+    - assets/CoffeeAppUI/images/
+    - assets/CoffeeAppUI/images/coffee/
+    - assets/CoffeeAppUI/images/treat/
+    - assets/FoodAppUI/images/categories/
+    - assets/FoodAppUI/images/pasta/
+    - assets/FoodAppUI/images/pasta/extra/
+    - assets/screenshots/
+
+  fonts:
+    ### TeslaAppUI
+    - family: GothamPro
+      fonts:
+        - asset: assets/TeslaAppUI/fonts/GothamProBlack.ttf
+          weight: 900
+        - asset: assets/TeslaAppUI/fonts/GothamProLight.ttf
+          weight: 300
+        - asset: assets/TeslaAppUI/fonts/GothamProMedium.ttf
+          weight: 500
+        - asset: assets/TeslaAppUI/fonts/GothamProRegular.ttf
+          weight: 400
+    ### ValorantInfoAppUI
+    - family: Valorant
+      fonts:
+        - asset: assets/ValorantInfoAppUI/fonts/Valorant Font.ttf
+    ### PayNowEWalletAppUI
+    - family: SF-Pro-Rounded
+      fonts:
+        - asset: assets/PayNowEWalletAppUI/fonts/SF-Pro-Rounded-Light.otf
+          weight: 300
+        - asset: assets/PayNowEWalletAppUI/fonts/SF-Pro-Rounded-Regular.otf
+          weight: 400
+        - asset: assets/PayNowEWalletAppUI/fonts/SF-Pro-Rounded-Medium.otf
+          weight: 500
+        - asset: assets/PayNowEWalletAppUI/fonts/SF-Pro-Rounded-Semibold.otf
+          weight: 600
+        - asset: assets/PayNowEWalletAppUI/fonts/SF-Pro-Rounded-Bold.otf
+          weight: 700
+    ### FoodybiteAppUI
+    - family: Josefin Sans
+      fonts:
+        - asset: assets/FoodybiteAppUI/fonts/.15623.otf
+          weight: 700
+        - asset: assets/FoodybiteAppUI/fonts/.15627.otf
+    - family: Roboto
+      fonts:
+        - asset: assets/FoodybiteAppUI/fonts/.15510.otf
+        - asset: assets/FoodybiteAppUI/fonts/.15498.otf
+          weight: 700
+    - family: .AppleSystemUIFont
+      fonts:
+        - asset: assets/FoodybiteAppUI/fonts/SFNS.ttf
+    ### FDManagementUI
+    - family: Poppins
+      fonts:
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-Black.ttf
+          weight: 900
+        - asset: assets/FDManagementUI/fonts/poppins/Poppins-BlackItalic.ttf
+          weight: 900
+          style: italic
+    ### FDDailyTaskAppUI
+    - family: Nunito
+      fonts:
+        - asset: assets/FDDailyTaskAppUI/fonts/nunito/Nunito-ExtraLight.ttf
+          weight: 200
+        - asset: assets/FDDailyTaskAppUI/fonts/nunito/Nunito-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/FDDailyTaskAppUI/fonts/nunito/Nunito-Light.ttf
+          weight: 300
+        - asset: assets/FDDailyTaskAppUI/fonts/nunito/Nunito-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/FDDailyTaskAppUI/fonts/nunito/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/FDDailyTaskAppUI/fonts/nunito/Nunito-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/FDDailyTaskAppUI/fonts/nunito/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/FDDailyTaskAppUI/fonts/nunito/Nunito-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/FDDailyTaskAppUI/fonts/nunito/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/FDDailyTaskAppUI/fonts/nunito/Nunito-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/FDDailyTaskAppUI/fonts/nunito/Nunito-ExtraBold.ttf
+          weight: 800
+        - asset: assets/FDDailyTaskAppUI/fonts/nunito/Nunito-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/FDDailyTaskAppUI/fonts/nunito/Nunito-Black.ttf
+          weight: 900
+        - asset: assets/FDDailyTaskAppUI/fonts/nunito/Nunito-BlackItalic.ttf
+          weight: 900
+          style: italic
+    ### BlogClubAppUI
+    - family: Avenir
+      fonts:
+        - asset: assets/BlogClubAppUI/fonts/AvenirLTProBook.otf
+          weight: 200
+        - asset: assets/BlogClubAppUI/fonts/AvenirLTProRoman.otf
+          weight: 300
+        - asset: assets/BlogClubAppUI/fonts/AvenirLTProMedium.otf
+          weight: 400
+        - asset: assets/BlogClubAppUI/fonts/AvenirLTProHeavy.otf
+          weight: 700
+    ### MeditationAppUI
+    - family: Cairo
+      fonts:
+        - asset: assets/MeditationAppUI/fonts/Cairo/Cairo-Regular.ttf
+        - asset: assets/MeditationAppUI/fonts/Cairo/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/MeditationAppUI/fonts/Cairo/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/MeditationAppUI/fonts/Cairo/Cairo-Black.ttf
+          weight: 900
+
+    - family: AlibabaSans
+      fonts:
+        - asset: assets/MeditationAppUI/fonts/AlibabaSans/AlibabaSans-Light.ttf
+    - family: DingTalk
+      fonts:
+        - asset: assets/MeditationAppUI/fonts/DingTalk/DingTalk-JinBuTi.ttf
+        - asset: assets/MeditationAppUI/fonts/DingTalk/DingTalk-Sans.ttf
+    - family: RubikMicrobe
+      fonts:
+        - asset: assets/MeditationAppUI/fonts/RubikMicrobe/RubikMicrobe.ttf
+
+    ### ECommerceComplateAppUI
+    - family: Muli
+      fonts:
+        - asset: assets/ECommerceComplateAppUI/fonts/muli/Muli.ttf
+        - asset: assets/ECommerceComplateAppUI/fonts/muli/Muli-Bold.ttf
+          weight: 700
+        - asset: assets/ECommerceComplateAppUI/fonts/muli/Muli-Light.ttf
+          weight: 300
+
+    ### AnimatedAppWithRiveUI
+    - family: Intel
+      fonts:
+        - asset: assets/AnimatedAppWithRiveUI/Fonts/Inter-Regular.ttf
+        - asset: assets/AnimatedAppWithRiveUI/Fonts/Inter-SemiBold.ttf
+          weight: 600
+    - family: Poppins
+      fonts:
+        - asset: assets/AnimatedAppWithRiveUI/Fonts/Poppins-Bold.ttf
+          weight: 700
+    ### ShoeAppUI
+    - family: Gilroy
+      fonts:
+        - asset: assets/ShoeAppUI/fonts/Gilroy-ExtraBold.otf
+          weight: 900
+        - asset: assets/ShoeAppUI/fonts/Gilroy-Light.otf
+          weight: 300
+    ### AnimatedTravelAppUI
+    - family: Montserrat
+      fonts:
+        - asset: assets/AnimatedTravelAppUI/fonts/Montserrat-SemiBold.otf
+          weight: 400
+        - asset: assets/AnimatedTravelAppUI/fonts/Montserrat-Bold.otf
+          weight: 700
+    ### OnlineShoppingAppUI
+    - family: Urbanist
+      fonts:
+        - asset: assets/OnlineShoppingAppUI/fonts/Urbanist-Regular.ttf
+        - asset: assets/OnlineShoppingAppUI/fonts/Urbanist-Medium.ttf
+          weight: 500
+        - asset: assets/OnlineShoppingAppUI/fonts/Urbanist-Bold.ttf
+          weight: 700
+    ### FacebookUIRedesignUI
+    - family: Klavika
+      fonts:
+        - asset: assets/FacebookUIRedesignUI/fonts/klavika-bold.otf

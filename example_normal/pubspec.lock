@@ -44,7 +44,7 @@ packages:
   animation_demo:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/animation_demo"
+      path: "iamfine/flutter_test/animation_demo"
       relative: true
     source: path
     version: "0.0.1"
@@ -325,7 +325,7 @@ packages:
   calendar_agenda:
     dependency: transitive
     description:
-      path: "thirdlib_demos/flutter_fitness_app/dev_lib/calendar_agenda"
+      path: "iamfine/flutter_app/flutter_fitness_app/dev_lib/calendar_agenda"
       relative: true
     source: path
     version: "0.0.2+2"
@@ -372,7 +372,7 @@ packages:
   canvas_demo:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/canvas_demo"
+      path: "iamfine/flutter_test/canvas_demo"
       relative: true
     source: path
     version: "0.0.1"
@@ -451,7 +451,7 @@ packages:
   common_demo:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/common_demo"
+      path: "iamfine/flutter_test/common_demo"
       relative: true
     source: path
     version: "0.0.1"
@@ -739,7 +739,7 @@ packages:
   extended_sliver_demo:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/extended_sliver_demo"
+      path: "iamfine/flutter_test/extended_sliver_demo"
       relative: true
     source: path
     version: "0.0.1"
@@ -887,14 +887,14 @@ packages:
   flutter_black_hole:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_black_hole"
+      path: "iamfine/flutter_app/flutter_black_hole"
       relative: true
     source: path
     version: "0.0.1"
   flutter_books:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_books"
+      path: "iamfine/flutter_app/flutter_books"
       relative: true
     source: path
     version: "0.0.1"
@@ -909,7 +909,7 @@ packages:
   flutter_chatgpt_app:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_chatgpt_app"
+      path: "iamfine/flutter_app/flutter_chatgpt_app"
       relative: true
     source: path
     version: "0.0.1"
@@ -924,7 +924,7 @@ packages:
   flutter_crypto_market_app:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_crypto_market_app"
+      path: "iamfine/flutter_app/flutter_crypto_market_app"
       relative: true
     source: path
     version: "0.0.1"
@@ -963,14 +963,14 @@ packages:
   flutter_fitness_app:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_fitness_app"
+      path: "iamfine/flutter_app/flutter_fitness_app"
       relative: true
     source: path
     version: "0.0.1"
   flutter_foodhub_app:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_foodhub_app"
+      path: "iamfine/flutter_app/flutter_foodhub_app"
       relative: true
     source: path
     version: "0.0.1"
@@ -993,7 +993,7 @@ packages:
   flutter_jd:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_jd"
+      path: "iamfine/flutter_app/flutter_jd"
       relative: true
     source: path
     version: "0.0.1"
@@ -1037,35 +1037,35 @@ packages:
   flutter_marketky_app:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_marketky_app"
+      path: "iamfine/flutter_app/flutter_marketky_app"
       relative: true
     source: path
     version: "0.0.1"
   flutter_mitchkoko:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_mitchkoko"
+      path: "iamfine/flutter_ui/flutter_mitchkoko"
       relative: true
     source: path
     version: "0.0.1"
   flutter_muet_attendance_taking_app:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_muet_attendance_taking_app"
+      path: "iamfine/flutter_app/flutter_muet_attendance_taking_app"
       relative: true
     source: path
     version: "0.0.1"
   flutter_nimbus_app:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_nimbus_app"
+      path: "iamfine/flutter_app/flutter_nimbus_app"
       relative: true
     source: path
     version: "0.0.1"
   flutter_oorbswallpaper_app:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_oorbswallpaper_app"
+      path: "iamfine/flutter_app/flutter_oorbswallpaper_app"
       relative: true
     source: path
     version: "0.0.1"
@@ -1080,14 +1080,14 @@ packages:
   flutter_paytabs_tickets_app:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_paytabs_tickets_app"
+      path: "iamfine/flutter_app/flutter_paytabs_tickets_app"
       relative: true
     source: path
     version: "0.0.1"
   flutter_periodic_table_app:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_periodic_table_app"
+      path: "iamfine/flutter_app/flutter_periodic_table_app"
       relative: true
     source: path
     version: "0.0.1"
@@ -1187,7 +1187,7 @@ packages:
   flutter_to_do_app:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_to_do_app"
+      path: "iamfine/flutter_app/flutter_to_do_app"
       relative: true
     source: path
     version: "0.0.1"
@@ -1202,7 +1202,7 @@ packages:
   flutter_weather:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/flutter_weather"
+      path: "iamfine/flutter_app/flutter_weather"
       relative: true
     source: path
     version: "0.0.1"
@@ -1254,7 +1254,7 @@ packages:
   game_the_green_ninja:
     dependency: "direct main"
     description:
-      path: "thirdlib_games/game_the_green_ninja"
+      path: "iamfine/flutter_game/game_the_green_ninja"
       relative: true
     source: path
     version: "0.0.1"
@@ -1437,21 +1437,21 @@ packages:
   hzy_common_module:
     dependency: "direct main"
     description:
-      path: "thirdlib/hzy_common_module"
+      path: "iamfine/packages/hzy_common_module"
       relative: true
     source: path
     version: "0.0.1"
   hzy_normal_network:
     dependency: transitive
     description:
-      path: "thirdlib/hzy_normal_network"
+      path: "iamfine/packages/hzy_normal_network"
       relative: true
     source: path
     version: "0.0.1"
   hzy_normal_tool:
     dependency: transitive
     description:
-      path: "thirdlib/hzy_normal_tool"
+      path: "iamfine/packages/hzy_normal_tool"
       relative: true
     source: path
     version: "0.0.3"
@@ -1603,7 +1603,7 @@ packages:
   json_path:
     dependency: "direct main"
     description:
-      path: "thirdlib/jessie"
+      path: "iamfine/packages/jessie"
       relative: true
     source: path
     version: "0.6.6"
@@ -2324,7 +2324,7 @@ packages:
   scrollerview_demo:
     dependency: "direct main"
     description:
-      path: "thirdlib_demos/scrollerview_demo"
+      path: "iamfine/flutter_test/scrollerview_demo"
       relative: true
     source: path
     version: "0.0.1"

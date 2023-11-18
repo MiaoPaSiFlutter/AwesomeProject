@@ -1,0 +1,33 @@
+name: extended_sliver_demo
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "http"
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../packages/hzy_common_module/
+  # 强大的Sliver扩展库, 包括 SliverToNestedScrollBoxAdapter, SliverPinnedPersistentHeader,
+  # SliverPinnedToBoxAdapter 和 ExtendedSliverAppbar.
+  extended_sliver: 2.1.3
+  # 扩展NestedScrollView
+  extended_nested_scroll_view: 6.1.2
+  # 加载更多列表支持ListView,GridView以及瀑布流。
+  loading_more_list: 6.0.0
+  # 自定义下拉刷新动画.
+  pull_to_refresh_notification: 3.1.0
+  # webview
+  webview_flutter: 4.2.3
+
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  assets:
+    - assets/

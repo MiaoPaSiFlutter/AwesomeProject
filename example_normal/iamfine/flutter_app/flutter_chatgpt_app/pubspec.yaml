@@ -1,0 +1,32 @@
+name: flutter_chatgpt_app
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "http"
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../packages/hzy_common_module/
+  # 带有颤动动画的加载指示器的集合。  深受 @tobiasahlin 的 SpinKit 启发。
+  flutter_spinkit: 5.2.0
+  animated_text_kit: 4.2.2
+  fluttertoast: 8.2.2
+  rive: 0.11.16
+  intl: 0.18.1
+
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  assets:
+    - assets/
+    - assets/images/
+    - assets/theme_wallpaper/
+    - assets/animation/
+    - assets/logo/

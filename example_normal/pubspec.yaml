@@ -21,59 +21,63 @@ dependencies:
   # 修改包名。
   package_rename: ^1.3.3
   get: ^4.6.5
+  ####### packages
   hzy_common_module:
-    path: ./thirdlib/hzy_common_module
+    path: iamfine/packages/hzy_common_module
   json_path:
-    path: ./thirdlib/jessie
-
-  flutter_jd:
-    path: ./thirdlib_demos/flutter_jd
-  flutter_books:
-    path: ./thirdlib_demos/flutter_books
-  flutter_mitchkoko:
-    path: ./thirdlib_demos/flutter_mitchkoko
-  flutter_weather:
-    path: ./thirdlib_demos/flutter_weather
-  flutter_black_hole:
-    path: ./thirdlib_demos/flutter_black_hole
-  flutter_muet_attendance_taking_app:
-    path: ./thirdlib_demos/flutter_muet_attendance_taking_app
-  flutter_foodhub_app:
-    path: ./thirdlib_demos/flutter_foodhub_app
-  flutter_paytabs_tickets_app:
-    path: ./thirdlib_demos/flutter_paytabs_tickets_app
-  flutter_oorbswallpaper_app:
-    path: ./thirdlib_demos/flutter_oorbswallpaper_app
-  flutter_nimbus_app:
-    path: ./thirdlib_demos/flutter_nimbus_app
-  flutter_fitness_app:
-    path: ./thirdlib_demos/flutter_fitness_app
-  flutter_periodic_table_app:
-    path: ./thirdlib_demos/flutter_periodic_table_app
-  flutter_to_do_app:
-    path: ./thirdlib_demos/flutter_to_do_app
-  flutter_marketky_app:
-    path: ./thirdlib_demos/flutter_marketky_app
-  flutter_crypto_market_app:
-    path: ./thirdlib_demos/flutter_crypto_market_app
-  flutter_chatgpt_app:
-    path: ./thirdlib_demos/flutter_chatgpt_app
-
-  #####
-  extended_sliver_demo:
-    path: ./thirdlib_demos/extended_sliver_demo
-  scrollerview_demo:
-    path: ./thirdlib_demos/scrollerview_demo
-  animation_demo:
-    path: ./thirdlib_demos/animation_demo
-  canvas_demo:
-    path: ./thirdlib_demos/canvas_demo
-  common_demo:
-    path: ./thirdlib_demos/common_demo
+    path: iamfine/packages/jessie
 
   ### 游戏
   game_the_green_ninja:
-    path: ./thirdlib_games/game_the_green_ninja
+    path: iamfine/flutter_game/game_the_green_ninja
+
+  ####### ui
+  flutter_mitchkoko:
+    path: iamfine/flutter_ui/flutter_mitchkoko
+
+  ####### app
+  flutter_jd:
+    path: iamfine/flutter_app/flutter_jd
+  flutter_books:
+    path: iamfine/flutter_app/flutter_books
+  flutter_weather:
+    path: iamfine/flutter_app/flutter_weather
+  flutter_black_hole:
+    path: iamfine/flutter_app/flutter_black_hole
+  flutter_muet_attendance_taking_app:
+    path: iamfine/flutter_app/flutter_muet_attendance_taking_app
+  flutter_foodhub_app:
+    path: iamfine/flutter_app/flutter_foodhub_app
+  flutter_paytabs_tickets_app:
+    path: iamfine/flutter_app/flutter_paytabs_tickets_app
+  flutter_oorbswallpaper_app:
+    path: iamfine/flutter_app/flutter_oorbswallpaper_app
+  flutter_nimbus_app:
+    path: iamfine/flutter_app/flutter_nimbus_app
+  flutter_fitness_app:
+    path: iamfine/flutter_app/flutter_fitness_app
+  flutter_periodic_table_app:
+    path: iamfine/flutter_app/flutter_periodic_table_app
+  flutter_to_do_app:
+    path: iamfine/flutter_app/flutter_to_do_app
+  flutter_marketky_app:
+    path: iamfine/flutter_app/flutter_marketky_app
+  flutter_crypto_market_app:
+    path: iamfine/flutter_app/flutter_crypto_market_app
+  flutter_chatgpt_app:
+    path: iamfine/flutter_app/flutter_chatgpt_app
+
+  ##### test
+  extended_sliver_demo:
+    path: iamfine/flutter_test/extended_sliver_demo
+  scrollerview_demo:
+    path: iamfine/flutter_test/scrollerview_demo
+  animation_demo:
+    path: iamfine/flutter_test/animation_demo
+  canvas_demo:
+    path: iamfine/flutter_test/canvas_demo
+  common_demo:
+    path: iamfine/flutter_test/common_demo
 
 dev_dependencies:
   flutter_test:
