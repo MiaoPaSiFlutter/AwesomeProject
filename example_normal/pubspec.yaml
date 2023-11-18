@@ -70,6 +70,11 @@ dependencies:
     path: ./thirdlib_demos/canvas_demo
   common_demo:
     path: ./thirdlib_demos/common_demo
+
+  ### 游戏
+  game_the_green_ninja:
+    path: ./thirdlib_games/game_the_green_ninja
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

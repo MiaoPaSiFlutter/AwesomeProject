@@ -1251,6 +1251,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "3.2.0"
+  game_the_green_ninja:
+    dependency: "direct main"
+    description:
+      path: "thirdlib_games/game_the_green_ninja"
+      relative: true
+    source: path
+    version: "0.0.1"
   gap:
     dependency: transitive
     description:
