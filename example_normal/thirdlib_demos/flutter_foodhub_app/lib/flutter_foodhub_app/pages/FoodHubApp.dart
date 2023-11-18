@@ -1,10 +1,8 @@
-import 'dart:io';
-
-import 'package:android_alarm_manager_plus/android_alarm_manager_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
-
-import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
+import '../providers/providers_index.dart';
+import '../routers/routers_index.dart';
+import '../tools/tools_index.dart';
 
 class FoodHubApp extends StatefulWidget {
   const FoodHubApp({super.key});
@@ -23,15 +21,6 @@ class _FoodHubAppState extends State<FoodHubApp> {
 
   Future<void> main() async {
     WidgetsFlutterBinding.ensureInitialized();
-    final NotificationHelper notificationHelper = NotificationHelper();
-    final BackgroundServiceHelper backgroundServiceHelper =
-        BackgroundServiceHelper();
-
-    backgroundServiceHelper.initializeIsolate();
-    if (Platform.isAndroid) {
-      await AndroidAlarmManager.initialize();
-    }
-    await notificationHelper.initNotification(flutterLocalNotificationsPlugin);
 
     setState(() {
       _init = true;
@@ -56,28 +45,9 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final NotificationHelper notificationHelper = NotificationHelper();
-
   @override
   void initState() {
     super.initState();
-    notificationHelper
-        .configureSelectNotificationSubject(Routes.restaurantDetailScreen);
-  }
-
-  void checkAlarmNotification(
-      PreferenceSettingsProvider preferenceSettingsProvider) {
-    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
-      final notif = Provider.of<NotificationSchedulingProvider>(
-          Navigation.getContext(),
-          listen: false);
-
-      if (preferenceSettingsProvider.isDailyNotificationActive) {
-        // Check shared prefs alarm is true, then set notif schedule to be active
-        notif.notifScheduleNews(
-            preferenceSettingsProvider.isDailyNotificationActive);
-      }
-    });
   }
 
   @override
@@ -102,7 +72,6 @@ class _MyAppState extends State<MyApp> {
       ],
       child: Consumer<PreferenceSettingsProvider>(
         builder: (context, preferenceSettingsProvider, _) {
-          checkAlarmNotification(preferenceSettingsProvider);
           return MaterialApp(
             title: 'Food Hub App',
             theme: preferenceSettingsProvider.themeData,
@@ -118,7 +87,6 @@ class _MyAppState extends State<MyApp> {
 
   @override
   void dispose() {
-    selectNotificationSubject.close();
     super.dispose();
   }
 }

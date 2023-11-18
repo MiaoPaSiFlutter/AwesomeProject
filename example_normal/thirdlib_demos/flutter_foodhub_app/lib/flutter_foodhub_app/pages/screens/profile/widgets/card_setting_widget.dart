@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
-import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
+
+import '../../../../providers/providers_index.dart';
+import '../../../../tools/tools_index.dart';
 
 class CardSettingWidget extends StatelessWidget {
   final PreferenceSettingsProvider preferenceSettingsProvider;
@@ -133,14 +135,7 @@ class CardSettingWidget extends StatelessWidget {
                   ),
                   const Spacer(),
                   InkWell(
-                    onTap: () {
-                      NotificationHelper notificationHelper =
-                          NotificationHelper();
-                      notificationHelper.tryNotification(
-                          flutterLocalNotificationsPlugin,
-                          'Hello There!',
-                          'This is example Notification:)');
-                    },
+                    onTap: () {},
                     child: Container(
                       padding: const EdgeInsets.symmetric(
                           horizontal: 8, vertical: 6),
