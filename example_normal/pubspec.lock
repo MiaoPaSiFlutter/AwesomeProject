@@ -2677,6 +2677,27 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.3.2"
+  ui_coffe_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_coffe_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_food_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_food_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_tesla_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_tesla_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   universal_io:
     dependency: transitive
     description:

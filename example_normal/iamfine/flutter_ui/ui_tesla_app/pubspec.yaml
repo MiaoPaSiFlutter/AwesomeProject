@@ -1,0 +1,39 @@
+name: ui_tesla_app
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "http"
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../packages/hzy_common_module/
+  google_fonts: 5.1.0
+  intl: 0.18.1
+  carousel_slider: 4.2.1
+  font_awesome_flutter: 10.5.0
+  device_preview: 1.1.0
+
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: GothamPro
+      fonts:
+        - asset: assets/fonts/GothamProBlack.ttf
+          weight: 900
+        - asset: assets/fonts/GothamProLight.ttf
+          weight: 300
+        - asset: assets/fonts/GothamProMedium.ttf
+          weight: 500
+        - asset: assets/fonts/GothamProRegular.ttf
+          weight: 400

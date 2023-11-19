@@ -193,7 +193,7 @@ class RootC extends CommonGetXController
   /// tab 界面列表
   List<Widget> pageList = [
     // const HomePage(),
-    const FlutterUIHomePage(),
+    FlutterUIHomePage(),
     const FlutterAppsHomePage(),
     const FlutterGamesHomePage(),
     const FlutterTestHomePage(),

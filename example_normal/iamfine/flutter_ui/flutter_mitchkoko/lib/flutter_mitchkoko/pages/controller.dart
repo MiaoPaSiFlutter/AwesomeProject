@@ -7,7 +7,6 @@ import 'AnimatedAppWithRiveUI/AnimatedAppWithRiveUI.dart';
 import 'AnimatedTravelAppUI/AnimatedTravelAppUI.dart';
 import 'BlogClubAppUI/BlogClubAppUI.dart';
 import 'ChatMessageAppUI/ChatMessageAppUI.dart';
-import 'CoffeeAppUI/CoffeAppUI.dart';
 import 'CompassUI/CompassUI.dart';
 import 'DonutAppUI/DonutAppUI.dart';
 import 'ECommerceComplateAppUI/ECommerceComplateAppUI.dart';
@@ -16,7 +15,6 @@ import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 import 'FDDailyTaskAppUI/FDDailyTaskAppUI.dart';
 import 'FDManagementUI/FDManagementUI.dart';
 import 'FacebookUIRedesignUI/FacebookUIRedesignUI.dart';
-import 'FoodAppUI/FoodAppUI.dart';
 import 'FoodybiteAppUI/main.dart';
 import 'GoplanAppUI/GoplanAppUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
@@ -36,7 +34,6 @@ import 'ShoeAppUI/ShoeAppUI.dart';
 import 'SmartHomeAnimatedAppUI/SmartHomeAnimatedAppUI.dart';
 import 'SmartHomeAppUI/src/SmartHomeAppUI.dart';
 import 'TaskManagementAppUI/TaskManagementAppUI.dart';
-import 'TeslaAppUI/TeslaAppUI.dart';
 import 'TicketBookingAppUI/TicketBookingAppUI.dart';
 import 'TiktokscrollUI/TiktokscrollUI.dart';
 import 'ValorantInfoAppUI/ValorantInfoAppUI.dart';
@@ -58,33 +55,6 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
-      InterestingUIModel(
-          title: '一个食品应用程序概念动画',
-          description: '',
-          date: '2023年3月20日',
-          tags: ['动画'],
-          gifOrPictures: ['screenshots/FoodAppUI.gif'],
-          app: FoodAppUI(),
-          author: 'IZriouil - Github',
-          url: 'https://github.com/IZriouil/food_app'),
-      InterestingUIModel(
-          title: '一个好看流畅的UI动画的咖啡APP',
-          description: '',
-          date: '2023年3月20日',
-          tags: ['动画', '咖啡'],
-          gifOrPictures: ['screenshots/CoffeAppUI.gif'],
-          app: CoffeAppUI(),
-          author: 'IZriouil - Github',
-          url: 'https://github.com/IZriouil/coffee_app'),
-      InterestingUIModel(
-          title: '一个特斯拉汽车在线销售的UI模板APP',
-          description: '',
-          date: '2023年3月20日',
-          tags: ['特斯拉'],
-          gifOrPictures: ['screenshots/TeslaAppUI.gif'],
-          app: TeslaAppUI(),
-          author: 'vegasandroid - Github',
-          url: 'https://github.com/vegasandroid/tesla-app'),
       InterestingUIModel(
           title: '一款游戏《无畏契约》资料的UI模板APP',
           description: '',

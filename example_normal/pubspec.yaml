@@ -34,6 +34,12 @@ dependencies:
   ####### ui
   flutter_mitchkoko:
     path: iamfine/flutter_ui/flutter_mitchkoko
+  ui_coffe_app:
+    path: iamfine/flutter_ui/ui_coffe_app
+  ui_food_app:
+    path: iamfine/flutter_ui/ui_food_app
+  ui_tesla_app:
+    path: iamfine/flutter_ui/ui_tesla_app
 
   ####### app
   flutter_jd:

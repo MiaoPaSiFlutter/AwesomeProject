@@ -172,27 +172,10 @@ flutter:
     - assets/SmartHomeAppUI/svg/
     - assets/PayNowEWalletAppUI/images/
     - assets/ValorantInfoAppUI/
-    - assets/TeslaAppUI/images/
-    - assets/CoffeeAppUI/images/
-    - assets/CoffeeAppUI/images/coffee/
-    - assets/CoffeeAppUI/images/treat/
-    - assets/FoodAppUI/images/categories/
-    - assets/FoodAppUI/images/pasta/
-    - assets/FoodAppUI/images/pasta/extra/
     - assets/screenshots/
 
   fonts:
-    ### TeslaAppUI
-    - family: GothamPro
-      fonts:
-        - asset: assets/TeslaAppUI/fonts/GothamProBlack.ttf
-          weight: 900
-        - asset: assets/TeslaAppUI/fonts/GothamProLight.ttf
-          weight: 300
-        - asset: assets/TeslaAppUI/fonts/GothamProMedium.ttf
-          weight: 500
-        - asset: assets/TeslaAppUI/fonts/GothamProRegular.ttf
-          weight: 400
+   
     ### ValorantInfoAppUI
     - family: Valorant
       fonts:
