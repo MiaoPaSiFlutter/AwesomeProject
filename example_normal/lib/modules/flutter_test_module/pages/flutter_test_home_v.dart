@@ -1,21 +1,46 @@
+import 'package:animation_demo/animation_demo/pages/TestAnimationApp.dart';
+import 'package:canvas_demo/canvas_demo/pages/TestCanvasApp.dart';
+import 'package:common_demo/common_demo/pages/TestCommonApp.dart';
+import 'package:extended_sliver_demo/extended_sliver_demo/pages/TestExtendedSliverApp.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:flutter/material.dart';
-import '../config/flutter_test_config.dart';
+import 'package:scrollerview_demo/scrollerview_demo/pages/TestScrollerViewApp.dart';
 
-class FlutterTestHomePage extends StatefulWidget {
-  const FlutterTestHomePage({super.key});
+import '../../../compontents/interesting_ui_widget.dart';
+import '../../../models/interesting_ui_model.dart';
+
+class FlutterTestHomePage extends CommonGetXWidget<FlutterTestHomeController> {
+  FlutterTestHomePage({Key? key}) : super(key: key);
   @override
-  State<StatefulWidget> createState() {
-    return FlutterTestHomePageState();
+  FlutterTestHomeController get controller =>
+      Get.put(FlutterTestHomeController());
+  @override
+  bool configSafeAreaTop() => false;
+  @override
+  bool configIsShowAppBar() => false;
+
+  @override
+  Widget createScallBody({
+    required BuildContext context,
+    BoxConstraints? constraints,
+  }) {
+    return const TestHomePage();
   }
 }
 
-class FlutterTestHomePageState extends CommonState<FlutterTestHomePage>
+class TestHomePage extends StatefulWidget {
+  const TestHomePage({super.key});
+  @override
+  State<StatefulWidget> createState() {
+    return TestHomePageState();
+  }
+}
+
+class TestHomePageState extends CommonState<TestHomePage>
     with AutomaticKeepAliveClientMixin {
   @override
   String? createAppBarTitleStr() => LaunchIdConfig.flutterTest.tr;
 
-  FlutterTestConfig get config => FlutterTestConfig();
   @override
   Widget build(BuildContext context) {
     super.build(context);
@@ -23,35 +48,82 @@ class FlutterTestHomePageState extends CommonState<FlutterTestHomePage>
   }
 
   @override
-  Widget createScallBody(
-      {required BuildContext context, BoxConstraints? constraints}) {
-    Widget body = ListView.builder(
-      itemBuilder: configItemBuilder,
-      itemCount: config.itemList.length,
+  Widget createScallBody({
+    required BuildContext context,
+    BoxConstraints? constraints,
+  }) {
+    return GetBuilder<FlutterTestHomeController>(
+      builder: (controller) {
+        return ListView.builder(
+          itemCount: controller.uiModels.length,
+          itemBuilder: (context, index) {
+            return InterestingUIWidget(model: controller.uiModels[index]);
+          },
+        );
+      },
     );
-    body = Container(child: body);
-    return body;
-  }
-
-  /// 创建item
-  Widget configItemBuilder(BuildContext context, int index) {
-    HzyNormalItemModel itemModel = config.itemList[index];
-    if (index == 0) {
-      itemModel.borderRadius =
-          BorderRadius.vertical(top: Radius.circular(16.r));
-    } else if (index == config.itemList.length - 1) {
-      itemModel.borderRadius =
-          BorderRadius.vertical(bottom: Radius.circular(16.r));
-    }
-    itemModel.rightType = 1;
-    itemModel.isShowLine = (index != config.itemList.length - 1);
-    Widget body = configNormalDarkItemWidget(
-      itemModel: itemModel,
-      onOtherTap: (_) {},
-    );
-    return body;
   }
 
   @override
   bool get wantKeepAlive => true;
+}
+
+class FlutterTestHomeController extends CommonGetXController {
+  FlutterTestHomeController();
+
+  var uiModels = [].obs;
+
+  @override
+  void onInit() {
+    super.onInit();
+    getData();
+  }
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+
+  getData() {
+    uiModels.assignAll([
+      InterestingUIModel(
+          title: 'Animation 相关测试',
+          description: '',
+          date: '2022年12月29日',
+          tags: [],
+          app: const TestAnimationApp(),
+          author: '',
+          url: ''),
+      InterestingUIModel(
+          title: 'Canvas 相关测试',
+          description: '',
+          date: '2022年1月25日',
+          tags: [],
+          app: const TestCanvasApp(),
+          author: '',
+          url: ''),
+      InterestingUIModel(
+          title: '其他 相关测试',
+          description: '',
+          date: '2023年10月22日',
+          tags: [],
+          app: const TestCommonApp(),
+          author: '',
+          url: ''),
+      InterestingUIModel(
+          title: 'ExtendedSliver 相关测试',
+          description: '',
+          date: '2023年10月13日',
+          tags: [],
+          app: const TestExtendedSliverApp(),
+          author: '',
+          url: ''),
+      InterestingUIModel(
+          title: 'ScrollerView 相关测试',
+          description: '',
+          date: '2022年10月30日',
+          tags: [],
+          app: const TestScrollerViewApp(),
+          author: '',
+          url: ''),
+    ]);
+  }
 }

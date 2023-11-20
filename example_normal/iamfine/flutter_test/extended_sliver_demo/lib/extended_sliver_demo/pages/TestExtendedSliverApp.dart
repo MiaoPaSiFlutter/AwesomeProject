@@ -8,7 +8,44 @@ import 'simple/pinned_box.dart';
 import 'simple/pinned_header.dart';
 import 'simple/sliver_app_bar.dart';
 
-class ExtendedSliverModuleMainPage extends StatelessWidget {
+class TestExtendedSliverApp extends GetView<TestExtendedSliverAppController> {
+  const TestExtendedSliverApp({super.key});
+
+  @override
+  TestExtendedSliverAppController get controller =>
+      Get.put(TestExtendedSliverAppController());
+
+  @override
+  Widget build(BuildContext context) {
+    return const MyAppWrapper();
+  }
+}
+
+class TestExtendedSliverAppController extends GetxController {
+  TestExtendedSliverAppController();
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+}
+
+class MyAppWrapper extends StatefulWidget {
+  const MyAppWrapper({super.key});
+
+  @override
+  State<MyAppWrapper> createState() => _MyAppWrapperState();
+}
+
+class _MyAppWrapperState extends State<MyAppWrapper> {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Test - ExtendedSliver',
+      home: MyApp(),
+    );
+  }
+}
+
+class MyApp extends StatelessWidget {
   final List<DemoRouteResult> routeLIST = <DemoRouteResult>[
     DemoRouteResult(description: 'simple pinned box.', page: PinnedBox()),
     DemoRouteResult(
@@ -22,6 +59,8 @@ class ExtendedSliverModuleMainPage extends StatelessWidget {
     DemoRouteResult(
         description: 'extended SliverAppbar.', page: SliverAppbarDemo())
   ];
+
+  MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {

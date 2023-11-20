@@ -7,13 +7,8 @@
  * @LastEditTime: 2023-05-16 17:18:40
  */
 
-import 'package:animation_demo/animation_demo.dart';
-import 'package:canvas_demo/canvas_demo.dart';
-import 'package:common_demo/common_demo.dart';
-import 'package:extended_sliver_demo/extended_sliver_demo.dart';
 import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
-import 'package:scrollerview_demo/scrollerview_demo.dart';
 import 'example_launch_id_config.dart';
 import '../models/image_type_model.dart';
 import '../routers/example_module_routers.dart';
@@ -28,26 +23,6 @@ class ExamplConfig {
     HzyNormalItemModel(
       leftMsg: "Flutter 精美 UI 截图",
       router: MitchkokoModuleRouterS.HOME,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "extended_sliver_demo",
-      router: ExtendedSliverModuleRouterS.HOME,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "scrollerview_demo",
-      router: ScrollerDemoModuleRouterS.HOME,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "animation_demo",
-      router: AnimationDemoModuleRouterS.HOME,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "canvas_demo",
-      router: CanvasDemoModuleRouterS.HOME,
-    ),
-    HzyNormalItemModel(
-      leftMsg: "common_demo",
-      router: CommonDemoModuleRouterS.HOME,
     ),
 
     /// 抽象类基础属性展示

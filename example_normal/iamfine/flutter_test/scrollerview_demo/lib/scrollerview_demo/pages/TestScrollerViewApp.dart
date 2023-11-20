@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
 import 'scroll_demo/DouYinPingLunDemo.dart';
 import 'scroll_demo/PullToRefreshDemo1.dart';
@@ -20,7 +21,44 @@ import 'scroll_demo/scroll_pull_down_to_scale_image_demo2.dart';
 import 'scroll_demo/scroll_scroll_direction_demo.dart';
 import 'scroll_demo/scroll_scroll_to_top_demo.dart';
 
-class ScrollerDemoModuleMainPage extends StatelessWidget {
+class TestScrollerViewApp extends GetView<TestScrollerViewAppController> {
+  const TestScrollerViewApp({super.key});
+
+  @override
+  TestScrollerViewAppController get controller =>
+      Get.put(TestScrollerViewAppController());
+
+  @override
+  Widget build(BuildContext context) {
+    return const MyAppWrapper();
+  }
+}
+
+class TestScrollerViewAppController extends GetxController {
+  TestScrollerViewAppController();
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+}
+
+class MyAppWrapper extends StatefulWidget {
+  const MyAppWrapper({super.key});
+
+  @override
+  State<MyAppWrapper> createState() => _MyAppWrapperState();
+}
+
+class _MyAppWrapperState extends State<MyAppWrapper> {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Test - ExtendedSliver',
+      home: MyApp(),
+    );
+  }
+}
+
+class MyApp extends StatelessWidget {
   final List<DemoRouteResult> routeLIST = <DemoRouteResult>[
     DemoRouteResult(description: '下拉刷新Demo1 .', page: PullToRefreshDemo1()),
     DemoRouteResult(
@@ -59,6 +97,8 @@ class ScrollerDemoModuleMainPage extends StatelessWidget {
     DemoRouteResult(
         description: 'NestedScrollView问题 .', page: Q_NestedScrollView001()),
   ];
+
+  MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {

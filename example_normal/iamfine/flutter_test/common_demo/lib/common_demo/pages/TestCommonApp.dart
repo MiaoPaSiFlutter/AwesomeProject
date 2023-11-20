@@ -1,41 +1,78 @@
 import 'package:flutter/material.dart';
-import 'BottomNavBarV1Demo.dart';
-import 'Provider/ChangeNotifierProvider使用/UserChangeNotifierProviderScreen.dart';
-import 'Provider/FutureProvider使用/UserFutureProviderScreen.dart';
-import 'Provider/ListenableProvider使用/UserListenableProviderScreen.dart';
-import 'Provider/MVVM/UserMVVMProviderScreen.dart';
-import 'Provider/MultiProvider使用/UserMultiProviderScreen.dart';
-import 'Provider/Provider使用/UserProviderScreen.dart';
-import 'Provider/ProxyProvider使用/UserProxyProviderScreen.dart';
-import 'Provider/StreamProvider使用/UserStreamProviderScreen.dart';
-import 'Provider/ValueListenableProvider使用/UserValueListenableProviderScreen.dart';
-import 'clip/test_clip_page.dart';
-import 'customDrawer/CustomDrawer.dart';
-import 'icon/test_round_icon_page.dart';
-import 'listview/test_list_part_page.dart';
-import 'SlideBannerPage.dart';
-import 'AnimationOpenContainerPage.dart';
-import 'TestClockPage.dart';
-import 'TestCommonLoginPage.dart';
-import 'TestFloatHeroPage.dart';
-import 'TestOrientationPage.dart';
-import 'TestTimeProgressIndicatorPage.dart';
-import 'LiquidSwipeDemo1.dart';
-import 'TestTabBarHomePage.dart';
-import 'AnimationSshowModalHomePage.dart';
-import 'TestNestedScrollViewUse1.dart';
-import 'shake_animation/TestShakeAnimationPage.dart';
-import 'shake_animation/TestShakeAnimationPage2.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
+import 'common_demo/BottomNavBarV1Demo.dart';
+import 'common_demo/Provider/ChangeNotifierProvider使用/UserChangeNotifierProviderScreen.dart';
+import 'common_demo/Provider/FutureProvider使用/UserFutureProviderScreen.dart';
+import 'common_demo/Provider/ListenableProvider使用/UserListenableProviderScreen.dart';
+import 'common_demo/Provider/MVVM/UserMVVMProviderScreen.dart';
+import 'common_demo/Provider/MultiProvider使用/UserMultiProviderScreen.dart';
+import 'common_demo/Provider/Provider使用/UserProviderScreen.dart';
+import 'common_demo/Provider/ProxyProvider使用/UserProxyProviderScreen.dart';
+import 'common_demo/Provider/StreamProvider使用/UserStreamProviderScreen.dart';
+import 'common_demo/Provider/ValueListenableProvider使用/UserValueListenableProviderScreen.dart';
+import 'common_demo/clip/test_clip_page.dart';
+import 'common_demo/customDrawer/CustomDrawer.dart';
+import 'common_demo/icon/test_round_icon_page.dart';
+import 'common_demo/listview/test_list_part_page.dart';
+import 'common_demo/SlideBannerPage.dart';
+import 'common_demo/AnimationOpenContainerPage.dart';
+import 'common_demo/TestClockPage.dart';
+import 'common_demo/TestCommonLoginPage.dart';
+import 'common_demo/TestFloatHeroPage.dart';
+import 'common_demo/TestOrientationPage.dart';
+import 'common_demo/TestTimeProgressIndicatorPage.dart';
+import 'common_demo/LiquidSwipeDemo1.dart';
+import 'common_demo/TestTabBarHomePage.dart';
+import 'common_demo/AnimationSshowModalHomePage.dart';
+import 'common_demo/TestNestedScrollViewUse1.dart';
+import 'common_demo/shake_animation/TestShakeAnimationPage.dart';
+import 'common_demo/shake_animation/TestShakeAnimationPage2.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, this.title}) : super(key: key);
+class TestCommonApp extends GetView<TestCommonAppController> {
+  const TestCommonApp({super.key});
+
+  @override
+  TestCommonAppController get controller => Get.put(TestCommonAppController());
+
+  @override
+  Widget build(BuildContext context) {
+    return const MyAppWrapper();
+  }
+}
+
+class TestCommonAppController extends GetxController {
+  TestCommonAppController();
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+}
+
+class MyAppWrapper extends StatefulWidget {
+  const MyAppWrapper({super.key});
+
+  @override
+  State<MyAppWrapper> createState() => _MyAppWrapperState();
+}
+
+class _MyAppWrapperState extends State<MyAppWrapper> {
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      title: 'Test - Common',
+      home: MyApp(),
+    );
+  }
+}
+
+class MyApp extends StatefulWidget {
+  const MyApp({Key? key, this.title}) : super(key: key);
   final String? title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _MyAppState createState() => _MyAppState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

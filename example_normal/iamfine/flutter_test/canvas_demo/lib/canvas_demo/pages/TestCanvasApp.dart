@@ -1,31 +1,68 @@
 import 'package:flutter/material.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
-import 'Spinner.dart';
-import 'cpi_audio_waveform.dart';
-import 'examle_snow_page.dart';
-import 'image/UseCustomPaintImageDemo.dart';
-import 'percentage_indicator_sm.dart';
-import 'rain/weather_widget.dart';
-import 'test.dart';
-import 'testWidget2.dart';
-import 'test_BluePainter.dart';
-import 'test_bubble_login_page.dart';
-import 'tiltable_stack.dart';
+import 'canvas_demo/Spinner.dart';
+import 'canvas_demo/cpi_audio_waveform.dart';
+import 'canvas_demo/examle_snow_page.dart';
+import 'canvas_demo/image/UseCustomPaintImageDemo.dart';
+import 'canvas_demo/percentage_indicator_sm.dart';
+import 'canvas_demo/rain/weather_widget.dart';
+import 'canvas_demo/test.dart';
+import 'canvas_demo/testWidget2.dart';
+import 'canvas_demo/test_BluePainter.dart';
+import 'canvas_demo/test_bubble_login_page.dart';
+import 'canvas_demo/tiltable_stack.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, this.title}) : super(key: key);
+class TestCanvasApp extends GetView<TestCanvasAppController> {
+  const TestCanvasApp({super.key});
+
+  @override
+  TestCanvasAppController get controller => Get.put(TestCanvasAppController());
+
+  @override
+  Widget build(BuildContext context) {
+    return const MyAppWrapper();
+  }
+}
+
+class TestCanvasAppController extends GetxController {
+  TestCanvasAppController();
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+}
+
+class MyAppWrapper extends StatefulWidget {
+  const MyAppWrapper({super.key});
+
+  @override
+  State<MyAppWrapper> createState() => _MyAppWrapperState();
+}
+
+class _MyAppWrapperState extends State<MyAppWrapper> {
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      title: 'Test - Canvas',
+      home: MyApp(),
+    );
+  }
+}
+
+class MyApp extends StatefulWidget {
+  const MyApp({Key? key, this.title}) : super(key: key);
   final String? title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _MyAppState createState() => _MyAppState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Animation Demo Home Page'),
+        title: const Text('Animation Demo Home Page'),
       ),
       body: SingleChildScrollView(
         child: Column(

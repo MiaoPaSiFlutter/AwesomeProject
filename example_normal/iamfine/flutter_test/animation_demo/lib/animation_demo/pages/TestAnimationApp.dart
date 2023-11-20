@@ -1,25 +1,46 @@
 import 'package:flutter/material.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 
-import 'animation_card/animation_card_page.dart';
-import 'animation_longpress/animation_longpress_page.dart';
-import 'animation_number_switcher/animation_number_switcher_page1.dart';
-import 'animation_pie/animagtion_pie_page2.dart';
-import 'animation_pie/animagtion_pie_page1.dart';
-import 'animation_wave/animation_wave_login_page.dart';
-import 'animation_flash/animation_flash_page.dart';
-import 'animation_hero/animation_hero_page.dart';
-import 'animation_hero/animation_hero_show_imgpage_page.dart';
-import 'animation_tabbar/animation_tabbar_page.dart';
-import 'animation_custompaint/animation_rect_path_page.dart';
+import 'animation_demo/animation_card/animation_card_page.dart';
+import 'animation_demo/animation_longpress/animation_longpress_page.dart';
+import 'animation_demo/animation_number_switcher/animation_number_switcher_page1.dart';
+import 'animation_demo/animation_pie/animagtion_pie_page2.dart';
+import 'animation_demo/animation_pie/animagtion_pie_page1.dart';
+import 'animation_demo/animation_wave/animation_wave_login_page.dart';
+import 'animation_demo/animation_flash/animation_flash_page.dart';
+import 'animation_demo/animation_hero/animation_hero_page.dart';
+import 'animation_demo/animation_hero/animation_hero_show_imgpage_page.dart';
+import 'animation_demo/animation_tabbar/animation_tabbar_page.dart';
+import 'animation_demo/animation_custompaint/animation_rect_path_page.dart';
 
-class AnimationDemoHomeView extends StatefulWidget {
-  const AnimationDemoHomeView({Key? key}) : super(key: key);
+class TestAnimationApp extends GetView<TestAnimationAppController> {
+  const TestAnimationApp({super.key});
 
   @override
-  State createState() => _AnimationDemoHomeViewState();
+  TestAnimationAppController get controller =>
+      Get.put(TestAnimationAppController());
+
+  @override
+  Widget build(BuildContext context) {
+    return const MyApp();
+  }
 }
 
-class _AnimationDemoHomeViewState extends State<AnimationDemoHomeView> {
+class TestAnimationAppController extends GetxController {
+  TestAnimationAppController();
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+}
+
+class MyApp extends StatefulWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  State createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
