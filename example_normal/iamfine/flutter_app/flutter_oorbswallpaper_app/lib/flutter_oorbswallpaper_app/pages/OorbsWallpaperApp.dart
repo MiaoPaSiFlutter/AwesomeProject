@@ -1,18 +1,39 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_oorbswallpaper_app/flutter_oorbswallpaper_app.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 import 'index.dart';
 
-class OorbsWallpaperApp extends StatefulWidget {
-  // This widget is the root of your application.
-  @override
-  State<OorbsWallpaperApp> createState() => _OorbsWallpaperAppState();
+class OorbsWallpaperApp extends GetView<OorbsWallpaperAppController> {
+  const OorbsWallpaperApp({super.key});
 
-  static _OorbsWallpaperAppState? of(BuildContext context) =>
-      context.findAncestorStateOfType<_OorbsWallpaperAppState>();
+  static _MyAppState? of(BuildContext context) =>
+      context.findAncestorStateOfType<_MyAppState>();
+
+  @override
+  OorbsWallpaperAppController get controller =>
+      Get.put(OorbsWallpaperAppController());
+
+  @override
+  Widget build(BuildContext context) {
+    return MyApp();
+  }
 }
 
-class _OorbsWallpaperAppState extends State<OorbsWallpaperApp> {
+class OorbsWallpaperAppController extends GetxController {
+  OorbsWallpaperAppController();
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+}
+
+class MyApp extends StatefulWidget {
+  // This widget is the root of your application.
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
   Locale? _locale;
   ThemeMode _themeMode = ThemeMode.system;
 

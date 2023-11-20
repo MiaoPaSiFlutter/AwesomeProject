@@ -1,1 +1,1 @@
-### [代码参考来源](https://github.com/paytabscom/paytabs-tickets-demo-flutter)
+### [参考](https://github.com/paytabscom/paytabs-tickets-demo-flutter)

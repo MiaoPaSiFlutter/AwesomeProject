@@ -8,14 +8,33 @@ import 'intro/intro.dart';
 
 SharedPreferences? preferences;
 
-class ToDoApp extends StatefulWidget {
+class ToDoApp extends GetView<ToDoAppController> {
   const ToDoApp({super.key});
 
   @override
-  State<ToDoApp> createState() => _ToDoAppState();
+  ToDoAppController get controller => Get.put(ToDoAppController());
+
+  @override
+  Widget build(BuildContext context) {
+    return MyAppWrapper();
+  }
 }
 
-class _ToDoAppState extends State<ToDoApp> {
+class ToDoAppController extends GetxController {
+  ToDoAppController();
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+}
+
+class MyAppWrapper extends StatefulWidget {
+  const MyAppWrapper({super.key});
+
+  @override
+  State<MyAppWrapper> createState() => _MyAppWrapperState();
+}
+
+class _MyAppWrapperState extends State<MyAppWrapper> {
   bool _init = false;
   @override
   void initState() {

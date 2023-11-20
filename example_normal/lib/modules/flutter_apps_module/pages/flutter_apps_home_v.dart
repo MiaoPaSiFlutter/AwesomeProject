@@ -3,9 +3,16 @@ import 'package:flutter_crypto_market_app/flutter_crypto_market_app/pages/Crypto
 import 'package:flutter_fitness_app/flutter_fitness_app/pages/FitnessApp.dart';
 import 'package:flutter_jd/flutter_jd/pages/JdHubApp.dart';
 import 'package:flutter_marketky_app/flutter_marketky_app/pages/MarketkyApp.dart';
+import 'package:flutter_muet_attendance_taking_app/flutter_muet_attendance_taking_app/pages/MuetAttendanceTakingApp.dart';
+import 'package:flutter_nimbus_app/flutter_nimbus_app/pages/FlutterNimbusApp.dart';
+import 'package:flutter_oorbswallpaper_app/flutter_oorbswallpaper_app/pages/OorbsWallpaperApp.dart';
+import 'package:flutter_paytabs_tickets_app/flutter_paytabs_tickets_app/pages/PaytabsTicketsApp.dart';
+import 'package:flutter_periodic_table_app/flutter_periodic_table_app/pages/PeriodicTableApp.dart';
+import 'package:flutter_to_do_app/flutter_to_do_app/pages/ToDoApp.dart';
 import 'package:flutter_valorant_app/flutter_valorant_app/pages/ValorantInfoApp.dart';
 import 'package:flutter_books/flutter_books/pages/BooksApp.dart';
 import 'package:flutter_chatgpt_app/flutter_chatgpt_app/pages/ChatGptApp.dart';
+import 'package:flutter_weather/flutter_weather/pages/FlutterWeatherApp.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:flutter/material.dart';
 
@@ -87,6 +94,62 @@ class FlutterAppsHomeController extends CommonGetXController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: '一款天气APP',
+          description: '',
+          date: '2022年10月2日',
+          tags: ['天气'],
+          app: const FlutterWeatherApp(),
+          author: 'MasteerRui - Github',
+          url: 'https://github.com/MasteerRui/WeatherApp-Flutter'),
+      InterestingUIModel(
+          title: '一款计划｜待办事项的UI模板APP',
+          description: '',
+          date: '2022年10月2日',
+          tags: ['待办事项'],
+          app: const ToDoApp(),
+          author: '??? - Github',
+          url: ''),
+      InterestingUIModel(
+          title: '一款元素周期表及元素3D模型的APP',
+          description: '',
+          date: '2022年10月2日',
+          tags: ['3D'],
+          app: const PeriodicTableApp(),
+          author: 'berkayceylan - Github',
+          url: 'https://github.com/berkayceylan/periodic_table_flutter'),
+      InterestingUIModel(
+          title: '一个在线售卖门票的APP - api已不可用',
+          description: '',
+          date: '2022年10月2日',
+          tags: ['门票'],
+          app: const PaytabsTicketsApp(),
+          author: 'paytabscom - Github',
+          url: 'https://github.com/paytabscom/paytabs-tickets-demo-flutter'),
+      InterestingUIModel(
+          title: '一个壁纸的APP',
+          description: '',
+          date: '2022年10月2日',
+          tags: ['壁纸'],
+          app: const OorbsWallpaperApp(),
+          author: 'barandenizdogan - Github',
+          url: 'https://github.com/barandenizdogan/OORBSWALLPAPER'),
+      InterestingUIModel(
+          title: '一个个人博客类UI的 WEB & APP',
+          description: '',
+          date: '2022年10月2日',
+          tags: ['博客'],
+          app: const FlutterNimbusApp(),
+          author: 'david-legend - Github',
+          url: 'https://github.com/david-legend/nimbus'),
+      InterestingUIModel(
+          title: '一个通过手机记录学生的出勤情况，并生成文本或图像形式的报告的APP',
+          description: '',
+          date: '2022年10月2日',
+          tags: ['手机记录'],
+          app: const MuetAttendanceTakingApp(),
+          author: 'rashidwassan - Github',
+          url: 'https://github.com/rashidwassan/muet-attendance-taking-app'),
       InterestingUIModel(
           title: '一个免费的 Flutter 电子商务应用程序入门模板',
           description: '',

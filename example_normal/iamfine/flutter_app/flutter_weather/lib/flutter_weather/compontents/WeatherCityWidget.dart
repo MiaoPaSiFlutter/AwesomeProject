@@ -3,7 +3,11 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_weather/flutter_weather.dart';
+import '../extensions/extensions_index.dart';
+import '../models/models_index.dart';
+import '../pages/homepage.dart';
+import '../pages/listpage.dart';
+import '../tools/utils.dart';
 
 class WeatherCityWidget extends StatelessWidget {
   WeatherCityWidget({

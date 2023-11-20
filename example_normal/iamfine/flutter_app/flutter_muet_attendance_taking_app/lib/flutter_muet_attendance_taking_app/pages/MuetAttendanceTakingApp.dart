@@ -7,15 +7,35 @@ import 'package:flutter_muet_attendance_taking_app/flutter_muet_attendance_takin
 
 import 'attendance_app.dart';
 
-class MuetAttendanceTakingApp extends StatefulWidget {
+class MuetAttendanceTakingApp
+    extends GetView<MuetAttendanceTakingAppController> {
   const MuetAttendanceTakingApp({super.key});
 
   @override
-  State<MuetAttendanceTakingApp> createState() =>
-      _MuetAttendanceTakingAppState();
+  MuetAttendanceTakingAppController get controller =>
+      Get.put(MuetAttendanceTakingAppController());
+
+  @override
+  Widget build(BuildContext context) {
+    return MyApp();
+  }
 }
 
-class _MuetAttendanceTakingAppState extends State<MuetAttendanceTakingApp> {
+class MuetAttendanceTakingAppController extends GetxController {
+  MuetAttendanceTakingAppController();
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+}
+
+class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
   bool _isInit = false;
 
   @override
