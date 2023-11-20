@@ -1,0 +1,33 @@
+name: ui_facebook_app
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "http"
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../packages/hzy_common_module/
+  badges: 3.1.2
+  # youtube_player_flutter: ^8.0.0
+  # youtube_player_iframe: ^2.1.0
+
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  assets:
+    - assets/images/
+    - assets/images/post/
+    - assets/images/product/
+    - assets/images/story/
+    - assets/images/user/
+  fonts:
+    - family: Klavika
+      fonts:
+        - asset: assets/fonts/klavika-bold.otf

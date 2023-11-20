@@ -1,7 +1,16 @@
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:flutter/material.dart';
+import 'package:ui_blogclub_app/ui_blogclub_app/pages/UIBlogClubApp.dart';
 import 'package:ui_coffe_app/ui_coffe_app/pages/UICoffeApp.dart';
+import 'package:ui_facebook_app/ui_facebook_app/pages/UIFacebookApp.dart';
+import 'package:ui_fd_daily_task_app/ui_fd_daily_task_app/pages/UIFDDailyTaskApp.dart';
+import 'package:ui_fd_project_management_app/ui_fd_project_management_app/pages/UIFDProjectManagementApp.dart';
 import 'package:ui_food_app/ui_food_app/pages/UIFoodApp.dart';
+import 'package:ui_foodybite_app/ui_foodybite_app/pages/UIFoodybiteApp.dart';
+import 'package:ui_instagram_app/ui_instagram_app/pages/UIInstagramApp.dart';
+import 'package:ui_motion_animations_reply_app/ui_motion_animations_reply_app/pages/UIMotionAnimationsReplyApp.dart';
+import 'package:ui_pay_now_ewallet_app/ui_pay_now_ewallet_app/pages/UIPayNowEWalletApp.dart';
+import 'package:ui_smart_home_app/ui_smart_home_app/pages/src/UISmartHomeApp.dart';
 import 'package:ui_tesla_app/ui_tesla_app/pages/UITeslaApp.dart';
 import '../../../compontents/interesting_ui_widget.dart';
 import '../../../models/interesting_ui_model.dart';
@@ -81,6 +90,80 @@ class FlutterUIHomeController extends CommonGetXController {
   getData() {
     uiModels.assignAll([
       InterestingUIModel(
+          title: '一款智能家具应用的UI模板APP',
+          description: '',
+          date: '2022年3月12日',
+          tags: ['智能家具'],
+          app: UISmartHomeApp(),
+          author: 'zillur07 - Github',
+          url: 'https://github.com/zillur07/Flutter-Smart-Home-App'),
+
+      InterestingUIModel(
+          title: '一款收付款和记账本的UI模板APP',
+          description: '',
+          date: '2022年3月12日',
+          tags: ['收付款', '记账本'],
+          app: UIPayNowEWalletApp(),
+          author: '0xayman - Github',
+          url: 'https://github.com/0xayman/Pay-Now-E-Wallet-App'),
+      InterestingUIModel(
+          title: '一个包含动画，收藏，删除和切换主题等功能UI的邮件类APP',
+          description: '',
+          date: '2022年4月24日',
+          tags: ['邮件', '动画', '切换主题'],
+          app: const UIMotionAnimationsReplyApp(),
+          author: 'gokhankar - Github',
+          url: 'https://github.com/gokhankar/flutter_motion_animations_reply'),
+      InterestingUIModel(
+          title: '一个仿 Instagram UI 的APP',
+          description: '',
+          date: '2022年11月6日',
+          tags: ['Instagram'],
+          app: const UIInstagramApp(),
+          author: 'anasfik - Github',
+          url: 'https://github.com/anasfik/instagram_ui_redesign'),
+      InterestingUIModel(
+          title: '一个美食评价打分的APP',
+          description: '',
+          date: '2022年3月12日',
+          tags: ['自适应'],
+          app: const UIFoodybiteApp(),
+          author: 'david-legend - Github',
+          url: 'https://github.com/david-legend/foodybite'),
+      InterestingUIModel(
+          title: '一个基于GetX的Dashboard纯UI界面自适应手机、平板、web的模板APP',
+          description: '',
+          date: '2022年3月12日',
+          tags: ['自适应'],
+          app: const UIFDProjectManagementApp(),
+          author: 'firgia - Github',
+          url: 'https://github.com/firgia/FD-Project-Management'),
+      InterestingUIModel(
+          title: '一个响应式仪表板日常任务展示',
+          description: '',
+          date: '2021年12月5日',
+          tags: ['自适应'],
+          app: const UIFDDailyTaskApp(),
+          author: 'firgia - Github',
+          url: 'https://github.com/firgia/FD-Daily-Task'),
+      InterestingUIModel(
+          title: '一个仿 Facebook UI 的APP',
+          description: '',
+          date: '2022年6月10日',
+          tags: ['Facebook'],
+          app: const UIFacebookApp(),
+          author: 'Mhassanbughio - Github',
+          url: 'https://github.com/Mhassanbughio/Facbook_UI_Flutter'),
+      InterestingUIModel(
+          title: '一个博客论坛的APP',
+          description: '',
+          date: '2022年6月10日',
+          tags: ['Blog'],
+          app: const UIBlogClubApp(),
+          author: 'hojat2079 - Github',
+          url:
+              'https://github.com/hojat2079/FlutterUiSample/tree/main/01-BlogClub'),
+      InterestingUIModel(
           title: '一个食品应用程序概念动画',
           description: '',
           date: '2023年3月20日',
@@ -113,88 +196,7 @@ class FlutterUIHomeController extends CommonGetXController {
       //     app: ValorantInfoAppUI(),
       //     author: 'ZahaanMahajan - Github',
       //     url: 'https://github.com/ZahaanMahajan/Valorant-Info'),
-      // InterestingUIModel(
-      //     title: '一款收付款和记账本的UI模板APP',
-      //     description: '',
-      //     date: '2022年3月12日',
-      //     tags: ['收付款', '记账本'],
-      //     gifOrPictures: ['screenshots/PayNowEWalletAppUI.gif'],
-      //     app: PayNowEWalletAppUI(),
-      //     author: '0xayman - Github',
-      //     url: 'https://github.com/0xayman/Pay-Now-E-Wallet-App'),
-      // InterestingUIModel(
-      //     title: '一款智能家具应用的UI模板APP',
-      //     description: '',
-      //     date: '2022年3月12日',
-      //     tags: ['智能家具'],
-      //     gifOrPictures: ['screenshots/SmartHomeAppUI.gif'],
-      //     app: SmartHomeAppUI(),
-      //     author: 'zillur07 - Github',
-      //     url: 'https://github.com/zillur07/Flutter-Smart-Home-App'),
-      // InterestingUIModel(
-      //     title: '一个美食评价打分的APP',
-      //     description: '',
-      //     date: '2022年3月12日',
-      //     tags: ['自适应'],
-      //     gifOrPictures: ['screenshots/FoodybiteAppUI.gif'],
-      //     app: const FoodybiteAppUI(),
-      //     author: 'david-legend - Github',
-      //     url: 'https://github.com/david-legend/foodybite'),
-      // InterestingUIModel(
-      //     title: '一个基于GetX的Dashboard纯UI界面自适应手机、平板、web的模板APP',
-      //     description: '',
-      //     date: '2022年3月12日',
-      //     tags: ['自适应'],
-      //     gifOrPictures: ['screenshots/FDManagementUI.gif'],
-      //     app: const FDManagementUI(),
-      //     author: 'firgia - Github',
-      //     url: 'https://github.com/firgia/FD-Project-Management'),
-      // InterestingUIModel(
-      //     title: '一个包含动画，收藏，删除和切换主题等功能UI的邮件类APP',
-      //     description: '',
-      //     date: '2022年4月24日',
-      //     tags: ['动画', '切换主题'],
-      //     gifOrPictures: ['screenshots/MotionAnimationsReplyUI.gif'],
-      //     app: const MotionAnimationsReplyUI(),
-      //     author: 'gokhankar - Github',
-      //     url: 'https://github.com/gokhankar/flutter_motion_animations_reply'),
-      // InterestingUIModel(
-      //     title: '一个基于GetX的Dashboard纯UI界面自适应手机、平板、web的模板APP',
-      //     description: '',
-      //     date: '2021年12月5日',
-      //     tags: ['自适应'],
-      //     gifOrPictures: ['screenshots/FDDailyTaskAppUI.gif'],
-      //     app: const FDDailyTaskAppUI(),
-      //     author: 'firgia - Github',
-      //     url: 'https://github.com/firgia/FD-Daily-Task'),
-      // InterestingUIModel(
-      //     title: '一个博客论坛的APP',
-      //     description: '',
-      //     date: '2022年6月10日',
-      //     tags: ['Instagram'],
-      //     gifOrPictures: ['screenshots/BlogClubAppUI.gif'],
-      //     app: const BlogClubAppUI(),
-      //     author: 'hojat2079 - Github',
-      //     url:
-      //         'https://github.com/hojat2079/FlutterUiSample/tree/main/01-BlogClub'),
-      // InterestingUIModel(
-      //     title: '一个仿 Facebook UI 的APP',
-      //     description: '',
-      //     date: '2022年6月10日',
-      //     tags: ['Instagram'],
-      //     gifOrPictures: ['screenshots/FacebookUIRedesignUI.gif'],
-      //     app: const FacebookUIRedesignUI(),
-      //     author: 'Mhassanbughio - Github',
-      //     url: 'https://github.com/Mhassanbughio/Facbook_UI_Flutter'),
-      // InterestingUIModel(
-      //     title: '一个仿 Instagram UI 的APP',
-      //     description: '',
-      //     date: '2022年11月6日',
-      //     tags: ['Instagram'],
-      //     gifOrPictures: ['screenshots/InstagramUIRedesignUI.gif'],
-      //     app: const InstagramUIRedesignUI(),
-      //     author: 'anasfik - Github',
-      //     url: 'https://github.com/anasfik/instagram_ui_redesign'),
+
       // InterestingUIModel(
       //     title: '一个在线订票的APP',
       //     description: '',

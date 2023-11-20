@@ -974,6 +974,14 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  flutter_gallery_assets:
+    dependency: transitive
+    description:
+      name: flutter_gallery_assets
+      sha256: f8fecfeebcfbe80a2fabc00c0834046890abe681f59d3e2c5b1028faf887d94b
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.2"
   flutter_heatmap_calendar:
     dependency: transitive
     description:
@@ -1199,6 +1207,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.0"
+  flutter_valorant_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_app/flutter_valorant_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   flutter_weather:
     dependency: "direct main"
     description:
@@ -2677,6 +2692,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.3.2"
+  ui_blogclub_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_blogclub_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   ui_coffe_app:
     dependency: "direct main"
     description:
@@ -2684,10 +2706,66 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  ui_facebook_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_facebook_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_fd_daily_task_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_fd_daily_task_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_fd_project_management_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_fd_project_management_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   ui_food_app:
     dependency: "direct main"
     description:
       path: "iamfine/flutter_ui/ui_food_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_foodybite_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_foodybite_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_instagram_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_instagram_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_motion_animations_reply_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_motion_animations_reply_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_pay_now_ewallet_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_pay_now_ewallet_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_smart_home_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_smart_home_app"
       relative: true
     source: path
     version: "0.0.1"

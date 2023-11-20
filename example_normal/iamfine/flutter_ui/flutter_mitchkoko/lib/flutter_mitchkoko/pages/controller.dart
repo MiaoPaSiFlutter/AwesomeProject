@@ -12,27 +12,20 @@ import 'DonutAppUI/DonutAppUI.dart';
 import 'ECommerceComplateAppUI/ECommerceComplateAppUI.dart';
 import 'ECommerceMobileAppUI/ECommerceMobileAppUI.dart';
 import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
-import 'FDDailyTaskAppUI/FDDailyTaskAppUI.dart';
-import 'FDManagementUI/FDManagementUI.dart';
-import 'FacebookUIRedesignUI/FacebookUIRedesignUI.dart';
-import 'FoodybiteAppUI/main.dart';
+
 import 'GoplanAppUI/GoplanAppUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
-import 'InstagramUIRedesignUI/InstagramUIRedesignUI.dart';
 import 'MathGameUI/MathGameUI.dart';
 import 'MeditationAppUI/MeditationAppUI.dart';
 import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
-import 'MotionAnimationsReplyUI/MotionAnimationsReplyUI.dart';
 import 'MusicplayerUI/MusicplayerUI.dart';
 import 'NFTappuiUI/NFTappuiUI.dart';
 import 'OnlineShoppingAppUI/OnlineShoppingAppUI.dart';
 import 'ParallaxEffectUI/ParallaxEffectUI.dart';
-import 'PayNowEWalletAppUI/PayNowEWalletAppUI.dart';
 import 'QuizAppUI/QuizAppUI.dart';
 import 'ResponsiveWelcomeLoginAndSignUpUI/ResponsiveWelcomeLoginAndSignUpUI.dart';
 import 'ShoeAppUI/ShoeAppUI.dart';
 import 'SmartHomeAnimatedAppUI/SmartHomeAnimatedAppUI.dart';
-import 'SmartHomeAppUI/src/SmartHomeAppUI.dart';
 import 'TaskManagementAppUI/TaskManagementAppUI.dart';
 import 'TicketBookingAppUI/TicketBookingAppUI.dart';
 import 'TiktokscrollUI/TiktokscrollUI.dart';
@@ -64,60 +57,7 @@ class MitchkokoHomeController extends GetxController {
           app: ValorantInfoAppUI(),
           author: 'ZahaanMahajan - Github',
           url: 'https://github.com/ZahaanMahajan/Valorant-Info'),
-      InterestingUIModel(
-          title: '一款收付款和记账本的UI模板APP',
-          description: '',
-          date: '2022年3月12日',
-          tags: ['收付款', '记账本'],
-          gifOrPictures: ['screenshots/PayNowEWalletAppUI.gif'],
-          app: PayNowEWalletAppUI(),
-          author: '0xayman - Github',
-          url: 'https://github.com/0xayman/Pay-Now-E-Wallet-App'),
-      InterestingUIModel(
-          title: '一款智能家具应用的UI模板APP',
-          description: '',
-          date: '2022年3月12日',
-          tags: ['智能家具'],
-          gifOrPictures: ['screenshots/SmartHomeAppUI.gif'],
-          app: SmartHomeAppUI(),
-          author: 'zillur07 - Github',
-          url: 'https://github.com/zillur07/Flutter-Smart-Home-App'),
-      InterestingUIModel(
-          title: '一个美食评价打分的APP',
-          description: '',
-          date: '2022年3月12日',
-          tags: ['自适应'],
-          gifOrPictures: ['screenshots/FoodybiteAppUI.gif'],
-          app: const FoodybiteAppUI(),
-          author: 'david-legend - Github',
-          url: 'https://github.com/david-legend/foodybite'),
-      InterestingUIModel(
-          title: '一个基于GetX的Dashboard纯UI界面自适应手机、平板、web的模板APP',
-          description: '',
-          date: '2022年3月12日',
-          tags: ['自适应'],
-          gifOrPictures: ['screenshots/FDManagementUI.gif'],
-          app: const FDManagementUI(),
-          author: 'firgia - Github',
-          url: 'https://github.com/firgia/FD-Project-Management'),
-      InterestingUIModel(
-          title: '一个包含动画，收藏，删除和切换主题等功能UI的邮件类APP',
-          description: '',
-          date: '2022年4月24日',
-          tags: ['动画', '切换主题'],
-          gifOrPictures: ['screenshots/MotionAnimationsReplyUI.gif'],
-          app: const MotionAnimationsReplyUI(),
-          author: 'gokhankar - Github',
-          url: 'https://github.com/gokhankar/flutter_motion_animations_reply'),
-      InterestingUIModel(
-          title: '一个基于GetX的Dashboard纯UI界面自适应手机、平板、web的模板APP',
-          description: '',
-          date: '2021年12月5日',
-          tags: ['自适应'],
-          gifOrPictures: ['screenshots/FDDailyTaskAppUI.gif'],
-          app: const FDDailyTaskAppUI(),
-          author: 'firgia - Github',
-          url: 'https://github.com/firgia/FD-Daily-Task'),
+
       InterestingUIModel(
           title: '一个博客论坛的APP',
           description: '',
@@ -128,24 +68,6 @@ class MitchkokoHomeController extends GetxController {
           author: 'hojat2079 - Github',
           url:
               'https://github.com/hojat2079/FlutterUiSample/tree/main/01-BlogClub'),
-      InterestingUIModel(
-          title: '一个仿 Facebook UI 的APP',
-          description: '',
-          date: '2022年6月10日',
-          tags: ['Instagram'],
-          gifOrPictures: ['screenshots/FacebookUIRedesignUI.gif'],
-          app: const FacebookUIRedesignUI(),
-          author: 'Mhassanbughio - Github',
-          url: 'https://github.com/Mhassanbughio/Facbook_UI_Flutter'),
-      InterestingUIModel(
-          title: '一个仿 Instagram UI 的APP',
-          description: '',
-          date: '2022年11月6日',
-          tags: ['Instagram'],
-          gifOrPictures: ['screenshots/InstagramUIRedesignUI.gif'],
-          app: const InstagramUIRedesignUI(),
-          author: 'anasfik - Github',
-          url: 'https://github.com/anasfik/instagram_ui_redesign'),
       InterestingUIModel(
           title: '一个在线订票的APP',
           description: '',

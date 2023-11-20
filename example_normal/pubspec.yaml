@@ -40,6 +40,24 @@ dependencies:
     path: iamfine/flutter_ui/ui_food_app
   ui_tesla_app:
     path: iamfine/flutter_ui/ui_tesla_app
+  ui_blogclub_app:
+    path: iamfine/flutter_ui/ui_blogclub_app
+  ui_facebook_app:
+    path: iamfine/flutter_ui/ui_facebook_app
+  ui_fd_daily_task_app:
+    path: iamfine/flutter_ui/ui_fd_daily_task_app
+  ui_fd_project_management_app:
+    path: iamfine/flutter_ui/ui_fd_project_management_app
+  ui_foodybite_app:
+    path: iamfine/flutter_ui/ui_foodybite_app
+  ui_instagram_app:
+    path: iamfine/flutter_ui/ui_instagram_app
+  ui_motion_animations_reply_app:
+    path: iamfine/flutter_ui/ui_motion_animations_reply_app
+  ui_pay_now_ewallet_app:
+    path: iamfine/flutter_ui/ui_pay_now_ewallet_app
+  ui_smart_home_app:
+    path: iamfine/flutter_ui/ui_smart_home_app
 
   ####### app
   flutter_jd:
@@ -72,7 +90,8 @@ dependencies:
     path: iamfine/flutter_app/flutter_crypto_market_app
   flutter_chatgpt_app:
     path: iamfine/flutter_app/flutter_chatgpt_app
-
+  flutter_valorant_app:
+    path: iamfine/flutter_app/flutter_valorant_app
   ##### test
   extended_sliver_demo:
     path: iamfine/flutter_test/extended_sliver_demo

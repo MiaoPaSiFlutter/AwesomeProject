@@ -1,0 +1,47 @@
+name: ui_foodybite_app
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "http"
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../packages/hzy_common_module/
+
+  carousel_slider: 4.2.1
+  flutter_svg: 2.0.8
+  google_fonts: 5.1.0
+  auto_route: 7.8.4
+  animations: 2.0.8
+  flutter_rating_bar: 4.0.1
+  flutter_feather_icons: 2.0.0+1
+
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  assets:
+    - assets/images/
+    - assets/images/2.0x/
+    - assets/images/3.0x/
+    - assets/launcher/
+  fonts:
+    - family: Josefin Sans
+      fonts:
+        - asset: assets/fonts/.15623.otf
+          weight: 700
+        - asset: assets/fonts/.15627.otf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/.15510.otf
+        - asset: assets/fonts/.15498.otf
+          weight: 700
+    - family: .AppleSystemUIFont
+      fonts:
+        - asset: assets/fonts/SFNS.ttf

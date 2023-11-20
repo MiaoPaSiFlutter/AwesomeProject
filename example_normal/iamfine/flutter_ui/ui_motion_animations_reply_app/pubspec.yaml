@@ -1,0 +1,26 @@
+name: ui_motion_animations_reply_app
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "http"
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../packages/hzy_common_module/
+
+  animations: 2.0.8
+  google_fonts: 5.1.0
+  flutter_gallery_assets: 1.0.2
+
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  assets:
+    - assets/images/

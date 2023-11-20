@@ -1,0 +1,43 @@
+name: ui_blogclub_app
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "http"
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../packages/hzy_common_module/
+  dotted_border: 2.1.0
+  flutter_svg: 2.0.8
+  smooth_page_indicator: 1.1.0
+  flutter_cache_manager: 3.3.1
+  video_player: 2.7.0
+  rxdart: 0.27.7
+
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  assets:
+    - assets/img/icons/
+    - assets/img/posts/large/
+    - assets/img/posts/small/
+    - assets/img/stories/
+    - assets/img/background/
+    - assets/img/
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/AvenirLTProBook.otf
+          weight: 200
+        - asset: assets/fonts/AvenirLTProRoman.otf
+          weight: 300
+        - asset: assets/fonts/AvenirLTProMedium.otf
+          weight: 400
+        - asset: assets/fonts/AvenirLTProHeavy.otf
