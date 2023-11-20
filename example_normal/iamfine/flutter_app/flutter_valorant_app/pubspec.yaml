@@ -10,6 +10,15 @@ dependencies:
   # 通用
   hzy_common_module:
     path: ../../packages/hzy_common_module/
+
+  cached_network_image: 3.3.0
+  google_fonts: 5.1.0
+  # 修改 dio_http_cache_lts 中的 dio版本
+  dio_http_cache_lts:
+    git:
+      url: https://github.com/MiaoPaSiFlutter/dio_http_cache_lts.git
+      ref: yh_dio_http_cache_lts
+
   flutter:
     sdk: flutter
 dev_dependencies:
@@ -18,4 +27,8 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 flutter:
   assets:
-    - assets/images/
+    - assets/
+  fonts:
+    - family: Valorant
+      fonts:
+        - asset: assets/fonts/Valorant Font.ttf

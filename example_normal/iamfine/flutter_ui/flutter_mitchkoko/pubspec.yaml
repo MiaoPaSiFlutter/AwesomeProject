@@ -107,9 +107,7 @@ dev_dependencies:
 
 flutter:
   assets:
-    - assets/ModernSmartHomeUI/images/
     - assets/EmailLoginLogoutUI/images/
-    - assets/DonutAppUI/images/
     - assets/CompassUI/images/
     - assets/NFTappuiUI/images/
     - assets/MusicplayerUI/images/
@@ -124,15 +122,9 @@ flutter:
     - assets/ShoeAppUI/anims/
     - assets/ShoeAppUI/icons/
     - assets/ShoeAppUI/images/
-    - assets/ValorantInfoAppUI/
     - assets/screenshots/
 
   fonts:
-    ### ValorantInfoAppUI
-    - family: Valorant
-      fonts:
-        - asset: assets/ValorantInfoAppUI/fonts/Valorant Font.ttf
-
     ### MeditationAppUI
     - family: Cairo
       fonts:

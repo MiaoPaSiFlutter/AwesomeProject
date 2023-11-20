@@ -3,7 +3,6 @@ import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
 import 'CompassUI/CompassUI.dart';
-import 'DonutAppUI/DonutAppUI.dart';
 import 'ECommerceComplateAppUI/ECommerceComplateAppUI.dart';
 import 'ECommerceMobileAppUI/ECommerceMobileAppUI.dart';
 import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
@@ -11,14 +10,12 @@ import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
 import 'MathGameUI/MathGameUI.dart';
 import 'MeditationAppUI/MeditationAppUI.dart';
-import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
 import 'MusicplayerUI/MusicplayerUI.dart';
 import 'NFTappuiUI/NFTappuiUI.dart';
 import 'QuizAppUI/QuizAppUI.dart';
 import 'ResponsiveWelcomeLoginAndSignUpUI/ResponsiveWelcomeLoginAndSignUpUI.dart';
 import 'ShoeAppUI/ShoeAppUI.dart';
 import 'TiktokscrollUI/TiktokscrollUI.dart';
-import 'ValorantInfoAppUI/ValorantInfoAppUI.dart';
 import 'WheelscrollUI/WheelscrollUI.dart';
 
 class MitchkokoHomeController extends GetxController {
@@ -37,16 +34,6 @@ class MitchkokoHomeController extends GetxController {
 
   getData() {
     uiModels.assignAll([
-      InterestingUIModel(
-          title: '一款游戏《无畏契约》资料的UI模板APP',
-          description: '',
-          date: '2023年3月20日',
-          tags: ['游戏资料'],
-          gifOrPictures: ['screenshots/ValorantInfoAppUI.gif'],
-          app: ValorantInfoAppUI(),
-          author: 'ZahaanMahajan - Github',
-          url: 'https://github.com/ZahaanMahajan/Valorant-Info'),
-     
       InterestingUIModel(
           title: '一个购物类的APP',
           description: '',
@@ -76,15 +63,6 @@ class MitchkokoHomeController extends GetxController {
           author: 'The Flutter Way',
           url: 'https://www.youtube.com/watch?v=XBKzpTz65Io'),
       InterestingUIModel(
-          title: '现代智能家居 UI',
-          description: '',
-          date: '2022年11月10日',
-          tags: ['智能家居'],
-          gifOrPictures: ['screenshots/ModernSmartHomeUIApp.gif'],
-          app: const ModernSmartHomeUIApp(),
-          author: 'Mitch Koko',
-          url: 'https://youtu.be/FMV8pbz0sN8'),
-      InterestingUIModel(
           title: 'Google And Apple Login Page',
           description: '',
           date: '2022年12月12日',
@@ -93,15 +71,6 @@ class MitchkokoHomeController extends GetxController {
           app: const EmailLoginLogoutUI(),
           author: 'Mitch Koko',
           url: 'https://youtu.be/_3W-JuIVFlg'),
-      InterestingUIModel(
-          title: '甜甜圈应用程序用户界面',
-          description: '',
-          date: '2022年11月4日',
-          tags: ['甜甜圈应用'],
-          gifOrPictures: ['screenshots/DonutAppUI.gif'],
-          app: const DonutAppUI(),
-          author: 'Mitch Koko',
-          url: 'https://youtu.be/OmYL-VK75-o'),
       InterestingUIModel(
           title: '手机罗盘',
           description: '',
