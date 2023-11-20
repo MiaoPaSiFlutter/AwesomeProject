@@ -1,7 +1,11 @@
-part of dashboard;
+import 'package:flutter/material.dart';
 
-class _Header extends StatelessWidget {
-  const _Header({Key? key}) : super(key: key);
+import '../../../../constans/app_constants.dart';
+import '../../../../shared_components/search_field.dart';
+import '../../../../shared_components/today_text.dart';
+
+class Header extends StatelessWidget {
+  const Header({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

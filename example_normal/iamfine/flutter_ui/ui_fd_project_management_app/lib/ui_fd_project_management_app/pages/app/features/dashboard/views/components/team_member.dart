@@ -1,7 +1,10 @@
-part of dashboard;
+import 'package:eva_icons_flutter/eva_icons_flutter.dart';
+import 'package:flutter/material.dart';
 
-class _TeamMember extends StatelessWidget {
-  const _TeamMember({
+import '../../../../constans/app_constants.dart';
+
+class TeamMember extends StatelessWidget {
+  const TeamMember({
     required this.totalMember,
     required this.onPressedAdd,
     Key? key,

@@ -1,11 +1,15 @@
-part of dashboard;
+import 'package:eva_icons_flutter/eva_icons_flutter.dart';
+import 'package:flutter/material.dart';
 
-class _ProfilTile extends StatelessWidget {
-  const _ProfilTile(
+import '../../../../constans/app_constants.dart';
+import '../../models/profile.dart';
+
+class ProfilTile extends StatelessWidget {
+  const ProfilTile(
       {required this.data, required this.onPressedNotification, Key? key})
       : super(key: key);
 
-  final _Profile data;
+  final Profile data;
   final Function() onPressedNotification;
 
   @override

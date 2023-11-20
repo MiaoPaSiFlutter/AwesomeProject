@@ -1,4 +1,12 @@
-part of dashboard;
+import 'package:flutter/material.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
+
+import '../../../constans/app_constants.dart';
+import '../../../shared_components/chatting_card.dart';
+import '../../../shared_components/project_card.dart';
+import '../../../shared_components/task_card.dart';
+import '../../../utils/helpers/app_helpers.dart';
+import '../models/profile.dart';
 
 class DashboardController extends GetxController {
   final scaffoldKey = GlobalKey<ScaffoldState>();
@@ -10,8 +18,8 @@ class DashboardController extends GetxController {
   }
 
   // Data
-  _Profile getProfil() {
-    return _Profile(
+  Profile getProfil() {
+    return Profile(
       photo: AssetImage(ImageRasterPath.avatar1),
       name: "Firgia",
       email: "flutterwithgia@gmail.com",

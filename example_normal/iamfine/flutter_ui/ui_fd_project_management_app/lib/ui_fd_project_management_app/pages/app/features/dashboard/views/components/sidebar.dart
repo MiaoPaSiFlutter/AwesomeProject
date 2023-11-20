@@ -1,7 +1,15 @@
-part of dashboard;
+import 'dart:developer';
 
-class _Sidebar extends StatelessWidget {
-  const _Sidebar({
+import 'package:eva_icons_flutter/eva_icons_flutter.dart';
+import 'package:flutter/material.dart';
+
+import '../../../../constans/app_constants.dart';
+import '../../../../shared_components/project_card.dart';
+import '../../../../shared_components/selection_button.dart';
+import '../../../../shared_components/upgrade_premium_card.dart';
+
+class Sidebar extends StatelessWidget {
+  const Sidebar({
     required this.data,
     Key? key,
   }) : super(key: key);

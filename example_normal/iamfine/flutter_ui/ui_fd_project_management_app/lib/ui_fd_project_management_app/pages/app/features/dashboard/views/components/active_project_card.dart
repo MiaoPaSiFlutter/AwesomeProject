@@ -1,7 +1,9 @@
-part of dashboard;
+import 'package:flutter/material.dart';
 
-class _ActiveProjectCard extends StatelessWidget {
-  const _ActiveProjectCard({
+import '../../../../constans/app_constants.dart';
+
+class ActiveProjectCard extends StatelessWidget {
+  const ActiveProjectCard({
     required this.child,
     required this.onPressedSeeAll,
     Key? key,

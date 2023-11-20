@@ -1,6 +1,5 @@
 library dashboard;
 
-import 'dart:developer';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
@@ -14,30 +13,26 @@ import '../../../../shared_components/progress_card.dart';
 import '../../../../shared_components/progress_report_card.dart';
 import '../../../../shared_components/project_card.dart';
 import '../../../../shared_components/responsive_builder.dart';
-import '../../../../shared_components/search_field.dart';
-import '../../../../shared_components/selection_button.dart';
+
 import '../../../../shared_components/staggered_grid_view.dart';
 import '../../../../shared_components/task_card.dart';
-import '../../../../shared_components/today_text.dart';
-import '../../../../shared_components/upgrade_premium_card.dart';
-import '../../../../utils/helpers/app_helpers.dart';
+import '../../controllers/dashboard_controller.dart';
+import '../../models/profile.dart';
+import '../components/active_project_card.dart';
+import '../components/header.dart';
+import '../components/overview_header.dart';
+import '../components/profile_tile.dart';
+import '../components/recent_messages.dart';
+import '../components/sidebar.dart';
+import '../components/team_member.dart';
 
 // binding
 
 // controller
-part '../../controllers/dashboard_controller.dart';
 
 // models
-part '../../models/profile.dart';
 
 // component
-part '../components/active_project_card.dart';
-part '../components/header.dart';
-part '../components/overview_header.dart';
-part '../components/profile_tile.dart';
-part '../components/recent_messages.dart';
-part '../components/sidebar.dart';
-part '../components/team_member.dart';
 
 class DashboardScreen extends GetView<DashboardController> {
   const DashboardScreen({Key? key}) : super(key: key);
@@ -54,7 +49,7 @@ class DashboardScreen extends GetView<DashboardController> {
           : Drawer(
               child: Padding(
                 padding: const EdgeInsets.only(top: kSpacing),
-                child: _Sidebar(data: controller.getSelectedProject()),
+                child: Sidebar(data: controller.getSelectedProject()),
               ),
             ),
       body: SingleChildScrollView(
@@ -170,7 +165,7 @@ class DashboardScreen extends GetView<DashboardController> {
                       topRight: Radius.circular(kBorderRadius),
                       bottomRight: Radius.circular(kBorderRadius),
                     ),
-                    child: _Sidebar(data: controller.getSelectedProject())),
+                    child: Sidebar(data: controller.getSelectedProject())),
               ),
               Flexible(
                 flex: 9,
@@ -238,7 +233,7 @@ class DashboardScreen extends GetView<DashboardController> {
                 tooltip: "menu",
               ),
             ),
-          const Expanded(child: _Header()),
+          const Expanded(child: Header()),
         ],
       ),
     );
@@ -316,7 +311,7 @@ class DashboardScreen extends GetView<DashboardController> {
         return (index == 0)
             ? Padding(
                 padding: const EdgeInsets.only(bottom: kSpacing),
-                child: _OverviewHeader(
+                child: OverviewHeader(
                   axis: headerAxis,
                   onSelected: (task) {},
                 ),
@@ -341,7 +336,7 @@ class DashboardScreen extends GetView<DashboardController> {
   }) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: kSpacing),
-      child: _ActiveProjectCard(
+      child: ActiveProjectCard(
         onPressedSeeAll: () {},
         child: StaggeredGridView.countBuilder(
           physics: const NeverScrollableScrollPhysics(),
@@ -361,10 +356,10 @@ class DashboardScreen extends GetView<DashboardController> {
     );
   }
 
-  Widget _buildProfile({required _Profile data}) {
+  Widget _buildProfile({required Profile data}) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: kSpacing),
-      child: _ProfilTile(
+      child: ProfilTile(
         data: data,
         onPressedNotification: () {},
       ),
@@ -377,7 +372,7 @@ class DashboardScreen extends GetView<DashboardController> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          _TeamMember(
+          TeamMember(
             totalMember: data.length,
             onPressedAdd: () {},
           ),
@@ -392,7 +387,7 @@ class DashboardScreen extends GetView<DashboardController> {
     return Column(children: [
       Padding(
         padding: const EdgeInsets.symmetric(horizontal: kSpacing),
-        child: _RecentMessages(onPressedMore: () {}),
+        child: RecentMessages(onPressedMore: () {}),
       ),
       const SizedBox(height: kSpacing / 2),
       ...data
