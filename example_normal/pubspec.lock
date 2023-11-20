@@ -2692,6 +2692,20 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.3.2"
+  ui_animated_rive_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_animated_rive_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_animated_travel_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_animated_travel_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   ui_blogclub_app:
     dependency: "direct main"
     description:
@@ -2699,10 +2713,31 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  ui_chat_message_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_chat_message_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_clock_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_clock_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   ui_coffe_app:
     dependency: "direct main"
     description:
       path: "iamfine/flutter_ui/ui_coffe_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_ecommerce_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_ecommerce_app"
       relative: true
     source: path
     version: "0.0.1"
@@ -2741,6 +2776,13 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  ui_goplan_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_goplan_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   ui_instagram_app:
     dependency: "direct main"
     description:
@@ -2755,10 +2797,31 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  ui_online_shopping_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_online_shopping_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_parallax_effect_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_parallax_effect_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   ui_pay_now_ewallet_app:
     dependency: "direct main"
     description:
       path: "iamfine/flutter_ui/ui_pay_now_ewallet_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_smart_home_animated_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_smart_home_animated_app"
       relative: true
     source: path
     version: "0.0.1"
@@ -2769,10 +2832,24 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  ui_task_management_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_task_management_app"
+      relative: true
+    source: path
+    version: "0.0.1"
   ui_tesla_app:
     dependency: "direct main"
     description:
       path: "iamfine/flutter_ui/ui_tesla_app"
+      relative: true
+    source: path
+    version: "0.0.1"
+  ui_ticket_booking_app:
+    dependency: "direct main"
+    description:
+      path: "iamfine/flutter_ui/ui_ticket_booking_app"
       relative: true
     source: path
     version: "0.0.1"

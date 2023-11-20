@@ -2,32 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 
-import 'AnalogClockLightDarkThemeUI/AnalogClockLightDarkThemeUI.dart';
-import 'AnimatedAppWithRiveUI/AnimatedAppWithRiveUI.dart';
-import 'AnimatedTravelAppUI/AnimatedTravelAppUI.dart';
-import 'BlogClubAppUI/BlogClubAppUI.dart';
-import 'ChatMessageAppUI/ChatMessageAppUI.dart';
 import 'CompassUI/CompassUI.dart';
 import 'DonutAppUI/DonutAppUI.dart';
 import 'ECommerceComplateAppUI/ECommerceComplateAppUI.dart';
 import 'ECommerceMobileAppUI/ECommerceMobileAppUI.dart';
 import 'EmailLoginLogoutUI/EmailLoginLogoutUI.dart';
 
-import 'GoplanAppUI/GoplanAppUI.dart';
 import 'HabitTrackerUI/HabitTrackerUI.dart';
 import 'MathGameUI/MathGameUI.dart';
 import 'MeditationAppUI/MeditationAppUI.dart';
 import 'ModernSmartHomeUI/ModernSmartHomeUIApp.dart';
 import 'MusicplayerUI/MusicplayerUI.dart';
 import 'NFTappuiUI/NFTappuiUI.dart';
-import 'OnlineShoppingAppUI/OnlineShoppingAppUI.dart';
-import 'ParallaxEffectUI/ParallaxEffectUI.dart';
 import 'QuizAppUI/QuizAppUI.dart';
 import 'ResponsiveWelcomeLoginAndSignUpUI/ResponsiveWelcomeLoginAndSignUpUI.dart';
 import 'ShoeAppUI/ShoeAppUI.dart';
-import 'SmartHomeAnimatedAppUI/SmartHomeAnimatedAppUI.dart';
-import 'TaskManagementAppUI/TaskManagementAppUI.dart';
-import 'TicketBookingAppUI/TicketBookingAppUI.dart';
 import 'TiktokscrollUI/TiktokscrollUI.dart';
 import 'ValorantInfoAppUI/ValorantInfoAppUI.dart';
 import 'WheelscrollUI/WheelscrollUI.dart';
@@ -57,53 +46,7 @@ class MitchkokoHomeController extends GetxController {
           app: ValorantInfoAppUI(),
           author: 'ZahaanMahajan - Github',
           url: 'https://github.com/ZahaanMahajan/Valorant-Info'),
-
-      InterestingUIModel(
-          title: '一个博客论坛的APP',
-          description: '',
-          date: '2022年6月10日',
-          tags: ['Instagram'],
-          gifOrPictures: ['screenshots/BlogClubAppUI.gif'],
-          app: const BlogClubAppUI(),
-          author: 'hojat2079 - Github',
-          url:
-              'https://github.com/hojat2079/FlutterUiSample/tree/main/01-BlogClub'),
-      InterestingUIModel(
-          title: '一个在线订票的APP',
-          description: '',
-          date: '2022年12月29日',
-          tags: ['订票'],
-          gifOrPictures: ['screenshots/TicketBookingAppUI.gif'],
-          app: const TicketBookingAppUI(),
-          author: 'theMistDev - Github',
-          url: 'https://github.com/theMistDev/ticket-booking-app'),
-      InterestingUIModel(
-          title: '一个日常费用和财务管理的APP',
-          description: '',
-          date: '2022年1月25日',
-          tags: ['财务管理'],
-          gifOrPictures: ['screenshots/TaskManagementAppUI.gif'],
-          app: const TaskManagementAppUI(),
-          author: 'MuriithiEric - Github',
-          url: 'https://github.com/MuriithiEric/task_management.git'),
-      InterestingUIModel(
-          title: '一个商城购物APP',
-          description: '',
-          date: '2022年10月30日',
-          tags: ['商城'],
-          gifOrPictures: ['screenshots/OnlineShoppingAppUI.gif'],
-          app: const OnlineShoppingAppUI(),
-          author: 'Mansurisodev - Github',
-          url: 'https://github.com/Mansurisodev/online_shopping'),
-      InterestingUIModel(
-          title: '一个旅行类的APP',
-          description: '',
-          date: '2022年11月16日',
-          tags: ['购物'],
-          gifOrPictures: ['screenshots/AnimatedTravelAppUI.gif'],
-          app: const AnimatedTravelAppUI(),
-          author: 'Hmida71 - Github',
-          url: 'https://github.com/Hmida71/Animated-Travel-App-ui'),
+     
       InterestingUIModel(
           title: '一个购物类的APP',
           description: '',
@@ -113,43 +56,6 @@ class MitchkokoHomeController extends GetxController {
           app: const ShoeAppUI(),
           author: 'rashidwassan - Github',
           url: 'https://github.com/rashidwassan/flutter-ecommerce-app-ui'),
-      InterestingUIModel(
-          title: '一个基于GetX的登录｜注册｜忘记密码等基础界面的模板APP',
-          description: '',
-          date: '2022年6月10日',
-          tags: ['登录', '注册', '忘记密码'],
-          gifOrPictures: ['screenshots/GoplanAppUI.gif'],
-          app: GoplanAppUI(),
-          author: 'manushi7 - Github',
-          url: 'https://github.com/manushi7/goplan-flutter'),
-      InterestingUIModel(
-          title: '一个在线聊天简单UI的APP',
-          description: '',
-          date: '2022年8月12日',
-          tags: ['聊天', '主题'],
-          gifOrPictures: ['screenshots/ChatMessageAppUI.gif'],
-          app: const ChatMessageAppUI(),
-          author: 'swenes - Github',
-          url: 'https://github.com/swenes/chat_message_app_FLUTTER'),
-      InterestingUIModel(
-          title: '使用 Rive 和 Flutter 的动画应用程序',
-          description: '使用 Rive 和 Flutter 的动画应用程序.',
-          date: '2022年12月20日',
-          tags: ['动画', 'Rive'],
-          gifOrPictures: ['screenshots/AnimatedAppWithRiveUI.gif'],
-          app: const AnimatedAppWithRiveUI(),
-          author: 'The Flutter Way',
-          url: 'https://www.youtube.com/watch?v=Td3xEWwRAQA'),
-      InterestingUIModel(
-          title: '模拟时钟明暗主题',
-          description:
-              'We design a nice clean analog clock app UI by using flutter. Our clock supports both the Dark and Light theme. If you want to learn how to use both Light and Dark theme then it helps a lot.',
-          date: '2020年8月28日',
-          tags: ['明暗主题', '时钟'],
-          gifOrPictures: ['screenshots/AnalogClockLightDarkThemeUI.gif'],
-          app: const AnalogClockLightDarkThemeUI(),
-          author: 'The Flutter Way',
-          url: 'https://www.youtube.com/watch?v=u6Cfzng3Gek'),
       InterestingUIModel(
           title: '漂亮、干净的在线商店应用程序 UI',
           description: '',
@@ -169,24 +75,6 @@ class MitchkokoHomeController extends GetxController {
           app: ECommerceMobileAppUI(),
           author: 'The Flutter Way',
           url: 'https://www.youtube.com/watch?v=XBKzpTz65Io'),
-      InterestingUIModel(
-          title: '视差滚动效果预览',
-          description: '',
-          date: '2023年10月13日',
-          tags: ['视差滚动效果'],
-          gifOrPictures: ['screenshots/ParallaxEffectUI.gif'],
-          app: const ParallaxEffectUI(),
-          author: 'The Flutter Way',
-          url: 'https://www.youtube.com/watch?v=v_ozYdwKdaU'),
-      InterestingUIModel(
-          title: '智能家居动画应用程序',
-          description: '',
-          date: '2023年10月22日',
-          tags: ['智能家居'],
-          gifOrPictures: ['screenshots/SmartHomeAnimatedAppUI.gif'],
-          app: const SmartHomeAnimatedAppUI(),
-          author: 'The Flutter Way',
-          url: 'https://www.youtube.com/watch?v=7l-0x1Y7d1M'),
       InterestingUIModel(
           title: '现代智能家居 UI',
           description: '',

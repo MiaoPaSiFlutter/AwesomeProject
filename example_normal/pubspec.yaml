@@ -58,6 +58,28 @@ dependencies:
     path: iamfine/flutter_ui/ui_pay_now_ewallet_app
   ui_smart_home_app:
     path: iamfine/flutter_ui/ui_smart_home_app
+  ui_animated_rive_app:
+    path: iamfine/flutter_ui/ui_animated_rive_app
+  ui_animated_travel_app:
+    path: iamfine/flutter_ui/ui_animated_travel_app
+  ui_chat_message_app:
+    path: iamfine/flutter_ui/ui_chat_message_app
+  ui_clock_app:
+    path: iamfine/flutter_ui/ui_clock_app
+  ui_ecommerce_app:
+    path: iamfine/flutter_ui/ui_ecommerce_app
+  ui_goplan_app:
+    path: iamfine/flutter_ui/ui_goplan_app
+  ui_online_shopping_app:
+    path: iamfine/flutter_ui/ui_online_shopping_app
+  ui_parallax_effect_app:
+    path: iamfine/flutter_ui/ui_parallax_effect_app
+  ui_smart_home_animated_app:
+    path: iamfine/flutter_ui/ui_smart_home_animated_app
+  ui_task_management_app:
+    path: iamfine/flutter_ui/ui_task_management_app
+  ui_ticket_booking_app:
+    path: iamfine/flutter_ui/ui_ticket_booking_app
 
   ####### app
   flutter_jd:

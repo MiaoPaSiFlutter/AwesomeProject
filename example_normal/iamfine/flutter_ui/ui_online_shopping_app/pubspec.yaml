@@ -1,0 +1,41 @@
+name: ui_online_shopping_app
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "http"
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../packages/hzy_common_module/
+
+  expandable_text: 2.3.0
+
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/icons/
+    - assets/icons/tabbar/bold/
+    - assets/icons/tabbar/light/
+    - assets/icons/light/
+    - assets/icons/bold/
+    - assets/icons/products/
+    - assets/icons/profile/
+    - assets/icons/detail/
+
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: assets/fonts/Urbanist-Regular.ttf
+        - asset: assets/fonts/Urbanist-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Urbanist-Bold.ttf
+          weight: 700

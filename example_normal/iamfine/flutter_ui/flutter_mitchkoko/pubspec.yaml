@@ -113,37 +113,17 @@ flutter:
     - assets/CompassUI/images/
     - assets/NFTappuiUI/images/
     - assets/MusicplayerUI/images/
-    - assets/SmartHomeAnimatedAppUI/images/
-    - assets/ParallaxEffectUI/images/
     - assets/ResponsiveWelcomeLoginAndSignUpUI/images/
     - assets/MeditationAppUI/icons/
     - assets/MeditationAppUI/images/
     - assets/QuizAppUI/images/
-    - assets/AnalogClockLightDarkThemeUI/images/
     - assets/ECommerceMobileAppUI/icons/
     - assets/ECommerceMobileAppUI/images/
     - assets/ECommerceComplateAppUI/icons/
     - assets/ECommerceComplateAppUI/images/
-    - assets/AnimatedAppWithRiveUI/avaters/
-    - assets/AnimatedAppWithRiveUI/Backgrounds/
-    - assets/AnimatedAppWithRiveUI/icons/
-    - assets/AnimatedAppWithRiveUI/RiveAssets/
-    - assets/ChatMessageAppUI/images/
-    - assets/ChatMessageAppUI/icons/
     - assets/ShoeAppUI/anims/
     - assets/ShoeAppUI/icons/
     - assets/ShoeAppUI/images/
-    - assets/AnimatedTravelAppUI/images/
-    - assets/OnlineShoppingAppUI/icons/
-    - assets/OnlineShoppingAppUI/icons/tabbar/bold/
-    - assets/OnlineShoppingAppUI/icons/tabbar/light/
-    - assets/OnlineShoppingAppUI/icons/light/
-    - assets/OnlineShoppingAppUI/icons/bold/
-    - assets/OnlineShoppingAppUI/icons/products/
-    - assets/OnlineShoppingAppUI/icons/profile/
-    - assets/OnlineShoppingAppUI/icons/detail/
-    - assets/TaskManagementAppUI/svg/
-    - assets/TicketBookingAppUI/images/
     - assets/ValorantInfoAppUI/
     - assets/screenshots/
 
@@ -184,16 +164,6 @@ flutter:
         - asset: assets/ECommerceComplateAppUI/fonts/muli/Muli-Light.ttf
           weight: 300
 
-    ### AnimatedAppWithRiveUI
-    - family: Intel
-      fonts:
-        - asset: assets/AnimatedAppWithRiveUI/Fonts/Inter-Regular.ttf
-        - asset: assets/AnimatedAppWithRiveUI/Fonts/Inter-SemiBold.ttf
-          weight: 600
-    - family: Poppins
-      fonts:
-        - asset: assets/AnimatedAppWithRiveUI/Fonts/Poppins-Bold.ttf
-          weight: 700
     ### ShoeAppUI
     - family: Gilroy
       fonts:
@@ -201,18 +171,3 @@ flutter:
           weight: 900
         - asset: assets/ShoeAppUI/fonts/Gilroy-Light.otf
           weight: 300
-    ### AnimatedTravelAppUI
-    - family: Montserrat
-      fonts:
-        - asset: assets/AnimatedTravelAppUI/fonts/Montserrat-SemiBold.otf
-          weight: 400
-        - asset: assets/AnimatedTravelAppUI/fonts/Montserrat-Bold.otf
-          weight: 700
-    ### OnlineShoppingAppUI
-    - family: Urbanist
-      fonts:
-        - asset: assets/OnlineShoppingAppUI/fonts/Urbanist-Regular.ttf
-        - asset: assets/OnlineShoppingAppUI/fonts/Urbanist-Medium.ttf
-          weight: 500
-        - asset: assets/OnlineShoppingAppUI/fonts/Urbanist-Bold.ttf
-          weight: 700
