@@ -4,16 +4,8 @@ import 'package:common_demo/common_demo.dart';
 import 'package:example_normal/config/routers/project_routers.dart';
 import 'package:example_normal/modules/example_module/routers/example_module_pages.dart';
 import 'package:example_normal/modules/my_module/routers/my_module_pages.dart';
-import 'package:flutter_black_hole/flutter_black_hole.dart';
-import 'package:flutter_books/flutter_books.dart';
-import 'package:flutter_chatgpt_app/flutter_chatgpt_app.dart';
-import 'package:flutter_crypto_market_app/flutter_crypto_market_app.dart';
-import 'package:flutter_fitness_app/flutter_fitness_app.dart';
-import 'package:flutter_foodhub_app/flutter_foodhub_app.dart';
 // 京东模块儿
-import 'package:flutter_jd/flutter_jd.dart';
 import 'package:extended_sliver_demo/extended_sliver_demo.dart';
-import 'package:flutter_marketky_app/flutter_marketky_app.dart';
 import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
 import 'package:flutter_muet_attendance_taking_app/flutter_muet_attendance_taking_app.dart';
 import 'package:flutter_nimbus_app/flutter_nimbus_app.dart';
@@ -32,27 +24,19 @@ class RouterS {
       ...ProjectPageS.routers,
       ...MyModulePages.routerS,
       ...ExampleModulePageS.routerS,
-      ...JingdongModulePagesS.routerS,
       ...ExtendedSliverModulePagesS.routerS,
       ...ScrollerDemoModulePagesS.routerS,
       ...AnimationDemoModulePagesS.routerS,
       ...CanvasDemoModulePagesS.routerS,
       ...CommonDemoModulePagesS.routerS,
-      ...BooksModulePagesS.routerS,
       ...MitchkokoModulePagesS.routerS,
       ...WeatherModulePagesS.routerS,
-      ...BlackHoleModulePagesS.routerS,
       ...MuetAttendanceTakingModulePagesS.routerS,
-      ...FoodHubAppModulePagesS.routerS,
       ...PaytabsTicketsModulePagesS.routerS,
       ...OorbsWallpaperModulePagesS.routerS,
       ...NimbusAppModulePagesS.routerS,
-      ...FitnessAppModulePagesS.routerS,
       ...PeriodicTableAppModulePagesS.routerS,
       ...ToDoAppModulePagesS.routerS,
-      ...MarketkyAppModulePagesS.routerS,
-      ...CryptoMarketAppModulePagesS.routerS,
-      ...ChatGPTAppModulePagesS.routerS,
     ];
   }
 

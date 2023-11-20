@@ -1,4 +1,11 @@
+import 'package:flutter_black_hole/flutter_black_hole/pages/BlackHoleApp.dart';
+import 'package:flutter_crypto_market_app/flutter_crypto_market_app/pages/CryptoMarketApp.dart';
+import 'package:flutter_fitness_app/flutter_fitness_app/pages/FitnessApp.dart';
+import 'package:flutter_jd/flutter_jd/pages/JdHubApp.dart';
+import 'package:flutter_marketky_app/flutter_marketky_app/pages/MarketkyApp.dart';
 import 'package:flutter_valorant_app/flutter_valorant_app/pages/ValorantInfoApp.dart';
+import 'package:flutter_books/flutter_books/pages/BooksApp.dart';
+import 'package:flutter_chatgpt_app/flutter_chatgpt_app/pages/ChatGptApp.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:flutter/material.dart';
 
@@ -81,6 +88,63 @@ class FlutterAppsHomeController extends CommonGetXController {
   getData() {
     uiModels.assignAll([
       InterestingUIModel(
+          title: '一个免费的 Flutter 电子商务应用程序入门模板',
+          description: '',
+          date: '2022年10月2日',
+          tags: ['商城'],
+          app: const MarketkyApp(),
+          author: 'mrezkys - Github',
+          url: 'https://github.com/mrezkys/marketky'),
+      InterestingUIModel(
+          title: '仿京东APP',
+          description: '',
+          date: '2022年10月2日',
+          tags: [''],
+          app: const JdHubApp(),
+          author: 'ZYHB - Github',
+          url: ''),
+      InterestingUIModel(
+          title: '一款健身应用的UI模板APP',
+          description: '',
+          date: '2022年10月2日',
+          tags: ['健身'],
+          app: const FitnessApp(),
+          author: 'HypeTeqSoftware - Github',
+          url: 'https://github.com/HypeTeqSoftware/FitnessApp'),
+      InterestingUIModel(
+          title: '一个显示有关加密货币硬币的实时数据和详细信息的APP',
+          description: '',
+          date: '2022年10月2日',
+          tags: ['折线图'],
+          app: const CryptoMarketApp(),
+          author: 'HypeTeqSoftware - Github',
+          url: 'https://github.com/HypeTeqSoftware/CryptoMarketApp'),
+      InterestingUIModel(
+          title:
+              'ChatGPT 带来了强大的 AI 聊天功能。它提供了增强的移动 UI/UX、建议问题列表、可自定义的聊天主题、多个聊天主题、启动屏幕、更改 ChatGPT AI 模型的能力以及在主屏幕上添加的 Rive 动画。',
+          description: '',
+          date: '2022年10月2日',
+          tags: ['ChatGPT', '主题', '动画'],
+          app: const ChatGPTApp(),
+          author: 'HypeTeqSoftware - Github',
+          url: 'https://github.com/HypeTeqSoftware/ChatGPTApp'),
+      InterestingUIModel(
+          title: '一款 Panda看书，Flutter 小说阅读 App ',
+          description: '',
+          date: '2022年10月2日',
+          tags: ['小说阅读'],
+          app: const BooksApp(),
+          author: 'kevinsu9999 - Gitee',
+          url: 'https://gitee.com/kevinsu9999/flutter_books'),
+      InterestingUIModel(
+          title: '一款开源的音乐播放器应用程序！',
+          description: '',
+          date: '2022年10月2日',
+          tags: ['音乐播放器'],
+          app: const BlackHoleApp(),
+          author: 'Sangwan5688 - Github',
+          url: 'https://github.com/Sangwan5688/BlackHole'),
+      InterestingUIModel(
           title: '一款游戏《无畏契约》资料的UI模板APP',
           description: '',
           date: '2023年3月20日',
@@ -88,16 +152,6 @@ class FlutterAppsHomeController extends CommonGetXController {
           app: const ValorantInfoApp(),
           author: 'ZahaanMahajan - Github',
           url: 'https://github.com/ZahaanMahajan/Valorant-Info'),
-
-      // InterestingUIModel(
-      //     title: '一个购物类的APP',
-      //     description: '',
-      //     date: '2022年10月2日',
-      //     tags: ['购物'],
-      //     gifOrPictures: ['screenshots/ShoeAppUI.gif'],
-      //     app: const ShoeAppUI(),
-      //     author: 'rashidwassan - Github',
-      //     url: 'https://github.com/rashidwassan/flutter-ecommerce-app-ui'),
 
       // InterestingUIModel(
       //     title: '漂亮、干净的在线商店应用程序 UI',

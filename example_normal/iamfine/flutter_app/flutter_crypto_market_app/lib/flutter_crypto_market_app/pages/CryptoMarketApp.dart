@@ -12,8 +12,28 @@ import '../services/Net/http_manager.dart';
 import 'bottom_navigation_bar.dart';
 import 'on_board/on_board_screen.dart';
 
-class CryptoMarketApp extends StatelessWidget {
+class CryptoMarketApp extends GetView<CryptoMarketAppController> {
   const CryptoMarketApp({super.key});
+
+  @override
+  CryptoMarketAppController get controller =>
+      Get.put(CryptoMarketAppController());
+
+  @override
+  Widget build(BuildContext context) {
+    return MyApp();
+  }
+}
+
+class CryptoMarketAppController extends GetxController {
+  CryptoMarketAppController();
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {

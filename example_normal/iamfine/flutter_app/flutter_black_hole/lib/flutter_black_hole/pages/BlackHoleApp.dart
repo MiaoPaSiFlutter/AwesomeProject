@@ -10,24 +10,42 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:logging/logging.dart';
 import 'package:metadata_god/metadata_god.dart';
-// import 'package:receive_sharing_intent/receive_sharing_intent.dart';
 import 'package:sizer/sizer.dart';
-import 'package:flutter_black_hole/flutter_black_hole/pages/Constants/constants_index.dart';
-import 'package:flutter_black_hole/flutter_black_hole/pages/Helpers/helpers_index.dart';
-import 'package:flutter_black_hole/flutter_black_hole/pages/Providers/providers_index.dart';
-import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/Common/routes.dart';
-import 'package:flutter_black_hole/flutter_black_hole/pages/Screens/Player/audioplayer.dart';
-import 'package:flutter_black_hole/flutter_black_hole/pages/flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:flutter_black_hole/flutter_black_hole/pages/theme/app_theme.dart';
+import 'Constants/constants_index.dart';
+import 'Helpers/helpers_index.dart';
+import 'Providers/providers_index.dart';
+import 'Screens/Common/routes.dart';
+import 'Screens/Player/audioplayer.dart';
+import 'flutter_gen/gen_l10n/app_localizations.dart';
+import 'theme/app_theme.dart';
 
-class BlackHoleApp extends StatefulWidget {
+class BlackHoleApp extends GetView<BlackHoleAppController> {
   const BlackHoleApp({super.key});
 
   @override
-  State<BlackHoleApp> createState() => _BlackHoleAppState();
+  BlackHoleAppController get controller => Get.put(BlackHoleAppController());
+
+  @override
+  Widget build(BuildContext context) {
+    return MyAppWapper();
+  }
 }
 
-class _BlackHoleAppState extends State<BlackHoleApp> {
+class BlackHoleAppController extends GetxController {
+  BlackHoleAppController();
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+}
+
+class MyAppWapper extends StatefulWidget {
+  const MyAppWapper({super.key});
+
+  @override
+  _MyAppWapperState createState() => _MyAppWapperState();
+}
+
+class _MyAppWapperState extends State<MyAppWapper> {
   var _init = false;
 
   @override

@@ -4,14 +4,33 @@ import '../providers/providers_index.dart';
 import '../routers/routers_index.dart';
 import '../tools/tools_index.dart';
 
-class FoodHubApp extends StatefulWidget {
+class FoodHubApp extends GetView<FoodHubAppController> {
   const FoodHubApp({super.key});
 
   @override
-  State<FoodHubApp> createState() => _FoodHubAppState();
+  FoodHubAppController get controller => Get.put(FoodHubAppController());
+
+  @override
+  Widget build(BuildContext context) {
+    return MyAppWrapper();
+  }
 }
 
-class _FoodHubAppState extends State<FoodHubApp> {
+class FoodHubAppController extends GetxController {
+  FoodHubAppController();
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+}
+
+class MyAppWrapper extends StatefulWidget {
+  const MyAppWrapper({super.key});
+
+  @override
+  State<MyAppWrapper> createState() => _MyAppWrapperState();
+}
+
+class _MyAppWrapperState extends State<MyAppWrapper> {
   bool _init = false;
   @override
   void initState() {

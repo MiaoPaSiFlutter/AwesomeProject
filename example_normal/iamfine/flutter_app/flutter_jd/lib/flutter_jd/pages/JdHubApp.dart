@@ -22,8 +22,27 @@ import './azlistview/car_models/views/car_models_view.dart';
 import './azlistview/city_list/views/city_list_view.dart';
 import './azlistview/city_list_custom_header/views/city_list_custom_header_view.dart';
 
-class FlutterJDHomeView extends StatelessWidget {
-  const FlutterJDHomeView({Key? key}) : super(key: key);
+class JdHubApp extends GetView<JdHubAppController> {
+  const JdHubApp({super.key});
+
+  @override
+  JdHubAppController get controller => Get.put(JdHubAppController());
+
+  @override
+  Widget build(BuildContext context) {
+    return MyApp();
+  }
+}
+
+class JdHubAppController extends GetxController {
+  JdHubAppController();
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

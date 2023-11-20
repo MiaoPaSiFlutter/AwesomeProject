@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:hzy_common_module/hzy_common_module.dart';
 import '../constants/app_colors.dart';
 import '../providers/image_provider.dart';
 import '../providers/models_provider.dart';
@@ -11,8 +11,27 @@ import 'splash_screen.dart';
 //   runApp(const MyApp());
 // }
 
-class ChatGPTApp extends StatelessWidget {
+class ChatGPTApp extends GetView<ChatGPTAppController> {
   const ChatGPTApp({super.key});
+
+  @override
+  ChatGPTAppController get controller => Get.put(ChatGPTAppController());
+
+  @override
+  Widget build(BuildContext context) {
+    return MyApp();
+  }
+}
+
+class ChatGPTAppController extends GetxController {
+  ChatGPTAppController();
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {

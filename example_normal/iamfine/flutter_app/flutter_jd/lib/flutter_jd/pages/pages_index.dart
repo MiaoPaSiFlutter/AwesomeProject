@@ -1,1 +1,1 @@
-export './FlutterJDHomeView.dart';
+export 'JdHubApp.dart';
