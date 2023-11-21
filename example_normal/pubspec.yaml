@@ -30,10 +30,10 @@ dependencies:
   ### 游戏
   game_the_green_ninja:
     path: iamfine/flutter_game/game_the_green_ninja
+  game_math_app:
+    path: iamfine/flutter_game/game_math_app
 
   ####### ui
-  flutter_mitchkoko:
-    path: iamfine/flutter_ui/flutter_mitchkoko
   ui_coffe_app:
     path: iamfine/flutter_ui/ui_coffe_app
   ui_food_app:
@@ -66,8 +66,6 @@ dependencies:
     path: iamfine/flutter_ui/ui_chat_message_app
   ui_clock_app:
     path: iamfine/flutter_ui/ui_clock_app
-  ui_ecommerce_app:
-    path: iamfine/flutter_ui/ui_ecommerce_app
   ui_goplan_app:
     path: iamfine/flutter_ui/ui_goplan_app
   ui_online_shopping_app:
@@ -80,6 +78,14 @@ dependencies:
     path: iamfine/flutter_ui/ui_task_management_app
   ui_ticket_booking_app:
     path: iamfine/flutter_ui/ui_ticket_booking_app
+  ui_ecommerce_complate_app:
+    path: iamfine/flutter_ui/ui_ecommerce_complate_app
+  ui_ecommerce_mobile_app:
+    path: iamfine/flutter_ui/ui_ecommerce_mobile_app
+  ui_responsive_app:
+    path: iamfine/flutter_ui/ui_responsive_app
+  ui_shoe_app:
+    path: iamfine/flutter_ui/ui_shoe_app
 
   ####### app
   flutter_jd:
@@ -114,6 +120,10 @@ dependencies:
     path: iamfine/flutter_app/flutter_chatgpt_app
   flutter_valorant_app:
     path: iamfine/flutter_app/flutter_valorant_app
+  flutter_compass_app:
+    path: iamfine/flutter_app/flutter_compass_app
+  flutter_quiz_app:
+    path: iamfine/flutter_app/flutter_quiz_app
   ##### test
   extended_sliver_demo:
     path: iamfine/flutter_test/extended_sliver_demo

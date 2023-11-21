@@ -7,7 +7,6 @@
  * @LastEditTime: 2023-05-16 17:18:40
  */
 
-import 'package:flutter_mitchkoko/flutter_mitchkoko.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'example_launch_id_config.dart';
 import '../models/image_type_model.dart';
@@ -20,11 +19,6 @@ class ExamplConfig {
   ];
 
   List itemList = [
-    HzyNormalItemModel(
-      leftMsg: "Flutter 精美 UI 截图",
-      router: MitchkokoModuleRouterS.HOME,
-    ),
-
     /// 抽象类基础属性展示
     HzyNormalItemModel(
       leftMsg: "基类属性",

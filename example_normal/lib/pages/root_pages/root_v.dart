@@ -195,7 +195,7 @@ class RootC extends CommonGetXController
     // const HomePage(),
     FlutterUIHomePage(),
     FlutterAppsHomePage(),
-    const FlutterGamesHomePage(),
+    FlutterGamesHomePage(),
     FlutterTestHomePage(),
     const ExampleHomePage(),
     ExampleTuListV(),

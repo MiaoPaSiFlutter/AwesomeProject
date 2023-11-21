@@ -1,21 +1,43 @@
+import 'package:game_math_app/game_math_app/pages/GameMathApp.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:flutter/material.dart';
-import '../config/flutter_games_config.dart';
 
-class FlutterGamesHomePage extends StatefulWidget {
-  const FlutterGamesHomePage({super.key});
+import '../../../compontents/interesting_ui_widget.dart';
+import '../../../models/interesting_ui_model.dart';
+
+class FlutterGamesHomePage
+    extends CommonGetXWidget<FlutterGamesHomeController> {
+  FlutterGamesHomePage({Key? key}) : super(key: key);
   @override
-  State<StatefulWidget> createState() {
-    return FlutterGamesHomePageState();
+  FlutterGamesHomeController get controller =>
+      Get.put(FlutterGamesHomeController());
+  @override
+  bool configSafeAreaTop() => false;
+  @override
+  bool configIsShowAppBar() => false;
+
+  @override
+  Widget createScallBody({
+    required BuildContext context,
+    BoxConstraints? constraints,
+  }) {
+    return const GamesHomePage();
   }
 }
 
-class FlutterGamesHomePageState extends CommonState<FlutterGamesHomePage>
+class GamesHomePage extends StatefulWidget {
+  const GamesHomePage({super.key});
+  @override
+  State<StatefulWidget> createState() {
+    return GamesHomePageState();
+  }
+}
+
+class GamesHomePageState extends CommonState<GamesHomePage>
     with AutomaticKeepAliveClientMixin {
   @override
   String? createAppBarTitleStr() => LaunchIdConfig.flutterGame.tr;
 
-  FlutterGamesConfig get config => FlutterGamesConfig();
   @override
   Widget build(BuildContext context) {
     super.build(context);
@@ -23,35 +45,51 @@ class FlutterGamesHomePageState extends CommonState<FlutterGamesHomePage>
   }
 
   @override
-  Widget createScallBody(
-      {required BuildContext context, BoxConstraints? constraints}) {
-    Widget body = ListView.builder(
-      itemBuilder: configItemBuilder,
-      itemCount: config.itemList.length,
+  Widget createScallBody({
+    required BuildContext context,
+    BoxConstraints? constraints,
+  }) {
+    return GetBuilder<FlutterGamesHomeController>(
+      builder: (controller) {
+        return ListView.builder(
+          itemCount: controller.uiModels.length,
+          itemBuilder: (context, index) {
+            return InterestingUIWidget(model: controller.uiModels[index]);
+          },
+        );
+      },
     );
-    body = Container(child: body);
-    return body;
-  }
-
-  /// 创建item
-  Widget configItemBuilder(BuildContext context, int index) {
-    HzyNormalItemModel itemModel = config.itemList[index];
-    if (index == 0) {
-      itemModel.borderRadius =
-          BorderRadius.vertical(top: Radius.circular(16.r));
-    } else if (index == config.itemList.length - 1) {
-      itemModel.borderRadius =
-          BorderRadius.vertical(bottom: Radius.circular(16.r));
-    }
-    itemModel.rightType = 1;
-    itemModel.isShowLine = (index != config.itemList.length - 1);
-    Widget body = configNormalDarkItemWidget(
-      itemModel: itemModel,
-      onOtherTap: (_) {},
-    );
-    return body;
   }
 
   @override
   bool get wantKeepAlive => true;
+}
+
+class FlutterGamesHomeController extends CommonGetXController {
+  FlutterGamesHomeController();
+
+  var uiModels = [].obs;
+
+  @override
+  void onInit() {
+    super.onInit();
+    getData();
+  }
+
+  /// give access to currentContext
+  BuildContext? get context => Get.context;
+
+  getData() {
+    uiModels.assignAll([
+      InterestingUIModel(
+          title: '编写数学游戏',
+          description: '',
+          date: '2022年7月24日',
+          tags: ['游戏'],
+          gifOrPictures: ['screenshots/MathGameUI.gif'],
+          app: const GameMathApp(),
+          author: 'Mitch Koko',
+          url: 'https://youtu.be/2FmDfpI7jPM'),
+    ]);
+  }
 }

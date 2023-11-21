@@ -1,0 +1,38 @@
+name: ui_shoe_app
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage: "http"
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  # 通用
+  hzy_common_module:
+    path: ../../packages/hzy_common_module/
+
+  dots_indicator: 3.0.0
+  flutter_svg: 2.0.8
+  font_awesome_flutter: 10.5.0
+  google_fonts: 5.1.0
+  lottie: 2.6.0
+  velocity_x: 4.1.1
+
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/anims/
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-ExtraBold.otf
+          weight: 900
+        - asset: assets/fonts/Gilroy-Light.otf
+          weight: 300
