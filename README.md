@@ -1,6 +1,6 @@
 # Flutter 整理
 
-> [一些 UI 搜集整理](./example_normal/iamfine/flutter_ui/screenshots.md/screenshots.md)
+> [一些 UI 搜集整理](./example_normal/iamfine/flutter_ui/screenshots.md)
 
 > [一些 APP 搜集整理](./example_normal/iamfine/flutter_app/screenshots.md)
 
