@@ -4,6 +4,8 @@
 
 > [一些 APP 搜集整理](./example_normal/iamfine/flutter_app/screenshots.md)
 
+> [一款基于 RethinkDB 的聊天 APP](./example_normal/iamfine/flutter_app/flutter_chat_app/README.md)
+
 ## Web
 
 web 产物在`ts-pages`分支可查看。

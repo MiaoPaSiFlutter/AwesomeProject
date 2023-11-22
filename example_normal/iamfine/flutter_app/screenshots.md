@@ -2,7 +2,6 @@
 
 - flutter_chatgpt_app
 
-
 - flutter_valorant_app
 
   <img src="./flutter_valorant_app/assets/screenshots/IMG_20230320_113234.jpg" width="32%">
@@ -54,7 +53,6 @@
 
 - flutter_black_hole
 
-
 - flutter_foodhub_app
 
   <img src="./flutter_foodhub_app/assets/screenshots/banner-light-theme.png" width="32%">
@@ -101,6 +99,8 @@
   <img src="./flutter_to_do_app/assets/screenshots/Frame 6.png" width="32%">
   <img src="./flutter_to_do_app/assets/screenshots/Frame 7.png" width="32%">
 
+- flutter_chat_app
+
+  <img src="./flutter_chat_app/assets/screenshots/screenshots.gif" width="100%">
+
 - flutter_books
-
-
