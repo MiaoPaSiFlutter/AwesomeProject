@@ -1,5 +1,3 @@
-// ignore_for_file: use_build_context_synchronously
-
 import 'package:chat/chat.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -65,13 +63,15 @@ class _CreateGroupState extends State<CreateGroup> {
         final receivers =
             chats.firstWhere((chat) => chat.id == state.group.id).members;
         await _chatsCubit.chats();
-        Navigator.of(context).pop();
-        widget._router.onShowMessageThread(
-          context,
-          receivers ?? [],
-          widget._me,
-          chat,
-        ); //show message thread screen
+        if (context.mounted) {
+          Navigator.of(context).pop();
+          widget._router.onShowMessageThread(
+            context,
+            receivers ?? [],
+            widget._me,
+            chat,
+          ); //show message thread screen
+        }
       }
     });
   }

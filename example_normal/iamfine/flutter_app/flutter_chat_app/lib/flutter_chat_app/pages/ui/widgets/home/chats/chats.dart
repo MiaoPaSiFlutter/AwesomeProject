@@ -71,15 +71,21 @@ class _ChatsState extends State<Chats> {
         contentPadding: const EdgeInsets.only(left: 16.0),
         leading: ProfileImage(
           imageUrl: chat.type == ChatType.individual
-              ? chat.members?.first.photoUrl
+              ? (chat.members != null && chat.members!.isNotEmpty)
+                  ? chat.members!.first.photoUrl
+                  : null
               : null,
           online: chat.type == ChatType.individual
-              ? chat.members?.first.active
+              ? (chat.members != null && chat.members!.isNotEmpty)
+                  ? chat.members!.first.active
+                  : false
               : false,
         ),
         title: Text(
           chat.type == ChatType.individual
-              ? '${chat.members?.first.userName}'
+              ? (chat.members != null && chat.members!.isNotEmpty)
+                  ? '${chat.members!.first.userName}'
+                  : '${chat.name}'
               : '${chat.name}',
           style: Theme.of(context).textTheme.titleSmall?.copyWith(
                 fontWeight: FontWeight.bold,

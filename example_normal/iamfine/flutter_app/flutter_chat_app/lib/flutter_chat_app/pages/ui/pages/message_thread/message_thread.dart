@@ -100,15 +100,20 @@ class _MessageThreadState extends State<MessageThread> {
                 }
 
                 return HeaderStatus(
-                  widget.chat.name ?? (receivers.first.userName ?? '未知用户'),
+                  widget.chat.name ??
+                      (receivers.isNotEmpty
+                          ? (receivers.first.userName ?? '未知用户')
+                          : ''),
                   widget.chat.type == ChatType.individual
-                      ? receivers.first.getAvalUrl()
+                      ? (receivers.isNotEmpty
+                          ? receivers.first.getAvalUrl()
+                          : 'https://pic.616pic.com/ys_bnew_img/00/37/26/WiGUxh1AE5.jpg')
                       : 'https://pic.616pic.com/ys_bnew_img/00/37/26/WiGUxh1AE5.jpg',
                   widget.chat.type == ChatType.individual
-                      ? receivers.first.active
+                      ? (receivers.isNotEmpty ? receivers.first.active : false)
                       : false,
                   description: widget.chat.type == ChatType.individual
-                      ? 'last seen ${DateFormat.yMd().add_jm().format(receivers.first.lastSeen ?? DateTime.now())}'
+                      ? 'last seen ${DateFormat.yMd().add_jm().format(receivers.isNotEmpty ? (receivers.first.lastSeen ?? DateTime.now()) : DateTime.now())}'
                       : receivers
                           .fold<String>('', (p, e) => '$p, ${e.userName}')
                           .replaceFirst(',', '')
