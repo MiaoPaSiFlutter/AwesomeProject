@@ -88,6 +88,8 @@ dependencies:
     path: iamfine/flutter_ui/ui_shoe_app
 
   ####### app
+  flutter_chat_app:
+    path: iamfine/flutter_app/flutter_chat_app
   flutter_jd:
     path: iamfine/flutter_app/flutter_jd
   flutter_books:

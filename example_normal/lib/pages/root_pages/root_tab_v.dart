@@ -77,12 +77,12 @@ class RootTabV extends CommonGetXWidget<RootTabC> {
     required TabItemModel tabItemModel,
   }) {
     Widget body = HzyBtnWidget(
-      height: 49,
+      // height: 49,
       isFittedBox: false,
       btnLayoutType: BtnLayoutType.topImg,
       textStyle: index == controller.selectIndex.value
-          ? FontConfig().fontMedium12Theme
-          : FontConfig().fontMedium12Grey,
+          ? const TextStyle(fontSize: 13, color: Colors.blue)
+          : const TextStyle(fontSize: 12, color: Colors.blueAccent),
       imageWidget: configItemImageWidget(
         index: index,
         tabItemModel: tabItemModel,

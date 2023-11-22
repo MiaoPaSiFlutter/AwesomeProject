@@ -1,4 +1,4 @@
-import '../tools/utils.dart';
+import '../api_services/tools/utils.dart';
 
 class AppImages {
   static String imagePath = Utils.assets("images");

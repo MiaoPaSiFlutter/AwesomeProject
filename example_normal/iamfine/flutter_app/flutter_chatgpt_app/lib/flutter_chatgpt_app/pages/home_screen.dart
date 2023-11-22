@@ -10,7 +10,7 @@ import '../models/models.dart';
 import '../constants/connectivity_check.dart';
 import '../providers/image_provider.dart';
 import '../compontents/add_question_fun.dart';
-import '../tools/utils.dart';
+import '../api_services/tools/utils.dart';
 import 'chat_screen.dart';
 
 class HomeScreen extends StatefulWidget {

@@ -1,4 +1,5 @@
 import 'package:flutter_black_hole/flutter_black_hole/pages/BlackHoleApp.dart';
+import 'package:flutter_chat_app/flutter_chat_app/pages/ChatApp.dart';
 import 'package:flutter_crypto_market_app/flutter_crypto_market_app/pages/CryptoMarketApp.dart';
 import 'package:flutter_fitness_app/flutter_fitness_app/pages/FitnessApp.dart';
 import 'package:flutter_jd/flutter_jd/pages/JdHubApp.dart';
@@ -96,6 +97,14 @@ class FlutterAppsHomeController extends CommonGetXController {
 
   getData() {
     uiModels.assignAll([
+      InterestingUIModel(
+          title: 'ChatApp',
+          description: '',
+          date: '2022年3月11日',
+          tags: ['测验'],
+          app: ChatApp(),
+          author: 'abuanwar072 - Github',
+          url: 'https://github.com/abuanwar072/Quiz-App-Flutter'),
       InterestingUIModel(
           title: '一款测验应用程序',
           description: '',

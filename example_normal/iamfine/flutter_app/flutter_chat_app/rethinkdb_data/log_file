@@ -1,0 +1,14 @@
+2023-11-22T11:51:04.666162000 0.017688s notice: Recursively removing directory /Users/zhuyuhui/Documents/Github/MiaoPaSiFlutter/AwesomeProject/example_normal/iamfine/flutter_app/flutter_chat_app/rethinkdb_data/tmp
+2023-11-22T11:51:04.668226000 0.019751s notice: Initializing directory /Users/zhuyuhui/Documents/Github/MiaoPaSiFlutter/AwesomeProject/example_normal/iamfine/flutter_app/flutter_chat_app/rethinkdb_data
+2023-11-22T11:51:04.668471000 0.019996s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/zhuyuhui/Documents/Github/MiaoPaSiFlutter/AwesomeProject/example_normal/iamfine/flutter_app/flutter_chat_app/rethinkdb_data' did not already exist or is empty.)
+2023-11-22T11:51:04.668520000 0.020045s notice: Running rethinkdb 2.4.3 (x86_64-apple-darwin21.6.0) (CLANG 14.0.0 (clang-1400.0.29.202))...
+2023-11-22T11:51:04.676186000 0.027713s notice: Running on Darwin 21.6.0 x86_64
+2023-11-22T11:51:04.676396000 0.027921s notice: Loading data from directory /Users/zhuyuhui/Documents/Github/MiaoPaSiFlutter/AwesomeProject/example_normal/iamfine/flutter_app/flutter_chat_app/rethinkdb_data
+2023-11-22T11:51:04.871697000 0.223219s info: Automatically using cache size of 301 MB
+2023-11-22T11:51:04.876880000 0.228402s notice: Listening for intracluster connections on port 29015
+2023-11-22T11:51:04.878957000 0.230478s notice: Listening for client driver connections on port 28015
+2023-11-22T11:51:04.879018000 0.230539s notice: Listening for administrative HTTP connections on port 8090
+2023-11-22T11:51:04.879023000 0.230545s notice: Listening on cluster addresses: 127.0.0.1, 192.168.31.58, ::1, fe80::1%1, fe80::1092:10db:2c2e:2bdc%4, fe80::1cf4:d5ff:fedd:ed9f%10, fe80::1cf4:d5ff:fedd:ed9f%11, fe80::6a6c:9e78:f388:7e0%12, fe80::ce81:b1c:bd2c:69e%14, fe80::e713:4119:fbb7:5984%13
+2023-11-22T11:51:04.879030000 0.230551s notice: Listening on driver addresses: 127.0.0.1, 192.168.31.58, ::1, fe80::1%1, fe80::1092:10db:2c2e:2bdc%4, fe80::1cf4:d5ff:fedd:ed9f%10, fe80::1cf4:d5ff:fedd:ed9f%11, fe80::6a6c:9e78:f388:7e0%12, fe80::ce81:b1c:bd2c:69e%14, fe80::e713:4119:fbb7:5984%13
+2023-11-22T11:51:04.879034000 0.230555s notice: Listening on http addresses: 127.0.0.1, 192.168.31.58, ::1, fe80::1%1, fe80::1092:10db:2c2e:2bdc%4, fe80::1cf4:d5ff:fedd:ed9f%10, fe80::1cf4:d5ff:fedd:ed9f%11, fe80::6a6c:9e78:f388:7e0%12, fe80::ce81:b1c:bd2c:69e%14, fe80::e713:4119:fbb7:5984%13
+2023-11-22T11:51:04.879037000 0.230559s notice: Server ready, "zhuyuhuideMacBook_Pro_local_25d" 98280b82-0e80-4164-89cb-49bf22db4dc3

@@ -1,0 +1,12 @@
+Recursively removing directory /Users/zhuyuhui/Documents/Github/MiaoPaSiFlutter/AwesomeProject/example_normal/iamfine/flutter_app/flutter_chat_app/rethinkdb_data/tmp
+Initializing directory /Users/zhuyuhui/Documents/Github/MiaoPaSiFlutter/AwesomeProject/example_normal/iamfine/flutter_app/flutter_chat_app/rethinkdb_data
+Running rethinkdb 2.4.3 (x86_64-apple-darwin21.6.0) (CLANG 14.0.0 (clang-1400.0.29.202))...
+Running on Darwin 21.6.0 x86_64
+Loading data from directory /Users/zhuyuhui/Documents/Github/MiaoPaSiFlutter/AwesomeProject/example_normal/iamfine/flutter_app/flutter_chat_app/rethinkdb_data
+Listening for intracluster connections on port 29015
+Listening for client driver connections on port 28015
+Listening for administrative HTTP connections on port 8090
+Listening on cluster addresses: 127.0.0.1, 192.168.31.58, ::1, fe80::1%1, fe80::1092:10db:2c2e:2bdc%4, fe80::1cf4:d5ff:fedd:ed9f%10, fe80::1cf4:d5ff:fedd:ed9f%11, fe80::6a6c:9e78:f388:7e0%12, fe80::ce81:b1c:bd2c:69e%14, fe80::e713:4119:fbb7:5984%13
+Listening on driver addresses: 127.0.0.1, 192.168.31.58, ::1, fe80::1%1, fe80::1092:10db:2c2e:2bdc%4, fe80::1cf4:d5ff:fedd:ed9f%10, fe80::1cf4:d5ff:fedd:ed9f%11, fe80::6a6c:9e78:f388:7e0%12, fe80::ce81:b1c:bd2c:69e%14, fe80::e713:4119:fbb7:5984%13
+Listening on http addresses: 127.0.0.1, 192.168.31.58, ::1, fe80::1%1, fe80::1092:10db:2c2e:2bdc%4, fe80::1cf4:d5ff:fedd:ed9f%10, fe80::1cf4:d5ff:fedd:ed9f%11, fe80::6a6c:9e78:f388:7e0%12, fe80::ce81:b1c:bd2c:69e%14, fe80::e713:4119:fbb7:5984%13
+Server ready, "zhuyuhuideMacBook_Pro_local_25d" 98280b82-0e80-4164-89cb-49bf22db4dc3
