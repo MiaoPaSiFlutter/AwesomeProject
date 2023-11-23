@@ -98,48 +98,44 @@ class AddDialog extends StatelessWidget {
                       style: Theme.of(context).textTheme.headline2),
                 ),
                 ...control.tasks
-                    .map((element) => Obx(
-                          () => InkWell(
-                            onTap: () => control.changeTask(element),
-                            child: Padding(
-                              padding: EdgeInsets.only(
-                                  left: 5.0.wp,
-                                  bottom: 3.0.wp,
-                                  right: 5.0.wp,
-                                  top: 3.0.wp),
-                              child: Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Row(
-                                    children: [
-                                      Icon(
-                                        IconData(
-                                          element.icon,
-                                          fontFamily: "MaterialIcons",
-                                        ),
-                                        color: HexColor.fromHex(element.color),
-                                      ),
-                                      SizedBox(width: 3.0.wp),
-                                      Text(
-                                        element.title,
-                                        style: Theme.of(context)
-                                            .textTheme
-                                            .headline5,
-                                      ),
-                                    ],
-                                  ),
-                                  if (control.task.value == element)
-                                    const Icon(
-                                      Icons.check,
-                                      color: Colors.deepPurple,
-                                      size: 30,
-                                    )
-                                ],
-                              ),
+                    .map((element) => Obx(() => InkWell(
+                          onTap: () => control.changeTask(element),
+                          child: Padding(
+                            padding: EdgeInsets.only(
+                                left: 5.0.wp,
+                                bottom: 3.0.wp,
+                                right: 5.0.wp,
+                                top: 3.0.wp),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Row(
+                                  children: [
+                                    // Icon(
+                                    //   IconData(
+                                    //     element.icon,
+                                    //     fontFamily: "MaterialIcons",
+                                    //   ),
+                                    //   color: HexColor.fromHex(element.color),
+                                    // ),
+                                    SizedBox(width: 3.0.wp),
+                                    Text(
+                                      element.title,
+                                      style:
+                                          Theme.of(context).textTheme.headline5,
+                                    ),
+                                  ],
+                                ),
+                                if (control.task.value == element)
+                                  const Icon(
+                                    Icons.check,
+                                    color: Colors.deepPurple,
+                                    size: 30,
+                                  )
+                              ],
                             ),
                           ),
-                        ))
+                        )))
                     .toList(),
               ],
             ),

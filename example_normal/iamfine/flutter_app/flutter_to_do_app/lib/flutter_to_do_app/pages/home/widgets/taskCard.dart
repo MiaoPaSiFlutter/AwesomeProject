@@ -58,13 +58,13 @@ class TaskCard extends StatelessWidget {
                     colors: [Colors.white, Colors.white]),
               ),
             ),
-            Padding(
-              padding: EdgeInsets.all(3.0.wp),
-              child: Icon(
-                IconData(task.icon, fontFamily: 'MaterialIcons'),
-                color: color,
-              ),
-            ),
+            // Padding(
+            //   padding: EdgeInsets.all(3.0.wp),
+            //   child: Icon(
+            //     IconData(task.icon, fontFamily: 'MaterialIcons'),
+            //     color: color,
+            //   ),
+            // ),
             Padding(
               padding: EdgeInsets.all(3.0.wp),
               child: Column(

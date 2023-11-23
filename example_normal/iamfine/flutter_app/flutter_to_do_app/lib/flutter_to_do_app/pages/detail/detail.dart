@@ -50,16 +50,16 @@ class DetailPage extends StatelessWidget {
                 padding: EdgeInsets.symmetric(horizontal: 8.0.wp),
                 child: Row(
                   children: [
-                    Padding(
-                      padding: EdgeInsets.only(top: 2.0.wp),
-                      child: Icon(
-                          IconData(
-                            task.icon,
-                            fontFamily: 'MaterialIcons',
-                          ),
-                          color: color,
-                          size: 35),
-                    ),
+                    // Padding(
+                    //   padding: EdgeInsets.only(top: 2.0.wp),
+                    //   child: Icon(
+                    //       IconData(
+                    //         task.icon,
+                    //         fontFamily: 'MaterialIcons',
+                    //       ),
+                    //       color: color,
+                    //       size: 35),
+                    // ),
                     SizedBox(
                       width: 3.0.wp,
                     ),

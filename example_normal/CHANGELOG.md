@@ -1,3 +1,23 @@
+### ### 2023-11-22
+
+> [fix]:This application cannot tree shake icons fonts. It has non-constant instances of IconData at the following locations
+
+> > 解决方案：打包时加上 --no-tree-shake-icons
+
+```
+This application cannot tree shake icons fonts. It has non-constant instances of IconData at the following locations:
+  -
+      file:///Users/zhuyuhui/Documents/Github/MiaoPaSiFlutter/AwesomeProject/example_normal/iamfine/flutter_app/flutter_to_do_app/lib/flutter_to_do_ap
+      p/pages/home/widgets/addDialog.dart:117:41
+  -
+      file:///Users/zhuyuhui/Documents/Github/MiaoPaSiFlutter/AwesomeProject/example_normal/iamfine/flutter_app/flutter_to_do_app/lib/flutter_to_do_ap
+      p/pages/home/widgets/taskCard.dart:64:17
+  -
+      file:///Users/zhuyuhui/Documents/Github/MiaoPaSiFlutter/AwesomeProject/example_normal/iamfine/flutter_app/flutter_to_do_app/lib/flutter_to_do_ap
+      p/pages/detail/detail.dart:56:27
+Target web_release_bundle failed: Exception: Avoid non-constant invocations of IconData or try to build again with --no-tree-shake-icons.
+```
+
 ### 2023-10-23
 
 使用 Firebase 通过电子邮件登录和注销。
