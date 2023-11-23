@@ -1,0 +1,154 @@
+{
+  "cards": [
+    {
+      "skuId": "3927157",
+      "skuName": "joyvio佳沃 秘鲁进口蓝莓 4盒装 125g/盒 生鲜水果",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/114250/24/28844/114781/6347e2baE2b4da151/c9324c6d09816e85.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "59.90",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "20万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13559",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhYTI1ZjE5ZWRhODlhODNhYzJkNDM0ZDE5MDEzNDhhNTljZTFiODkzIn0=\",\"priceTag\":\"secKillPrice\",\"page\":\"4\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"3927157\",\"categoryId\":\"13559\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "3877143",
+      "skuName": "大红门 香卤猪头肉 450g 冷藏熟食 精选猪肉 北京老字号",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/38309/22/20875/136974/636e7c3aEed2082f0/cf92534bf4c7a4cd.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "44.90",
+      "reviews": "20万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "21458",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhYTI1ZjE5ZWRhODlhODNhYzJkNDM0ZDE5MDEzNDhhNTljZTFiODkzIn0=\",\"priceTag\":\"0\",\"page\":\"4\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"3877143\",\"categoryId\":\"21458\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "7891717",
+      "skuName": "国产红提 葡萄/提子 1kg装 新鲜水果",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/186230/39/27682/498740/62e24127E5528f166/4d345975a0fbf1b5.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "29.90",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "10万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13561",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhYTI1ZjE5ZWRhODlhODNhYzJkNDM0ZDE5MDEzNDhhNTljZTFiODkzIn0=\",\"priceTag\":\"secKillPrice\",\"page\":\"4\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"7891717\",\"categoryId\":\"13561\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "4991420",
+      "skuName": "卡士 CLASSY.KISS 餐后一小时250g*3瓶 双歧杆菌C-I 低温酸奶酸牛奶 风味发酵乳",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/93674/37/32061/82741/636df73cEea54d8d1/8d51030d8fc5860a.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "38.90",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "100万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13604",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhYTI1ZjE5ZWRhODlhODNhYzJkNDM0ZDE5MDEzNDhhNTljZTFiODkzIn0=\",\"priceTag\":\"secKillPrice\",\"page\":\"4\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"4991420\",\"categoryId\":\"13604\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "58574954623",
+      "skuName": "鲜菓篮 四川橘子爱媛38号果冻橙柑橘桔子 2斤品尝装【单果约60-65MM】 生鲜水果",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/49170/13/21376/167590/63802f43Ec004d4a1/4859b4b2ac6fe535.png!gray",
+      "jdPrice": "13.80",
+      "reviews": "5万+条评价",
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13567",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhYTI1ZjE5ZWRhODlhODNhYzJkNDM0ZDE5MDEzNDhhNTljZTFiODkzIn0=\",\"priceTag\":\"0\",\"page\":\"4\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"58574954623\",\"categoryId\":\"13567\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "17160251576",
+      "skuName": "Members Mark 山姆小青柠汁饮料 1L*2支新鲜果汁饮限购",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/95839/23/21584/59861/61e928d4Ee1d4620c/a7865ead36c3a88d.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "39.36",
+      "reviews": "20万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13601",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhYTI1ZjE5ZWRhODlhODNhYzJkNDM0ZDE5MDEzNDhhNTljZTFiODkzIn0=\",\"priceTag\":\"0\",\"page\":\"4\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"17160251576\",\"categoryId\":\"13601\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100024739564",
+      "skuName": "农鲜淘 洛川红富士苹果 8斤 果径约80mm 京东生鲜 时令苹果水果陕西洛川脆甜红富士礼盒装",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/34634/21/15670/104777/610f7aeeEd3a7e9e8/d0f91727698531f8.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "89.90",
+      "reviews": "1万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "13554",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhYTI1ZjE5ZWRhODlhODNhYzJkNDM0ZDE5MDEzNDhhNTljZTFiODkzIn0=\",\"priceTag\":\"0\",\"page\":\"4\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100024739564\",\"categoryId\":\"13554\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    }
+  ],
+  "code": "0",
+  "hasNextPage": 1,
+  "srvJson": "{\"classfyid\":1650,\"poolid\":\"41\",\"classfynum\":\"4\",\"keyWord\":\"-100\"}",
+  "page": 5
+}

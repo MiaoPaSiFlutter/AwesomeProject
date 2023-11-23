@@ -1,0 +1,34 @@
+{
+  "code": "0",
+  "browseHistoryMore": {
+    "nodes": {
+      "functionId": "gongnengfankui",
+      "safeImage": "http://img30.360buyimg.com/jdmonitor/jfs/t1/198953/8/18720/2595/61a47024Ecff0fd2c/699eaed6fe34b20b.png",
+      "safeImageBack": "http://img30.360buyimg.com/jdmonitor/jfs/t1/213629/4/5976/2645/61a47025E711223a9/91422928feddce82.png",
+      "clickMta": {
+        "eventId": "MyHistory_Main_FeedbackClick",
+        "eventParam": "",
+        "pageLevel": "",
+        "pageId": "MyHistory_Main",
+        "jsonParam": ""
+      },
+      "title": "功能反馈",
+      "jumpInfo": {
+        "jumpType": 4,
+        "needLogin": 1,
+        "jumpUrl": "router://JDMyJdModule/showFeedbackPage?from=liulanjilu"
+      }
+    },
+    "clickMta": {
+      "eventId": "MyHistory_Main_MoreIconClick",
+      "eventParam": "",
+      "pageLevel": "",
+      "pageId": "MyHistory_Main",
+      "jsonParam": ""
+    },
+    "more": 1
+  },
+  "historyList": [],
+  "success": true,
+  "hasNext": true
+}

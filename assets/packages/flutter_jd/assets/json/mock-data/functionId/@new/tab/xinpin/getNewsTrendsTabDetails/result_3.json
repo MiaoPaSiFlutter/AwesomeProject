@@ -1,0 +1,162 @@
+{
+	"code": "0",
+	"message": "响应成功",
+	"result": {
+		"feedResult": {
+			"page": 3,
+			"pageSize": 20,
+			"list": [{
+				"insert": false,
+				"type": 1,
+				"saleType": 3,
+				"preCount": "",
+				"followsCount": 2,
+				"countStr": "2人已种草",
+				"onShelvesTime": "2021-08-13 11:13:07",
+				"benefits": [{
+					"title": "当季新品",
+					"type": 4
+				}, {
+					"title": "智能油污感应",
+					"type": 3
+				}, {
+					"title": "自动顶门设计",
+					"type": 3
+				}, {
+					"title": "臭氧杀菌",
+					"type": 3
+				}],
+				"imageSourceType": 3,
+				"transImageUrl": "https://m.360buyimg.com/img/s1035x1035_jfs/t1/185370/31/16436/199984/61027acdE166a31b2/43ed21eaa0d085aa.png.webp!q70",
+				"liveStatus": 0,
+				"tagName": "新科技",
+				"skuId": "100024689066",
+				"skuName": "欧琳 OULIN OLP2N水槽式洗碗机 家用6套 智能烘干 嵌入式不锈钢双槽洗菜盆",
+				"skuImg": "https://m.360buyimg.com/mobilecms/s1035x1035_jfs/t1/205306/15/11251/182737/616ac858Ea07d49c6/b782cde77c223e58.jpg.webp!q70",
+				"jdPrice": "8999",
+				"cid1": "737",
+				"cid2": "13297",
+				"cid3": "13117",
+				"skuStyle": 3
+			}, {
+				"insert": false,
+				"type": 1,
+				"saleType": 3,
+				"preCount": "",
+				"followsCount": 37,
+				"countStr": "37人已种草",
+				"onShelvesTime": "2021-07-21 10:18:18",
+				"benefits": [{
+					"title": "当季新品",
+					"type": 4
+				}, {
+					"title": "20mm宽面皮",
+					"type": 3
+				}, {
+					"title": "非油炸无负担",
+					"type": 3
+				}, {
+					"title": "多口味组合",
+					"type": 3
+				}],
+				"imageSourceType": 3,
+				"transImageUrl": "https://m.360buyimg.com/img/s1035x1035_jfs/t1/204222/7/7646/713679/614ae3b5Ee504fff9/1a81d50fe816fff2.png.webp!q70",
+				"liveStatus": 0,
+				"tagName": "新生活",
+				"skuId": "100012462349",
+				"skuName": "阿宽红油面皮3提泡面速食宽面四川风味特产干拌面凉皮宿舍宵夜冲泡即食麻酱酸辣组合口味1340g",
+				"skuImg": "https://m.360buyimg.com/mobilecms/s1035x1035_jfs/t1/146808/29/19771/281460/614ae3abEd789706a/c1e27109b41e1d8c.jpg.webp!q70",
+				"jdPrice": "59.9",
+				"cid1": "1320",
+				"cid2": "1584",
+				"cid3": "2679",
+				"skuStyle": 3
+			}, {
+				"insert": false,
+				"type": 1,
+				"saleType": 3,
+				"preCount": "",
+				"followsCount": 37,
+				"countStr": "37人已种草",
+				"onShelvesTime": "2021-09-28 10:28:41",
+				"benefits": [{
+					"title": "上新20天",
+					"type": 4
+				}, {
+					"title": "高温除菌",
+					"type": 3
+				}, {
+					"title": "专业洗涤程序",
+					"type": 3
+				}, {
+					"title": "黑色台式高颜值",
+					"type": 3
+				}],
+				"imageSourceType": 3,
+				"commentBubble": ["容量适宜", "外观漂亮", "多人适用"],
+				"transImageUrl": "https://m.360buyimg.com/img/s1035x1035_jfs/t1/183366/15/14975/114343/60f7ee17Ecee60a0f/c0070dd513f28c39.png.webp!q70",
+				"liveStatus": 0,
+				"tagName": "新科技",
+				"skuId": "100024457438",
+				"skuName": "西门子（SIEMENS）台式嵌入式两用 智能家用进口迷你洗碗机 5套 SK23E610TI",
+				"skuImg": "https://m.360buyimg.com/mobilecms/s1035x1035_jfs/t1/209035/8/5627/98285/616d4ac3Eee53ca5d/8cc228d382c0808e.jpg.webp!q70",
+				"jdPrice": "2699",
+				"cid1": "737",
+				"cid2": "13297",
+				"cid3": "13117",
+				"skuStyle": 3
+			}, {
+				"insert": false,
+				"type": 1,
+				"saleType": 3,
+				"preCount": "",
+				"followsCount": 3,
+				"countStr": "3人已种草",
+				"onShelvesTime": "2021-07-28 21:46:47",
+				"benefits": [{
+					"title": "当季新品",
+					"type": 4
+				}],
+				"liveStatus": 0,
+				"tagName": "新科技",
+				"skuId": "10033622101727",
+				"skuName": "TOKRE果蔬净化机果蔬蔬菜清洗机蔬菜肉类解毒机食材净化器洗菜机小家电礼品 咨询客服有优惠",
+				"skuImg": "https://m.360buyimg.com/mobilecms/s1035x1035_jfs/t1/171598/6/19103/159355/60e7f214E2ad8e013/12a84c3191b9e017.jpg.webp!q70",
+				"jdPrice": "179",
+				"cid1": "737",
+				"cid2": "752",
+				"cid3": "901",
+				"skuStyle": 3
+			}, {
+				"insert": false,
+				"type": 1,
+				"saleType": 3,
+				"preCount": "",
+				"followsCount": 17,
+				"countStr": "17人已种草",
+				"onShelvesTime": "2021-08-20 14:42:23",
+				"benefits": [{
+					"title": "当季新品",
+					"type": 4
+				}],
+				"imageSourceType": 3,
+				"transImageUrl": "https://m.360buyimg.com/img/s1035x1035_jfs/t1/183324/15/17179/263023/610cd55fE70e456fc/b68bcd3e1db72311.png.webp!q70",
+				"liveStatus": 0,
+				"rankName": "入选干衣机榜",
+				"rankUrl": "https://h5.m.jd.com/babelDiy/Zeus/qPtWihKEDTcxtGgR9R736RZTuLB/index.html?renderpage=rank&fromName=xinpin&sku=100025074140&contentId=54622",
+				"tagName": "新科技",
+				"skuId": "100025074140",
+				"skuName": "网易严选 多功能暖被机 干衣机烘衣暖被取暖烘干一体机烘干机家用 多功能暖被机器 牛油果绿",
+				"skuImg": "https://m.360buyimg.com/mobilecms/s1035x1035_jfs/t1/200876/4/2308/393127/611b6b23E184fb423/910c1cbe5ea09dd5.jpg.webp!q70",
+				"jdPrice": "379",
+				"cid1": "737",
+				"cid2": "738",
+				"cid3": "12395",
+				"skuStyle": 3
+			}],
+			"isNext": true,
+			"trendFeedToast": "精选人气单品"
+		}
+	},
+	"success": false
+}

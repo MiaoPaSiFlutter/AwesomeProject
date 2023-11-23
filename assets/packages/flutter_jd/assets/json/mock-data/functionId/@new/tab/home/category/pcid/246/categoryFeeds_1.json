@@ -1,0 +1,251 @@
+{
+  "cards": [
+    {
+      "skuId": "100008738315",
+      "skuName": "棒棒猪婴儿童垂直升降床护栏 宝宝防摔边挡板床围栏防护栏2米 甜蜜梦想 单面装",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/167734/14/32143/134685/63817248E223c8d1f/09ca63105df60d5b.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "179.00",
+      "subPrice": {
+        "type": "flashBuyPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/20943/15/15849/1826/5cb330edE430334ea/e89cc4b506b62fd6.png",
+        "describe": "flashBuyPrice",
+        "price": ""
+      },
+      "reviews": "2万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "6317",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyMyIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJkOTUxYTRkYWVmMmI4Yjg4MmFkNjVjYzcwMzU5NTVmY2VlYTI3OGYyIn0=\",\"priceTag\":\"flashBuyPrice\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100008738315\",\"categoryId\":\"6317\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100024109994",
+      "skuName": "albo宝宝不锈钢辅食碗三合一婴儿喝汤吸管碗儿童吸盘碗吃饭餐具零食碗喝粥神器 绿色DS0075",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/214708/38/24050/66805/63884aa4Ee4c45a60/84e7d492e3fe32b4.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "47.90",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "2000+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "1552",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJkOTUxYTRkYWVmMmI4Yjg4MmFkNjVjYzcwMzU5NTVmY2VlYTI3OGYyIn0=\",\"priceTag\":\"secKillPrice\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100024109994\",\"categoryId\":\"1552\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "10049795183992",
+      "skuName": "osann欧颂婴儿童安全座椅汽车用0-12岁德国车载宝宝坐椅可坐躺双向安装 KIN二代-普鲁士蓝",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/223874/24/16344/141651/63881315E1078dddb/2152c1d269ff93d6.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "2490.00",
+      "reviews": "500+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "12195",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJkOTUxYTRkYWVmMmI4Yjg4MmFkNjVjYzcwMzU5NTVmY2VlYTI3OGYyIn0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"10049795183992\",\"categoryId\":\"12195\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "10026806348398",
+      "skuName": "棒棒猪 (BabyBBZ)床围栏床护栏婴儿童床挡板宝宝防摔护栏垂直升降 牛油果之梦（专利款） 1.5米/单面【零缝防窒息】",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/131964/9/29380/135668/63292c34Ee3a3defd/97d65f05b571d7db.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "109.00",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "5000+条评价",
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "6317",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJkOTUxYTRkYWVmMmI4Yjg4MmFkNjVjYzcwMzU5NTVmY2VlYTI3OGYyIn0=\",\"priceTag\":\"secKillPrice\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"10026806348398\",\"categoryId\":\"6317\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "10029052505019",
+      "skuName": "ipoosi婴儿辅食碗米粉米糊勺奶瓶注水保温碗儿童餐具套装宝宝硅胶软勺水果刮泥勺喂养勺婴幼儿辅食工具 辅食碗+喂养勺+咬咬乐+刮泥勺+软勺+清洁刷",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/199171/16/20456/90523/61b8071bE0683afb2/9fc1b774e97f0acd.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "59.00",
+      "reviews": "1万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "1552",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJkOTUxYTRkYWVmMmI4Yjg4MmFkNjVjYzcwMzU5NTVmY2VlYTI3OGYyIn0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"10029052505019\",\"categoryId\":\"1552\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "62154265326",
+      "skuName": "babycolor 温奶器恒温调奶器 婴儿暖奶器奶瓶消毒器二合一 多功能冲奶机解冻宝宝辅食 基础款",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/161220/10/33185/44441/63870f8aE52eac510/fb01c1bd1a8e164e.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "79.00",
+      "subPrice": {
+        "type": "flashBuyPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/20943/15/15849/1826/5cb330edE430334ea/e89cc4b506b62fd6.png",
+        "describe": "flashBuyPrice",
+        "price": ""
+      },
+      "reviews": "2万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "1551",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJkOTUxYTRkYWVmMmI4Yjg4MmFkNjVjYzcwMzU5NTVmY2VlYTI3OGYyIn0=\",\"priceTag\":\"flashBuyPrice\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"62154265326\",\"categoryId\":\"1551\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "49225450850",
+      "skuName": "棒棒猪 (BabyBBZ)婴儿童床加高床护栏宝宝防摔边挡板床围栏垂直升降 【分离加厚立柱】游乐园 2米/单面",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/104708/15/32947/119367/63350fdbE6358820a/4975316a42f0fb97.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "169.00",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "1万+条评价",
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "6317",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyMyIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJkOTUxYTRkYWVmMmI4Yjg4MmFkNjVjYzcwMzU5NTVmY2VlYTI3OGYyIn0=\",\"priceTag\":\"secKillPrice\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"49225450850\",\"categoryId\":\"6317\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "10040541331897",
+      "skuName": "osann欧颂星际探索号婴儿童安全座椅汽车0-12岁360旋转i-Size车载坐椅 探索号【热情红】全龄i-Size",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/135013/39/33151/111592/638809e3Efb12fbf7/99aa63a5e3e20cb4.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "3710.00",
+      "subPrice": {
+        "type": "flashBuyPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/20943/15/15849/1826/5cb330edE430334ea/e89cc4b506b62fd6.png",
+        "describe": "flashBuyPrice",
+        "price": ""
+      },
+      "reviews": "500+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "12195",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJkOTUxYTRkYWVmMmI4Yjg4MmFkNjVjYzcwMzU5NTVmY2VlYTI3OGYyIn0=\",\"priceTag\":\"flashBuyPrice\",\"page\":\"1\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"10040541331897\",\"categoryId\":\"12195\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "10042953180284",
+      "skuName": "babycolor恒温水壶调奶器1.3L 多功能婴儿冲泡奶粉热水壶 温奶暖奶热奶器养生壶 【72H恒温+316L不锈钢】",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/181810/7/30481/78965/63870dedE7e971dda/64078e42bfc9e8d0.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "89.00",
+      "subPrice": {
+        "type": "flashBuyPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/20943/15/15849/1826/5cb330edE430334ea/e89cc4b506b62fd6.png",
+        "describe": "flashBuyPrice",
+        "price": ""
+      },
+      "reviews": "2万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "1551",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJkOTUxYTRkYWVmMmI4Yjg4MmFkNjVjYzcwMzU5NTVmY2VlYTI3OGYyIn0=\",\"priceTag\":\"flashBuyPrice\",\"page\":\"1\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"10042953180284\",\"categoryId\":\"1551\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100035339214",
+      "skuName": "棒棒猪床围栏护栏宝宝防摔防护栏防掉防跌落床护栏2米 儿童在心 单面装",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/204275/20/28114/122368/63732690E5069c8d3/c3c6b44239d6840e.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "298.00",
+      "reviews": "500+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "6317",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJkOTUxYTRkYWVmMmI4Yjg4MmFkNjVjYzcwMzU5NTVmY2VlYTI3OGYyIn0=\",\"priceTag\":\"0\",\"page\":\"1\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100035339214\",\"categoryId\":\"6317\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    }
+  ],
+  "code": "0",
+  "hasNextPage": 1,
+  "srvJson": "{\"classfyid\":372,\"poolid\":\"41\",\"classfynum\":\"2\",\"keyWord\":\"-100\"}",
+  "page": 2
+}

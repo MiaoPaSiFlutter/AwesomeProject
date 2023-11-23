@@ -1,0 +1,112 @@
+{
+  "cards": [
+    {
+      "skuId": "100039925677",
+      "skuName": "索爱（soaiy）S20A 16GB全网通4G智能老年人手机双卡双待大字大声全面屏  支持5G卡 便宜备用机 幻夜黑",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/130923/36/21013/117459/632eeef4Edbd7d1be/089f8775a3913ec5.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "389.00",
+      "subPrice": {
+        "type": "flashBuyPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/20943/15/15849/1826/5cb330edE430334ea/e89cc4b506b62fd6.png",
+        "describe": "flashBuyPrice",
+        "price": ""
+      },
+      "reviews": "1000+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI5NDYzNDc2OWI2OTNhNmM2NDFiZDUyNGU3MzBlMDNhNmViODc4OWZhIn0=\",\"priceTag\":\"flashBuyPrice\",\"page\":\"2\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100039925677\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "10058520754100",
+      "skuName": "【新品上市】OPPO K10x 5G手机新品 67W超级闪充 5000mAh超长续航 6400万超清 极夜 8GB+128GB",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/6572/37/9602/53184/638755aaEc9155fa0/93d4021c1b8e12e1.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "1499.00",
+      "reviews": "200+条评价",
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI5NDYzNDc2OWI2OTNhNmM2NDFiZDUyNGU3MzBlMDNhNmViODc4OWZhIn0=\",\"priceTag\":\"0\",\"page\":\"2\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"10058520754100\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100019185045",
+      "skuName": "荣耀Magic4 Pro  全新一代骁龙8 四曲屏设计 LTPO屏幕 潜望式长焦摄像头 全网通版12GB+256GB 亮黑",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/95014/19/32217/24229/63286519E3eb9b521/fa67ef5858eb2c97.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "5499.00",
+      "reviews": "5000+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI5NDYzNDc2OWI2OTNhNmM2NDFiZDUyNGU3MzBlMDNhNmViODc4OWZhIn0=\",\"priceTag\":\"0\",\"page\":\"2\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100019185045\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "100024021187",
+      "skuName": "华为nova9se 手机 冰晶蓝 8+128GB全网通（无充电器和数据线）上海电信",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/79015/29/19060/94159/628f1600Ef09f82fd/3418e9cef259184f.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "1399.00",
+      "reviews": "100+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNSIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI5NDYzNDc2OWI2OTNhNmM2NDFiZDUyNGU3MzBlMDNhNmViODc4OWZhIn0=\",\"priceTag\":\"0\",\"page\":\"2\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100024021187\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    },
+    {
+      "skuId": "10058349591736",
+      "skuName": "华为mate50 Pro 新品上市手机 曜金黑 256G 全网通【90天碎屏险+晒单红包】",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/100178/24/22008/134447/63808261E7e8fdf63/bfc4ff46e04450b6.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "6799.00",
+      "subPrice": {
+        "type": "flashBuyPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/20943/15/15849/1826/5cb330edE430334ea/e89cc4b506b62fd6.png",
+        "describe": "flashBuyPrice",
+        "price": ""
+      },
+      "reviews": "5000+条评价",
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "655",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6ImxmIiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNSIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiI5NDYzNDc2OWI2OTNhNmM2NDFiZDUyNGU3MzBlMDNhNmViODc4OWZhIn0=\",\"priceTag\":\"flashBuyPrice\",\"page\":\"2\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"10058349591736\",\"categoryId\":\"655\",\"commentStatus\":\"1\"}",
+      "source": 0,
+      "exposalUrl": "",
+      "clickUrl": ""
+    }
+  ],
+  "code": "0",
+  "hasNextPage": 1,
+  "srvJson": "{\"classfyid\":718,\"poolid\":\"41\",\"classfynum\":\"1\",\"keyWord\":\"-100\"}",
+  "page": 3
+}

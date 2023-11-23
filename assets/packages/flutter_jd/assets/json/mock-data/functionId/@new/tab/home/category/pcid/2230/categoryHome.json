@@ -1,0 +1,1108 @@
+{
+  "floorList": [
+    {
+      "floorId": 318,
+      "floorName": "类目楼层",
+      "showHead": 0,
+      "rightText": "",
+      "style": "0901",
+      "srvJson": "{\"classfyid\":\"1656\",\"styleid\":\"0901\",\"floorLoc\":\"0\",\"poolid\":\"41\",\"pid\":\"510\",\"classfynum\":\"8\",\"floorIdDetail\":\"318\"}",
+      "content": [
+        {
+          "id": 7192,
+          "materialId": "",
+          "name": "萌宠狂欢双11",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/98717/25/32809/18528/636865d2E22c38bf7/cdd29d2c85c0e32d.gif",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/w47UQYN86pMCk8sQE9j6MGTH166/index.html?babelChannel=ttt478"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"biinfo\":\"manual\",\"materialId\":\"7192\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 702,
+          "materialId": "2017",
+          "name": "猫零食",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/109708/9/4584/14724/5e217679E8ef2abe1/b1664f7b666e2a35.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "猫零食"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"biinfo\":\"diviner#621328#100#abe3b05d03a8161ad709a6d8f10a865e3f61f699\",\"materialId\":\"2017\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 702,
+          "materialId": "2029",
+          "name": "猫砂",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/104621/31/10686/8008/5e2179d3E1a5c128b/861d540e15a0633e.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "猫砂"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"biinfo\":\"diviner#621328#100#abe3b05d03a8161ad709a6d8f10a865e3f61f699\",\"materialId\":\"2029\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 702,
+          "materialId": "2015",
+          "name": "进口猫粮",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/105125/2/10792/15053/5e217616E879f8e1f/26df3c5137f9e04e.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "进口猫粮"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"biinfo\":\"diviner#621328#100#abe3b05d03a8161ad709a6d8f10a865e3f61f699\",\"materialId\":\"2015\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 702,
+          "materialId": "2018",
+          "name": "狗粮",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/94420/34/10920/13645/5e21769eE18224ba9/289476dfafb9a1f2.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "狗粮"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"biinfo\":\"diviner#621328#100#abe3b05d03a8161ad709a6d8f10a865e3f61f699\",\"materialId\":\"2018\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 702,
+          "materialId": "2016",
+          "name": "猫罐头",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/87865/38/10819/17134/5e217649Ebeb83f24/709fda18b0371124.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "猫罐头"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"5\",\"biinfo\":\"diviner#621328#100#abe3b05d03a8161ad709a6d8f10a865e3f61f699\",\"materialId\":\"2016\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 702,
+          "materialId": "2030",
+          "name": "猫砂盆",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/88314/37/10922/9772/5e2179f4E13dded89/b63416db7cfaaeb8.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "猫砂盆"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"6\",\"biinfo\":\"diviner#621328#100#abe3b05d03a8161ad709a6d8f10a865e3f61f699\",\"materialId\":\"2030\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 702,
+          "materialId": "2014",
+          "name": "猫粮",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/110645/33/4617/9456/5e21758eE5759f27a/6c1a1d48343c0124.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "猫粮"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"7\",\"biinfo\":\"diviner#621328#100#abe3b05d03a8161ad709a6d8f10a865e3f61f699\",\"materialId\":\"2014\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 702,
+          "materialId": "2019",
+          "name": "进口狗粮",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/110677/37/4647/13731/5e2176c3E1ce44486/76a5d42756741b46.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "进口狗粮"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"8\",\"biinfo\":\"diviner#621328#100#abe3b05d03a8161ad709a6d8f10a865e3f61f699\",\"materialId\":\"2019\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 702,
+          "materialId": "2044",
+          "name": "外出箱/包",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/107830/19/4636/11216/5e217cf3E70f1e8c5/5cf2461272b0a7b8.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "航空箱"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"9\",\"biinfo\":\"diviner#621328#100#abe3b05d03a8161ad709a6d8f10a865e3f61f699\",\"materialId\":\"2044\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 702,
+          "materialId": "2037",
+          "name": "食具水具",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/104851/12/10638/6971/5e217afaE072477ef/74198605a53f0a67.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "宠物碗"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"10\",\"biinfo\":\"diviner#621328#100#abe3b05d03a8161ad709a6d8f10a865e3f61f699\",\"materialId\":\"2037\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 702,
+          "materialId": "2020",
+          "name": "狗零食",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/102268/25/10900/16979/5e2176f0E17a14f5a/a688cbcce53d1bb1.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "狗零食"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"11\",\"biinfo\":\"diviner#621328#100#abe3b05d03a8161ad709a6d8f10a865e3f61f699\",\"materialId\":\"2020\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 702,
+          "materialId": "2039",
+          "name": "浴液",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/105442/33/10756/11582/5e217b66Eca6bc12d/d321ce5548a06d3d.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "宠物浴液"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"12\",\"biinfo\":\"diviner#621328#100#abe3b05d03a8161ad709a6d8f10a865e3f61f699\",\"materialId\":\"2039\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 702,
+          "materialId": "2038",
+          "name": "清洁除味",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/91512/8/10829/8742/5e217b20E35ccd045/54465255a8eb3431.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "宠物去味"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"13\",\"biinfo\":\"diviner#621328#100#abe3b05d03a8161ad709a6d8f10a865e3f61f699\",\"materialId\":\"2038\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 0,
+          "name": "更多分类",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/69671/10/12704/2880/5da1a548E0d3bea6c/a43cb049cd5740f5.png",
+          "jump": {
+            "srvJson": "{\"loc\":\"14\",\"biinfo\":\"0\",\"materialId\":\"0\"}"
+          },
+          "iconType": 1
+        }
+      ],
+      "filteredCateIds": "0,2017,2029,2015,2018,2016,2030,2014,2019,2044,2037,2020,2039,2038",
+      "catePoolId": 94,
+      "cid": "1656",
+      "pcid": "2230"
+    },
+    {
+      "floorId": 919,
+      "floorName": "一切二-新",
+      "showHead": 0,
+      "rightText": "",
+      "style": "0911",
+      "srvJson": "{\"classfyid\":\"1656\",\"styleid\":\"0911\",\"floorLoc\":\"1\",\"poolid\":\"41\",\"pid\":\"510\",\"classfynum\":\"8\",\"floorIdDetail\":\"919\"}",
+      "height": 130,
+      "content": [
+        {
+          "id": 8381,
+          "materialId": "8381",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/2EGkrMEJFWDrLshBrYa4TVjrhEXn/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"materialId\":\"8381\",\"moduleid\":\"8381\",\"sku\":\"\"}"
+          },
+          "materialType": "1",
+          "bgImg": "https://m15.360buyimg.com/mobilecms/s510x330_jfs/t1/150692/9/28430/34660/635f77fdE18dd15df/b8850effc07b2bed.png"
+        },
+        {
+          "id": 8382,
+          "materialId": "8382",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/w47UQYN86pMCk8sQE9j6MGTH166/index.html?babelChannel=ttt277"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"materialId\":\"8382\",\"moduleid\":\"8382\",\"sku\":\"\"}"
+          },
+          "materialType": "1",
+          "bgImg": "https://m15.360buyimg.com/mobilecms/s510x330_jfs/t1/203283/15/29039/37396/635f75b1E22dcc062/8b5fb34f185e4f21.png"
+        }
+      ]
+    },
+    {
+      "floorId": 925,
+      "floorName": "宠物-共建楼层",
+      "showHead": 0,
+      "rightText": "",
+      "style": "0914",
+      "srvJson": "{\"classfyid\":\"1656\",\"styleid\":\"0914\",\"floorLoc\":\"2\",\"poolid\":\"41\",\"pid\":\"510\",\"classfynum\":\"8\",\"floorIdDetail\":\"925\"}",
+      "content": [
+        {
+          "id": 8495,
+          "materialId": "8495",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/208866/32/13407/25755/61c0341bE0b38d77a/f6b58aa78a1e23ef.png",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/2EGkrMEJFWDrLshBrYa4TVjrhEXn/index.html?babelChannel=ttt24"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"materialId\":\"8495\"}"
+          },
+          "title": "新品",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 8496,
+          "materialId": "8496",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/141790/11/23871/52170/61c03427E235d6918/0078fdc8c57f0f4e.png",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/2TY2j1yJ9T2QKiQekTpHgvv68HiD/index.html?babelChannel=ttt9"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"materialId\":\"8496\"}"
+          },
+          "title": "宠物馆",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 9210,
+          "materialId": "9210",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/181544/39/25495/7338/62c2a856Eb49b1ef7/14fd27312fc310d8.png",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://jdcs.m.jd.com/chat/index.action?venderId=agile_182635989579&entry=jd_sdk_cwpdrk"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"materialId\":\"9210\"}"
+          },
+          "title": "养宠顾问",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 9828,
+          "materialId": "9828",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/116383/40/30452/17175/635fa336E8027f6bd/dd60cffc90c7f419.png",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/4YS3a5gYUxnukZYMaQYWpRTE6eAv/index.html?babelChannel=ttt51"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"materialId\":\"9828\"}"
+          },
+          "title": "宠物药房",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 8499,
+          "materialId": "8499",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/220278/11/8305/47845/61c034dfEe134fbde/dac8f7322cbadd67.png",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://hospital.healthjd.com/pethospital/inquiry/im?drugskuId="
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"materialId\":\"8499\"}"
+          },
+          "title": "问宠医",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        }
+      ],
+      "showSubTitle": 0
+    },
+    {
+      "floorId": 321,
+      "floorName": "品牌精选",
+      "showHead": 2,
+      "headImg": "https://m15.360buyimg.com/mobilecms/jfs/t1/107493/1/4774/4595/5e257cbdEabda94b8/7fa364680ffbedb5.png",
+      "rightText": "",
+      "style": "0903",
+      "srvJson": "{\"classfyid\":\"1656\",\"styleid\":\"0903\",\"floorLoc\":\"3\",\"poolid\":\"41\",\"pid\":\"510\",\"classfynum\":\"8\",\"floorIdDetail\":\"321\"}",
+      "content": [
+        {
+          "id": 7039,
+          "materialId": "1000001701",
+          "name": "耐威克",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/174475/9/31136/4153/635bb31eEea5025fd/ee053d11e953eb18.png",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "13968,6995,6996,14692,6997,6998,6999,7000,7001,13963"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "耐威克"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"biinfo\":\"manual\",\"materialId\":\"1000001701\"}"
+          }
+        },
+        {
+          "id": 7102,
+          "materialId": "1000001706",
+          "name": "皇家自营旗舰店",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/123870/4/28038/4417/6360e33dE65929011/69afbfafeb66c355.gif",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "13968,6995,6996,14692,6997,6998,6999,7000,7001,13963"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "皇家自营旗舰店"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"biinfo\":\"manual\",\"materialId\":\"1000001706\"}"
+          }
+        },
+        {
+          "id": 706,
+          "materialId": "280910",
+          "name": "网易严选",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/86675/15/10636/6251/5e1fb792E0543a967/d24d854a2f7936c3.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "13968,6995,6996,14692,6997,6998,6999,7000,7001,13963"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "网易严选"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"biinfo\":\"1#dfac89ce9470039b1616aa03a1017660ebcbe1c2-100-621309#\",\"materialId\":\"280910\"}"
+          }
+        },
+        {
+          "id": 7206,
+          "materialId": "17648",
+          "name": "卫仕宠物自营",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/179213/30/30427/2399/63687b51Ee3e90f67/d0661a4390174028.png",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "13968,6995,6996,14692,6997,6998,6999,7000,7001,13963"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "卫仕宠物自营"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"biinfo\":\"manual\",\"materialId\":\"17648\"}"
+          }
+        },
+        {
+          "id": 706,
+          "materialId": "12159",
+          "name": "麦富迪",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t3256/295/5595401957/5955/a41e93c4/589d7aafN31034102.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "13968,6995,6996,14692,6997,6998,6999,7000,7001,13963"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "麦富迪"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"biinfo\":\"1#dfac89ce9470039b1616aa03a1017660ebcbe1c2-100-621309#\",\"materialId\":\"12159\"}"
+          }
+        },
+        {
+          "id": 706,
+          "materialId": "8630",
+          "name": "皇家",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t3223/122/6815346114/29655/f04140bb/58abed21N11df3a3e.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "13968,6995,6996,14692,6997,6998,6999,7000,7001,13963"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "皇家"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"5\",\"biinfo\":\"1#dfac89ce9470039b1616aa03a1017660ebcbe1c2-100-621309#\",\"materialId\":\"8630\"}"
+          }
+        },
+        {
+          "id": 706,
+          "materialId": "17216",
+          "name": "顽皮",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t6328/165/1130785177/3817/e5d2ba6c/594b65c4N78a619d3.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "13968,6995,6996,14692,6997,6998,6999,7000,7001,13963"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "顽皮"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"6\",\"biinfo\":\"1#dfac89ce9470039b1616aa03a1017660ebcbe1c2-100-621309#\",\"materialId\":\"17216\"}"
+          }
+        },
+        {
+          "id": 706,
+          "materialId": "15219",
+          "name": "森森",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t2467/158/878193566/4351/257cc2be/5639c733N662eb03e.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "13968,6995,6996,14692,6997,6998,6999,7000,7001,13963"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "森森"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"7\",\"biinfo\":\"1#dfac89ce9470039b1616aa03a1017660ebcbe1c2-100-621309#\",\"materialId\":\"15219\"}"
+          }
+        }
+      ],
+      "showIconName": 1
+    },
+    {
+      "floorId": 1079,
+      "floorName": "爆品楼层",
+      "showHead": 3,
+      "headImg": "https://m15.360buyimg.com/mobilecms/jfs/t1/66072/18/22598/2440/6358f1bfE74807717/819433096dbd4e5c.png",
+      "rightText": "",
+      "style": "0913",
+      "srvJson": "{\"classfyid\":\"1656\",\"styleid\":\"0913\",\"floorLoc\":\"4\",\"poolid\":\"41\",\"pid\":\"510\",\"classfynum\":\"8\",\"floorIdDetail\":\"1079\"}",
+      "content": [
+        {
+          "id": 9770,
+          "materialId": "10038568243334",
+          "name": "爆品楼层",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/105217/32/32423/87734/636376adE6e7b4a31/ea280b9cfe93ab7b.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "10038568243334"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"priceProfile\":0,\"biinfo\":\"1#2-cf15756f024c8ab9e9f1d5e61ba5f34b09c42eb7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"10038568243334\"}"
+          },
+          "title": "阿飞和巴弟E76全价冻干猫粮囤粮装 成幼猫粮通用型无谷天然粮【11预售】 E76 2KG*4袋+360g",
+          "img2": "",
+          "promotionTag": "领券满169减20",
+          "jdPrice": "369.9",
+          "sprice": "304.9",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        },
+        {
+          "id": 9770,
+          "materialId": "10021819843808",
+          "name": "爆品楼层",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/221044/16/16823/98258/6368b396Eaceb1852/f7b5f30237d62197.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "10021819843808"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"priceProfile\":0,\"biinfo\":\"1#2-cf15756f024c8ab9e9f1d5e61ba5f34b09c42eb7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"10021819843808\"}"
+          },
+          "title": "【11.11预售】小佩五合一混合猫砂 活性炭豆腐猫砂混合款 猫砂可冲厕所宠物除臭猫咪用品 5合1混合砂 3.6kg*8包-预售 规格",
+          "img2": "",
+          "promotionTag": "领券满3减2",
+          "jdPrice": "269",
+          "sprice": "269",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": "",
+          "priceTag": "秒杀价"
+        },
+        {
+          "id": 9770,
+          "materialId": "100001692313",
+          "name": "爆品楼层",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/197502/10/28911/111687/6368575dEe71bc480/e7b23734fa77ea7d.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100001692313"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"priceProfile\":0,\"biinfo\":\"1#2-cf15756f024c8ab9e9f1d5e61ba5f34b09c42eb7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"100001692313\"}"
+          },
+          "title": "麦富迪猫粮 超肉粒冻干双拼粮10kg 成猫（冻干三文鱼）",
+          "img2": "",
+          "promotionTag": "满299减100",
+          "sprice": "309",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        },
+        {
+          "id": 9770,
+          "materialId": "100043260877",
+          "name": "爆品楼层",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/191374/31/30564/134841/63647dbfE893c8e71/642ac287b7631dc4.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100043260877"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"priceProfile\":0,\"biinfo\":\"1#2-cf15756f024c8ab9e9f1d5e61ba5f34b09c42eb7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"100043260877\"}"
+          },
+          "title": "麦富迪 猫粮 三文鱼冻干双拼全价成猫粮【预售实发20kg（含附件）】",
+          "img2": "",
+          "promotionTag": "",
+          "jdPrice": "539",
+          "sprice": "509",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        },
+        {
+          "id": 9770,
+          "materialId": "100027585264",
+          "name": "爆品楼层",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/116952/39/17752/181306/5f61d332E386f0cc3/cd01f80f9f71fba9.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100027585264"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"priceProfile\":0,\"biinfo\":\"1#2-cf15756f024c8ab9e9f1d5e61ba5f34b09c42eb7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"100027585264\"}"
+          },
+          "title": "滋益巅峰（ZIWI）主食零食猫罐头185g *12罐 混合*12 布偶加菲英短蓝猫通用湿粮【活动】",
+          "img2": "",
+          "promotionTag": "",
+          "sprice": "474",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        },
+        {
+          "id": 9770,
+          "materialId": "100021780062",
+          "name": "爆品楼层",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/22230/11/20362/141296/636871d7Ebaa096b0/f6498f57f504c827.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100021780062"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"5\",\"priceProfile\":0,\"biinfo\":\"1#2-cf15756f024c8ab9e9f1d5e61ba5f34b09c42eb7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"100021780062\"}"
+          },
+          "title": "伯纳天纯 (Pure&Natural)狗粮三种肉10kg成犬幼犬中大型小型犬通用丛林探秘(鹿肉+牛肉+鱼肉)萨摩耶柴犬",
+          "img2": "",
+          "promotionTag": "领券满299减100",
+          "sprice": "480",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": "",
+          "priceTag": "秒杀价"
+        },
+        {
+          "id": 9770,
+          "materialId": "100027917786",
+          "name": "爆品楼层",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/116892/35/28742/90848/6350eed0Ec82b2ffb/c49d3deafb4fe779.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100027917786"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"6\",\"priceProfile\":0,\"biinfo\":\"1#2-cf15756f024c8ab9e9f1d5e61ba5f34b09c42eb7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"100027917786\"}"
+          },
+          "title": "爱肯拿（Acana）牧场盛宴鸡肉味天然无谷猫粮5.4kg【加版配方美产】（新老包装随机发货）",
+          "img2": "",
+          "promotionTag": "",
+          "sprice": "570",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        },
+        {
+          "id": 9770,
+          "materialId": "100021318749",
+          "name": "爆品楼层",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/211054/23/25530/38297/6302f07dE430d5c4a/c9e4e878e44a9a2d.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100021318749"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"7\",\"priceProfile\":0,\"biinfo\":\"1#2-cf15756f024c8ab9e9f1d5e61ba5f34b09c42eb7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"100021318749\"}"
+          },
+          "title": "有陪猫塔智能猫厕所全自动猫砂盆电动铲屎机超大隔臭防外溅",
+          "img2": "",
+          "promotionTag": "满1000减130",
+          "sprice": "1099",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        },
+        {
+          "id": 9770,
+          "materialId": "100020616032",
+          "name": "爆品楼层",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/171656/2/31315/96825/6368d448E82ac05e0/ffd3b53f2d03248d.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100020616032"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"8\",\"priceProfile\":0,\"biinfo\":\"1#2-cf15756f024c8ab9e9f1d5e61ba5f34b09c42eb7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"100020616032\"}"
+          },
+          "title": "霍曼39度舱宠物烘干箱全自动猫咪吹风机狗狗底部出风更安静 白色",
+          "img2": "",
+          "promotionTag": "满1800减400",
+          "sprice": "1899",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        },
+        {
+          "id": 9770,
+          "materialId": "6373995",
+          "name": "爆品楼层",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/211012/4/27778/111020/63686d8bEe349983a/778624d56a61cc75.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "6373995"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"9\",\"priceProfile\":0,\"biinfo\":\"1#2-cf15756f024c8ab9e9f1d5e61ba5f34b09c42eb7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"6373995\"}"
+          },
+          "title": "伯纳天纯狗粮专供款 小型成犬粮10kg泰迪比熊博美天然粮樱桃味宠物主粮",
+          "img2": "",
+          "promotionTag": "满60减20",
+          "sprice": "449",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        }
+      ],
+      "showPriceCurve": 0
+    },
+    {
+      "floorId": 323,
+      "floorName": "京挑惠选",
+      "showHead": 2,
+      "headImg": "https://m15.360buyimg.com/mobilecms/jfs/t1/125593/39/31567/11155/63413dd8E57bd975a/44ec49fc92c59174.png",
+      "rightText": "",
+      "style": "0906",
+      "srvJson": "{\"classfyid\":\"1656\",\"styleid\":\"0906\",\"floorLoc\":\"5\",\"poolid\":\"41\",\"pid\":\"510\",\"classfynum\":\"8\",\"floorIdDetail\":\"323\"}",
+      "content": []
+    }
+  ],
+  "code": "0",
+  "background": {},
+  "pid": "510"
+}

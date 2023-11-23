@@ -1,0 +1,540 @@
+{
+	"code": "0",
+	"data": {
+		"ddTime": 1634611986978,
+		"videoListPlayAuto": 1,
+		"dataExist": 1,
+		"ddState": 0,
+		"sort": 0,
+		"list": [{
+			"pvNum": 10780,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"biRt": "14",
+			"authorPic": "https://m.360buyimg.com/ceco/jfs/t1/182215/25/2852/51778/6095122bE1eb1e294/9315b04f1f1d9d3a.jpg!q70.jpg",
+			"title": "夏天到了，空调怎么选买空调口诀！",
+			"pvNumStr": "1W",
+			"pin": "jd_42f63df039bf1",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6IjIwMTAiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTA3IiwicmVxc2lnIjoiNDhjNWJhYzMxMmE1OGY2NWEwODFjYzJjOWJmYzNlYWZkMjkyM2QxOSJ9",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "VideoImmersion",
+				"params": {
+					"referpageid": "DemoVideo_List",
+					"playtype": "65",
+					"subPosition": "143",
+					"modeid": "1",
+					"channel": "faxianRecommendNewfeedlist",
+					"style": "11",
+					"id": "265872681"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"unionId": "2011752856",
+			"subPosition": 143,
+			"indexImage": "https://m.360buyimg.com/ceco/s800x800_jfs/t1/184558/13/16109/200226/610005d0Ee76bbade/1d09d1dcb943ba8b.jpg!q60",
+			"articleId": 265872681,
+			"authorId": "756575",
+			"biclk": "1#48c5bac312a58f65a081cc2c9bfc3eafd2923d19-107-621370#145498",
+			"appearance": 800,
+			"playInfo": {
+				"vid": "599429094",
+				"videoUrl": "https://dvod.300hu.com/vod/product/a3bbf8d5-5b34-43d4-a4ab-f96e6a8128e4/c3e7e70c19df418199ea915e1aae2730.mp4?source=2&h265=h265/19366/fbe02806d5054cffb3b4b8408e19d6ef.mp4",
+				"class": "com.jd.discovery.channel.bff.client.model.output.feeds.VideoPlayInfo",
+				"videoType": "mp4"
+			},
+			"authorName": "家电数码爆料",
+			"style": 11,
+			"taskId": "00145498"
+		}, {
+			"pvNum": 11,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"biRt": "14",
+			"authorPic": "https://m.360buyimg.com/ceco/jfs/t1/203198/23/5977/120127/613af103E7cb6ea85/8ddd2ba3e818ad21.jpg!q70.jpg",
+			"title": "颜值这么高，足以打动你的心",
+			"pvNumStr": "11",
+			"pin": "jd_4501c0ce4c961",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6IjIxMDEiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTA3IiwicmVxc2lnIjoiNDhjNWJhYzMxMmE1OGY2NWEwODFjYzJjOWJmYzNlYWZkMjkyM2QxOSJ9",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "VideoImmersion",
+				"params": {
+					"referpageid": "DemoVideo_List",
+					"playtype": "65",
+					"subPosition": "143",
+					"modeid": "1",
+					"channel": "faxianRecommendNewfeedlist",
+					"style": "11",
+					"id": "276713104"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"unionId": "2018351323",
+			"subPosition": 143,
+			"indexImage": "https://m.360buyimg.com/ceco/s800x800_jfs/t1/121192/18/20039/184206/6159194eE50eab28b/a67222a72968be57.jpg!q60",
+			"articleId": 276713104,
+			"authorId": "7413758",
+			"biclk": "1#48c5bac312a58f65a081cc2c9bfc3eafd2923d19-107-621370#145498",
+			"appearance": 800,
+			"playInfo": {
+				"vid": "630048430",
+				"videoUrl": "https://dvod.300hu.com/vod/product/915e9d62-046b-462b-ae58-f950cf4b11a3/8c54416e66804710b806d77fa6f19187.mp4?source=2&h265=h265/19366/b03be38de656433d8f845bdc7f861950.mp4",
+				"class": "com.jd.discovery.channel.bff.client.model.output.feeds.VideoPlayInfo",
+				"videoType": "mp4"
+			},
+			"authorName": "生活百科全",
+			"style": 11,
+			"taskId": "00145500"
+		}, {
+			"pvNum": 341744,
+			"cardWhSize": {
+				"h": 1,
+				"w": 1
+			},
+			"pictureCntStr": "2",
+			"biRt": "55",
+			"authorPic": "https://img30.360buyimg.com/ceco/jfs/t1/172167/39/10500/2559/60a3b216E451061c7/ae83bfcb7426d319.png",
+			"title": "之前一直想买一台打印机实现打印自由，终于实现了自己的心愿，打印之前自己看着店家分享的视频安装，操作很方便。安装之后，打印的文件质量很不错，打印的照片清晰，色彩还原度高，非常适合家用！",
+			"pvNumStr": "34.1W",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6Ijk0NiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDciLCJyZXFzaWciOiI0OGM1YmFjMzEyYTU4ZjY1YTA4MWNjMmM5YmZjM2VhZmQyOTIzZDE5In0=",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "shareOrderUgcContent",
+				"params": {
+					"channel": "faxianrecommend",
+					"contentId": "3541759",
+					"category": "jump",
+					"skuId": "29224236576",
+					"cmtType": "4"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"indexImage": "https://img30.360buyimg.com/da/s800x800_jfs/t1/170381/34/19610/284529/607c3488E68ea8b87/82c2e12078e23216.jpg!q60",
+			"articleId": 3541759,
+			"biclk": "1#48c5bac312a58f65a081cc2c9bfc3eafd2923d19-107-621370#145498",
+			"appearance": 808,
+			"authorName": "葫芦乡乡村临时演员",
+			"pictureCnt": 2
+		}, {
+			"pvNum": 397,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"biRt": "14",
+			"authorPic": "https://m.360buyimg.com/ceco/jfs/t1/92068/14/18767/71876/6152b655E270a9447/ad5e5e6b9866ae4d.jpg!q70.jpg",
+			"title": "取暖器的安全很重要，用美的电油汀取暖器让你更安心！",
+			"pvNumStr": "397",
+			"pin": "jd_681d1b459bede",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6IjIwMTAiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTA3IiwicmVxc2lnIjoiNDhjNWJhYzMxMmE1OGY2NWEwODFjYzJjOWJmYzNlYWZkMjkyM2QxOSJ9",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "VideoImmersion",
+				"params": {
+					"referpageid": "DemoVideo_List",
+					"playtype": "65",
+					"subPosition": "143",
+					"modeid": "1",
+					"channel": "faxianRecommendNewfeedlist",
+					"style": "11",
+					"id": "274384497"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"unionId": "2011514333",
+			"subPosition": 143,
+			"indexImage": "https://m.360buyimg.com/ceco/s800x800_jfs/t1/199508/3/8900/257154/6147f9ccE568a90e8/804126698f3d54e6.jpg!q60",
+			"articleId": 274384497,
+			"authorId": "732751",
+			"biclk": "1#48c5bac312a58f65a081cc2c9bfc3eafd2923d19-107-621370#145498",
+			"appearance": 800,
+			"playInfo": {
+				"vid": "624101101",
+				"videoUrl": "https://dvod.300hu.com/vod/product/c7fa4a8b-b49b-4ee1-a52e-0191830b9136/ecb22d2bed984a3ba3e2a424f5cc89c6.mp4?source=2&h265=h265/19366/eb8d80cdf2d04cc79c0c1e5ac2cc4c89.mp4",
+				"class": "com.jd.discovery.channel.bff.client.model.output.feeds.VideoPlayInfo",
+				"videoType": "mp4"
+			},
+			"authorName": "精品百科测评",
+			"style": 11,
+			"taskId": "00145500"
+		}, {
+			"pvNum": 10065,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"biRt": "14",
+			"authorPic": "https://m.360buyimg.com/ceco/jfs/t1/139793/3/10614/8718/5f8445ccE8cc98a11/3dcbf7b190431524.jpg!q70.jpg",
+			"title": "Apple iPhone 12pro资源机展示",
+			"pvNumStr": "1W",
+			"pin": "jd_nLRajaFIrXpe",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6IjIxMDQiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTA3IiwicmVxc2lnIjoiNDhjNWJhYzMxMmE1OGY2NWEwODFjYzJjOWJmYzNlYWZkMjkyM2QxOSJ9",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "VideoImmersion",
+				"params": {
+					"referpageid": "DemoVideo_List",
+					"playtype": "65",
+					"subPosition": "143",
+					"modeid": "1",
+					"channel": "faxianRecommendNewfeedlist",
+					"style": "11",
+					"id": "258669794"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"unionId": "",
+			"subPosition": 143,
+			"indexImage": "https://m.360buyimg.com/ceco/s800x800_jfs/t1/186848/24/7264/208374/60c077f9E5e62de6c/bae7b4f73980329d.jpg!q60",
+			"articleId": 258669794,
+			"authorId": "681013",
+			"biclk": "1#48c5bac312a58f65a081cc2c9bfc3eafd2923d19-107-621370#145498",
+			"appearance": 800,
+			"playInfo": {
+				"vid": "579643931",
+				"videoUrl": "https://dvod.300hu.com/vod/product/b74b753f-c6ef-4134-9536-c9c71e4c7283/f3ee1d148abe4ddfa64be3eaab8d1ef4.mp4?source=2&h265=h265/19366/c148b9b043d3441babfcf00a699879c3.mp4",
+				"class": "com.jd.discovery.channel.bff.client.model.output.feeds.VideoPlayInfo",
+				"videoType": "mp4"
+			},
+			"authorName": "爱相随二手商品专营店",
+			"style": 11,
+			"taskId": "00145497"
+		}, {
+			"pvNum": 16120,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"pictureCntStr": "4",
+			"biRt": "55",
+			"authorPic": "https://img30.360buyimg.com/ceco/jfs/t1/183601/15/7097/2559/60b727a8E253c24a7/3823d6bbc2b26c6e.png",
+			"title": "之前随便买了个一炒肉丝啥的就粘锅，不好用！看很多人推荐这个宏江铁锅就入手试试，到手我用洗洁精洗干净抹干直接涂了层油放着，没有遇到别人说的很黑洗不干净的问题，炒鸡蛋土豆肉丝等都没粘锅，好用锅盖我没买，32的大小一家四口差不多，重量也可以接受，这种锅只适合炒，最好别烧需要放水煮的食物",
+			"pvNumStr": "1.6W",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6Ijk0NiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDciLCJyZXFzaWciOiI0OGM1YmFjMzEyYTU4ZjY1YTA4MWNjMmM5YmZjM2VhZmQyOTIzZDE5In0=",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "shareOrderUgcContent",
+				"params": {
+					"channel": "faxianrecommend",
+					"contentId": "5213663",
+					"category": "jump",
+					"skuId": "8439457",
+					"cmtType": "4"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"indexImage": "https://img30.360buyimg.com/da/s800x800_jfs/t1/197422/15/6305/1326088/6130d408E2a47a96f/4f2907050026400d.jpg!q60",
+			"articleId": 5213663,
+			"biclk": "1#48c5bac312a58f65a081cc2c9bfc3eafd2923d19-107-621370#145498",
+			"appearance": 808,
+			"authorName": "南***m",
+			"pictureCnt": 4
+		}, {
+			"pvNum": 848,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"biRt": "14",
+			"authorPic": "https://m.360buyimg.com/ceco/jfs/t1/174727/30/5481/654169/607e4aa7Eb818a261/8632757f93c6b460.png",
+			"title": "荣耀X20开箱，高端设计大众化",
+			"pvNumStr": "848",
+			"pin": "wdCtngtGqXtSZx",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6IjIwMDIiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTA3IiwicmVxc2lnIjoiNDhjNWJhYzMxMmE1OGY2NWEwODFjYzJjOWJmYzNlYWZkMjkyM2QxOSJ9",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "VideoImmersion",
+				"params": {
+					"referpageid": "DemoVideo_List",
+					"playtype": "65",
+					"subPosition": "143",
+					"modeid": "1",
+					"channel": "faxianRecommendNewfeedlist",
+					"style": "11",
+					"id": "268130347"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"unionId": "2011538413",
+			"subPosition": 143,
+			"indexImage": "https://m.360buyimg.com/ceco/s800x800_jfs/t1/198026/29/2676/846500/6113be55E1d00497b/4fd5057e12963f63.png",
+			"articleId": 268130347,
+			"authorId": "734272",
+			"biclk": "1#48c5bac312a58f65a081cc2c9bfc3eafd2923d19-107-621370#145498",
+			"appearance": 800,
+			"playInfo": {
+				"vid": "605979148",
+				"videoUrl": "https://dvod.300hu.com/vod/product/2a90242f-db28-4560-a28e-eb3dbbc94446/3c2d4a6d15d64fe5b609eee0164183bc.mp4",
+				"class": "com.jd.discovery.channel.bff.client.model.output.feeds.VideoPlayInfo",
+				"videoType": "mp4"
+			},
+			"authorName": "美物测评",
+			"style": 11,
+			"taskId": "00145500"
+		}, {
+			"pvNum": 38,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"biRt": "14",
+			"authorPic": "https://m.360buyimg.com/ceco/jfs/t1/183853/23/19085/76188/611720c4Ea0c65d4f/95fc5ad63e6eba68.jpg!q70.jpg",
+			"title": "有了美的取暖器，冬天再也不怕冷了",
+			"pvNumStr": "38",
+			"pin": "zjl13686609570",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6IjIwMTAiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTA3IiwicmVxc2lnIjoiNDhjNWJhYzMxMmE1OGY2NWEwODFjYzJjOWJmYzNlYWZkMjkyM2QxOSJ9",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "VideoImmersion",
+				"params": {
+					"referpageid": "DemoVideo_List",
+					"playtype": "65",
+					"subPosition": "143",
+					"modeid": "1",
+					"channel": "faxianRecommendNewfeedlist",
+					"style": "11",
+					"id": "273655028"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"unionId": "1002144348",
+			"subPosition": 143,
+			"indexImage": "https://m.360buyimg.com/ceco/s800x800_jfs/t1/90681/14/19795/104690/6142b305Ef974ec72/44cf463ed3cc4e50.jpg!q60",
+			"articleId": 273655028,
+			"authorId": "575971",
+			"biclk": "1#48c5bac312a58f65a081cc2c9bfc3eafd2923d19-107-621370#145498",
+			"appearance": 800,
+			"playInfo": {
+				"vid": "622186719",
+				"videoUrl": "https://vod.300hu.com/4c1f7a6atransbjngwcloud1oss/31e79ce1490839086212329473/v.f30.mp4",
+				"class": "com.jd.discovery.channel.bff.client.model.output.feeds.VideoPlayInfo",
+				"videoType": "mp4"
+			},
+			"authorName": "涵涵家种草馆",
+			"style": 11,
+			"taskId": "00145498"
+		}, {
+			"pvNum": 56766,
+			"cardWhSize": {
+				"h": 4,
+				"w": 3
+			},
+			"pictureCntStr": "4",
+			"biRt": "55",
+			"authorPic": "https://img30.360buyimg.com/ceco/jfs/t1/194111/10/18742/7457/611b2af8Ef858d3a0/08a3a3b3982d62b6.jpg",
+			"title": "AX3600\"发布。作为一款专为\"高速上网+智能家居\"打造的路由器，不仅支持WIFI6协议，更配置了高通6核处理器、512MB大内存、WPA3网络加密、六根高性能天线、独立Alot智能天线、以及OFDMA技术等黑科技，可谓堆料十足。秒了好多天，终于还是找了F码才搞定!小米AloT路由器AX3600作为开春旗舰，配置了六颗\"PA+LAN\"外置信号放大器，增强信号传输距离，提升信号接收灵敏度;针对室内使用，内置波束成形技术，定向增强WIFI信号。我家是100平左右，路由器位于门口，分别测试了客厅、卧室、卫生间、阳台，信号强度几乎都在-70dBm以内，特别是5GWIFI的信号强度表现给力;如果把路由器放在房子中央，120-150平的房子完全可以无死角覆盖。除强信号配置外，小米AloT路由器AX3600最给力的是2.4GHz与5GHz频段均支持WIFI6协议，以及支持 OFDMA技术，传输速度得以极大提升。我家是联通200M宽带，用\"Speedtest\"测速，下载速度可达224Mbps;WIFI6设备没有，暂时无法测试。高性能意味着高功耗，想长期稳定运行，优秀的散热必不可少。小米AloT路由器AX3600在机身底部、顶部、侧面均设有散热孔;顶部还设置了一根横向金属导热件，散热表现相当优秀。如上述所言，小米AloT路由器AX3600硬件规格可谓豪华，如WIFI6标准、6根\"PA+IAN\"天线、3000M级无线速率、512MB大内存、WPA3加密、独立Alot天线、高通6核处理器(4+2)等，配置不输千元级竞品。配合支持WIFI6的小米10信号、网速、稳定性、游戏延迟都表现得相当给力，这是目前为止唯一一款能让我在楼下散步享受家里WIFI路由器。而最让人感动的是，由于有独立Alot天线加持，添加智能而最让人感动的是，由于有独立Alot天线加持，添加智能设备时，手机无需连接家里WIFI，打破了局域网束缚;金无足赤人无完人，小米AloT路由器AX3600也有几点不足，其一是没有USB接口，无法外挂硬盘或者U盘设备;其二不是盲插网口，并且WAN网口与LAN接口无颜色区分，很容易插错;其三是无电源按键",
+			"pvNumStr": "5.6W",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6Ijk0NiIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDciLCJyZXFzaWciOiI0OGM1YmFjMzEyYTU4ZjY1YTA4MWNjMmM5YmZjM2VhZmQyOTIzZDE5In0=",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "shareOrderUgcContent",
+				"params": {
+					"channel": "faxianrecommend",
+					"contentId": "5216514",
+					"category": "jump",
+					"skuId": "65589269189",
+					"cmtType": "4"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"indexImage": "https://img30.360buyimg.com/da/s800x800_jfs/t1/205190/34/4419/688332/6130fa90E821669ce/9739a814f31a1c2f.jpg!q60",
+			"articleId": 5216514,
+			"biclk": "1#48c5bac312a58f65a081cc2c9bfc3eafd2923d19-107-621370#145498",
+			"appearance": 808,
+			"authorName": "Baby博比",
+			"pictureCnt": 4
+		}, {
+			"pvNum": 443,
+			"cardWhSize": {
+				"h": 1,
+				"w": 1
+			},
+			"biRt": "14",
+			"authorPic": "https://m.360buyimg.com/ceco/jfs/t1/177890/3/14028/17336/60f3d5e5Ec7009edd/eed892bd8b00a9bf.jpg!q70.jpg",
+			"title": "高颜值大屏智能会议平板，无线投屏视频会议简洁易用",
+			"pvNumStr": "443",
+			"pin": "aa8575350",
+			"biBrokerInfo": "eyJwIjoiNjIxMzcwIiwic291cmNlIjoiMCIsInRhZyI6IjIwMTAiLCJjc191c2VyIjoiMiIsImV4cGlkIjoiMTA3IiwicmVxc2lnIjoiNDhjNWJhYzMxMmE1OGY2NWEwODFjYzJjOWJmYzNlYWZkMjkyM2QxOSJ9",
+			"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewFeedsInfo",
+			"jump": {
+				"des": "VideoImmersion",
+				"params": {
+					"referpageid": "DemoVideo_List",
+					"playtype": "65",
+					"subPosition": "42",
+					"modeid": "1",
+					"channel": "faxianRecommendNewfeedlist",
+					"style": "2",
+					"id": "243322499"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"unionId": "1002604725",
+			"subPosition": 42,
+			"indexImage": "https://m.360buyimg.com/ceco/s800x800_jfs/t1/159698/37/1958/85889/5ff8a5f3Ef930a60e/906b90b592aab771.jpg!q60",
+			"articleId": 243322499,
+			"authorId": "627902",
+			"biclk": "1#48c5bac312a58f65a081cc2c9bfc3eafd2923d19-107-621370#145498",
+			"appearance": 801,
+			"playInfo": {
+				"vid": "530889372",
+				"videoUrl": "https://vod.300hu.com/4c1f7a6atransbjngwcloud1oss/711f2000400115719214215169/v.f30.mp4?source=1&h265=v.f1022_h265.mp4",
+				"class": "com.jd.discovery.channel.bff.client.model.output.feeds.VideoPlayInfo",
+				"videoType": "mp4"
+			},
+			"authorName": "好货天天见",
+			"style": 2,
+			"taskId": "00146636"
+		}],
+		"currentTime": 1634611986803,
+		"bannerList": [{
+			"cardJump": {
+				"des": "jdreactcommon",
+				"params": {
+					"ishidden": "true",
+					"topicId": "443",
+					"appname": "JDReactAHa",
+					"modulename": "JDReactAHa",
+					"source": "Discover",
+					"category": "jump",
+					"routerIndex": "topicDetail"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"cardType": 4,
+			"subjectTypeInfo": {
+				"ugcAwardState": 0,
+				"subjectTitle": "11.11健康养生季",
+				"imageUrl": "https://m.360buyimg.com/wutong/jfs/t1/197002/28/13873/475479/616d0201Ef8a3ae38/b96fc437d43b4bd0.png",
+				"publishCountStr": "5426",
+				"title": "快来秀出你的养生新招式！",
+				"class": "com.jd.discovery.channel.bff.client.model.output.banner.SubjectTypeInfo",
+				"subjectId": 443,
+				"publishCount": 5426
+			},
+			"class": "com.jd.discovery.channel.bff.client.model.output.banner.BannerCardInfo",
+			"cardSort": 1
+		}, {
+			"cardJump": {
+				"des": "DiscSubjectList",
+				"params": {
+					"modeId": "1",
+					"subjectOrigin": "2",
+					"subjectId": "10001104"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"cardType": 5,
+			"subjectTypeInfo": {
+				"pgcUseImageUrl": "https://m.360buyimg.com/omscontent/jfs/t1/208696/14/4350/57960/61614901E9c39bca7/e89a210526674f8d.jpg",
+				"subjectTitle": "装修中，我最遗憾的事",
+				"imageUrl": "https://m.360buyimg.com/wutong/jfs/t1/204672/23/11833/128095/616d021eEb2b3ceda/c2762b2c9f3e01aa.jpg",
+				"publishCountStr": "7W",
+				"title": "超神装修经验贴，抄作业啦！",
+				"class": "com.jd.discovery.channel.bff.client.model.output.banner.SubjectTypeInfo",
+				"subjectId": 10001104,
+				"publishCount": 70511
+			},
+			"class": "com.jd.discovery.channel.bff.client.model.output.banner.BannerCardInfo",
+			"cardSort": 2
+		}, {
+			"cardJump": {
+				"des": "DiscSubjectList",
+				"params": {
+					"modeId": "1",
+					"subjectOrigin": "2",
+					"subjectId": "10001120"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"cardType": 5,
+			"subjectTypeInfo": {
+				"subjectTitle": "居家收纳好物",
+				"imageUrl": "https://m.360buyimg.com/wutong/jfs/t1/160705/30/21248/66610/616d024cE007d91d9/0a26714b31835f59.jpg",
+				"publishCountStr": "1081",
+				"title": "做好收纳，释放更多空间",
+				"class": "com.jd.discovery.channel.bff.client.model.output.banner.SubjectTypeInfo",
+				"subjectId": 10001120,
+				"publishCount": 1081
+			},
+			"class": "com.jd.discovery.channel.bff.client.model.output.banner.BannerCardInfo",
+			"cardSort": 3
+		}, {
+			"cardJump": {
+				"des": "jdreactcommon",
+				"params": {
+					"ishidden": "true",
+					"topicId": "444",
+					"appname": "JDReactAHa",
+					"modulename": "JDReactAHa",
+					"source": "Discover",
+					"category": "jump",
+					"routerIndex": "topicDetail"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"cardType": 4,
+			"subjectTypeInfo": {
+				"ugcAwardState": 0,
+				"subjectTitle": "11.11颜值up主",
+				"imageUrl": "https://m.360buyimg.com/wutong/jfs/t1/212610/3/938/419882/616d9fa6E62552239/02f88a3b8ffb4f49.png",
+				"publishCountStr": "9299",
+				"title": "保持美丽，从我做起",
+				"class": "com.jd.discovery.channel.bff.client.model.output.banner.SubjectTypeInfo",
+				"subjectId": 444,
+				"publishCount": 9299
+			},
+			"class": "com.jd.discovery.channel.bff.client.model.output.banner.BannerCardInfo",
+			"cardSort": 4
+		}, {
+			"cardJump": {
+				"des": "DiscSubjectList",
+				"params": {
+					"modeId": "1",
+					"subjectOrigin": "2",
+					"subjectId": "10001107"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"cardType": 5,
+			"subjectTypeInfo": {
+				"pgcUseImageUrl": "https://m.360buyimg.com/omscontent/jfs/t1/197986/20/12739/36105/61643e76E4e58da80/76643f451f515953.jpg",
+				"subjectTitle": "秋冬养生看这里",
+				"imageUrl": "https://m.360buyimg.com/wutong/jfs/t1/204519/29/11920/179567/616d9ff6Ea2a602ea/4846661a169da695.jpg",
+				"publishCountStr": "1054",
+				"title": "秋冬养生的妙招，看这里",
+				"class": "com.jd.discovery.channel.bff.client.model.output.banner.SubjectTypeInfo",
+				"subjectId": 10001107,
+				"publishCount": 1054
+			},
+			"class": "com.jd.discovery.channel.bff.client.model.output.banner.BannerCardInfo",
+			"cardSort": 5
+		}, {
+			"cardJump": {
+				"des": "m",
+				"params": {
+					"url": "https://pro.m.jd.com/mall/active/44Y3MnRTR8YGXqTxEKc9yp8auxyM/index.html"
+				},
+				"class": "com.jd.discovery.channel.bff.client.model.comm.Jump"
+			},
+			"cardType": 6,
+			"subjectTypeInfo": {
+				"imageUrl": "https://m.360buyimg.com/wutong/jfs/t1/214253/30/957/120726/616d9af0Eca132026/f556b7e50a83fa7a.jpg",
+				"class": "com.jd.discovery.channel.bff.client.model.output.banner.SubjectTypeInfo",
+				"subjectId": 1040
+			},
+			"class": "com.jd.discovery.channel.bff.client.model.output.banner.BannerCardInfo",
+			"cardSort": 6
+		}],
+		"class": "com.jd.discovery.channel.bff.client.model.output.feeds.RecommendNewContentFeedsOut"
+	},
+	"message": "success",
+	"bizMsg": "success",
+	"class": "com.jd.discovery.channel.bff.client.base.BaseResponse",
+	"bizCode": "0"
+}

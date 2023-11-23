@@ -1,0 +1,230 @@
+{
+  "cards": [
+    {
+      "skuId": "29202133602",
+      "skuName": "绿巨能（llano） 苹果笔记本电池macbook pro macbook air电脑电池 A1494*A1398*A1618适配",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/93583/27/21998/86757/63847c65Edf99b82a/9ec496646db848ce.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "389.00",
+      "subPrice": {
+        "type": "flashBuyPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/20943/15/15849/1826/5cb330edE430334ea/e89cc4b506b62fd6.png",
+        "describe": "flashBuyPrice",
+        "price": ""
+      },
+      "reviews": "200+条评价",
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "675",
+      "srvJson": "{\"textTag\":\"0\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6Imh0IiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhMWVmNGFlYWU1ZWJmODljMmRlMTM4N2E3YTAxOWYyYmU3MzNlM2M4In0=\",\"priceTag\":\"flashBuyPrice\",\"page\":\"3\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"29202133602\",\"categoryId\":\"675\",\"commentStatus\":\"1\"}",
+      "source": 0
+    },
+    {
+      "skuId": "423478",
+      "skuName": "罗技（Logitech）M185鼠标 无线鼠标 办公鼠标 对称鼠标 黑色灰边 带无线2.4G接收器",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/168680/39/32926/37323/638891e9E467f6b35/9f426f08010b7f89.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "59.00",
+      "subPrice": {
+        "type": "plusPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t17692/203/1709370700/1809/bb326132/5ad4acf5Nca044b5a.png",
+        "describe": "plusPrice",
+        "price": "￥56.00"
+      },
+      "reviews": "100万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "690",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6Imh0IiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhMWVmNGFlYWU1ZWJmODljMmRlMTM4N2E3YTAxOWYyYmU3MzNlM2M4In0=\",\"priceTag\":\"plusPrice\",\"page\":\"3\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"423478\",\"categoryId\":\"690\",\"commentStatus\":\"1\"}",
+      "source": 0
+    },
+    {
+      "skuId": "100009393335",
+      "skuName": "公牛（BULL）新国标插座/插线板/插排/排插/接线板/拖线板 2位总控全长1米 GN-B2110",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/81414/9/21884/48689/630345adEce695e7b/1a1343d60010ddd8.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "25.80",
+      "reviews": "5万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "1047",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6Imh0IiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhMWVmNGFlYWU1ZWJmODljMmRlMTM4N2E3YTAxOWYyYmU3MzNlM2M4In0=\",\"priceTag\":\"0\",\"page\":\"3\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100009393335\",\"categoryId\":\"1047\",\"commentStatus\":\"1\"}",
+      "source": 0
+    },
+    {
+      "skuId": "5334755",
+      "skuName": "绿巨能（llano）笔记本散热器电脑支架游戏本底座水冷大风力调速双涡轮通用联想戴尔外星人拯救者平板",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/108936/11/26422/460326/62c787fdE41037be4/fc82654e76813322.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "133.60",
+      "reviews": "5万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "675",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6Imh0IiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhMWVmNGFlYWU1ZWJmODljMmRlMTM4N2E3YTAxOWYyYmU3MzNlM2M4In0=\",\"priceTag\":\"0\",\"page\":\"3\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"5334755\",\"categoryId\":\"675\",\"commentStatus\":\"1\"}",
+      "source": 0
+    },
+    {
+      "skuId": "2136538",
+      "skuName": "戴尔（DELL）MS116 鼠标有线  商务办公经典对称 有线鼠标 USB接口 即插即用 鼠标 （黑色）",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/172848/37/31005/24919/63859c74E99ee3ec7/26a42ef797a2202b.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "19.90",
+      "subPrice": {
+        "type": "flashBuyPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/20943/15/15849/1826/5cb330edE430334ea/e89cc4b506b62fd6.png",
+        "describe": "flashBuyPrice",
+        "price": ""
+      },
+      "reviews": "100万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "690",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6Imh0IiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhMWVmNGFlYWU1ZWJmODljMmRlMTM4N2E3YTAxOWYyYmU3MzNlM2M4In0=\",\"priceTag\":\"flashBuyPrice\",\"page\":\"3\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"2136538\",\"categoryId\":\"690\",\"commentStatus\":\"1\"}",
+      "source": 0
+    },
+    {
+      "skuId": "100032754118",
+      "skuName": "公牛（BULL）新国标插座/插线板/插排/排插/接线板/拖线板 GN-606 3位总控全长1.8米",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/72903/35/22244/60564/632802ceE22103ac2/b24ff65004ad4882.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "31.60",
+      "reviews": "5000+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [
+        {
+          "listResCode": "tab_020",
+          "listShowName": "满减",
+          "trackId": "upToSaving",
+          "squareResCode": "tab_020"
+        }
+      ],
+      "cardType": 0,
+      "cid3": "1047",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6Imh0IiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhMWVmNGFlYWU1ZWJmODljMmRlMTM4N2E3YTAxOWYyYmU3MzNlM2M4In0=\",\"priceTag\":\"0\",\"page\":\"3\",\"promotionTag\":\"upToSaving\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100032754118\",\"categoryId\":\"1047\",\"commentStatus\":\"1\"}",
+      "source": 0
+    },
+    {
+      "skuId": "100033511808",
+      "skuName": "绿巨能（llano ）MacBook Pro13英寸笔记本电脑保护壳2020款苹果 防护耐磨防刮适用A2289/A2251/A2338磨砂白",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/89718/9/22600/185191/62134981Ed8184e85/4c973924dd06fd60.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "59.00",
+      "reviews": "",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "675",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6Imh0IiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNyIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhMWVmNGFlYWU1ZWJmODljMmRlMTM4N2E3YTAxOWYyYmU3MzNlM2M4In0=\",\"priceTag\":\"0\",\"page\":\"3\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100033511808\",\"categoryId\":\"675\",\"commentStatus\":\"0\"}",
+      "source": 0
+    },
+    {
+      "skuId": "2821973",
+      "skuName": "飞利浦（PHILIPS） SPT6201B 键鼠套装 有线键鼠套装 办公键鼠套装 防泼溅 即插即用 黑色",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/112700/25/7773/142313/5ec63e3cE2f42b7bf/81fa9cb88876febc.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "39.90",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "2万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "689",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6Imh0IiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAyNSIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhMWVmNGFlYWU1ZWJmODljMmRlMTM4N2E3YTAxOWYyYmU3MzNlM2M4In0=\",\"priceTag\":\"secKillPrice\",\"page\":\"3\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"2821973\",\"categoryId\":\"689\",\"commentStatus\":\"1\"}",
+      "source": 0
+    },
+    {
+      "skuId": "100001691967",
+      "skuName": "罗技（G）G502 HERO主宰者有线鼠标 游戏鼠标 HERO引擎 RGB鼠标 电竞鼠标 25600DPI",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/118330/7/30508/101808/638725dcE9e26cff1/dfabfed528d2c286.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "249.00",
+      "subPrice": {
+        "type": "secKillPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/32275/19/10871/1892/5cb3313dEaac40bfe/e6d46db930856285.png",
+        "describe": "secKillPrice",
+        "price": ""
+      },
+      "reviews": "100万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_101",
+        "trackId": "jdMarket",
+        "squareResCode": "tab_101"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "690",
+      "srvJson": "{\"textTag\":\"jdMarket\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6Imh0IiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhMWVmNGFlYWU1ZWJmODljMmRlMTM4N2E3YTAxOWYyYmU3MzNlM2M4In0=\",\"priceTag\":\"secKillPrice\",\"page\":\"3\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100001691967\",\"categoryId\":\"690\",\"commentStatus\":\"1\"}",
+      "source": 0
+    },
+    {
+      "skuId": "100033784644",
+      "skuName": "联想（Lenovo）拯救者电脑包笔记本双肩包X3大容量旅行包男女背包学生书包Y9000P/Y7000P/R9000P",
+      "imageUrl": "https://m15.360buyimg.com/mobilecms/s518x518_jfs/t1/162087/16/33188/79882/6388acc3E53e86d2b/36856c20884d5c3f.jpg!q70.jpg.dpg.webp!gray",
+      "jdPrice": "299.00",
+      "subPrice": {
+        "type": "flashBuyPrice",
+        "icon": "https://m.360buyimg.com/cc/jfs/t1/20943/15/15849/1826/5cb330edE430334ea/e89cc4b506b62fd6.png",
+        "describe": "flashBuyPrice",
+        "price": ""
+      },
+      "reviews": "1万+条评价",
+      "businessLabel": {
+        "listResCode": "tab_054",
+        "trackId": "self",
+        "squareResCode": "tab_054"
+      },
+      "promotionLabel": [],
+      "cardType": 0,
+      "cid3": "675",
+      "srvJson": "{\"textTag\":\"self\",\"biinfo\":\"eyJwIjoiNjIxMzI3IiwiY2x1c3Rlcl9pZCI6Imh0IiwicHJzdGF0ZSI6IjAiLCJzb3VyY2UiOiIwIiwidGFnIjoiNjAxNCIsImNzX3VzZXIiOiIyIiwiZXhwaWQiOiIxMDAiLCJyZXFzaWciOiJhMWVmNGFlYWU1ZWJmODljMmRlMTM4N2E3YTAxOWYyYmU3MzNlM2M4In0=\",\"priceTag\":\"flashBuyPrice\",\"page\":\"3\",\"promotionTag\":\"0\",\"recmReason\":\"0\",\"source\":\"0\",\"sku\":\"100033784644\",\"categoryId\":\"675\",\"commentStatus\":\"1\"}",
+      "source": 0
+    }
+  ],
+  "code": "0",
+  "hasNextPage": 1,
+  "srvJson": "{\"classfyid\":377,\"poolid\":\"41\",\"classfynum\":\"3\",\"keyWord\":\"-100\"}",
+  "page": 4
+}
