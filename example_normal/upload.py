@@ -271,3 +271,6 @@ if __name__ == '__main__':
     for i in libs:
         check_requirement(i)  # 检查是否安装该安装包
     Runner().main(sys.argv[1:])
+
+
+# python3.10 upload.py --type='apk' --upload='apk'
