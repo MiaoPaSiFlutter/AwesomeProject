@@ -17,9 +17,7 @@ dependencies:
   audio_service: 0.18.12
   # 用于读取 ID3 标签并将其写入 MP3 文件的库。  您可以获取 Map 对象或 Tag 对象的数据。
   audiotagger:
-    git:
-      url: https://github.com/Sangwan5688/Audiotagger
-      ref: 90f2db5
+    path: ../../packages/audiotagger/
   # 一个轮播滑块小部件，支持无限滚动和自定义子部件。
   carousel_slider: 4.2.1
   # Flutter 插件用于发现 Android 和 iOS 上的网络（WiFi 和移动/蜂窝）连接状态。
@@ -64,9 +62,8 @@ dependencies:
   palette_generator: 0.3.3+3
   # Flutter 的持久/静态底部导航栏。
   persistent_bottom_nav_bar:
-    git:
-      url: https://github.com/Sangwan5688/PersistentBottomNavBar
-      ref: ecdadb0
+    path: ../../packages/persistent_bottom_nav_bar/
+
   # 一个 flutter 插件，使 flutter 应用程序能够接收来自其他应用程序的共享照片、文本或 url。
   # receive_sharing_intent: 1.4.5
   # Flutter 插件用于通过平台共享 UI 共享内容，在 Android 上使用 ACTION_SEND 意图，在 iOS 上使用 UIActivityViewController。

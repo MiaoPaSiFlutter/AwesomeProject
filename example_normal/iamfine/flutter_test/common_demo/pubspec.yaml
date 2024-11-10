@@ -16,6 +16,8 @@ dependencies:
   shake_animation_widget: 3.0.4
   # 用于轻松创建 Matrix4 转换的辅助数学类，您可以在容器的转换参数和其他地方使用它。
   matrix4_transform: 2.0.1
+  # 该包包含预制动画，可实现常见的所需效果
+  animations: ^2.0.8
 
   flutter:
     sdk: flutter

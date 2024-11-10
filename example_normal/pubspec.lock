@@ -153,13 +153,11 @@ packages:
     source: hosted
     version: "0.1.16"
   audiotagger:
-    dependency: transitive
+    dependency: "direct main"
     description:
-      path: "."
-      ref: "90f2db5"
-      resolved-ref: "90f2db54680c25d11e279466044ba13fd701bad7"
-      url: "https://github.com/Sangwan5688/Audiotagger"
-    source: git
+      path: "iamfine/packages/audiotagger"
+      relative: true
+    source: path
     version: "2.2.1"
   auto_route:
     dependency: transitive
@@ -2116,13 +2114,11 @@ packages:
     source: hosted
     version: "0.1.3"
   persistent_bottom_nav_bar:
-    dependency: transitive
+    dependency: "direct main"
     description:
-      path: "."
-      ref: ecdadb0
-      resolved-ref: ecdadb01e4b4255cd35d6e9ac813703150784772
-      url: "https://github.com/Sangwan5688/PersistentBottomNavBar"
-    source: git
+      path: "iamfine/packages/persistent_bottom_nav_bar"
+      relative: true
+    source: path
     version: "5.0.2"
   persistent_bottom_nav_bar_v2:
     dependency: transitive

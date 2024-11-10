@@ -7,6 +7,8 @@ environment:
   sdk: ">=3.1.5 <4.0.0"
   flutter: ">=1.17.0"
 dependencies:
+  flutter_localizations:
+    sdk: flutter
   # 通用
   hzy_common_module:
     path: ../../packages/hzy_common_module/

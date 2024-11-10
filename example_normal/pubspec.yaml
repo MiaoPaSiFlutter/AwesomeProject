@@ -26,6 +26,10 @@ dependencies:
     path: iamfine/packages/hzy_common_module
   json_path:
     path: iamfine/packages/jessie
+  audiotagger:
+    path: iamfine/packages/audiotagger
+  persistent_bottom_nav_bar:
+    path: iamfine/packages/persistent_bottom_nav_bar
 
   ### 游戏
   game_the_green_ninja:

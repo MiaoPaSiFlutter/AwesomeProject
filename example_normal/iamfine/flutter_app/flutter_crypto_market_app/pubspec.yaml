@@ -18,6 +18,7 @@ dependencies:
   shimmer: 3.0.0
   connectivity_plus: 5.0.1
   smooth_page_indicator: 1.1.0
+  convert: 3.1.1
 
   flutter:
     sdk: flutter

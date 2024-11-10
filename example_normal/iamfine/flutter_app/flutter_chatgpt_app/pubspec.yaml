@@ -16,6 +16,7 @@ dependencies:
   fluttertoast: 8.2.2
   rive: 0.11.16
   intl: 0.18.1
+  connectivity_plus: 5.0.1
 
   flutter:
     sdk: flutter

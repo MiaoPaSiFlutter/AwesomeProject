@@ -1,7 +1,6 @@
 import 'dart:math';
 import 'dart:ui' as ui show Image;
 
-import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 import 'package:hzy_common_module/hzy_common_module.dart';
 import 'package:intl/intl.dart';

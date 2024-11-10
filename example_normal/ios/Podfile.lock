@@ -249,7 +249,7 @@ SPEC CHECKSUMS:
   flutter_compass: cbbd285cea1584c7ac9c4e0c3e1f17cbea55e855
   flutter_paytabs_bridge: 9eae3b1a7aa05f4810a6231e612fcb76f53248ee
   flutter_sensors: dc6eed3291e7724bf8f4138d7d14c4071b42bd29
-  fluttertoast: fafc4fa4d01a6a9e4f772ecd190ffa525e9e2d9c
+  fluttertoast: 31b00dabfa7fb7bacd9e7dbee580d7a2ff4bf265
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   geolocator_apple: cc556e6844d508c95df1e87e3ea6fa4e58c50401
   image_picker_ios: 4a8aadfbb6dc30ad5141a2ce3832af9214a705b5
@@ -281,4 +281,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 64e994be1491d860fa35ef62f8ec8085c3bfa8b2
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.14.3
